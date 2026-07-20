@@ -6,8 +6,37 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		BB00000200000000000000B1 /* BookmarkShotWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BB00000200000000000000B3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AA000001000000000000000A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BB0000020000000000000003;
+			remoteInfo = BookmarkShotWidgetExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BB00000200000000000000B0 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				BB00000200000000000000B1 /* BookmarkShotWidgetExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
 		AA0000010000000000000004 /* BookmarkShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookmarkShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BookmarkShotWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -16,10 +45,36 @@
 			path = BookmarkShot;
 			sourceTree = "<group>";
 		};
+		BB0000020000000000000002 /* BookmarkShotWidget */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				BB00000200000000000000C0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+			);
+			path = BookmarkShotWidget;
+			sourceTree = "<group>";
+		};
 /* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB00000200000000000000C0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+				BookmarkShotWidget.entitlements,
+			);
+			target = BB0000020000000000000003 /* BookmarkShotWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA0000010000000000000008 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0000020000000000000005 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -33,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0000010000000000000001 /* BookmarkShot */,
+				BB0000020000000000000002 /* BookmarkShotWidget */,
 				AA0000010000000000000003 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -41,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				AA0000010000000000000004 /* BookmarkShot.app */,
+				BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,10 +112,12 @@
 				AA0000010000000000000007 /* Sources */,
 				AA0000010000000000000008 /* Frameworks */,
 				AA0000010000000000000009 /* Resources */,
+				BB00000200000000000000B0 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				BB00000200000000000000B2 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				AA0000010000000000000001 /* BookmarkShot */,
@@ -69,6 +128,28 @@
 			productName = BookmarkShot;
 			productReference = AA0000010000000000000004 /* BookmarkShot.app */;
 			productType = "com.apple.product-type.application";
+		};
+		BB0000020000000000000003 /* BookmarkShotWidgetExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BB0000020000000000000007 /* Build configuration list for PBXNativeTarget "BookmarkShotWidgetExtension" */;
+			buildPhases = (
+				BB0000020000000000000004 /* Sources */,
+				BB0000020000000000000005 /* Frameworks */,
+				BB0000020000000000000006 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				BB0000020000000000000002 /* BookmarkShotWidget */,
+			);
+			name = BookmarkShotWidgetExtension;
+			packageProductDependencies = (
+			);
+			productName = BookmarkShotWidgetExtension;
+			productReference = BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -81,6 +162,9 @@
 				LastUpgradeCheck = 1600;
 				TargetAttributes = {
 					AA0000010000000000000005 = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					BB0000020000000000000003 = {
 						CreatedOnToolsVersion = 16.0;
 					};
 				};
@@ -101,12 +185,20 @@
 			projectRoot = "";
 			targets = (
 				AA0000010000000000000005 /* BookmarkShot */,
+				BB0000020000000000000003 /* BookmarkShotWidgetExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		AA0000010000000000000009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BB0000020000000000000006 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -123,7 +215,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BB0000020000000000000004 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BB00000200000000000000B2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BB0000020000000000000003 /* BookmarkShotWidgetExtension */;
+			targetProxy = BB00000200000000000000B3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		AA000001000000000000000C /* Debug */ = {
@@ -310,6 +417,59 @@
 			};
 			name = Release;
 		};
+		BB0000020000000000000008 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BookmarkShotWidget/BookmarkShotWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookmarkShotWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "오늘의 문장";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.bookmarkshot.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BB0000020000000000000009 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_ENTITLEMENTS = BookmarkShotWidget/BookmarkShotWidget.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QGAQ3AY3R3;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = BookmarkShotWidget/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "오늘의 문장";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.leeo.bookmarkshot.widget;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -327,6 +487,15 @@
 			buildConfigurations = (
 				AA000001000000000000000C /* Debug */,
 				AA000001000000000000000D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BB0000020000000000000007 /* Build configuration list for PBXNativeTarget "BookmarkShotWidgetExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BB0000020000000000000008 /* Debug */,
+				BB0000020000000000000009 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
