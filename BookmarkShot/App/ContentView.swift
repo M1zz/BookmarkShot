@@ -22,11 +22,6 @@ struct ContentView: View {
                     Label("문장", systemImage: "quote.opening")
                 }
 
-            QuoteShelfView()
-                .tabItem {
-                    Label("책장", systemImage: "books.vertical")
-                }
-
             DailyReviewView()
                 .tabItem {
                     Label("오늘의 문장", systemImage: "sparkles")

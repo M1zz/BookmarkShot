@@ -39,6 +39,16 @@
 		BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BookmarkShotWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		BB00000200000000000000C0 /* Exceptions for "BookmarkShotWidget" folder in "BookmarkShotWidgetExtension" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = BB0000020000000000000003 /* BookmarkShotWidgetExtension */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AA0000010000000000000001 /* BookmarkShot */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
@@ -48,23 +58,12 @@
 		BB0000020000000000000002 /* BookmarkShotWidget */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				BB00000200000000000000C0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */,
+				BB00000200000000000000C0 /* Exceptions for "BookmarkShotWidget" folder in "BookmarkShotWidgetExtension" target */,
 			);
 			path = BookmarkShotWidget;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		BB00000200000000000000C0 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-				BookmarkShotWidget.entitlements,
-			);
-			target = BB0000020000000000000003 /* BookmarkShotWidgetExtension */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		AA0000010000000000000008 /* Frameworks */ = {
