@@ -10,6 +10,9 @@ struct ContentView: View {
     /// 위젯 공유 저장소 동기화용. 스크랩·즐겨찾기 변화를 감지해 스냅샷을 갱신한다.
     @Query private var quotes: [Quote]
 
+    /// 지원(설정) 시트 표시 여부
+    @State private var showSupport = false
+
     var body: some View {
         TabView {
             LibraryView()
@@ -26,6 +29,22 @@ struct ContentView: View {
                 .tabItem {
                     Label("오늘의 문장", systemImage: "sparkles")
                 }
+        }
+        .overlay(alignment: .topTrailing) {
+            Button {
+                showSupport = true
+            } label: {
+                Image(systemName: "gearshape")
+                    .font(.title3)
+                    .padding(10)
+                    .background(.regularMaterial, in: Circle())
+            }
+            .accessibilityLabel("설정")
+            .padding(.top, 8)
+            .padding(.trailing, 12)
+        }
+        .sheet(isPresented: $showSupport) {
+            BookmarkShotSupportView()
         }
         .task { syncWidget() }
         .onChange(of: widgetSignature) { syncWidget() }
