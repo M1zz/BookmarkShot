@@ -7,6 +7,12 @@
 
 책표지와 마음에 드는 구절이 있는 페이지를 찍기만 하면 **무슨 책 몇 페이지**인지 자동으로 인식하고, 페이지 사진 위를 **손가락으로 형광펜 긋듯 스윽 문지르면** 그 문장만 골라 추출해 줍니다.
 
+## 지원 & 정책
+
+- 🛟 [지원 페이지 (Support)](https://m1zz.github.io/BookmarkShot/support.html)
+- 🔒 [개인정보 처리방침 (Privacy Policy)](https://m1zz.github.io/BookmarkShot/privacy.html)
+- 문의: [mizzking75@gmail.com](mailto:mizzking75@gmail.com)
+
 ## 요구 사항
 
 - Xcode 16 이상 (프로젝트가 Xcode 16 폴더 동기화 방식이라 15에서는 열리지 않습니다)
