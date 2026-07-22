@@ -63,20 +63,106 @@ struct BookmarkShotWidgetEntryView: View {
     @Environment(\.widgetFamily) private var family
     var entry: QuoteEntry
 
+    private var isAccessory: Bool {
+        switch family {
+        case .accessoryRectangular, .accessoryInline, .accessoryCircular:
+            return true
+        default:
+            return false
+        }
+    }
+
     var body: some View {
-        Group {
+        content
+            .containerBackground(for: .widget) {
+                if isAccessory {
+                    Color.clear   // 잠금화면 위젯은 시스템 배경(반투명)에 얹힌다
+                } else {
+                    LinearGradient(
+                        colors: [Color(red: 0.99, green: 0.96, blue: 0.90),
+                                 Color(red: 0.96, green: 0.91, blue: 0.82)],
+                        startPoint: .top, endPoint: .bottom
+                    )
+                }
+            }
+    }
+
+    @ViewBuilder
+    private var content: some View {
+        switch family {
+        case .accessoryInline:
+            inlineBody
+        case .accessoryCircular:
+            circularBody
+        case .accessoryRectangular:
+            rectangularBody
+        default:
             if let quote = entry.quote {
                 quoteBody(quote)
             } else {
                 emptyBody
             }
         }
-        .containerBackground(for: .widget) {
-            LinearGradient(
-                colors: [Color(red: 0.99, green: 0.96, blue: 0.90),
-                         Color(red: 0.96, green: 0.91, blue: 0.82)],
-                startPoint: .top, endPoint: .bottom
-            )
+    }
+
+    // MARK: 잠금화면(Accessory) 레이아웃
+
+    /// 한 줄 인라인: 시계 옆/위젯 줄에 문장 한 줄
+    private var inlineBody: some View {
+        Group {
+            if let quote = entry.quote {
+                Label {
+                    Text(quote.text)
+                } icon: {
+                    Image(systemName: "quote.opening")
+                }
+            } else {
+                Label("문장을 스크랩해보세요", systemImage: "book.closed")
+            }
+        }
+    }
+
+    /// 원형: 아이콘 + 다시 만날 수 있는 문장 수
+    private var circularBody: some View {
+        ZStack {
+            AccessoryWidgetBackground()
+            VStack(spacing: 1) {
+                Image(systemName: "quote.opening")
+                    .font(.system(size: 15, weight: .semibold))
+                if entry.total > 0 {
+                    Text("\(entry.total)")
+                        .font(.system(size: 13, weight: .bold))
+                        .minimumScaleFactor(0.7)
+                }
+            }
+        }
+        .accessibilityLabel(Text(entry.total > 0
+            ? "다시 만날 문장 \(entry.total)개"
+            : "스크랩한 문장 없음"))
+    }
+
+    /// 사각형: 문장 2~3줄 + 출처 (잠금화면의 핵심 위젯)
+    private var rectangularBody: some View {
+        Group {
+            if let quote = entry.quote {
+                VStack(alignment: .leading, spacing: 2) {
+                    Text(quote.text)
+                        .font(.caption2)
+                        .fontWeight(.medium)
+                        .lineLimit(3)
+                    if !quote.bookTitle.isEmpty {
+                        Text("— \(quote.bookTitle)")
+                            .font(.caption2)
+                            .foregroundStyle(.secondary)
+                            .lineLimit(1)
+                    }
+                }
+                .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+            } else {
+                Label("문장을 스크랩해보세요", systemImage: "book.closed")
+                    .font(.caption2)
+                    .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+            }
         }
     }
 
@@ -135,7 +221,10 @@ struct BookmarkShotWidget: Widget {
         }
         .configurationDisplayName("오늘의 문장")
         .description("스크랩한 문장을 매일 한 문장씩 만나요. 즐겨찾기한 문장이 있으면 그중에서 보여드려요.")
-        .supportedFamilies([.systemSmall, .systemMedium, .systemLarge])
+        .supportedFamilies([
+            .systemSmall, .systemMedium, .systemLarge,
+            .accessoryInline, .accessoryCircular, .accessoryRectangular
+        ])
     }
 }
 
@@ -151,7 +240,7 @@ struct BookmarkShotWidgetBundle: WidgetBundle {
 extension SharedQuote {
     static let sample = SharedQuote(
         text: "우리가 읽은 책이 우리를 만든다.",
-        bookTitle: "책갈피샷",
+        bookTitle: "밑줄",
         author: "",
         pageLabel: "p.1",
         isFavorite: true

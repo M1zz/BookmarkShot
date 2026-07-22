@@ -1,6 +1,6 @@
 //
 //  AddBookView.swift
-//  책갈피샷
+//  밑줄
 //
 //  책 등록 플로우: 표지 촬영 → 표지 OCR(제목/저자 추정) + 바코드(ISBN) 인식 → 확인 후 저장.
 //  뒤표지 바코드가 함께 찍히면 ISBN도 자동으로 채워진다. 모든 필드는 수정 가능.
@@ -58,7 +58,7 @@ struct AddBookView: View {
                                     .foregroundStyle(.secondary)
                             }
                         } else {
-                            PhotoSourceButtons(title: "") { source in
+                            PhotoSourceButtons { source in
                                 pickerSource = source
                             }
                         }

@@ -1,6 +1,6 @@
 //
 //  ScanPageView.swift
-//  책갈피샷
+//  밑줄
 //
 //  구절 스크랩 플로우: 페이지 촬영 → OCR → 손가락 하이라이트 → 문장/페이지 확인 → 저장
 //
@@ -92,7 +92,7 @@ struct ScanPageView: View {
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
             Spacer()
-            PhotoSourceButtons(title: "") { source in
+            PhotoSourceButtons { source in
                 pickerSource = source
             }
             .padding(.bottom, 24)

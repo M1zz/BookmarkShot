@@ -7,7 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8AF521ECC3FE151338E35A3B /* LeeoKit in Frameworks */ = {isa = PBXBuildFile; productRef = B5194140F15646A5A6E9827D /* LeeoKit */; };
 		BB00000200000000000000B1 /* BookmarkShotWidgetExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		C4B984D0C7A1D675114521CB /* BookmarkShotSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717942051C584BE6A3F58FAA /* BookmarkShotSpec.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		717942051C584BE6A3F58FAA /* BookmarkShotSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = BookmarkShotSpec.swift; path = BookmarkShot/App/BookmarkShotSpec.swift; sourceTree = "<group>"; };
 		AA0000010000000000000004 /* BookmarkShot.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BookmarkShot.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = BookmarkShotWidgetExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -52,6 +55,8 @@
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		AA0000010000000000000001 /* BookmarkShot */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+			);
 			path = BookmarkShot;
 			sourceTree = "<group>";
 		};
@@ -70,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8AF521ECC3FE151338E35A3B /* LeeoKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +95,7 @@
 				AA0000010000000000000001 /* BookmarkShot */,
 				BB0000020000000000000002 /* BookmarkShotWidget */,
 				AA0000010000000000000003 /* Products */,
+				717942051C584BE6A3F58FAA /* BookmarkShotSpec.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -123,6 +130,7 @@
 			);
 			name = BookmarkShot;
 			packageProductDependencies = (
+				B5194140F15646A5A6E9827D /* LeeoKit */,
 			);
 			productName = BookmarkShot;
 			productReference = AA0000010000000000000004 /* BookmarkShot.app */;
@@ -144,8 +152,6 @@
 				BB0000020000000000000002 /* BookmarkShotWidget */,
 			);
 			name = BookmarkShotWidgetExtension;
-			packageProductDependencies = (
-			);
 			productName = BookmarkShotWidgetExtension;
 			productReference = BB0000020000000000000001 /* BookmarkShotWidgetExtension.appex */;
 			productType = "com.apple.product-type.app-extension";
@@ -178,6 +184,9 @@
 			);
 			mainGroup = AA0000010000000000000002;
 			minimizedProjectReferenceProxies = 1;
+			packageReferences = (
+				EDFC36D51F3E884303A0D496 /* XCLocalSwiftPackageReference "LeeoKit" */,
+			);
 			preferredProjectObjectVersion = 77;
 			productRefGroup = AA0000010000000000000003 /* Products */;
 			projectDirPath = "";
@@ -211,6 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C4B984D0C7A1D675114521CB /* BookmarkShotSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -361,7 +371,7 @@
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "책갈피샷";
+				INFOPLIST_KEY_CFBundleDisplayName = "밑줄";
 				INFOPLIST_KEY_NSCameraUsageDescription = "책 표지와 페이지를 촬영해 문장을 추출하기 위해 카메라를 사용합니다.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "이미 찍어둔 책 사진에서 문장을 추출하기 위해 사진 보관함에 접근합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -394,7 +404,7 @@
 				DEVELOPMENT_TEAM = QGAQ3AY3R3;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_KEY_CFBundleDisplayName = "책갈피샷";
+				INFOPLIST_KEY_CFBundleDisplayName = "밑줄";
 				INFOPLIST_KEY_NSCameraUsageDescription = "책 표지와 페이지를 촬영해 문장을 추출하기 위해 카메라를 사용합니다.";
 				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "이미 찍어둔 책 사진에서 문장을 추출하기 위해 사진 보관함에 접근합니다.";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -500,6 +510,21 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCLocalSwiftPackageReference section */
+		EDFC36D51F3E884303A0D496 /* XCLocalSwiftPackageReference "LeeoKit" */ = {
+			isa = XCLocalSwiftPackageReference;
+			relativePath = ../LeeoKit;
+		};
+/* End XCLocalSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		B5194140F15646A5A6E9827D /* LeeoKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EDFC36D51F3E884303A0D496 /* XCLocalSwiftPackageReference "LeeoKit" */;
+			productName = LeeoKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = AA000001000000000000000A /* Project object */;
 }

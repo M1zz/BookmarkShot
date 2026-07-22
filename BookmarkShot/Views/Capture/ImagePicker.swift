@@ -1,6 +1,6 @@
 //
 //  ImagePicker.swift
-//  책갈피샷
+//  밑줄
 //
 //  카메라/앨범 공용 이미지 피커. 시뮬레이터처럼 카메라가 없는 환경에서는 자동으로 앨범으로 폴백.
 //
@@ -51,36 +51,35 @@ struct ImagePicker: UIViewControllerRepresentable {
     }
 }
 
-/// "카메라로 찍기 / 앨범에서 선택" 선택지를 보여주는 공용 버튼 그룹
+/// "카메라로 찍기 / 앨범에서 선택" 선택지를 보여주는 공용 버튼 그룹.
+/// 카메라를 주 행동(강조), 앨범을 보조 행동으로 두어 위계를 명확히 한다.
 struct PhotoSourceButtons: View {
-    let title: String
+    /// 버튼 위에 얹을 안내 문구(비우면 표시하지 않음)
+    var title: String = ""
     let onPick: (ImagePicker.Source) -> Void
 
     var body: some View {
         VStack(spacing: 12) {
-            Text(title)
-                .font(.headline)
-                .foregroundStyle(.secondary)
-            HStack(spacing: 12) {
-                Button {
-                    onPick(.camera)
-                } label: {
-                    Label("카메라로 찍기", systemImage: "camera.fill")
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 14)
-                }
-                .buttonStyle(.borderedProminent)
-
-                Button {
-                    onPick(.photoLibrary)
-                } label: {
-                    Label("앨범에서 선택", systemImage: "photo.on.rectangle")
-                        .frame(maxWidth: .infinity)
-                        .padding(.vertical, 14)
-                }
-                .buttonStyle(.bordered)
+            if !title.isEmpty {
+                Text(title)
+                    .font(.subheadline)
+                    .foregroundStyle(.secondary)
             }
+
+            Button {
+                onPick(.camera)
+            } label: {
+                Label("카메라로 찍기", systemImage: "camera.fill")
+            }
+            .buttonStyle(.brandPrimary)
+
+            Button {
+                onPick(.photoLibrary)
+            } label: {
+                Label("앨범에서 선택", systemImage: "photo.on.rectangle")
+            }
+            .buttonStyle(.brandSecondary)
         }
-        .padding(.horizontal)
+        .padding(.horizontal, Theme.screenPadding)
     }
 }

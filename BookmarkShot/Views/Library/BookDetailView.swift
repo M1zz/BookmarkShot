@@ -1,6 +1,6 @@
 //
 //  BookDetailView.swift
-//  책갈피샷
+//  밑줄
 //
 //  책 한 권의 스크랩 모음. 여기서 "구절 스크랩"으로 새 문장을 추가한다.
 //
@@ -87,12 +87,10 @@ struct BookDetailView: View {
                 showScanPage = true
             } label: {
                 Label("구절 스크랩", systemImage: "camera.viewfinder")
-                    .font(.headline)
-                    .frame(maxWidth: .infinity)
-                    .padding(.vertical, 14)
             }
-            .buttonStyle(.borderedProminent)
-            .padding()
+            .buttonStyle(.brandPrimary)
+            .padding(.horizontal, Theme.screenPadding)
+            .padding(.vertical, 12)
             .background(.ultraThinMaterial)
         }
         .sheet(isPresented: $showScanPage) {

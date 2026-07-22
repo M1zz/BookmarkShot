@@ -1,6 +1,6 @@
 //
 //  DailyReviewView.swift
-//  책갈피샷
+//  밑줄
 //
 //  회고: 하루에 하나, 예전에 스크랩한 문장을 다시 만난다.
 //  (날짜 기반 시드로 매일 같은 문장이 유지되고, 셔플로 다른 문장도 볼 수 있다)
@@ -12,6 +12,7 @@ import SwiftData
 struct DailyReviewView: View {
     @Query private var quotes: [Quote]
     @State private var shuffleOffset = 0
+    @State private var shareImage: UIImage?
 
     private var todaysQuote: Quote? {
         guard !quotes.isEmpty else { return nil }
@@ -78,19 +79,28 @@ struct DailyReviewView: View {
                 )
                 .padding(.horizontal)
 
-                HStack(spacing: 16) {
+                HStack(spacing: 12) {
                     Button {
                         withAnimation { shuffleOffset += 1 }
                     } label: {
                         Label("다른 문장", systemImage: "shuffle")
                     }
-                    .buttonStyle(.bordered)
+                    .buttonStyle(.brandSecondary)
 
-                    ShareLink(item: shareText(for: quote)) {
-                        Label("공유", systemImage: "square.and.arrow.up")
+                    if let shareImage {
+                        ShareLink(item: Image(uiImage: shareImage),
+                                  preview: SharePreview("문장 카드", image: Image(uiImage: shareImage))) {
+                            Label("이미지로 공유", systemImage: "square.and.arrow.up")
+                        }
+                        .buttonStyle(.brandPrimary)
+                    } else {
+                        ShareLink(item: shareText(for: quote)) {
+                            Label("공유", systemImage: "square.and.arrow.up")
+                        }
+                        .buttonStyle(.brandPrimary)
                     }
-                    .buttonStyle(.borderedProminent)
                 }
+                .padding(.horizontal)
 
                 if !quote.note.isEmpty {
                     VStack(alignment: .leading, spacing: 6) {
@@ -109,6 +119,14 @@ struct DailyReviewView: View {
                     .padding(.horizontal)
                 }
             }
+        }
+        .task(id: quote.persistentModelID) {
+            shareImage = QuoteShareRenderer.image(
+                text: quote.text,
+                bookTitle: quote.book?.title ?? "",
+                author: quote.book?.author ?? "",
+                pageLabel: quote.pageLabel
+            )
         }
     }
 

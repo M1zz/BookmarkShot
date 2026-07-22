@@ -1,6 +1,6 @@
 //
 //  LibraryView.swift
-//  책갈피샷
+//  밑줄
 //
 //  서재: 등록한 책들을 표지 그리드로 보여준다. 상단에 지금까지 모은 책 권수를 센다.
 //
@@ -66,8 +66,14 @@ struct LibraryView: View {
         } description: {
             Text("표지를 한 장 찍는 것으로 시작해 보세요.\n제목과 저자는 자동으로 읽어드려요.")
         } actions: {
-            Button("첫 책 추가하기") { showAddBook = true }
-                .buttonStyle(.borderedProminent)
+            Button {
+                showAddBook = true
+            } label: {
+                Label("첫 책 추가하기", systemImage: "camera.fill")
+            }
+            .buttonStyle(.brandPrimary)
+            .padding(.horizontal, 32)
+            .padding(.top, 8)
         }
     }
 }

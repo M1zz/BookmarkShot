@@ -1,6 +1,6 @@
 //
 //  QuoteDetailView.swift
-//  책갈피샷
+//  밑줄
 //
 //  스크랩 상세: 문장 수정, 페이지, 메모, 즐겨찾기, 원본 사진 확인, 공유.
 //
@@ -14,6 +14,7 @@ struct QuoteDetailView: View {
     @Environment(\.dismiss) private var dismiss
 
     @State private var showOriginalImage = false
+    @State private var shareImage: UIImage?
 
     private var pageBinding: Binding<String> {
         Binding(
@@ -77,8 +78,14 @@ struct QuoteDetailView: View {
             }
 
             Section {
+                if let shareImage {
+                    ShareLink(item: Image(uiImage: shareImage),
+                              preview: SharePreview("문장 카드", image: Image(uiImage: shareImage))) {
+                        Label("이미지로 공유", systemImage: "photo.badge.arrow.down")
+                    }
+                }
                 ShareLink(item: shareText) {
-                    Label("문장 공유하기", systemImage: "square.and.arrow.up")
+                    Label("텍스트로 공유", systemImage: "square.and.arrow.up")
                 }
                 Button(role: .destructive) {
                     modelContext.delete(quote)
@@ -108,6 +115,14 @@ struct QuoteDetailView: View {
                     }
                 }
             }
+        }
+        .task(id: "\(quote.text)|\(quote.pageNumber ?? -1)") {
+            shareImage = QuoteShareRenderer.image(
+                text: quote.text,
+                bookTitle: quote.book?.title ?? "",
+                author: quote.book?.author ?? "",
+                pageLabel: quote.pageLabel
+            )
         }
         .onDisappear {
             try? modelContext.save()

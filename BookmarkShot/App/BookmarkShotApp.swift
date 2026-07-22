@@ -1,12 +1,13 @@
 //
 //  BookmarkShotApp.swift
-//  책갈피샷 (BookmarkShot)
+//  밑줄 (BookmarkShot)
 //
 //  책 구절 촬영 → 문장 스크랩 앱
 //
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 @main
 struct BookmarkShotApp: App {
@@ -17,6 +18,8 @@ struct BookmarkShotApp: App {
     let container: ModelContainer
 
     init() {
+        LeeoEngagement.shared.registerLaunch()
+
         let schema = Schema([Book.self, Quote.self])
         do {
             let cloudConfig = ModelConfiguration(schema: schema, cloudKitDatabase: .automatic)
@@ -35,6 +38,7 @@ struct BookmarkShotApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .leeoSatisfactionCheck(BookmarkShotSpec.self)
         }
         .modelContainer(container)
     }
