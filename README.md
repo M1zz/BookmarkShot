@@ -11,7 +11,7 @@
 
 - 🛟 [지원 페이지 (Support)](https://m1zz.github.io/BookmarkShot/support.html)
 - 🔒 [개인정보 처리방침 (Privacy Policy)](https://m1zz.github.io/BookmarkShot/privacy.html)
-- 문의: [mizzking75@gmail.com](mailto:mizzking75@gmail.com)
+- 문의: [leeo@kakao.com](mailto:leeo@kakao.com)
 
 ## 요구 사항
 
