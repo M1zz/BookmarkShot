@@ -98,6 +98,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -198,6 +204,12 @@
             "state" : "translated",
             "value" : "Kameraet bruges til at tage billeder af bogomslag og sider, så sætningerne kan udtrækkes."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η κάμερα χρησιμοποιείται για να φωτογραφίζεις εξώφυλλα και σελίδες βιβλίων και να εξάγονται οι προτάσεις."
+          }
         }
       }
     },
@@ -297,6 +309,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adgang til dine fotos bruges til at udtrække sætninger fra bogbilleder, du allerede har taget."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η πρόσβαση στις φωτογραφίες χρησιμεύει για την εξαγωγή προτάσεων από φωτογραφίες βιβλίων που έχεις ήδη τραβήξει."
           }
         }
       }

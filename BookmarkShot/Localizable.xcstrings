@@ -99,6 +99,12 @@
             "state" : "translated",
             "value" : "Låsning med Face ID"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωμα με Face ID"
+          }
         }
       }
     },
@@ -200,6 +206,12 @@
             "state" : "translated",
             "value" : "Lås appen med Face ID eller Touch ID, så dine citater er beskyttet."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείδωσε την εφαρμογή με Face ID ή Touch ID για να προστατεύεις τα αποσπάσματά σου."
+          }
         }
       }
     },
@@ -299,6 +311,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (valgfrit)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (προαιρετικό)"
           }
         }
       },
@@ -402,6 +420,12 @@
             "state" : "translated",
             "value" : "Åbn dagens citat med det samme via Siri eller en genvej."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άνοιξε αμέσως το απόσπασμα της ημέρας με τη Siri ή μια συντόμευση."
+          }
         }
       }
     },
@@ -502,6 +526,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri og Genveje"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri και Συντομεύσεις"
           }
         }
       }
@@ -604,6 +634,12 @@
             "state" : "translated",
             "value" : "Bedre med VoiceOver"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα με το VoiceOver"
+          }
         }
       }
     },
@@ -703,6 +739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Del"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση"
           }
         }
       },
@@ -805,6 +847,12 @@
             "state" : "translated",
             "value" : "Udtræk tekst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξαγωγή κειμένου"
+          }
         }
       },
       "comment" : "extract"
@@ -906,6 +954,12 @@
             "state" : "translated",
             "value" : "Gem citat"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση αποσπάσματος"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -1006,6 +1060,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Din note fra dengang"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η σημείωσή σου από τότε"
           }
         }
       },
@@ -1109,6 +1169,12 @@
             "state" : "translated",
             "value" : "Når du gør teksten større, ordnes indholdet pænt i stedet for at blive skåret af."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όταν μεγαλώνεις το κείμενο, το περιεχόμενο αναδιατάσσεται αντί να κόβεται."
+          }
         }
       }
     },
@@ -1208,6 +1274,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Læser teksten …"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανάγνωση κειμένου…"
           }
         }
       },
@@ -1311,6 +1383,12 @@
             "state" : "translated",
             "value" : "Slet alle mine data"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή όλων των δεδομένων μου"
+          }
         }
       }
     },
@@ -1410,6 +1488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Et andet citat"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Άλλο απόσπασμα"
           }
         }
       },
@@ -1512,6 +1596,12 @@
             "state" : "translated",
             "value" : "Ingen citater at gense endnu"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν ακόμη αποσπάσματα για επανάληψη"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1612,6 +1702,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luk"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κλείσιμο"
           }
         }
       },
@@ -1715,6 +1811,12 @@
             "state" : "translated",
             "value" : "Alt er stadig let at læse, også med øget kontrast eller hvis det er svært at skelne farver."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Όλα διαβάζονται εύκολα, ακόμη και με αυξημένη αντίθεση ή όταν δυσκολεύεσαι να ξεχωρίσεις χρώματα."
+          }
         }
       }
     },
@@ -1815,6 +1917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brug appen på flere sprog."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε την εφαρμογή σε περισσότερες γλώσσες."
           }
         }
       }
@@ -1917,6 +2025,12 @@
             "state" : "translated",
             "value" : "Flere sprog"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Περισσότερες γλώσσες"
+          }
         }
       }
     },
@@ -2016,6 +2130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tag et billede af siden\nmed den sætning, du kan lide"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογράφισε τη σελίδα\nμε τη φράση που σου αρέσει"
           }
         }
       },
@@ -2117,6 +2237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σημείωση"
           }
         }
       },
@@ -2220,6 +2346,12 @@
             "state" : "translated",
             "value" : "Gem dine bøger og citater i en fil, og hent dem tilbage senere."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευσε τα βιβλία και τα αποσπάσματά σου σε αρχείο και φέρ’ τα πίσω αργότερα."
+          }
         }
       }
     },
@@ -2319,6 +2451,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citater"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποσπάσματα"
           }
         }
       },
@@ -2421,6 +2559,12 @@
             "state" : "translated",
             "value" : "Stryg med fingeren over sætningen · Knib med to fingre for at zoome"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πέρασε το δάχτυλο πάνω από την πρόταση · Ζουμ με δύο δάχτυλα"
+          }
         }
       },
       "comment" : "swipe"
@@ -2522,6 +2666,12 @@
             "state" : "translated",
             "value" : "Citatkort"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάρτα αποσπάσματος"
+          }
         }
       },
       "comment" : "card"
@@ -2622,6 +2772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Søg i citater, noter og titler"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αναζήτηση αποσπασμάτων, σημειώσεων, τίτλων"
           }
         }
       },
@@ -2725,6 +2881,12 @@
             "state" : "translated",
             "value" : "Dit valg bevares, selvom appen lukker, mens du vælger et citat."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η επιλογή σου διατηρείται ακόμη κι αν η εφαρμογή κλείσει ενώ διαλέγεις απόσπασμα."
+          }
         }
       }
     },
@@ -2826,6 +2988,12 @@
             "state" : "translated",
             "value" : "Et let tryk, når du understreger eller gemmer et citat."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ένα ελαφρύ χτύπημα όταν υπογραμμίζεις ή αποθηκεύεις ένα απόσπασμα."
+          }
         }
       }
     },
@@ -2926,6 +3094,12 @@
             "state" : "translated",
             "value" : "Gem et citat, så møder du et nyt\nher hver dag."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευσε ένα απόσπασμα και θα βλέπεις\nένα εδώ κάθε μέρα."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -3023,6 +3197,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -3129,6 +3309,12 @@
             "state" : "translated",
             "value" : "Backup og eksport"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αντίγραφο ασφαλείας και εξαγωγή"
+          }
         }
       }
     },
@@ -3230,6 +3416,12 @@
             "state" : "translated",
             "value" : "Behagelige farver og kontrast"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πιο άνετα χρώματα και αντίθεση"
+          }
         }
       }
     },
@@ -3329,6 +3521,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der blev ikke fundet tekst på billedet. Tjek skarphed og lys, og prøv igen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν βρέθηκε κείμενο στη φωτογραφία. Έλεγξε την εστίαση και τον φωτισμό και δοκίμασε ξανά."
           }
         }
       },
@@ -3431,6 +3629,12 @@
             "state" : "translated",
             "value" : "Slet"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή"
+          }
         }
       },
       "comment" : "delete"
@@ -3531,6 +3735,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliotek"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βιβλιοθήκη"
           }
         }
       },
@@ -3633,6 +3843,12 @@
             "state" : "translated",
             "value" : "Vælg en bog i biblioteket, og tag et billede af en side."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάλεξε ένα βιβλίο από τη βιβλιοθήκη και φωτογράφισε μια σελίδα."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -3733,6 +3949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Indstillinger"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ρυθμίσεις"
           }
         }
       },
@@ -3836,6 +4058,12 @@
             "state" : "translated",
             "value" : "Haptisk feedback"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απτική ανάδραση"
+          }
         }
       }
     },
@@ -3935,6 +4163,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citat"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόσπασμα"
           }
         }
       },
@@ -4181,6 +4415,24 @@
               }
             }
           }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld απόσπασμα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld αποσπάσματα"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -4281,6 +4533,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slet citat"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή αποσπάσματος"
           }
         }
       },
@@ -4383,6 +4641,12 @@
             "state" : "translated",
             "value" : "Gemte citater"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθηκευμένα αποσπάσματα"
+          }
         }
       },
       "comment" : "scraped"
@@ -4483,6 +4747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen gemte citater"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν αποθηκευμένα αποσπάσματα"
           }
         }
       },
@@ -4586,6 +4856,12 @@
             "state" : "translated",
             "value" : "Gode råd"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρήσιμες συμβουλές"
+          }
         }
       }
     },
@@ -4687,6 +4963,12 @@
             "state" : "translated",
             "value" : "På iPad kan du finde og bladre i bøger og citater med kun et tastatur."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στο iPad βρίσκεις και ξεφυλλίζεις βιβλία και αποσπάσματα μόνο με πληκτρολόγιο."
+          }
         }
       }
     },
@@ -4786,6 +5068,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen bøger endnu"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν βιβλία ακόμη"
           }
         }
       },
@@ -4888,6 +5176,12 @@
             "state" : "translated",
             "value" : "Ingen sætninger valgt endnu"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν έχει επιλεγεί καμία πρόταση ακόμη"
+          }
         }
       },
       "comment" : "none_sel"
@@ -4988,6 +5282,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du har ikke gemt citater fra denne bog endnu.\nTryk på knappen nedenfor for at gemme det første."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν έχεις αποθηκεύσει ακόμη αποσπάσματα από αυτό το βιβλίο.\nΠάτα το κουμπί παρακάτω για το πρώτο."
           }
         }
       },
@@ -5091,6 +5391,12 @@
             "state" : "translated",
             "value" : "Diskrete tips om nyttige funktioner, lige når du får brug for dem."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διακριτικές υποδείξεις για χρήσιμες λειτουργίες, ακριβώς όταν τις χρειάζεσαι."
+          }
         }
       }
     },
@@ -5190,6 +5496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vælg fra Fotos"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επιλογή από Φωτογραφίες"
           }
         }
       },
@@ -5293,6 +5605,12 @@
             "state" : "translated",
             "value" : "Brug hele appen på engelsk."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Χρησιμοποίησε ολόκληρη την εφαρμογή και στα αγγλικά."
+          }
         }
       }
     },
@@ -5393,6 +5711,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που θα ανοίξεις την εφαρμογή μετά από ενημέρωση, δες τι άλλαξε."
           }
         }
       }
@@ -5495,6 +5819,12 @@
             "state" : "translated",
             "value" : "Nyheder"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τι νέο υπάρχει"
+          }
         }
       }
     },
@@ -5594,6 +5924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κανένα"
           }
         }
       },
@@ -5697,6 +6033,12 @@
             "state" : "translated",
             "value" : "Fuld understøttelse af engelsk"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πλήρης υποστήριξη αγγλικών"
+          }
         }
       }
     },
@@ -5796,6 +6138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dagens citat"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόσπασμα της ημέρας"
           }
         }
       },
@@ -5899,6 +6247,12 @@
             "state" : "translated",
             "value" : "Påmindelser om dagens citat"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υπενθυμίσεις αποσπάσματος της ημέρας"
+          }
         }
       }
     },
@@ -5999,6 +6353,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reducér bevægelse"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μείωση κίνησης"
           }
         }
       }
@@ -6101,6 +6461,12 @@
             "state" : "translated",
             "value" : "Med Reducér bevægelse slået til bliver effekterne på skærmen mere rolige."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Με ενεργή τη Μείωση κίνησης, τα εφέ στην οθόνη γίνονται πιο ήρεμα."
+          }
         }
       }
     },
@@ -6200,6 +6566,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nulstil zoom"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Επαναφορά ζουμ"
           }
         }
       },
@@ -6301,6 +6673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Originalbillede"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αρχική φωτογραφία"
           }
         }
       },
@@ -6404,6 +6782,12 @@
             "state" : "translated",
             "value" : "Slet alle dine bøger og citater direkte i appen."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διέγραψε όλα τα βιβλία και τα αποσπάσματά σου κατευθείαν από την εφαρμογή."
+          }
         }
       }
     },
@@ -6503,6 +6887,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv, hvorfor du kunne lide den her sætning"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γράψε γιατί σου άρεσε αυτή η πρόταση"
           }
         }
       },
@@ -6605,6 +6995,12 @@
             "state" : "translated",
             "value" : "Vil du slette denne bog og alle dens citater?"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διαγραφή αυτού του βιβλίου και όλων των αποσπασμάτων του;"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -6705,6 +7101,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flyt"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετακίνηση"
           }
         }
       },
@@ -6807,6 +7209,12 @@
             "state" : "translated",
             "value" : "Flytter"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Μετακίνηση"
+          }
         }
       },
       "comment" : "moving"
@@ -6907,6 +7315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Del som billede"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση ως εικόνα"
           }
         }
       },
@@ -7009,6 +7423,12 @@
             "state" : "translated",
             "value" : "Genkendelsen mislykkedes"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η αναγνώριση απέτυχε"
+          }
         }
       },
       "comment" : "fail_title"
@@ -7109,6 +7529,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αυτόματα"
           }
         }
       },
@@ -7211,6 +7637,12 @@
             "state" : "translated",
             "value" : "Forfatter"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συγγραφέας"
+          }
         }
       },
       "comment" : "author"
@@ -7311,6 +7743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gem"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευση"
           }
         }
       },
@@ -7413,6 +7851,12 @@
             "state" : "translated",
             "value" : "Ryd alt"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εκκαθάριση όλων"
+          }
         }
       },
       "comment" : "clear_all"
@@ -7513,6 +7957,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πληροφορίες"
           }
         }
       },
@@ -7616,6 +8066,12 @@
             "state" : "translated",
             "value" : "Få ét af dine gemte citater som notifikation på det tidspunkt, du vælger."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λάβε ένα από τα αποθηκευμένα αποσπάσματά σου ως ειδοποίηση τη στιγμή που θα ορίσεις."
+          }
         }
       }
     },
@@ -7715,6 +8171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titel"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Τίτλος"
           }
         }
       },
@@ -7817,6 +8279,12 @@
             "state" : "translated",
             "value" : "Sikkerhed for titlen: %lld %%"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βεβαιότητα τίτλου: %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -7917,6 +8385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorit"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αγαπημένο"
           }
         }
       },
@@ -8163,6 +8637,24 @@
               }
             }
           }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Έχεις συγκεντρώσει %lld βιβλίο μέχρι τώρα"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Έχεις συγκεντρώσει %lld βιβλία μέχρι τώρα"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -8263,6 +8755,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viskelæder"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γόμα"
           }
         }
       },
@@ -8365,6 +8863,12 @@
             "state" : "translated",
             "value" : "Viskelæder til"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Γόμα ενεργή"
+          }
         }
       },
       "comment" : "erase_on"
@@ -8465,6 +8969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Υποστήριξη"
           }
         }
       },
@@ -8567,6 +9077,12 @@
             "state" : "translated",
             "value" : "Bog"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Βιβλίο"
+          }
         }
       },
       "comment" : "book"
@@ -8667,6 +9183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bogoplysninger (kan redigeres)"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Στοιχεία βιβλίου (επεξεργάσιμα)"
           }
         }
       },
@@ -8769,6 +9291,12 @@
             "state" : "translated",
             "value" : "Tilføj bog"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Προσθήκη βιβλίου"
+          }
         }
       },
       "comment" : "add_book"
@@ -8869,6 +9397,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bogomslag"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Εξώφυλλο βιβλίου"
           }
         }
       },
@@ -8972,6 +9506,12 @@
             "state" : "translated",
             "value" : "Introduktion til nye brugere"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οδηγός για νέους χρήστες"
+          }
         }
       }
     },
@@ -9073,6 +9613,12 @@
             "state" : "translated",
             "value" : "Første gang du åbner appen, får du et hurtigt overblik over, hvad den kan."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Την πρώτη φορά που θα την ανοίξεις, δες σύντομα τι μπορεί να κάνει."
+          }
         }
       }
     },
@@ -9172,6 +9718,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilføj din første bog"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Πρόσθεσε το πρώτο σου βιβλίο"
           }
         }
       },
@@ -9274,6 +9826,12 @@
             "state" : "translated",
             "value" : "Udtrukket tekst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κείμενο που εξήχθη"
+          }
         }
       },
       "comment" : "extracted"
@@ -9375,6 +9933,12 @@
             "state" : "translated",
             "value" : "Annullér"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ακύρωση"
+          }
         }
       },
       "comment" : "cancel"
@@ -9475,6 +10039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tag billede"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Λήψη φωτογραφίας"
           }
         }
       },
@@ -9578,6 +10148,12 @@
             "state" : "translated",
             "value" : "Skærme til stor tekst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Οθόνες για μεγάλα γράμματα"
+          }
         }
       }
     },
@@ -9679,6 +10255,12 @@
             "state" : "translated",
             "value" : "Styring med tastatur"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Έλεγχος με πληκτρολόγιο"
+          }
         }
       }
     },
@@ -9778,6 +10360,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der opstod en fejl under genkendelsen af teksten. Prøv igen."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Παρουσιάστηκε σφάλμα κατά την αναγνώριση του κειμένου. Δοκίμασε ξανά."
           }
         }
       },
@@ -9880,6 +10468,12 @@
             "state" : "translated",
             "value" : "Del som tekst"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κοινοποίηση ως κείμενο"
+          }
         }
       },
       "comment" : "share_text"
@@ -9980,6 +10574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Side"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Σελίδα"
           }
         }
       },
@@ -10082,6 +10682,12 @@
             "state" : "translated",
             "value" : "Placér de fire punkter ved sidens hjørner"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ταίριαξε τις τέσσερις τελείες με τις γωνίες της σελίδας"
+          }
         }
       },
       "comment" : "corners"
@@ -10183,6 +10789,12 @@
             "state" : "translated",
             "value" : "Hele siden"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ολόκληρη σελίδα"
+          }
         }
       },
       "comment" : "whole_page"
@@ -10283,6 +10895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siden rettes ud for dig. Stryg derefter med fingeren hen over de sætninger, du vil vælge."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Η σελίδα ισιώνει αυτόματα. Μετά πέρασε το δάχτυλο πάνω από τις προτάσεις που θες για να τις επιλέξεις."
           }
         }
       },
@@ -10386,6 +11004,12 @@
             "state" : "translated",
             "value" : "Layout til foldbar iPhone"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Διάταξη για αναδιπλούμενο iPhone"
+          }
         }
       }
     },
@@ -10487,6 +11111,12 @@
             "state" : "translated",
             "value" : "Brug den brede skærm på en foldbar iPhone som to ruder side om side."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αξιοποίησε την πλατιά οθόνη ενός αναδιπλούμενου iPhone με δύο πάνελ δίπλα-δίπλα."
+          }
         }
       }
     },
@@ -10586,6 +11216,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tag også (eller kun) et billede af stregkoden bag på bogen, så genkendes ISBN automatisk."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογράφισε και (ή μόνο) τον γραμμωτό κώδικα στο οπισθόφυλλο και το ISBN αναγνωρίζεται αυτόματα."
           }
         }
       },
@@ -10688,6 +11324,12 @@
             "state" : "translated",
             "value" : "Læser omslaget …"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ανάγνωση εξωφύλλου…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -10789,6 +11431,12 @@
             "state" : "translated",
             "value" : "Tag et billede af omslaget, så læses titel og forfatter automatisk"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Φωτογράφισε το εξώφυλλο και ο τίτλος με τον συγγραφέα διαβάζονται μόνοι τους"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -10889,6 +11537,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start med at tage et billede af et omslag.\nTitel og forfatter læses automatisk."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ξεκίνα φωτογραφίζοντας ένα εξώφυλλο.\nΟ τίτλος και ο συγγραφέας διαβάζονται αυτόματα."
           }
         }
       },
@@ -10992,6 +11646,12 @@
             "state" : "translated",
             "value" : "Fortsæt, hvor du slap"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Συνέχισε από εκεί που έμεινες"
+          }
         }
       }
     },
@@ -11093,6 +11753,12 @@
             "state" : "translated",
             "value" : "VoiceOver læser alle bøger, citater og knapper op i den rigtige rækkefølge."
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Το VoiceOver διαβάζει κάθε βιβλίο, απόσπασμα και κουμπί, με τη σωστή σειρά."
+          }
         }
       }
     },
@@ -11189,6 +11855,12 @@
           }
         },
         "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "el" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

@@ -114,6 +114,13 @@ Feedback og anmeldelse i Indstillinger.
 Appens version kan du også se der.
 Appen er finpudset og kører stabilt.
 
+### 앱스토어 (el)
+
+Υπάρχει νέα οθόνη Ρυθμίσεων.
+Σχόλια και αξιολόγηση από τις Ρυθμίσεις.
+Εκεί βλέπεις και την έκδοση εφαρμογής.
+Βελτιώσαμε την εφαρμογή για σταθερότητα.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

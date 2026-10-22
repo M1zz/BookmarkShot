@@ -98,6 +98,12 @@
             "state" : "translated",
             "value" : "Dagens citat"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόσπασμα της ημέρας"
+          }
         }
       }
     }

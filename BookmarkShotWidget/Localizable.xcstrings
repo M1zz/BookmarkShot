@@ -99,6 +99,12 @@
             "state" : "translated",
             "value" : "Gem et citat for at komme i gang"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευσε ένα απόσπασμα"
+          }
         }
       }
     },
@@ -344,6 +350,24 @@
               }
             }
           }
+        },
+        "el" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld απόσπασμα για επανάληψη"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld αποσπάσματα για επανάληψη"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -444,6 +468,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen gemte citater"
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Δεν υπάρχουν αποθηκευμένα αποσπάσματα"
           }
         }
       }
@@ -546,6 +576,12 @@
             "state" : "translated",
             "value" : "Gem et citat, så møder du det\nher hver dag"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Αποθήκευσε ένα απόσπασμα και θα το\nβλέπεις εδώ κάθε μέρα"
+          }
         }
       }
     },
@@ -647,6 +683,12 @@
             "state" : "translated",
             "value" : "Dagens citat"
           }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Απόσπασμα της ημέρας"
+          }
         }
       }
     },
@@ -747,6 +789,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hver dag ét af dine gemte citater. Hvis du har favoritter, vælges det blandt dem."
+          }
+        },
+        "el" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Κάθε μέρα ένα από τα αποθηκευμένα αποσπάσματά σου. Αν έχεις αγαπημένα, επιλέγεται ανάμεσά τους."
           }
         }
       }
