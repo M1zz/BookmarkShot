@@ -215,7 +215,7 @@ struct ScanPageView: View {
         do {
             let result = try await OCRService.recognizeText(in: image)
             guard !result.lines.isEmpty else {
-                errorMessage = "사진에서 글자를 찾지 못했어요. 초점과 조명을 확인하고 다시 찍어주세요."
+                errorMessage = String(localized: "사진에서 글자를 찾지 못했어요. 초점과 조명을 확인하고 다시 찍어주세요.")
                 return
             }
             ocrResult = result
@@ -227,7 +227,7 @@ struct ScanPageView: View {
             }
             step = .highlight
         } catch {
-            errorMessage = "텍스트 인식 중 오류가 발생했어요. 다시 시도해 주세요."
+            errorMessage = String(localized: "텍스트 인식 중 오류가 발생했어요. 다시 시도해 주세요.")
         }
     }
 

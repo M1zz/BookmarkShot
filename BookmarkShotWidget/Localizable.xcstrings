@@ -1,0 +1,72 @@
+{
+  "sourceLanguage" : "ko",
+  "strings" : {
+    "문장을 스크랩해보세요" : {
+      "comment" : "w_try",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장을 스크랩해보세요"
+          }
+        }
+      }
+    },
+    "다시 만날 문장 %lld개" : {
+      "comment" : "w_count",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다시 만날 문장 %lld개"
+          }
+        }
+      }
+    },
+    "스크랩한 문장 없음" : {
+      "comment" : "w_none",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크랩한 문장 없음"
+          }
+        }
+      }
+    },
+    "문장을 스크랩하면\n여기서 매일 만나요" : {
+      "comment" : "w_empty",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장을 스크랩하면\n여기서 매일 만나요"
+          }
+        }
+      }
+    },
+    "오늘의 문장" : {
+      "comment" : "w_name",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오늘의 문장"
+          }
+        }
+      }
+    },
+    "스크랩한 문장을 매일 한 문장씩 만나요. 즐겨찾기한 문장이 있으면 그중에서 보여드려요." : {
+      "comment" : "w_desc",
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크랩한 문장을 매일 한 문장씩 만나요. 즐겨찾기한 문장이 있으면 그중에서 보여드려요."
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

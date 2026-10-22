@@ -35,6 +35,17 @@
         }
       }
     },
+    "ISBN (선택)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (선택)"
+          }
+        }
+      },
+      "comment" : "isbn_opt"
+    },
     "Siri에게 말하거나 단축어로 오늘의 문장을 바로 열어요." : {
       "comment" : "Roadmap item detail: shortcuts",
       "localizations" : {
@@ -86,6 +97,50 @@
         }
       }
     },
+    "공유" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "공유"
+          }
+        }
+      },
+      "comment" : "share"
+    },
+    "구문 추출" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구문 추출"
+          }
+        }
+      },
+      "comment" : "extract"
+    },
+    "구절 스크랩" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "구절 스크랩"
+          }
+        }
+      },
+      "comment" : "scrap_title"
+    },
+    "그때 남긴 메모" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "그때 남긴 메모"
+          }
+        }
+      },
+      "comment" : "memo_then"
+    },
     "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요." : {
       "comment" : "Roadmap item detail: a11y.largetext",
       "localizations" : {
@@ -103,6 +158,17 @@
         }
       }
     },
+    "글자를 읽고 있어요…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "글자를 읽고 있어요…"
+          }
+        }
+      },
+      "comment" : "reading"
+    },
     "내 데이터 한 번에 지우기" : {
       "comment" : "Roadmap item: data.delete",
       "localizations" : {
@@ -119,6 +185,39 @@
           }
         }
       }
+    },
+    "다른 문장" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다른 문장"
+          }
+        }
+      },
+      "comment" : "other_q"
+    },
+    "다시 만날 문장이 없어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "다시 만날 문장이 없어요"
+          }
+        }
+      },
+      "comment" : "no_daily"
+    },
+    "닫기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "닫기"
+          }
+        }
+      },
+      "comment" : "close"
     },
     "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요." : {
       "comment" : "Roadmap item detail: a11y.contrast",
@@ -171,6 +270,28 @@
         }
       }
     },
+    "마음에 드는 구절이 있는\n페이지를 찍어주세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "마음에 드는 구절이 있는\n페이지를 찍어주세요"
+          }
+        }
+      },
+      "comment" : "hint1"
+    },
+    "메모" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "메모"
+          }
+        }
+      },
+      "comment" : "memo"
+    },
     "모은 책과 문장을 파일로 저장하고 다시 불러올 수 있어요." : {
       "comment" : "Roadmap item detail: backup",
       "localizations" : {
@@ -187,6 +308,50 @@
           }
         }
       }
+    },
+    "문장" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장"
+          }
+        }
+      },
+      "comment" : "quote"
+    },
+    "문장 위를 손가락으로 스윽 · 두 손가락으로 확대해 밑줄" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장 위를 손가락으로 스윽 · 두 손가락으로 확대해 밑줄"
+          }
+        }
+      },
+      "comment" : "swipe"
+    },
+    "문장 카드" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장 카드"
+          }
+        }
+      },
+      "comment" : "card"
+    },
+    "문장, 메모, 책 제목 검색" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장, 메모, 책 제목 검색"
+          }
+        }
+      },
+      "comment" : "search_ph"
     },
     "문장을 고르다 앱이 꺼져도 하던 내용이 남아 있어요." : {
       "comment" : "Roadmap item detail: autosave",
@@ -222,6 +387,28 @@
         }
       }
     },
+    "문장을 스크랩하면 매일 한 문장씩\n여기서 다시 만날 수 있어요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "문장을 스크랩하면 매일 한 문장씩\n여기서 다시 만날 수 있어요."
+          }
+        }
+      },
+      "comment" : "no_daily_d"
+    },
+    "밑줄" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "밑줄"
+          }
+        }
+      },
+      "comment" : "brand"
+    },
     "백업과 내보내기" : {
       "comment" : "Roadmap item: backup",
       "localizations" : {
@@ -256,6 +443,61 @@
         }
       }
     },
+    "사진에서 글자를 찾지 못했어요. 초점과 조명을 확인하고 다시 찍어주세요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "사진에서 글자를 찾지 못했어요. 초점과 조명을 확인하고 다시 찍어주세요."
+          }
+        }
+      },
+      "comment" : "err_none"
+    },
+    "삭제" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "삭제"
+          }
+        }
+      },
+      "comment" : "delete"
+    },
+    "서재" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "서재"
+          }
+        }
+      },
+      "comment" : "library"
+    },
+    "서재에서 책을 고르고 페이지를 찍어보세요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "서재에서 책을 고르고 페이지를 찍어보세요."
+          }
+        }
+      },
+      "comment" : "no_quotes_d"
+    },
+    "설정" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "설정"
+          }
+        }
+      },
+      "comment" : "settings"
+    },
     "손끝으로 느끼는 반응" : {
       "comment" : "Roadmap item: haptics",
       "localizations" : {
@@ -272,6 +514,61 @@
           }
         }
       }
+    },
+    "스크랩" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크랩"
+          }
+        }
+      },
+      "comment" : "scrap"
+    },
+    "스크랩 %lld개" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크랩 %lld개"
+          }
+        }
+      },
+      "comment" : "scrap_count"
+    },
+    "스크랩 삭제" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크랩 삭제"
+          }
+        }
+      },
+      "comment" : "del_scrap"
+    },
+    "스크랩한 문장" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크랩한 문장"
+          }
+        }
+      },
+      "comment" : "scraped"
+    },
+    "스크랩한 문장이 없어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "스크랩한 문장이 없어요"
+          }
+        }
+      },
+      "comment" : "no_quotes"
     },
     "쓰는 요령 알려 주기" : {
       "comment" : "Roadmap item: tips",
@@ -307,6 +604,39 @@
         }
       }
     },
+    "아직 등록된 책이 없어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아직 등록된 책이 없어요"
+          }
+        }
+      },
+      "comment" : "no_books"
+    },
+    "아직 선택된 문장이 없어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아직 선택된 문장이 없어요"
+          }
+        }
+      },
+      "comment" : "none_sel"
+    },
+    "아직 스크랩한 문장이 없어요.\n아래 버튼으로 첫 구절을 담아보세요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "아직 스크랩한 문장이 없어요.\n아래 버튼으로 첫 구절을 담아보세요."
+          }
+        }
+      },
+      "comment" : "no_scrap"
+    },
     "알아 두면 편한 기능을 알맞은 때에 살짝 알려 줘요." : {
       "comment" : "Roadmap item detail: tips",
       "localizations" : {
@@ -323,6 +653,17 @@
           }
         }
       }
+    },
+    "앨범에서 선택" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "앨범에서 선택"
+          }
+        }
+      },
+      "comment" : "album"
     },
     "앱을 영어로도 쓸 수 있어요." : {
       "comment" : "Roadmap item detail: lang.english",
@@ -375,6 +716,17 @@
         }
       }
     },
+    "없음" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "없음"
+          }
+        }
+      },
+      "comment" : "none"
+    },
     "영어 지원" : {
       "comment" : "Roadmap item: lang.english",
       "localizations" : {
@@ -391,6 +743,17 @@
           }
         }
       }
+    },
+    "오늘의 문장" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "오늘의 문장"
+          }
+        }
+      },
+      "comment" : "daily"
     },
     "오늘의 문장 알림" : {
       "comment" : "Roadmap item: notifications",
@@ -443,6 +806,28 @@
         }
       }
     },
+    "원래대로" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원래대로"
+          }
+        }
+      },
+      "comment" : "reset"
+    },
+    "원본 사진" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "원본 사진"
+          }
+        }
+      },
+      "comment" : "orig_photo"
+    },
     "원하면 앱 안에서 모은 책과 문장을 모두 지울 수 있어요." : {
       "comment" : "Roadmap item detail: data.delete",
       "localizations" : {
@@ -460,6 +845,127 @@
         }
       }
     },
+    "이 문장이 좋았던 이유를 남겨보세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 문장이 좋았던 이유를 남겨보세요"
+          }
+        }
+      },
+      "comment" : "memo_ph"
+    },
+    "이 책과 스크랩을 모두 삭제할까요?" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이 책과 스크랩을 모두 삭제할까요?"
+          }
+        }
+      },
+      "comment" : "del_confirm"
+    },
+    "이동" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이동"
+          }
+        }
+      },
+      "comment" : "move"
+    },
+    "이동 중" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이동 중"
+          }
+        }
+      },
+      "comment" : "moving"
+    },
+    "이미지로 공유" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "이미지로 공유"
+          }
+        }
+      },
+      "comment" : "share_img"
+    },
+    "인식 실패" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "인식 실패"
+          }
+        }
+      },
+      "comment" : "fail_title"
+    },
+    "자동" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "자동"
+          }
+        }
+      },
+      "comment" : "auto"
+    },
+    "저자" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저자"
+          }
+        }
+      },
+      "comment" : "author"
+    },
+    "저장" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "저장"
+          }
+        }
+      },
+      "comment" : "save"
+    },
+    "전체 지우기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "전체 지우기"
+          }
+        }
+      },
+      "comment" : "clear_all"
+    },
+    "정보" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "정보"
+          }
+        }
+      },
+      "comment" : "info"
+    },
     "정해 둔 때에 모은 문장 하나를 알림으로 보내 줘요." : {
       "comment" : "Roadmap item detail: notifications",
       "localizations" : {
@@ -476,6 +982,127 @@
           }
         }
       }
+    },
+    "제목" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목"
+          }
+        }
+      },
+      "comment" : "title"
+    },
+    "제목 인식 신뢰도 %lld%%" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "제목 인식 신뢰도 %lld%%"
+          }
+        }
+      },
+      "comment" : "conf"
+    },
+    "즐겨찾기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "즐겨찾기"
+          }
+        }
+      },
+      "comment" : "fav"
+    },
+    "지금까지 %lld권을 모았어요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지금까지 %lld권을 모았어요"
+          }
+        }
+      },
+      "comment" : "collected"
+    },
+    "지우개" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지우개"
+          }
+        }
+      },
+      "comment" : "erase"
+    },
+    "지우개 ON" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지우개 ON"
+          }
+        }
+      },
+      "comment" : "erase_on"
+    },
+    "지원" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "지원"
+          }
+        }
+      },
+      "comment" : "support"
+    },
+    "책" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "책"
+          }
+        }
+      },
+      "comment" : "book"
+    },
+    "책 정보 (수정 가능)" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "책 정보 (수정 가능)"
+          }
+        }
+      },
+      "comment" : "book_info"
+    },
+    "책 추가" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "책 추가"
+          }
+        }
+      },
+      "comment" : "add_book"
+    },
+    "책 표지" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "책 표지"
+          }
+        }
+      },
+      "comment" : "book_cover"
     },
     "처음 쓰는 분을 위한 안내" : {
       "comment" : "Roadmap item: onboarding",
@@ -511,6 +1138,50 @@
         }
       }
     },
+    "첫 책 추가하기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "첫 책 추가하기"
+          }
+        }
+      },
+      "comment" : "first_book"
+    },
+    "추출된 문장" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "추출된 문장"
+          }
+        }
+      },
+      "comment" : "extracted"
+    },
+    "취소" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "취소"
+          }
+        }
+      },
+      "comment" : "cancel"
+    },
+    "카메라로 찍기" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "카메라로 찍기"
+          }
+        }
+      },
+      "comment" : "camera"
+    },
     "큰 글씨에 맞춘 화면" : {
       "comment" : "Roadmap item: a11y.largetext",
       "localizations" : {
@@ -544,6 +1215,72 @@
           }
         }
       }
+    },
+    "텍스트 인식 중 오류가 발생했어요. 다시 시도해 주세요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "텍스트 인식 중 오류가 발생했어요. 다시 시도해 주세요."
+          }
+        }
+      },
+      "comment" : "err_ocr"
+    },
+    "텍스트로 공유" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "텍스트로 공유"
+          }
+        }
+      },
+      "comment" : "share_text"
+    },
+    "페이지" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "페이지"
+          }
+        }
+      },
+      "comment" : "page"
+    },
+    "페이지 모서리에 네 점을 맞춰주세요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "페이지 모서리에 네 점을 맞춰주세요"
+          }
+        }
+      },
+      "comment" : "corners"
+    },
+    "페이지 전체" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "페이지 전체"
+          }
+        }
+      },
+      "comment" : "whole_page"
+    },
+    "페이지를 반듯하게 펴서 담은 뒤,\n원하는 문장을 손가락으로 스윽 문질러 골라낼 수 있어요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "페이지를 반듯하게 펴서 담은 뒤,\n원하는 문장을 손가락으로 스윽 문질러 골라낼 수 있어요."
+          }
+        }
+      },
+      "comment" : "hint2"
     },
     "펼치는 아이폰 화면" : {
       "comment" : "Roadmap item: fold",
@@ -579,6 +1316,50 @@
         }
       }
     },
+    "표지 대신(또는 표지와 함께) 뒤표지 바코드를 찍으면 ISBN까지 자동 인식돼요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "표지 대신(또는 표지와 함께) 뒤표지 바코드를 찍으면 ISBN까지 자동 인식돼요."
+          }
+        }
+      },
+      "comment" : "cover_isbn"
+    },
+    "표지를 읽고 있어요…" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "표지를 읽고 있어요…"
+          }
+        }
+      },
+      "comment" : "cover_reading"
+    },
+    "표지를 찍으면 제목·저자를 자동으로 읽어와요" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "표지를 찍으면 제목·저자를 자동으로 읽어와요"
+          }
+        }
+      },
+      "comment" : "cover_hint"
+    },
+    "표지를 한 장 찍는 것으로 시작해 보세요.\n제목과 저자는 자동으로 읽어드려요." : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "표지를 한 장 찍는 것으로 시작해 보세요.\n제목과 저자는 자동으로 읽어드려요."
+          }
+        }
+      },
+      "comment" : "no_books_d"
+    },
     "하던 일 이어서 하기" : {
       "comment" : "Roadmap item: autosave",
       "localizations" : {
@@ -612,6 +1393,17 @@
           }
         }
       }
+    },
+    "확인" : {
+      "localizations" : {
+        "ko" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "확인"
+          }
+        }
+      },
+      "comment" : "ok"
     }
   },
   "version" : "1.0"

@@ -137,8 +137,8 @@ struct BookmarkShotWidgetEntryView: View {
             }
         }
         .accessibilityLabel(Text(entry.total > 0
-            ? "다시 만날 문장 \(entry.total)개"
-            : "스크랩한 문장 없음"))
+            ? String(localized: "다시 만날 문장 \(entry.total)개")
+            : String(localized: "스크랩한 문장 없음")))
     }
 
     /// 사각형: 문장 2~3줄 + 출처 (잠금화면의 핵심 위젯)

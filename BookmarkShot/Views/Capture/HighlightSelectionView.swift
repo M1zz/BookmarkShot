@@ -149,7 +149,7 @@ struct HighlightSelectionView: View {
             Button {
                 moveMode.toggle()
             } label: {
-                Label(moveMode ? "이동 중" : "이동",
+                Label(moveMode ? String(localized: "이동 중") : String(localized: "이동"),
                       systemImage: "hand.draw")
             }
             .tint(moveMode ? .blue : .accentColor)
@@ -157,7 +157,7 @@ struct HighlightSelectionView: View {
             Button {
                 eraseMode.toggle()
             } label: {
-                Label(eraseMode ? "지우개 ON" : "지우개",
+                Label(eraseMode ? String(localized: "지우개 ON") : String(localized: "지우개"),
                       systemImage: eraseMode ? "eraser.fill" : "eraser")
             }
             .tint(eraseMode ? .red : .accentColor)
