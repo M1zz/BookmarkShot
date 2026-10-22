@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -148,6 +148,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Kirjasto<br>kansista koottuna", "Nimi ja kirjailija luetaan kuvasta"),
         ("04-quotes.png", "flat-rotate", "Kaikki lainaukset<br>yhdessä paikassa", "Löydä ne kirjan nimellä tai muistiinpanolla"),
         ("05-daily.png", "dark", "Lainaus<br>joka päivälle", "Widget aina käsillä ja kortti jaettavaksi"),
+    ],
+    "id": [
+        ("01-highlight.png", "hero-bleed", "Usap dengan jari<br>seperti stabilo", "Hanya kalimat yang kamu usap yang jadi teks"),
+        ("02-region.png", "left-text", "Foto miring?<br>Jadi lurus", "Sejajarkan empat sudut, halaman rata seperti kertas"),
+        ("03-library.png", "text-bottom", "Perpustakaan<br>dari sampul buku", "Judul dan penulis dibaca dari foto"),
+        ("04-quotes.png", "flat-rotate", "Semua kutipan<br>di satu tempat", "Temukan lewat judul buku atau catatan"),
+        ("05-daily.png", "dark", "Satu kutipan<br>untuk tiap hari", "Widget selalu dekat, kartu siap dibagikan"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

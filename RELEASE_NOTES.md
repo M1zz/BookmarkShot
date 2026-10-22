@@ -128,6 +128,13 @@ Palaute ja arvostelu: Asetuksissa.
 Näet siellä myös sovelluksen version.
 Hioimme sovellusta vakaammaksi.
 
+### 앱스토어 (id)
+
+Layar Pengaturan baru telah hadir.
+Masukan dan ulasan lewat Pengaturan.
+Versi aplikasi juga ada di sana.
+Aplikasi disempurnakan agar stabil.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

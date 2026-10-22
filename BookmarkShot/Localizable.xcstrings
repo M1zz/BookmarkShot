@@ -111,6 +111,12 @@
             "state" : "translated",
             "value" : "Face ID -lukitus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci Face ID"
+          }
         }
       }
     },
@@ -224,6 +230,12 @@
             "state" : "translated",
             "value" : "Lukitse sovellus Face ID:llä tai Touch ID:llä ja suojaa lainauksesi."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kunci aplikasi dengan Face ID atau Touch ID untuk melindungi kutipanmu."
+          }
         }
       }
     },
@@ -335,6 +347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (valinnainen)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (opsional)"
           }
         }
       },
@@ -450,6 +468,12 @@
             "state" : "translated",
             "value" : "Avaa päivän lainaus heti Sirillä tai pikakomennolla."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buka kutipan hari ini langsung lewat Siri atau pintasan."
+          }
         }
       }
     },
@@ -562,6 +586,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri ja Pikakomennot"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri dan Pintasan"
           }
         }
       }
@@ -676,6 +706,12 @@
             "state" : "translated",
             "value" : "Sujuvampaa VoiceOverilla"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih nyaman dengan VoiceOver"
+          }
         }
       }
     },
@@ -787,6 +823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jaa"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan"
           }
         }
       },
@@ -901,6 +943,12 @@
             "state" : "translated",
             "value" : "Poimi teksti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil Teks"
+          }
         }
       },
       "comment" : "extract"
@@ -1014,6 +1062,12 @@
             "state" : "translated",
             "value" : "Tallenna lainaus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan Kutipan"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -1126,6 +1180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muistiinpanosi silloin"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatanmu waktu itu"
           }
         }
       },
@@ -1241,6 +1301,12 @@
             "state" : "translated",
             "value" : "Kun suurennat tekstiä, sisältö järjestyy uudelleen eikä leikkaudu pois."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat teks diperbesar, tata letak menyesuaikan dan tidak terpotong."
+          }
         }
       }
     },
@@ -1352,6 +1418,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Luetaan tekstiä…"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membaca teks…"
           }
         }
       },
@@ -1467,6 +1539,12 @@
             "state" : "translated",
             "value" : "Poista kaikki tietoni kerralla"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua datamu sekaligus"
+          }
         }
       }
     },
@@ -1578,6 +1656,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toinen lainaus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutipan Lain"
           }
         }
       },
@@ -1692,6 +1776,12 @@
             "state" : "translated",
             "value" : "Ei vielä lainauksia luettavaksi uudelleen"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada kutipan untuk dibaca ulang"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1804,6 +1894,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sulje"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutup"
           }
         }
       },
@@ -1919,6 +2015,12 @@
             "state" : "translated",
             "value" : "Kaikki pysyy helposti luettavana, vaikka suurempi kontrasti olisi päällä tai värien erottaminen olisi vaikeaa."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Semuanya tetap mudah dibaca, bahkan dengan Tingkatkan Kontras atau jika sulit membedakan warna."
+          }
         }
       }
     },
@@ -2031,6 +2133,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Käytä sovellusta useammilla kielillä."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gunakan aplikasi dalam lebih banyak bahasa."
           }
         }
       }
@@ -2145,6 +2253,12 @@
             "state" : "translated",
             "value" : "Lisää kieliä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lebih banyak bahasa"
+          }
         }
       }
     },
@@ -2256,6 +2370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ota kuva sivusta,\njolla on mieleisesi lause"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto halaman buku\nyang punya kalimat favoritmu"
           }
         }
       },
@@ -2369,6 +2489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Muistiinpano"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Catatan"
           }
         }
       },
@@ -2484,6 +2610,12 @@
             "state" : "translated",
             "value" : "Tallenna kirjasi ja lainauksesi tiedostoon ja tuo ne takaisin myöhemmin."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan buku dan kutipanmu ke dalam berkas, lalu pulihkan kapan saja."
+          }
         }
       }
     },
@@ -2595,6 +2727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lainaukset"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutipan"
           }
         }
       },
@@ -2709,6 +2847,12 @@
             "state" : "translated",
             "value" : "Vedä sormella lauseen yli · Zoomaa kahdella sormella"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usap kalimat dengan jari · Cubit dengan dua jari untuk memperbesar"
+          }
         }
       },
       "comment" : "swipe"
@@ -2822,6 +2966,12 @@
             "state" : "translated",
             "value" : "Lainauskortti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kartu Kutipan"
+          }
         }
       },
       "comment" : "card"
@@ -2934,6 +3084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hae lainauksia, muistiinpanoja, nimiä"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cari kutipan, catatan, judul buku"
           }
         }
       },
@@ -3049,6 +3205,12 @@
             "state" : "translated",
             "value" : "Valintasi säilyy, vaikka sovellus sulkeutuisi lainausta valitessasi."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilihanmu tetap ada, meski aplikasi tertutup saat kamu memilih kutipan."
+          }
         }
       }
     },
@@ -3162,6 +3324,12 @@
             "state" : "translated",
             "value" : "Kevyt naputus, kun alleviivaat tai tallennat lainauksen."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Getaran lembut saat kamu menggarisbawahi atau menyimpan kutipan."
+          }
         }
       }
     },
@@ -3274,6 +3442,12 @@
             "state" : "translated",
             "value" : "Tallenna lainaus, niin kohtaat täällä\nyhden joka päivä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan kutipan, dan kamu akan bertemu\nsatu kutipan di sini setiap hari."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -3383,6 +3557,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -3501,6 +3681,12 @@
             "state" : "translated",
             "value" : "Varmuuskopio ja vienti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cadangan dan ekspor"
+          }
         }
       }
     },
@@ -3614,6 +3800,12 @@
             "state" : "translated",
             "value" : "Helpommat värit ja kontrasti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Warna dan kontras yang lebih nyaman"
+          }
         }
       }
     },
@@ -3725,6 +3917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuvasta ei löytynyt tekstiä. Tarkista tarkennus ja valaistus ja yritä uudelleen."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada teks yang ditemukan di foto. Periksa fokus dan pencahayaan, lalu coba lagi."
           }
         }
       },
@@ -3839,6 +4037,12 @@
             "state" : "translated",
             "value" : "Poista"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus"
+          }
         }
       },
       "comment" : "delete"
@@ -3951,6 +4155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kirjasto"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Perpustakaan"
           }
         }
       },
@@ -4065,6 +4275,12 @@
             "state" : "translated",
             "value" : "Valitse kirja kirjastosta ja ota kuva sivusta."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih buku di perpustakaan, lalu foto satu halaman."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -4177,6 +4393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Asetukset"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengaturan"
           }
         }
       },
@@ -4292,6 +4514,12 @@
             "state" : "translated",
             "value" : "Haptinen palaute"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Umpan balik haptik"
+          }
         }
       }
     },
@@ -4403,6 +4631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lainaus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutipan"
           }
         }
       },
@@ -4685,6 +4919,12 @@
               }
             }
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kutipan"
+          }
         }
       },
       "comment" : "scrap_count"
@@ -4797,6 +5037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poista lainaus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus Kutipan"
           }
         }
       },
@@ -4911,6 +5157,12 @@
             "state" : "translated",
             "value" : "Tallennetut lainaukset"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutipan Tersimpan"
+          }
         }
       },
       "comment" : "scraped"
@@ -5023,6 +5275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ei tallennettuja lainauksia"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada kutipan tersimpan"
           }
         }
       },
@@ -5138,6 +5396,12 @@
             "state" : "translated",
             "value" : "Käteviä vinkkejä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tips berguna"
+          }
         }
       }
     },
@@ -5251,6 +5515,12 @@
             "state" : "translated",
             "value" : "iPadilla voit etsiä ja selata kirjoja ja lainauksia pelkällä näppäimistöllä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di iPad, cari dan jelajahi buku serta kutipan hanya dengan keyboard."
+          }
         }
       }
     },
@@ -5362,6 +5632,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ei vielä kirjoja"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada buku"
           }
         }
       },
@@ -5476,6 +5752,12 @@
             "state" : "translated",
             "value" : "Yhtään lausetta ei ole vielä valittu"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada kalimat yang dipilih"
+          }
         }
       },
       "comment" : "none_sel"
@@ -5588,6 +5870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tästä kirjasta ei ole vielä tallennettuja lainauksia.\nTallenna ensimmäinen painamalla alla olevaa painiketta."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada kutipan tersimpan dari buku ini.\nKetuk tombol di bawah untuk menyimpan yang pertama."
           }
         }
       },
@@ -5703,6 +5991,12 @@
             "state" : "translated",
             "value" : "Hienovaraisia vinkkejä hyödyllisistä toiminnoista juuri silloin, kun tarvitset niitä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Petunjuk halus tentang fitur berguna, tepat saat kamu membutuhkannya."
+          }
         }
       }
     },
@@ -5814,6 +6108,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Valitse Kuvista"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pilih dari Foto"
           }
         }
       },
@@ -5929,6 +6229,12 @@
             "state" : "translated",
             "value" : "Käytä koko sovellusta myös englanniksi."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gunakan seluruh aplikasi dalam bahasa Inggris."
+          }
         }
       }
     },
@@ -6041,6 +6347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kun avaat sovelluksen päivityksen jälkeen ensimmäisen kerran, näet mitä on uutta."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat pertama kali dibuka setelah pembaruan, lihat apa yang baru."
           }
         }
       }
@@ -6155,6 +6467,12 @@
             "state" : "translated",
             "value" : "Uutta"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yang baru"
+          }
         }
       }
     },
@@ -6266,6 +6584,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ei mitään"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tidak ada"
           }
         }
       },
@@ -6381,6 +6705,12 @@
             "state" : "translated",
             "value" : "Täysi englannin tuki"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dukungan bahasa Inggris penuh"
+          }
         }
       }
     },
@@ -6492,6 +6822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Päivän lainaus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutipan Hari Ini"
           }
         }
       },
@@ -6607,6 +6943,12 @@
             "state" : "translated",
             "value" : "Päivän lainauksen muistutus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengingat kutipan hari ini"
+          }
         }
       }
     },
@@ -6719,6 +7061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vähennä liikettä"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kurangi Gerakan"
           }
         }
       }
@@ -6833,6 +7181,12 @@
             "state" : "translated",
             "value" : "Kun Vähennä liikettä on päällä, näytön tehosteet rauhoittuvat."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat Kurangi Gerakan aktif, efek layar menjadi lebih tenang."
+          }
         }
       }
     },
@@ -6944,6 +7298,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Palauta zoomaus"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Atur Ulang Zoom"
           }
         }
       },
@@ -7057,6 +7417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alkuperäinen kuva"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto Asli"
           }
         }
       },
@@ -7172,6 +7538,12 @@
             "state" : "translated",
             "value" : "Poista kaikki kirjasi ja lainauksesi suoraan sovelluksesta."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus semua buku dan kutipanmu langsung dari dalam aplikasi."
+          }
         }
       }
     },
@@ -7283,6 +7655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kirjoita, miksi pidit tästä lauseesta"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tulis alasan kamu suka kalimat ini"
           }
         }
       },
@@ -7397,6 +7775,12 @@
             "state" : "translated",
             "value" : "Poistetaanko tämä kirja ja kaikki sen lainaukset?"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus buku ini beserta semua kutipannya?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -7509,6 +7893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siirrä"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geser"
           }
         }
       },
@@ -7623,6 +8013,12 @@
             "state" : "translated",
             "value" : "Siirretään"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Menggeser"
+          }
         }
       },
       "comment" : "moving"
@@ -7735,6 +8131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jaa kuvana"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan sebagai Gambar"
           }
         }
       },
@@ -7849,6 +8251,12 @@
             "state" : "translated",
             "value" : "Tunnistus epäonnistui"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pengenalan Gagal"
+          }
         }
       },
       "comment" : "fail_title"
@@ -7961,6 +8369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatis"
           }
         }
       },
@@ -8075,6 +8489,12 @@
             "state" : "translated",
             "value" : "Kirjailija"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penulis"
+          }
         }
       },
       "comment" : "author"
@@ -8187,6 +8607,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tallenna"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan"
           }
         }
       },
@@ -8301,6 +8727,12 @@
             "state" : "translated",
             "value" : "Tyhjennä kaikki"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hapus Semua"
+          }
         }
       },
       "comment" : "clear_all"
@@ -8413,6 +8845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tiedot"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         }
       },
@@ -8528,6 +8966,12 @@
             "state" : "translated",
             "value" : "Saat yhden tallentamistasi lainauksista ilmoituksena valitsemaasi aikaan."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terima satu kutipan tersimpan sebagai notifikasi pada waktu yang kamu tentukan."
+          }
         }
       }
     },
@@ -8639,6 +9083,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nimi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Judul"
           }
         }
       },
@@ -8753,6 +9203,12 @@
             "state" : "translated",
             "value" : "Nimen tunnistusvarmuus: %lld %%"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tingkat keyakinan judul: %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -8865,6 +9321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suosikki"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorit"
           }
         }
       },
@@ -9147,6 +9609,12 @@
               }
             }
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sejauh ini sudah terkumpul %lld buku"
+          }
         }
       },
       "comment" : "collected"
@@ -9259,6 +9727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pyyhekumi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penghapus"
           }
         }
       },
@@ -9373,6 +9847,12 @@
             "state" : "translated",
             "value" : "Pyyhekumi päällä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Penghapus Aktif"
+          }
         }
       },
       "comment" : "erase_on"
@@ -9485,6 +9965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tuki"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bantuan"
           }
         }
       },
@@ -9599,6 +10085,12 @@
             "state" : "translated",
             "value" : "Kirja"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buku"
+          }
         }
       },
       "comment" : "book"
@@ -9711,6 +10203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kirjan tiedot (muokattavissa)"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info Buku (bisa diubah)"
           }
         }
       },
@@ -9825,6 +10323,12 @@
             "state" : "translated",
             "value" : "Lisää kirja"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah Buku"
+          }
         }
       },
       "comment" : "add_book"
@@ -9937,6 +10441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kirjan kannet"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sampul Buku"
           }
         }
       },
@@ -10052,6 +10562,12 @@
             "state" : "translated",
             "value" : "Aloitusopas uusille käyttäjille"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Panduan untuk pengguna baru"
+          }
         }
       }
     },
@@ -10165,6 +10681,12 @@
             "state" : "translated",
             "value" : "Kun avaat sovelluksen ensimmäisen kerran, näet lyhyesti, mitä se osaa."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saat pertama kali dibuka, lihat sekilas apa saja yang bisa dilakukan aplikasi."
+          }
         }
       }
     },
@@ -10276,6 +10798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lisää ensimmäinen kirjasi"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tambah Buku Pertama"
           }
         }
       },
@@ -10390,6 +10918,12 @@
             "state" : "translated",
             "value" : "Poimittu teksti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Teks yang Diambil"
+          }
         }
       },
       "comment" : "extracted"
@@ -10503,6 +11037,12 @@
             "state" : "translated",
             "value" : "Peruuta"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Batal"
+          }
         }
       },
       "comment" : "cancel"
@@ -10615,6 +11155,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ota kuva"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ambil Foto"
           }
         }
       },
@@ -10730,6 +11276,12 @@
             "state" : "translated",
             "value" : "Näkymät suurelle tekstille"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilan untuk teks besar"
+          }
         }
       }
     },
@@ -10843,6 +11395,12 @@
             "state" : "translated",
             "value" : "Näppäimistöohjaus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrol dengan keyboard"
+          }
         }
       }
     },
@@ -10954,6 +11512,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekstin tunnistuksessa tapahtui virhe. Yritä uudelleen."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Terjadi kesalahan saat mengenali teks. Silakan coba lagi."
           }
         }
       },
@@ -11068,6 +11632,12 @@
             "state" : "translated",
             "value" : "Jaa tekstinä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bagikan sebagai Teks"
+          }
         }
       },
       "comment" : "share_text"
@@ -11180,6 +11750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sivu"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Halaman"
           }
         }
       },
@@ -11294,6 +11870,12 @@
             "state" : "translated",
             "value" : "Sovita neljä pistettä sivun kulmiin"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pasang keempat titik pada sudut halaman"
+          }
         }
       },
       "comment" : "corners"
@@ -11407,6 +11989,12 @@
             "state" : "translated",
             "value" : "Koko sivu"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Seluruh Halaman"
+          }
         }
       },
       "comment" : "whole_page"
@@ -11519,6 +12107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sivu oikaistaan puolestasi. Vedä sitten sormella haluamiesi lauseiden yli valitaksesi ne."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Halaman akan diluruskan otomatis. Lalu usap kalimat yang kamu mau dengan jari untuk memilihnya."
           }
         }
       },
@@ -11634,6 +12228,12 @@
             "state" : "translated",
             "value" : "Näkymä taittuvalle iPhonelle"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tampilan iPhone lipat"
+          }
         }
       }
     },
@@ -11747,6 +12347,12 @@
             "state" : "translated",
             "value" : "Käytä taittuvan iPhonen leveää näyttöä kahtena vierekkäisenä ruutuna."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Manfaatkan layar lebar iPhone lipat sebagai dua panel berdampingan."
+          }
         }
       }
     },
@@ -11858,6 +12464,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ota kuva myös (tai pelkästään) takakannen viivakoodista, niin ISBN tunnistetaan automaattisesti."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto juga (atau hanya) barcode di sampul belakang, dan ISBN akan dikenali otomatis."
           }
         }
       },
@@ -11972,6 +12584,12 @@
             "state" : "translated",
             "value" : "Luetaan kansia…"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Membaca sampul…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -12085,6 +12703,12 @@
             "state" : "translated",
             "value" : "Ota kuva kansista, niin nimi ja kirjailija luetaan automaattisesti"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto sampul, dan judul serta penulis terbaca otomatis"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -12197,6 +12821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aloita ottamalla kuva kansista.\nNimi ja kirjailija luetaan automaattisesti."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mulailah dengan memotret satu sampul.\nJudul dan penulis terbaca otomatis."
           }
         }
       },
@@ -12312,6 +12942,12 @@
             "state" : "translated",
             "value" : "Jatka siitä, mihin jäit"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lanjutkan dari yang terakhir"
+          }
         }
       }
     },
@@ -12425,6 +13061,12 @@
             "state" : "translated",
             "value" : "VoiceOver lukee jokaisen kirjan, lainauksen ja painikkeen oikeassa järjestyksessä."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver membacakan setiap buku, kutipan, dan tombol, dengan urutan yang tepat."
+          }
         }
       }
     },
@@ -12533,6 +13175,12 @@
           }
         },
         "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "id" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

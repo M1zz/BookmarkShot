@@ -111,6 +111,12 @@
             "state" : "translated",
             "value" : "Tallenna lainaus aloittaaksesi"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan kutipan untuk memulai"
+          }
         }
       }
     },
@@ -392,6 +398,12 @@
               }
             }
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld kutipan untuk dibaca ulang"
+          }
         }
       }
     },
@@ -504,6 +516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ei tallennettuja lainauksia"
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belum ada kutipan tersimpan"
           }
         }
       }
@@ -618,6 +636,12 @@
             "state" : "translated",
             "value" : "Tallenna lainaus, niin näet sen\ntäällä joka päivä"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Simpan kutipan, dan kamu akan\nbertemu dengannya di sini tiap hari"
+          }
         }
       }
     },
@@ -731,6 +755,12 @@
             "state" : "translated",
             "value" : "Päivän lainaus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutipan Hari Ini"
+          }
         }
       }
     },
@@ -843,6 +873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Joka päivä yksi tallentamistasi lainauksista. Jos sinulla on suosikkeja, valinta tehdään niistä."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Satu kutipan tersimpan setiap hari. Jika ada favorit, kutipan dipilih dari yang favorit."
           }
         }
       }

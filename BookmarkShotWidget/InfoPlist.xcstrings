@@ -110,6 +110,12 @@
             "state" : "translated",
             "value" : "Päivän lainaus"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kutipan Hari Ini"
+          }
         }
       }
     }

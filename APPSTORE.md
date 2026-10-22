@@ -1061,3 +1061,62 @@ iCloudin avulla kirjastosi ja lainauksesi pysyvät ajan tasalla iPhoneillasi.
 
 Yksityisyys
 Kaikki tekstintunnistus tapahtuu laitteellasi. Kuvasi eivät poistu sieltä, ja sovellus toimii ilman internetyhteyttä.
+
+## id
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Kutipan Buku
+
+### 부제
+
+Foto halaman, usap, simpan
+
+### 키워드
+
+jurnal,catatan,stabilo,penanda,perpustakaan,pemindai,ocr,kalimat,novel,puisi,bacaan,literasi,rak
+
+### 프로모션 텍스트
+
+Ada kalimat yang menyentuh hati? Foto halamannya, lalu usap dengan jari. Buku dan nomor halaman tercatat otomatis, dan teks dikenali hanya di perangkatmu.
+
+### 설명
+
+Simpan selamanya kalimat yang dulu kamu garisbawahi di buku cetak, hanya dengan satu foto.
+Foto satu halaman, lalu usap dengan jari kalimat yang kamu suka: hanya kalimat itu yang diubah menjadi teks.
+
+Tambah buku dengan satu foto sampul
+Foto sampul buku, dan judul serta penulis akan dibacakan untukmu. Jika barcode di sampul belakang terlihat, ISBN juga terisi.
+Semua yang terbaca bisa kamu ubah sebelum menyimpan.
+
+Pilih kalimat seperti memakai stabilo
+Setelah memotret halaman, sejajarkan keempat sudut, dan foto yang miring pun diluruskan seperti kertas.
+Usap kalimat yang kamu mau dengan jari, dan hanya kata-kata itu yang terpilih. Perbesar dengan dua jari agar lebih tepat, atau pakai penghapus untuk mengurangi kata.
+Nomor halaman dicari di tepi foto dan diisi otomatis.
+
+Perpustakaan dan koleksi kutipan
+Bukumu terkumpul di rak sampul, dan kutipan yang kamu simpan terkumpul di satu tempat.
+Cari berdasarkan kalimat, catatan, atau judul buku, dan tandai favorit dengan hati.
+
+Kutipan hari ini
+Setiap hari, satu kutipan yang kamu simpan kembali padamu, lengkap dengan catatan yang kamu tulis saat itu.
+Dekatkan dengan widget di Layar Utama atau Layar Kunci.
+Ubah kutipan menjadi kartu bergaya kertas dan langsung bagikan.
+
+Sinkronisasi antarperangkat
+Dengan iCloud, perpustakaan dan kutipanmu selalu sama di semua iPhone-mu.
+
+Privasi
+Seluruh pengenalan teks berlangsung di perangkatmu. Fotomu tidak pernah keluar dari sana, dan aplikasi bisa dipakai tanpa internet.

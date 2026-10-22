@@ -110,6 +110,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -222,6 +228,12 @@
             "state" : "translated",
             "value" : "Kameraa käytetään kirjan kansien ja sivujen kuvaamiseen, jotta niistä voi poimia lauseita."
           }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kamera dipakai untuk memotret sampul dan halaman buku agar kalimatnya bisa diambil."
+          }
         }
       }
     },
@@ -333,6 +345,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kuviin pääsyä käytetään lauseiden poimimiseen jo ottamistasi kirjakuvista."
+          }
+        },
+        "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Akses ke foto dipakai untuk mengambil kalimat dari foto buku yang sudah kamu ambil."
           }
         }
       }
