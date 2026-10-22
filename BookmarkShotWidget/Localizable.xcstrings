@@ -141,6 +141,12 @@
             "state" : "translated",
             "value" : "Spara ett citat för att börja"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlamak için bir alıntı kaydet"
+          }
         }
       }
     },
@@ -512,6 +518,24 @@
               }
             }
           }
+        },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Yeniden okunacak %lld alıntı"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Yeniden okunacak %lld alıntı"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -654,6 +678,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inga sparade citat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydedilmiş alıntı yok"
           }
         }
       }
@@ -798,6 +828,12 @@
             "state" : "translated",
             "value" : "Spara ett citat, så möter du det\nhär varje dag"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir alıntı kaydet, her gün burada\nkarşına çıksın"
+          }
         }
       }
     },
@@ -941,6 +977,12 @@
             "state" : "translated",
             "value" : "Dagens citat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günün Alıntısı"
+          }
         }
       }
     },
@@ -1083,6 +1125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ett av dina sparade citat varje dag. Har du favoriter väljs det bland dem."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Her gün kaydettiğin alıntılardan biri. Favorilerin varsa onların arasından seçilir."
           }
         }
       }

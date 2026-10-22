@@ -1356,3 +1356,62 @@ Med iCloud hålls ditt bibliotek och dina citat automatiskt lika på dina iPhone
 
 Integritet
 All textigenkänning sker på din enhet. Dina foton lämnar den aldrig, och appen fungerar utan internet.
+
+## tr
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Kitap Sözleri
+
+### 부제
+
+Sayfayı çek, parmağınla kaydır
+
+### 키워드
+
+günlük,notlar,fosforlu,altçizgi,kitaplık,raf,tarayıcı,ocr,cümle,roman,şiir,okuma,edebiyat,alıntı
+
+### 프로모션 텍스트
+
+Bir cümle seni mi etkiledi? Sayfanın fotoğrafını çek ve parmağını üzerinde gezdir. Kitap ve sayfa numarası senin için not edilir, metin yalnızca cihazında tanınır.
+
+### 설명
+
+Kâğıt kitaplarda altını çizdiğin cümleleri tek bir fotoğrafla sonsuza dek sakla.
+Bir sayfanın fotoğrafını çek ve sevdiğin cümlenin üzerinde parmağını gezdir: yalnızca o cümle metne dönüşür.
+
+Kapak fotoğrafıyla kitap ekle
+Kapağın fotoğrafını çekersen başlık ve yazar senin için okunur. Arka kapaktaki barkod görünüyorsa ISBN de doldurulur.
+Okunan her şeyi kaydetmeden önce düzenleyebilirsin.
+
+Cümleleri fosforlu kalemle seçer gibi seç
+Sayfanın fotoğrafını çektikten sonra dört köşeyi oturt; eğik çekilmiş fotoğraf bile bir kâğıt gibi düzleşir.
+İstediğin cümlelerin üzerinde parmağını gezdir, yalnızca o kelimeler seçilir. Daha hassas olması için iki parmakla yakınlaştır ya da silgiyle kelime çıkar.
+Sayfa numarası fotoğrafın kenarından bulunur ve otomatik yazılır.
+
+Kitaplık ve alıntı koleksiyonu
+Kitapların kapaklardan oluşan bir rafta, kaydettiğin alıntılar ise tek bir yerde toplanır.
+Cümleye, nota ya da kitap başlığına göre ara; favorilerini kalple işaretle.
+
+Günün alıntısı
+Her gün kaydettiğin alıntılardan biri, o zaman bıraktığın notla birlikte yeniden karşına çıkar.
+Ana ekran veya kilit ekranı widget’ıyla hep yanında olsun.
+Bir alıntıyı kâğıt görünümlü bir karta dönüştürüp hemen paylaş.
+
+Cihazlar arasında eşitleme
+iCloud sayesinde kitaplığın ve alıntıların iPhone’ların arasında otomatik olarak aynı kalır.
+
+Gizlilik
+Tüm metin tanıma cihazında yapılır. Fotoğrafların cihazından çıkmaz ve uygulama internet olmadan da çalışır.

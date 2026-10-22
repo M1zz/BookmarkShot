@@ -141,6 +141,12 @@
             "state" : "translated",
             "value" : "Lås med Face ID"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID kilidi"
+          }
         }
       }
     },
@@ -284,6 +290,12 @@
             "state" : "translated",
             "value" : "Lås appen med Face ID eller Touch ID så att dina citat skyddas."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntılarını korumak için uygulamayı Face ID veya Touch ID ile kilitle."
+          }
         }
       }
     },
@@ -425,6 +437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (valfritt)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (isteğe bağlı)"
           }
         }
       },
@@ -570,6 +588,12 @@
             "state" : "translated",
             "value" : "Öppna dagens citat direkt via Siri eller en genväg."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri’ye söyleyerek ya da bir kısayolla günün alıntısını hemen aç."
+          }
         }
       }
     },
@@ -712,6 +736,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri och Genvägar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri ve Kısayollar"
           }
         }
       }
@@ -856,6 +886,12 @@
             "state" : "translated",
             "value" : "Smidigare med VoiceOver"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver ile daha rahat kullanım"
+          }
         }
       }
     },
@@ -997,6 +1033,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dela"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Paylaş"
           }
         }
       },
@@ -1141,6 +1183,12 @@
             "state" : "translated",
             "value" : "Hämta text"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metni Al"
+          }
         }
       },
       "comment" : "extract"
@@ -1284,6 +1332,12 @@
             "state" : "translated",
             "value" : "Spara citat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntıyı Kaydet"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -1426,6 +1480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Din anteckning från då"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O zaman bıraktığın not"
           }
         }
       },
@@ -1571,6 +1631,12 @@
             "state" : "translated",
             "value" : "När du förstorar texten ordnas innehållet om i stället för att klippas av."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazıyı büyüttüğünde içerik kesilmek yerine düzgünce yeniden yerleşir."
+          }
         }
       }
     },
@@ -1712,6 +1778,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Läser texten …"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin okunuyor…"
           }
         }
       },
@@ -1857,6 +1929,12 @@
             "state" : "translated",
             "value" : "Radera alla mina data på en gång"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm verilerimi tek seferde sil"
+          }
         }
       }
     },
@@ -1998,6 +2076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ett annat citat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başka Alıntı"
           }
         }
       },
@@ -2142,6 +2226,12 @@
             "state" : "translated",
             "value" : "Inga citat att återse ännu"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeniden okunacak alıntı yok"
+          }
         }
       },
       "comment" : "no_daily"
@@ -2284,6 +2374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stäng"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapat"
           }
         }
       },
@@ -2429,6 +2525,12 @@
             "state" : "translated",
             "value" : "Allt är fortfarande lätt att läsa, även med ökad kontrast eller om det är svårt att skilja färger åt."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kontrast artırılmış olsa da renkleri ayırt etmek zor olsa da her şey kolay okunur kalır."
+          }
         }
       }
     },
@@ -2571,6 +2673,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Använd appen på fler språk."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamayı daha fazla dilde kullan."
           }
         }
       }
@@ -2715,6 +2823,12 @@
             "state" : "translated",
             "value" : "Fler språk"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha fazla dil"
+          }
         }
       }
     },
@@ -2856,6 +2970,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta ett foto av sidan\nmed meningen du gillar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sevdiğin cümlenin olduğu\nsayfanın fotoğrafını çek"
           }
         }
       },
@@ -2999,6 +3119,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anteckning"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Not"
           }
         }
       },
@@ -3144,6 +3270,12 @@
             "state" : "translated",
             "value" : "Spara dina böcker och citat i en fil och hämta tillbaka dem senare."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitaplarını ve alıntılarını bir dosyaya kaydet, sonra geri yükle."
+          }
         }
       }
     },
@@ -3285,6 +3417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntılar"
           }
         }
       },
@@ -3429,6 +3567,12 @@
             "state" : "translated",
             "value" : "Dra fingret över meningen · Nyp med två fingrar för att zooma"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cümlenin üzerinden parmağını kaydır · İki parmakla yakınlaştır"
+          }
         }
       },
       "comment" : "swipe"
@@ -3572,6 +3716,12 @@
             "state" : "translated",
             "value" : "Citatkort"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntı Kartı"
+          }
         }
       },
       "comment" : "card"
@@ -3714,6 +3864,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sök citat, anteckningar och titlar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntı, not ve kitap başlığı ara"
           }
         }
       },
@@ -3859,6 +4015,12 @@
             "state" : "translated",
             "value" : "Ditt val finns kvar, även om appen stängs medan du väljer ett citat."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntı seçerken uygulama kapansa bile seçimin korunur."
+          }
         }
       }
     },
@@ -4002,6 +4164,12 @@
             "state" : "translated",
             "value" : "En lätt knackning när du stryker under eller sparar ett citat."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir alıntının altını çizdiğinde ya da kaydettiğinde hafif bir titreşim."
+          }
         }
       }
     },
@@ -4144,6 +4312,12 @@
             "state" : "translated",
             "value" : "Spara ett citat, så möter du ett\nhär varje dag."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir alıntı kaydet, her gün burada\nbirini yeniden göreceksin."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -4283,6 +4457,12 @@
           }
         },
         "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "tr" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -4431,6 +4611,12 @@
             "state" : "translated",
             "value" : "Säkerhetskopia och export"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yedekleme ve dışa aktarma"
+          }
         }
       }
     },
@@ -4574,6 +4760,12 @@
             "state" : "translated",
             "value" : "Behagligare färger och kontrast"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daha rahat renkler ve kontrast"
+          }
         }
       }
     },
@@ -4715,6 +4907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen text hittades i fotot. Kontrollera skärpa och ljus och försök igen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğrafta metin bulunamadı. Netliği ve ışığı kontrol edip tekrar dene."
           }
         }
       },
@@ -4859,6 +5057,12 @@
             "state" : "translated",
             "value" : "Radera"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sil"
+          }
         }
       },
       "comment" : "delete"
@@ -5001,6 +5205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliotek"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitaplık"
           }
         }
       },
@@ -5145,6 +5355,12 @@
             "state" : "translated",
             "value" : "Välj en bok i biblioteket och fotografera en sida."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitaplıktan bir kitap seç ve bir sayfanın fotoğrafını çek."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -5287,6 +5503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inställningar"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ayarlar"
           }
         }
       },
@@ -5432,6 +5654,12 @@
             "state" : "translated",
             "value" : "Haptisk respons"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dokunsal geri bildirim"
+          }
         }
       }
     },
@@ -5573,6 +5801,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntı"
           }
         }
       },
@@ -5945,6 +6179,24 @@
               }
             }
           }
+        },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld alıntı"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld alıntı"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -6087,6 +6339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Radera citat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alıntıyı Sil"
           }
         }
       },
@@ -6231,6 +6489,12 @@
             "state" : "translated",
             "value" : "Sparade citat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydedilen Alıntılar"
+          }
         }
       },
       "comment" : "scraped"
@@ -6373,6 +6637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inga sparade citat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydedilmiş alıntı yok"
           }
         }
       },
@@ -6518,6 +6788,12 @@
             "state" : "translated",
             "value" : "Praktiska tips"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kullanışlı ipuçları"
+          }
         }
       }
     },
@@ -6661,6 +6937,12 @@
             "state" : "translated",
             "value" : "På iPad kan du hitta och bläddra bland böcker och citat med enbart tangentbordet."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPad’de kitapları ve alıntıları yalnızca klavyeyle bul ve gez."
+          }
         }
       }
     },
@@ -6802,6 +7084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inga böcker ännu"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz kitap yok"
           }
         }
       },
@@ -6946,6 +7234,12 @@
             "state" : "translated",
             "value" : "Inga meningar har valts ännu"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Henüz seçilmiş cümle yok"
+          }
         }
       },
       "comment" : "none_sel"
@@ -7088,6 +7382,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du har inte sparat några citat från den här boken ännu.\nTryck på knappen nedan för att spara det första."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu kitaptan henüz kaydedilmiş alıntı yok.\nİlkini kaydetmek için aşağıdaki düğmeye dokun."
           }
         }
       },
@@ -7233,6 +7533,12 @@
             "state" : "translated",
             "value" : "Diskreta tips om användbara funktioner, precis när du behöver dem."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Faydalı özellikler hakkında tam ihtiyaç duyduğun anda nazik ipuçları."
+          }
         }
       }
     },
@@ -7374,6 +7680,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Välj från Bilder"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraflar’dan Seç"
           }
         }
       },
@@ -7519,6 +7831,12 @@
             "state" : "translated",
             "value" : "Använd hela appen även på engelska."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uygulamanın tamamını İngilizce de kullan."
+          }
         }
       }
     },
@@ -7661,6 +7979,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Güncellemeden sonra ilk açtığında nelerin yeni olduğunu görürsün."
           }
         }
       }
@@ -7805,6 +8129,12 @@
             "state" : "translated",
             "value" : "Nyheter"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yenilikler"
+          }
         }
       }
     },
@@ -7946,6 +8276,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yok"
           }
         }
       },
@@ -8091,6 +8427,12 @@
             "state" : "translated",
             "value" : "Fullt stöd för engelska"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tam İngilizce desteği"
+          }
         }
       }
     },
@@ -8232,6 +8574,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dagens citat"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günün Alıntısı"
           }
         }
       },
@@ -8377,6 +8725,12 @@
             "state" : "translated",
             "value" : "Påminnelse om dagens citat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günün alıntısı hatırlatıcısı"
+          }
         }
       }
     },
@@ -8519,6 +8873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reducera rörelse"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi Azalt"
           }
         }
       }
@@ -8663,6 +9023,12 @@
             "state" : "translated",
             "value" : "Med Reducera rörelse på blir effekterna på skärmen lugnare."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hareketi Azalt açıkken ekran efektleri daha sakin olur."
+          }
         }
       }
     },
@@ -8804,6 +9170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Återställ zoom"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yakınlaştırmayı Sıfırla"
           }
         }
       },
@@ -8947,6 +9319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Originalfoto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Orijinal Fotoğraf"
           }
         }
       },
@@ -9092,6 +9470,12 @@
             "state" : "translated",
             "value" : "Radera alla dina böcker och citat direkt i appen."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm kitaplarını ve alıntılarını doğrudan uygulamadan sil."
+          }
         }
       }
     },
@@ -9233,6 +9617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv varför du gillade den här meningen"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu cümleyi neden sevdiğini yaz"
           }
         }
       },
@@ -9377,6 +9767,12 @@
             "state" : "translated",
             "value" : "Vill du radera den här boken och alla dess citat?"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bu kitap ve tüm alıntıları silinsin mi?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -9519,6 +9915,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flytta"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taşı"
           }
         }
       },
@@ -9663,6 +10065,12 @@
             "state" : "translated",
             "value" : "Flyttar"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Taşınıyor"
+          }
         }
       },
       "comment" : "moving"
@@ -9805,6 +10213,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dela som bild"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Görsel Olarak Paylaş"
           }
         }
       },
@@ -9949,6 +10363,12 @@
             "state" : "translated",
             "value" : "Igenkänningen misslyckades"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tanıma Başarısız"
+          }
         }
       },
       "comment" : "fail_title"
@@ -10091,6 +10511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otomatik"
           }
         }
       },
@@ -10235,6 +10661,12 @@
             "state" : "translated",
             "value" : "Författare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yazar"
+          }
         }
       },
       "comment" : "author"
@@ -10377,6 +10809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Spara"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaydet"
           }
         }
       },
@@ -10521,6 +10959,12 @@
             "state" : "translated",
             "value" : "Rensa allt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tümünü Temizle"
+          }
         }
       },
       "comment" : "clear_all"
@@ -10663,6 +11107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bilgi"
           }
         }
       },
@@ -10808,6 +11258,12 @@
             "state" : "translated",
             "value" : "Få ett av dina sparade citat som avisering vid den tidpunkt du väljer."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Belirlediğin saatte kaydettiğin alıntılardan birini bildirim olarak al."
+          }
         }
       }
     },
@@ -10949,6 +11405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titel"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlık"
           }
         }
       },
@@ -11093,6 +11555,12 @@
             "state" : "translated",
             "value" : "Säkerhet för titeln: %lld %%"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Başlık güvenilirliği: %%%lld"
+          }
         }
       },
       "comment" : "conf"
@@ -11235,6 +11703,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorit"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favori"
           }
         }
       },
@@ -11607,6 +12081,24 @@
               }
             }
           }
+        },
+        "tr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Şimdiye kadar %lld kitap topladın"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Şimdiye kadar %lld kitap topladın"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -11749,6 +12241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suddgummi"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silgi"
           }
         }
       },
@@ -11893,6 +12391,12 @@
             "state" : "translated",
             "value" : "Suddgummi på"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Silgi Açık"
+          }
         }
       },
       "comment" : "erase_on"
@@ -12035,6 +12539,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Support"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Destek"
           }
         }
       },
@@ -12179,6 +12689,12 @@
             "state" : "translated",
             "value" : "Bok"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitap"
+          }
         }
       },
       "comment" : "book"
@@ -12321,6 +12837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bokinformation (kan redigeras)"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitap Bilgileri (düzenlenebilir)"
           }
         }
       },
@@ -12465,6 +12987,12 @@
             "state" : "translated",
             "value" : "Lägg till bok"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitap Ekle"
+          }
         }
       },
       "comment" : "add_book"
@@ -12607,6 +13135,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bokomslag"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kitap Kapağı"
           }
         }
       },
@@ -12752,6 +13286,12 @@
             "state" : "translated",
             "value" : "Introduktion för nya användare"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yeni kullanıcılar için tanıtım"
+          }
         }
       }
     },
@@ -12895,6 +13435,12 @@
             "state" : "translated",
             "value" : "Första gången du öppnar appen får du en snabb titt på vad den kan."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk açtığında uygulamanın neler yapabildiğini kısaca görürsün."
+          }
         }
       }
     },
@@ -13036,6 +13582,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lägg till din första bok"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "İlk Kitabını Ekle"
           }
         }
       },
@@ -13180,6 +13732,12 @@
             "state" : "translated",
             "value" : "Hämtad text"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alınan Metin"
+          }
         }
       },
       "comment" : "extracted"
@@ -13323,6 +13881,12 @@
             "state" : "translated",
             "value" : "Avbryt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vazgeç"
+          }
         }
       },
       "comment" : "cancel"
@@ -13465,6 +14029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta foto"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoğraf Çek"
           }
         }
       },
@@ -13610,6 +14180,12 @@
             "state" : "translated",
             "value" : "Skärmar för stor text"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Büyük yazıya uygun ekranlar"
+          }
         }
       }
     },
@@ -13753,6 +14329,12 @@
             "state" : "translated",
             "value" : "Styrning med tangentbord"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Klavye ile kontrol"
+          }
         }
       }
     },
@@ -13894,6 +14476,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ett fel uppstod vid textigenkänningen. Försök igen."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin tanınırken bir hata oluştu. Lütfen tekrar dene."
           }
         }
       },
@@ -14038,6 +14626,12 @@
             "state" : "translated",
             "value" : "Dela som text"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Metin Olarak Paylaş"
+          }
         }
       },
       "comment" : "share_text"
@@ -14180,6 +14774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sida"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sayfa"
           }
         }
       },
@@ -14324,6 +14924,12 @@
             "state" : "translated",
             "value" : "Placera de fyra punkterna vid sidans hörn"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dört noktayı sayfanın köşelerine oturt"
+          }
         }
       },
       "comment" : "corners"
@@ -14467,6 +15073,12 @@
             "state" : "translated",
             "value" : "Hela sidan"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tüm Sayfa"
+          }
         }
       },
       "comment" : "whole_page"
@@ -14609,6 +15221,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sidan rätas ut åt dig. Dra sedan fingret över de meningar du vill välja."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sayfa senin için düzeltilir. Sonra seçmek istediğin cümlelerin üzerinden parmağını kaydır."
           }
         }
       },
@@ -14754,6 +15372,12 @@
             "state" : "translated",
             "value" : "Layout för vikbar iPhone"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone düzeni"
+          }
         }
       }
     },
@@ -14897,6 +15521,12 @@
             "state" : "translated",
             "value" : "Använd den breda skärmen på en vikbar iPhone som två rutor sida vid sida."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Katlanabilir iPhone’un geniş ekranını yan yana iki bölme olarak kullan."
+          }
         }
       }
     },
@@ -15038,6 +15668,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografera även (eller bara) streckkoden på baksidan, så känns ISBN igen automatiskt."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Arka kapaktaki barkodu da (ya da sadece onu) çekersen ISBN otomatik tanınır."
           }
         }
       },
@@ -15182,6 +15818,12 @@
             "state" : "translated",
             "value" : "Läser omslaget …"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapak okunuyor…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -15325,6 +15967,12 @@
             "state" : "translated",
             "value" : "Fotografera omslaget så läses titel och författare automatiskt"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kapağın fotoğrafını çek, başlık ve yazar otomatik okunsun"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -15467,6 +16115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Börja med att fotografera ett omslag.\nTitel och författare läses automatiskt."
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bir kapak fotoğrafı çekerek başla.\nBaşlık ve yazar otomatik okunur."
           }
         }
       },
@@ -15612,6 +16266,12 @@
             "state" : "translated",
             "value" : "Fortsätt där du slutade"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaldığın yerden devam et"
+          }
         }
       }
     },
@@ -15755,6 +16415,12 @@
             "state" : "translated",
             "value" : "VoiceOver läser upp alla böcker, citat och knappar i rätt ordning."
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver her kitabı, alıntıyı ve düğmeyi doğru sırayla okur."
+          }
         }
       }
     },
@@ -15896,6 +16562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tamam"
           }
         }
       },

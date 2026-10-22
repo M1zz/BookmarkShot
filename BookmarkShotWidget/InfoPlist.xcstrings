@@ -140,6 +140,12 @@
             "state" : "translated",
             "value" : "Dagens citat"
           }
+        },
+        "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Günün Alıntısı"
+          }
         }
       }
     }

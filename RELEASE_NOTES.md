@@ -163,6 +163,13 @@ Skicka feedback och betyg där.
 Appens version ser du också där.
 Appen är finslipad och stabilare.
 
+### 앱스토어 (tr)
+
+Yepyeni bir Ayarlar ekranı geldi.
+Geri bildirim ve yorumu Ayarlar’dan yap.
+Uygulama sürümünü de orada görürsün.
+Uygulamayı daha kararlı hâle getirdik.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"
