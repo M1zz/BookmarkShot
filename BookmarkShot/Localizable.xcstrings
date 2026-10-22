@@ -75,6 +75,12 @@
             "state" : "translated",
             "value" : "Bloqueio com Face ID"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกด้วย Face ID"
+          }
         }
       }
     },
@@ -152,6 +158,12 @@
             "state" : "translated",
             "value" : "Bloqueie o app com Face ID ou Touch ID para proteger seus trechos."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อปกป้องประโยคที่คุณเก็บไว้"
+          }
         }
       }
     },
@@ -227,6 +239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (opcional)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (ไม่บังคับ)"
           }
         }
       },
@@ -306,6 +324,12 @@
             "state" : "translated",
             "value" : "Abra o trecho do dia na hora, falando com a Siri ou com um atalho."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บอก Siri หรือใช้คำสั่งลัดเพื่อเปิดประโยคประจำวันได้ทันที"
+          }
         }
       }
     },
@@ -382,6 +406,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri e Atalhos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri และคำสั่งลัด"
           }
         }
       }
@@ -460,6 +490,12 @@
             "state" : "translated",
             "value" : "Mais conforto com o VoiceOver"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้ VoiceOver ได้สบายขึ้น"
+          }
         }
       }
     },
@@ -535,6 +571,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartilhar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แชร์"
           }
         }
       },
@@ -613,6 +655,12 @@
             "state" : "translated",
             "value" : "Extrair texto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ดึงข้อความ"
+          }
         }
       },
       "comment" : "extract"
@@ -690,6 +738,12 @@
             "state" : "translated",
             "value" : "Salvar trecho"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บประโยค"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -766,6 +820,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A nota que você deixou"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกที่คุณเขียนไว้ตอนนั้น"
           }
         }
       },
@@ -845,6 +905,12 @@
             "state" : "translated",
             "value" : "Ao aumentar o tamanho do texto, o conteúdo se reorganiza em vez de ser cortado."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อขยายขนาดตัวอักษร เนื้อหาจะจัดเรียงใหม่อย่างเหมาะสม ไม่ถูกตัดขาด"
+          }
         }
       }
     },
@@ -920,6 +986,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lendo o texto…"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังอ่านข้อความ…"
           }
         }
       },
@@ -999,6 +1071,12 @@
             "state" : "translated",
             "value" : "Apagar todos os meus dados"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบข้อมูลของฉันในครั้งเดียว"
+          }
         }
       }
     },
@@ -1074,6 +1152,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Outro trecho"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคอื่น"
           }
         }
       },
@@ -1152,6 +1236,12 @@
             "state" : "translated",
             "value" : "Ainda não há trechos para reler"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีประโยคให้ย้อนอ่าน"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1228,6 +1318,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fechar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปิด"
           }
         }
       },
@@ -1307,6 +1403,12 @@
             "state" : "translated",
             "value" : "Tudo continua fácil de ler, mesmo com Aumentar Contraste ou se for difícil distinguir cores."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านเนื้อหาได้ง่าย แม้เปิดเพิ่มคอนทราสต์ หรือแยกสีได้ยาก"
+          }
         }
       }
     },
@@ -1383,6 +1485,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Use o app em mais idiomas."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปได้ในอีกหลายภาษา"
           }
         }
       }
@@ -1461,6 +1569,12 @@
             "state" : "translated",
             "value" : "Mais idiomas"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ภาษาที่มากขึ้น"
+          }
         }
       }
     },
@@ -1536,6 +1650,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tire uma foto da página\ncom o trecho de que você gosta"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายหน้าหนังสือ\nที่มีประโยคที่คุณชอบ"
           }
         }
       },
@@ -1613,6 +1733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nota"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก"
           }
         }
       },
@@ -1692,6 +1818,12 @@
             "state" : "translated",
             "value" : "Salve seus livros e trechos em um arquivo e traga de volta quando quiser."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึกหนังสือและประโยคเป็นไฟล์ แล้วนำกลับมาใช้ภายหลังได้"
+          }
         }
       }
     },
@@ -1767,6 +1899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trechos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยค"
           }
         }
       },
@@ -1845,6 +1983,12 @@
             "state" : "translated",
             "value" : "Deslize o dedo sobre a frase · Use dois dedos para ampliar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลากนิ้วผ่านประโยค · ถ่างสองนิ้วเพื่อขยาย"
+          }
         }
       },
       "comment" : "swipe"
@@ -1922,6 +2066,12 @@
             "state" : "translated",
             "value" : "Cartão do trecho"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การ์ดประโยค"
+          }
         }
       },
       "comment" : "card"
@@ -1998,6 +2148,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Buscar trechos, notas e títulos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ค้นหาประโยค บันทึก ชื่อหนังสือ"
           }
         }
       },
@@ -2077,6 +2233,12 @@
             "state" : "translated",
             "value" : "Sua seleção é mantida, mesmo que o app feche enquanto você escolhe um trecho."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สิ่งที่เลือกไว้ยังอยู่ แม้แอปจะปิดไประหว่างที่กำลังเลือกประโยค"
+          }
         }
       }
     },
@@ -2154,6 +2316,12 @@
             "state" : "translated",
             "value" : "Uma leve vibração ao sublinhar ou salvar um trecho."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สั่นเบา ๆ เมื่อคุณขีดเส้นใต้หรือบันทึกประโยค"
+          }
         }
       }
     },
@@ -2230,6 +2398,12 @@
             "state" : "translated",
             "value" : "Salve um trecho e você vai reencontrar\num por dia aqui."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บประโยคไว้ แล้วคุณจะได้พบกับ\nประโยคหนึ่งที่นี่ทุกวัน"
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -2303,6 +2477,12 @@
           }
         },
         "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "th" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -2385,6 +2565,12 @@
             "state" : "translated",
             "value" : "Backup e exportação"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สำรองข้อมูลและส่งออก"
+          }
         }
       }
     },
@@ -2462,6 +2648,12 @@
             "state" : "translated",
             "value" : "Cores e contraste mais confortáveis"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สีและคอนทราสต์ที่อ่านง่าย"
+          }
         }
       }
     },
@@ -2537,6 +2729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Não encontramos texto na foto. Confira o foco e a iluminação e tente de novo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่พบข้อความในรูป ลองตรวจสอบโฟกัสและแสงสว่าง แล้วถ่ายใหม่อีกครั้ง"
           }
         }
       },
@@ -2615,6 +2813,12 @@
             "state" : "translated",
             "value" : "Excluir"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบ"
+          }
         }
       },
       "comment" : "delete"
@@ -2691,6 +2895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biblioteca"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชั้นหนังสือ"
           }
         }
       },
@@ -2769,6 +2979,12 @@
             "state" : "translated",
             "value" : "Escolha um livro na biblioteca e fotografe uma página."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกหนังสือจากชั้นหนังสือ แล้วถ่ายหน้ากระดาษ"
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -2845,6 +3061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajustes"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตั้งค่า"
           }
         }
       },
@@ -2924,6 +3146,12 @@
             "state" : "translated",
             "value" : "Resposta tátil"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "การตอบสนองที่ปลายนิ้ว"
+          }
         }
       }
     },
@@ -2999,6 +3227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trecho"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคที่เก็บ"
           }
         }
       },
@@ -3185,6 +3419,12 @@
               }
             }
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บไว้ %lld ประโยค"
+          }
         }
       },
       "comment" : "scrap_count"
@@ -3261,6 +3501,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Excluir trecho"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบประโยคที่เก็บ"
           }
         }
       },
@@ -3339,6 +3585,12 @@
             "state" : "translated",
             "value" : "Trechos salvos"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคที่เก็บไว้"
+          }
         }
       },
       "comment" : "scraped"
@@ -3415,6 +3667,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhum trecho salvo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีประโยคที่เก็บไว้"
           }
         }
       },
@@ -3494,6 +3752,12 @@
             "state" : "translated",
             "value" : "Dicas úteis"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เคล็ดลับการใช้งาน"
+          }
         }
       }
     },
@@ -3571,6 +3835,12 @@
             "state" : "translated",
             "value" : "No iPad, encontre e percorra livros e trechos só com o teclado."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บน iPad ค้นหาและเปิดดูหนังสือกับประโยคได้ด้วยคีย์บอร์ดอย่างเดียว"
+          }
         }
       }
     },
@@ -3646,6 +3916,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ainda não há livros"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีหนังสือ"
           }
         }
       },
@@ -3724,6 +4000,12 @@
             "state" : "translated",
             "value" : "Nenhuma frase selecionada ainda"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่ได้เลือกประโยคใด"
+          }
         }
       },
       "comment" : "none_sel"
@@ -3800,6 +4082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Você ainda não salvou trechos deste livro.\nToque no botão abaixo para salvar o primeiro."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีประโยคที่เก็บจากหนังสือเล่มนี้\nแตะปุ่มด้านล่างเพื่อเก็บประโยคแรก"
           }
         }
       },
@@ -3879,6 +4167,12 @@
             "state" : "translated",
             "value" : "Dicas discretas sobre recursos úteis, na hora certa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แนะนำฟีเจอร์ที่ใช้งานง่ายอย่างนุ่มนวล ในจังหวะที่เหมาะสม"
+          }
         }
       }
     },
@@ -3954,6 +4248,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Escolher de Fotos"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลือกจากอัลบั้ม"
           }
         }
       },
@@ -4033,6 +4333,12 @@
             "state" : "translated",
             "value" : "Use o app inteiro também em inglês."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้แอปทั้งหมดเป็นภาษาอังกฤษได้ด้วย"
+          }
         }
       }
     },
@@ -4109,6 +4415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na primeira vez que abrir após uma atualização, veja o que há de novo."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
           }
         }
       }
@@ -4187,6 +4499,12 @@
             "state" : "translated",
             "value" : "Novidades"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มีอะไรใหม่"
+          }
         }
       }
     },
@@ -4262,6 +4580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhuma"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ไม่มี"
           }
         }
       },
@@ -4341,6 +4665,12 @@
             "state" : "translated",
             "value" : "Suporte completo ao inglês"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
+          }
         }
       }
     },
@@ -4416,6 +4746,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trecho do dia"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคประจำวัน"
           }
         }
       },
@@ -4495,6 +4831,12 @@
             "state" : "translated",
             "value" : "Lembrete do trecho do dia"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แจ้งเตือนประโยคประจำวัน"
+          }
         }
       }
     },
@@ -4571,6 +4913,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduzir movimento"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลดการเคลื่อนไหว"
           }
         }
       }
@@ -4649,6 +4997,12 @@
             "state" : "translated",
             "value" : "Com Reduzir Movimento ativado, os efeitos na tela ficam mais suaves."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
+          }
         }
       }
     },
@@ -4724,6 +5078,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Restaurar zoom"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คืนค่าการซูม"
           }
         }
       },
@@ -4801,6 +5161,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto original"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รูปต้นฉบับ"
           }
         }
       },
@@ -4880,6 +5246,12 @@
             "state" : "translated",
             "value" : "Exclua todos os seus livros e trechos direto no app."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หากต้องการ ลบหนังสือและประโยคที่เก็บไว้ทั้งหมดได้ในแอปเลย"
+          }
         }
       }
     },
@@ -4955,6 +5327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Anote por que essa frase tocou você"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จดไว้ว่าทำไมประโยคนี้ถึงถูกใจคุณ"
           }
         }
       },
@@ -5033,6 +5411,12 @@
             "state" : "translated",
             "value" : "Excluir este livro e todos os trechos?"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลบหนังสือเล่มนี้และประโยคทั้งหมดหรือไม่"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -5109,6 +5493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mover"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เลื่อน"
           }
         }
       },
@@ -5187,6 +5577,12 @@
             "state" : "translated",
             "value" : "Movendo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังเลื่อน"
+          }
         }
       },
       "comment" : "moving"
@@ -5263,6 +5659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Compartilhar como imagem"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แชร์เป็นรูปภาพ"
           }
         }
       },
@@ -5341,6 +5743,12 @@
             "state" : "translated",
             "value" : "Falha no reconhecimento"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อ่านข้อความไม่สำเร็จ"
+          }
         }
       },
       "comment" : "fail_title"
@@ -5417,6 +5825,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "อัตโนมัติ"
           }
         }
       },
@@ -5495,6 +5909,12 @@
             "state" : "translated",
             "value" : "Autor"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ผู้แต่ง"
+          }
         }
       },
       "comment" : "author"
@@ -5571,6 +5991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Salvar"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "บันทึก"
           }
         }
       },
@@ -5649,6 +6075,12 @@
             "state" : "translated",
             "value" : "Limpar tudo"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ล้างทั้งหมด"
+          }
         }
       },
       "comment" : "clear_all"
@@ -5725,6 +6157,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informações"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูล"
           }
         }
       },
@@ -5804,6 +6242,12 @@
             "state" : "translated",
             "value" : "Receba um dos seus trechos salvos como notificação no horário que escolher."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รับประโยคที่เก็บไว้หนึ่งประโยคเป็นการแจ้งเตือนตามเวลาที่คุณตั้ง"
+          }
         }
       }
     },
@@ -5879,6 +6323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Título"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ชื่อเรื่อง"
           }
         }
       },
@@ -5957,6 +6407,12 @@
             "state" : "translated",
             "value" : "Confiança do título: %lld%%"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ความมั่นใจในการอ่านชื่อเรื่อง %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -6033,6 +6489,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorito"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "รายการโปรด"
           }
         }
       },
@@ -6219,6 +6681,12 @@
               }
             }
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "สะสมมาแล้ว %lld เล่ม"
+          }
         }
       },
       "comment" : "collected"
@@ -6295,6 +6763,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Borracha"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยางลบ"
           }
         }
       },
@@ -6373,6 +6847,12 @@
             "state" : "translated",
             "value" : "Borracha ativada"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยางลบ เปิด"
+          }
         }
       },
       "comment" : "erase_on"
@@ -6449,6 +6929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Suporte"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ช่วยเหลือ"
           }
         }
       },
@@ -6527,6 +7013,12 @@
             "state" : "translated",
             "value" : "Livro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หนังสือ"
+          }
         }
       },
       "comment" : "book"
@@ -6603,6 +7095,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dados do livro (editáveis)"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อมูลหนังสือ (แก้ไขได้)"
           }
         }
       },
@@ -6681,6 +7179,12 @@
             "state" : "translated",
             "value" : "Adicionar livro"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มหนังสือ"
+          }
         }
       },
       "comment" : "add_book"
@@ -6757,6 +7261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Capa do livro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ปกหนังสือ"
           }
         }
       },
@@ -6836,6 +7346,12 @@
             "state" : "translated",
             "value" : "Guia para quem está começando"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "คำแนะนำสำหรับผู้เริ่มใช้"
+          }
         }
       }
     },
@@ -6913,6 +7429,12 @@
             "state" : "translated",
             "value" : "Na primeira vez que abrir, veja rapidamente o que o app faz."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เมื่อเปิดครั้งแรก จะแสดงสั้น ๆ ว่าแอปทำอะไรได้บ้าง"
+          }
         }
       }
     },
@@ -6988,6 +7510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Adicionar seu primeiro livro"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เพิ่มหนังสือเล่มแรก"
           }
         }
       },
@@ -7066,6 +7594,12 @@
             "state" : "translated",
             "value" : "Texto extraído"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ข้อความที่ดึงได้"
+          }
         }
       },
       "comment" : "extracted"
@@ -7143,6 +7677,12 @@
             "state" : "translated",
             "value" : "Cancelar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยกเลิก"
+          }
         }
       },
       "comment" : "cancel"
@@ -7219,6 +7759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tirar foto"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายรูป"
           }
         }
       },
@@ -7298,6 +7844,12 @@
             "state" : "translated",
             "value" : "Telas para texto grande"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอสำหรับตัวอักษรใหญ่"
+          }
         }
       }
     },
@@ -7375,6 +7927,12 @@
             "state" : "translated",
             "value" : "Controle pelo teclado"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ควบคุมด้วยคีย์บอร์ด"
+          }
         }
       }
     },
@@ -7450,6 +8008,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ocorreu um erro ao reconhecer o texto. Tente novamente."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เกิดข้อผิดพลาดขณะอ่านข้อความ โปรดลองอีกครั้ง"
           }
         }
       },
@@ -7528,6 +8092,12 @@
             "state" : "translated",
             "value" : "Compartilhar como texto"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แชร์เป็นข้อความ"
+          }
         }
       },
       "comment" : "share_text"
@@ -7604,6 +8174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Página"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้า"
           }
         }
       },
@@ -7682,6 +8258,12 @@
             "state" : "translated",
             "value" : "Alinhe os quatro pontos aos cantos da página"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "จัดจุดทั้งสี่ให้ตรงมุมของหน้ากระดาษ"
+          }
         }
       },
       "comment" : "corners"
@@ -7759,6 +8341,12 @@
             "state" : "translated",
             "value" : "Página inteira"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทั้งหน้า"
+          }
         }
       },
       "comment" : "whole_page"
@@ -7835,6 +8423,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "A página é endireitada para você. Depois, passe o dedo sobre as frases que quiser para selecioná-las."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "แอปจะปรับหน้ากระดาษให้ตรงให้เอง จากนั้นใช้นิ้วลากผ่านประโยคที่ต้องการเพื่อเลือก"
           }
         }
       },
@@ -7914,6 +8508,12 @@
             "state" : "translated",
             "value" : "Layout para iPhone dobrável"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "หน้าจอสำหรับ iPhone พับได้"
+          }
         }
       }
     },
@@ -7991,6 +8591,12 @@
             "state" : "translated",
             "value" : "Aproveite a tela larga de um iPhone dobrável com dois painéis lado a lado."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้หน้าจอกว้างของ iPhone พับได้แบ่งเป็นสองส่วนเคียงข้างกัน"
+          }
         }
       }
     },
@@ -8066,6 +8672,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotografe também (ou só) o código de barras da quarta capa, e o ISBN é reconhecido automaticamente."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายบาร์โค้ดที่ปกหลังด้วย (หรือแทนปกหน้า) แล้ว ISBN จะถูกอ่านให้อัตโนมัติ"
           }
         }
       },
@@ -8144,6 +8756,12 @@
             "state" : "translated",
             "value" : "Lendo a capa…"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "กำลังอ่านปกหนังสือ…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -8221,6 +8839,12 @@
             "state" : "translated",
             "value" : "Fotografe a capa e o título e o autor são lidos automaticamente"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ถ่ายปกหนังสือ แล้วชื่อเรื่องและผู้แต่งจะถูกอ่านให้อัตโนมัติ"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -8297,6 +8921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Comece fotografando uma capa.\nO título e o autor são lidos automaticamente."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เริ่มต้นด้วยการถ่ายปกหนังสือสักภาพ\nชื่อเรื่องและผู้แต่งจะถูกอ่านให้อัตโนมัติ"
           }
         }
       },
@@ -8376,6 +9006,12 @@
             "state" : "translated",
             "value" : "Continue de onde parou"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ทำต่อจากที่ค้างไว้"
+          }
         }
       }
     },
@@ -8453,6 +9089,12 @@
             "state" : "translated",
             "value" : "O VoiceOver lê todos os livros, trechos e botões, na ordem certa."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver อ่านหนังสือ ประโยค และปุ่มต่าง ๆ ครบทุกอย่าง ตามลำดับที่ถูกต้อง"
+          }
         }
       }
     },
@@ -8528,6 +9170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ตกลง"
           }
         }
       },

@@ -74,6 +74,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -150,6 +156,12 @@
             "state" : "translated",
             "value" : "A câmera é usada para fotografar capas e páginas de livros e extrair os trechos."
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ใช้กล้องเพื่อถ่ายปกและหน้าหนังสือ แล้วดึงประโยคออกมา"
+          }
         }
       }
     },
@@ -225,6 +237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O acesso às fotos serve para extrair trechos de imagens de livros que você já tirou."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เข้าถึงคลังรูปภาพเพื่อดึงประโยคจากรูปหนังสือที่คุณถ่ายไว้แล้ว"
           }
         }
       }

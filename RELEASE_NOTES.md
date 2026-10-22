@@ -86,6 +86,13 @@ Envie feedback e avalie pelos Ajustes.
 A versão do app também aparece lá.
 Deixamos o app mais estável.
 
+### 앱스토어 (th)
+
+มีหน้าจอตั้งค่าใหม่แล้ว
+ส่งความเห็นและรีวิวได้ในการตั้งค่า
+ดูเวอร์ชันของแอปในการตั้งค่าได้เลย
+ปรับปรุงให้แอปทำงานเสถียรขึ้น
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

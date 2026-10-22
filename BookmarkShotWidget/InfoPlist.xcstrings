@@ -74,6 +74,12 @@
             "state" : "translated",
             "value" : "Trecho do dia"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคประจำวัน"
+          }
         }
       }
     }

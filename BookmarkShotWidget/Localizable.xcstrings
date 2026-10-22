@@ -75,6 +75,12 @@
             "state" : "translated",
             "value" : "Salve um trecho para começar"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ลองเก็บประโยคแรกดูสิ"
+          }
         }
       }
     },
@@ -260,6 +266,12 @@
               }
             }
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "มี %lld ประโยคให้ย้อนอ่าน"
+          }
         }
       }
     },
@@ -336,6 +348,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nenhum trecho salvo"
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ยังไม่มีประโยคที่เก็บไว้"
           }
         }
       }
@@ -414,6 +432,12 @@
             "state" : "translated",
             "value" : "Salve um trecho e você o\nreencontra aqui todo dia"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "เก็บประโยคไว้ แล้วจะได้พบกัน\nที่นี่ทุกวัน"
+          }
         }
       }
     },
@@ -491,6 +515,12 @@
             "state" : "translated",
             "value" : "Trecho do dia"
           }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ประโยคประจำวัน"
+          }
         }
       }
     },
@@ -567,6 +597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Todo dia, um dos trechos que você salvou. Se houver favoritos, ele é escolhido entre eles."
+          }
+        },
+        "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "พบกับประโยคที่คุณเก็บไว้วันละหนึ่งประโยค ถ้ามีรายการโปรด จะสุ่มจากในนั้น"
           }
         }
       }

@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -106,6 +106,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Uma biblioteca<br>feita de capas", "Título e autor são lidos da foto"),
         ("04-quotes.png", "flat-rotate", "Todos os trechos<br>num só lugar", "Encontre pelo título do livro ou pela nota"),
         ("05-daily.png", "dark", "Um trecho<br>para cada dia", "Widget sempre à mão e cartão para compartilhar"),
+    ],
+    "th": [
+        ("01-highlight.png", "hero-bleed", "ลากนิ้วเน้นข้อความ<br>เหมือนปากกาไฮไลต์", "เฉพาะประโยคที่ลากเท่านั้นที่กลายเป็นข้อความ"),
+        ("02-region.png", "left-text", "ถ่ายเอียงก็ไม่เป็นไร<br>ปรับให้ตรงเอง", "จัดมุมทั้งสี่ให้ตรง หน้ากระดาษก็เรียบเหมือนจริง"),
+        ("03-library.png", "text-bottom", "แค่ถ่ายปกเล่มเดียว<br>ก็ได้ชั้นหนังสือ", "ชื่อเรื่องและผู้แต่งอ่านจากรูปให้เอง"),
+        ("04-quotes.png", "flat-rotate", "ประโยคที่เก็บไว้<br>รวมอยู่ที่เดียว", "ค้นหาจากชื่อหนังสือหรือบันทึกได้ทันที"),
+        ("05-daily.png", "dark", "พบประโยคเด็ด<br>ทุกวัน", "มีวิดเจ็ตติดตัว และแชร์เป็นการ์ดได้"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────
