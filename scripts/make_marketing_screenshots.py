@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -120,6 +120,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Tủ sách làm từ<br>những tấm bìa", "Tên sách và tác giả được đọc từ ảnh"),
         ("04-quotes.png", "flat-rotate", "Mọi câu đã lưu<br>ở một nơi", "Tìm theo tên sách hoặc ghi chú"),
         ("05-daily.png", "dark", "Mỗi ngày gặp lại<br>một câu hay", "Widget luôn bên cạnh, thẻ để chia sẻ"),
+    ],
+    "cs": [
+        ("01-highlight.png", "hero-bleed", "Přejeďte prstem<br>jako zvýrazňovačem", "Na text se převedou jen označené věty"),
+        ("02-region.png", "left-text", "Šikmá fotka?<br>Narovná se", "Srovnejte čtyři rohy a stránka je rovná jako papír"),
+        ("03-library.png", "text-bottom", "Knihovna<br>z obálek", "Název a autor se přečtou z fotky"),
+        ("04-quotes.png", "flat-rotate", "Všechny citáty<br>na jednom místě", "Najdete je podle názvu knihy nebo poznámky"),
+        ("05-daily.png", "dark", "Citát na<br>každý den", "Widget máte po ruce, kartu můžete sdílet"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

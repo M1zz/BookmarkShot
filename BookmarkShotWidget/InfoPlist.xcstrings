@@ -86,6 +86,12 @@
             "state" : "translated",
             "value" : "Câu của hôm nay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citát dne"
+          }
         }
       }
     }

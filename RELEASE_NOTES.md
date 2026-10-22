@@ -100,6 +100,13 @@ Gửi góp ý, đánh giá ngay trong Cài đặt.
 Xem phiên bản ứng dụng cũng ở đó.
 Ứng dụng được tinh chỉnh để ổn định hơn.
 
+### 앱스토어 (cs)
+
+Přibyla nová obrazovka Nastavení.
+Hodnocení a zpětná vazba v Nastavení.
+Verzi aplikace uvidíte také tam.
+Aplikaci jsme vyladili, běží stabilněji.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

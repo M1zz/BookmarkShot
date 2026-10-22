@@ -86,6 +86,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -174,6 +180,12 @@
             "state" : "translated",
             "value" : "Camera được dùng để chụp bìa và trang sách nhằm trích xuất các câu văn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotoaparát slouží k focení obálek a stránek knih, ze kterých se přebírají věty."
+          }
         }
       }
     },
@@ -261,6 +273,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Truy cập thư viện ảnh để trích xuất câu văn từ những ảnh sách bạn đã chụp."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přístup k fotkám slouží k přebírání vět z už pořízených snímků knih."
           }
         }
       }

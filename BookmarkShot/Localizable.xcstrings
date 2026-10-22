@@ -87,6 +87,12 @@
             "state" : "translated",
             "value" : "Khóa bằng Face ID"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zámek přes Face ID"
+          }
         }
       }
     },
@@ -176,6 +182,12 @@
             "state" : "translated",
             "value" : "Khóa ứng dụng bằng Face ID hoặc Touch ID để bảo vệ những câu bạn đã lưu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zamkněte aplikaci přes Face ID nebo Touch ID a ochraňte své citáty."
+          }
         }
       }
     },
@@ -263,6 +275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (không bắt buộc)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (nepovinné)"
           }
         }
       },
@@ -354,6 +372,12 @@
             "state" : "translated",
             "value" : "Mở ngay câu của hôm nay bằng Siri hoặc phím tắt."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citát dne otevřete hned hlasem přes Siri nebo zkratkou."
+          }
         }
       }
     },
@@ -442,6 +466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri và Phím tắt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri a Zkratky"
           }
         }
       }
@@ -532,6 +562,12 @@
             "state" : "translated",
             "value" : "Dùng VoiceOver thoải mái hơn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pohodlnější s VoiceOver"
+          }
         }
       }
     },
@@ -619,6 +655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chia sẻ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílet"
           }
         }
       },
@@ -709,6 +751,12 @@
             "state" : "translated",
             "value" : "Trích xuất văn bản"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Převzít text"
+          }
         }
       },
       "comment" : "extract"
@@ -798,6 +846,12 @@
             "state" : "translated",
             "value" : "Lưu câu văn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit citát"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -886,6 +940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ghi chú bạn đã để lại"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznámka z tehdy"
           }
         }
       },
@@ -977,6 +1037,12 @@
             "state" : "translated",
             "value" : "Khi tăng cỡ chữ, nội dung được sắp xếp lại gọn gàng thay vì bị cắt mất."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Když zvětšíte písmo, obsah se přeskupí a nic se neořízne."
+          }
         }
       }
     },
@@ -1064,6 +1130,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đang đọc chữ…"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čtu text…"
           }
         }
       },
@@ -1155,6 +1227,12 @@
             "state" : "translated",
             "value" : "Xóa toàn bộ dữ liệu của tôi"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazání všech mých dat"
+          }
         }
       }
     },
@@ -1242,6 +1320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu khác"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jiný citát"
           }
         }
       },
@@ -1332,6 +1416,12 @@
             "state" : "translated",
             "value" : "Chưa có câu nào để đọc lại"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím není co znovu číst"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1420,6 +1510,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đóng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zavřít"
           }
         }
       },
@@ -1511,6 +1607,12 @@
             "state" : "translated",
             "value" : "Nội dung vẫn dễ đọc, kể cả khi bật tăng độ tương phản hoặc khó phân biệt màu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vše zůstane dobře čitelné, i se zvýšeným kontrastem nebo když se špatně rozlišují barvy."
+          }
         }
       }
     },
@@ -1599,6 +1701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Používejte aplikaci ve více jazycích."
           }
         }
       }
@@ -1689,6 +1797,12 @@
             "state" : "translated",
             "value" : "Thêm nhiều ngôn ngữ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Další jazyky"
+          }
         }
       }
     },
@@ -1776,6 +1890,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy chụp trang sách\ncó câu bạn thích"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyfoťte stránku\ns větou, která se vám líbí"
           }
         }
       },
@@ -1865,6 +1985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ghi chú"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Poznámka"
           }
         }
       },
@@ -1956,6 +2082,12 @@
             "state" : "translated",
             "value" : "Lưu sách và câu văn vào một tệp, rồi nhập lại bất cứ lúc nào."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložte knihy a citáty do souboru a později je znovu načtěte."
+          }
         }
       }
     },
@@ -2043,6 +2175,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu văn"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citáty"
           }
         }
       },
@@ -2133,6 +2271,12 @@
             "state" : "translated",
             "value" : "Lướt ngón tay qua câu · Chụm hai ngón để phóng to"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přejeďte prstem po větě · Dvěma prsty přibližte"
+          }
         }
       },
       "comment" : "swipe"
@@ -2222,6 +2366,12 @@
             "state" : "translated",
             "value" : "Thẻ câu văn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Karta s citátem"
+          }
         }
       },
       "comment" : "card"
@@ -2310,6 +2460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tìm câu văn, ghi chú, tên sách"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hledat citáty, poznámky, názvy"
           }
         }
       },
@@ -2401,6 +2557,12 @@
             "state" : "translated",
             "value" : "Lựa chọn của bạn vẫn còn, kể cả khi ứng dụng tắt giữa chừng lúc đang chọn câu."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Váš výběr zůstane zachován, i když se aplikace při výběru věty zavře."
+          }
         }
       }
     },
@@ -2490,6 +2652,12 @@
             "state" : "translated",
             "value" : "Rung nhẹ khi bạn gạch chân hoặc lưu một câu văn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jemné zavibrování, když citát podtrhnete nebo uložíte."
+          }
         }
       }
     },
@@ -2578,6 +2746,12 @@
             "state" : "translated",
             "value" : "Hãy lưu một câu văn, mỗi ngày bạn sẽ\ngặp lại một câu ở đây."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložte si citát a každý den\nse tu s jedním znovu potkáte."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -2663,6 +2837,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -2757,6 +2937,12 @@
             "state" : "translated",
             "value" : "Sao lưu và xuất dữ liệu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Záloha a export"
+          }
         }
       }
     },
@@ -2846,6 +3032,12 @@
             "state" : "translated",
             "value" : "Màu sắc và độ tương phản dễ nhìn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Příjemnější barvy a kontrast"
+          }
         }
       }
     },
@@ -2933,6 +3125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không tìm thấy chữ trong ảnh. Hãy kiểm tra độ nét và ánh sáng rồi chụp lại."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na fotce se nepodařilo najít text. Zkontrolujte ostrost a osvětlení a zkuste to znovu."
           }
         }
       },
@@ -3023,6 +3221,12 @@
             "state" : "translated",
             "value" : "Xóa"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat"
+          }
         }
       },
       "comment" : "delete"
@@ -3111,6 +3315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tủ sách"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Knihovna"
           }
         }
       },
@@ -3201,6 +3411,12 @@
             "state" : "translated",
             "value" : "Chọn một cuốn sách trong tủ sách rồi chụp một trang."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyberte v knihovně knihu a vyfoťte stránku."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -3289,6 +3505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cài đặt"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nastavení"
           }
         }
       },
@@ -3380,6 +3602,12 @@
             "state" : "translated",
             "value" : "Phản hồi rung"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hmatová odezva"
+          }
         }
       }
     },
@@ -3467,6 +3695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu đã lưu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citát"
           }
         }
       },
@@ -3665,6 +3899,36 @@
             "state" : "translated",
             "value" : "%lld câu đã lưu"
           }
+        },
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citát"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citáty"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citátu"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citátů"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -3753,6 +4017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Xóa câu đã lưu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat citát"
           }
         }
       },
@@ -3843,6 +4113,12 @@
             "state" : "translated",
             "value" : "Câu đã lưu"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložené citáty"
+          }
         }
       },
       "comment" : "scraped"
@@ -3931,6 +4207,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa có câu nào được lưu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádné uložené citáty"
           }
         }
       },
@@ -4022,6 +4304,12 @@
             "state" : "translated",
             "value" : "Mẹo sử dụng"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Užitečné tipy"
+          }
         }
       }
     },
@@ -4111,6 +4399,12 @@
             "state" : "translated",
             "value" : "Trên iPad, tìm và duyệt sách, câu văn chỉ bằng bàn phím."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Na iPadu hledejte a procházejte knihy a citáty jen pomocí klávesnice."
+          }
         }
       }
     },
@@ -4198,6 +4492,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa có cuốn sách nào"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím tu nejsou žádné knihy"
           }
         }
       },
@@ -4288,6 +4588,12 @@
             "state" : "translated",
             "value" : "Chưa chọn câu nào"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zatím není vybrána žádná věta"
+          }
         }
       },
       "comment" : "none_sel"
@@ -4376,6 +4682,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa lưu câu nào từ cuốn sách này.\nChạm nút bên dưới để lưu câu đầu tiên."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Z této knihy zatím nemáte žádné uložené citáty.\nKlepnutím na tlačítko níže uložíte první."
           }
         }
       },
@@ -4467,6 +4779,12 @@
             "state" : "translated",
             "value" : "Gợi ý nhẹ nhàng về những tính năng hữu ích, đúng lúc bạn cần."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenápadné rady k užitečným funkcím ve chvíli, kdy se hodí."
+          }
         }
       }
     },
@@ -4554,6 +4872,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chọn từ Ảnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vybrat z Fotek"
           }
         }
       },
@@ -4645,6 +4969,12 @@
             "state" : "translated",
             "value" : "Dùng toàn bộ ứng dụng bằng tiếng Anh."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celou aplikaci používejte i v angličtině."
+          }
         }
       }
     },
@@ -4733,6 +5063,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lần đầu mở ứng dụng sau khi cập nhật, bạn sẽ thấy có gì mới."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při prvním otevření po aktualizaci uvidíte, co je nového."
           }
         }
       }
@@ -4823,6 +5159,12 @@
             "state" : "translated",
             "value" : "Có gì mới"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novinky"
+          }
         }
       }
     },
@@ -4910,6 +5252,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Không có"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádná"
           }
         }
       },
@@ -5001,6 +5349,12 @@
             "state" : "translated",
             "value" : "Hỗ trợ tiếng Anh đầy đủ"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plná podpora angličtiny"
+          }
         }
       }
     },
@@ -5088,6 +5442,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Câu của hôm nay"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citát dne"
           }
         }
       },
@@ -5179,6 +5539,12 @@
             "state" : "translated",
             "value" : "Nhắc câu của hôm nay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Upozornění na citát dne"
+          }
         }
       }
     },
@@ -5267,6 +5633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Giảm chuyển động"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Omezení pohybu"
           }
         }
       }
@@ -5357,6 +5729,12 @@
             "state" : "translated",
             "value" : "Khi bật Giảm chuyển động, hiệu ứng trên màn hình sẽ dịu hơn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se zapnutým Omezením pohybu jsou efekty na obrazovce klidnější."
+          }
         }
       }
     },
@@ -5444,6 +5822,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đặt lại thu phóng"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Původní velikost"
           }
         }
       },
@@ -5533,6 +5917,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ảnh gốc"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Původní fotka"
           }
         }
       },
@@ -5624,6 +6014,12 @@
             "state" : "translated",
             "value" : "Xóa tất cả sách và câu văn đã lưu ngay trong ứng dụng."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Všechny knihy a citáty můžete smazat přímo v aplikaci."
+          }
         }
       }
     },
@@ -5711,6 +6107,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ghi lại lý do bạn thích câu này"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Napište, proč se vám tahle věta líbila"
           }
         }
       },
@@ -5801,6 +6203,12 @@
             "state" : "translated",
             "value" : "Xóa cuốn sách này và tất cả các câu đã lưu?"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat tuto knihu a všechny její citáty?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -5889,6 +6297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Di chuyển"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posunout"
           }
         }
       },
@@ -5979,6 +6393,12 @@
             "state" : "translated",
             "value" : "Đang di chuyển"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Posouvání"
+          }
         }
       },
       "comment" : "moving"
@@ -6067,6 +6487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chia sẻ dưới dạng ảnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílet jako obrázek"
           }
         }
       },
@@ -6157,6 +6583,12 @@
             "state" : "translated",
             "value" : "Nhận dạng thất bại"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozpoznání se nezdařilo"
+          }
         }
       },
       "comment" : "fail_title"
@@ -6245,6 +6677,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tự động"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
           }
         }
       },
@@ -6335,6 +6773,12 @@
             "state" : "translated",
             "value" : "Tác giả"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autor"
+          }
         }
       },
       "comment" : "author"
@@ -6423,6 +6867,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lưu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložit"
           }
         }
       },
@@ -6513,6 +6963,12 @@
             "state" : "translated",
             "value" : "Xóa tất cả"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smazat vše"
+          }
         }
       },
       "comment" : "clear_all"
@@ -6601,6 +7057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thông tin"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Informace"
           }
         }
       },
@@ -6692,6 +7154,12 @@
             "state" : "translated",
             "value" : "Nhận một câu đã lưu qua thông báo vào giờ bạn chọn."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "V nastavenou dobu vám pošleme jeden z uložených citátů jako oznámení."
+          }
         }
       }
     },
@@ -6779,6 +7247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tên sách"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Název"
           }
         }
       },
@@ -6869,6 +7343,12 @@
             "state" : "translated",
             "value" : "Độ tin cậy của tên sách: %lld%%"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jistota rozpoznání názvu: %lld %%"
+          }
         }
       },
       "comment" : "conf"
@@ -6957,6 +7437,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yêu thích"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oblíbené"
           }
         }
       },
@@ -7155,6 +7641,36 @@
             "state" : "translated",
             "value" : "Đã sưu tầm %lld cuốn sách"
           }
+        },
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zatím sbírka: %lld kniha"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zatím sbírka: %lld knihy"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zatím sbírka: %lld knihy"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Zatím sbírka: %lld knih"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -7243,6 +7759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tẩy"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guma"
           }
         }
       },
@@ -7333,6 +7855,12 @@
             "state" : "translated",
             "value" : "Tẩy: Bật"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guma zapnuta"
+          }
         }
       },
       "comment" : "erase_on"
@@ -7421,6 +7949,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hỗ trợ"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Podpora"
           }
         }
       },
@@ -7511,6 +8045,12 @@
             "state" : "translated",
             "value" : "Sách"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kniha"
+          }
         }
       },
       "comment" : "book"
@@ -7599,6 +8139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thông tin sách (có thể sửa)"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Údaje o knize (lze upravit)"
           }
         }
       },
@@ -7689,6 +8235,12 @@
             "state" : "translated",
             "value" : "Thêm sách"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat knihu"
+          }
         }
       },
       "comment" : "add_book"
@@ -7777,6 +8329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bìa sách"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obálka knihy"
           }
         }
       },
@@ -7868,6 +8426,12 @@
             "state" : "translated",
             "value" : "Hướng dẫn cho người mới"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Průvodce pro začátečníky"
+          }
         }
       }
     },
@@ -7957,6 +8521,12 @@
             "state" : "translated",
             "value" : "Lần đầu mở ứng dụng, xem nhanh những gì ứng dụng có thể làm."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při prvním otevření krátce ukáže, co aplikace umí."
+          }
         }
       }
     },
@@ -8044,6 +8614,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Thêm cuốn sách đầu tiên"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Přidat první knihu"
           }
         }
       },
@@ -8134,6 +8710,12 @@
             "state" : "translated",
             "value" : "Văn bản đã trích"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozpoznaný text"
+          }
         }
       },
       "comment" : "extracted"
@@ -8223,6 +8805,12 @@
             "state" : "translated",
             "value" : "Hủy"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zrušit"
+          }
         }
       },
       "comment" : "cancel"
@@ -8311,6 +8899,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chụp ảnh"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyfotit"
           }
         }
       },
@@ -8402,6 +8996,12 @@
             "state" : "translated",
             "value" : "Màn hình cho chữ lớn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Obrazovky pro velké písmo"
+          }
         }
       }
     },
@@ -8491,6 +9091,12 @@
             "state" : "translated",
             "value" : "Điều khiển bằng bàn phím"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ovládání klávesnicí"
+          }
         }
       }
     },
@@ -8578,6 +9184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Đã xảy ra lỗi khi nhận dạng chữ. Vui lòng thử lại."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Při rozpoznávání textu došlo k chybě. Zkuste to prosím znovu."
           }
         }
       },
@@ -8668,6 +9280,12 @@
             "state" : "translated",
             "value" : "Chia sẻ dưới dạng văn bản"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sdílet jako text"
+          }
         }
       },
       "comment" : "share_text"
@@ -8756,6 +9374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trang"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Strana"
           }
         }
       },
@@ -8846,6 +9470,12 @@
             "state" : "translated",
             "value" : "Căn bốn điểm vào bốn góc của trang sách"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Srovnejte čtyři body s rohy stránky"
+          }
         }
       },
       "comment" : "corners"
@@ -8935,6 +9565,12 @@
             "state" : "translated",
             "value" : "Cả trang"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Celá stránka"
+          }
         }
       },
       "comment" : "whole_page"
@@ -9023,6 +9659,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Trang sách sẽ được làm phẳng giúp bạn. Sau đó, lướt ngón tay qua các câu muốn chọn."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stránka se sama narovná. Pak přejeďte prstem po větách, které chcete vybrat."
           }
         }
       },
@@ -9114,6 +9756,12 @@
             "state" : "translated",
             "value" : "Giao diện cho iPhone màn hình gập"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rozvržení pro skládací iPhone"
+          }
         }
       }
     },
@@ -9203,6 +9851,12 @@
             "state" : "translated",
             "value" : "Dùng màn hình rộng của iPhone gập với hai ngăn cạnh nhau."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Využijte širokou obrazovku skládacího iPhonu rozdělenou na dva panely vedle sebe."
+          }
         }
       }
     },
@@ -9290,6 +9944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chụp thêm (hoặc chỉ chụp) mã vạch ở bìa sau, ISBN cũng sẽ được nhận dạng tự động."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyfoťte i čárový kód na zadní straně (nebo jen ten) a ISBN se rozpozná samo."
           }
         }
       },
@@ -9380,6 +10040,12 @@
             "state" : "translated",
             "value" : "Đang đọc bìa sách…"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Čtu obálku…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -9469,6 +10135,12 @@
             "state" : "translated",
             "value" : "Chụp bìa sách, tên sách và tác giả sẽ được đọc tự động"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vyfoťte obálku a název s autorem se přečtou sami"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -9557,6 +10229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hãy bắt đầu bằng cách chụp một tấm bìa sách.\nTên sách và tác giả sẽ được đọc tự động."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Začněte vyfocením obálky.\nNázev a autor se přečtou sami."
           }
         }
       },
@@ -9648,6 +10326,12 @@
             "state" : "translated",
             "value" : "Tiếp tục từ chỗ đang dở"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pokračujte, kde jste skončili"
+          }
         }
       }
     },
@@ -9737,6 +10421,12 @@
             "state" : "translated",
             "value" : "VoiceOver đọc đầy đủ sách, câu văn và các nút, theo đúng thứ tự."
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver přečte všechny knihy, citáty i tlačítka ve správném pořadí."
+          }
         }
       }
     },
@@ -9821,6 +10511,12 @@
           }
         },
         "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "cs" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

@@ -825,3 +825,62 @@ Nhờ iCloud, tủ sách và câu văn tự động khớp nhau giữa các iPho
 
 Quyền riêng tư
 Toàn bộ việc nhận dạng chữ diễn ra trên thiết bị. Ảnh không rời khỏi máy, và ứng dụng dùng được cả khi không có mạng.
+
+## cs
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: citáty z knih
+
+### 부제
+
+Vyfoťte stránku a přejeďte
+
+### 키워드
+
+deník,čtení,poznámky,zvýrazňovač,podtržení,knihovna,police,skener,ocr,věty,román,básně,zápisník
+
+### 프로모션 텍스트
+
+Zaujala vás věta? Vyfoťte stránku a přejeďte po ní prstem. Kniha i strana se zapíšou samy a text se rozpoznává jen ve vašem zařízení.
+
+### 설명
+
+Uchovejte si navždy věty, které jste dřív podtrhávali v papírových knihách, a to jedinou fotkou.
+Vyfoťte stránku a přejeďte prstem po větě, která se vám líbí: na text se převede jen ona.
+
+Přidejte knihu fotkou obálky
+Vyfoťte obálku a název s autorem se přečtou za vás. Pokud je vidět čárový kód na zadní straně, doplní se i ISBN.
+Cokoli se přečte, můžete před uložením upravit.
+
+Vybírejte věty jako zvýrazňovačem
+Po vyfocení srovnejte čtyři rohy a i šikmo pořízená fotka se narovná jako papír.
+Přejeďte prstem po větách, které chcete, a vyberou se jen ta slova. Dvěma prsty přiblížíte pro větší přesnost, gumou slova zase odeberete.
+Číslo strany se hledá na okraji fotky a zapíše se samo.
+
+Knihovna a sbírka citátů
+Knihy se řadí na polici s obálkami a uložené citáty najdete na jednom místě.
+Hledejte podle věty, poznámky nebo názvu knihy a oblíbené označte srdíčkem.
+
+Citát dne
+Každý den se k vám vrátí jeden z uložených citátů spolu s poznámkou, kterou jste tehdy připsali.
+S widgetem na ploše nebo na zamčené obrazovce ho máte pořád po ruce.
+Z citátu si můžete vytvořit kartu v papírovém stylu a hned ji sdílet.
+
+Synchronizace mezi zařízeními
+Díky iCloudu se knihovna a citáty na vašich iPhonech samy sladí.
+
+Soukromí
+Veškeré rozpoznávání textu probíhá ve vašem zařízení. Fotky ho neopouštějí a aplikace funguje i bez internetu.

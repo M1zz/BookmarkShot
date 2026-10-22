@@ -87,6 +87,12 @@
             "state" : "translated",
             "value" : "Hãy lưu một câu văn"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložte si první citát"
+          }
         }
       }
     },
@@ -284,6 +290,36 @@
             "state" : "translated",
             "value" : "%lld câu để đọc lại"
           }
+        },
+        "cs" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citát k přečtení"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citáty k přečtení"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citátu k přečtení"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citátů k přečtení"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -372,6 +408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Chưa có câu nào được lưu"
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Žádné uložené citáty"
           }
         }
       }
@@ -462,6 +504,12 @@
             "state" : "translated",
             "value" : "Hãy lưu một câu văn, mỗi ngày\nbạn sẽ gặp lại ở đây"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uložte si citát a každý den\nse tu s ním potkáte"
+          }
         }
       }
     },
@@ -551,6 +599,12 @@
             "state" : "translated",
             "value" : "Câu của hôm nay"
           }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citát dne"
+          }
         }
       }
     },
@@ -639,6 +693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mỗi ngày gặp lại một câu bạn đã lưu. Nếu có câu yêu thích, widget sẽ chọn trong số đó."
+          }
+        },
+        "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Každý den jeden z vašich uložených citátů. Pokud máte oblíbené, vybírá se z nich."
           }
         }
       }
