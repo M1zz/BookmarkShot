@@ -39,6 +39,12 @@
             "state" : "translated",
             "value" : "Face IDロック"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Защита Face ID"
+          }
         }
       }
     },
@@ -80,6 +86,12 @@
             "state" : "translated",
             "value" : "Face IDまたはTouch IDでアプリをロックして、集めた文を守ります。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закройте приложение с помощью Face ID или Touch ID, чтобы сохранить цитаты в тайне."
+          }
         }
       }
     },
@@ -119,6 +131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN（任意）"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (необязательно)"
           }
         }
       },
@@ -162,6 +180,12 @@
             "state" : "translated",
             "value" : "Siriに話しかけるか、ショートカットで、今日の一文をすぐに開けます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Откройте цитату дня голосом через Siri или командой."
+          }
         }
       }
     },
@@ -202,6 +226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siriとショートカット"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri и Команды"
           }
         }
       }
@@ -244,6 +274,12 @@
             "state" : "translated",
             "value" : "VoiceOverでもっと快適に"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобнее с VoiceOver"
+          }
         }
       }
     },
@@ -283,6 +319,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "共有"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться"
           }
         }
       },
@@ -325,6 +367,12 @@
             "state" : "translated",
             "value" : "文字を抽出"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Извлечь текст"
+          }
         }
       },
       "comment" : "extract"
@@ -366,6 +414,12 @@
             "state" : "translated",
             "value" : "一文を保存"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить цитату"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -406,6 +460,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "そのとき残したメモ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заметка, оставленная тогда"
           }
         }
       },
@@ -449,6 +509,12 @@
             "state" : "translated",
             "value" : "文字を大きくしても、切れずに見やすく配置し直されます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При увеличении шрифта содержимое перестраивается и не обрезается."
+          }
         }
       }
     },
@@ -488,6 +554,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "文字を読み取っています…"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Распознаю текст…"
           }
         }
       },
@@ -531,6 +603,12 @@
             "state" : "translated",
             "value" : "自分のデータをまとめて削除"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить все мои данные разом"
+          }
         }
       }
     },
@@ -570,6 +648,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "別の文"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Другая цитата"
           }
         }
       },
@@ -612,6 +696,12 @@
             "state" : "translated",
             "value" : "読み返せる文がありません"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пока нечего перечитывать"
+          }
         }
       },
       "comment" : "no_daily"
@@ -652,6 +742,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "閉じる"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Закрыть"
           }
         }
       },
@@ -695,6 +791,12 @@
             "state" : "translated",
             "value" : "コントラストを上げたり、色の区別がつきにくくても、内容を読み取れます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Всё легко читается, даже если включена повышенная контрастность или трудно различать цвета."
+          }
         }
       }
     },
@@ -735,6 +837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "より多くの国や地域の言葉でアプリを使えるようにします。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложение заговорит на языках ещё большего числа стран."
           }
         }
       }
@@ -777,6 +885,12 @@
             "state" : "translated",
             "value" : "もっと多くの言語"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Больше языков"
+          }
         }
       }
     },
@@ -816,6 +930,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "気になる一文のある\nページを撮影しましょう"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сфотографируйте страницу\nс понравившейся строкой"
           }
         }
       },
@@ -857,6 +977,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "メモ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Заметка"
           }
         }
       },
@@ -900,6 +1026,12 @@
             "state" : "translated",
             "value" : "集めた本と文をファイルに保存して、あとから読み込めます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраняйте книги и цитаты в файл и загружайте их обратно."
+          }
         }
       }
     },
@@ -939,6 +1071,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "一文"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цитаты"
           }
         }
       },
@@ -981,6 +1119,12 @@
             "state" : "translated",
             "value" : "文を指でなぞる ・ 2本指で拡大するとさらに正確に"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Проведите пальцем по тексту · Сведите два пальца, чтобы увеличить"
+          }
         }
       },
       "comment" : "swipe"
@@ -1022,6 +1166,12 @@
             "state" : "translated",
             "value" : "一文カード"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Карточка цитаты"
+          }
         }
       },
       "comment" : "card"
@@ -1062,6 +1212,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "文・メモ・本のタイトルを検索"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поиск по цитатам, заметкам и названиям"
           }
         }
       },
@@ -1105,6 +1261,12 @@
             "state" : "translated",
             "value" : "文を選んでいる途中でアプリが終了しても、選んだ内容が残ります。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбранные фрагменты сохранятся, даже если приложение закроется во время выбора."
+          }
         }
       }
     },
@@ -1146,6 +1308,12 @@
             "state" : "translated",
             "value" : "文をなぞったり保存したりすると、軽い振動でお知らせします。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Лёгкая вибрация, когда вы выделяете или сохраняете цитату."
+          }
         }
       }
     },
@@ -1186,6 +1354,12 @@
             "state" : "translated",
             "value" : "一文を保存すると、毎日ひとつずつ\nここで読み返せます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраните цитату, и каждый день здесь\nбудет появляться одна из них."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -1223,6 +1397,12 @@
           }
         },
         "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "ru" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -1269,6 +1449,12 @@
             "state" : "translated",
             "value" : "バックアップと書き出し"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Резервная копия и экспорт"
+          }
         }
       }
     },
@@ -1310,6 +1496,12 @@
             "state" : "translated",
             "value" : "見やすい色とコントラスト"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удобные цвета и контраст"
+          }
         }
       }
     },
@@ -1349,6 +1541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写真から文字が見つかりませんでした。ピントと明るさを確認して、もう一度撮影してください。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На фото не нашлось текста. Проверьте фокус и освещение и снимите ещё раз."
           }
         }
       },
@@ -1391,6 +1589,12 @@
             "state" : "translated",
             "value" : "削除"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить"
+          }
         }
       },
       "comment" : "delete"
@@ -1431,6 +1635,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本棚"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Библиотека"
           }
         }
       },
@@ -1473,6 +1683,12 @@
             "state" : "translated",
             "value" : "本棚から本を選んで、ページを撮影してみましょう。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выберите книгу в библиотеке и сфотографируйте страницу."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -1513,6 +1729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "設定"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Настройки"
           }
         }
       },
@@ -1556,6 +1778,12 @@
             "state" : "translated",
             "value" : "指先に伝わる反応"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отклик под пальцами"
+          }
         }
       }
     },
@@ -1595,6 +1823,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保存した文"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цитата"
           }
         }
       },
@@ -1661,6 +1895,36 @@
             "state" : "translated",
             "value" : "保存した文 %lld件"
           }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитата"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитаты"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитат"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитаты"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -1701,6 +1965,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保存した文を削除"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить цитату"
           }
         }
       },
@@ -1743,6 +2013,12 @@
             "state" : "translated",
             "value" : "保存した文"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранённые цитаты"
+          }
         }
       },
       "comment" : "scraped"
@@ -1783,6 +2059,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保存した文はありません"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет сохранённых цитат"
           }
         }
       },
@@ -1826,6 +2108,12 @@
             "state" : "translated",
             "value" : "使い方のヒント"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полезные советы"
+          }
         }
       }
     },
@@ -1867,6 +2155,12 @@
             "state" : "translated",
             "value" : "iPadでは、キーボードだけで本や文を探して切り替えられます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На iPad можно искать и листать книги и цитаты, пользуясь только клавиатурой."
+          }
         }
       }
     },
@@ -1906,6 +2200,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "登録された本はまだありません"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Книг пока нет"
           }
         }
       },
@@ -1948,6 +2248,12 @@
             "state" : "translated",
             "value" : "選択された文はまだありません"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Пока ничего не выбрано"
+          }
         }
       },
       "comment" : "none_sel"
@@ -1988,6 +2294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この本の保存した文はまだありません。\n下のボタンで最初の一文を残しましょう。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Из этой книги пока нет сохранённых цитат.\nНажмите кнопку ниже и сохраните первую."
           }
         }
       },
@@ -2031,6 +2343,12 @@
             "state" : "translated",
             "value" : "知っておくと便利な機能を、ちょうどよいタイミングでそっとお知らせします。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ненавязчиво подскажем полезные возможности в подходящий момент."
+          }
         }
       }
     },
@@ -2070,6 +2388,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写真から選択"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Выбрать из галереи"
           }
         }
       },
@@ -2113,6 +2437,12 @@
             "state" : "translated",
             "value" : "アプリを英語でも使えます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Приложением можно пользоваться и на английском."
+          }
         }
       }
     },
@@ -2153,6 +2483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При первом запуске после обновления расскажем, что изменилось."
           }
         }
       }
@@ -2195,6 +2531,12 @@
             "state" : "translated",
             "value" : "アップデート情報"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Что нового"
+          }
         }
       }
     },
@@ -2234,6 +2576,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "なし"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет"
           }
         }
       },
@@ -2277,6 +2625,12 @@
             "state" : "translated",
             "value" : "英語に対応"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Полная поддержка английского"
+          }
         }
       }
     },
@@ -2316,6 +2670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今日の一文"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цитата дня"
           }
         }
       },
@@ -2359,6 +2719,12 @@
             "state" : "translated",
             "value" : "今日の一文の通知"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напоминания о цитате дня"
+          }
         }
       }
     },
@@ -2399,6 +2765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "視差効果を減らす"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уменьшение движения"
           }
         }
       }
@@ -2441,6 +2813,12 @@
             "state" : "translated",
             "value" : "「視差効果を減らす」をオンにすると、画面の動きがおだやかになります。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Когда включено «Уменьшение движения», эффекты на экране становятся спокойнее."
+          }
         }
       }
     },
@@ -2480,6 +2858,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "元の大きさ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сбросить масштаб"
           }
         }
       },
@@ -2521,6 +2905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "元の写真"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Исходное фото"
           }
         }
       },
@@ -2564,6 +2954,12 @@
             "state" : "translated",
             "value" : "必要なときは、アプリ内で集めた本と文をすべて削除できます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При желании можно удалить все книги и цитаты прямо в приложении."
+          }
         }
       }
     },
@@ -2603,6 +2999,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "この文が心に残った理由を書き留めましょう"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Напишите, чем вам понравилась эта строка"
           }
         }
       },
@@ -2645,6 +3047,12 @@
             "state" : "translated",
             "value" : "この本と保存した文をすべて削除しますか？"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Удалить эту книгу и все её цитаты?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -2685,6 +3093,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "移動"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Двигать"
           }
         }
       },
@@ -2727,6 +3141,12 @@
             "state" : "translated",
             "value" : "移動中"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Перемещение"
+          }
         }
       },
       "comment" : "moving"
@@ -2767,6 +3187,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "画像で共有"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться картинкой"
           }
         }
       },
@@ -2809,6 +3235,12 @@
             "state" : "translated",
             "value" : "読み取れませんでした"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Не удалось распознать"
+          }
         }
       },
       "comment" : "fail_title"
@@ -2849,6 +3281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "自動"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Авто"
           }
         }
       },
@@ -2891,6 +3329,12 @@
             "state" : "translated",
             "value" : "著者"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Автор"
+          }
         }
       },
       "comment" : "author"
@@ -2931,6 +3375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保存"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохранить"
           }
         }
       },
@@ -2973,6 +3423,12 @@
             "state" : "translated",
             "value" : "すべて消去"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Очистить всё"
+          }
         }
       },
       "comment" : "clear_all"
@@ -3013,6 +3469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "情報"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сведения"
           }
         }
       },
@@ -3056,6 +3518,12 @@
             "state" : "translated",
             "value" : "決めた時間に、保存した文をひとつ通知でお届けします。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В выбранное время будем присылать уведомление с одной из ваших цитат."
+          }
         }
       }
     },
@@ -3095,6 +3563,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "タイトル"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Название"
           }
         }
       },
@@ -3137,6 +3611,12 @@
             "state" : "translated",
             "value" : "タイトル認識の信頼度 %lld%%"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Уверенность в названии: %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -3177,6 +3657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "お気に入り"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "В избранное"
           }
         }
       },
@@ -3243,6 +3729,36 @@
             "state" : "translated",
             "value" : "これまでに%lld冊を集めました"
           }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Собрана %lld книга"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Собрано %lld книги"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Собрано %lld книг"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Собрано %lld книги"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -3283,6 +3799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "消しゴム"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ластик"
           }
         }
       },
@@ -3325,6 +3847,12 @@
             "state" : "translated",
             "value" : "消しゴム ON"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ластик вкл."
+          }
         }
       },
       "comment" : "erase_on"
@@ -3365,6 +3893,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "サポート"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поддержка"
           }
         }
       },
@@ -3407,6 +3941,12 @@
             "state" : "translated",
             "value" : "本"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Книга"
+          }
         }
       },
       "comment" : "book"
@@ -3447,6 +3987,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "本の情報（編集できます）"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "О книге (можно изменить)"
           }
         }
       },
@@ -3489,6 +4035,12 @@
             "state" : "translated",
             "value" : "本を追加"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить книгу"
+          }
         }
       },
       "comment" : "add_book"
@@ -3529,6 +4081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "表紙"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Обложка книги"
           }
         }
       },
@@ -3572,6 +4130,12 @@
             "state" : "translated",
             "value" : "はじめての方へのご案内"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Знакомство для новичков"
+          }
         }
       }
     },
@@ -3613,6 +4177,12 @@
             "state" : "translated",
             "value" : "初めて開いたときに、できることを短く紹介します。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При первом запуске коротко покажем, что умеет приложение."
+          }
         }
       }
     },
@@ -3652,6 +4222,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "最初の本を追加"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Добавить первую книгу"
           }
         }
       },
@@ -3694,6 +4270,12 @@
             "state" : "translated",
             "value" : "抽出した文"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Найденный текст"
+          }
         }
       },
       "comment" : "extracted"
@@ -3735,6 +4317,12 @@
             "state" : "translated",
             "value" : "キャンセル"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Отмена"
+          }
         }
       },
       "comment" : "cancel"
@@ -3775,6 +4363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "カメラで撮影"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Снять на камеру"
           }
         }
       },
@@ -3818,6 +4412,12 @@
             "state" : "translated",
             "value" : "大きな文字に合わせた画面"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экран для крупного текста"
+          }
         }
       }
     },
@@ -3859,6 +4459,12 @@
             "state" : "translated",
             "value" : "キーボードで操作"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Управление с клавиатуры"
+          }
         }
       }
     },
@@ -3898,6 +4504,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "文字の認識中にエラーが発生しました。もう一度お試しください。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "При распознавании текста произошла ошибка. Попробуйте ещё раз."
           }
         }
       },
@@ -3940,6 +4552,12 @@
             "state" : "translated",
             "value" : "テキストで共有"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Поделиться текстом"
+          }
         }
       },
       "comment" : "share_text"
@@ -3980,6 +4598,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ページ"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Страница"
           }
         }
       },
@@ -4022,6 +4646,12 @@
             "state" : "translated",
             "value" : "4つの点をページの角に合わせてください"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Совместите четыре точки с углами страницы"
+          }
         }
       },
       "comment" : "corners"
@@ -4063,6 +4693,12 @@
             "state" : "translated",
             "value" : "ページ全体"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Вся страница"
+          }
         }
       },
       "comment" : "whole_page"
@@ -4103,6 +4739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ページはまっすぐに整えられます。残したい文を指でなぞると、その部分だけ選べます。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Страница выровняется сама. Затем проведите пальцем по нужным предложениям, чтобы выбрать их."
           }
         }
       },
@@ -4146,6 +4788,12 @@
             "state" : "translated",
             "value" : "折りたたみ式iPhoneの画面"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Экран для складного iPhone"
+          }
         }
       }
     },
@@ -4187,6 +4835,12 @@
             "state" : "translated",
             "value" : "折りたたみ式iPhoneでは、広い画面を2つに分けて使えます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "На складном iPhone широкий экран делится на две панели."
+          }
         }
       }
     },
@@ -4226,6 +4880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "表紙のかわりに（または表紙といっしょに）裏表紙のバーコードを撮影すると、ISBNも自動で認識されます。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сфотографируйте штрихкод на задней обложке (вместо обложки или вместе с ней) — ISBN определится автоматически."
           }
         }
       },
@@ -4268,6 +4928,12 @@
             "state" : "translated",
             "value" : "表紙を読み取っています…"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Читаю обложку…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -4309,6 +4975,12 @@
             "state" : "translated",
             "value" : "表紙を撮影すると、タイトルと著者を自動で読み取ります"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сфотографируйте обложку — название и автор считаются сами"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -4349,6 +5021,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "まずは表紙を1枚撮影してみましょう。\nタイトルと著者は自動で読み取ります。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Начните с фото обложки.\nНазвание и автор считаются автоматически."
           }
         }
       },
@@ -4392,6 +5070,12 @@
             "state" : "translated",
             "value" : "作業のつづきから再開"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Продолжить с того же места"
+          }
         }
       }
     },
@@ -4433,6 +5117,12 @@
             "state" : "translated",
             "value" : "本も文もボタンも、もれなく正しい順番で読み上げます。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver зачитывает все книги, цитаты и кнопки — и в правильном порядке."
+          }
         }
       }
     },
@@ -4472,6 +5162,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ОК"
           }
         }
       },

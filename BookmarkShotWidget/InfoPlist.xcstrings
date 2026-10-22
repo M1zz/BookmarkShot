@@ -38,6 +38,12 @@
             "state" : "translated",
             "value" : "今日の一文"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цитата дня"
+          }
         }
       }
     }

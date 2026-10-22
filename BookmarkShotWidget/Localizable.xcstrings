@@ -39,6 +39,12 @@
             "state" : "translated",
             "value" : "一文を保存してみましょう"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраните первую цитату"
+          }
         }
       }
     },
@@ -104,6 +110,36 @@
             "state" : "translated",
             "value" : "読み返せる文 %lld件"
           }
+        },
+        "ru" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитата для перечитывания"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитаты для перечитывания"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитат для перечитывания"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld цитаты для перечитывания"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -144,6 +180,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保存した文はありません"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Нет сохранённых цитат"
           }
         }
       }
@@ -186,6 +228,12 @@
             "state" : "translated",
             "value" : "一文を保存すると、\n毎日ここで出会えます"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Сохраните цитату — и она будет\nпоявляться здесь каждый день"
+          }
         }
       }
     },
@@ -227,6 +275,12 @@
             "state" : "translated",
             "value" : "今日の一文"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Цитата дня"
+          }
         }
       }
     },
@@ -267,6 +321,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "保存した文を毎日ひとつずつ表示します。お気に入りがあれば、その中から選びます。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Каждый день — одна из ваших сохранённых цитат. Если есть избранные, она выбирается среди них."
           }
         }
       }

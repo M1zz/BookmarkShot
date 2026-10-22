@@ -38,6 +38,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -78,6 +84,12 @@
             "state" : "translated",
             "value" : "本の表紙やページを撮影して文を抽出するために、カメラを使用します。"
           }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Камера нужна, чтобы фотографировать обложки и страницы книг и извлекать из них текст."
+          }
         }
       }
     },
@@ -117,6 +129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "すでに撮影した本の写真から文を抽出するために、写真ライブラリにアクセスします。"
+          }
+        },
+        "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Доступ к фото нужен, чтобы извлекать текст из уже сделанных снимков книг."
           }
         }
       }
