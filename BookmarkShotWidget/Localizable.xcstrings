@@ -135,6 +135,12 @@
             "state" : "translated",
             "value" : "Zapisz cytat, aby zacząć"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara ett citat för att börja"
+          }
         }
       }
     },
@@ -488,6 +494,24 @@
               }
             }
           }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citat att återse"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citat att återse"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -624,6 +648,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak zapisanych cytatów"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga sparade citat"
           }
         }
       }
@@ -762,6 +792,12 @@
             "state" : "translated",
             "value" : "Zapisz cytat, a codziennie spotkasz\ngo tutaj"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara ett citat, så möter du det\nhär varje dag"
+          }
         }
       }
     },
@@ -899,6 +935,12 @@
             "state" : "translated",
             "value" : "Cytat dnia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens citat"
+          }
         }
       }
     },
@@ -1035,6 +1077,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Codziennie jeden z zapisanych cytatów. Jeśli masz ulubione, zostanie wybrany spośród nich."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett av dina sparade citat varje dag. Har du favoriter väljs det bland dem."
           }
         }
       }

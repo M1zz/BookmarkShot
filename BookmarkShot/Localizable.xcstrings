@@ -135,6 +135,12 @@
             "state" : "translated",
             "value" : "Blokada Face ID"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås med Face ID"
+          }
         }
       }
     },
@@ -272,6 +278,12 @@
             "state" : "translated",
             "value" : "Zablokuj aplikację za pomocą Face ID lub Touch ID, aby chronić swoje cytaty."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID så att dina citat skyddas."
+          }
         }
       }
     },
@@ -407,6 +419,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (opcjonalnie)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (valfritt)"
           }
         }
       },
@@ -546,6 +564,12 @@
             "state" : "translated",
             "value" : "Otwórz cytat dnia od razu, mówiąc do Siri lub używając skrótu."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Öppna dagens citat direkt via Siri eller en genväg."
+          }
         }
       }
     },
@@ -682,6 +706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri i Skróty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri och Genvägar"
           }
         }
       }
@@ -820,6 +850,12 @@
             "state" : "translated",
             "value" : "Wygodniej z VoiceOver"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Smidigare med VoiceOver"
+          }
         }
       }
     },
@@ -955,6 +991,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Udostępnij"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela"
           }
         }
       },
@@ -1093,6 +1135,12 @@
             "state" : "translated",
             "value" : "Pobierz tekst"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hämta text"
+          }
         }
       },
       "comment" : "extract"
@@ -1230,6 +1278,12 @@
             "state" : "translated",
             "value" : "Zapisz cytat"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara citat"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -1366,6 +1420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Twoja notatka z tamtej chwili"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Din anteckning från då"
           }
         }
       },
@@ -1505,6 +1565,12 @@
             "state" : "translated",
             "value" : "Gdy powiększysz tekst, zawartość układa się na nowo zamiast się ucinać."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "När du förstorar texten ordnas innehållet om i stället för att klippas av."
+          }
         }
       }
     },
@@ -1640,6 +1706,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Odczytuję tekst…"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läser texten …"
           }
         }
       },
@@ -1779,6 +1851,12 @@
             "state" : "translated",
             "value" : "Usuń wszystkie moje dane naraz"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla mina data på en gång"
+          }
         }
       }
     },
@@ -1914,6 +1992,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Inny cytat"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett annat citat"
           }
         }
       },
@@ -2052,6 +2136,12 @@
             "state" : "translated",
             "value" : "Nie ma jeszcze cytatów do przypomnienia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga citat att återse ännu"
+          }
         }
       },
       "comment" : "no_daily"
@@ -2188,6 +2278,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zamknij"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stäng"
           }
         }
       },
@@ -2327,6 +2423,12 @@
             "state" : "translated",
             "value" : "Wszystko pozostaje czytelne, także przy większym kontraście lub gdy trudno odróżniać kolory."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allt är fortfarande lätt att läsa, även med ökad kontrast eller om det är svårt att skilja färger åt."
+          }
         }
       }
     },
@@ -2463,6 +2565,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Używaj aplikacji w jeszcze większej liczbie języków."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd appen på fler språk."
           }
         }
       }
@@ -2601,6 +2709,12 @@
             "state" : "translated",
             "value" : "Więcej języków"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fler språk"
+          }
         }
       }
     },
@@ -2736,6 +2850,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrób zdjęcie strony\nz ulubionym zdaniem"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta ett foto av sidan\nmed meningen du gillar"
           }
         }
       },
@@ -2873,6 +2993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notatka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anteckning"
           }
         }
       },
@@ -3012,6 +3138,12 @@
             "state" : "translated",
             "value" : "Zapisz książki i cytaty w pliku i przywróć je później."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara dina böcker och citat i en fil och hämta tillbaka dem senare."
+          }
         }
       }
     },
@@ -3147,6 +3279,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cytaty"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citat"
           }
         }
       },
@@ -3285,6 +3423,12 @@
             "state" : "translated",
             "value" : "Przesuń palcem po zdaniu · Ściśnij dwoma palcami, aby powiększyć"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dra fingret över meningen · Nyp med två fingrar för att zooma"
+          }
         }
       },
       "comment" : "swipe"
@@ -3422,6 +3566,12 @@
             "state" : "translated",
             "value" : "Karta z cytatem"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citatkort"
+          }
         }
       },
       "comment" : "card"
@@ -3558,6 +3708,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Szukaj cytatów, notatek, tytułów"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sök citat, anteckningar och titlar"
           }
         }
       },
@@ -3697,6 +3853,12 @@
             "state" : "translated",
             "value" : "Twój wybór zostaje zapamiętany, nawet jeśli aplikacja zamknie się podczas wybierania cytatu."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ditt val finns kvar, även om appen stängs medan du väljer ett citat."
+          }
         }
       }
     },
@@ -3834,6 +3996,12 @@
             "state" : "translated",
             "value" : "Delikatne stuknięcie, gdy podkreślasz lub zapisujesz cytat."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En lätt knackning när du stryker under eller sparar ett citat."
+          }
         }
       }
     },
@@ -3970,6 +4138,12 @@
             "state" : "translated",
             "value" : "Zapisz cytat, a codziennie spotkasz\ntu jeden z nich."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara ett citat, så möter du ett\nhär varje dag."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -4103,6 +4277,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -4245,6 +4425,12 @@
             "state" : "translated",
             "value" : "Kopia zapasowa i eksport"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säkerhetskopia och export"
+          }
         }
       }
     },
@@ -4382,6 +4568,12 @@
             "state" : "translated",
             "value" : "Wygodniejsze kolory i kontrast"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagligare färger och kontrast"
+          }
         }
       }
     },
@@ -4517,6 +4709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na zdjęciu nie znaleziono tekstu. Sprawdź ostrość i oświetlenie i spróbuj ponownie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen text hittades i fotot. Kontrollera skärpa och ljus och försök igen."
           }
         }
       },
@@ -4655,6 +4853,12 @@
             "state" : "translated",
             "value" : "Usuń"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera"
+          }
         }
       },
       "comment" : "delete"
@@ -4791,6 +4995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Biblioteka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotek"
           }
         }
       },
@@ -4929,6 +5139,12 @@
             "state" : "translated",
             "value" : "Wybierz książkę w bibliotece i zrób zdjęcie strony."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj en bok i biblioteket och fotografera en sida."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -5065,6 +5281,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ustawienia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inställningar"
           }
         }
       },
@@ -5204,6 +5426,12 @@
             "state" : "translated",
             "value" : "Reakcja dotykowa"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk respons"
+          }
         }
       }
     },
@@ -5339,6 +5567,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cytat"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citat"
           }
         }
       },
@@ -5693,6 +5927,24 @@
               }
             }
           }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citat"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citat"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -5829,6 +6081,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Usuń cytat"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera citat"
           }
         }
       },
@@ -5967,6 +6225,12 @@
             "state" : "translated",
             "value" : "Zapisane cytaty"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sparade citat"
+          }
         }
       },
       "comment" : "scraped"
@@ -6103,6 +6367,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak zapisanych cytatów"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga sparade citat"
           }
         }
       },
@@ -6242,6 +6512,12 @@
             "state" : "translated",
             "value" : "Przydatne wskazówki"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Praktiska tips"
+          }
         }
       }
     },
@@ -6379,6 +6655,12 @@
             "state" : "translated",
             "value" : "Na iPadzie wyszukuj i przeglądaj książki i cytaty, korzystając tylko z klawiatury."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På iPad kan du hitta och bläddra bland böcker och citat med enbart tangentbordet."
+          }
         }
       }
     },
@@ -6514,6 +6796,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie ma jeszcze żadnych książek"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga böcker ännu"
           }
         }
       },
@@ -6652,6 +6940,12 @@
             "state" : "translated",
             "value" : "Nie wybrano jeszcze żadnych zdań"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inga meningar har valts ännu"
+          }
         }
       },
       "comment" : "none_sel"
@@ -6788,6 +7082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nie masz jeszcze zapisanych cytatów z tej książki.\nDotknij przycisku poniżej, aby zapisać pierwszy."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har inte sparat några citat från den här boken ännu.\nTryck på knappen nedan för att spara det första."
           }
         }
       },
@@ -6927,6 +7227,12 @@
             "state" : "translated",
             "value" : "Dyskretne podpowiedzi o przydatnych funkcjach, dokładnie wtedy, gdy ich potrzebujesz."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskreta tips om användbara funktioner, precis när du behöver dem."
+          }
         }
       }
     },
@@ -7062,6 +7368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Wybierz ze Zdjęć"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Välj från Bilder"
           }
         }
       },
@@ -7201,6 +7513,12 @@
             "state" : "translated",
             "value" : "Używaj całej aplikacji także po angielsku."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd hela appen även på engelska."
+          }
         }
       }
     },
@@ -7337,6 +7655,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przy pierwszym otwarciu po aktualizacji zobaczysz, co się zmieniło."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången du öppnar appen efter en uppdatering ser du vad som är nytt."
           }
         }
       }
@@ -7475,6 +7799,12 @@
             "state" : "translated",
             "value" : "Co nowego"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheter"
+          }
         }
       }
     },
@@ -7610,6 +7940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Brak"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen"
           }
         }
       },
@@ -7749,6 +8085,12 @@
             "state" : "translated",
             "value" : "Pełna obsługa angielskiego"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fullt stöd för engelska"
+          }
         }
       }
     },
@@ -7884,6 +8226,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cytat dnia"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens citat"
           }
         }
       },
@@ -8023,6 +8371,12 @@
             "state" : "translated",
             "value" : "Przypomnienie o cytacie dnia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påminnelse om dagens citat"
+          }
         }
       }
     },
@@ -8159,6 +8513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogranicz ruch"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducera rörelse"
           }
         }
       }
@@ -8297,6 +8657,12 @@
             "state" : "translated",
             "value" : "Przy włączonej opcji Ogranicz ruch efekty na ekranie stają się spokojniejsze."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med Reducera rörelse på blir effekterna på skärmen lugnare."
+          }
         }
       }
     },
@@ -8432,6 +8798,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Resetuj powiększenie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Återställ zoom"
           }
         }
       },
@@ -8569,6 +8941,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oryginalne zdjęcie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originalfoto"
           }
         }
       },
@@ -8708,6 +9086,12 @@
             "state" : "translated",
             "value" : "Usuń wszystkie książki i cytaty bezpośrednio w aplikacji."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Radera alla dina böcker och citat direkt i appen."
+          }
         }
       }
     },
@@ -8843,6 +9227,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napisz, dlaczego to zdanie ci się spodobało"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv varför du gillade den här meningen"
           }
         }
       },
@@ -8981,6 +9371,12 @@
             "state" : "translated",
             "value" : "Usunąć tę książkę i wszystkie jej cytaty?"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vill du radera den här boken och alla dess citat?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -9117,6 +9513,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Przesuń"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytta"
           }
         }
       },
@@ -9255,6 +9657,12 @@
             "state" : "translated",
             "value" : "Przesuwanie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flyttar"
+          }
         }
       },
       "comment" : "moving"
@@ -9391,6 +9799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Udostępnij jako obraz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela som bild"
           }
         }
       },
@@ -9529,6 +9943,12 @@
             "state" : "translated",
             "value" : "Rozpoznawanie nie powiodło się"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Igenkänningen misslyckades"
+          }
         }
       },
       "comment" : "fail_title"
@@ -9662,6 +10082,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
@@ -9803,6 +10229,12 @@
             "state" : "translated",
             "value" : "Autor"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Författare"
+          }
         }
       },
       "comment" : "author"
@@ -9939,6 +10371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zapisz"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spara"
           }
         }
       },
@@ -10077,6 +10515,12 @@
             "state" : "translated",
             "value" : "Wyczyść wszystko"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rensa allt"
+          }
         }
       },
       "comment" : "clear_all"
@@ -10213,6 +10657,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informacje"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         }
       },
@@ -10352,6 +10802,12 @@
             "state" : "translated",
             "value" : "O wybranej porze otrzymasz jeden z zapisanych cytatów w powiadomieniu."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få ett av dina sparade citat som avisering vid den tidpunkt du väljer."
+          }
         }
       }
     },
@@ -10487,6 +10943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tytuł"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
           }
         }
       },
@@ -10625,6 +11087,12 @@
             "state" : "translated",
             "value" : "Pewność tytułu: %lld%%"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Säkerhet för titeln: %lld %%"
+          }
         }
       },
       "comment" : "conf"
@@ -10761,6 +11229,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ulubione"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorit"
           }
         }
       },
@@ -11115,6 +11589,24 @@
               }
             }
           }
+        },
+        "sv" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hittills har du samlat %lld bok"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Hittills har du samlat %lld böcker"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -11251,6 +11743,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gumka"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suddgummi"
           }
         }
       },
@@ -11389,6 +11887,12 @@
             "state" : "translated",
             "value" : "Gumka włączona"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Suddgummi på"
+          }
         }
       },
       "comment" : "erase_on"
@@ -11525,6 +12029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pomoc"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         }
       },
@@ -11663,6 +12173,12 @@
             "state" : "translated",
             "value" : "Książka"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bok"
+          }
         }
       },
       "comment" : "book"
@@ -11799,6 +12315,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dane książki (można edytować)"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bokinformation (kan redigeras)"
           }
         }
       },
@@ -11937,6 +12459,12 @@
             "state" : "translated",
             "value" : "Dodaj książkę"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till bok"
+          }
         }
       },
       "comment" : "add_book"
@@ -12073,6 +12601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Okładka książki"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bokomslag"
           }
         }
       },
@@ -12212,6 +12746,12 @@
             "state" : "translated",
             "value" : "Przewodnik dla nowych użytkowników"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduktion för nya användare"
+          }
         }
       }
     },
@@ -12349,6 +12889,12 @@
             "state" : "translated",
             "value" : "Przy pierwszym uruchomieniu krótko pokażemy, co potrafi aplikacja."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Första gången du öppnar appen får du en snabb titt på vad den kan."
+          }
         }
       }
     },
@@ -12484,6 +13030,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dodaj pierwszą książkę"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lägg till din första bok"
           }
         }
       },
@@ -12622,6 +13174,12 @@
             "state" : "translated",
             "value" : "Pobrany tekst"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hämtad text"
+          }
         }
       },
       "comment" : "extracted"
@@ -12759,6 +13317,12 @@
             "state" : "translated",
             "value" : "Anuluj"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
         }
       },
       "comment" : "cancel"
@@ -12895,6 +13459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zrób zdjęcie"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta foto"
           }
         }
       },
@@ -13034,6 +13604,12 @@
             "state" : "translated",
             "value" : "Ekrany dla dużego tekstu"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skärmar för stor text"
+          }
         }
       }
     },
@@ -13171,6 +13747,12 @@
             "state" : "translated",
             "value" : "Obsługa z klawiatury"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styrning med tangentbord"
+          }
         }
       }
     },
@@ -13306,6 +13888,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podczas rozpoznawania tekstu wystąpił błąd. Spróbuj ponownie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ett fel uppstod vid textigenkänningen. Försök igen."
           }
         }
       },
@@ -13444,6 +14032,12 @@
             "state" : "translated",
             "value" : "Udostępnij jako tekst"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dela som text"
+          }
         }
       },
       "comment" : "share_text"
@@ -13580,6 +14174,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strona"
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sida"
           }
         }
       },
@@ -13718,6 +14318,12 @@
             "state" : "translated",
             "value" : "Dopasuj cztery punkty do rogów strony"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placera de fyra punkterna vid sidans hörn"
+          }
         }
       },
       "comment" : "corners"
@@ -13855,6 +14461,12 @@
             "state" : "translated",
             "value" : "Cała strona"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hela sidan"
+          }
         }
       },
       "comment" : "whole_page"
@@ -13991,6 +14603,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strona zostanie wyprostowana automatycznie. Potem przesuń palcem po zdaniach, które chcesz wybrać."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sidan rätas ut åt dig. Dra sedan fingret över de meningar du vill välja."
           }
         }
       },
@@ -14130,6 +14748,12 @@
             "state" : "translated",
             "value" : "Układ dla składanego iPhone’a"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout för vikbar iPhone"
+          }
         }
       }
     },
@@ -14267,6 +14891,12 @@
             "state" : "translated",
             "value" : "Wykorzystaj szeroki ekran składanego iPhone’a jako dwa panele obok siebie."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Använd den breda skärmen på en vikbar iPhone som två rutor sida vid sida."
+          }
         }
       }
     },
@@ -14402,6 +15032,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sfotografuj też (lub tylko) kod kreskowy z tyłu okładki, a ISBN rozpozna się automatycznie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografera även (eller bara) streckkoden på baksidan, så känns ISBN igen automatiskt."
           }
         }
       },
@@ -14540,6 +15176,12 @@
             "state" : "translated",
             "value" : "Odczytuję okładkę…"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Läser omslaget …"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -14677,6 +15319,12 @@
             "state" : "translated",
             "value" : "Zrób zdjęcie okładki, a tytuł i autor odczytają się automatycznie"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografera omslaget så läses titel och författare automatiskt"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -14813,6 +15461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zacznij od zdjęcia okładki.\nTytuł i autor odczytają się automatycznie."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Börja med att fotografera ett omslag.\nTitel och författare läses automatiskt."
           }
         }
       },
@@ -14952,6 +15606,12 @@
             "state" : "translated",
             "value" : "Wróć do przerwanej pracy"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsätt där du slutade"
+          }
         }
       }
     },
@@ -15089,6 +15749,12 @@
             "state" : "translated",
             "value" : "VoiceOver czyta wszystkie książki, cytaty i przyciski we właściwej kolejności."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver läser upp alla böcker, citat och knappar i rätt ordning."
+          }
         }
       }
     },
@@ -15221,6 +15887,12 @@
           }
         },
         "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "sv" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

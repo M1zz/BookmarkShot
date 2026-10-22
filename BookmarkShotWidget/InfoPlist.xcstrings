@@ -134,6 +134,12 @@
             "state" : "translated",
             "value" : "Cytat dnia"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens citat"
+          }
         }
       }
     }

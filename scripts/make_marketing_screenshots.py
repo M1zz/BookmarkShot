@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -176,6 +176,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Biblioteka<br>z okładek", "Tytuł i autor odczytują się ze zdjęcia"),
         ("04-quotes.png", "flat-rotate", "Wszystkie cytaty<br>w jednym miejscu", "Znajdziesz je po tytule książki lub notatce"),
         ("05-daily.png", "dark", "Cytat<br>na każdy dzień", "Widżet zawsze pod ręką i karta do udostępnienia"),
+    ],
+    "sv": [
+        ("01-highlight.png", "hero-bleed", "Dra fingret<br>som med en penna", "Bara meningarna du drar över blir text"),
+        ("02-region.png", "left-text", "Snett foto?<br>Det rätas ut", "Passa in de fyra hörnen så blir sidan platt som papper"),
+        ("03-library.png", "text-bottom", "Ett bibliotek<br>av omslag", "Titel och författare läses från fotot"),
+        ("04-quotes.png", "flat-rotate", "Alla citat<br>på ett ställe", "Hitta dem via boktitel eller anteckning"),
+        ("05-daily.png", "dark", "Ett citat<br>varje dag", "Widget alltid till hands och kort att dela"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

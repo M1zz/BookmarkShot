@@ -134,6 +134,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -270,6 +276,12 @@
             "state" : "translated",
             "value" : "Aparat służy do fotografowania okładek i stron książek, aby można było pobrać z nich zdania."
           }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameran används för att fotografera bokomslag och sidor så att meningarna kan hämtas."
+          }
         }
       }
     },
@@ -405,6 +417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dostęp do zdjęć służy do pobierania zdań z już zrobionych zdjęć książek."
+          }
+        },
+        "sv" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åtkomst till dina bilder används för att hämta meningar ur bokfoton du redan har tagit."
           }
         }
       }

@@ -1297,3 +1297,62 @@ Dzięki iCloud biblioteka i cytaty na twoich iPhone’ach są zawsze takie same.
 
 Prywatność
 Całe rozpoznawanie tekstu odbywa się na twoim urządzeniu. Zdjęcia nigdy go nie opuszczają, a aplikacja działa bez internetu.
+
+## sv
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Bokcitat
+
+### 부제
+
+Fota sidan, dra fingret
+
+### 키워드
+
+läsdagbok,läsning,anteckningar,markering,understrykning,bibliotek,bokhylla,skanner,ocr,roman
+
+### 프로모션 텍스트
+
+Träffade en mening dig? Fota sidan och dra fingret över den. Bok och sidnummer antecknas åt dig, och texten känns bara igen på din enhet.
+
+### 설명
+
+Behåll för alltid de meningar du förr strök under i pappersböcker, med bara ett foto.
+Fota en sida och dra fingret över meningen du gillar: bara den meningen blir text.
+
+Lägg till en bok med ett foto på omslaget
+Fotografera omslaget så läses titel och författare åt dig. Syns streckkoden på baksidan fylls även ISBN i.
+Allt som lästs kan du ändra innan du sparar.
+
+Välj meningar som med en överstrykningspenna
+När du har fotat sidan passar du in de fyra hörnen, och även ett snett foto rätas ut som ett pappersark.
+Dra fingret över de meningar du vill ha, så markeras bara de orden. Zooma med två fingrar för större precision, eller ta bort ord med suddgummit.
+Sidnumret letas upp i fotots kant och fylls i automatiskt.
+
+Bibliotek och citatsamling
+Dina böcker samlas i en hylla av omslag, och dina sparade citat samlas på ett ställe.
+Sök på mening, anteckning eller boktitel och märk favoriter med ett hjärta.
+
+Dagens citat
+Varje dag kommer ett av dina sparade citat tillbaka till dig, tillsammans med anteckningen du skrev då.
+Ha det nära med en widget på hemskärmen eller låsskärmen.
+Gör ett citat till ett kort i papperslook och dela det direkt.
+
+Synk mellan enheter
+Med iCloud hålls ditt bibliotek och dina citat automatiskt lika på dina iPhone.
+
+Integritet
+All textigenkänning sker på din enhet. Dina foton lämnar den aldrig, och appen fungerar utan internet.
