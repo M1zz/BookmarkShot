@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "劃線"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -66,6 +72,12 @@
             "state" : "translated",
             "value" : "使用相機拍攝書籍封面與書頁，以便擷取其中的句子。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本の表紙やページを撮影して文を抽出するために、カメラを使用します。"
+          }
         }
       }
     },
@@ -99,6 +111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "存取照片圖庫，以便從你已拍好的書籍照片中擷取句子。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すでに撮影した本の写真から文を抽出するために、写真ライブラリにアクセスします。"
           }
         }
       }

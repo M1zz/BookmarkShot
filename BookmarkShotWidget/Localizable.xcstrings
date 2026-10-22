@@ -33,6 +33,12 @@
             "state" : "translated",
             "value" : "摘錄一句試試"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文を保存してみましょう"
+          }
         }
       }
     },
@@ -92,6 +98,12 @@
             "state" : "translated",
             "value" : "%lld 則句子可重溫"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み返せる文 %lld件"
+          }
         }
       }
     },
@@ -126,6 +138,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "尚無摘錄"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文はありません"
           }
         }
       }
@@ -162,6 +180,12 @@
             "state" : "translated",
             "value" : "摘錄句子後，\n每天都能在這裡遇見"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文を保存すると、\n毎日ここで出会えます"
+          }
         }
       }
     },
@@ -197,6 +221,12 @@
             "state" : "translated",
             "value" : "今日一句"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日の一文"
+          }
         }
       }
     },
@@ -231,6 +261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "每天重溫一句你摘錄的句子。若有加入我的最愛的句子，會優先從中挑選。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文を毎日ひとつずつ表示します。お気に入りがあれば、その中から選びます。"
           }
         }
       }

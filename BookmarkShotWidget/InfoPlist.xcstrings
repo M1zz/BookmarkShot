@@ -32,6 +32,12 @@
             "state" : "translated",
             "value" : "今日一句"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日の一文"
+          }
         }
       }
     }

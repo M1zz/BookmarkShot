@@ -33,6 +33,12 @@
             "state" : "translated",
             "value" : "Face ID 鎖定"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDロック"
+          }
         }
       }
     },
@@ -68,6 +74,12 @@
             "state" : "translated",
             "value" : "用 Face ID 或 Touch ID 鎖住 App，守護你收藏的句子。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face IDまたはTouch IDでアプリをロックして、集めた文を守ります。"
+          }
         }
       }
     },
@@ -101,6 +113,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN（選填）"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN（任意）"
           }
         }
       },
@@ -138,6 +156,12 @@
             "state" : "translated",
             "value" : "對 Siri 說一聲，或用捷徑，直接打開今日一句。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siriに話しかけるか、ショートカットで、今日の一文をすぐに開けます。"
+          }
         }
       }
     },
@@ -172,6 +196,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri 與捷徑"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siriとショートカット"
           }
         }
       }
@@ -208,6 +238,12 @@
             "state" : "translated",
             "value" : "更順暢的旁白體驗"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOverでもっと快適に"
+          }
         }
       }
     },
@@ -241,6 +277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "分享"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有"
           }
         }
       },
@@ -277,6 +319,12 @@
             "state" : "translated",
             "value" : "擷取文字"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字を抽出"
+          }
         }
       },
       "comment" : "extract"
@@ -312,6 +360,12 @@
             "state" : "translated",
             "value" : "摘錄句子"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文を保存"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -346,6 +400,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "當時寫下的筆記"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "そのとき残したメモ"
           }
         }
       },
@@ -383,6 +443,12 @@
             "state" : "translated",
             "value" : "放大字體後，畫面會自動重新排列，不會被截斷。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字を大きくしても、切れずに見やすく配置し直されます。"
+          }
         }
       }
     },
@@ -416,6 +482,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在辨識文字…"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字を読み取っています…"
           }
         }
       },
@@ -453,6 +525,12 @@
             "state" : "translated",
             "value" : "一鍵清除我的資料"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自分のデータをまとめて削除"
+          }
         }
       }
     },
@@ -486,6 +564,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "換一句"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "別の文"
           }
         }
       },
@@ -522,6 +606,12 @@
             "state" : "translated",
             "value" : "還沒有可以重溫的句子"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み返せる文がありません"
+          }
         }
       },
       "comment" : "no_daily"
@@ -556,6 +646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "關閉"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
           }
         }
       },
@@ -593,6 +689,12 @@
             "state" : "translated",
             "value" : "開啟「提高對比」，或不易分辨顏色時，內容依然清楚易讀。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コントラストを上げたり、色の区別がつきにくくても、内容を読み取れます。"
+          }
         }
       }
     },
@@ -627,6 +729,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "讓更多國家與地區的人用母語使用這款 App。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "より多くの国や地域の言葉でアプリを使えるようにします。"
           }
         }
       }
@@ -663,6 +771,12 @@
             "state" : "translated",
             "value" : "更多語言"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "もっと多くの言語"
+          }
         }
       }
     },
@@ -696,6 +810,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍下有喜歡句子的\n那一頁吧"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "気になる一文のある\nページを撮影しましょう"
           }
         }
       },
@@ -731,6 +851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "筆記"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "メモ"
           }
         }
       },
@@ -768,6 +894,12 @@
             "state" : "translated",
             "value" : "把收藏的書和句子存成檔案，之後還能再匯入。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "集めた本と文をファイルに保存して、あとから読み込めます。"
+          }
         }
       }
     },
@@ -801,6 +933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "句子"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文"
           }
         }
       },
@@ -837,6 +975,12 @@
             "state" : "translated",
             "value" : "手指滑過句子 · 雙指縮放可劃得更準"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文を指でなぞる ・ 2本指で拡大するとさらに正確に"
+          }
         }
       },
       "comment" : "swipe"
@@ -872,6 +1016,12 @@
             "state" : "translated",
             "value" : "句子卡片"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文カード"
+          }
         }
       },
       "comment" : "card"
@@ -906,6 +1056,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "搜尋句子、筆記、書名"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文・メモ・本のタイトルを検索"
           }
         }
       },
@@ -943,6 +1099,12 @@
             "state" : "translated",
             "value" : "選取句子時即使 App 被關閉，已選內容也會保留。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文を選んでいる途中でアプリが終了しても、選んだ内容が残ります。"
+          }
         }
       }
     },
@@ -978,6 +1140,12 @@
             "state" : "translated",
             "value" : "劃線或儲存句子時，會有輕微的震動回饋。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文をなぞったり保存したりすると、軽い振動でお知らせします。"
+          }
         }
       }
     },
@@ -1011,6 +1179,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摘錄句子後，每天都能在這裡\n重溫其中一句。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一文を保存すると、毎日ひとつずつ\nここで読み返せます。"
           }
         }
       },
@@ -1046,6 +1220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "劃線"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
           }
         }
       },
@@ -1083,6 +1263,12 @@
             "state" : "translated",
             "value" : "備份與匯出"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "バックアップと書き出し"
+          }
         }
       }
     },
@@ -1118,6 +1304,12 @@
             "state" : "translated",
             "value" : "更舒適的色彩與對比"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "見やすい色とコントラスト"
+          }
         }
       }
     },
@@ -1151,6 +1343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "照片中找不到文字。請確認對焦與光線後再拍一次。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真から文字が見つかりませんでした。ピントと明るさを確認して、もう一度撮影してください。"
           }
         }
       },
@@ -1187,6 +1385,12 @@
             "state" : "translated",
             "value" : "刪除"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "削除"
+          }
         }
       },
       "comment" : "delete"
@@ -1221,6 +1425,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "書櫃"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本棚"
           }
         }
       },
@@ -1257,6 +1467,12 @@
             "state" : "translated",
             "value" : "在書櫃中選一本書，拍下書頁吧。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本棚から本を選んで、ページを撮影してみましょう。"
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -1288,6 +1504,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "設定"
@@ -1328,6 +1550,12 @@
             "state" : "translated",
             "value" : "指尖的觸覺回饋"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指先に伝わる反応"
+          }
         }
       }
     },
@@ -1361,6 +1589,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摘錄"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文"
           }
         }
       },
@@ -1421,6 +1655,12 @@
             "state" : "translated",
             "value" : "%lld 則摘錄"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文 %lld件"
+          }
         }
       },
       "comment" : "scrap_count"
@@ -1455,6 +1695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "刪除摘錄"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文を削除"
           }
         }
       },
@@ -1491,6 +1737,12 @@
             "state" : "translated",
             "value" : "已摘錄的句子"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文"
+          }
         }
       },
       "comment" : "scraped"
@@ -1525,6 +1777,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "還沒有摘錄的句子"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存した文はありません"
           }
         }
       },
@@ -1562,6 +1820,12 @@
             "state" : "translated",
             "value" : "使用小訣竅"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使い方のヒント"
+          }
         }
       }
     },
@@ -1597,6 +1861,12 @@
             "state" : "translated",
             "value" : "在 iPad 上，只用鍵盤就能尋找、切換書籍和句子。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "iPadでは、キーボードだけで本や文を探して切り替えられます。"
+          }
         }
       }
     },
@@ -1630,6 +1900,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "還沒有新增書籍"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "登録された本はまだありません"
           }
         }
       },
@@ -1666,6 +1942,12 @@
             "state" : "translated",
             "value" : "尚未選取任何句子"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選択された文はまだありません"
+          }
         }
       },
       "comment" : "none_sel"
@@ -1700,6 +1982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "這本書還沒有摘錄的句子。\n點下方按鈕，收下第一句吧。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この本の保存した文はまだありません。\n下のボタンで最初の一文を残しましょう。"
           }
         }
       },
@@ -1737,6 +2025,12 @@
             "state" : "translated",
             "value" : "在適當的時機，輕輕提示一些實用功能。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "知っておくと便利な機能を、ちょうどよいタイミングでそっとお知らせします。"
+          }
         }
       }
     },
@@ -1770,6 +2064,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "從相簿選取"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "写真から選択"
           }
         }
       },
@@ -1807,6 +2107,12 @@
             "state" : "translated",
             "value" : "整個 App 也可以用英文使用。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリを英語でも使えます。"
+          }
         }
       }
     },
@@ -1841,6 +2147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更新後第一次開啟，告訴你有哪些新變化。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート後に初めて開いたとき、新しくなった点をお知らせします。"
           }
         }
       }
@@ -1877,6 +2189,12 @@
             "state" : "translated",
             "value" : "更新說明"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アップデート情報"
+          }
         }
       }
     },
@@ -1910,6 +2228,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "無"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "なし"
           }
         }
       },
@@ -1947,6 +2271,12 @@
             "state" : "translated",
             "value" : "完整英文支援"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "英語に対応"
+          }
         }
       }
     },
@@ -1980,6 +2310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "今日一句"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日の一文"
           }
         }
       },
@@ -2017,6 +2353,12 @@
             "state" : "translated",
             "value" : "今日一句提醒"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日の一文の通知"
+          }
         }
       }
     },
@@ -2051,6 +2393,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "減少動態效果"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視差効果を減らす"
           }
         }
       }
@@ -2087,6 +2435,12 @@
             "state" : "translated",
             "value" : "開啟「減少動態效果」後，畫面動畫會更平緩。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "「視差効果を減らす」をオンにすると、画面の動きがおだやかになります。"
+          }
         }
       }
     },
@@ -2120,6 +2474,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "還原"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "元の大きさ"
           }
         }
       },
@@ -2155,6 +2515,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "原始照片"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "元の写真"
           }
         }
       },
@@ -2192,6 +2558,12 @@
             "state" : "translated",
             "value" : "需要時，可以在 App 內刪除所有收藏的書和句子。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "必要なときは、アプリ内で集めた本と文をすべて削除できます。"
+          }
         }
       }
     },
@@ -2225,6 +2597,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "寫下這句話打動你的原因"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この文が心に残った理由を書き留めましょう"
           }
         }
       },
@@ -2261,6 +2639,12 @@
             "state" : "translated",
             "value" : "要刪除這本書和所有摘錄嗎？"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この本と保存した文をすべて削除しますか？"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -2292,6 +2676,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移動"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "移動"
@@ -2331,6 +2721,12 @@
             "state" : "translated",
             "value" : "移動中"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移動中"
+          }
         }
       },
       "comment" : "moving"
@@ -2365,6 +2761,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "以圖片分享"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画像で共有"
           }
         }
       },
@@ -2401,6 +2803,12 @@
             "state" : "translated",
             "value" : "辨識失敗"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "読み取れませんでした"
+          }
         }
       },
       "comment" : "fail_title"
@@ -2432,6 +2840,12 @@
           }
         },
         "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動"
+          }
+        },
+        "ja" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "自動"
@@ -2471,6 +2885,12 @@
             "state" : "translated",
             "value" : "作者"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "著者"
+          }
         }
       },
       "comment" : "author"
@@ -2505,6 +2925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "儲存"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "保存"
           }
         }
       },
@@ -2541,6 +2967,12 @@
             "state" : "translated",
             "value" : "全部清除"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "すべて消去"
+          }
         }
       },
       "comment" : "clear_all"
@@ -2575,6 +3007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "資訊"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "情報"
           }
         }
       },
@@ -2612,6 +3050,12 @@
             "state" : "translated",
             "value" : "在你設定的時間，以通知推送一則收藏的句子。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "決めた時間に、保存した文をひとつ通知でお届けします。"
+          }
         }
       }
     },
@@ -2645,6 +3089,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "書名"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイトル"
           }
         }
       },
@@ -2681,6 +3131,12 @@
             "state" : "translated",
             "value" : "書名辨識可信度 %lld%%"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "タイトル認識の信頼度 %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -2715,6 +3171,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "我的最愛"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "お気に入り"
           }
         }
       },
@@ -2775,6 +3237,12 @@
             "state" : "translated",
             "value" : "已收藏 %lld 本書"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "これまでに%lld冊を集めました"
+          }
         }
       },
       "comment" : "collected"
@@ -2809,6 +3277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "橡皮擦"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消しゴム"
           }
         }
       },
@@ -2845,6 +3319,12 @@
             "state" : "translated",
             "value" : "橡皮擦已開"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "消しゴム ON"
+          }
         }
       },
       "comment" : "erase_on"
@@ -2879,6 +3359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "支援"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サポート"
           }
         }
       },
@@ -2915,6 +3401,12 @@
             "state" : "translated",
             "value" : "書籍"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本"
+          }
         }
       },
       "comment" : "book"
@@ -2949,6 +3441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "書籍資訊（可修改）"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本の情報（編集できます）"
           }
         }
       },
@@ -2985,6 +3483,12 @@
             "state" : "translated",
             "value" : "新增書籍"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本を追加"
+          }
         }
       },
       "comment" : "add_book"
@@ -3019,6 +3523,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "書籍封面"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表紙"
           }
         }
       },
@@ -3056,6 +3566,12 @@
             "state" : "translated",
             "value" : "新手引導"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめての方へのご案内"
+          }
         }
       }
     },
@@ -3091,6 +3607,12 @@
             "state" : "translated",
             "value" : "第一次開啟時，簡單介紹可以做什麼。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "初めて開いたときに、できることを短く紹介します。"
+          }
         }
       }
     },
@@ -3124,6 +3646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "新增第一本書"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最初の本を追加"
           }
         }
       },
@@ -3160,6 +3688,12 @@
             "state" : "translated",
             "value" : "擷取的句子"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "抽出した文"
+          }
         }
       },
       "comment" : "extracted"
@@ -3195,6 +3729,12 @@
             "state" : "translated",
             "value" : "取消"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
         }
       },
       "comment" : "cancel"
@@ -3229,6 +3769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍照"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラで撮影"
           }
         }
       },
@@ -3266,6 +3812,12 @@
             "state" : "translated",
             "value" : "適應大字體的畫面"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "大きな文字に合わせた画面"
+          }
         }
       }
     },
@@ -3301,6 +3853,12 @@
             "state" : "translated",
             "value" : "鍵盤操作"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キーボードで操作"
+          }
         }
       }
     },
@@ -3334,6 +3892,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "辨識文字時發生錯誤，請再試一次。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "文字の認識中にエラーが発生しました。もう一度お試しください。"
           }
         }
       },
@@ -3370,6 +3934,12 @@
             "state" : "translated",
             "value" : "以文字分享"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テキストで共有"
+          }
         }
       },
       "comment" : "share_text"
@@ -3404,6 +3974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "頁碼"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ページ"
           }
         }
       },
@@ -3440,6 +4016,12 @@
             "state" : "translated",
             "value" : "請將四個點對齊頁面的四個角"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "4つの点をページの角に合わせてください"
+          }
         }
       },
       "comment" : "corners"
@@ -3475,6 +4057,12 @@
             "state" : "translated",
             "value" : "整頁"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ページ全体"
+          }
         }
       },
       "comment" : "whole_page"
@@ -3509,6 +4097,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "頁面會自動拉平。接著用手指在想要的句子上輕輕滑過，就能選取。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ページはまっすぐに整えられます。残したい文を指でなぞると、その部分だけ選べます。"
           }
         }
       },
@@ -3546,6 +4140,12 @@
             "state" : "translated",
             "value" : "摺疊式 iPhone 版面"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみ式iPhoneの画面"
+          }
         }
       }
     },
@@ -3581,6 +4181,12 @@
             "state" : "translated",
             "value" : "在可摺疊的 iPhone 上，把寬螢幕分成左右兩欄使用。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "折りたたみ式iPhoneでは、広い画面を2つに分けて使えます。"
+          }
         }
       }
     },
@@ -3614,6 +4220,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再拍一下封底條碼（或只拍條碼），ISBN 也會自動辨識。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表紙のかわりに（または表紙といっしょに）裏表紙のバーコードを撮影すると、ISBNも自動で認識されます。"
           }
         }
       },
@@ -3650,6 +4262,12 @@
             "state" : "translated",
             "value" : "正在辨識封面…"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表紙を読み取っています…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -3685,6 +4303,12 @@
             "state" : "translated",
             "value" : "拍下封面，書名和作者會自動讀取"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "表紙を撮影すると、タイトルと著者を自動で読み取ります"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -3719,6 +4343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先拍一張封面試試。\n書名和作者會自動讀取。"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "まずは表紙を1枚撮影してみましょう。\nタイトルと著者は自動で読み取ります。"
           }
         }
       },
@@ -3756,6 +4386,12 @@
             "state" : "translated",
             "value" : "接著上次繼續"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作業のつづきから再開"
+          }
         }
       }
     },
@@ -3791,6 +4427,12 @@
             "state" : "translated",
             "value" : "旁白會依合理的順序，完整朗讀每本書、每個句子和每個按鈕。"
           }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "本も文もボタンも、もれなく正しい順番で読み上げます。"
+          }
         }
       }
     },
@@ -3824,6 +4466,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "好"
+          }
+        },
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       },
