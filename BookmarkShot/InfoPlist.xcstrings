@@ -68,6 +68,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -138,6 +144,12 @@
             "state" : "translated",
             "value" : "La fotocamera serve a fotografare copertine e pagine dei libri per estrarne le frasi."
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A câmera é usada para fotografar capas e páginas de livros e extrair os trechos."
+          }
         }
       }
     },
@@ -207,6 +219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’accesso alle foto serve a estrarre frasi dalle immagini di libri che hai già scattato."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "O acesso às fotos serve para extrair trechos de imagens de livros que você já tirou."
           }
         }
       }

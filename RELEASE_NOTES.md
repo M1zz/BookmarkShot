@@ -79,6 +79,13 @@ Feedback e recensioni da Impostazioni.
 Lì vedi anche la versione dell’app.
 Abbiamo reso l’app più stabile.
 
+### 앱스토어 (pt-BR)
+
+Chegou uma nova tela de Ajustes.
+Envie feedback e avalie pelos Ajustes.
+A versão do app também aparece lá.
+Deixamos o app mais estável.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

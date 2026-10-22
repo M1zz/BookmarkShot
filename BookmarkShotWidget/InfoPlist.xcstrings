@@ -68,6 +68,12 @@
             "state" : "translated",
             "value" : "Citazione del giorno"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trecho do dia"
+          }
         }
       }
     }

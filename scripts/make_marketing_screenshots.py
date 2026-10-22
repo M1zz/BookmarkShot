@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -99,6 +99,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Una libreria<br>fatta di copertine", "Titolo e autore si leggono dalla foto"),
         ("04-quotes.png", "flat-rotate", "Tutte le citazioni<br>in un solo posto", "Trovale per titolo del libro o per nota"),
         ("05-daily.png", "dark", "Una citazione<br>per ogni giorno", "Un widget sempre a portata, una cartolina da condividere"),
+    ],
+    "pt-BR": [
+        ("01-highlight.png", "hero-bleed", "Deslize o dedo<br>como um marca-texto", "Só as frases riscadas viram texto"),
+        ("02-region.png", "left-text", "Foto torta?<br>Fica reta", "Alinhe os quatro cantos e a página fica plana como papel"),
+        ("03-library.png", "text-bottom", "Uma biblioteca<br>feita de capas", "Título e autor são lidos da foto"),
+        ("04-quotes.png", "flat-rotate", "Todos os trechos<br>num só lugar", "Encontre pelo título do livro ou pela nota"),
+        ("05-daily.png", "dark", "Um trecho<br>para cada dia", "Widget sempre à mão e cartão para compartilhar"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

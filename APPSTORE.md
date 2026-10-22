@@ -648,3 +648,62 @@ Con iCloud, libreria e citazioni restano allineate tra i tuoi iPhone.
 
 Privacy
 Tutto il riconoscimento del testo avviene sul tuo dispositivo. Le foto non ne escono e l’app funziona anche senza connessione a internet.
+
+## pt-BR
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: citações
+
+### 부제
+
+Fotografe e deslize o dedo
+
+### 키워드
+
+leitura,diário,anotações,marca-texto,destaque,biblioteca,estante,scanner,ocr,frases,romance
+
+### 프로모션 텍스트
+
+Uma frase tocou você? Fotografe a página e passe o dedo sobre ela. Livro e página são anotados para você, e o texto é reconhecido só no seu aparelho.
+
+### 설명
+
+Guarde para sempre as frases que você sublinhava nos livros de papel, com uma só foto.
+Fotografe uma página e passe o dedo sobre a frase de que gosta: só essa frase vira texto.
+
+Adicione um livro com a foto da capa
+Fotografe a capa e o título e o autor são lidos para você. Se o código de barras da quarta capa aparecer na foto, o ISBN também é preenchido.
+Você pode corrigir tudo o que foi lido antes de salvar.
+
+Escolha frases como com um marca-texto
+Depois da foto, alinhe os quatro cantos e até uma foto torta fica reta como uma folha de papel.
+Passe o dedo sobre as frases que quiser e só essas palavras são selecionadas. Amplie com dois dedos para ser mais preciso ou use a borracha para tirar palavras.
+O número da página é procurado na borda da foto e preenchido automaticamente.
+
+Biblioteca e coleção de trechos
+Seus livros ficam reunidos em uma estante de capas, e os trechos salvos ficam todos num só lugar.
+Busque por frase, nota ou título do livro e marque os favoritos com um coração.
+
+O trecho do dia
+Todo dia, um dos seus trechos salvos volta para você, junto com a nota que você deixou na época.
+Deixe-o sempre à mão com um widget na tela de início ou na tela bloqueada.
+Transforme um trecho em um cartão com cara de papel e compartilhe na hora.
+
+Sincronização entre aparelhos
+Com o iCloud, sua biblioteca e seus trechos ficam iguais em todos os seus iPhones.
+
+Privacidade
+Todo o reconhecimento de texto acontece no seu aparelho. Suas fotos não saem dele, e o app funciona sem conexão com a internet.

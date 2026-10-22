@@ -69,6 +69,12 @@
             "state" : "translated",
             "value" : "Salva una citazione per iniziare"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salve um trecho para começar"
+          }
         }
       }
     },
@@ -236,6 +242,24 @@
               }
             }
           }
+        },
+        "pt-BR" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld trecho para reler"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld trechos para reler"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -306,6 +330,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nessuna citazione salvata"
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nenhum trecho salvo"
           }
         }
       }
@@ -378,6 +408,12 @@
             "state" : "translated",
             "value" : "Salva una citazione e la ritroverai\nqui ogni giorno"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salve um trecho e você o\nreencontra aqui todo dia"
+          }
         }
       }
     },
@@ -449,6 +485,12 @@
             "state" : "translated",
             "value" : "Citazione del giorno"
           }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trecho do dia"
+          }
         }
       }
     },
@@ -519,6 +561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ogni giorno una delle tue citazioni salvate. Se hai delle preferite, viene scelta tra quelle."
+          }
+        },
+        "pt-BR" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo dia, um dos trechos que você salvou. Se houver favoritos, ele é escolhido entre eles."
           }
         }
       }
