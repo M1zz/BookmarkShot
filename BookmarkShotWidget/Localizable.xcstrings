@@ -93,6 +93,12 @@
             "state" : "translated",
             "value" : "Uložte si první citát"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem et citat for at komme i gang"
+          }
         }
       }
     },
@@ -320,6 +326,24 @@
               }
             }
           }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citat at gense"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citater at gense"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -414,6 +438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné uložené citáty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen gemte citater"
           }
         }
       }
@@ -510,6 +540,12 @@
             "state" : "translated",
             "value" : "Uložte si citát a každý den\nse tu s ním potkáte"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem et citat, så møder du det\nher hver dag"
+          }
         }
       }
     },
@@ -605,6 +641,12 @@
             "state" : "translated",
             "value" : "Citát dne"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens citat"
+          }
         }
       }
     },
@@ -699,6 +741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Každý den jeden z vašich uložených citátů. Pokud máte oblíbené, vybírá se z nich."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hver dag ét af dine gemte citater. Hvis du har favoritter, vælges det blandt dem."
           }
         }
       }

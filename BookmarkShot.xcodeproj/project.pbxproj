@@ -193,6 +193,7 @@
 				th,
 				vi,
 				cs,
+				da,
 				Base,
 			);
 			mainGroup = AA0000010000000000000002;

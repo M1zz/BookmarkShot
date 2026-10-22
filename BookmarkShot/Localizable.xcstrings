@@ -93,6 +93,12 @@
             "state" : "translated",
             "value" : "Zámek přes Face ID"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låsning med Face ID"
+          }
         }
       }
     },
@@ -188,6 +194,12 @@
             "state" : "translated",
             "value" : "Zamkněte aplikaci přes Face ID nebo Touch ID a ochraňte své citáty."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID, så dine citater er beskyttet."
+          }
         }
       }
     },
@@ -281,6 +293,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (nepovinné)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (valgfrit)"
           }
         }
       },
@@ -378,6 +396,12 @@
             "state" : "translated",
             "value" : "Citát dne otevřete hned hlasem přes Siri nebo zkratkou."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åbn dagens citat med det samme via Siri eller en genvej."
+          }
         }
       }
     },
@@ -472,6 +496,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri a Zkratky"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri og Genveje"
           }
         }
       }
@@ -568,6 +598,12 @@
             "state" : "translated",
             "value" : "Pohodlnější s VoiceOver"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre med VoiceOver"
+          }
         }
       }
     },
@@ -661,6 +697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sdílet"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del"
           }
         }
       },
@@ -757,6 +799,12 @@
             "state" : "translated",
             "value" : "Převzít text"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udtræk tekst"
+          }
         }
       },
       "comment" : "extract"
@@ -852,6 +900,12 @@
             "state" : "translated",
             "value" : "Uložit citát"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem citat"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -946,6 +1000,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poznámka z tehdy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Din note fra dengang"
           }
         }
       },
@@ -1043,6 +1103,12 @@
             "state" : "translated",
             "value" : "Když zvětšíte písmo, obsah se přeskupí a nic se neořízne."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du gør teksten større, ordnes indholdet pænt i stedet for at blive skåret af."
+          }
         }
       }
     },
@@ -1136,6 +1202,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Čtu text…"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læser teksten …"
           }
         }
       },
@@ -1233,6 +1305,12 @@
             "state" : "translated",
             "value" : "Smazání všech mých dat"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle mine data"
+          }
         }
       }
     },
@@ -1326,6 +1404,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jiný citát"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et andet citat"
           }
         }
       },
@@ -1422,6 +1506,12 @@
             "state" : "translated",
             "value" : "Zatím není co znovu číst"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen citater at gense endnu"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1516,6 +1606,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zavřít"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Luk"
           }
         }
       },
@@ -1613,6 +1709,12 @@
             "state" : "translated",
             "value" : "Vše zůstane dobře čitelné, i se zvýšeným kontrastem nebo když se špatně rozlišují barvy."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er stadig let at læse, også med øget kontrast eller hvis det er svært at skelne farver."
+          }
         }
       }
     },
@@ -1707,6 +1809,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Používejte aplikaci ve více jazycích."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug appen på flere sprog."
           }
         }
       }
@@ -1803,6 +1911,12 @@
             "state" : "translated",
             "value" : "Další jazyky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere sprog"
+          }
         }
       }
     },
@@ -1896,6 +2010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyfoťte stránku\ns větou, která se vám líbí"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag et billede af siden\nmed den sætning, du kan lide"
           }
         }
       },
@@ -1991,6 +2111,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Poznámka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
           }
         }
       },
@@ -2088,6 +2214,12 @@
             "state" : "translated",
             "value" : "Uložte knihy a citáty do souboru a později je znovu načtěte."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem dine bøger og citater i en fil, og hent dem tilbage senere."
+          }
         }
       }
     },
@@ -2181,6 +2313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citáty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citater"
           }
         }
       },
@@ -2277,6 +2415,12 @@
             "state" : "translated",
             "value" : "Přejeďte prstem po větě · Dvěma prsty přibližte"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Stryg med fingeren over sætningen · Knib med to fingre for at zoome"
+          }
         }
       },
       "comment" : "swipe"
@@ -2372,6 +2516,12 @@
             "state" : "translated",
             "value" : "Karta s citátem"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citatkort"
+          }
         }
       },
       "comment" : "card"
@@ -2466,6 +2616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hledat citáty, poznámky, názvy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søg i citater, noter og titler"
           }
         }
       },
@@ -2563,6 +2719,12 @@
             "state" : "translated",
             "value" : "Váš výběr zůstane zachován, i když se aplikace při výběru věty zavře."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit valg bevares, selvom appen lukker, mens du vælger et citat."
+          }
         }
       }
     },
@@ -2658,6 +2820,12 @@
             "state" : "translated",
             "value" : "Jemné zavibrování, když citát podtrhnete nebo uložíte."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et let tryk, når du understreger eller gemmer et citat."
+          }
         }
       }
     },
@@ -2752,6 +2920,12 @@
             "state" : "translated",
             "value" : "Uložte si citát a každý den\nse tu s jedním znovu potkáte."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem et citat, så møder du et nyt\nher hver dag."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -2843,6 +3017,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -2943,6 +3123,12 @@
             "state" : "translated",
             "value" : "Záloha a export"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup og eksport"
+          }
         }
       }
     },
@@ -3038,6 +3224,12 @@
             "state" : "translated",
             "value" : "Příjemnější barvy a kontrast"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagelige farver og kontrast"
+          }
         }
       }
     },
@@ -3131,6 +3323,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Na fotce se nepodařilo najít text. Zkontrolujte ostrost a osvětlení a zkuste to znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der blev ikke fundet tekst på billedet. Tjek skarphed og lys, og prøv igen."
           }
         }
       },
@@ -3227,6 +3425,12 @@
             "state" : "translated",
             "value" : "Smazat"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet"
+          }
         }
       },
       "comment" : "delete"
@@ -3321,6 +3525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Knihovna"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotek"
           }
         }
       },
@@ -3417,6 +3627,12 @@
             "state" : "translated",
             "value" : "Vyberte v knihovně knihu a vyfoťte stránku."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg en bog i biblioteket, og tag et billede af en side."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -3511,6 +3727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Nastavení"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Indstillinger"
           }
         }
       },
@@ -3608,6 +3830,12 @@
             "state" : "translated",
             "value" : "Hmatová odezva"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk feedback"
+          }
         }
       }
     },
@@ -3701,6 +3929,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citát"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citat"
           }
         }
       },
@@ -3929,6 +4163,24 @@
               }
             }
           }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citat"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citater"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -4023,6 +4275,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Smazat citát"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet citat"
           }
         }
       },
@@ -4119,6 +4377,12 @@
             "state" : "translated",
             "value" : "Uložené citáty"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gemte citater"
+          }
         }
       },
       "comment" : "scraped"
@@ -4213,6 +4477,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádné uložené citáty"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen gemte citater"
           }
         }
       },
@@ -4310,6 +4580,12 @@
             "state" : "translated",
             "value" : "Užitečné tipy"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gode råd"
+          }
         }
       }
     },
@@ -4405,6 +4681,12 @@
             "state" : "translated",
             "value" : "Na iPadu hledejte a procházejte knihy a citáty jen pomocí klávesnice."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På iPad kan du finde og bladre i bøger og citater med kun et tastatur."
+          }
         }
       }
     },
@@ -4498,6 +4780,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Zatím tu nejsou žádné knihy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen bøger endnu"
           }
         }
       },
@@ -4594,6 +4882,12 @@
             "state" : "translated",
             "value" : "Zatím není vybrána žádná věta"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen sætninger valgt endnu"
+          }
         }
       },
       "comment" : "none_sel"
@@ -4688,6 +4982,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Z této knihy zatím nemáte žádné uložené citáty.\nKlepnutím na tlačítko níže uložíte první."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har ikke gemt citater fra denne bog endnu.\nTryk på knappen nedenfor for at gemme det første."
           }
         }
       },
@@ -4785,6 +5085,12 @@
             "state" : "translated",
             "value" : "Nenápadné rady k užitečným funkcím ve chvíli, kdy se hodí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskrete tips om nyttige funktioner, lige når du får brug for dem."
+          }
         }
       }
     },
@@ -4878,6 +5184,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vybrat z Fotek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vælg fra Fotos"
           }
         }
       },
@@ -4975,6 +5287,12 @@
             "state" : "translated",
             "value" : "Celou aplikaci používejte i v angličtině."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug hele appen på engelsk."
+          }
         }
       }
     },
@@ -5069,6 +5387,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Při prvním otevření po aktualizaci uvidíte, co je nového."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen efter en opdatering, kan du se, hvad der er nyt."
           }
         }
       }
@@ -5165,6 +5489,12 @@
             "state" : "translated",
             "value" : "Novinky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheder"
+          }
         }
       }
     },
@@ -5258,6 +5588,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Žádná"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen"
           }
         }
       },
@@ -5355,6 +5691,12 @@
             "state" : "translated",
             "value" : "Plná podpora angličtiny"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fuld understøttelse af engelsk"
+          }
         }
       }
     },
@@ -5448,6 +5790,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citát dne"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens citat"
           }
         }
       },
@@ -5545,6 +5893,12 @@
             "state" : "translated",
             "value" : "Upozornění na citát dne"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påmindelser om dagens citat"
+          }
         }
       }
     },
@@ -5639,6 +5993,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Omezení pohybu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducér bevægelse"
           }
         }
       }
@@ -5735,6 +6095,12 @@
             "state" : "translated",
             "value" : "Se zapnutým Omezením pohybu jsou efekty na obrazovce klidnější."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med Reducér bevægelse slået til bliver effekterne på skærmen mere rolige."
+          }
         }
       }
     },
@@ -5828,6 +6194,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Původní velikost"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nulstil zoom"
           }
         }
       },
@@ -5923,6 +6295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Původní fotka"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originalbillede"
           }
         }
       },
@@ -6020,6 +6398,12 @@
             "state" : "translated",
             "value" : "Všechny knihy a citáty můžete smazat přímo v aplikaci."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slet alle dine bøger og citater direkte i appen."
+          }
         }
       }
     },
@@ -6113,6 +6497,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Napište, proč se vám tahle věta líbila"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv, hvorfor du kunne lide den her sætning"
           }
         }
       },
@@ -6209,6 +6599,12 @@
             "state" : "translated",
             "value" : "Smazat tuto knihu a všechny její citáty?"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du slette denne bog og alle dens citater?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -6303,6 +6699,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Posunout"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flyt"
           }
         }
       },
@@ -6399,6 +6801,12 @@
             "state" : "translated",
             "value" : "Posouvání"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytter"
+          }
         }
       },
       "comment" : "moving"
@@ -6493,6 +6901,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sdílet jako obrázek"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del som billede"
           }
         }
       },
@@ -6589,6 +7003,12 @@
             "state" : "translated",
             "value" : "Rozpoznání se nezdařilo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Genkendelsen mislykkedes"
+          }
         }
       },
       "comment" : "fail_title"
@@ -6680,6 +7100,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
@@ -6779,6 +7205,12 @@
             "state" : "translated",
             "value" : "Autor"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forfatter"
+          }
         }
       },
       "comment" : "author"
@@ -6873,6 +7305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uložit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gem"
           }
         }
       },
@@ -6969,6 +7407,12 @@
             "state" : "translated",
             "value" : "Smazat vše"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ryd alt"
+          }
         }
       },
       "comment" : "clear_all"
@@ -7063,6 +7507,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Informace"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         }
       },
@@ -7160,6 +7610,12 @@
             "state" : "translated",
             "value" : "V nastavenou dobu vám pošleme jeden z uložených citátů jako oznámení."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få ét af dine gemte citater som notifikation på det tidspunkt, du vælger."
+          }
         }
       }
     },
@@ -7253,6 +7709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Název"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
           }
         }
       },
@@ -7349,6 +7811,12 @@
             "state" : "translated",
             "value" : "Jistota rozpoznání názvu: %lld %%"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikkerhed for titlen: %lld %%"
+          }
         }
       },
       "comment" : "conf"
@@ -7443,6 +7911,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Oblíbené"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorit"
           }
         }
       },
@@ -7671,6 +8145,24 @@
               }
             }
           }
+        },
+        "da" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har samlet %lld bog indtil nu"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har samlet %lld bøger indtil nu"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -7765,6 +8257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Guma"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viskelæder"
           }
         }
       },
@@ -7861,6 +8359,12 @@
             "state" : "translated",
             "value" : "Guma zapnuta"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viskelæder til"
+          }
         }
       },
       "comment" : "erase_on"
@@ -7955,6 +8459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Podpora"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         }
       },
@@ -8051,6 +8561,12 @@
             "state" : "translated",
             "value" : "Kniha"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bog"
+          }
         }
       },
       "comment" : "book"
@@ -8145,6 +8661,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Údaje o knize (lze upravit)"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bogoplysninger (kan redigeres)"
           }
         }
       },
@@ -8241,6 +8763,12 @@
             "state" : "translated",
             "value" : "Přidat knihu"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj bog"
+          }
         }
       },
       "comment" : "add_book"
@@ -8335,6 +8863,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Obálka knihy"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bogomslag"
           }
         }
       },
@@ -8432,6 +8966,12 @@
             "state" : "translated",
             "value" : "Průvodce pro začátečníky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduktion til nye brugere"
+          }
         }
       }
     },
@@ -8527,6 +9067,12 @@
             "state" : "translated",
             "value" : "Při prvním otevření krátce ukáže, co aplikace umí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åbner appen, får du et hurtigt overblik over, hvad den kan."
+          }
         }
       }
     },
@@ -8620,6 +9166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přidat první knihu"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilføj din første bog"
           }
         }
       },
@@ -8716,6 +9268,12 @@
             "state" : "translated",
             "value" : "Rozpoznaný text"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Udtrukket tekst"
+          }
         }
       },
       "comment" : "extracted"
@@ -8811,6 +9369,12 @@
             "state" : "translated",
             "value" : "Zrušit"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annullér"
+          }
         }
       },
       "comment" : "cancel"
@@ -8905,6 +9469,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyfotit"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag billede"
           }
         }
       },
@@ -9002,6 +9572,12 @@
             "state" : "translated",
             "value" : "Obrazovky pro velké písmo"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skærme til stor tekst"
+          }
         }
       }
     },
@@ -9097,6 +9673,12 @@
             "state" : "translated",
             "value" : "Ovládání klávesnicí"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styring med tastatur"
+          }
         }
       }
     },
@@ -9190,6 +9772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Při rozpoznávání textu došlo k chybě. Zkuste to prosím znovu."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der opstod en fejl under genkendelsen af teksten. Prøv igen."
           }
         }
       },
@@ -9286,6 +9874,12 @@
             "state" : "translated",
             "value" : "Sdílet jako text"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del som tekst"
+          }
         }
       },
       "comment" : "share_text"
@@ -9380,6 +9974,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Strana"
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Side"
           }
         }
       },
@@ -9476,6 +10076,12 @@
             "state" : "translated",
             "value" : "Srovnejte čtyři body s rohy stránky"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Placér de fire punkter ved sidens hjørner"
+          }
         }
       },
       "comment" : "corners"
@@ -9571,6 +10177,12 @@
             "state" : "translated",
             "value" : "Celá stránka"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hele siden"
+          }
         }
       },
       "comment" : "whole_page"
@@ -9665,6 +10277,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Stránka se sama narovná. Pak přejeďte prstem po větách, které chcete vybrat."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siden rettes ud for dig. Stryg derefter med fingeren hen over de sætninger, du vil vælge."
           }
         }
       },
@@ -9762,6 +10380,12 @@
             "state" : "translated",
             "value" : "Rozvržení pro skládací iPhone"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout til foldbar iPhone"
+          }
         }
       }
     },
@@ -9857,6 +10481,12 @@
             "state" : "translated",
             "value" : "Využijte širokou obrazovku skládacího iPhonu rozdělenou na dva panely vedle sebe."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brug den brede skærm på en foldbar iPhone som to ruder side om side."
+          }
         }
       }
     },
@@ -9950,6 +10580,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Vyfoťte i čárový kód na zadní straně (nebo jen ten) a ISBN se rozpozná samo."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag også (eller kun) et billede af stregkoden bag på bogen, så genkendes ISBN automatisk."
           }
         }
       },
@@ -10046,6 +10682,12 @@
             "state" : "translated",
             "value" : "Čtu obálku…"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Læser omslaget …"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -10141,6 +10783,12 @@
             "state" : "translated",
             "value" : "Vyfoťte obálku a název s autorem se přečtou sami"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tag et billede af omslaget, så læses titel og forfatter automatisk"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -10235,6 +10883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Začněte vyfocením obálky.\nNázev a autor se přečtou sami."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start med at tage et billede af et omslag.\nTitel og forfatter læses automatisk."
           }
         }
       },
@@ -10332,6 +10986,12 @@
             "state" : "translated",
             "value" : "Pokračujte, kde jste skončili"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsæt, hvor du slap"
+          }
         }
       }
     },
@@ -10427,6 +11087,12 @@
             "state" : "translated",
             "value" : "VoiceOver přečte všechny knihy, citáty i tlačítka ve správném pořadí."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver læser alle bøger, citater og knapper op i den rigtige rækkefølge."
+          }
         }
       }
     },
@@ -10517,6 +11183,12 @@
           }
         },
         "cs" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "da" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

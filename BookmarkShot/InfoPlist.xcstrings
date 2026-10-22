@@ -92,6 +92,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -186,6 +192,12 @@
             "state" : "translated",
             "value" : "Fotoaparát slouží k focení obálek a stránek knih, ze kterých se přebírají věty."
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraet bruges til at tage billeder af bogomslag og sider, så sætningerne kan udtrækkes."
+          }
         }
       }
     },
@@ -279,6 +291,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Přístup k fotkám slouží k přebírání vět z už pořízených snímků knih."
+          }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Adgang til dine fotos bruges til at udtrække sætninger fra bogbilleder, du allerede har taget."
           }
         }
       }

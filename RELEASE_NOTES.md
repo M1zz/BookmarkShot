@@ -107,6 +107,13 @@ Hodnocení a zpětná vazba v Nastavení.
 Verzi aplikace uvidíte také tam.
 Aplikaci jsme vyladili, běží stabilněji.
 
+### 앱스토어 (da)
+
+Der er kommet en ny Indstillinger-skærm.
+Feedback og anmeldelse i Indstillinger.
+Appens version kan du også se der.
+Appen er finpudset og kører stabilt.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

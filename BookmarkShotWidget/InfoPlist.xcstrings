@@ -92,6 +92,12 @@
             "state" : "translated",
             "value" : "Citát dne"
           }
+        },
+        "da" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens citat"
+          }
         }
       }
     }

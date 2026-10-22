@@ -884,3 +884,62 @@ Díky iCloudu se knihovna a citáty na vašich iPhonech samy sladí.
 
 Soukromí
 Veškeré rozpoznávání textu probíhá ve vašem zařízení. Fotky ho neopouštějí a aplikace funguje i bez internetu.
+
+## da
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Bogcitater
+
+### 부제
+
+Tag billede, stryg, gem
+
+### 키워드
+
+læsedagbog,læsning,noter,markering,overstregning,bibliotek,bogreol,scanner,ocr,roman,digte,bøger
+
+### 프로모션 텍스트
+
+Ramte en sætning dig? Tag et billede af siden, og stryg fingeren hen over den. Bog og sidetal noteres for dig, og teksten genkendes kun på din enhed.
+
+### 설명
+
+Gem for altid de sætninger, du før understregede i papirbøger, med ét enkelt billede.
+Tag et billede af en side, og stryg fingeren hen over den sætning, du kan lide: kun den sætning bliver til tekst.
+
+Tilføj en bog med et billede af omslaget
+Tag et billede af omslaget, så læses titel og forfatter for dig. Hvis stregkoden bag på bogen er med, udfyldes ISBN også.
+Du kan rette alt, hvad der er læst, før du gemmer.
+
+Vælg sætninger som med en overstregningstusch
+Når du har taget billedet af siden, placerer du de fire hjørner, og selv et skævt billede rettes ud som et stykke papir.
+Stryg fingeren hen over de sætninger, du vil have, så vælges kun de ord. Zoom ind med to fingre for større præcision, eller brug viskelæderet til at fjerne ord.
+Sidetallet findes i kanten af billedet og skrives automatisk ind.
+
+Bibliotek og citatsamling
+Dine bøger samles i en reol af omslag, og dine gemte citater samles ét sted.
+Søg efter sætning, note eller bogtitel, og marker favoritter med et hjerte.
+
+Dagens citat
+Hver dag vender ét af dine gemte citater tilbage til dig sammen med den note, du skrev dengang.
+Hav det tæt på med en widget på hjemmeskærmen eller låseskærmen.
+Gør et citat til et kort i papirstil, og del det med det samme.
+
+Synkronisering mellem enheder
+Med iCloud holdes dit bibliotek og dine citater automatisk ens på dine iPhones.
+
+Privatliv
+Al tekstgenkendelse sker på din enhed. Dine billeder forlader den aldrig, og appen virker uden internet.
