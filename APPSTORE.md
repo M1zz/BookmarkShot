@@ -1238,3 +1238,62 @@ Met iCloud blijven je bibliotheek en citaten automatisch gelijk op je iPhones.
 
 Privacy
 Alle tekstherkenning gebeurt op je apparaat. Je foto’s verlaten het niet en de app werkt ook zonder internet.
+
+## pl
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Cytatnik
+
+### 부제
+
+Zdjęcie strony i ruch palca
+
+### 키워드
+
+dziennik,czytanie,notatki,zakreślacz,podkreślenia,biblioteka,półka,skaner,ocr,zdania,powieść
+
+### 프로모션 텍스트
+
+Zdanie cię poruszyło? Zrób zdjęcie strony i przesuń palcem po tekście. Książka i strona zapiszą się same, a tekst rozpoznawany jest tylko na twoim urządzeniu.
+
+### 설명
+
+Zachowaj na zawsze zdania podkreślane kiedyś w papierowych książkach, jednym zdjęciem.
+Zrób zdjęcie strony i przesuń palcem po zdaniu, które ci się podoba: tylko to zdanie zamieni się w tekst.
+
+Dodaj książkę zdjęciem okładki
+Sfotografuj okładkę, a tytuł i autor zostaną odczytane za ciebie. Jeśli widać kod kreskowy z tyłu okładki, uzupełni się też ISBN.
+Wszystko, co zostało odczytane, możesz poprawić przed zapisaniem.
+
+Wybieraj zdania jak zakreślaczem
+Po zrobieniu zdjęcia strony dopasuj cztery rogi, a nawet krzywe zdjęcie zostanie wyprostowane jak kartka papieru.
+Przesuń palcem po wybranych zdaniach, a zaznaczą się tylko te słowa. Powiększ dwoma palcami, by działać dokładniej, albo użyj gumki, aby odznaczyć słowa.
+Numer strony jest szukany na brzegu zdjęcia i wpisywany automatycznie.
+
+Biblioteka i kolekcja cytatów
+Twoje książki zbierają się na półce z okładkami, a zapisane cytaty w jednym miejscu.
+Szukaj po zdaniu, notatce lub tytule książki i oznaczaj ulubione sercem.
+
+Cytat dnia
+Codziennie wraca do ciebie jeden z zapisanych cytatów razem z notatką z tamtej chwili.
+Miej go pod ręką dzięki widżetowi na ekranie początkowym lub ekranie blokady.
+Zamień cytat w kartę w stylu papieru i od razu ją udostępnij.
+
+Synchronizacja między urządzeniami
+Dzięki iCloud biblioteka i cytaty na twoich iPhone’ach są zawsze takie same.
+
+Prywatność
+Całe rozpoznawanie tekstu odbywa się na twoim urządzeniu. Zdjęcia nigdy go nie opuszczają, a aplikacja działa bez internetu.

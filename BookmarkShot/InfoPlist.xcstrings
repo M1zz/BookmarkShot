@@ -128,6 +128,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -258,6 +264,12 @@
             "state" : "translated",
             "value" : "De camera wordt gebruikt om boekkaften en pagina’s te fotograferen, zodat zinnen kunnen worden opgehaald."
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aparat służy do fotografowania okładek i stron książek, aby można było pobrać z nich zdania."
+          }
         }
       }
     },
@@ -387,6 +399,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Toegang tot je foto’s wordt gebruikt om zinnen op te halen uit boekfoto’s die je al hebt gemaakt."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dostęp do zdjęć służy do pobierania zdań z już zrobionych zdjęć książek."
           }
         }
       }

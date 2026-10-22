@@ -128,6 +128,12 @@
             "state" : "translated",
             "value" : "Citaat van de dag"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cytat dnia"
+          }
         }
       }
     }

@@ -129,6 +129,12 @@
             "state" : "translated",
             "value" : "Bewaar een citaat om te beginnen"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz cytat, aby zacząć"
+          }
         }
       }
     },
@@ -452,6 +458,36 @@
               }
             }
           }
+        },
+        "pl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cytat do przypomnienia"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cytaty do przypomnienia"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cytatów do przypomnienia"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cytatu do przypomnienia"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -582,6 +618,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geen bewaarde citaten"
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Brak zapisanych cytatów"
           }
         }
       }
@@ -714,6 +756,12 @@
             "state" : "translated",
             "value" : "Bewaar een citaat, dan zie je het\nhier elke dag terug"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zapisz cytat, a codziennie spotkasz\ngo tutaj"
+          }
         }
       }
     },
@@ -845,6 +893,12 @@
             "state" : "translated",
             "value" : "Citaat van de dag"
           }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cytat dnia"
+          }
         }
       }
     },
@@ -975,6 +1029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Elke dag één van je bewaarde citaten. Heb je favorieten, dan wordt daaruit gekozen."
+          }
+        },
+        "pl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Codziennie jeden z zapisanych cytatów. Jeśli masz ulubione, zostanie wybrany spośród nich."
           }
         }
       }

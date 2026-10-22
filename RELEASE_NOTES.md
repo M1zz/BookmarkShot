@@ -149,6 +149,13 @@ Feedback en beoordelingen geef je daar.
 De appversie zie je daar ook.
 De app is verfijnd en stabieler.
 
+### 앱스토어 (pl)
+
+Pojawił się nowy ekran Ustawień.
+Opinię i ocenę wyślesz w Ustawieniach.
+Tam sprawdzisz też wersję aplikacji.
+Aplikacja działa teraz stabilniej.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"
