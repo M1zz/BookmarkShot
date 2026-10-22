@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -92,6 +92,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Une bibliothèque<br>faite de couvertures", "Titre et auteur sont lus depuis la photo"),
         ("04-quotes.png", "flat-rotate", "Toutes vos citations<br>au même endroit", "Retrouvez-les par titre ou par note"),
         ("05-daily.png", "dark", "Une citation<br>chaque jour", "Un widget toujours là, une carte à partager"),
+    ],
+    "it": [
+        ("01-highlight.png", "hero-bleed", "Scorri il dito<br>come un evidenziatore", "Solo le frasi che segni diventano testo"),
+        ("02-region.png", "left-text", "Foto storta?<br>Si raddrizza", "Allinea i quattro angoli: la pagina torna piana come la carta"),
+        ("03-library.png", "text-bottom", "Una libreria<br>fatta di copertine", "Titolo e autore si leggono dalla foto"),
+        ("04-quotes.png", "flat-rotate", "Tutte le citazioni<br>in un solo posto", "Trovale per titolo del libro o per nota"),
+        ("05-daily.png", "dark", "Una citazione<br>per ogni giorno", "Un widget sempre a portata, una cartolina da condividere"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

@@ -63,6 +63,12 @@
             "state" : "translated",
             "value" : "Verrouillage Face ID"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocco con Face ID"
+          }
         }
       }
     },
@@ -128,6 +134,12 @@
             "state" : "translated",
             "value" : "Verrouillez l’app avec Face ID ou Touch ID pour protéger vos citations."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Blocca l’app con Face ID o Touch ID per proteggere le tue citazioni."
+          }
         }
       }
     },
@@ -191,6 +203,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (facultatif)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (facoltativo)"
           }
         }
       },
@@ -258,6 +276,12 @@
             "state" : "translated",
             "value" : "Ouvrez la citation du jour d’un mot à Siri ou avec un raccourci."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Apri subito la citazione del giorno con Siri o un comando rapido."
+          }
         }
       }
     },
@@ -322,6 +346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri et Raccourcis"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri e Comandi rapidi"
           }
         }
       }
@@ -388,6 +418,12 @@
             "state" : "translated",
             "value" : "Plus confortable avec VoiceOver"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più comodo con VoiceOver"
+          }
         }
       }
     },
@@ -451,6 +487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi"
           }
         }
       },
@@ -517,6 +559,12 @@
             "state" : "translated",
             "value" : "Extraire le texte"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Estrai testo"
+          }
         }
       },
       "comment" : "extract"
@@ -582,6 +630,12 @@
             "state" : "translated",
             "value" : "Garder une citation"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva citazione"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -646,6 +700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Votre note de l’époque"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La nota di allora"
           }
         }
       },
@@ -713,6 +773,12 @@
             "state" : "translated",
             "value" : "Quand vous agrandissez le texte, l’affichage se réorganise au lieu d’être coupé."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se ingrandisci il testo, i contenuti si riorganizzano invece di essere tagliati."
+          }
         }
       }
     },
@@ -776,6 +842,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lecture du texte…"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lettura del testo in corso…"
           }
         }
       },
@@ -843,6 +915,12 @@
             "state" : "translated",
             "value" : "Effacer toutes mes données"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutti i miei dati"
+          }
         }
       }
     },
@@ -906,6 +984,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une autre citation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un’altra citazione"
           }
         }
       },
@@ -972,6 +1056,12 @@
             "state" : "translated",
             "value" : "Aucune citation à relire pour l’instant"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessuna citazione da rileggere"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1036,6 +1126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fermer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chiudi"
           }
         }
       },
@@ -1103,6 +1199,12 @@
             "state" : "translated",
             "value" : "Tout reste lisible, même avec Contraste renforcé ou si les couleurs sont difficiles à distinguer."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tutto resta leggibile, anche con Aumenta contrasto o se fai fatica a distinguere i colori."
+          }
         }
       }
     },
@@ -1167,6 +1269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Utilisez l’app dans davantage de langues."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa l’app in più lingue."
           }
         }
       }
@@ -1233,6 +1341,12 @@
             "state" : "translated",
             "value" : "Plus de langues"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Più lingue"
+          }
         }
       }
     },
@@ -1296,6 +1410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographiez la page\navec la phrase qui vous plaît"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa la pagina\ncon la frase che ti piace"
           }
         }
       },
@@ -1361,6 +1481,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota"
           }
         }
       },
@@ -1428,6 +1554,12 @@
             "state" : "translated",
             "value" : "Enregistrez vos livres et citations dans un fichier et retrouvez-les plus tard."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva libri e citazioni in un file e recuperali più avanti."
+          }
         }
       }
     },
@@ -1491,6 +1623,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citations"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citazioni"
           }
         }
       },
@@ -1557,6 +1695,12 @@
             "state" : "translated",
             "value" : "Glissez le doigt sur la phrase · Pincez à deux doigts pour zoomer"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scorri il dito sulla frase · Pizzica con due dita per ingrandire"
+          }
         }
       },
       "comment" : "swipe"
@@ -1622,6 +1766,12 @@
             "state" : "translated",
             "value" : "Carte de citation"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cartolina di citazione"
+          }
         }
       },
       "comment" : "card"
@@ -1686,6 +1836,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Rechercher citations, notes, titres"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerca citazioni, note, titoli"
           }
         }
       },
@@ -1753,6 +1909,12 @@
             "state" : "translated",
             "value" : "Votre sélection est conservée, même si l’app se ferme pendant que vous choisissez."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La selezione resta salvata anche se l’app si chiude mentre scegli una citazione."
+          }
         }
       }
     },
@@ -1818,6 +1980,12 @@
             "state" : "translated",
             "value" : "Une légère vibration quand vous soulignez ou gardez une citation."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Un leggero tocco quando sottolinei o salvi una citazione."
+          }
         }
       }
     },
@@ -1882,6 +2050,12 @@
             "state" : "translated",
             "value" : "Gardez une citation et vous en retrouverez\nune ici chaque jour."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva una citazione e ne ritroverai\nuna qui ogni giorno."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -1943,6 +2117,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -2013,6 +2193,12 @@
             "state" : "translated",
             "value" : "Sauvegarde et export"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup ed esportazione"
+          }
         }
       }
     },
@@ -2078,6 +2264,12 @@
             "state" : "translated",
             "value" : "Couleurs et contrastes plus confortables"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colori e contrasto più comodi"
+          }
         }
       }
     },
@@ -2141,6 +2333,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun texte trouvé sur la photo. Vérifiez la mise au point et la lumière, puis réessayez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessun testo trovato nella foto. Controlla messa a fuoco e luce, poi riprova."
           }
         }
       },
@@ -2207,6 +2405,12 @@
             "state" : "translated",
             "value" : "Supprimer"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina"
+          }
         }
       },
       "comment" : "delete"
@@ -2271,6 +2475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliothèque"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libreria"
           }
         }
       },
@@ -2337,6 +2547,12 @@
             "state" : "translated",
             "value" : "Choisissez un livre dans la bibliothèque et photographiez une page."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli un libro dalla libreria e fotografa una pagina."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -2401,6 +2617,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réglages"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Impostazioni"
           }
         }
       },
@@ -2468,6 +2690,12 @@
             "state" : "translated",
             "value" : "Retour haptique"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Feedback aptico"
+          }
         }
       }
     },
@@ -2531,6 +2759,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citazione"
           }
         }
       },
@@ -2681,6 +2915,24 @@
               }
             }
           }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citazione"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citazioni"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -2745,6 +2997,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Supprimer la citation"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina citazione"
           }
         }
       },
@@ -2811,6 +3069,12 @@
             "state" : "translated",
             "value" : "Citations gardées"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citazioni salvate"
+          }
         }
       },
       "comment" : "scraped"
@@ -2875,6 +3139,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune citation gardée"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna citazione salvata"
           }
         }
       },
@@ -2942,6 +3212,12 @@
             "state" : "translated",
             "value" : "Astuces pratiques"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consigli utili"
+          }
         }
       }
     },
@@ -3007,6 +3283,12 @@
             "state" : "translated",
             "value" : "Sur iPad, retrouvez et parcourez livres et citations avec le seul clavier."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Su iPad, cerca e sfoglia libri e citazioni usando solo la tastiera."
+          }
         }
       }
     },
@@ -3070,6 +3352,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucun livre pour l’instant"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ancora nessun libro"
           }
         }
       },
@@ -3136,6 +3424,12 @@
             "state" : "translated",
             "value" : "Aucune phrase sélectionnée pour l’instant"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna frase selezionata"
+          }
         }
       },
       "comment" : "none_sel"
@@ -3200,6 +3494,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune citation gardée pour ce livre.\nAppuyez sur le bouton ci-dessous pour garder la première."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Non hai ancora salvato citazioni da questo libro.\nTocca il pulsante qui sotto per salvare la prima."
           }
         }
       },
@@ -3267,6 +3567,12 @@
             "state" : "translated",
             "value" : "De discrets conseils sur les fonctions utiles, au moment où vous en avez besoin."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Piccoli suggerimenti sulle funzioni utili, proprio quando servono."
+          }
         }
       }
     },
@@ -3330,6 +3636,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choisir dans Photos"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scegli da Foto"
           }
         }
       },
@@ -3397,6 +3709,12 @@
             "state" : "translated",
             "value" : "Utilisez toute l’app aussi en anglais."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa tutta l’app anche in inglese."
+          }
         }
       }
     },
@@ -3461,6 +3779,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "À la première ouverture après une mise à jour, découvrez ce qui est nouveau."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla prima apertura dopo un aggiornamento, scopri cosa c’è di nuovo."
           }
         }
       }
@@ -3527,6 +3851,12 @@
             "state" : "translated",
             "value" : "Nouveautés"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novità"
+          }
         }
       }
     },
@@ -3590,6 +3920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aucune"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nessuna"
           }
         }
       },
@@ -3657,6 +3993,12 @@
             "state" : "translated",
             "value" : "Prise en charge complète de l’anglais"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto completo per l’inglese"
+          }
         }
       }
     },
@@ -3720,6 +4062,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Citation du jour"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citazione del giorno"
           }
         }
       },
@@ -3787,6 +4135,12 @@
             "state" : "translated",
             "value" : "Rappels de la citation du jour"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Promemoria della citazione del giorno"
+          }
         }
       }
     },
@@ -3851,6 +4205,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réduire les animations"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riduci movimento"
           }
         }
       }
@@ -3917,6 +4277,12 @@
             "state" : "translated",
             "value" : "Avec « Réduire les animations », les effets à l’écran se font plus discrets."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con Riduci movimento attivo, gli effetti sullo schermo diventano più discreti."
+          }
         }
       }
     },
@@ -3980,6 +4346,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Réinitialiser le zoom"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ripristina zoom"
           }
         }
       },
@@ -4045,6 +4417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photo d’origine"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto originale"
           }
         }
       },
@@ -4112,6 +4490,12 @@
             "state" : "translated",
             "value" : "Supprimez tous vos livres et citations directement dans l’app."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina tutti i tuoi libri e le citazioni direttamente dall’app."
+          }
         }
       }
     },
@@ -4175,6 +4559,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notez pourquoi cette phrase vous a plu"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scrivi perché questa frase ti è piaciuta"
           }
         }
       },
@@ -4241,6 +4631,12 @@
             "state" : "translated",
             "value" : "Supprimer ce livre et toutes ses citations ?"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminare questo libro e tutte le sue citazioni?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -4305,6 +4701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Déplacer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sposta"
           }
         }
       },
@@ -4371,6 +4773,12 @@
             "state" : "translated",
             "value" : "Déplacement"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Spostamento"
+          }
         }
       },
       "comment" : "moving"
@@ -4435,6 +4843,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Partager en image"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi come immagine"
           }
         }
       },
@@ -4501,6 +4915,12 @@
             "state" : "translated",
             "value" : "Échec de la reconnaissance"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riconoscimento non riuscito"
+          }
         }
       },
       "comment" : "fail_title"
@@ -4562,6 +4982,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
@@ -4631,6 +5057,12 @@
             "state" : "translated",
             "value" : "Auteur"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autore"
+          }
         }
       },
       "comment" : "author"
@@ -4695,6 +5127,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Enregistrer"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Salva"
           }
         }
       },
@@ -4761,6 +5199,12 @@
             "state" : "translated",
             "value" : "Tout effacer"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancella tutto"
+          }
         }
       },
       "comment" : "clear_all"
@@ -4825,6 +5269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Infos"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         }
       },
@@ -4892,6 +5342,12 @@
             "state" : "translated",
             "value" : "Recevez l’une de vos citations en notification à l’heure de votre choix."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ricevi una delle tue citazioni salvate come notifica all’ora che scegli."
+          }
         }
       }
     },
@@ -4955,6 +5411,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Titre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titolo"
           }
         }
       },
@@ -5021,6 +5483,12 @@
             "state" : "translated",
             "value" : "Fiabilité du titre : %lld %%"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Affidabilità del titolo: %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -5085,6 +5553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favori"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Preferita"
           }
         }
       },
@@ -5235,6 +5709,24 @@
               }
             }
           }
+        },
+        "it" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Finora hai raccolto %lld libro"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Finora hai raccolto %lld libri"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -5299,6 +5791,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gomme"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gomma"
           }
         }
       },
@@ -5365,6 +5863,12 @@
             "state" : "translated",
             "value" : "Gomme activée"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gomma attiva"
+          }
         }
       },
       "comment" : "erase_on"
@@ -5429,6 +5933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Assistance"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Supporto"
           }
         }
       },
@@ -5495,6 +6005,12 @@
             "state" : "translated",
             "value" : "Livre"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libro"
+          }
         }
       },
       "comment" : "book"
@@ -5559,6 +6075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Infos du livre (modifiables)"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dati del libro (modificabili)"
           }
         }
       },
@@ -5625,6 +6147,12 @@
             "state" : "translated",
             "value" : "Ajouter un livre"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi libro"
+          }
         }
       },
       "comment" : "add_book"
@@ -5689,6 +6217,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Couverture"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copertina"
           }
         }
       },
@@ -5756,6 +6290,12 @@
             "state" : "translated",
             "value" : "Un guide pour bien démarrer"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guida per chi inizia"
+          }
         }
       }
     },
@@ -5821,6 +6361,12 @@
             "state" : "translated",
             "value" : "À la première ouverture, un aperçu rapide de ce que l’app sait faire."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alla prima apertura, una breve panoramica di ciò che l’app sa fare."
+          }
         }
       }
     },
@@ -5884,6 +6430,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ajouter votre premier livre"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aggiungi il tuo primo libro"
           }
         }
       },
@@ -5950,6 +6502,12 @@
             "state" : "translated",
             "value" : "Texte extrait"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Testo estratto"
+          }
         }
       },
       "comment" : "extracted"
@@ -6015,6 +6573,12 @@
             "state" : "translated",
             "value" : "Annuler"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annulla"
+          }
         }
       },
       "comment" : "cancel"
@@ -6079,6 +6643,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Prendre une photo"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Scatta una foto"
           }
         }
       },
@@ -6146,6 +6716,12 @@
             "state" : "translated",
             "value" : "Écrans pour grand texte"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermate per testo grande"
+          }
         }
       }
     },
@@ -6211,6 +6787,12 @@
             "state" : "translated",
             "value" : "Commande au clavier"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Controllo da tastiera"
+          }
         }
       }
     },
@@ -6274,6 +6856,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Une erreur est survenue pendant la reconnaissance du texte. Réessayez."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si è verificato un errore durante il riconoscimento del testo. Riprova."
           }
         }
       },
@@ -6340,6 +6928,12 @@
             "state" : "translated",
             "value" : "Partager en texte"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Condividi come testo"
+          }
         }
       },
       "comment" : "share_text"
@@ -6404,6 +6998,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Page"
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagina"
           }
         }
       },
@@ -6470,6 +7070,12 @@
             "state" : "translated",
             "value" : "Placez les quatre points sur les coins de la page"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Allinea i quattro punti agli angoli della pagina"
+          }
         }
       },
       "comment" : "corners"
@@ -6535,6 +7141,12 @@
             "state" : "translated",
             "value" : "Page entière"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagina intera"
+          }
         }
       },
       "comment" : "whole_page"
@@ -6599,6 +7211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "La page est redressée pour vous. Faites ensuite glisser le doigt sur les phrases voulues pour les sélectionner."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La pagina viene raddrizzata per te. Poi fai scorrere il dito sulle frasi che vuoi per selezionarle."
           }
         }
       },
@@ -6666,6 +7284,12 @@
             "state" : "translated",
             "value" : "Affichage pour iPhone pliable"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layout per iPhone pieghevole"
+          }
         }
       }
     },
@@ -6731,6 +7355,12 @@
             "state" : "translated",
             "value" : "Profitez du grand écran d’un iPhone pliable avec deux volets côte à côte."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sfrutta lo schermo ampio di un iPhone pieghevole con due riquadri affiancati."
+          }
         }
       }
     },
@@ -6794,6 +7424,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photographiez aussi (ou à la place) le code-barres de la quatrième de couverture : l’ISBN est reconnu automatiquement."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa anche (o solo) il codice a barre della quarta di copertina: l’ISBN viene riconosciuto in automatico."
           }
         }
       },
@@ -6860,6 +7496,12 @@
             "state" : "translated",
             "value" : "Lecture de la couverture…"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lettura della copertina…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -6925,6 +7567,12 @@
             "state" : "translated",
             "value" : "Photographiez la couverture : le titre et l’auteur sont lus automatiquement"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografa la copertina: titolo e autore vengono letti in automatico"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -6989,6 +7637,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Commencez par photographier une couverture.\nLe titre et l’auteur sont lus automatiquement."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Inizia fotografando una copertina.\nTitolo e autore vengono letti in automatico."
           }
         }
       },
@@ -7056,6 +7710,12 @@
             "state" : "translated",
             "value" : "Reprendre où vous en étiez"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Riprendi da dove eri rimasto"
+          }
         }
       }
     },
@@ -7121,6 +7781,12 @@
             "state" : "translated",
             "value" : "VoiceOver lit chaque livre, chaque citation et chaque bouton, dans le bon ordre."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver legge ogni libro, citazione e pulsante, nell’ordine giusto."
+          }
         }
       }
     },
@@ -7181,6 +7847,12 @@
           }
         },
         "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "it" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

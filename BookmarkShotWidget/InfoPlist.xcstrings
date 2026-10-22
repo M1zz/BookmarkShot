@@ -62,6 +62,12 @@
             "state" : "translated",
             "value" : "Citation du jour"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citazione del giorno"
+          }
         }
       }
     }

@@ -188,6 +188,7 @@
 				es,
 				de,
 				fr,
+				it,
 				Base,
 			);
 			mainGroup = AA0000010000000000000002;

@@ -72,6 +72,13 @@ Avis et retours se font dans Réglages.
 La version de l’app y est aussi visible.
 App peaufinée pour plus de stabilité.
 
+### 앱스토어 (it)
+
+C’è una nuova schermata Impostazioni.
+Feedback e recensioni da Impostazioni.
+Lì vedi anche la versione dell’app.
+Abbiamo reso l’app più stabile.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

@@ -62,6 +62,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -126,6 +132,12 @@
             "state" : "translated",
             "value" : "L’appareil photo sert à photographier les couvertures et les pages de livres pour en extraire les phrases."
           }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La fotocamera serve a fotografare copertine e pagine dei libri per estrarne le frasi."
+          }
         }
       }
     },
@@ -189,6 +201,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "L’accès à vos photos sert à extraire des phrases depuis les photos de livres que vous avez déjà prises."
+          }
+        },
+        "it" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’accesso alle foto serve a estrarre frasi dalle immagini di libri che hai già scattato."
           }
         }
       }
