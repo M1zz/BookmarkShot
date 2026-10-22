@@ -26,6 +26,12 @@
             "state" : "translated",
             "value" : "今日一句"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日一句"
+          }
         }
       }
     }

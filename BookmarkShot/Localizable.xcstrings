@@ -27,6 +27,12 @@
             "state" : "translated",
             "value" : "面容 ID 锁定"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID 鎖定"
+          }
         }
       }
     },
@@ -56,6 +62,12 @@
             "state" : "translated",
             "value" : "用面容 ID 或触控 ID 锁住 App，守护你收藏的句子。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "用 Face ID 或 Touch ID 鎖住 App，守護你收藏的句子。"
+          }
         }
       }
     },
@@ -83,6 +95,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN（选填）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN（選填）"
           }
         }
       },
@@ -114,6 +132,12 @@
             "state" : "translated",
             "value" : "对 Siri 说一声，或用快捷指令，直接打开今日一句。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "對 Siri 說一聲，或用捷徑，直接打開今日一句。"
+          }
         }
       }
     },
@@ -142,6 +166,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri 与快捷指令"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri 與捷徑"
           }
         }
       }
@@ -172,6 +202,12 @@
             "state" : "translated",
             "value" : "更顺畅的旁白体验"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更順暢的旁白體驗"
+          }
         }
       }
     },
@@ -196,6 +232,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "分享"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "分享"
@@ -229,6 +271,12 @@
             "state" : "translated",
             "value" : "提取文字"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擷取文字"
+          }
         }
       },
       "comment" : "extract"
@@ -258,6 +306,12 @@
             "state" : "translated",
             "value" : "摘录句子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摘錄句子"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -286,6 +340,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "当时写下的笔记"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "當時寫下的筆記"
           }
         }
       },
@@ -317,6 +377,12 @@
             "state" : "translated",
             "value" : "放大字体后，界面会自动重新排布，不会被截断。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "放大字體後，畫面會自動重新排列，不會被截斷。"
+          }
         }
       }
     },
@@ -344,6 +410,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "正在识别文字…"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在辨識文字…"
           }
         }
       },
@@ -375,6 +447,12 @@
             "state" : "translated",
             "value" : "一键清除我的数据"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "一鍵清除我的資料"
+          }
         }
       }
     },
@@ -402,6 +480,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "换一句"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "換一句"
           }
         }
       },
@@ -432,6 +516,12 @@
             "state" : "translated",
             "value" : "还没有可以重温的句子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有可以重溫的句子"
+          }
         }
       },
       "comment" : "no_daily"
@@ -460,6 +550,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "关闭"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "關閉"
           }
         }
       },
@@ -491,6 +587,12 @@
             "state" : "translated",
             "value" : "开启“增强对比度”，或不易分辨颜色时，内容依然清晰易读。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟「提高對比」，或不易分辨顏色時，內容依然清楚易讀。"
+          }
         }
       }
     },
@@ -519,6 +621,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "让更多国家和地区的人用母语使用这款 App。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "讓更多國家與地區的人用母語使用這款 App。"
           }
         }
       }
@@ -549,6 +657,12 @@
             "state" : "translated",
             "value" : "更多语言"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更多語言"
+          }
         }
       }
     },
@@ -576,6 +690,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍下有喜欢句子的\n那一页吧"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍下有喜歡句子的\n那一頁吧"
           }
         }
       },
@@ -605,6 +725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "笔记"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "筆記"
           }
         }
       },
@@ -636,6 +762,12 @@
             "state" : "translated",
             "value" : "把收藏的书和句子存成文件，之后还能再导入。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "把收藏的書和句子存成檔案，之後還能再匯入。"
+          }
         }
       }
     },
@@ -660,6 +792,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "句子"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "句子"
@@ -693,6 +831,12 @@
             "state" : "translated",
             "value" : "手指划过句子 · 双指缩放可划得更准"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "手指滑過句子 · 雙指縮放可劃得更準"
+          }
         }
       },
       "comment" : "swipe"
@@ -718,6 +862,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "句子卡片"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "句子卡片"
@@ -751,6 +901,12 @@
             "state" : "translated",
             "value" : "搜索句子、笔记、书名"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "搜尋句子、筆記、書名"
+          }
         }
       },
       "comment" : "search_ph"
@@ -781,6 +937,12 @@
             "state" : "translated",
             "value" : "选句子时即使 App 被关闭，已选内容也会保留。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "選取句子時即使 App 被關閉，已選內容也會保留。"
+          }
         }
       }
     },
@@ -810,6 +972,12 @@
             "state" : "translated",
             "value" : "划线或保存句子时，会有轻微的震动反馈。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "劃線或儲存句子時，會有輕微的震動回饋。"
+          }
         }
       }
     },
@@ -837,6 +1005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摘录句子后，每天都能在这里\n重温其中一句。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摘錄句子後，每天都能在這裡\n重溫其中一句。"
           }
         }
       },
@@ -866,6 +1040,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "划线"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "劃線"
           }
         }
       },
@@ -897,6 +1077,12 @@
             "state" : "translated",
             "value" : "备份与导出"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "備份與匯出"
+          }
         }
       }
     },
@@ -926,6 +1112,12 @@
             "state" : "translated",
             "value" : "更舒适的颜色与对比度"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更舒適的色彩與對比"
+          }
         }
       }
     },
@@ -953,6 +1145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "照片里没有找到文字。请确认对焦和光线后重新拍摄。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "照片中找不到文字。請確認對焦與光線後再拍一次。"
           }
         }
       },
@@ -983,6 +1181,12 @@
             "state" : "translated",
             "value" : "删除"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除"
+          }
         }
       },
       "comment" : "delete"
@@ -1011,6 +1215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "书架"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書櫃"
           }
         }
       },
@@ -1041,6 +1251,12 @@
             "state" : "translated",
             "value" : "在书架里选一本书，拍下书页吧。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在書櫃中選一本書，拍下書頁吧。"
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -1069,6 +1285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "设置"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
           }
         }
       },
@@ -1100,6 +1322,12 @@
             "state" : "translated",
             "value" : "指尖的触感反馈"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "指尖的觸覺回饋"
+          }
         }
       }
     },
@@ -1127,6 +1355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "摘录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摘錄"
           }
         }
       },
@@ -1181,6 +1415,12 @@
             "state" : "translated",
             "value" : "%lld 条摘录"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 則摘錄"
+          }
         }
       },
       "comment" : "scrap_count"
@@ -1209,6 +1449,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "删除摘录"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "刪除摘錄"
           }
         }
       },
@@ -1239,6 +1485,12 @@
             "state" : "translated",
             "value" : "已摘录的句子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已摘錄的句子"
+          }
         }
       },
       "comment" : "scraped"
@@ -1267,6 +1519,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "还没有摘录的句子"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有摘錄的句子"
           }
         }
       },
@@ -1298,6 +1556,12 @@
             "state" : "translated",
             "value" : "使用小技巧"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用小訣竅"
+          }
         }
       }
     },
@@ -1327,6 +1591,12 @@
             "state" : "translated",
             "value" : "在 iPad 上，只用键盘就能查找、切换书籍和句子。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在 iPad 上，只用鍵盤就能尋找、切換書籍和句子。"
+          }
         }
       }
     },
@@ -1354,6 +1624,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "还没有添加书籍"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還沒有新增書籍"
           }
         }
       },
@@ -1384,6 +1660,12 @@
             "state" : "translated",
             "value" : "还没有选中的句子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "尚未選取任何句子"
+          }
         }
       },
       "comment" : "none_sel"
@@ -1412,6 +1694,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "这本书还没有摘录的句子。\n点下方按钮，收下第一句吧。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "這本書還沒有摘錄的句子。\n點下方按鈕，收下第一句吧。"
           }
         }
       },
@@ -1443,6 +1731,12 @@
             "state" : "translated",
             "value" : "在合适的时候，轻轻提示一些实用功能。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在適當的時機，輕輕提示一些實用功能。"
+          }
         }
       }
     },
@@ -1470,6 +1764,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "从相册选择"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "從相簿選取"
           }
         }
       },
@@ -1501,6 +1801,12 @@
             "state" : "translated",
             "value" : "整个 App 也可以用英文使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整個 App 也可以用英文使用。"
+          }
         }
       }
     },
@@ -1529,6 +1835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "更新后首次打开，告诉你有哪些新变化。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新後第一次開啟，告訴你有哪些新變化。"
           }
         }
       }
@@ -1559,6 +1871,12 @@
             "state" : "translated",
             "value" : "更新说明"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "更新說明"
+          }
         }
       }
     },
@@ -1586,6 +1904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "无"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "無"
           }
         }
       },
@@ -1617,6 +1941,12 @@
             "state" : "translated",
             "value" : "完整英文支持"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完整英文支援"
+          }
         }
       }
     },
@@ -1641,6 +1971,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日一句"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "今日一句"
@@ -1675,6 +2011,12 @@
             "state" : "translated",
             "value" : "今日一句提醒"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日一句提醒"
+          }
         }
       }
     },
@@ -1703,6 +2045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "减少动态效果"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "減少動態效果"
           }
         }
       }
@@ -1733,6 +2081,12 @@
             "state" : "translated",
             "value" : "开启“减弱动态效果”后，界面动画会更平缓。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開啟「減少動態效果」後，畫面動畫會更平緩。"
+          }
         }
       }
     },
@@ -1761,6 +2115,12 @@
             "state" : "translated",
             "value" : "还原"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "還原"
+          }
         }
       },
       "comment" : "reset"
@@ -1786,6 +2146,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "原始照片"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "原始照片"
@@ -1820,6 +2186,12 @@
             "state" : "translated",
             "value" : "需要时，可以在 App 内删除所有收藏的书和句子。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "需要時，可以在 App 內刪除所有收藏的書和句子。"
+          }
         }
       }
     },
@@ -1847,6 +2219,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "写下这句话打动你的原因"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "寫下這句話打動你的原因"
           }
         }
       },
@@ -1877,6 +2255,12 @@
             "state" : "translated",
             "value" : "要删除这本书和所有摘录吗？"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "要刪除這本書和所有摘錄嗎？"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -1905,6 +2289,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "移动"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移動"
           }
         }
       },
@@ -1935,6 +2325,12 @@
             "state" : "translated",
             "value" : "移动中"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "移動中"
+          }
         }
       },
       "comment" : "moving"
@@ -1963,6 +2359,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "以图片分享"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以圖片分享"
           }
         }
       },
@@ -1993,6 +2395,12 @@
             "state" : "translated",
             "value" : "识别失败"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "辨識失敗"
+          }
         }
       },
       "comment" : "fail_title"
@@ -2022,6 +2430,12 @@
             "state" : "translated",
             "value" : "自动"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動"
+          }
         }
       },
       "comment" : "auto"
@@ -2047,6 +2461,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "作者"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "作者"
@@ -2080,6 +2500,12 @@
             "state" : "translated",
             "value" : "保存"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "儲存"
+          }
         }
       },
       "comment" : "save"
@@ -2105,6 +2531,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "全部清除"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "全部清除"
@@ -2138,6 +2570,12 @@
             "state" : "translated",
             "value" : "信息"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "資訊"
+          }
         }
       },
       "comment" : "info"
@@ -2168,6 +2606,12 @@
             "state" : "translated",
             "value" : "在你设定的时间，以通知推送一条收藏的句子。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在你設定的時間，以通知推送一則收藏的句子。"
+          }
         }
       }
     },
@@ -2195,6 +2639,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "书名"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書名"
           }
         }
       },
@@ -2225,6 +2675,12 @@
             "state" : "translated",
             "value" : "书名识别可信度 %lld%%"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書名辨識可信度 %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -2253,6 +2709,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "收藏"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "我的最愛"
           }
         }
       },
@@ -2307,6 +2769,12 @@
             "state" : "translated",
             "value" : "已收藏 %lld 本书"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "已收藏 %lld 本書"
+          }
         }
       },
       "comment" : "collected"
@@ -2332,6 +2800,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橡皮擦"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "橡皮擦"
@@ -2365,6 +2839,12 @@
             "state" : "translated",
             "value" : "橡皮擦已开"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "橡皮擦已開"
+          }
         }
       },
       "comment" : "erase_on"
@@ -2393,6 +2873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "支持"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "支援"
           }
         }
       },
@@ -2423,6 +2909,12 @@
             "state" : "translated",
             "value" : "书籍"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書籍"
+          }
         }
       },
       "comment" : "book"
@@ -2451,6 +2943,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "书籍信息（可修改）"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書籍資訊（可修改）"
           }
         }
       },
@@ -2481,6 +2979,12 @@
             "state" : "translated",
             "value" : "添加书籍"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增書籍"
+          }
         }
       },
       "comment" : "add_book"
@@ -2509,6 +3013,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "书籍封面"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "書籍封面"
           }
         }
       },
@@ -2540,6 +3050,12 @@
             "state" : "translated",
             "value" : "新手引导"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新手引導"
+          }
         }
       }
     },
@@ -2569,6 +3085,12 @@
             "state" : "translated",
             "value" : "首次打开时，简单介绍可以做什么。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "第一次開啟時，簡單介紹可以做什麼。"
+          }
         }
       }
     },
@@ -2596,6 +3118,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "添加第一本书"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "新增第一本書"
           }
         }
       },
@@ -2626,6 +3154,12 @@
             "state" : "translated",
             "value" : "提取的句子"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "擷取的句子"
+          }
         }
       },
       "comment" : "extracted"
@@ -2655,6 +3189,12 @@
             "state" : "translated",
             "value" : "取消"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "取消"
+          }
         }
       },
       "comment" : "cancel"
@@ -2680,6 +3220,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍照"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "拍照"
@@ -2714,6 +3260,12 @@
             "state" : "translated",
             "value" : "适配大字体的界面"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "適應大字體的畫面"
+          }
         }
       }
     },
@@ -2743,6 +3295,12 @@
             "state" : "translated",
             "value" : "键盘操作"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "鍵盤操作"
+          }
         }
       }
     },
@@ -2771,6 +3329,12 @@
             "state" : "translated",
             "value" : "识别文字时出错了，请再试一次。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "辨識文字時發生錯誤，請再試一次。"
+          }
         }
       },
       "comment" : "err_ocr"
@@ -2796,6 +3360,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "以文字分享"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "以文字分享"
@@ -2829,6 +3399,12 @@
             "state" : "translated",
             "value" : "页码"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "頁碼"
+          }
         }
       },
       "comment" : "page"
@@ -2857,6 +3433,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "请把四个点对准页面的四个角"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "請將四個點對齊頁面的四個角"
           }
         }
       },
@@ -2887,6 +3469,12 @@
             "state" : "translated",
             "value" : "整页"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "整頁"
+          }
         }
       },
       "comment" : "whole_page"
@@ -2915,6 +3503,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "页面会被自动拉平。之后用手指在想要的句子上轻轻划过，就能选出来。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "頁面會自動拉平。接著用手指在想要的句子上輕輕滑過，就能選取。"
           }
         }
       },
@@ -2946,6 +3540,12 @@
             "state" : "translated",
             "value" : "折叠屏 iPhone 布局"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摺疊式 iPhone 版面"
+          }
         }
       }
     },
@@ -2975,6 +3575,12 @@
             "state" : "translated",
             "value" : "在可折叠 iPhone 上，把宽屏分成左右两栏使用。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "在可摺疊的 iPhone 上，把寬螢幕分成左右兩欄使用。"
+          }
         }
       }
     },
@@ -3002,6 +3608,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "再拍一下封底条形码（或只拍条形码），ISBN 也会自动识别。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再拍一下封底條碼（或只拍條碼），ISBN 也會自動辨識。"
           }
         }
       },
@@ -3032,6 +3644,12 @@
             "state" : "translated",
             "value" : "正在识别封面…"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正在辨識封面…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -3061,6 +3679,12 @@
             "state" : "translated",
             "value" : "拍下封面，书名和作者会自动读取"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "拍下封面，書名和作者會自動讀取"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -3089,6 +3713,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "先拍一张封面试试。\n书名和作者会自动读取。"
+          }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "先拍一張封面試試。\n書名和作者會自動讀取。"
           }
         }
       },
@@ -3120,6 +3750,12 @@
             "state" : "translated",
             "value" : "接着上次继续"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接著上次繼續"
+          }
         }
       }
     },
@@ -3149,6 +3785,12 @@
             "state" : "translated",
             "value" : "旁白会按合理的顺序，完整朗读每本书、每个句子和每个按钮。"
           }
+        },
+        "zh-Hant" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "旁白會依合理的順序，完整朗讀每本書、每個句子和每個按鈕。"
+          }
         }
       }
     },
@@ -3173,6 +3815,12 @@
           }
         },
         "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "好"
+          }
+        },
+        "zh-Hant" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "好"
