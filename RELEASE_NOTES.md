@@ -65,6 +65,13 @@ Feedback und Bewertung: dort möglich.
 Auch die App-Version steht dort.
 Die App läuft nun noch stabiler.
 
+### 앱스토어 (fr)
+
+Un nouvel écran Réglages est arrivé.
+Avis et retours se font dans Réglages.
+La version de l’app y est aussi visible.
+App peaufinée pour plus de stabilité.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

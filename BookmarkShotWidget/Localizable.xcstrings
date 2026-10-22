@@ -57,6 +57,12 @@
             "state" : "translated",
             "value" : "Sichere ein Zitat"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gardez une citation pour commencer"
+          }
         }
       }
     },
@@ -188,6 +194,24 @@
               }
             }
           }
+        },
+        "fr" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citation à relire"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citations à relire"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -246,6 +270,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Keine gesicherten Zitate"
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aucune citation gardée"
           }
         }
       }
@@ -306,6 +336,12 @@
             "state" : "translated",
             "value" : "Sichere ein Zitat, dann siehst du\nhier jeden Tag eines"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gardez une citation et vous la\nretrouverez ici chaque jour"
+          }
         }
       }
     },
@@ -365,6 +401,12 @@
             "state" : "translated",
             "value" : "Zitat des Tages"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citation du jour"
+          }
         }
       }
     },
@@ -423,6 +465,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Jeden Tag eines deiner gesicherten Zitate. Gibt es Favoriten, wird daraus ausgewählt."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chaque jour, l’une de vos citations gardées. S’il y a des favoris, elle est choisie parmi eux."
           }
         }
       }

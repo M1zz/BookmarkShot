@@ -56,6 +56,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -114,6 +120,12 @@
             "state" : "translated",
             "value" : "Die Kamera wird genutzt, um Buchcover und Seiten zu fotografieren und Sätze daraus zu übernehmen."
           }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’appareil photo sert à photographier les couvertures et les pages de livres pour en extraire les phrases."
+          }
         }
       }
     },
@@ -171,6 +183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Der Zugriff auf deine Fotos dient dazu, Sätze aus bereits aufgenommenen Buchfotos zu übernehmen."
+          }
+        },
+        "fr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "L’accès à vos photos sert à extraire des phrases depuis les photos de livres que vous avez déjà prises."
           }
         }
       }

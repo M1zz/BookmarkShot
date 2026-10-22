@@ -530,3 +530,62 @@ Sync zwischen Geräten
 
 Datenschutz
 Die gesamte Texterkennung läuft auf deinem Gerät. Deine Fotos verlassen es nie, und die App funktioniert auch ohne Internet.
+
+## fr
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot : citations
+
+### 부제
+
+Une photo, un trait de doigt
+
+### 키워드
+
+lecture,journal,notes,surligner,surligneur,souligner,bibliothèque,étagère,scanner,ocr,phrases,roman
+
+### 프로모션 텍스트
+
+Une phrase vous a touché ? Photographiez la page et glissez le doigt dessus. Livre et page sont notés pour vous, et la reconnaissance du texte reste sur votre appareil.
+
+### 설명
+
+Gardez pour toujours les phrases que vous souligniez dans vos livres papier, grâce à une simple photo.
+Photographiez une page et glissez le doigt sur la phrase qui vous plaît : seule cette phrase devient du texte.
+
+Ajoutez un livre d’une photo de couverture
+Photographiez la couverture, et le titre et l’auteur sont lus pour vous. Si le code-barres de la quatrième de couverture est visible, l’ISBN est renseigné aussi.
+Vous pouvez corriger tout ce qui a été lu avant d’enregistrer.
+
+Choisissez vos phrases comme avec un surligneur
+Après la photo, placez les quatre coins : même une photo prise de biais est redressée comme une feuille de papier.
+Passez le doigt sur les phrases voulues, et seuls ces mots sont sélectionnés. Zoomez à deux doigts pour plus de précision, ou retirez des mots avec la gomme.
+Le numéro de page est cherché au bord de la photo et noté automatiquement.
+
+Bibliothèque et collection de citations
+Vos livres se rangent sur une étagère de couvertures, vos citations gardées se retrouvent au même endroit.
+Cherchez par phrase, par note ou par titre de livre, et marquez vos favorites d’un cœur.
+
+La citation du jour
+Chaque jour, l’une de vos citations gardées revient vers vous, avec la note que vous aviez laissée.
+Gardez-la près de vous grâce à un widget sur l’écran d’accueil ou l’écran verrouillé.
+Transformez une citation en carte façon papier et partagez-la aussitôt.
+
+Synchronisation entre appareils
+Avec iCloud, votre bibliothèque et vos citations restent à jour sur tous vos iPhone.
+
+Confidentialité
+Toute la reconnaissance du texte se fait sur votre appareil. Vos photos n’en sortent pas, et l’app fonctionne sans connexion internet.
