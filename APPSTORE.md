@@ -412,3 +412,62 @@ Bookmark Shot: цитаты из книг
 
 Конфиденциальность
 Всё распознавание текста происходит на устройстве. Фотографии не покидают его, а приложение работает и без интернета.
+
+## es
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: citas de libros
+
+### 부제
+
+Foto a la página y un trazo
+
+### 키워드
+
+lectura,diario,notas,subrayar,subrayado,marcador,resaltador,biblioteca,estantería,escáner,ocr,frases
+
+### 프로모션 텍스트
+
+¿Una frase te tocó? Haz una foto a la página y pasa el dedo sobre ella. Libro y página se anotan solos, y el texto se reconoce solo en tu dispositivo.
+
+### 설명
+
+Conserva para siempre las frases que subrayabas en tus libros de papel, con una sola foto.
+Haz una foto de la página y pasa el dedo sobre la frase que te gusta: solo esa frase se convierte en texto.
+
+Añade un libro con una foto de la portada
+Fotografía la portada y se leerán el título y el autor. Si se ve el código de barras de la contraportada, el ISBN también se rellena.
+Puedes corregir lo que se lea antes de guardar.
+
+Elige frases como con un resaltador
+Tras hacer la foto, ajusta las cuatro esquinas y hasta una foto torcida se endereza como una hoja de papel.
+Pasa el dedo sobre las frases que quieras y solo se seleccionan esas palabras. Amplía con dos dedos para trazar con más precisión o usa el borrador para quitar palabras.
+El número de página se busca en el borde de la foto y se anota automáticamente.
+
+Biblioteca y colección de citas
+Tus libros se reúnen en una estantería de portadas y tus citas guardadas, en un solo lugar.
+Busca por frase, nota o título del libro y marca tus favoritas con un corazón.
+
+La cita del día
+Cada día vuelve a ti una de tus citas guardadas, junto con la nota que dejaste entonces.
+Tenla a mano con un widget en la pantalla de inicio o en la pantalla de bloqueo.
+Convierte una cita en una tarjeta con aspecto de papel y compártela al instante.
+
+Sincronización entre dispositivos
+Con iCloud, tu biblioteca y tus citas se mantienen al día entre tus iPhone.
+
+Privacidad
+Todo el reconocimiento de texto se hace en tu dispositivo. Tus fotos no salen de él y la app funciona sin conexión a internet.

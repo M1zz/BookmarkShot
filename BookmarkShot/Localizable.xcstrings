@@ -45,6 +45,12 @@
             "state" : "translated",
             "value" : "Защита Face ID"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloqueo con Face ID"
+          }
         }
       }
     },
@@ -92,6 +98,12 @@
             "state" : "translated",
             "value" : "Закройте приложение с помощью Face ID или Touch ID, чтобы сохранить цитаты в тайне."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bloquea la app con Face ID o Touch ID para proteger tus citas."
+          }
         }
       }
     },
@@ -137,6 +149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (необязательно)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (opcional)"
           }
         }
       },
@@ -186,6 +204,12 @@
             "state" : "translated",
             "value" : "Откройте цитату дня голосом через Siri или командой."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Abre la cita del día al instante con Siri o con un atajo."
+          }
         }
       }
     },
@@ -232,6 +256,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri и Команды"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri y Atajos"
           }
         }
       }
@@ -280,6 +310,12 @@
             "state" : "translated",
             "value" : "Удобнее с VoiceOver"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más cómodo con VoiceOver"
+          }
         }
       }
     },
@@ -325,6 +361,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поделиться"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir"
           }
         }
       },
@@ -373,6 +415,12 @@
             "state" : "translated",
             "value" : "Извлечь текст"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extraer texto"
+          }
         }
       },
       "comment" : "extract"
@@ -420,6 +468,12 @@
             "state" : "translated",
             "value" : "Сохранить цитату"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar cita"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -466,6 +520,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заметка, оставленная тогда"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu nota de entonces"
           }
         }
       },
@@ -515,6 +575,12 @@
             "state" : "translated",
             "value" : "При увеличении шрифта содержимое перестраивается и не обрезается."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al aumentar el tamaño del texto, el contenido se reorganiza sin cortarse."
+          }
         }
       }
     },
@@ -560,6 +626,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Распознаю текст…"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leyendo el texto…"
           }
         }
       },
@@ -609,6 +681,12 @@
             "state" : "translated",
             "value" : "Удалить все мои данные разом"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar todos mis datos"
+          }
         }
       }
     },
@@ -654,6 +732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Другая цитата"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Otra cita"
           }
         }
       },
@@ -702,6 +786,12 @@
             "state" : "translated",
             "value" : "Пока нечего перечитывать"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay citas para releer"
+          }
         }
       },
       "comment" : "no_daily"
@@ -748,6 +838,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Закрыть"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cerrar"
           }
         }
       },
@@ -797,6 +893,12 @@
             "state" : "translated",
             "value" : "Всё легко читается, даже если включена повышенная контрастность или трудно различать цвета."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Todo se lee bien, aunque actives Aumentar contraste o te cueste distinguir los colores."
+          }
         }
       }
     },
@@ -843,6 +945,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Приложение заговорит на языках ещё большего числа стран."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa la app en más idiomas."
           }
         }
       }
@@ -891,6 +999,12 @@
             "state" : "translated",
             "value" : "Больше языков"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Más idiomas"
+          }
         }
       }
     },
@@ -936,6 +1050,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сфотографируйте страницу\nс понравившейся строкой"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haz una foto de la página\ncon la frase que te gusta"
           }
         }
       },
@@ -983,6 +1103,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Заметка"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nota"
           }
         }
       },
@@ -1032,6 +1158,12 @@
             "state" : "translated",
             "value" : "Сохраняйте книги и цитаты в файл и загружайте их обратно."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda tus libros y citas en un archivo y recupéralos más adelante."
+          }
         }
       }
     },
@@ -1077,6 +1209,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цитаты"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citas"
           }
         }
       },
@@ -1125,6 +1263,12 @@
             "state" : "translated",
             "value" : "Проведите пальцем по тексту · Сведите два пальца, чтобы увеличить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Desliza el dedo sobre la frase · Pellizca con dos dedos para ampliar"
+          }
         }
       },
       "comment" : "swipe"
@@ -1172,6 +1316,12 @@
             "state" : "translated",
             "value" : "Карточка цитаты"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tarjeta de cita"
+          }
         }
       },
       "comment" : "card"
@@ -1218,6 +1368,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поиск по цитатам, заметкам и названиям"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Buscar citas, notas y títulos"
           }
         }
       },
@@ -1267,6 +1423,12 @@
             "state" : "translated",
             "value" : "Выбранные фрагменты сохранятся, даже если приложение закроется во время выбора."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tu selección se conserva aunque la app se cierre mientras eliges una cita."
+          }
         }
       }
     },
@@ -1314,6 +1476,12 @@
             "state" : "translated",
             "value" : "Лёгкая вибрация, когда вы выделяете или сохраняете цитату."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una vibración suave al subrayar o guardar una cita."
+          }
         }
       }
     },
@@ -1360,6 +1528,12 @@
             "state" : "translated",
             "value" : "Сохраните цитату, и каждый день здесь\nбудет появляться одна из них."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda una cita y volverás a verla\naquí cada día."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -1403,6 +1577,12 @@
           }
         },
         "ru" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "es" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -1455,6 +1635,12 @@
             "state" : "translated",
             "value" : "Резервная копия и экспорт"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Copia de seguridad y exportación"
+          }
         }
       }
     },
@@ -1502,6 +1688,12 @@
             "state" : "translated",
             "value" : "Удобные цвета и контраст"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Colores y contraste más cómodos"
+          }
         }
       }
     },
@@ -1547,6 +1739,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "На фото не нашлось текста. Проверьте фокус и освещение и снимите ещё раз."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se encontró texto en la foto. Revisa el enfoque y la luz e inténtalo de nuevo."
           }
         }
       },
@@ -1595,6 +1793,12 @@
             "state" : "translated",
             "value" : "Удалить"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar"
+          }
         }
       },
       "comment" : "delete"
@@ -1641,6 +1845,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Библиотека"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Biblioteca"
           }
         }
       },
@@ -1689,6 +1899,12 @@
             "state" : "translated",
             "value" : "Выберите книгу в библиотеке и сфотографируйте страницу."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elige un libro de tu biblioteca y haz una foto de una página."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -1735,6 +1951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Настройки"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajustes"
           }
         }
       },
@@ -1784,6 +2006,12 @@
             "state" : "translated",
             "value" : "Отклик под пальцами"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Respuesta háptica"
+          }
         }
       }
     },
@@ -1829,6 +2057,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цитата"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cita"
           }
         }
       },
@@ -1925,6 +2159,24 @@
               }
             }
           }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cita"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citas"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -1971,6 +2223,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Удалить цитату"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eliminar cita"
           }
         }
       },
@@ -2019,6 +2277,12 @@
             "state" : "translated",
             "value" : "Сохранённые цитаты"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citas guardadas"
+          }
         }
       },
       "comment" : "scraped"
@@ -2065,6 +2329,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет сохранённых цитат"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay citas guardadas"
           }
         }
       },
@@ -2114,6 +2384,12 @@
             "state" : "translated",
             "value" : "Полезные советы"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Consejos útiles"
+          }
         }
       }
     },
@@ -2161,6 +2437,12 @@
             "state" : "translated",
             "value" : "На iPad можно искать и листать книги и цитаты, пользуясь только клавиатурой."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "En el iPad, busca y recorre libros y citas solo con el teclado."
+          }
         }
       }
     },
@@ -2206,6 +2488,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Книг пока нет"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay libros"
           }
         }
       },
@@ -2254,6 +2542,12 @@
             "state" : "translated",
             "value" : "Пока ничего не выбрано"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no hay frases seleccionadas"
+          }
         }
       },
       "comment" : "none_sel"
@@ -2300,6 +2594,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Из этой книги пока нет сохранённых цитат.\nНажмите кнопку ниже и сохраните первую."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aún no has guardado citas de este libro.\nPulsa el botón de abajo para guardar la primera."
           }
         }
       },
@@ -2349,6 +2649,12 @@
             "state" : "translated",
             "value" : "Ненавязчиво подскажем полезные возможности в подходящий момент."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pistas discretas sobre funciones útiles, justo cuando las necesitas."
+          }
         }
       }
     },
@@ -2394,6 +2700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Выбрать из галереи"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elegir de Fotos"
           }
         }
       },
@@ -2443,6 +2755,12 @@
             "state" : "translated",
             "value" : "Приложением можно пользоваться и на английском."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Usa toda la app también en inglés."
+          }
         }
       }
     },
@@ -2489,6 +2807,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "При первом запуске после обновления расскажем, что изменилось."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La primera vez que abras la app tras una actualización, verás qué hay de nuevo."
           }
         }
       }
@@ -2537,6 +2861,12 @@
             "state" : "translated",
             "value" : "Что нового"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Novedades"
+          }
         }
       }
     },
@@ -2582,6 +2912,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ninguna"
           }
         }
       },
@@ -2631,6 +2967,12 @@
             "state" : "translated",
             "value" : "Полная поддержка английского"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compatibilidad total con inglés"
+          }
         }
       }
     },
@@ -2676,6 +3018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Цитата дня"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cita del día"
           }
         }
       },
@@ -2725,6 +3073,12 @@
             "state" : "translated",
             "value" : "Напоминания о цитате дня"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recordatorios de la cita del día"
+          }
         }
       }
     },
@@ -2771,6 +3125,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Уменьшение движения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reducir movimiento"
           }
         }
       }
@@ -2819,6 +3179,12 @@
             "state" : "translated",
             "value" : "Когда включено «Уменьшение движения», эффекты на экране становятся спокойнее."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Con Reducir movimiento activado, los efectos de pantalla son más sutiles."
+          }
         }
       }
     },
@@ -2864,6 +3230,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сбросить масштаб"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Restablecer zoom"
           }
         }
       },
@@ -2911,6 +3283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Исходное фото"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto original"
           }
         }
       },
@@ -2960,6 +3338,12 @@
             "state" : "translated",
             "value" : "При желании можно удалить все книги и цитаты прямо в приложении."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elimina todos tus libros y citas directamente desde la app."
+          }
         }
       }
     },
@@ -3005,6 +3389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Напишите, чем вам понравилась эта строка"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Anota por qué te gustó esta frase"
           }
         }
       },
@@ -3053,6 +3443,12 @@
             "state" : "translated",
             "value" : "Удалить эту книгу и все её цитаты?"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "¿Eliminar este libro y todas sus citas?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -3099,6 +3495,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Двигать"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mover"
           }
         }
       },
@@ -3147,6 +3549,12 @@
             "state" : "translated",
             "value" : "Перемещение"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moviendo"
+          }
         }
       },
       "comment" : "moving"
@@ -3193,6 +3601,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поделиться картинкой"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir como imagen"
           }
         }
       },
@@ -3241,6 +3655,12 @@
             "state" : "translated",
             "value" : "Не удалось распознать"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No se pudo leer"
+          }
         }
       },
       "comment" : "fail_title"
@@ -3287,6 +3707,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Авто"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
           }
         }
       },
@@ -3335,6 +3761,12 @@
             "state" : "translated",
             "value" : "Автор"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Autor"
+          }
         }
       },
       "comment" : "author"
@@ -3381,6 +3813,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сохранить"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guardar"
           }
         }
       },
@@ -3429,6 +3867,12 @@
             "state" : "translated",
             "value" : "Очистить всё"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrar todo"
+          }
         }
       },
       "comment" : "clear_all"
@@ -3475,6 +3919,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сведения"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Información"
           }
         }
       },
@@ -3524,6 +3974,12 @@
             "state" : "translated",
             "value" : "В выбранное время будем присылать уведомление с одной из ваших цитат."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Recibe una de tus citas guardadas como notificación a la hora que elijas."
+          }
         }
       }
     },
@@ -3569,6 +4025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Название"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Título"
           }
         }
       },
@@ -3617,6 +4079,12 @@
             "state" : "translated",
             "value" : "Уверенность в названии: %lld%%"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fiabilidad del título: %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -3663,6 +4131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "В избранное"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorita"
           }
         }
       },
@@ -3759,6 +4233,24 @@
               }
             }
           }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Llevas %lld libro"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Llevas %lld libros"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -3805,6 +4297,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ластик"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrador"
           }
         }
       },
@@ -3853,6 +4351,12 @@
             "state" : "translated",
             "value" : "Ластик вкл."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Borrador activado"
+          }
         }
       },
       "comment" : "erase_on"
@@ -3899,6 +4403,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Поддержка"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Soporte"
           }
         }
       },
@@ -3947,6 +4457,12 @@
             "state" : "translated",
             "value" : "Книга"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Libro"
+          }
         }
       },
       "comment" : "book"
@@ -3993,6 +4509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "О книге (можно изменить)"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Datos del libro (editables)"
           }
         }
       },
@@ -4041,6 +4563,12 @@
             "state" : "translated",
             "value" : "Добавить книгу"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir libro"
+          }
         }
       },
       "comment" : "add_book"
@@ -4087,6 +4615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Обложка книги"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Portada del libro"
           }
         }
       },
@@ -4136,6 +4670,12 @@
             "state" : "translated",
             "value" : "Знакомство для новичков"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guía de inicio"
+          }
         }
       }
     },
@@ -4183,6 +4723,12 @@
             "state" : "translated",
             "value" : "При первом запуске коротко покажем, что умеет приложение."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La primera vez que abras la app, verás un resumen rápido de lo que puede hacer."
+          }
         }
       }
     },
@@ -4228,6 +4774,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Добавить первую книгу"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Añadir tu primer libro"
           }
         }
       },
@@ -4276,6 +4828,12 @@
             "state" : "translated",
             "value" : "Найденный текст"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Texto extraído"
+          }
         }
       },
       "comment" : "extracted"
@@ -4323,6 +4881,12 @@
             "state" : "translated",
             "value" : "Отмена"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancelar"
+          }
         }
       },
       "comment" : "cancel"
@@ -4369,6 +4933,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Снять на камеру"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hacer foto"
           }
         }
       },
@@ -4418,6 +4988,12 @@
             "state" : "translated",
             "value" : "Экран для крупного текста"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pantallas para texto grande"
+          }
         }
       }
     },
@@ -4465,6 +5041,12 @@
             "state" : "translated",
             "value" : "Управление с клавиатуры"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Control con teclado"
+          }
         }
       }
     },
@@ -4510,6 +5092,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "При распознавании текста произошла ошибка. Попробуйте ещё раз."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Se produjo un error al reconocer el texto. Inténtalo de nuevo."
           }
         }
       },
@@ -4558,6 +5146,12 @@
             "state" : "translated",
             "value" : "Поделиться текстом"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Compartir como texto"
+          }
         }
       },
       "comment" : "share_text"
@@ -4604,6 +5198,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Страница"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Página"
           }
         }
       },
@@ -4652,6 +5252,12 @@
             "state" : "translated",
             "value" : "Совместите четыре точки с углами страницы"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ajusta los cuatro puntos a las esquinas de la página"
+          }
         }
       },
       "comment" : "corners"
@@ -4699,6 +5305,12 @@
             "state" : "translated",
             "value" : "Вся страница"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Página completa"
+          }
         }
       },
       "comment" : "whole_page"
@@ -4745,6 +5357,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Страница выровняется сама. Затем проведите пальцем по нужным предложениям, чтобы выбрать их."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "La página se endereza sola. Después pasa el dedo sobre las frases que quieras para elegirlas."
           }
         }
       },
@@ -4794,6 +5412,12 @@
             "state" : "translated",
             "value" : "Экран для складного iPhone"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diseño para iPhone plegable"
+          }
         }
       }
     },
@@ -4841,6 +5465,12 @@
             "state" : "translated",
             "value" : "На складном iPhone широкий экран делится на две панели."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aprovecha la pantalla ancha de un iPhone plegable con dos paneles en paralelo."
+          }
         }
       }
     },
@@ -4886,6 +5516,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Сфотографируйте штрихкод на задней обложке (вместо обложки или вместе с ней) — ISBN определится автоматически."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Si fotografías el código de barras de la contraportada (en lugar de la portada o junto a ella), el ISBN se reconoce solo."
           }
         }
       },
@@ -4934,6 +5570,12 @@
             "state" : "translated",
             "value" : "Читаю обложку…"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leyendo la portada…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -4981,6 +5623,12 @@
             "state" : "translated",
             "value" : "Сфотографируйте обложку — название и автор считаются сами"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haz una foto de la portada y se leerán el título y el autor"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -5027,6 +5675,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Начните с фото обложки.\nНазвание и автор считаются автоматически."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Empieza con una foto de la portada.\nEl título y el autor se leen solos."
           }
         }
       },
@@ -5076,6 +5730,12 @@
             "state" : "translated",
             "value" : "Продолжить с того же места"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Retoma donde lo dejaste"
+          }
         }
       }
     },
@@ -5123,6 +5783,12 @@
             "state" : "translated",
             "value" : "VoiceOver зачитывает все книги, цитаты и кнопки — и в правильном порядке."
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver lee todos los libros, citas y botones, en el orden correcto."
+          }
         }
       }
     },
@@ -5168,6 +5834,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ОК"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Aceptar"
           }
         }
       },

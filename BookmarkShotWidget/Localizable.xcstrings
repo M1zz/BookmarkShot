@@ -45,6 +45,12 @@
             "state" : "translated",
             "value" : "Сохраните первую цитату"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda una cita para empezar"
+          }
         }
       }
     },
@@ -140,6 +146,24 @@
               }
             }
           }
+        },
+        "es" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld cita para releer"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citas para releer"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -186,6 +210,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Нет сохранённых цитат"
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No hay citas guardadas"
           }
         }
       }
@@ -234,6 +264,12 @@
             "state" : "translated",
             "value" : "Сохраните цитату — и она будет\nпоявляться здесь каждый день"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Guarda una cita y la verás\naquí cada día"
+          }
         }
       }
     },
@@ -281,6 +317,12 @@
             "state" : "translated",
             "value" : "Цитата дня"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cita del día"
+          }
         }
       }
     },
@@ -327,6 +369,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Каждый день — одна из ваших сохранённых цитат. Если есть избранные, она выбирается среди них."
+          }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Una de tus citas guardadas cada día. Si tienes favoritas, se elige entre ellas."
           }
         }
       }

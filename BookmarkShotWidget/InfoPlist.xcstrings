@@ -44,6 +44,12 @@
             "state" : "translated",
             "value" : "Цитата дня"
           }
+        },
+        "es" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cita del día"
+          }
         }
       }
     }

@@ -51,6 +51,13 @@ Polished for steadier performance.
 Версия приложения тоже в настройках.
 Мы сделали приложение стабильнее.
 
+### 앱스토어 (es)
+
+Ya hay una nueva pantalla de ajustes.
+Comentarios y reseñas, en Ajustes.
+También verás la versión de la app ahí.
+Mejoramos la app para más estabilidad.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"
