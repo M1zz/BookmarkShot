@@ -93,6 +93,13 @@ Deixamos o app mais estável.
 ดูเวอร์ชันของแอปในการตั้งค่าได้เลย
 ปรับปรุงให้แอปทำงานเสถียรขึ้น
 
+### 앱스토어 (vi)
+
+Màn hình Cài đặt mới đã xuất hiện.
+Gửi góp ý, đánh giá ngay trong Cài đặt.
+Xem phiên bản ứng dụng cũng ở đó.
+Ứng dụng được tinh chỉnh để ổn định hơn.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

@@ -81,6 +81,12 @@
             "state" : "translated",
             "value" : "ล็อกด้วย Face ID"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa bằng Face ID"
+          }
         }
       }
     },
@@ -164,6 +170,12 @@
             "state" : "translated",
             "value" : "ล็อกแอปด้วย Face ID หรือ Touch ID เพื่อปกป้องประโยคที่คุณเก็บไว้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khóa ứng dụng bằng Face ID hoặc Touch ID để bảo vệ những câu bạn đã lưu."
+          }
         }
       }
     },
@@ -245,6 +257,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (ไม่บังคับ)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (không bắt buộc)"
           }
         }
       },
@@ -330,6 +348,12 @@
             "state" : "translated",
             "value" : "บอก Siri หรือใช้คำสั่งลัดเพื่อเปิดประโยคประจำวันได้ทันที"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mở ngay câu của hôm nay bằng Siri hoặc phím tắt."
+          }
         }
       }
     },
@@ -412,6 +436,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri และคำสั่งลัด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri và Phím tắt"
           }
         }
       }
@@ -496,6 +526,12 @@
             "state" : "translated",
             "value" : "ใช้ VoiceOver ได้สบายขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng VoiceOver thoải mái hơn"
+          }
         }
       }
     },
@@ -577,6 +613,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ"
           }
         }
       },
@@ -661,6 +703,12 @@
             "state" : "translated",
             "value" : "ดึงข้อความ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trích xuất văn bản"
+          }
         }
       },
       "comment" : "extract"
@@ -744,6 +792,12 @@
             "state" : "translated",
             "value" : "เก็บประโยค"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu câu văn"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -826,6 +880,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึกที่คุณเขียนไว้ตอนนั้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi chú bạn đã để lại"
           }
         }
       },
@@ -911,6 +971,12 @@
             "state" : "translated",
             "value" : "เมื่อขยายขนาดตัวอักษร เนื้อหาจะจัดเรียงใหม่อย่างเหมาะสม ไม่ถูกตัดขาด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi tăng cỡ chữ, nội dung được sắp xếp lại gọn gàng thay vì bị cắt mất."
+          }
         }
       }
     },
@@ -992,6 +1058,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "กำลังอ่านข้อความ…"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang đọc chữ…"
           }
         }
       },
@@ -1077,6 +1149,12 @@
             "state" : "translated",
             "value" : "ลบข้อมูลของฉันในครั้งเดียว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa toàn bộ dữ liệu của tôi"
+          }
         }
       }
     },
@@ -1158,6 +1236,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประโยคอื่น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu khác"
           }
         }
       },
@@ -1242,6 +1326,12 @@
             "state" : "translated",
             "value" : "ยังไม่มีประโยคให้ย้อนอ่าน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có câu nào để đọc lại"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1324,6 +1414,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปิด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đóng"
           }
         }
       },
@@ -1409,6 +1505,12 @@
             "state" : "translated",
             "value" : "อ่านเนื้อหาได้ง่าย แม้เปิดเพิ่มคอนทราสต์ หรือแยกสีได้ยาก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nội dung vẫn dễ đọc, kể cả khi bật tăng độ tương phản hoặc khó phân biệt màu."
+          }
         }
       }
     },
@@ -1491,6 +1593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ใช้แอปได้ในอีกหลายภาษา"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng ứng dụng bằng nhiều ngôn ngữ hơn."
           }
         }
       }
@@ -1575,6 +1683,12 @@
             "state" : "translated",
             "value" : "ภาษาที่มากขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm nhiều ngôn ngữ"
+          }
         }
       }
     },
@@ -1656,6 +1770,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายหน้าหนังสือ\nที่มีประโยคที่คุณชอบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy chụp trang sách\ncó câu bạn thích"
           }
         }
       },
@@ -1739,6 +1859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi chú"
           }
         }
       },
@@ -1824,6 +1950,12 @@
             "state" : "translated",
             "value" : "บันทึกหนังสือและประโยคเป็นไฟล์ แล้วนำกลับมาใช้ภายหลังได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu sách và câu văn vào một tệp, rồi nhập lại bất cứ lúc nào."
+          }
         }
       }
     },
@@ -1905,6 +2037,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประโยค"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu văn"
           }
         }
       },
@@ -1989,6 +2127,12 @@
             "state" : "translated",
             "value" : "ลากนิ้วผ่านประโยค · ถ่างสองนิ้วเพื่อขยาย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lướt ngón tay qua câu · Chụm hai ngón để phóng to"
+          }
         }
       },
       "comment" : "swipe"
@@ -2072,6 +2216,12 @@
             "state" : "translated",
             "value" : "การ์ดประโยค"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thẻ câu văn"
+          }
         }
       },
       "comment" : "card"
@@ -2154,6 +2304,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ค้นหาประโยค บันทึก ชื่อหนังสือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tìm câu văn, ghi chú, tên sách"
           }
         }
       },
@@ -2239,6 +2395,12 @@
             "state" : "translated",
             "value" : "สิ่งที่เลือกไว้ยังอยู่ แม้แอปจะปิดไประหว่างที่กำลังเลือกประโยค"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lựa chọn của bạn vẫn còn, kể cả khi ứng dụng tắt giữa chừng lúc đang chọn câu."
+          }
         }
       }
     },
@@ -2322,6 +2484,12 @@
             "state" : "translated",
             "value" : "สั่นเบา ๆ เมื่อคุณขีดเส้นใต้หรือบันทึกประโยค"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Rung nhẹ khi bạn gạch chân hoặc lưu một câu văn."
+          }
         }
       }
     },
@@ -2404,6 +2572,12 @@
             "state" : "translated",
             "value" : "เก็บประโยคไว้ แล้วคุณจะได้พบกับ\nประโยคหนึ่งที่นี่ทุกวัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy lưu một câu văn, mỗi ngày bạn sẽ\ngặp lại một câu ở đây."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -2483,6 +2657,12 @@
           }
         },
         "th" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "vi" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -2571,6 +2751,12 @@
             "state" : "translated",
             "value" : "สำรองข้อมูลและส่งออก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sao lưu và xuất dữ liệu"
+          }
         }
       }
     },
@@ -2654,6 +2840,12 @@
             "state" : "translated",
             "value" : "สีและคอนทราสต์ที่อ่านง่าย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màu sắc và độ tương phản dễ nhìn"
+          }
         }
       }
     },
@@ -2735,6 +2927,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่พบข้อความในรูป ลองตรวจสอบโฟกัสและแสงสว่าง แล้วถ่ายใหม่อีกครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không tìm thấy chữ trong ảnh. Hãy kiểm tra độ nét và ánh sáng rồi chụp lại."
           }
         }
       },
@@ -2819,6 +3017,12 @@
             "state" : "translated",
             "value" : "ลบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa"
+          }
         }
       },
       "comment" : "delete"
@@ -2901,6 +3105,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชั้นหนังสือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tủ sách"
           }
         }
       },
@@ -2985,6 +3195,12 @@
             "state" : "translated",
             "value" : "เลือกหนังสือจากชั้นหนังสือ แล้วถ่ายหน้ากระดาษ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn một cuốn sách trong tủ sách rồi chụp một trang."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -3067,6 +3283,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "การตั้งค่า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cài đặt"
           }
         }
       },
@@ -3152,6 +3374,12 @@
             "state" : "translated",
             "value" : "การตอบสนองที่ปลายนิ้ว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Phản hồi rung"
+          }
         }
       }
     },
@@ -3233,6 +3461,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประโยคที่เก็บ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu đã lưu"
           }
         }
       },
@@ -3425,6 +3659,12 @@
             "state" : "translated",
             "value" : "เก็บไว้ %lld ประโยค"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld câu đã lưu"
+          }
         }
       },
       "comment" : "scrap_count"
@@ -3507,6 +3747,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลบประโยคที่เก็บ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa câu đã lưu"
           }
         }
       },
@@ -3591,6 +3837,12 @@
             "state" : "translated",
             "value" : "ประโยคที่เก็บไว้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu đã lưu"
+          }
         }
       },
       "comment" : "scraped"
@@ -3673,6 +3925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีประโยคที่เก็บไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có câu nào được lưu"
           }
         }
       },
@@ -3758,6 +4016,12 @@
             "state" : "translated",
             "value" : "เคล็ดลับการใช้งาน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mẹo sử dụng"
+          }
         }
       }
     },
@@ -3841,6 +4105,12 @@
             "state" : "translated",
             "value" : "บน iPad ค้นหาและเปิดดูหนังสือกับประโยคได้ด้วยคีย์บอร์ดอย่างเดียว"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trên iPad, tìm và duyệt sách, câu văn chỉ bằng bàn phím."
+          }
         }
       }
     },
@@ -3922,6 +4192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีหนังสือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có cuốn sách nào"
           }
         }
       },
@@ -4006,6 +4282,12 @@
             "state" : "translated",
             "value" : "ยังไม่ได้เลือกประโยคใด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa chọn câu nào"
+          }
         }
       },
       "comment" : "none_sel"
@@ -4088,6 +4370,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีประโยคที่เก็บจากหนังสือเล่มนี้\nแตะปุ่มด้านล่างเพื่อเก็บประโยคแรก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa lưu câu nào từ cuốn sách này.\nChạm nút bên dưới để lưu câu đầu tiên."
           }
         }
       },
@@ -4173,6 +4461,12 @@
             "state" : "translated",
             "value" : "แนะนำฟีเจอร์ที่ใช้งานง่ายอย่างนุ่มนวล ในจังหวะที่เหมาะสม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gợi ý nhẹ nhàng về những tính năng hữu ích, đúng lúc bạn cần."
+          }
         }
       }
     },
@@ -4254,6 +4548,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลือกจากอัลบั้ม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chọn từ Ảnh"
           }
         }
       },
@@ -4339,6 +4639,12 @@
             "state" : "translated",
             "value" : "ใช้แอปทั้งหมดเป็นภาษาอังกฤษได้ด้วย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng toàn bộ ứng dụng bằng tiếng Anh."
+          }
         }
       }
     },
@@ -4421,6 +4727,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เมื่อเปิดครั้งแรกหลังอัปเดต จะบอกว่ามีอะไรใหม่"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu mở ứng dụng sau khi cập nhật, bạn sẽ thấy có gì mới."
           }
         }
       }
@@ -4505,6 +4817,12 @@
             "state" : "translated",
             "value" : "มีอะไรใหม่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Có gì mới"
+          }
         }
       }
     },
@@ -4586,6 +4904,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ไม่มี"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Không có"
           }
         }
       },
@@ -4671,6 +4995,12 @@
             "state" : "translated",
             "value" : "รองรับภาษาอังกฤษเต็มรูปแบบ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ tiếng Anh đầy đủ"
+          }
         }
       }
     },
@@ -4752,6 +5082,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ประโยคประจำวัน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu của hôm nay"
           }
         }
       },
@@ -4837,6 +5173,12 @@
             "state" : "translated",
             "value" : "แจ้งเตือนประโยคประจำวัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhắc câu của hôm nay"
+          }
         }
       }
     },
@@ -4919,6 +5261,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ลดการเคลื่อนไหว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giảm chuyển động"
           }
         }
       }
@@ -5003,6 +5351,12 @@
             "state" : "translated",
             "value" : "เมื่อเปิด “ลดการเคลื่อนไหว” เอฟเฟกต์บนหน้าจอจะนุ่มนวลขึ้น"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Khi bật Giảm chuyển động, hiệu ứng trên màn hình sẽ dịu hơn."
+          }
         }
       }
     },
@@ -5084,6 +5438,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "คืนค่าการซูม"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đặt lại thu phóng"
           }
         }
       },
@@ -5167,6 +5527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รูปต้นฉบับ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ảnh gốc"
           }
         }
       },
@@ -5252,6 +5618,12 @@
             "state" : "translated",
             "value" : "หากต้องการ ลบหนังสือและประโยคที่เก็บไว้ทั้งหมดได้ในแอปเลย"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa tất cả sách và câu văn đã lưu ngay trong ứng dụng."
+          }
         }
       }
     },
@@ -5333,6 +5705,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "จดไว้ว่าทำไมประโยคนี้ถึงถูกใจคุณ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ghi lại lý do bạn thích câu này"
           }
         }
       },
@@ -5417,6 +5795,12 @@
             "state" : "translated",
             "value" : "ลบหนังสือเล่มนี้และประโยคทั้งหมดหรือไม่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa cuốn sách này và tất cả các câu đã lưu?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -5499,6 +5883,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เลื่อน"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Di chuyển"
           }
         }
       },
@@ -5583,6 +5973,12 @@
             "state" : "translated",
             "value" : "กำลังเลื่อน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang di chuyển"
+          }
         }
       },
       "comment" : "moving"
@@ -5665,6 +6061,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แชร์เป็นรูปภาพ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ dưới dạng ảnh"
           }
         }
       },
@@ -5749,6 +6151,12 @@
             "state" : "translated",
             "value" : "อ่านข้อความไม่สำเร็จ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhận dạng thất bại"
+          }
         }
       },
       "comment" : "fail_title"
@@ -5831,6 +6239,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "อัตโนมัติ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tự động"
           }
         }
       },
@@ -5915,6 +6329,12 @@
             "state" : "translated",
             "value" : "ผู้แต่ง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tác giả"
+          }
         }
       },
       "comment" : "author"
@@ -5997,6 +6417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "บันทึก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lưu"
           }
         }
       },
@@ -6081,6 +6507,12 @@
             "state" : "translated",
             "value" : "ล้างทั้งหมด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Xóa tất cả"
+          }
         }
       },
       "comment" : "clear_all"
@@ -6163,6 +6595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อมูล"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông tin"
           }
         }
       },
@@ -6248,6 +6686,12 @@
             "state" : "translated",
             "value" : "รับประโยคที่เก็บไว้หนึ่งประโยคเป็นการแจ้งเตือนตามเวลาที่คุณตั้ง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nhận một câu đã lưu qua thông báo vào giờ bạn chọn."
+          }
         }
       }
     },
@@ -6329,6 +6773,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ชื่อเรื่อง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tên sách"
           }
         }
       },
@@ -6413,6 +6863,12 @@
             "state" : "translated",
             "value" : "ความมั่นใจในการอ่านชื่อเรื่อง %lld%%"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Độ tin cậy của tên sách: %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -6495,6 +6951,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "รายการโปรด"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Yêu thích"
           }
         }
       },
@@ -6687,6 +7149,12 @@
             "state" : "translated",
             "value" : "สะสมมาแล้ว %lld เล่ม"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã sưu tầm %lld cuốn sách"
+          }
         }
       },
       "comment" : "collected"
@@ -6769,6 +7237,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยางลบ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tẩy"
           }
         }
       },
@@ -6853,6 +7327,12 @@
             "state" : "translated",
             "value" : "ยางลบ เปิด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tẩy: Bật"
+          }
         }
       },
       "comment" : "erase_on"
@@ -6935,6 +7415,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ช่วยเหลือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hỗ trợ"
           }
         }
       },
@@ -7019,6 +7505,12 @@
             "state" : "translated",
             "value" : "หนังสือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sách"
+          }
         }
       },
       "comment" : "book"
@@ -7101,6 +7593,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ข้อมูลหนังสือ (แก้ไขได้)"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thông tin sách (có thể sửa)"
           }
         }
       },
@@ -7185,6 +7683,12 @@
             "state" : "translated",
             "value" : "เพิ่มหนังสือ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm sách"
+          }
         }
       },
       "comment" : "add_book"
@@ -7267,6 +7771,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ปกหนังสือ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bìa sách"
           }
         }
       },
@@ -7352,6 +7862,12 @@
             "state" : "translated",
             "value" : "คำแนะนำสำหรับผู้เริ่มใช้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hướng dẫn cho người mới"
+          }
         }
       }
     },
@@ -7435,6 +7951,12 @@
             "state" : "translated",
             "value" : "เมื่อเปิดครั้งแรก จะแสดงสั้น ๆ ว่าแอปทำอะไรได้บ้าง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lần đầu mở ứng dụng, xem nhanh những gì ứng dụng có thể làm."
+          }
         }
       }
     },
@@ -7516,6 +8038,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เพิ่มหนังสือเล่มแรก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Thêm cuốn sách đầu tiên"
           }
         }
       },
@@ -7600,6 +8128,12 @@
             "state" : "translated",
             "value" : "ข้อความที่ดึงได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Văn bản đã trích"
+          }
         }
       },
       "comment" : "extracted"
@@ -7683,6 +8217,12 @@
             "state" : "translated",
             "value" : "ยกเลิก"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hủy"
+          }
         }
       },
       "comment" : "cancel"
@@ -7765,6 +8305,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายรูป"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp ảnh"
           }
         }
       },
@@ -7850,6 +8396,12 @@
             "state" : "translated",
             "value" : "หน้าจอสำหรับตัวอักษรใหญ่"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Màn hình cho chữ lớn"
+          }
         }
       }
     },
@@ -7933,6 +8485,12 @@
             "state" : "translated",
             "value" : "ควบคุมด้วยคีย์บอร์ด"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Điều khiển bằng bàn phím"
+          }
         }
       }
     },
@@ -8014,6 +8572,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เกิดข้อผิดพลาดขณะอ่านข้อความ โปรดลองอีกครั้ง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đã xảy ra lỗi khi nhận dạng chữ. Vui lòng thử lại."
           }
         }
       },
@@ -8098,6 +8662,12 @@
             "state" : "translated",
             "value" : "แชร์เป็นข้อความ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chia sẻ dưới dạng văn bản"
+          }
         }
       },
       "comment" : "share_text"
@@ -8180,6 +8750,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "หน้า"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trang"
           }
         }
       },
@@ -8264,6 +8840,12 @@
             "state" : "translated",
             "value" : "จัดจุดทั้งสี่ให้ตรงมุมของหน้ากระดาษ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Căn bốn điểm vào bốn góc của trang sách"
+          }
         }
       },
       "comment" : "corners"
@@ -8347,6 +8929,12 @@
             "state" : "translated",
             "value" : "ทั้งหน้า"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cả trang"
+          }
         }
       },
       "comment" : "whole_page"
@@ -8429,6 +9017,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "แอปจะปรับหน้ากระดาษให้ตรงให้เอง จากนั้นใช้นิ้วลากผ่านประโยคที่ต้องการเพื่อเลือก"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Trang sách sẽ được làm phẳng giúp bạn. Sau đó, lướt ngón tay qua các câu muốn chọn."
           }
         }
       },
@@ -8514,6 +9108,12 @@
             "state" : "translated",
             "value" : "หน้าจอสำหรับ iPhone พับได้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Giao diện cho iPhone màn hình gập"
+          }
         }
       }
     },
@@ -8597,6 +9197,12 @@
             "state" : "translated",
             "value" : "ใช้หน้าจอกว้างของ iPhone พับได้แบ่งเป็นสองส่วนเคียงข้างกัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dùng màn hình rộng của iPhone gập với hai ngăn cạnh nhau."
+          }
         }
       }
     },
@@ -8678,6 +9284,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ถ่ายบาร์โค้ดที่ปกหลังด้วย (หรือแทนปกหน้า) แล้ว ISBN จะถูกอ่านให้อัตโนมัติ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp thêm (hoặc chỉ chụp) mã vạch ở bìa sau, ISBN cũng sẽ được nhận dạng tự động."
           }
         }
       },
@@ -8762,6 +9374,12 @@
             "state" : "translated",
             "value" : "กำลังอ่านปกหนังสือ…"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Đang đọc bìa sách…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -8845,6 +9463,12 @@
             "state" : "translated",
             "value" : "ถ่ายปกหนังสือ แล้วชื่อเรื่องและผู้แต่งจะถูกอ่านให้อัตโนมัติ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chụp bìa sách, tên sách và tác giả sẽ được đọc tự động"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -8927,6 +9551,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เริ่มต้นด้วยการถ่ายปกหนังสือสักภาพ\nชื่อเรื่องและผู้แต่งจะถูกอ่านให้อัตโนมัติ"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy bắt đầu bằng cách chụp một tấm bìa sách.\nTên sách và tác giả sẽ được đọc tự động."
           }
         }
       },
@@ -9012,6 +9642,12 @@
             "state" : "translated",
             "value" : "ทำต่อจากที่ค้างไว้"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tiếp tục từ chỗ đang dở"
+          }
         }
       }
     },
@@ -9095,6 +9731,12 @@
             "state" : "translated",
             "value" : "VoiceOver อ่านหนังสือ ประโยค และปุ่มต่าง ๆ ครบทุกอย่าง ตามลำดับที่ถูกต้อง"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver đọc đầy đủ sách, câu văn và các nút, theo đúng thứ tự."
+          }
         }
       }
     },
@@ -9176,6 +9818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ตกลง"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       },

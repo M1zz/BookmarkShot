@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -113,6 +113,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "แค่ถ่ายปกเล่มเดียว<br>ก็ได้ชั้นหนังสือ", "ชื่อเรื่องและผู้แต่งอ่านจากรูปให้เอง"),
         ("04-quotes.png", "flat-rotate", "ประโยคที่เก็บไว้<br>รวมอยู่ที่เดียว", "ค้นหาจากชื่อหนังสือหรือบันทึกได้ทันที"),
         ("05-daily.png", "dark", "พบประโยคเด็ด<br>ทุกวัน", "มีวิดเจ็ตติดตัว และแชร์เป็นการ์ดได้"),
+    ],
+    "vi": [
+        ("01-highlight.png", "hero-bleed", "Lướt ngón tay<br>như bút dạ quang", "Chỉ những câu bạn lướt qua mới thành chữ"),
+        ("02-region.png", "left-text", "Chụp nghiêng<br>vẫn ngay ngắn", "Căn bốn góc là trang sách phẳng như giấy"),
+        ("03-library.png", "text-bottom", "Tủ sách làm từ<br>những tấm bìa", "Tên sách và tác giả được đọc từ ảnh"),
+        ("04-quotes.png", "flat-rotate", "Mọi câu đã lưu<br>ở một nơi", "Tìm theo tên sách hoặc ghi chú"),
+        ("05-daily.png", "dark", "Mỗi ngày gặp lại<br>một câu hay", "Widget luôn bên cạnh, thẻ để chia sẻ"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

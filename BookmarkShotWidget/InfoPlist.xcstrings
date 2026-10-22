@@ -80,6 +80,12 @@
             "state" : "translated",
             "value" : "ประโยคประจำวัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu của hôm nay"
+          }
         }
       }
     }

@@ -81,6 +81,12 @@
             "state" : "translated",
             "value" : "ลองเก็บประโยคแรกดูสิ"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy lưu một câu văn"
+          }
         }
       }
     },
@@ -272,6 +278,12 @@
             "state" : "translated",
             "value" : "มี %lld ประโยคให้ย้อนอ่าน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld câu để đọc lại"
+          }
         }
       }
     },
@@ -354,6 +366,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ยังไม่มีประโยคที่เก็บไว้"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Chưa có câu nào được lưu"
           }
         }
       }
@@ -438,6 +456,12 @@
             "state" : "translated",
             "value" : "เก็บประโยคไว้ แล้วจะได้พบกัน\nที่นี่ทุกวัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hãy lưu một câu văn, mỗi ngày\nbạn sẽ gặp lại ở đây"
+          }
         }
       }
     },
@@ -521,6 +545,12 @@
             "state" : "translated",
             "value" : "ประโยคประจำวัน"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Câu của hôm nay"
+          }
         }
       }
     },
@@ -603,6 +633,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "พบกับประโยคที่คุณเก็บไว้วันละหนึ่งประโยค ถ้ามีรายการโปรด จะสุ่มจากในนั้น"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Mỗi ngày gặp lại một câu bạn đã lưu. Nếu có câu yêu thích, widget sẽ chọn trong số đó."
           }
         }
       }

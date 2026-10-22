@@ -80,6 +80,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -162,6 +168,12 @@
             "state" : "translated",
             "value" : "ใช้กล้องเพื่อถ่ายปกและหน้าหนังสือ แล้วดึงประโยคออกมา"
           }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Camera được dùng để chụp bìa và trang sách nhằm trích xuất các câu văn."
+          }
         }
       }
     },
@@ -243,6 +255,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "เข้าถึงคลังรูปภาพเพื่อดึงประโยคจากรูปหนังสือที่คุณถ่ายไว้แล้ว"
+          }
+        },
+        "vi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Truy cập thư viện ảnh để trích xuất câu văn từ những ảnh sách bạn đã chụp."
           }
         }
       }

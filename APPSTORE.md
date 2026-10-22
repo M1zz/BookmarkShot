@@ -766,3 +766,62 @@ Bookmark Shot: เก็บประโยคเด็ด
 
 ความเป็นส่วนตัว
 การอ่านข้อความทั้งหมดทำงานบนเครื่องของคุณ รูปถ่ายไม่ถูกส่งออกไปไหน และใช้งานได้แม้ไม่มีอินเทอร์เน็ต
+
+## vi
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Câu văn hay
+
+### 부제
+
+Chụp trang, lướt tay là lưu
+
+### 키워드
+
+nhật ký đọc sách,ghi chú,đánh dấu,gạch chân,bút dạ quang,tủ sách,ocr,tiểu thuyết,trích dẫn,danh ngôn
+
+### 프로모션 텍스트
+
+Gặp một câu chạm đến trái tim? Chụp trang sách rồi lướt ngón tay qua câu ấy. Tên sách và số trang được ghi sẵn, còn việc nhận dạng chữ chỉ diễn ra trên thiết bị của bạn.
+
+### 설명
+
+Giữ mãi những câu bạn từng gạch chân trong sách giấy, chỉ bằng một bức ảnh.
+Chụp một trang sách rồi lướt ngón tay qua câu bạn thích: chỉ riêng câu đó được chuyển thành chữ.
+
+Thêm sách chỉ với một tấm ảnh bìa
+Chụp bìa sách, tên sách và tác giả sẽ được đọc giúp bạn. Nếu thấy mã vạch ở bìa sau, ISBN cũng được điền sẵn.
+Bạn có thể sửa mọi thông tin đã đọc trước khi lưu.
+
+Chọn câu như dùng bút dạ quang
+Sau khi chụp trang, hãy căn bốn góc và ngay cả ảnh chụp nghiêng cũng được làm phẳng như tờ giấy.
+Lướt ngón tay qua những câu muốn chọn, chỉ những từ đó được chọn. Chụm hai ngón để phóng to cho chính xác hơn, hoặc dùng cục tẩy để bỏ bớt từ.
+Số trang cũng được tìm ở mép ảnh và tự động điền vào.
+
+Tủ sách và bộ sưu tập câu văn
+Sách bạn sưu tầm xếp thành tủ sách toàn bìa, còn các câu đã lưu tập trung ở một nơi.
+Tìm theo câu văn, ghi chú hoặc tên sách, và đánh dấu trái tim cho câu yêu thích.
+
+Câu của hôm nay
+Mỗi ngày, một câu bạn đã lưu lại hiện ra cùng ghi chú bạn để lại lúc đó.
+Giữ câu ấy luôn bên cạnh bằng widget trên Màn hình chính và Màn hình khóa.
+Biến câu văn thành tấm thẻ mang dáng giấy và chia sẻ ngay.
+
+Đồng bộ giữa các thiết bị
+Nhờ iCloud, tủ sách và câu văn tự động khớp nhau giữa các iPhone của bạn.
+
+Quyền riêng tư
+Toàn bộ việc nhận dạng chữ diễn ra trên thiết bị. Ảnh không rời khỏi máy, và ứng dụng dùng được cả khi không có mạng.
