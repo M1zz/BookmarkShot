@@ -105,6 +105,12 @@
             "state" : "translated",
             "value" : "Αποθήκευσε ένα απόσπασμα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna lainaus aloittaaksesi"
+          }
         }
       }
     },
@@ -368,6 +374,24 @@
               }
             }
           }
+        },
+        "fi" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lainaus luettavaksi uudelleen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld lainausta luettavaksi uudelleen"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -474,6 +498,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Δεν υπάρχουν αποθηκευμένα αποσπάσματα"
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ei tallennettuja lainauksia"
           }
         }
       }
@@ -582,6 +612,12 @@
             "state" : "translated",
             "value" : "Αποθήκευσε ένα απόσπασμα και θα το\nβλέπεις εδώ κάθε μέρα"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tallenna lainaus, niin näet sen\ntäällä joka päivä"
+          }
         }
       }
     },
@@ -689,6 +725,12 @@
             "state" : "translated",
             "value" : "Απόσπασμα της ημέρας"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivän lainaus"
+          }
         }
       }
     },
@@ -795,6 +837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Κάθε μέρα ένα από τα αποθηκευμένα αποσπάσματά σου. Αν έχεις αγαπημένα, επιλέγεται ανάμεσά τους."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Joka päivä yksi tallentamistasi lainauksista. Jos sinulla on suosikkeja, valinta tehdään niistä."
           }
         }
       }

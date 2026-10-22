@@ -121,6 +121,13 @@ Appen er finpudset og kører stabilt.
 Εκεί βλέπεις και την έκδοση εφαρμογής.
 Βελτιώσαμε την εφαρμογή για σταθερότητα.
 
+### 앱스토어 (fi)
+
+Asetusnäkymä on uudistunut.
+Palaute ja arvostelu: Asetuksissa.
+Näet siellä myös sovelluksen version.
+Hioimme sovellusta vakaammaksi.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

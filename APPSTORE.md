@@ -1002,3 +1002,62 @@ Bookmark Shot: Αποσπάσματα
 
 Απόρρητο
 Όλη η αναγνώριση κειμένου γίνεται στη συσκευή σου. Οι φωτογραφίες δεν τη διαβαίνουν ποτέ και η εφαρμογή λειτουργεί και χωρίς σύνδεση στο διαδίκτυο.
+
+## fi
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Kirjalainaukset
+
+### 부제
+
+Kuvaa sivu ja vedä sormella
+
+### 키워드
+
+lukupäiväkirja,muistiinpanot,korostus,alleviivaus,kirjasto,kirjahylly,skanneri,ocr,romaani
+
+### 프로모션 텍스트
+
+Koskettiko jokin lause? Kuvaa sivu ja vedä sormea sen yli. Kirja ja sivunumero kirjautuvat itsestään, ja tekstintunnistus tapahtuu vain laitteellasi.
+
+### 설명
+
+Säilytä ikuisesti ne lauseet, jotka ennen alleviivasit paperikirjoista, yhdellä kuvalla.
+Ota kuva sivusta ja vedä sormea mieleisesi lauseen yli: vain se lause muuttuu tekstiksi.
+
+Lisää kirja kansikuvalla
+Ota kuva kansista, niin nimi ja kirjailija luetaan puolestasi. Jos takakannen viivakoodi näkyy kuvassa, myös ISBN täytetään.
+Voit korjata kaiken luetun ennen tallennusta.
+
+Valitse lauseita kuin korostuskynällä
+Kun olet ottanut kuvan sivusta, sovita neljä kulmaa, ja vinossakin otettu kuva oikenee kuin paperiarkki.
+Vedä sormea haluamiesi lauseiden yli, niin vain nämä sanat valitaan. Zoomaa kahdella sormella tarkempaa vetoa varten tai poista sanoja pyyhekumilla.
+Sivunumero etsitään kuvan reunasta ja täytetään automaattisesti.
+
+Kirjasto ja lainauskokoelma
+Kirjasi kerääntyvät kansikuvista koostuvaan hyllyyn ja tallentamasi lainaukset yhteen paikkaan.
+Hae lauseella, muistiinpanolla tai kirjan nimellä ja merkitse suosikit sydämellä.
+
+Päivän lainaus
+Joka päivä yksi tallentamistasi lainauksista palaa luoksesi yhdessä silloin kirjoittamasi muistiinpanon kanssa.
+Pidä se lähellä aloitusnäytön tai lukitusnäytön widgetillä.
+Muuta lainaus paperin näköiseksi kortiksi ja jaa se heti.
+
+Synkronointi laitteiden välillä
+iCloudin avulla kirjastosi ja lainauksesi pysyvät ajan tasalla iPhoneillasi.
+
+Yksityisyys
+Kaikki tekstintunnistus tapahtuu laitteellasi. Kuvasi eivät poistu sieltä, ja sovellus toimii ilman internetyhteyttä.

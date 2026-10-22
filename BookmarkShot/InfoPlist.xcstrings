@@ -104,6 +104,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -210,6 +216,12 @@
             "state" : "translated",
             "value" : "Η κάμερα χρησιμοποιείται για να φωτογραφίζεις εξώφυλλα και σελίδες βιβλίων και να εξάγονται οι προτάσεις."
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraa käytetään kirjan kansien ja sivujen kuvaamiseen, jotta niistä voi poimia lauseita."
+          }
         }
       }
     },
@@ -315,6 +327,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Η πρόσβαση στις φωτογραφίες χρησιμεύει για την εξαγωγή προτάσεων από φωτογραφίες βιβλίων που έχεις ήδη τραβήξει."
+          }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kuviin pääsyä käytetään lauseiden poimimiseen jo ottamistasi kirjakuvista."
           }
         }
       }

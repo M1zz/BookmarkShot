@@ -104,6 +104,12 @@
             "state" : "translated",
             "value" : "Απόσπασμα της ημέρας"
           }
+        },
+        "fi" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Päivän lainaus"
+          }
         }
       }
     }
