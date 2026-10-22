@@ -116,6 +116,12 @@
             "state" : "translated",
             "value" : "Kutipan Hari Ini"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens sitat"
+          }
         }
       }
     }

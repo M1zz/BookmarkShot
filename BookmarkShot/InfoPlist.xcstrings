@@ -116,6 +116,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -234,6 +240,12 @@
             "state" : "translated",
             "value" : "Kamera dipakai untuk memotret sampul dan halaman buku agar kalimatnya bisa diambil."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kameraet brukes til å ta bilde av bokomslag og sider, slik at setningene kan hentes ut."
+          }
         }
       }
     },
@@ -351,6 +363,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Akses ke foto dipakai untuk mengambil kalimat dari foto buku yang sudah kamu ambil."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilgang til bildene dine brukes til å hente ut setninger fra bokbilder du allerede har tatt."
           }
         }
       }

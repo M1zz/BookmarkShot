@@ -117,6 +117,12 @@
             "state" : "translated",
             "value" : "Kunci Face ID"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Låsing med Face ID"
+          }
         }
       }
     },
@@ -236,6 +242,12 @@
             "state" : "translated",
             "value" : "Kunci aplikasi dengan Face ID atau Touch ID untuk melindungi kutipanmu."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lås appen med Face ID eller Touch ID, så sitatene dine er beskyttet."
+          }
         }
       }
     },
@@ -353,6 +365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (opsional)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (valgfritt)"
           }
         }
       },
@@ -474,6 +492,12 @@
             "state" : "translated",
             "value" : "Buka kutipan hari ini langsung lewat Siri atau pintasan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Åpne dagens sitat med en gang via Siri eller en snarvei."
+          }
         }
       }
     },
@@ -592,6 +616,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri dan Pintasan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri og Snarveier"
           }
         }
       }
@@ -712,6 +742,12 @@
             "state" : "translated",
             "value" : "Lebih nyaman dengan VoiceOver"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bedre med VoiceOver"
+          }
         }
       }
     },
@@ -829,6 +865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bagikan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del"
           }
         }
       },
@@ -949,6 +991,12 @@
             "state" : "translated",
             "value" : "Ambil Teks"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hent ut tekst"
+          }
         }
       },
       "comment" : "extract"
@@ -1068,6 +1116,12 @@
             "state" : "translated",
             "value" : "Simpan Kutipan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre sitat"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -1186,6 +1240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catatanmu waktu itu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notatet ditt fra den gangen"
           }
         }
       },
@@ -1307,6 +1367,12 @@
             "state" : "translated",
             "value" : "Saat teks diperbesar, tata letak menyesuaikan dan tidak terpotong."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Når du gjør teksten større, ordnes innholdet pent i stedet for å bli kuttet."
+          }
         }
       }
     },
@@ -1424,6 +1490,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Membaca teks…"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leser teksten …"
           }
         }
       },
@@ -1545,6 +1617,12 @@
             "state" : "translated",
             "value" : "Hapus semua datamu sekaligus"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett alle dataene mine"
+          }
         }
       }
     },
@@ -1662,6 +1740,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kutipan Lain"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et annet sitat"
           }
         }
       },
@@ -1782,6 +1866,12 @@
             "state" : "translated",
             "value" : "Belum ada kutipan untuk dibaca ulang"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen sitater å se på igjen ennå"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1900,6 +1990,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tutup"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lukk"
           }
         }
       },
@@ -2021,6 +2117,12 @@
             "state" : "translated",
             "value" : "Semuanya tetap mudah dibaca, bahkan dengan Tingkatkan Kontras atau jika sulit membedakan warna."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alt er fortsatt lett å lese, også med økt kontrast eller hvis det er vanskelig å skille farger."
+          }
         }
       }
     },
@@ -2139,6 +2241,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Gunakan aplikasi dalam lebih banyak bahasa."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk appen på flere språk."
           }
         }
       }
@@ -2259,6 +2367,12 @@
             "state" : "translated",
             "value" : "Lebih banyak bahasa"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flere språk"
+          }
         }
       }
     },
@@ -2376,6 +2490,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto halaman buku\nyang punya kalimat favoritmu"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bilde av siden\nmed setningen du liker"
           }
         }
       },
@@ -2495,6 +2615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Catatan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notat"
           }
         }
       },
@@ -2616,6 +2742,12 @@
             "state" : "translated",
             "value" : "Simpan buku dan kutipanmu ke dalam berkas, lalu pulihkan kapan saja."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre bøkene og sitatene dine i en fil, og hent dem tilbake senere."
+          }
         }
       }
     },
@@ -2733,6 +2865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kutipan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sitater"
           }
         }
       },
@@ -2853,6 +2991,12 @@
             "state" : "translated",
             "value" : "Usap kalimat dengan jari · Cubit dengan dua jari untuk memperbesar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dra fingeren over setningen · Klyp med to fingre for å zoome"
+          }
         }
       },
       "comment" : "swipe"
@@ -2972,6 +3116,12 @@
             "state" : "translated",
             "value" : "Kartu Kutipan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sitatkort"
+          }
         }
       },
       "comment" : "card"
@@ -3090,6 +3240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cari kutipan, catatan, judul buku"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Søk i sitater, notater og titler"
           }
         }
       },
@@ -3211,6 +3367,12 @@
             "state" : "translated",
             "value" : "Pilihanmu tetap ada, meski aplikasi tertutup saat kamu memilih kutipan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Valget ditt blir stående, selv om appen lukkes mens du velger et sitat."
+          }
         }
       }
     },
@@ -3330,6 +3492,12 @@
             "state" : "translated",
             "value" : "Getaran lembut saat kamu menggarisbawahi atau menyimpan kutipan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Et lett trykk når du understreker eller lagrer et sitat."
+          }
         }
       }
     },
@@ -3448,6 +3616,12 @@
             "state" : "translated",
             "value" : "Simpan kutipan, dan kamu akan bertemu\nsatu kutipan di sini setiap hari."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre et sitat, så møter du ett\nher hver dag."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -3563,6 +3737,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -3687,6 +3867,12 @@
             "state" : "translated",
             "value" : "Cadangan dan ekspor"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikkerhetskopi og eksport"
+          }
         }
       }
     },
@@ -3806,6 +3992,12 @@
             "state" : "translated",
             "value" : "Warna dan kontras yang lebih nyaman"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Behagelige farger og kontrast"
+          }
         }
       }
     },
@@ -3923,6 +4115,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak ada teks yang ditemukan di foto. Periksa fokus dan pencahayaan, lalu coba lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fant ingen tekst i bildet. Sjekk skarphet og lys, og prøv igjen."
           }
         }
       },
@@ -4043,6 +4241,12 @@
             "state" : "translated",
             "value" : "Hapus"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett"
+          }
         }
       },
       "comment" : "delete"
@@ -4161,6 +4365,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Perpustakaan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotek"
           }
         }
       },
@@ -4281,6 +4491,12 @@
             "state" : "translated",
             "value" : "Pilih buku di perpustakaan, lalu foto satu halaman."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg en bok i biblioteket og ta bilde av en side."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -4399,6 +4615,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pengaturan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Innstillinger"
           }
         }
       },
@@ -4520,6 +4742,12 @@
             "state" : "translated",
             "value" : "Umpan balik haptik"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptisk tilbakemelding"
+          }
         }
       }
     },
@@ -4637,6 +4865,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kutipan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sitat"
           }
         }
       },
@@ -4925,6 +5159,24 @@
             "state" : "translated",
             "value" : "%lld kutipan"
           }
+        },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sitat"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld sitater"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -5043,6 +5295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hapus Kutipan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett sitat"
           }
         }
       },
@@ -5163,6 +5421,12 @@
             "state" : "translated",
             "value" : "Kutipan Tersimpan"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagrede sitater"
+          }
         }
       },
       "comment" : "scraped"
@@ -5281,6 +5545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Belum ada kutipan tersimpan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen lagrede sitater"
           }
         }
       },
@@ -5402,6 +5672,12 @@
             "state" : "translated",
             "value" : "Tips berguna"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyttige tips"
+          }
         }
       }
     },
@@ -5521,6 +5797,12 @@
             "state" : "translated",
             "value" : "Di iPad, cari dan jelajahi buku serta kutipan hanya dengan keyboard."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "På iPad kan du finne og bla i bøker og sitater med bare tastaturet."
+          }
         }
       }
     },
@@ -5638,6 +5920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Belum ada buku"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen bøker ennå"
           }
         }
       },
@@ -5758,6 +6046,12 @@
             "state" : "translated",
             "value" : "Belum ada kalimat yang dipilih"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen setninger valgt ennå"
+          }
         }
       },
       "comment" : "none_sel"
@@ -5876,6 +6170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Belum ada kutipan tersimpan dari buku ini.\nKetuk tombol di bawah untuk menyimpan yang pertama."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Du har ikke lagret sitater fra denne boken ennå.\nTrykk på knappen under for å lagre det første."
           }
         }
       },
@@ -5997,6 +6297,12 @@
             "state" : "translated",
             "value" : "Petunjuk halus tentang fitur berguna, tepat saat kamu membutuhkannya."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Diskrete tips om nyttige funksjoner, akkurat når du trenger dem."
+          }
         }
       }
     },
@@ -6114,6 +6420,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Pilih dari Foto"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Velg fra Bilder"
           }
         }
       },
@@ -6235,6 +6547,12 @@
             "state" : "translated",
             "value" : "Gunakan seluruh aplikasi dalam bahasa Inggris."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk hele appen på engelsk også."
+          }
         }
       }
     },
@@ -6353,6 +6671,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Saat pertama kali dibuka setelah pembaruan, lihat apa yang baru."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
           }
         }
       }
@@ -6473,6 +6797,12 @@
             "state" : "translated",
             "value" : "Yang baru"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nyheter"
+          }
         }
       }
     },
@@ -6590,6 +6920,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tidak ada"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ingen"
           }
         }
       },
@@ -6711,6 +7047,12 @@
             "state" : "translated",
             "value" : "Dukungan bahasa Inggris penuh"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full støtte for engelsk"
+          }
         }
       }
     },
@@ -6828,6 +7170,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kutipan Hari Ini"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dagens sitat"
           }
         }
       },
@@ -6949,6 +7297,12 @@
             "state" : "translated",
             "value" : "Pengingat kutipan hari ini"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Påminnelser om dagens sitat"
+          }
         }
       }
     },
@@ -7067,6 +7421,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kurangi Gerakan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduser bevegelse"
           }
         }
       }
@@ -7187,6 +7547,12 @@
             "state" : "translated",
             "value" : "Saat Kurangi Gerakan aktif, efek layar menjadi lebih tenang."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Med Reduser bevegelse slått på blir effektene på skjermen roligere."
+          }
         }
       }
     },
@@ -7304,6 +7670,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Atur Ulang Zoom"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tilbakestill zoom"
           }
         }
       },
@@ -7423,6 +7795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto Asli"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originalbilde"
           }
         }
       },
@@ -7544,6 +7922,12 @@
             "state" : "translated",
             "value" : "Hapus semua buku dan kutipanmu langsung dari dalam aplikasi."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Slett alle bøkene og sitatene dine direkte i appen."
+          }
         }
       }
     },
@@ -7661,6 +8045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tulis alasan kamu suka kalimat ini"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skriv hvorfor du likte denne setningen"
           }
         }
       },
@@ -7781,6 +8171,12 @@
             "state" : "translated",
             "value" : "Hapus buku ini beserta semua kutipannya?"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vil du slette denne boken og alle sitatene?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -7899,6 +8295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Geser"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytt"
           }
         }
       },
@@ -8019,6 +8421,12 @@
             "state" : "translated",
             "value" : "Menggeser"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Flytter"
+          }
         }
       },
       "comment" : "moving"
@@ -8137,6 +8545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bagikan sebagai Gambar"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del som bilde"
           }
         }
       },
@@ -8257,6 +8671,12 @@
             "state" : "translated",
             "value" : "Pengenalan Gagal"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gjenkjenningen mislyktes"
+          }
         }
       },
       "comment" : "fail_title"
@@ -8375,6 +8795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otomatis"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
           }
         }
       },
@@ -8495,6 +8921,12 @@
             "state" : "translated",
             "value" : "Penulis"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Forfatter"
+          }
         }
       },
       "comment" : "author"
@@ -8613,6 +9045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Simpan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lagre"
           }
         }
       },
@@ -8733,6 +9171,12 @@
             "state" : "translated",
             "value" : "Hapus Semua"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fjern alt"
+          }
         }
       },
       "comment" : "clear_all"
@@ -8848,6 +9292,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info"
@@ -8972,6 +9422,12 @@
             "state" : "translated",
             "value" : "Terima satu kutipan tersimpan sebagai notifikasi pada waktu yang kamu tentukan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Få ett av de lagrede sitatene dine som varsel på tidspunktet du velger."
+          }
         }
       }
     },
@@ -9089,6 +9545,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Judul"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tittel"
           }
         }
       },
@@ -9209,6 +9671,12 @@
             "state" : "translated",
             "value" : "Tingkat keyakinan judul: %lld%%"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sikkerhet for tittelen: %lld %%"
+          }
         }
       },
       "comment" : "conf"
@@ -9327,6 +9795,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favorit"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoritt"
           }
         }
       },
@@ -9615,6 +10089,24 @@
             "state" : "translated",
             "value" : "Sejauh ini sudah terkumpul %lld buku"
           }
+        },
+        "nb" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har samlet %lld bok så langt"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Du har samlet %lld bøker så langt"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -9733,6 +10225,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Penghapus"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viskelær"
           }
         }
       },
@@ -9853,6 +10351,12 @@
             "state" : "translated",
             "value" : "Penghapus Aktif"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Viskelær på"
+          }
         }
       },
       "comment" : "erase_on"
@@ -9971,6 +10475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bantuan"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Støtte"
           }
         }
       },
@@ -10091,6 +10601,12 @@
             "state" : "translated",
             "value" : "Buku"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bok"
+          }
         }
       },
       "comment" : "book"
@@ -10209,6 +10725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info Buku (bisa diubah)"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bokinfo (kan redigeres)"
           }
         }
       },
@@ -10329,6 +10851,12 @@
             "state" : "translated",
             "value" : "Tambah Buku"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til bok"
+          }
         }
       },
       "comment" : "add_book"
@@ -10447,6 +10975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sampul Buku"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bokomslag"
           }
         }
       },
@@ -10568,6 +11102,12 @@
             "state" : "translated",
             "value" : "Panduan untuk pengguna baru"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Introduksjon for nye brukere"
+          }
         }
       }
     },
@@ -10687,6 +11227,12 @@
             "state" : "translated",
             "value" : "Saat pertama kali dibuka, lihat sekilas apa saja yang bisa dilakukan aplikasi."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Første gang du åpner appen, får du et raskt innblikk i hva den kan."
+          }
         }
       }
     },
@@ -10804,6 +11350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tambah Buku Pertama"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Legg til din første bok"
           }
         }
       },
@@ -10924,6 +11476,12 @@
             "state" : "translated",
             "value" : "Teks yang Diambil"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Uthentet tekst"
+          }
         }
       },
       "comment" : "extracted"
@@ -11043,6 +11601,12 @@
             "state" : "translated",
             "value" : "Batal"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Avbryt"
+          }
         }
       },
       "comment" : "cancel"
@@ -11161,6 +11725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ambil Foto"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bilde"
           }
         }
       },
@@ -11282,6 +11852,12 @@
             "state" : "translated",
             "value" : "Tampilan untuk teks besar"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Skjermer for stor tekst"
+          }
         }
       }
     },
@@ -11401,6 +11977,12 @@
             "state" : "translated",
             "value" : "Kontrol dengan keyboard"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Styring med tastatur"
+          }
         }
       }
     },
@@ -11518,6 +12100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Terjadi kesalahan saat mengenali teks. Silakan coba lagi."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Det oppstod en feil under tekstgjenkjenningen. Prøv igjen."
           }
         }
       },
@@ -11638,6 +12226,12 @@
             "state" : "translated",
             "value" : "Bagikan sebagai Teks"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Del som tekst"
+          }
         }
       },
       "comment" : "share_text"
@@ -11756,6 +12350,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Halaman"
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Side"
           }
         }
       },
@@ -11876,6 +12476,12 @@
             "state" : "translated",
             "value" : "Pasang keempat titik pada sudut halaman"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Plassér de fire punktene på hjørnene av siden"
+          }
         }
       },
       "comment" : "corners"
@@ -11995,6 +12601,12 @@
             "state" : "translated",
             "value" : "Seluruh Halaman"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hele siden"
+          }
         }
       },
       "comment" : "whole_page"
@@ -12113,6 +12725,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Halaman akan diluruskan otomatis. Lalu usap kalimat yang kamu mau dengan jari untuk memilihnya."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siden rettes ut for deg. Dra deretter fingeren over setningene du vil velge."
           }
         }
       },
@@ -12234,6 +12852,12 @@
             "state" : "translated",
             "value" : "Tampilan iPhone lipat"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Oppsett for foldbar iPhone"
+          }
         }
       }
     },
@@ -12353,6 +12977,12 @@
             "state" : "translated",
             "value" : "Manfaatkan layar lebar iPhone lipat sebagai dua panel berdampingan."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bruk den brede skjermen på en foldbar iPhone som to ruter side om side."
+          }
         }
       }
     },
@@ -12470,6 +13100,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Foto juga (atau hanya) barcode di sampul belakang, dan ISBN akan dikenali otomatis."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta også bilde av strekkoden på baksiden (eller bare den), så gjenkjennes ISBN automatisk."
           }
         }
       },
@@ -12590,6 +13226,12 @@
             "state" : "translated",
             "value" : "Membaca sampul…"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Leser omslaget …"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -12709,6 +13351,12 @@
             "state" : "translated",
             "value" : "Foto sampul, dan judul serta penulis terbaca otomatis"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ta bilde av omslaget, så leses tittel og forfatter automatisk"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -12827,6 +13475,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Mulailah dengan memotret satu sampul.\nJudul dan penulis terbaca otomatis."
+          }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begynn med å ta bilde av et omslag.\nTittel og forfatter leses automatisk."
           }
         }
       },
@@ -12948,6 +13602,12 @@
             "state" : "translated",
             "value" : "Lanjutkan dari yang terakhir"
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fortsett der du slapp"
+          }
         }
       }
     },
@@ -13067,6 +13727,12 @@
             "state" : "translated",
             "value" : "VoiceOver membacakan setiap buku, kutipan, dan tombol, dengan urutan yang tepat."
           }
+        },
+        "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leser opp alle bøker, sitater og knapper i riktig rekkefølge."
+          }
         }
       }
     },
@@ -13181,6 +13847,12 @@
           }
         },
         "id" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nb" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

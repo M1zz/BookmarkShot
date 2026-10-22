@@ -135,6 +135,13 @@ Masukan dan ulasan lewat Pengaturan.
 Versi aplikasi juga ada di sana.
 Aplikasi disempurnakan agar stabil.
 
+### 앱스토어 (nb)
+
+Innstillinger har fått en ny skjerm.
+Send tilbakemelding og omtale der.
+Appversjonen kan du også se der.
+Appen er finpusset og mer stabil.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

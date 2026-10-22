@@ -1120,3 +1120,62 @@ Dengan iCloud, perpustakaan dan kutipanmu selalu sama di semua iPhone-mu.
 
 Privasi
 Seluruh pengenalan teks berlangsung di perangkatmu. Fotomu tidak pernah keluar dari sana, dan aplikasi bisa dipakai tanpa internet.
+
+## nb
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Boksitater
+
+### 부제
+
+Ta bilde, dra, lagre
+
+### 키워드
+
+lesedagbok,lesing,notater,markering,understreking,bibliotek,bokhylle,skanner,ocr,setninger,roman
+
+### 프로모션 텍스트
+
+Traff en setning deg? Ta bilde av siden og dra fingeren over den. Bok og sidetall noteres for deg, og teksten gjenkjennes bare på enheten din.
+
+### 설명
+
+Behold for alltid setningene du før understreket i papirbøker, med bare ett bilde.
+Ta bilde av en side og dra fingeren over setningen du liker: bare den setningen blir til tekst.
+
+Legg til en bok med bilde av omslaget
+Ta bilde av omslaget, så leses tittel og forfatter for deg. Hvis strekkoden på baksiden er med, fylles ISBN ut også.
+Du kan rette alt som er lest før du lagrer.
+
+Velg setninger som med en tusj
+Etter at du har tatt bildet, plasserer du de fire hjørnene, og selv et skjevt bilde rettes ut som et ark.
+Dra fingeren over setningene du vil ha, så velges bare de ordene. Zoom med to fingre for større presisjon, eller bruk viskelæret for å fjerne ord.
+Sidetallet finnes i kanten av bildet og fylles inn automatisk.
+
+Bibliotek og sitatsamling
+Bøkene dine samles i en hylle av omslag, og de lagrede sitatene samles på ett sted.
+Søk etter setning, notat eller boktittel, og merk favoritter med et hjerte.
+
+Dagens sitat
+Hver dag kommer ett av de lagrede sitatene dine tilbake til deg, sammen med notatet du skrev den gangen.
+Ha det nær med en widget på hjemskjermen eller låseskjermen.
+Gjør et sitat til et kort i papirstil, og del det med en gang.
+
+Synkronisering mellom enheter
+Med iCloud holdes biblioteket og sitatene dine automatisk like på iPhonene dine.
+
+Personvern
+All tekstgjenkjenning skjer på enheten din. Bildene forlater den aldri, og appen fungerer uten internett.
