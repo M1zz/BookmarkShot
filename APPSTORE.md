@@ -117,3 +117,62 @@ With iCloud, your library and quotes stay in step across your iPhones.
 
 Privacy
 All text recognition happens on your device. Your photos never leave it, and the app works without an internet connection.
+
+## en-GB
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Book Quotes
+
+### 부제
+
+Snap a page, swipe to keep
+
+### 키워드
+
+highlighter,underlining,reading,journal,notes,library,scanner,ocr,novel,diary,passages,literature
+
+### 프로모션 텍스트
+
+Come across a line that moved you? Snap the page and run a finger over it. The book and page number are filed for you, and all text recognition stays on your device.
+
+### 설명
+
+Keep the lines you once underlined in a paper book, with just one photograph.
+Snap a page and run a finger over a sentence you love. Only that sentence is turned into text.
+
+Add a book with one cover shot
+Photograph a cover and the title and author are read for you. If the barcode on the back cover is in view, the ISBN is filled in too.
+You can change anything it reads before you save.
+
+Pick sentences like a highlighter
+After you take a page, line up the four corners and even a slanted photo is flattened like paper.
+Run a finger over the sentences you want and only those words are selected. Pinch to zoom for a more precise swipe, or use the eraser to take words back.
+The page number is found along the edge of the photo and filled in automatically.
+
+Library and quote collection
+Your books gather on a shelf of covers, and your saved quotes gather in one place.
+Search by sentence, note or book title, and mark favourites with a heart.
+
+Today's Quote
+Every day, one of your saved quotes comes back to you, along with the note you left at the time.
+Keep it close with a Home Screen or Lock Screen widget.
+Turn a quote into a paper-style card image and share it straight away.
+
+Sync across devices
+With iCloud, your library and quotes stay in step across your iPhones.
+
+Privacy
+All text recognition happens on your device. Your photos never leave it, and the app works without an internet connection.

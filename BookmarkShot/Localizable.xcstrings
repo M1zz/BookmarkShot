@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "Face ID 잠금"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Face ID lock"
+          }
         }
       }
     },
@@ -32,6 +38,12 @@
             "state" : "translated",
             "value" : "Face ID나 Touch ID로 앱을 잠가 모은 문장을 지켜요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Lock the app with Face ID or Touch ID to keep your quotes private."
+          }
         }
       }
     },
@@ -44,6 +56,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (optional)"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (optional)"
@@ -66,6 +84,12 @@
             "state" : "translated",
             "value" : "Siri에게 말하거나 단축어로 오늘의 문장을 바로 열어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open today’s quote right away with Siri or a shortcut."
+          }
         }
       }
     },
@@ -82,6 +106,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri와 단축어"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri and Shortcuts"
           }
         }
       }
@@ -100,6 +130,12 @@
             "state" : "translated",
             "value" : "VoiceOver로 더 편하게"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Better VoiceOver support"
+          }
         }
       }
     },
@@ -112,6 +148,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share"
@@ -133,6 +175,12 @@
             "state" : "translated",
             "value" : "Extract Text"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extract Text"
+          }
         }
       },
       "comment" : "extract"
@@ -150,6 +198,12 @@
             "state" : "translated",
             "value" : "Save Quote"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Quote"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -163,6 +217,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your note from then"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Your note from then"
@@ -185,6 +245,12 @@
             "state" : "translated",
             "value" : "글자 크기를 키워도 잘리지 않고 보기 좋게 다시 배치돼요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Screens rearrange neatly instead of getting cut off when you enlarge text."
+          }
         }
       }
     },
@@ -197,6 +263,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading the text…"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reading the text…"
@@ -219,6 +291,12 @@
             "state" : "translated",
             "value" : "내 데이터 한 번에 지우기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Erase all my data"
+          }
         }
       }
     },
@@ -231,6 +309,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Another Quote"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Another Quote"
@@ -252,6 +336,12 @@
             "state" : "translated",
             "value" : "No quotes to revisit yet"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No quotes to revisit yet"
+          }
         }
       },
       "comment" : "no_daily"
@@ -265,6 +355,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Close"
@@ -287,6 +383,12 @@
             "state" : "translated",
             "value" : "대비를 높이거나 색을 구별하기 어려워도 내용을 알아볼 수 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Everything stays easy to read, even with Increase Contrast on or if colours are hard to tell apart."
+          }
         }
       }
     },
@@ -303,6 +405,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "더 많은 나라 말로 앱을 쓸 수 있게 해요."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the app in more languages."
           }
         }
       }
@@ -321,6 +429,12 @@
             "state" : "translated",
             "value" : "더 많은 언어"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "More languages"
+          }
         }
       }
     },
@@ -333,6 +447,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take a photo of a page\nwith a line you love"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Take a photo of a page\nwith a line you love"
@@ -350,6 +470,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Note"
@@ -372,6 +498,12 @@
             "state" : "translated",
             "value" : "모은 책과 문장을 파일로 저장하고 다시 불러올 수 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save your books and quotes to a file and bring them back later."
+          }
         }
       }
     },
@@ -384,6 +516,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quotes"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quotes"
@@ -405,6 +543,12 @@
             "state" : "translated",
             "value" : "Swipe over a sentence · Pinch with two fingers to zoom and underline"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swipe over a sentence · Pinch with two fingers to zoom and underline"
+          }
         }
       },
       "comment" : "swipe"
@@ -422,6 +566,12 @@
             "state" : "translated",
             "value" : "Quote Card"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quote Card"
+          }
         }
       },
       "comment" : "card"
@@ -435,6 +585,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search quotes, notes, book titles"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Search quotes, notes, book titles"
@@ -457,6 +613,12 @@
             "state" : "translated",
             "value" : "문장을 고르다 앱이 꺼져도 하던 내용이 남아 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your selection stays put, even if the app closes while you’re picking a quote."
+          }
         }
       }
     },
@@ -474,6 +636,12 @@
             "state" : "translated",
             "value" : "문장을 긋거나 저장하면 가볍게 떨려서 알려 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A gentle tap when you underline or save a quote."
+          }
         }
       }
     },
@@ -486,6 +654,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save a quote and you’ll see one here\nevery day."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save a quote and you’ll see one here\nevery day."
@@ -503,6 +677,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -525,6 +705,12 @@
             "state" : "translated",
             "value" : "백업과 내보내기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Backup and export"
+          }
         }
       }
     },
@@ -542,6 +728,12 @@
             "state" : "translated",
             "value" : "보기 편한 색과 대비"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Easier colours and contrast"
+          }
         }
       }
     },
@@ -558,6 +750,12 @@
             "state" : "translated",
             "value" : "Couldn’t find any text in the photo. Check the focus and lighting, then try again."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t find any text in the photo. Check the focus and lighting, then have another go."
+          }
         }
       },
       "comment" : "err_none"
@@ -571,6 +769,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete"
@@ -592,6 +796,12 @@
             "state" : "translated",
             "value" : "Library"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Library"
+          }
         }
       },
       "comment" : "library"
@@ -609,6 +819,12 @@
             "state" : "translated",
             "value" : "Pick a book in your library and photograph a page."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a book in your library and photograph a page."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -622,6 +838,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Settings"
@@ -644,6 +866,12 @@
             "state" : "translated",
             "value" : "손끝으로 느끼는 반응"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptic feedback"
+          }
         }
       }
     },
@@ -656,6 +884,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quote"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Quote"
@@ -689,6 +923,24 @@
               }
             }
           }
+        },
+        "en-GB" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld quote"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld quotes"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -702,6 +954,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Quote"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Delete Quote"
@@ -723,6 +981,12 @@
             "state" : "translated",
             "value" : "Saved Quotes"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved Quotes"
+          }
         }
       },
       "comment" : "scraped"
@@ -736,6 +1000,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No saved quotes"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No saved quotes"
@@ -758,6 +1028,12 @@
             "state" : "translated",
             "value" : "쓰는 요령 알려 주기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handy tips"
+          }
         }
       }
     },
@@ -775,6 +1051,12 @@
             "state" : "translated",
             "value" : "아이패드에서 키보드만으로 책과 문장을 찾아 넘겨요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Find and flip through books and quotes on iPad with just a keyboard."
+          }
         }
       }
     },
@@ -787,6 +1069,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No books yet"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No books yet"
@@ -808,6 +1096,12 @@
             "state" : "translated",
             "value" : "No sentences selected yet"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No sentences selected yet"
+          }
         }
       },
       "comment" : "none_sel"
@@ -821,6 +1115,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No quotes saved from this book yet.\nTap the button below to save your first line."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "No quotes saved from this book yet.\nTap the button below to save your first line."
@@ -843,6 +1143,12 @@
             "state" : "translated",
             "value" : "알아 두면 편한 기능을 알맞은 때에 살짝 알려 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gentle hints about useful features, right when you need them."
+          }
         }
       }
     },
@@ -855,6 +1161,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose from Photos"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Choose from Photos"
@@ -877,6 +1189,12 @@
             "state" : "translated",
             "value" : "앱을 영어로도 쓸 수 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the whole app in English."
+          }
         }
       }
     },
@@ -893,6 +1211,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "업데이트 뒤 처음 열 때 무엇이 새로 생겼는지 알려 줘요."
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first time you open the app after an update, see what’s new."
           }
         }
       }
@@ -911,6 +1235,12 @@
             "state" : "translated",
             "value" : "업데이트 소식"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "What’s new"
+          }
         }
       }
     },
@@ -923,6 +1253,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "None"
@@ -945,6 +1281,12 @@
             "state" : "translated",
             "value" : "영어 지원"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Full English support"
+          }
         }
       }
     },
@@ -957,6 +1299,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today’s Quote"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Today’s Quote"
@@ -979,6 +1327,12 @@
             "state" : "translated",
             "value" : "오늘의 문장 알림"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Daily quote reminders"
+          }
         }
       }
     },
@@ -995,6 +1349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "움직임 줄이기"
+          }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reduce Motion"
           }
         }
       }
@@ -1013,6 +1373,12 @@
             "state" : "translated",
             "value" : "움직임 줄이기를 켜면 화면 효과가 차분해져요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "With Reduce Motion on, screen effects calm down."
+          }
         }
       }
     },
@@ -1025,6 +1391,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset Zoom"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reset Zoom"
@@ -1042,6 +1414,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original Photo"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Original Photo"
@@ -1064,6 +1442,12 @@
             "state" : "translated",
             "value" : "원하면 앱 안에서 모은 책과 문장을 모두 지울 수 있어요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete all your books and quotes, right from the app."
+          }
         }
       }
     },
@@ -1076,6 +1460,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write why this line spoke to you"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Write why this line spoke to you"
@@ -1097,6 +1487,12 @@
             "state" : "translated",
             "value" : "Delete this book and all its quotes?"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this book and all its quotes?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -1110,6 +1506,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Move"
@@ -1131,6 +1533,12 @@
             "state" : "translated",
             "value" : "Moving"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moving"
+          }
         }
       },
       "comment" : "moving"
@@ -1144,6 +1552,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share as Image"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share as Image"
@@ -1165,6 +1579,12 @@
             "state" : "translated",
             "value" : "Couldn’t Read"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Read"
+          }
         }
       },
       "comment" : "fail_title"
@@ -1178,6 +1598,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
@@ -1199,6 +1625,12 @@
             "state" : "translated",
             "value" : "Author"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Author"
+          }
         }
       },
       "comment" : "author"
@@ -1212,6 +1644,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save"
@@ -1233,6 +1671,12 @@
             "state" : "translated",
             "value" : "Clear All"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear All"
+          }
         }
       },
       "comment" : "clear_all"
@@ -1246,6 +1690,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info"
@@ -1268,6 +1718,12 @@
             "state" : "translated",
             "value" : "정해 둔 때에 모은 문장 하나를 알림으로 보내 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Get one of your saved quotes as a notification at the time you choose."
+          }
         }
       }
     },
@@ -1280,6 +1736,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Title"
@@ -1301,6 +1763,12 @@
             "state" : "translated",
             "value" : "Title confidence %lld%%"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title confidence %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -1318,6 +1786,12 @@
             "state" : "translated",
             "value" : "Favorite"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favourite"
+          }
         }
       },
       "comment" : "fav"
@@ -1331,6 +1805,24 @@
           }
         },
         "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld book collected so far"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld books collected so far"
+                }
+              }
+            }
+          }
+        },
+        "en-GB" : {
           "variations" : {
             "plural" : {
               "one" : {
@@ -1364,6 +1856,12 @@
             "state" : "translated",
             "value" : "Eraser"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eraser"
+          }
         }
       },
       "comment" : "erase"
@@ -1377,6 +1875,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eraser On"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Eraser On"
@@ -1398,6 +1902,12 @@
             "state" : "translated",
             "value" : "Support"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       },
       "comment" : "support"
@@ -1411,6 +1921,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Book"
@@ -1432,6 +1948,12 @@
             "state" : "translated",
             "value" : "Book Details (Editable)"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book Details (Editable)"
+          }
         }
       },
       "comment" : "book_info"
@@ -1449,6 +1971,12 @@
             "state" : "translated",
             "value" : "Add Book"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Book"
+          }
         }
       },
       "comment" : "add_book"
@@ -1462,6 +1990,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book Cover"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Book Cover"
@@ -1484,6 +2018,12 @@
             "state" : "translated",
             "value" : "처음 쓰는 분을 위한 안내"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "A quick start for new users"
+          }
         }
       }
     },
@@ -1501,6 +2041,12 @@
             "state" : "translated",
             "value" : "처음 열었을 때 무엇을 할 수 있는지 짧게 보여 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The first time you open the app, get a quick look at what it can do."
+          }
         }
       }
     },
@@ -1513,6 +2059,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Your First Book"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Add Your First Book"
@@ -1534,6 +2086,12 @@
             "state" : "translated",
             "value" : "Extracted Text"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extracted Text"
+          }
         }
       },
       "comment" : "extracted"
@@ -1547,6 +2105,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Cancel"
@@ -1568,6 +2132,12 @@
             "state" : "translated",
             "value" : "Take Photo"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take a Photo"
+          }
         }
       },
       "comment" : "camera"
@@ -1586,6 +2156,12 @@
             "state" : "translated",
             "value" : "큰 글씨에 맞춘 화면"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Layouts for larger text"
+          }
         }
       }
     },
@@ -1603,6 +2179,12 @@
             "state" : "translated",
             "value" : "키보드로 조작하기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keyboard control"
+          }
         }
       }
     },
@@ -1619,6 +2201,12 @@
             "state" : "translated",
             "value" : "Something went wrong while recognizing the text. Please try again."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong while recognising the text. Please try again."
+          }
         }
       },
       "comment" : "err_ocr"
@@ -1632,6 +2220,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share as Text"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Share as Text"
@@ -1653,6 +2247,12 @@
             "state" : "translated",
             "value" : "Page"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Page"
+          }
         }
       },
       "comment" : "page"
@@ -1670,6 +2270,12 @@
             "state" : "translated",
             "value" : "Line up the four dots with the page corners"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Line up the four dots with the corners of the page"
+          }
         }
       },
       "comment" : "corners"
@@ -1683,6 +2289,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whole Page"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Whole Page"
@@ -1704,6 +2316,12 @@
             "state" : "translated",
             "value" : "The page is flattened for you. Then swipe a finger over the sentences you want to pick them out."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The page is flattened for you. Then run a finger over the sentences you want to pick them out."
+          }
         }
       },
       "comment" : "hint2"
@@ -1722,6 +2340,12 @@
             "state" : "translated",
             "value" : "펼치는 아이폰 화면"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foldable iPhone layout"
+          }
         }
       }
     },
@@ -1739,6 +2363,12 @@
             "state" : "translated",
             "value" : "펼치는 아이폰에서 넓은 화면을 두 쪽으로 나눠 써요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Use the wide screen of a foldable iPhone as two side-by-side panes."
+          }
         }
       }
     },
@@ -1751,6 +2381,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photograph the back-cover barcode too (or instead) and the ISBN is picked up automatically."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photograph the back-cover barcode too (or instead) and the ISBN is picked up automatically."
@@ -1772,6 +2408,12 @@
             "state" : "translated",
             "value" : "Reading the cover…"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading the cover…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -1789,6 +2431,12 @@
             "state" : "translated",
             "value" : "Photograph the cover and the title and author are read for you"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photograph the cover and the title and author are read for you"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -1802,6 +2450,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start by taking a photo of a cover.\nThe title and author are read automatically."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Start by taking a photo of a cover.\nThe title and author are read automatically."
@@ -1824,6 +2478,12 @@
             "state" : "translated",
             "value" : "하던 일 이어서 하기"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick up where you left off"
+          }
         }
       }
     },
@@ -1841,6 +2501,12 @@
             "state" : "translated",
             "value" : "화면 읽기 기능이 책과 문장, 단추를 빠짐없이, 알맞은 순서로 읽어 줘요."
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver reads every book, quote and button, in the right order."
+          }
         }
       }
     },
@@ -1853,6 +2519,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

@@ -16,6 +16,13 @@ Send feedback or review from Settings.
 Check the app version right there too.
 Polished for steadier performance.
 
+### 앱스토어 (en-GB)
+
+A new Settings screen has arrived.
+Send feedback or review from Settings.
+Check the app version there as well.
+Polished for steadier performance.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

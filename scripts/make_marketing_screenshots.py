@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -31,6 +31,13 @@ SHOTS = {
         ("05-daily.png",     "dark",        "매일 다시 만나는<br>오늘의 문장", "위젯으로 늘 곁에, 카드로 공유까지"),
     ],
     "en": [
+        ("01-highlight.png", "hero-bleed", "Swipe to highlight,<br>like a marker", "Only the lines you swipe become text"),
+        ("02-region.png", "left-text", "Slanted photo?<br>Made flat", "Line up four corners and it’s flattened like paper"),
+        ("03-library.png", "text-bottom", "A library built<br>from covers", "Title and author are read from the photo"),
+        ("04-quotes.png", "flat-rotate", "Every quote you saved,<br>in one place", "Find them by book title or note"),
+        ("05-daily.png", "dark", "A quote to meet<br>each day", "On your Home Screen, and shared as a card"),
+    ],
+    "en-GB": [
         ("01-highlight.png", "hero-bleed", "Swipe to highlight,<br>like a marker", "Only the lines you swipe become text"),
         ("02-region.png", "left-text", "Slanted photo?<br>Made flat", "Line up four corners and it’s flattened like paper"),
         ("03-library.png", "text-bottom", "A library built<br>from covers", "Title and author are read from the photo"),

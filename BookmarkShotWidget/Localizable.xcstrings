@@ -15,6 +15,12 @@
             "state" : "translated",
             "value" : "Save a quote to begin"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save a quote to begin"
+          }
         }
       }
     },
@@ -28,6 +34,24 @@
           }
         },
         "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld quote to revisit"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld quotes to revisit"
+                }
+              }
+            }
+          }
+        },
+        "en-GB" : {
           "variations" : {
             "plural" : {
               "one" : {
@@ -61,6 +85,12 @@
             "state" : "translated",
             "value" : "No saved quotes"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No saved quotes"
+          }
         }
       }
     },
@@ -74,6 +104,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save a quote and\nyou’ll see it here every day"
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Save a quote and\nyou’ll see it here every day"
@@ -95,6 +131,12 @@
             "state" : "translated",
             "value" : "Today’s Quote"
           }
+        },
+        "en-GB" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today’s Quote"
+          }
         }
       }
     },
@@ -108,6 +150,12 @@
           }
         },
         "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "See one of your saved quotes each day. If you have favorites, it picks from those."
+          }
+        },
+        "en-GB" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "See one of your saved quotes each day. If you have favorites, it picks from those."
