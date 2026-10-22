@@ -21,6 +21,12 @@
             "state" : "translated",
             "value" : "Save a quote to begin"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摘录一句试试"
+          }
         }
       }
     },
@@ -68,6 +74,12 @@
               }
             }
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld 条句子可重温"
+          }
         }
       }
     },
@@ -90,6 +102,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No saved quotes"
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "暂无摘录"
           }
         }
       }
@@ -114,6 +132,12 @@
             "state" : "translated",
             "value" : "Save a quote and\nyou’ll see it here every day"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "摘录句子后，\n每天都能在这里遇见"
+          }
         }
       }
     },
@@ -137,6 +161,12 @@
             "state" : "translated",
             "value" : "Today’s Quote"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日一句"
+          }
         }
       }
     },
@@ -159,6 +189,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "See one of your saved quotes each day. If you have favorites, it picks from those."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "每天重温一句你摘录的句子。如果有收藏的句子，会优先从中挑选。"
           }
         }
       }

@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -43,6 +43,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "A library built<br>from covers", "Title and author are read from the photo"),
         ("04-quotes.png", "flat-rotate", "Every quote you saved,<br>in one place", "Find them by book title or note"),
         ("05-daily.png", "dark", "A quote to meet<br>each day", "On your Home Screen, and shared as a card"),
+    ],
+    "zh-Hans": [
+        ("01-highlight.png", "hero-bleed", "像荧光笔一样<br>指尖一划", "只把划过的句子变成文字"),
+        ("02-region.png", "left-text", "斜着拍也能<br>端端正正", "对准四个角，就像纸张一样展平"),
+        ("03-library.png", "text-bottom", "拍张封面<br>就有了书架", "书名和作者从照片里自动读取"),
+        ("04-quotes.png", "flat-rotate", "收藏的句子<br>集中一处", "按书名或笔记，立刻找到"),
+        ("05-daily.png", "dark", "每天重温<br>今日一句", "小组件常伴左右，还能做成卡片分享"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

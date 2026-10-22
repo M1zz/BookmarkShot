@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "划线"
+          }
         }
       }
     },
@@ -42,6 +48,12 @@
             "state" : "translated",
             "value" : "The camera is used to photograph book covers and pages so the text can be picked out."
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "使用相机拍摄书籍封面和书页，以便提取其中的句子。"
+          }
         }
       }
     },
@@ -63,6 +75,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Photos are accessed so you can pick out text from book pictures you’ve already taken."
+          }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "访问相册，以便从你已拍好的书籍照片中提取句子。"
           }
         }
       }

@@ -20,6 +20,12 @@
             "state" : "translated",
             "value" : "Today’s Quote"
           }
+        },
+        "zh-Hans" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "今日一句"
+          }
         }
       }
     }

@@ -23,6 +23,13 @@ Send feedback or review from Settings.
 Check the app version there as well.
 Polished for steadier performance.
 
+### 앱스토어 (zh-Hans)
+
+全新的设置页面来啦。
+可以在设置里发送反馈、给我们评价。
+在设置里也能直接查看 App 版本。
+优化了细节，运行更稳定。
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"
