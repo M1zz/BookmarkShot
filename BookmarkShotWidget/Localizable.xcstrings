@@ -51,6 +51,12 @@
             "state" : "translated",
             "value" : "Guarda una cita para empezar"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichere ein Zitat"
+          }
         }
       }
     },
@@ -164,6 +170,24 @@
               }
             }
           }
+        },
+        "de" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Zitat zum Wiederlesen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld Zitate zum Wiederlesen"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -216,6 +240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "No hay citas guardadas"
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Keine gesicherten Zitate"
           }
         }
       }
@@ -270,6 +300,12 @@
             "state" : "translated",
             "value" : "Guarda una cita y la verás\naquí cada día"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sichere ein Zitat, dann siehst du\nhier jeden Tag eines"
+          }
         }
       }
     },
@@ -323,6 +359,12 @@
             "state" : "translated",
             "value" : "Cita del día"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zitat des Tages"
+          }
         }
       }
     },
@@ -375,6 +417,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Una de tus citas guardadas cada día. Si tienes favoritas, se elige entre ellas."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Jeden Tag eines deiner gesicherten Zitate. Gibt es Favoriten, wird daraus ausgewählt."
           }
         }
       }

@@ -50,6 +50,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -102,6 +108,12 @@
             "state" : "translated",
             "value" : "La cámara se usa para fotografiar portadas y páginas de libros y extraer sus frases."
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Die Kamera wird genutzt, um Buchcover und Seiten zu fotografieren und Sätze daraus zu übernehmen."
+          }
         }
       }
     },
@@ -153,6 +165,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Se accede a tus fotos para extraer frases de las imágenes de libros que ya hayas hecho."
+          }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Der Zugriff auf deine Fotos dient dazu, Sätze aus bereits aufgenommenen Buchfotos zu übernehmen."
           }
         }
       }

@@ -471,3 +471,62 @@ Con iCloud, tu biblioteca y tus citas se mantienen al día entre tus iPhone.
 
 Privacidad
 Todo el reconocimiento de texto se hace en tu dispositivo. Tus fotos no salen de él y la app funciona sin conexión a internet.
+
+## de
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Buchzitate
+
+### 부제
+
+Seite fotografieren, wischen
+
+### 키워드
+
+lesetagebuch,lesen,notizen,markieren,markierung,textmarker,bibliothek,bücherregal,scanner,ocr
+
+### 프로모션 텍스트
+
+Ein Satz hat dich berührt? Foto machen, darüberwischen. Buch und Seite werden automatisch notiert, die Texterkennung läuft nur auf deinem Gerät.
+
+### 설명
+
+Behalte die Sätze, die du früher in Papierbüchern unterstrichen hast, für immer – mit nur einem Foto.
+Fotografiere eine Seite und wische mit dem Finger über den Satz, der dir gefällt. Nur dieser Satz wird zu Text.
+
+Buch hinzufügen mit einem Foto vom Cover
+Fotografiere das Cover, und Titel und Autor werden für dich gelesen. Ist der Barcode der Rückseite im Bild, wird auch die ISBN eingetragen.
+Alles Erkannte kannst du vor dem Sichern jederzeit korrigieren.
+
+Sätze auswählen wie mit einem Textmarker
+Nach dem Foto richtest du die vier Ecken aus, und selbst ein schräges Foto wird wie ein Blatt Papier begradigt.
+Fahre mit dem Finger über die gewünschten Sätze, und nur diese Wörter werden ausgewählt. Mit zwei Fingern zoomst du für mehr Genauigkeit, mit dem Radierer nimmst du Wörter wieder heraus.
+Die Seitenzahl wird am Rand des Fotos gesucht und automatisch eingetragen.
+
+Bibliothek und Zitatsammlung
+Deine Bücher sammeln sich in einem Regal aus Covern, deine gesicherten Zitate an einem Ort.
+Suche nach Satz, Notiz oder Buchtitel und markiere Lieblingssätze mit einem Herz.
+
+Zitat des Tages
+Jeden Tag kommt eines deiner gesicherten Zitate zu dir zurück – samt der Notiz, die du damals hinterlassen hast.
+Mit einem Widget auf dem Home-Bildschirm oder dem Sperrbildschirm hast du es immer griffbereit.
+Aus einem Zitat machst du eine Karte im Papierlook und teilst sie sofort.
+
+Sync zwischen Geräten
+Über iCloud bleiben Bibliothek und Zitate auf deinen iPhones automatisch auf dem gleichen Stand.
+
+Datenschutz
+Die gesamte Texterkennung läuft auf deinem Gerät. Deine Fotos verlassen es nie, und die App funktioniert auch ohne Internet.

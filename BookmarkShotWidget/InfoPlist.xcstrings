@@ -50,6 +50,12 @@
             "state" : "translated",
             "value" : "Cita del día"
           }
+        },
+        "de" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zitat des Tages"
+          }
         }
       }
     }

@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -78,6 +78,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Una biblioteca<br>hecha de portadas", "El título y el autor se leen de la foto"),
         ("04-quotes.png", "flat-rotate", "Todas tus citas<br>en un solo lugar", "Búscalas por título del libro o por nota"),
         ("05-daily.png", "dark", "Una cita<br>para cada día", "Un widget siempre a mano y tarjetas para compartir"),
+    ],
+    "de": [
+        ("01-highlight.png", "hero-bleed", "Wische wie mit<br>einem Textmarker", "Nur die markierten Sätze werden zu Text"),
+        ("02-region.png", "left-text", "Schräges Foto?<br>Wird gerade", "Vier Ecken ausrichten – und es liegt flach wie Papier"),
+        ("03-library.png", "text-bottom", "Eine Bibliothek<br>aus Covern", "Titel und Autor werden aus dem Foto gelesen"),
+        ("04-quotes.png", "flat-rotate", "Alle Zitate<br>an einem Ort", "Finde sie über Buchtitel oder Notiz"),
+        ("05-daily.png", "dark", "Jeden Tag ein<br>Zitat zum Wiedersehen", "Als Widget immer dabei, als Karte teilbar"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────
