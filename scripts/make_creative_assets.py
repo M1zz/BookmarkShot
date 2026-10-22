@@ -34,11 +34,13 @@ SPEC = {
 # <mark> 는 형광펜 밑줄(앱 아이콘의 주황 획)이다.
 SEARCH = {
     "ko": ("독서 기록", "밑줄 그은 문장<br><mark>한곳에</mark> 모아요", "책 제목과 쪽수까지 함께 남아요"),
+    "en": ("Reading journal", "Underlined lines,<br><mark>all in one place</mark>", "Book titles and page numbers stay with them"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속. 종이책에 긋던 밑줄을 사진 한 장으로 남긴다.
 HEADER = {
     "ko": ("책 속 문장 스크랩", "종이책 밑줄,<br><mark>사진 한 장</mark>으로 평생"),
+    "en": ("Book quote scrapbook", "Paper-book underlines,<br>kept with <mark>one photo</mark>"),
 }
 
 # 기기 화면(시뮬레이터 캡처, 공개 저작물 문장으로 채운 서재)

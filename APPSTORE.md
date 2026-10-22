@@ -58,3 +58,62 @@ iCloud로 아이폰끼리 서재와 문장이 자동으로 맞춰집니다.
 
 개인정보
 글자 인식은 모두 기기 안에서 처리됩니다. 사진은 밖으로 나가지 않고, 인터넷이 없어도 쓸 수 있어요.
+
+## en
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Book Quotes
+
+### 부제
+
+Snap a page, swipe to save
+
+### 키워드
+
+highlight,underline,reading,journal,notes,library,scanner,ocr,novel,diary,passages,literature,shelf
+
+### 프로모션 텍스트
+
+Found a line that moved you? Snap the page and swipe a finger over it. The book and page number are filed for you, and all text recognition stays on your device.
+
+### 설명
+
+Keep the lines you once underlined in a paper book, with just one photo.
+Snap a page and swipe a finger over a sentence you love. Only that sentence is turned into text.
+
+Add a book with one cover shot
+Photograph a cover and the title and author are read for you. If the back-cover barcode is in view, the ISBN is filled in too.
+You can edit anything it reads before you save.
+
+Pick sentences like a highlighter
+After you take a page, line up the four corners and even a slanted photo is flattened like paper.
+Rub a finger over the sentences you want and only those words are selected. Pinch to zoom for a more precise swipe, or use the eraser to take words back.
+The page number is found along the edge of the photo and filled in automatically.
+
+Library and quote collection
+Your books gather in a library of covers, and your saved quotes gather in one place.
+Search by sentence, note or book title, and mark favorites with a heart.
+
+Today's Quote
+Every day, one of your saved quotes comes back to you, along with the note you left then.
+Keep it close with a Home Screen or Lock Screen widget.
+Turn a quote into a paper-style card image and share it right away.
+
+Sync across devices
+With iCloud, your library and quotes stay in step across your iPhones.
+
+Privacy
+All text recognition happens on your device. Your photos never leave it, and the app works without an internet connection.

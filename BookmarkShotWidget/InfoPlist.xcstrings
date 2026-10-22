@@ -8,6 +8,12 @@
             "state" : "translated",
             "value" : "오늘의 문장"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today’s Quote"
+          }
         }
       }
     }

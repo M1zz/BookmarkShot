@@ -42,6 +42,12 @@
             "state" : "translated",
             "value" : "ISBN (선택)"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (optional)"
+          }
         }
       },
       "comment" : "isbn_opt"
@@ -104,6 +110,12 @@
             "state" : "translated",
             "value" : "공유"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share"
+          }
         }
       },
       "comment" : "share"
@@ -114,6 +126,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "구문 추출"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extract Text"
           }
         }
       },
@@ -126,6 +144,12 @@
             "state" : "translated",
             "value" : "구절 스크랩"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save Quote"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -136,6 +160,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "그때 남긴 메모"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Your note from then"
           }
         }
       },
@@ -165,6 +195,12 @@
             "state" : "translated",
             "value" : "글자를 읽고 있어요…"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading the text…"
+          }
         }
       },
       "comment" : "reading"
@@ -193,6 +229,12 @@
             "state" : "translated",
             "value" : "다른 문장"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Another Quote"
+          }
         }
       },
       "comment" : "other_q"
@@ -204,6 +246,12 @@
             "state" : "translated",
             "value" : "다시 만날 문장이 없어요"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No quotes to revisit yet"
+          }
         }
       },
       "comment" : "no_daily"
@@ -214,6 +262,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "닫기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Close"
           }
         }
       },
@@ -277,6 +331,12 @@
             "state" : "translated",
             "value" : "마음에 드는 구절이 있는\n페이지를 찍어주세요"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take a photo of a page\nwith a line you love"
+          }
         }
       },
       "comment" : "hint1"
@@ -287,6 +347,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "메모"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Note"
           }
         }
       },
@@ -316,6 +382,12 @@
             "state" : "translated",
             "value" : "문장"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quotes"
+          }
         }
       },
       "comment" : "quote"
@@ -326,6 +398,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문장 위를 손가락으로 스윽 · 두 손가락으로 확대해 밑줄"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Swipe over a sentence · Pinch with two fingers to zoom and underline"
           }
         }
       },
@@ -338,6 +416,12 @@
             "state" : "translated",
             "value" : "문장 카드"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quote Card"
+          }
         }
       },
       "comment" : "card"
@@ -348,6 +432,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "문장, 메모, 책 제목 검색"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Search quotes, notes, book titles"
           }
         }
       },
@@ -394,6 +484,12 @@
             "state" : "translated",
             "value" : "문장을 스크랩하면 매일 한 문장씩\n여기서 다시 만날 수 있어요."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save a quote and you’ll see one here\nevery day."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -404,6 +500,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "밑줄"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
           }
         }
       },
@@ -450,6 +552,12 @@
             "state" : "translated",
             "value" : "사진에서 글자를 찾지 못했어요. 초점과 조명을 확인하고 다시 찍어주세요."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t find any text in the photo. Check the focus and lighting, then try again."
+          }
         }
       },
       "comment" : "err_none"
@@ -460,6 +568,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "삭제"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete"
           }
         }
       },
@@ -472,6 +586,12 @@
             "state" : "translated",
             "value" : "서재"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Library"
+          }
         }
       },
       "comment" : "library"
@@ -483,6 +603,12 @@
             "state" : "translated",
             "value" : "서재에서 책을 고르고 페이지를 찍어보세요."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pick a book in your library and photograph a page."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -493,6 +619,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "설정"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Settings"
           }
         }
       },
@@ -522,6 +654,12 @@
             "state" : "translated",
             "value" : "스크랩"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Quote"
+          }
         }
       },
       "comment" : "scrap"
@@ -532,6 +670,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "스크랩 %lld개"
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld quote"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld quotes"
+                }
+              }
+            }
           }
         }
       },
@@ -544,6 +700,12 @@
             "state" : "translated",
             "value" : "스크랩 삭제"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete Quote"
+          }
         }
       },
       "comment" : "del_scrap"
@@ -555,6 +717,12 @@
             "state" : "translated",
             "value" : "스크랩한 문장"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Saved Quotes"
+          }
         }
       },
       "comment" : "scraped"
@@ -565,6 +733,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "스크랩한 문장이 없어요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No saved quotes"
           }
         }
       },
@@ -611,6 +785,12 @@
             "state" : "translated",
             "value" : "아직 등록된 책이 없어요"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No books yet"
+          }
         }
       },
       "comment" : "no_books"
@@ -622,6 +802,12 @@
             "state" : "translated",
             "value" : "아직 선택된 문장이 없어요"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No sentences selected yet"
+          }
         }
       },
       "comment" : "none_sel"
@@ -632,6 +818,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "아직 스크랩한 문장이 없어요.\n아래 버튼으로 첫 구절을 담아보세요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "No quotes saved from this book yet.\nTap the button below to save your first line."
           }
         }
       },
@@ -660,6 +852,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "앨범에서 선택"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Choose from Photos"
           }
         }
       },
@@ -723,6 +921,12 @@
             "state" : "translated",
             "value" : "없음"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "None"
+          }
         }
       },
       "comment" : "none"
@@ -750,6 +954,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "오늘의 문장"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Today’s Quote"
           }
         }
       },
@@ -813,6 +1023,12 @@
             "state" : "translated",
             "value" : "원래대로"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reset Zoom"
+          }
         }
       },
       "comment" : "reset"
@@ -823,6 +1039,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "원본 사진"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Original Photo"
           }
         }
       },
@@ -852,6 +1074,12 @@
             "state" : "translated",
             "value" : "이 문장이 좋았던 이유를 남겨보세요"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Write why this line spoke to you"
+          }
         }
       },
       "comment" : "memo_ph"
@@ -862,6 +1090,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이 책과 스크랩을 모두 삭제할까요?"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Delete this book and all its quotes?"
           }
         }
       },
@@ -874,6 +1108,12 @@
             "state" : "translated",
             "value" : "이동"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Move"
+          }
         }
       },
       "comment" : "move"
@@ -884,6 +1124,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "이동 중"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Moving"
           }
         }
       },
@@ -896,6 +1142,12 @@
             "state" : "translated",
             "value" : "이미지로 공유"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share as Image"
+          }
         }
       },
       "comment" : "share_img"
@@ -906,6 +1158,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "인식 실패"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Couldn’t Read"
           }
         }
       },
@@ -918,6 +1176,12 @@
             "state" : "translated",
             "value" : "자동"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
         }
       },
       "comment" : "auto"
@@ -928,6 +1192,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "저자"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Author"
           }
         }
       },
@@ -940,6 +1210,12 @@
             "state" : "translated",
             "value" : "저장"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Save"
+          }
         }
       },
       "comment" : "save"
@@ -951,6 +1227,12 @@
             "state" : "translated",
             "value" : "전체 지우기"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Clear All"
+          }
         }
       },
       "comment" : "clear_all"
@@ -961,6 +1243,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "정보"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
           }
         }
       },
@@ -990,6 +1278,12 @@
             "state" : "translated",
             "value" : "제목"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title"
+          }
         }
       },
       "comment" : "title"
@@ -1000,6 +1294,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "제목 인식 신뢰도 %lld%%"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Title confidence %lld%%"
           }
         }
       },
@@ -1012,6 +1312,12 @@
             "state" : "translated",
             "value" : "즐겨찾기"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favorite"
+          }
         }
       },
       "comment" : "fav"
@@ -1022,6 +1328,24 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지금까지 %lld권을 모았어요"
+          }
+        },
+        "en" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld book collected so far"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld books collected so far"
+                }
+              }
+            }
           }
         }
       },
@@ -1034,6 +1358,12 @@
             "state" : "translated",
             "value" : "지우개"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eraser"
+          }
         }
       },
       "comment" : "erase"
@@ -1044,6 +1374,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "지우개 ON"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Eraser On"
           }
         }
       },
@@ -1056,6 +1392,12 @@
             "state" : "translated",
             "value" : "지원"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
+          }
         }
       },
       "comment" : "support"
@@ -1066,6 +1408,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "책"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book"
           }
         }
       },
@@ -1078,6 +1426,12 @@
             "state" : "translated",
             "value" : "책 정보 (수정 가능)"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book Details (Editable)"
+          }
         }
       },
       "comment" : "book_info"
@@ -1089,6 +1443,12 @@
             "state" : "translated",
             "value" : "책 추가"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Book"
+          }
         }
       },
       "comment" : "add_book"
@@ -1099,6 +1459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "책 표지"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Book Cover"
           }
         }
       },
@@ -1145,6 +1511,12 @@
             "state" : "translated",
             "value" : "첫 책 추가하기"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add Your First Book"
+          }
         }
       },
       "comment" : "first_book"
@@ -1155,6 +1527,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "추출된 문장"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Extracted Text"
           }
         }
       },
@@ -1167,6 +1545,12 @@
             "state" : "translated",
             "value" : "취소"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Cancel"
+          }
         }
       },
       "comment" : "cancel"
@@ -1177,6 +1561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "카메라로 찍기"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Take Photo"
           }
         }
       },
@@ -1223,6 +1613,12 @@
             "state" : "translated",
             "value" : "텍스트 인식 중 오류가 발생했어요. 다시 시도해 주세요."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Something went wrong while recognizing the text. Please try again."
+          }
         }
       },
       "comment" : "err_ocr"
@@ -1233,6 +1629,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "텍스트로 공유"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Share as Text"
           }
         }
       },
@@ -1245,6 +1647,12 @@
             "state" : "translated",
             "value" : "페이지"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Page"
+          }
         }
       },
       "comment" : "page"
@@ -1255,6 +1663,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "페이지 모서리에 네 점을 맞춰주세요"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Line up the four dots with the page corners"
           }
         }
       },
@@ -1267,6 +1681,12 @@
             "state" : "translated",
             "value" : "페이지 전체"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Whole Page"
+          }
         }
       },
       "comment" : "whole_page"
@@ -1277,6 +1697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "페이지를 반듯하게 펴서 담은 뒤,\n원하는 문장을 손가락으로 스윽 문질러 골라낼 수 있어요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "The page is flattened for you. Then swipe a finger over the sentences you want to pick them out."
           }
         }
       },
@@ -1323,6 +1749,12 @@
             "state" : "translated",
             "value" : "표지 대신(또는 표지와 함께) 뒤표지 바코드를 찍으면 ISBN까지 자동 인식돼요."
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photograph the back-cover barcode too (or instead) and the ISBN is picked up automatically."
+          }
         }
       },
       "comment" : "cover_isbn"
@@ -1333,6 +1765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "표지를 읽고 있어요…"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Reading the cover…"
           }
         }
       },
@@ -1345,6 +1783,12 @@
             "state" : "translated",
             "value" : "표지를 찍으면 제목·저자를 자동으로 읽어와요"
           }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Photograph the cover and the title and author are read for you"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -1355,6 +1799,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "표지를 한 장 찍는 것으로 시작해 보세요.\n제목과 저자는 자동으로 읽어드려요."
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Start by taking a photo of a cover.\nThe title and author are read automatically."
           }
         }
       },
@@ -1400,6 +1850,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "확인"
+          }
+        },
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
           }
         }
       },

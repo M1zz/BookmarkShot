@@ -9,6 +9,13 @@
 앱 버전도 설정에서 바로 확인할 수 있어요.
 앱이 더 안정적으로 동작하도록 다듬었어요.
 
+### 앱스토어 (en)
+
+A new Settings screen is here.
+Send feedback or review from Settings.
+Check the app version right there too.
+Polished for steadier performance.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"
