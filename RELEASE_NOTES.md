@@ -142,6 +142,13 @@ Send tilbakemelding og omtale der.
 Appversjonen kan du også se der.
 Appen er finpusset og mer stabil.
 
+### 앱스토어 (nl)
+
+Er is een nieuw instellingenscherm.
+Feedback en beoordelingen geef je daar.
+De appversie zie je daar ook.
+De app is verfijnd en stabieler.
+
 ## 1.0.1
 
 ### App Store "이번 버전의 새로운 기능"

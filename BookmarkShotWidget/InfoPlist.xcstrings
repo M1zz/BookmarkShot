@@ -122,6 +122,12 @@
             "state" : "translated",
             "value" : "Dagens sitat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citaat van de dag"
+          }
         }
       }
     }

@@ -122,6 +122,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -246,6 +252,12 @@
             "state" : "translated",
             "value" : "Kameraet brukes til å ta bilde av bokomslag og sider, slik at setningene kan hentes ut."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De camera wordt gebruikt om boekkaften en pagina’s te fotograferen, zodat zinnen kunnen worden opgehaald."
+          }
         }
       }
     },
@@ -369,6 +381,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilgang til bildene dine brukes til å hente ut setninger fra bokbilder du allerede har tatt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Toegang tot je foto’s wordt gebruikt om zinnen op te halen uit boekfoto’s die je al hebt gemaakt."
           }
         }
       }

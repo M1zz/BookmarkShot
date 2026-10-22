@@ -1179,3 +1179,62 @@ Med iCloud holdes biblioteket og sitatene dine automatisk like på iPhonene dine
 
 Personvern
 All tekstgjenkjenning skjer på enheten din. Bildene forlater den aldri, og appen fungerer uten internett.
+
+## nl
+
+### 지원 URL
+
+https://m1zz.github.io/BookmarkShot/support.html
+
+### 개인정보처리방침 URL
+
+https://m1zz.github.io/BookmarkShot/privacy.html
+
+### 마케팅 URL
+
+https://m1zz.github.io/BookmarkShot/
+
+### 이름
+
+Bookmark Shot: Boekcitaten
+
+### 부제
+
+Foto maken, vegen, bewaren
+
+### 키워드
+
+leesdagboek,notities,markeren,onderstrepen,bibliotheek,boekenkast,scanner,ocr,zinnen,roman
+
+### 프로모션 텍스트
+
+Raakte een zin je? Fotografeer de pagina en veeg met je vinger eroverheen. Boek en pagina worden voor je genoteerd en de tekstherkenning gebeurt alleen op je apparaat.
+
+### 설명
+
+Bewaar de zinnen die je vroeger in papieren boeken onderstreepte voor altijd, met slechts één foto.
+Fotografeer een pagina en veeg met je vinger over de zin die je mooi vindt: alleen die zin wordt tekst.
+
+Voeg een boek toe met een foto van de kaft
+Fotografeer de kaft en titel en auteur worden voor je gelezen. Is de streepjescode op de achterkant in beeld, dan wordt ook het ISBN ingevuld.
+Alles wat gelezen is, kun je vóór het bewaren aanpassen.
+
+Kies zinnen als met een markeerstift
+Zet na de foto de vier hoeken goed, en zelfs een scheve foto wordt rechtgetrokken als een vel papier.
+Veeg met je vinger over de gewenste zinnen en alleen die woorden worden geselecteerd. Zoom met twee vingers in voor meer precisie, of haal woorden weg met de gum.
+Het paginanummer wordt aan de rand van de foto gezocht en automatisch ingevuld.
+
+Bibliotheek en citatencollectie
+Je boeken verzamelen zich in een kast vol kaften en je bewaarde citaten op één plek.
+Zoek op zin, notitie of boektitel en markeer favorieten met een hartje.
+
+Citaat van de dag
+Elke dag komt één van je bewaarde citaten bij je terug, samen met de notitie die je toen schreef.
+Houd het dichtbij met een widget op het beginscherm of het toegangsscherm.
+Maak van een citaat een kaart in papierlook en deel die meteen.
+
+Synchronisatie tussen apparaten
+Met iCloud blijven je bibliotheek en citaten automatisch gelijk op je iPhones.
+
+Privacy
+Alle tekstherkenning gebeurt op je apparaat. Je foto’s verlaten het niet en de app werkt ook zonder internet.

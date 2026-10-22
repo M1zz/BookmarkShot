@@ -123,6 +123,12 @@
             "state" : "translated",
             "value" : "Låsing med Face ID"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergrendelen met Face ID"
+          }
         }
       }
     },
@@ -248,6 +254,12 @@
             "state" : "translated",
             "value" : "Lås appen med Face ID eller Touch ID, så sitatene dine er beskyttet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Vergrendel de app met Face ID of Touch ID om je citaten te beschermen."
+          }
         }
       }
     },
@@ -371,6 +383,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (valgfritt)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (optioneel)"
           }
         }
       },
@@ -498,6 +516,12 @@
             "state" : "translated",
             "value" : "Åpne dagens sitat med en gang via Siri eller en snarvei."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Open het citaat van de dag meteen met Siri of een opdracht."
+          }
         }
       }
     },
@@ -622,6 +646,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siri og Snarveier"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri en Opdrachten"
           }
         }
       }
@@ -748,6 +778,12 @@
             "state" : "translated",
             "value" : "Bedre med VoiceOver"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prettiger met VoiceOver"
+          }
         }
       }
     },
@@ -871,6 +907,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Del"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel"
           }
         }
       },
@@ -997,6 +1039,12 @@
             "state" : "translated",
             "value" : "Hent ut tekst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst ophalen"
+          }
         }
       },
       "comment" : "extract"
@@ -1122,6 +1170,12 @@
             "state" : "translated",
             "value" : "Lagre sitat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citaat bewaren"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -1246,6 +1300,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notatet ditt fra den gangen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je notitie van toen"
           }
         }
       },
@@ -1373,6 +1433,12 @@
             "state" : "translated",
             "value" : "Når du gjør teksten større, ordnes innholdet pent i stedet for å bli kuttet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Als je de tekst vergroot, wordt de inhoud netjes herschikt in plaats van afgesneden."
+          }
         }
       }
     },
@@ -1496,6 +1562,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Leser teksten …"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Tekst lezen…"
           }
         }
       },
@@ -1623,6 +1695,12 @@
             "state" : "translated",
             "value" : "Slett alle dataene mine"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Al mijn gegevens in één keer wissen"
+          }
         }
       }
     },
@@ -1746,6 +1824,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Et annet sitat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ander citaat"
           }
         }
       },
@@ -1872,6 +1956,12 @@
             "state" : "translated",
             "value" : "Ingen sitater å se på igjen ennå"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nog geen citaten om terug te lezen"
+          }
         }
       },
       "comment" : "no_daily"
@@ -1996,6 +2086,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lukk"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Sluit"
           }
         }
       },
@@ -2123,6 +2219,12 @@
             "state" : "translated",
             "value" : "Alt er fortsatt lett å lese, også med økt kontrast eller hvis det er vanskelig å skille farger."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles blijft goed leesbaar, ook met meer contrast of als kleuren moeilijk te onderscheiden zijn."
+          }
         }
       }
     },
@@ -2247,6 +2349,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bruk appen på flere språk."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de app in meer talen."
           }
         }
       }
@@ -2373,6 +2481,12 @@
             "state" : "translated",
             "value" : "Flere språk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Meer talen"
+          }
         }
       }
     },
@@ -2496,6 +2610,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta bilde av siden\nmed setningen du liker"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Maak een foto van de pagina\nmet de zin die je mooi vindt"
           }
         }
       },
@@ -2621,6 +2741,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Notat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Notitie"
           }
         }
       },
@@ -2748,6 +2874,12 @@
             "state" : "translated",
             "value" : "Lagre bøkene og sitatene dine i en fil, og hent dem tilbake senere."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar je boeken en citaten in een bestand en haal ze later weer terug."
+          }
         }
       }
     },
@@ -2871,6 +3003,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sitater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citaten"
           }
         }
       },
@@ -2997,6 +3135,12 @@
             "state" : "translated",
             "value" : "Dra fingeren over setningen · Klyp med to fingre for å zoome"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Veeg met je vinger over de zin · Knijp met twee vingers om te zoomen"
+          }
         }
       },
       "comment" : "swipe"
@@ -3122,6 +3266,12 @@
             "state" : "translated",
             "value" : "Sitatkort"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citaatkaart"
+          }
         }
       },
       "comment" : "card"
@@ -3246,6 +3396,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Søk i sitater, notater og titler"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoek in citaten, notities en titels"
           }
         }
       },
@@ -3373,6 +3529,12 @@
             "state" : "translated",
             "value" : "Valget ditt blir stående, selv om appen lukkes mens du velger et sitat."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je selectie blijft bewaard, ook als de app sluit terwijl je een citaat kiest."
+          }
         }
       }
     },
@@ -3498,6 +3660,12 @@
             "state" : "translated",
             "value" : "Et lett trykk når du understreker eller lagrer et sitat."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Een lichte tik wanneer je een citaat onderstreept of bewaart."
+          }
         }
       }
     },
@@ -3622,6 +3790,12 @@
             "state" : "translated",
             "value" : "Lagre et sitat, så møter du ett\nher hver dag."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar een citaat, dan zie je hier\nelke dag een citaat terug."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -3743,6 +3917,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -3873,6 +4053,12 @@
             "state" : "translated",
             "value" : "Sikkerhetskopi og eksport"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Back-up en export"
+          }
         }
       }
     },
@@ -3998,6 +4184,12 @@
             "state" : "translated",
             "value" : "Behagelige farger og kontrast"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Prettigere kleuren en contrast"
+          }
         }
       }
     },
@@ -4121,6 +4313,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fant ingen tekst i bildet. Sjekk skarphet og lys, og prøv igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er is geen tekst gevonden op de foto. Controleer scherpte en licht en probeer het opnieuw."
           }
         }
       },
@@ -4247,6 +4445,12 @@
             "state" : "translated",
             "value" : "Slett"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder"
+          }
         }
       },
       "comment" : "delete"
@@ -4371,6 +4575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bibliotek"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bibliotheek"
           }
         }
       },
@@ -4497,6 +4707,12 @@
             "state" : "translated",
             "value" : "Velg en bok i biblioteket og ta bilde av en side."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies een boek in de bibliotheek en fotografeer een pagina."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -4621,6 +4837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Innstillinger"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Instellingen"
           }
         }
       },
@@ -4748,6 +4970,12 @@
             "state" : "translated",
             "value" : "Haptisk tilbakemelding"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Haptische feedback"
+          }
         }
       }
     },
@@ -4871,6 +5099,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sitat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citaat"
           }
         }
       },
@@ -5177,6 +5411,24 @@
               }
             }
           }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citaat"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citaten"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -5301,6 +5553,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Slett sitat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder citaat"
           }
         }
       },
@@ -5427,6 +5685,12 @@
             "state" : "translated",
             "value" : "Lagrede sitater"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaarde citaten"
+          }
         }
       },
       "comment" : "scraped"
@@ -5551,6 +5815,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen lagrede sitater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen bewaarde citaten"
           }
         }
       },
@@ -5678,6 +5948,12 @@
             "state" : "translated",
             "value" : "Nyttige tips"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Handige tips"
+          }
         }
       }
     },
@@ -5803,6 +6079,12 @@
             "state" : "translated",
             "value" : "På iPad kan du finne og bla i bøker og sitater med bare tastaturet."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoek en blader op de iPad door boeken en citaten met alleen een toetsenbord."
+          }
         }
       }
     },
@@ -5926,6 +6208,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen bøker ennå"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nog geen boeken"
           }
         }
       },
@@ -6052,6 +6340,12 @@
             "state" : "translated",
             "value" : "Ingen setninger valgt ennå"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nog geen zinnen geselecteerd"
+          }
         }
       },
       "comment" : "none_sel"
@@ -6176,6 +6470,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Du har ikke lagret sitater fra denne boken ennå.\nTrykk på knappen under for å lagre det første."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Je hebt nog geen citaten uit dit boek bewaard.\nTik op de knop hieronder om het eerste te bewaren."
           }
         }
       },
@@ -6303,6 +6603,12 @@
             "state" : "translated",
             "value" : "Diskrete tips om nyttige funksjoner, akkurat når du trenger dem."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Subtiele hints over handige functies, precies wanneer je ze nodig hebt."
+          }
         }
       }
     },
@@ -6426,6 +6732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Velg fra Bilder"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kies uit Foto’s"
           }
         }
       },
@@ -6553,6 +6865,12 @@
             "state" : "translated",
             "value" : "Bruk hele appen på engelsk også."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik de hele app ook in het Engels."
+          }
         }
       }
     },
@@ -6677,6 +6995,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Første gang du åpner appen etter en oppdatering, ser du hva som er nytt."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bij de eerste keer openen na een update zie je wat er nieuw is."
           }
         }
       }
@@ -6803,6 +7127,12 @@
             "state" : "translated",
             "value" : "Nyheter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Nieuw in deze versie"
+          }
         }
       }
     },
@@ -6926,6 +7256,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen"
           }
         }
       },
@@ -7053,6 +7389,12 @@
             "state" : "translated",
             "value" : "Full støtte for engelsk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Volledige ondersteuning voor Engels"
+          }
         }
       }
     },
@@ -7176,6 +7518,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dagens sitat"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citaat van de dag"
           }
         }
       },
@@ -7303,6 +7651,12 @@
             "state" : "translated",
             "value" : "Påminnelser om dagens sitat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herinnering voor het citaat van de dag"
+          }
         }
       }
     },
@@ -7427,6 +7781,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Reduser bevegelse"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Beweging beperken"
           }
         }
       }
@@ -7553,6 +7913,12 @@
             "state" : "translated",
             "value" : "Med Reduser bevegelse slått på blir effektene på skjermen roligere."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Met Beweging beperken aan worden schermeffecten rustiger."
+          }
         }
       }
     },
@@ -7676,6 +8042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tilbakestill zoom"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zoom herstellen"
           }
         }
       },
@@ -7801,6 +8173,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Originalbilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Originele foto"
           }
         }
       },
@@ -7928,6 +8306,12 @@
             "state" : "translated",
             "value" : "Slett alle bøkene og sitatene dine direkte i appen."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verwijder al je boeken en citaten rechtstreeks in de app."
+          }
         }
       }
     },
@@ -8051,6 +8435,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Skriv hvorfor du likte denne setningen"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schrijf op waarom je deze zin mooi vond"
           }
         }
       },
@@ -8177,6 +8567,12 @@
             "state" : "translated",
             "value" : "Vil du slette denne boken og alle sitatene?"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Dit boek en alle citaten verwijderen?"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -8301,6 +8697,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Flytt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verplaats"
           }
         }
       },
@@ -8427,6 +8829,12 @@
             "state" : "translated",
             "value" : "Flytter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Verplaatsen"
+          }
         }
       },
       "comment" : "moving"
@@ -8551,6 +8959,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Del som bilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel als afbeelding"
           }
         }
       },
@@ -8677,6 +9091,12 @@
             "state" : "translated",
             "value" : "Gjenkjenningen mislyktes"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Herkenning mislukt"
+          }
         }
       },
       "comment" : "fail_title"
@@ -8798,6 +9218,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auto"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Auto"
@@ -8927,6 +9353,12 @@
             "state" : "translated",
             "value" : "Forfatter"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Auteur"
+          }
         }
       },
       "comment" : "author"
@@ -9051,6 +9483,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Lagre"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar"
           }
         }
       },
@@ -9177,6 +9615,12 @@
             "state" : "translated",
             "value" : "Fjern alt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Alles wissen"
+          }
         }
       },
       "comment" : "clear_all"
@@ -9298,6 +9742,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Info"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Info"
@@ -9428,6 +9878,12 @@
             "state" : "translated",
             "value" : "Få ett av de lagrede sitatene dine som varsel på tidspunktet du velger."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ontvang op het door jou gekozen tijdstip één van je bewaarde citaten als melding."
+          }
         }
       }
     },
@@ -9551,6 +10007,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tittel"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Titel"
           }
         }
       },
@@ -9677,6 +10139,12 @@
             "state" : "translated",
             "value" : "Sikkerhet for tittelen: %lld %%"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zekerheid van de titel: %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -9801,6 +10269,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favoritt"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Favoriet"
           }
         }
       },
@@ -10107,6 +10581,24 @@
               }
             }
           }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tot nu toe %lld boek verzameld"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "Tot nu toe %lld boeken verzameld"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -10231,6 +10723,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Viskelær"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gum"
           }
         }
       },
@@ -10357,6 +10855,12 @@
             "state" : "translated",
             "value" : "Viskelær på"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gum aan"
+          }
         }
       },
       "comment" : "erase_on"
@@ -10481,6 +10985,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Støtte"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Support"
           }
         }
       },
@@ -10607,6 +11117,12 @@
             "state" : "translated",
             "value" : "Bok"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boek"
+          }
         }
       },
       "comment" : "book"
@@ -10731,6 +11247,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bokinfo (kan redigeres)"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boekgegevens (aanpasbaar)"
           }
         }
       },
@@ -10857,6 +11379,12 @@
             "state" : "translated",
             "value" : "Legg til bok"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boek toevoegen"
+          }
         }
       },
       "comment" : "add_book"
@@ -10981,6 +11509,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bokomslag"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Boekkaft"
           }
         }
       },
@@ -11108,6 +11642,12 @@
             "state" : "translated",
             "value" : "Introduksjon for nye brukere"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kennismaking voor nieuwe gebruikers"
+          }
         }
       }
     },
@@ -11233,6 +11773,12 @@
             "state" : "translated",
             "value" : "Første gang du åpner appen, får du et raskt innblikk i hva den kan."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bij de eerste keer openen zie je kort wat de app kan."
+          }
         }
       }
     },
@@ -11356,6 +11902,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Legg til din første bok"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Voeg je eerste boek toe"
           }
         }
       },
@@ -11482,6 +12034,12 @@
             "state" : "translated",
             "value" : "Uthentet tekst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Opgehaalde tekst"
+          }
         }
       },
       "comment" : "extracted"
@@ -11607,6 +12165,12 @@
             "state" : "translated",
             "value" : "Avbryt"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Annuleer"
+          }
         }
       },
       "comment" : "cancel"
@@ -11731,6 +12295,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta bilde"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Foto maken"
           }
         }
       },
@@ -11858,6 +12428,12 @@
             "state" : "translated",
             "value" : "Skjermer for stor tekst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Schermen voor grote tekst"
+          }
         }
       }
     },
@@ -11983,6 +12559,12 @@
             "state" : "translated",
             "value" : "Styring med tastatur"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bediening met toetsenbord"
+          }
         }
       }
     },
@@ -12106,6 +12688,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Det oppstod en feil under tekstgjenkjenningen. Prøv igjen."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Er ging iets mis bij het herkennen van de tekst. Probeer het opnieuw."
           }
         }
       },
@@ -12232,6 +12820,12 @@
             "state" : "translated",
             "value" : "Del som tekst"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Deel als tekst"
+          }
         }
       },
       "comment" : "share_text"
@@ -12356,6 +12950,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Side"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Pagina"
           }
         }
       },
@@ -12482,6 +13082,12 @@
             "state" : "translated",
             "value" : "Plassér de fire punktene på hjørnene av siden"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Zet de vier punten op de hoeken van de pagina"
+          }
         }
       },
       "comment" : "corners"
@@ -12607,6 +13213,12 @@
             "state" : "translated",
             "value" : "Hele siden"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Hele pagina"
+          }
         }
       },
       "comment" : "whole_page"
@@ -12731,6 +13343,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Siden rettes ut for deg. Dra deretter fingeren over setningene du vil velge."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "De pagina wordt voor je rechtgetrokken. Veeg daarna met je vinger over de zinnen die je wilt kiezen."
           }
         }
       },
@@ -12858,6 +13476,12 @@
             "state" : "translated",
             "value" : "Oppsett for foldbar iPhone"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Weergave voor opvouwbare iPhone"
+          }
         }
       }
     },
@@ -12983,6 +13607,12 @@
             "state" : "translated",
             "value" : "Bruk den brede skjermen på en foldbar iPhone som to ruter side om side."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Gebruik het brede scherm van een opvouwbare iPhone als twee panelen naast elkaar."
+          }
         }
       }
     },
@@ -13106,6 +13736,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ta også bilde av strekkoden på baksiden (eller bare den), så gjenkjennes ISBN automatisk."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografeer ook (of alleen) de streepjescode op de achterkant, dan wordt het ISBN automatisch herkend."
           }
         }
       },
@@ -13232,6 +13868,12 @@
             "state" : "translated",
             "value" : "Leser omslaget …"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Kaft lezen…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -13357,6 +13999,12 @@
             "state" : "translated",
             "value" : "Ta bilde av omslaget, så leses tittel og forfatter automatisk"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Fotografeer de kaft, dan worden titel en auteur automatisch gelezen"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -13481,6 +14129,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Begynn med å ta bilde av et omslag.\nTittel og forfatter leses automatisk."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Begin met een foto van een kaft.\nTitel en auteur worden automatisch gelezen."
           }
         }
       },
@@ -13608,6 +14262,12 @@
             "state" : "translated",
             "value" : "Fortsett der du slapp"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Ga verder waar je gebleven was"
+          }
         }
       }
     },
@@ -13733,6 +14393,12 @@
             "state" : "translated",
             "value" : "VoiceOver leser opp alle bøker, sitater og knapper i riktig rekkefølge."
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "VoiceOver leest elk boek, citaat en elke knop voor, in de juiste volgorde."
+          }
         }
       }
     },
@@ -13853,6 +14519,12 @@
           }
         },
         "nb" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "OK"
+          }
+        },
+        "nl" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "OK"

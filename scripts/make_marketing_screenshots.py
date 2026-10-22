@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -162,6 +162,13 @@ SHOTS = {
         ("03-library.png", "text-bottom", "Et bibliotek<br>bygget av omslag", "Tittel og forfatter leses fra bildet"),
         ("04-quotes.png", "flat-rotate", "Alle sitater<br>på ett sted", "Finn dem med boktittel eller notat"),
         ("05-daily.png", "dark", "Ett sitat<br>hver dag", "Widget alltid for hånden og kort å dele"),
+    ],
+    "nl": [
+        ("01-highlight.png", "hero-bleed", "Veeg met je vinger<br>als met een markeerstift", "Alleen de zinnen waarover je veegt, worden tekst"),
+        ("02-region.png", "left-text", "Scheve foto?<br>Wordt recht", "Zet de vier hoeken goed en de pagina ligt vlak als papier"),
+        ("03-library.png", "text-bottom", "Een bibliotheek<br>van kaften", "Titel en auteur worden uit de foto gelezen"),
+        ("04-quotes.png", "flat-rotate", "Alle citaten<br>op één plek", "Vind ze met boektitel of notitie"),
+        ("05-daily.png", "dark", "Een citaat<br>voor elke dag", "Widget altijd bij de hand en kaart om te delen"),
     ],
 }
 # ─────────────────────────────────────────────────────────────────

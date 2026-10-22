@@ -123,6 +123,12 @@
             "state" : "translated",
             "value" : "Lagre et sitat for å komme i gang"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar een citaat om te beginnen"
+          }
         }
       }
     },
@@ -428,6 +434,24 @@
               }
             }
           }
+        },
+        "nl" : {
+          "variations" : {
+            "plural" : {
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citaat om terug te lezen"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld citaten om terug te lezen"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -552,6 +576,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ingen lagrede sitater"
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Geen bewaarde citaten"
           }
         }
       }
@@ -678,6 +708,12 @@
             "state" : "translated",
             "value" : "Lagre et sitat, så møter du det\nher hver dag"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bewaar een citaat, dan zie je het\nhier elke dag terug"
+          }
         }
       }
     },
@@ -803,6 +839,12 @@
             "state" : "translated",
             "value" : "Dagens sitat"
           }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Citaat van de dag"
+          }
         }
       }
     },
@@ -927,6 +969,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ett av de lagrede sitatene dine hver dag. Har du favoritter, velges det blant dem."
+          }
+        },
+        "nl" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Elke dag één van je bewaarde citaten. Heb je favorieten, dan wordt daaruit gekozen."
           }
         }
       }
