@@ -4,171 +4,195 @@
 
 ### 앱스토어 (한국어)
 
+이제 24개 언어로 쓸 수 있어요.
 설정 화면이 새로 생겼어요.
-의견 보내기와 리뷰 남기기를 설정에서 할 수 있어요.
-앱 버전도 설정에서 바로 확인할 수 있어요.
+설정에서 의견과 리뷰를 보낼 수 있어요.
+앞으로 만들 기능을 설정에서 볼 수 있어요.
 앱이 더 안정적으로 동작하도록 다듬었어요.
 
-### 앱스토어 (en)
+### 앱스토어 (영어)
 
+Bookmark Shot now speaks 24 languages.
 A new Settings screen is here.
-Send feedback or review from Settings.
-Check the app version right there too.
+Send feedback or a review from Settings.
+See what’s coming next in Settings.
 Polished for steadier performance.
 
-### 앱스토어 (en-GB)
+### App Store (en-GB)
 
-A new Settings screen has arrived.
-Send feedback or review from Settings.
-Check the app version there as well.
-Polished for steadier performance.
+Bookmark Shot now speaks 24 languages.
+There’s a brand-new Settings screen.
+Send feedback or a review from Settings.
+See what’s coming next in Settings.
+Polished to run more smoothly.
 
-### 앱스토어 (zh-Hans)
+### 앱스토어 (중국어 간체)
 
-全新的设置页面来啦。
-可以在设置里发送反馈、给我们评价。
-在设置里也能直接查看 App 版本。
-优化了细节，运行更稳定。
+划线现已支持 24 种语言。
+全新的设置页面来了。
+在设置中即可发送反馈或写评价。
+在设置中可以看到即将推出的功能。
+运行更加稳定流畅。
 
-### 앱스토어 (zh-Hant)
+### 앱스토어 (중국어 번체)
 
-全新的設定頁面登場了。
-可以在設定裡傳送意見、給我們評價。
-在設定裡也能直接查看 App 版本。
-調整了細節，運作更穩定。
+劃線現在支援 24 種語言。
+全新的設定畫面登場。
+在設定中就能傳送意見回饋或撰寫評論。
+在設定中可以看到即將推出的功能。
+運作更加穩定順暢。
 
-### 앱스토어 (ja)
+### 앱스토어 (일본어)
 
-設定画面が新しくなりました。
-設定からご意見の送信やレビューができます。
-アプリのバージョンも設定で確認できます。
-より安定して動くよう調整しました。
+Bookmark Shotが24の言語に対応しました。
+新しい設定画面ができました。
+設定からご意見やレビューを送れます。
+今後追加予定の機能を設定で確認できます。
+より安定して動くように改善しました。
 
-### 앱스토어 (ru)
+### 앱스토어 (러시아어)
 
+Bookmark Shot теперь на 24 языках.
 Появился новый экран настроек.
-Отзыв можно оставить в настройках.
-Версия приложения тоже в настройках.
-Мы сделали приложение стабильнее.
+Отзыв и оценка — прямо из настроек.
+В настройках видно, что готовится.
+Приложение стало работать стабильнее.
 
-### 앱스토어 (es)
+### 앱스토어 (스페인어)
 
-Ya hay una nueva pantalla de ajustes.
-Comentarios y reseñas, en Ajustes.
-También verás la versión de la app ahí.
-Mejoramos la app para más estabilidad.
+Bookmark Shot ya habla 24 idiomas.
+Estrenamos pantalla de Ajustes.
+Comenta o valora la app desde Ajustes.
+Mira en Ajustes lo que está por llegar.
+Ahora funciona de forma más estable.
 
-### 앱스토어 (de)
+### 앱스토어 (독일어)
 
-Die Einstellungen sind ganz neu.
-Feedback und Bewertung: dort möglich.
-Auch die App-Version steht dort.
-Die App läuft nun noch stabiler.
+Bookmark Shot spricht jetzt 24 Sprachen.
+Neu: ein eigener Bereich Einstellungen.
+Feedback und Bewertung in Einstellungen.
+Sieh in Einstellungen, was bald kommt.
+Die App läuft jetzt noch stabiler.
 
-### 앱스토어 (fr)
+### 앱스토어 (프랑스어)
 
-Un nouvel écran Réglages est arrivé.
-Avis et retours se font dans Réglages.
-La version de l’app y est aussi visible.
-App peaufinée pour plus de stabilité.
+Bookmark Shot existe en 24 langues.
+Découvrez le tout nouvel écran Réglages.
+Avis et retours depuis les Réglages.
+Découvrez dans Réglages ce qui arrive.
+L’app est encore plus stable.
 
-### 앱스토어 (it)
+### 앱스토어 (이탈리아어)
 
-C’è una nuova schermata Impostazioni.
+Bookmark Shot ora parla 24 lingue.
+Ecco la nuova schermata Impostazioni.
 Feedback e recensioni da Impostazioni.
-Lì vedi anche la versione dell’app.
-Abbiamo reso l’app più stabile.
+Le novità in arrivo, nelle Impostazioni.
+L’app è ancora più stabile.
 
-### 앱스토어 (pt-BR)
+### 앱스토어 (포르투갈어 브라질)
 
+O Bookmark Shot agora fala 24 idiomas.
 Chegou uma nova tela de Ajustes.
-Envie feedback e avalie pelos Ajustes.
-A versão do app também aparece lá.
-Deixamos o app mais estável.
+Envie feedback ou avalie pelos Ajustes.
+Veja nos Ajustes o que vem por aí.
+O app ficou mais estável e fluido.
 
-### 앱스토어 (th)
+### 앱스토어 (태국어)
 
-มีหน้าจอตั้งค่าใหม่แล้ว
-ส่งความเห็นและรีวิวได้ในการตั้งค่า
-ดูเวอร์ชันของแอปในการตั้งค่าได้เลย
-ปรับปรุงให้แอปทำงานเสถียรขึ้น
+Bookmark Shot รองรับแล้ว 24 ภาษา
+มีหน้าการตั้งค่าแบบใหม่แล้ว
+ส่งความคิดเห็นหรือรีวิวได้จากการตั้งค่า
+ดูสิ่งที่กำลังจะมาได้ในการตั้งค่า
+ใช้งานลื่นไหลและเสถียรขึ้น
 
-### 앱스토어 (vi)
+### 앱스토어 (베트남어)
 
-Màn hình Cài đặt mới đã xuất hiện.
-Gửi góp ý, đánh giá ngay trong Cài đặt.
-Xem phiên bản ứng dụng cũng ở đó.
-Ứng dụng được tinh chỉnh để ổn định hơn.
+Bookmark Shot nay đã có 24 ngôn ngữ.
+Màn hình Cài đặt hoàn toàn mới.
+Gửi góp ý hoặc đánh giá ngay từ Cài đặt.
+Xem tính năng sắp ra mắt trong Cài đặt.
+Ứng dụng chạy ổn định và mượt hơn.
 
-### 앱스토어 (cs)
+### 앱스토어 (체코어)
 
+Bookmark Shot teď mluví 24 jazyky.
 Přibyla nová obrazovka Nastavení.
-Hodnocení a zpětná vazba v Nastavení.
-Verzi aplikace uvidíte také tam.
-Aplikaci jsme vyladili, běží stabilněji.
+V Nastavení napíšete názor i recenzi.
+V Nastavení uvidíte, co chystáme.
+Aplikace teď běží spolehlivěji.
 
-### 앱스토어 (da)
+### 앱스토어 (덴마크어)
 
-Der er kommet en ny Indstillinger-skærm.
-Feedback og anmeldelse i Indstillinger.
-Appens version kan du også se der.
-Appen er finpudset og kører stabilt.
+Bookmark Shot taler nu 24 sprog.
+Der er kommet en ny indstillingsskærm.
+Giv feedback eller anmeld appen derfra.
+Se i Indstillinger, hvad der kommer.
+Appen kører nu mere stabilt.
 
-### 앱스토어 (el)
+### 앱스토어 (그리스어)
 
-Υπάρχει νέα οθόνη Ρυθμίσεων.
-Σχόλια και αξιολόγηση από τις Ρυθμίσεις.
-Εκεί βλέπεις και την έκδοση εφαρμογής.
-Βελτιώσαμε την εφαρμογή για σταθερότητα.
+Το Bookmark Shot μιλά πλέον 24 γλώσσες.
+Ήρθε μια νέα οθόνη Ρυθμίσεων.
+Σχόλια και κριτική από τις Ρυθμίσεις.
+Δες τι έρχεται σύντομα στις Ρυθμίσεις.
+Η εφαρμογή λειτουργεί πιο σταθερά.
 
-### 앱스토어 (fi)
+### 앱스토어 (핀란드어)
 
-Asetusnäkymä on uudistunut.
-Palaute ja arvostelu: Asetuksissa.
-Näet siellä myös sovelluksen version.
-Hioimme sovellusta vakaammaksi.
+Bookmark Shot puhuu nyt 24 kieltä.
+Uusi Asetukset-näkymä on täällä.
+Anna palautetta tai arvio Asetuksista.
+Näe Asetuksista, mitä on tulossa.
+Sovellus toimii nyt vakaammin.
 
-### 앱스토어 (id)
+### 앱스토어 (인도네시아어)
 
-Layar Pengaturan baru telah hadir.
-Masukan dan ulasan lewat Pengaturan.
-Versi aplikasi juga ada di sana.
-Aplikasi disempurnakan agar stabil.
+Bookmark Shot kini ada dalam 24 bahasa.
+Hadir layar Pengaturan yang baru.
+Beri masukan dan ulasan dari Pengaturan.
+Intip fitur mendatang di Pengaturan.
+Kini lebih stabil dan lancar.
 
-### 앱스토어 (nb)
+### 앱스토어 (노르웨이어(보크말))
 
+Bookmark Shot snakker nå 24 språk.
 Innstillinger har fått en ny skjerm.
-Send tilbakemelding og omtale der.
-Appversjonen kan du også se der.
-Appen er finpusset og mer stabil.
+Gi tilbakemelding eller vurdering der.
+Se hva som kommer, i Innstillinger.
+Appen går nå jevnere og mer stabilt.
 
-### 앱스토어 (nl)
+### 앱스토어 (네덜란드어)
 
-Er is een nieuw instellingenscherm.
-Feedback en beoordelingen geef je daar.
-De appversie zie je daar ook.
-De app is verfijnd en stabieler.
+Bookmark Shot spreekt nu 24 talen.
+Er is een nieuw scherm Instellingen.
+Feedback en reviews via Instellingen.
+Zie in Instellingen wat er nog komt.
+De app werkt nu nog soepeler.
 
-### 앱스토어 (pl)
+### 앱스토어 (폴란드어)
 
+Bookmark Shot mówi teraz w 24 językach.
 Pojawił się nowy ekran Ustawień.
-Opinię i ocenę wyślesz w Ustawieniach.
-Tam sprawdzisz też wersję aplikacji.
+Opinię i recenzję wyślesz z Ustawień.
+W Ustawieniach zobaczysz, co planujemy.
 Aplikacja działa teraz stabilniej.
 
-### 앱스토어 (sv)
+### 앱스토어 (스웨덴어)
 
-Inställningar har fått en ny vy.
-Skicka feedback och betyg där.
-Appens version ser du också där.
-Appen är finslipad och stabilare.
+Bookmark Shot finns nu på 24 språk.
+Här är en helt ny inställningsvy.
+Ge feedback eller betyg i Inställningar.
+Se vad som är på gång i Inställningar.
+Appen är nu stabilare och smidigare.
 
-### 앱스토어 (tr)
+### 앱스토어 (튀르키예어)
 
+Bookmark Shot artık 24 dilde.
 Yepyeni bir Ayarlar ekranı geldi.
-Geri bildirim ve yorumu Ayarlar’dan yap.
-Uygulama sürümünü de orada görürsün.
-Uygulamayı daha kararlı hâle getirdik.
+Görüş ve yorumunu Ayarlar’dan gönder.
+Yakında gelecekleri Ayarlar’da gör.
+Uygulama artık daha kararlı çalışıyor.
 
 ## 1.0.1
 

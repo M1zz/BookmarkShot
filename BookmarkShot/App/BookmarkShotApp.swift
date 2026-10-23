@@ -22,6 +22,12 @@ struct BookmarkShotApp: App {
         LeeoKit.bootstrap(BookmarkShotSpec.self)
 
         let schema = Schema([Book.self, Quote.self])
+        if ScreenshotMode.isActive {
+            // 스크린샷 데모(DEBUG): 메모리 저장소에 데모 서재만 — 실제 데이터 · iCloud 를 건드리지 않는다
+            container = try! ModelContainer(for: schema, configurations: [ModelConfiguration(schema: schema, isStoredInMemoryOnly: true, cloudKitDatabase: .none)])
+            ScreenshotMode.populate(container.mainContext)
+            return
+        }
         do {
             let cloudConfig = ModelConfiguration(schema: schema, cloudKitDatabase: .automatic)
             container = try ModelContainer(for: schema, configurations: [cloudConfig])

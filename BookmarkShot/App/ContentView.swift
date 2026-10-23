@@ -13,22 +13,41 @@ struct ContentView: View {
     /// 지원(설정) 시트 표시 여부
     @State private var showSupport = false
 
+    @State private var selectedTab = ScreenshotMode.initialTab
+    /// 스크린샷 데모(DEBUG)에서 구절 스크랩 화면을 바로 연다
+    @State private var screenshotScanBook: Book?
+    @Query private var books: [Book]
+
     var body: some View {
-        TabView {
+        TabView(selection: $selectedTab) {
             LibraryView()
                 .tabItem {
                     Label("서재", systemImage: "books.vertical.fill")
                 }
+                .tag(0)
 
             AllQuotesView()
                 .tabItem {
                     Label("문장", systemImage: "quote.opening")
                 }
+                .tag(1)
 
             DailyReviewView()
                 .tabItem {
                     Label("오늘의 문장", systemImage: "sparkles")
                 }
+                .tag(2)
+        }
+        .sheet(item: $screenshotScanBook) { book in
+            ScanPageView(book: book)
+        }
+        .task {
+            ScreenshotMode.paintCovers(books)
+            if ScreenshotMode.opensScanPage {
+                screenshotScanBook = ScreenshotMode.pageBook(in: books)
+            } else if ScreenshotMode.scene == .settings {
+                showSupport = true
+            }
         }
         .overlay(alignment: .topTrailing) {
             Button {

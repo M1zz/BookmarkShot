@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Truyện Kiều",
+   "author": "Nguyễn Du"
+  },
+  {
+   "title": "Lục Vân Tiên",
+   "author": "Nguyễn Đình Chiểu"
+  },
+  {
+   "title": "Thơ Hồ Xuân Hương",
+   "author": "Hồ Xuân Hương"
+  },
+  {
+   "title": "Hai đứa trẻ",
+   "author": "Thạch Lam"
+  },
+  {
+   "title": "Thơ Điên",
+   "author": "Hàn Mặc Tử"
+  },
+  {
+   "title": "Số đỏ",
+   "author": "Vũ Trọng Phụng"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 1,
+   "text": "Nhớ câu kiến nghĩa bất vi, Làm người thế ấy cũng phi anh hùng.",
+   "page": 14,
+   "fav": false,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Thân em vừa trắng lại vừa tròn, Bảy nổi ba chìm với nước non.",
+   "page": 23,
+   "fav": false,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Chiều, chiều rồi. Một chiều êm ả như ru, văng vẳng tiếng ếch nhái kêu ran ngoài đồng ruộng theo gió nhẹ đưa vào.",
+   "page": 7,
+   "fav": true,
+   "days_ago": 22,
+   "note": "Nhớ những buổi chiều ở quê ngoại."
+  },
+  {
+   "book": 0,
+   "text": "Trăm năm trong cõi người ta, Chữ tài chữ mệnh khéo là ghét nhau.",
+   "page": 1,
+   "fav": true,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Sao anh không về chơi thôn Vĩ? Nhìn nắng hàng cau nắng mới lên.",
+   "page": 31,
+   "fav": true,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Biết rồi, khổ lắm, nói mãi!",
+   "page": 112,
+   "fav": false,
+   "days_ago": 28,
+   "note": "Y hệt ông nội nhà mình."
+  },
+  {
+   "book": 0,
+   "text": "Đã mang lấy nghiệp vào thân, Cũng đừng trời trách gần trời xa. Thiện căn ở tại lòng ta, Chữ tâm kia mới bằng ba chữ tài.",
+   "page": 212,
+   "fav": true,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 2,
+ "page": {
+  "book": 0,
+  "page": 212,
+  "running_head": "TRUYỆN KIỀU",
+  "text": "Bắt phong trần phải phong trần, Cho thanh cao mới được phần thanh cao. Có đâu thiên vị người nào, Chữ tài chữ mệnh dồi dào cả hai. Có tài mà cậy chi tài, Chữ tài liền với chữ tai một vần. Đã mang lấy nghiệp vào thân, Cũng đừng trời trách gần trời xa. Thiện căn ở tại lòng ta, Chữ tâm kia mới bằng ba chữ tài.",
+  "highlight": "Đã mang lấy nghiệp vào thân, Cũng đừng trời trách gần trời xa. Thiện căn ở tại lòng ta, Chữ tâm kia mới bằng ba chữ tài."
+ }
+}

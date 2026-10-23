@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Don Quijote de la Mancha",
+   "author": "Miguel de Cervantes"
+  },
+  {
+   "title": "La vida es sueño",
+   "author": "Pedro Calderón de la Barca"
+  },
+  {
+   "title": "Rimas",
+   "author": "Gustavo Adolfo Bécquer"
+  },
+  {
+   "title": "Campos de Castilla",
+   "author": "Antonio Machado"
+  },
+  {
+   "title": "Romancero gitano",
+   "author": "Federico García Lorca"
+  },
+  {
+   "title": "Cantos de vida y esperanza",
+   "author": "Rubén Darío"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "En un lugar de la Mancha, de cuyo nombre no quiero acordarme…",
+   "page": 27,
+   "fav": false,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "¿Qué es la vida? Una ilusión, una sombra, una ficción, y el mayor bien es pequeño; que toda la vida es sueño, y los sueños, sueños son.",
+   "page": 98,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "¿Qué es poesía? ¿Y tú me lo preguntas? Poesía… eres tú.",
+   "page": 41,
+   "fav": true,
+   "days_ago": 22,
+   "note": "Para leérsela a Marta."
+  },
+  {
+   "book": 3,
+   "text": "Caminante, no hay camino, se hace camino al andar.",
+   "page": 153,
+   "fav": true,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Verde que te quiero verde. Verde viento. Verdes ramas.",
+   "page": 36,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Juventud, divino tesoro, ¡ya te vas para no volver!",
+   "page": 67,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Volverán las oscuras golondrinas en tu balcón sus nidos a colgar.",
+   "page": 57,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 2,
+ "page": {
+  "book": 1,
+  "page": 98,
+  "running_head": "LA VIDA ES SUEÑO",
+  "text": "y en el mundo, en conclusión, todos sueñan lo que son, aunque ninguno lo entiende. Yo sueño que estoy aquí destas prisiones cargado, y soñé que en otro estado más lisonjero me vi. ¿Qué es la vida? Un frenesí. ¿Qué es la vida? Una ilusión, una sombra, una ficción, y el mayor bien es pequeño; que toda la vida es sueño, y los sueños, sueños son.",
+  "highlight": "¿Qué es la vida? Una ilusión, una sombra, una ficción, y el mayor bien es pequeño; que toda la vida es sueño, y los sueños, sueños son."
+ }
+}

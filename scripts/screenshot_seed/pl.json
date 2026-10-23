@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Pan Tadeusz",
+   "author": "Adam Mickiewicz"
+  },
+  {
+   "title": "Treny",
+   "author": "Jan Kochanowski"
+  },
+  {
+   "title": "Quo vadis",
+   "author": "Henryk Sienkiewicz"
+  },
+  {
+   "title": "Kordian",
+   "author": "Juliusz Słowacki"
+  },
+  {
+   "title": "Dziady",
+   "author": "Adam Mickiewicz"
+  },
+  {
+   "title": "Pan Wołodyjowski",
+   "author": "Henryk Sienkiewicz"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Litwo! Ojczyzno moja! ty jesteś jak zdrowie. Ile cię trzeba cenić, ten tylko się dowie, kto cię stracił.",
+   "page": 9,
+   "fav": true,
+   "days_ago": 18,
+   "note": "Czytane z dziadkiem w wakacje"
+  },
+  {
+   "book": 2,
+   "text": "Quo vadis, Domine?",
+   "page": 541,
+   "fav": false,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Jam jest posąg człowieka na posągu świata.",
+   "page": 48,
+   "fav": false,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Wielkieś mi uczyniła pustki w domu moim, moja droga Orszulo, tym zniknienim swoim.",
+   "page": 14,
+   "fav": true,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Ciemno wszędzie, głucho wszędzie, co to będzie, co to będzie?",
+   "page": 11,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Tu kończy się szereg ksiąg pisanych w ciągu kilku lat i w niemałym trudzie — dla pokrzepienia serc.",
+   "page": 498,
+   "fav": true,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Teraz wszytko umilkło, szczere pustki w domu, Nie masz zabawki, nie masz rozśmiać się nikomu, Z każdego kąta żałość człowieka ujmuje, A serce swej pociechy darmo upatruje.",
+   "page": 14,
+   "fav": true,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 0,
+ "page": {
+  "book": 1,
+  "page": 14,
+  "running_head": "Treny",
+  "text": "Tyś za wszytki mówiła, za wszytki śpiewała, Wszytkiś w domu kąciki zawżdy pobiegała. Nie dopuściłaś nigdy matce się frasować Ani ojcu myśleniem zbytnim głowy psować, To tego, to owego wdzięcznie obłapiając I onym swym uciesznym śmiechem zabawiając. Teraz wszytko umilkło, szczere pustki w domu, Nie masz zabawki, nie masz rozśmiać się nikomu, Z każdego kąta żałość człowieka ujmuje, A serce swej pociechy darmo upatruje.",
+  "highlight": "Teraz wszytko umilkło, szczere pustki w domu, Nie masz zabawki, nie masz rozśmiać się nikomu, Z każdego kąta żałość człowieka ujmuje, A serce swej pociechy darmo upatruje."
+ }
+}

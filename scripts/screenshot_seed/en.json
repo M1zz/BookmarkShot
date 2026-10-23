@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Walden",
+   "author": "Henry David Thoreau"
+  },
+  {
+   "title": "Moby-Dick",
+   "author": "Herman Melville"
+  },
+  {
+   "title": "Little Women",
+   "author": "Louisa May Alcott"
+  },
+  {
+   "title": "Tom Sawyer",
+   "author": "Mark Twain"
+  },
+  {
+   "title": "Poems",
+   "author": "Emily Dickinson"
+  },
+  {
+   "title": "Self-Reliance",
+   "author": "Ralph Waldo Emerson"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary.",
+   "page": 90,
+   "fav": true,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "I know not all that may be coming, but be it what it will, I'll go to it laughing.",
+   "page": 178,
+   "fav": false,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "I'm not afraid of storms, for I'm learning how to sail my ship.",
+   "page": 512,
+   "fav": true,
+   "days_ago": 22,
+   "note": "Read this before the big interview."
+  },
+  {
+   "book": 3,
+   "text": "In order to make a man or a boy covet a thing, it is only necessary to make the thing difficult to attain.",
+   "page": 21,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "“Hope” is the thing with feathers — That perches in the soul — And sings the tune without the words — And never stops — at all —",
+   "page": 116,
+   "fav": true,
+   "days_ago": 26,
+   "note": "Mom’s favorite."
+  },
+  {
+   "book": 5,
+   "text": "Trust thyself: every heart vibrates to that iron string.",
+   "page": 44,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "If a man does not keep pace with his companions, perhaps it is because he hears a different drummer.",
+   "page": 326,
+   "fav": true,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 2,
+ "page": {
+  "book": 0,
+  "page": 90,
+  "running_head": "WALDEN",
+  "text": "I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary.",
+  "highlight": "I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary."
+ }
+}

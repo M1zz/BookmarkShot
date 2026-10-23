@@ -1,0 +1,82 @@
+{
+ "books": [
+  {
+   "title": "Seitsemän veljestä",
+   "author": "Aleksis Kivi"
+  },
+  {
+   "title": "Kalevala",
+   "author": "Elias Lönnrot"
+  },
+  {
+   "title": "Kanteletar",
+   "author": "Elias Lönnrot"
+  },
+  {
+   "title": "Talviöitä",
+   "author": "Eino Leino"
+  },
+  {
+   "title": "Suomen kansan sananlaskuja",
+   "author": "Elias Lönnrot"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Peltojen alla on niittu, apilaäyräinen, halki-leikkaama monipolvisen ojan; ja runsaasti antoi se heiniä, ennenkuin joutui laitumeksi kylän karjalle.",
+   "page": 5,
+   "fav": true,
+   "days_ago": 18,
+   "note": "Kuin mummolan pellot Hämeessä."
+  },
+  {
+   "book": 3,
+   "text": "Ruislinnun laulu korvissani, tähkäpäiden päällä täysi kuu; kesä-yön on onni omanani, kaskisavuun laaksot verhouu.",
+   "page": 23,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Mieleni minun tekevi, aivoni ajattelevi lähteäni laulamahan, saa'ani sanelemahan",
+   "page": 3,
+   "fav": true,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Jos mun tuttuni tulisi, ennen nähtyni näkyisi, sille suuta suikkajaisin, olis suu suden veressä",
+   "page": 47,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Tuonen lehto, öinen lehto! Siell' on hieno hietakehto, sinne lapsen saattaisin.",
+   "page": 312,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Oma maa mansikka, muu maa mustikka.",
+   "page": 61,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  }
+ ],
+ "daily_quote": 0,
+ "page": {
+  "book": 0,
+  "page": 5,
+  "running_head": "Seitsemän veljestä",
+  "text": "Jukolan talo, eteläisessä Hämeessä, seisoo erään mäen pohjoisella rinteellä, liki Toukolan kylää. Sen läheisin ympäristö on kivinen tanner, mutta alempana alkaa pellot, joissa, ennenkuin talo oli häviöön mennyt, aaltoili teräväpäinen vilja. Peltojen alla on niittu, apilaäyräinen, halki-leikkaama monipolvisen ojan; ja runsaasti antoi se heiniä, ennenkuin joutui laitumeksi kylän karjalle.",
+  "highlight": "Peltojen alla on niittu, apilaäyräinen, halki-leikkaama monipolvisen ojan; ja runsaasti antoi se heiniä, ennenkuin joutui laitumeksi kylän karjalle."
+ }
+}

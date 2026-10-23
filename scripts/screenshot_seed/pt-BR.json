@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Dom Casmurro",
+   "author": "Machado de Assis"
+  },
+  {
+   "title": "Iracema",
+   "author": "José de Alencar"
+  },
+  {
+   "title": "Eu",
+   "author": "Augusto dos Anjos"
+  },
+  {
+   "title": "Poesias",
+   "author": "Olavo Bilac"
+  },
+  {
+   "title": "Os Escravos",
+   "author": "Castro Alves"
+  },
+  {
+   "title": "Primeiros Cantos",
+   "author": "Gonçalves Dias"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.",
+   "page": 9,
+   "fav": true,
+   "days_ago": 18,
+   "note": "Machado sempre rindo de leve."
+  },
+  {
+   "book": 3,
+   "text": "Pois só quem ama pode ter ouvido capaz de ouvir e de entender estrelas.",
+   "page": 31,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Iracema, a virgem dos lábios de mel, que tinha os cabelos mais negros que a asa da graúna e mais longos que seu talhe de palmeira.",
+   "page": 14,
+   "fav": false,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "A mão que afaga é a mesma que apedreja.",
+   "page": 87,
+   "fav": true,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Minha terra tem palmeiras, onde canta o sabiá; as aves que aqui gorjeiam não gorjeiam como lá.",
+   "page": 11,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Olhos de cigana oblíqua e dissimulada.",
+   "page": 58,
+   "fav": false,
+   "days_ago": 28,
+   "note": "Capitu traiu ou não?"
+  },
+  {
+   "book": 4,
+   "text": "Senhor Deus dos desgraçados! Dizei-me vós, Senhor Deus!",
+   "page": 102,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 0,
+ "page": {
+  "book": 0,
+  "page": 9,
+  "running_head": "Dom Casmurro",
+  "text": "Cumprimentou-me, sentou-se ao pé de mim, falou da lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.",
+  "highlight": "Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso."
+ }
+}

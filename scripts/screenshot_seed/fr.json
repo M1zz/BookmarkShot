@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Pensées",
+   "author": "Blaise Pascal"
+  },
+  {
+   "title": "Candide",
+   "author": "Voltaire"
+  },
+  {
+   "title": "Les Fleurs du mal",
+   "author": "Charles Baudelaire"
+  },
+  {
+   "title": "Les Contemplations",
+   "author": "Victor Hugo"
+  },
+  {
+   "title": "Du côté de chez Swann",
+   "author": "Marcel Proust"
+  },
+  {
+   "title": "Essais",
+   "author": "Michel de Montaigne"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Toute notre dignité consiste donc en la pensée.",
+   "page": 96,
+   "fav": true,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Cela est bien dit, répondit Candide, mais il faut cultiver notre jardin.",
+   "page": 151,
+   "fav": false,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Là, tout n’est qu’ordre et beauté, luxe, calme et volupté.",
+   "page": 84,
+   "fav": true,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Demain, dès l’aube, à l’heure où blanchit la campagne, je partirai. Vois-tu, je sais que tu m’attends.",
+   "page": 238,
+   "fav": true,
+   "days_ago": 24,
+   "note": "Je la relis chaque automne."
+  },
+  {
+   "book": 4,
+   "text": "Longtemps, je me suis couché de bonne heure.",
+   "page": 3,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Parce que c’était lui, parce que c’était moi.",
+   "page": 289,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Le cœur a ses raisons que la raison ne connaît point.",
+   "page": 187,
+   "fav": true,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 3,
+ "page": {
+  "book": 0,
+  "page": 96,
+  "running_head": "PENSÉES",
+  "text": "L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau, suffit pour le tuer. Mais, quand l’univers l’écraserait, l’homme serait encore plus noble que ce qui le tue, puisqu’il sait qu’il meurt, et l’avantage que l’univers a sur lui ; l’univers n’en sait rien. Toute notre dignité consiste donc en la pensée.",
+  "highlight": "Toute notre dignité consiste donc en la pensée."
+ }
+}

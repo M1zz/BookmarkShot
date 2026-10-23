@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Divina Commedia",
+   "author": "Dante Alighieri"
+  },
+  {
+   "title": "Le avventure di Pinocchio",
+   "author": "Carlo Collodi"
+  },
+  {
+   "title": "Canti",
+   "author": "Giacomo Leopardi"
+  },
+  {
+   "title": "I promessi sposi",
+   "author": "Alessandro Manzoni"
+  },
+  {
+   "title": "Canzoniere",
+   "author": "Francesco Petrarca"
+  },
+  {
+   "title": "Alcyone",
+   "author": "Gabriele D’Annunzio"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Nel mezzo del cammin di nostra vita mi ritrovai per una selva oscura, ché la diritta via era smarrita.",
+   "page": 3,
+   "fav": true,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "C’era una volta un pezzo di legno.",
+   "page": 7,
+   "fav": false,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Così tra questa immensità s’annega il pensier mio: e il naufragar m’è dolce in questo mare.",
+   "page": 42,
+   "fav": true,
+   "days_ago": 22,
+   "note": "Letta ad alta voce sul lago."
+  },
+  {
+   "book": 3,
+   "text": "Quel ramo del lago di Como, che volge a mezzogiorno, tra due catene non interrotte di monti…",
+   "page": 9,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Erano i capei d’oro a l’aura sparsi che ’n mille dolci nodi gli avolgea.",
+   "page": 118,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Taci. Su le soglie del bosco non odo parole che dici umane; ma odo parole più nuove che parlano gocciole e foglie lontane.",
+   "page": 61,
+   "fav": true,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Fatti non foste a viver come bruti, ma per seguir virtute e canoscenza.",
+   "page": 214,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 2,
+ "page": {
+  "book": 2,
+  "page": 42,
+  "running_head": "CANTI",
+  "text": "E come il vento odo stormir tra queste piante, io quello infinito silenzio a questa voce vo comparando: e mi sovvien l’eterno, e le morte stagioni, e la presente e viva, e il suon di lei. Così tra questa immensità s’annega il pensier mio: e il naufragar m’è dolce in questo mare.",
+  "highlight": "Così tra questa immensità s’annega il pensier mio: e il naufragar m’è dolce in questo mare."
+ }
+}

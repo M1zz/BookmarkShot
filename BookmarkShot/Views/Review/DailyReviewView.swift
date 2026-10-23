@@ -37,6 +37,16 @@ struct DailyReviewView: View {
             }
             .navigationTitle("오늘의 문장")
         }
+        .onAppear(perform: pickScreenshotQuote)
+    }
+
+    /// 스크린샷 데모(DEBUG): 정해 둔 문장이 오늘의 문장으로 나오게 한다.
+    private func pickScreenshotQuote() {
+        guard let target = ScreenshotMode.dailyQuoteText, !quotes.isEmpty else { return }
+        let sorted = quotes.sorted { $0.createdAt < $1.createdAt }
+        guard let index = sorted.firstIndex(where: { $0.text == target }) else { return }
+        let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
+        shuffleOffset = ((index - day) % sorted.count + sorted.count) % sorted.count
     }
 
     private func reviewCard(for quote: Quote) -> some View {

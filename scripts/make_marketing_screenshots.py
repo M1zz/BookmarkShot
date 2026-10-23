@@ -256,7 +256,7 @@ def chrome_shot(html, png, tmp):
        그래서 끝나기를 기다리지 않고, 파일이 생겨 크기가 멈추면 프로세스를 닫는다.
     """
     png.unlink(missing_ok=True)
-    proc = subprocess.Popen([CHROME, "--headless=new", f"--user-data-dir={tmp}/chrome", "--no-first-run",
+    proc = subprocess.Popen(["nice", "-n", "19", CHROME, "--headless=new", f"--user-data-dir={tmp}/chrome", "--no-first-run",
                              "--disable-component-update", "--no-default-browser-check", "--disable-extensions",
                              f"--screenshot={png}", f"--window-size={W},{H}", "--force-device-scale-factor=1",
                              "--hide-scrollbars", "--allow-file-access-from-files", html.as_uri()],
@@ -298,6 +298,7 @@ def render(lang):
             if not any(chrome_shot(html, png, tmp) for _ in range(3)):
                 raise SystemExit(f"그리지 못했다: {png}")
             print("rendered", png.relative_to(ROOT))
+            time.sleep(2)   # 함께 쓰는 맥이라 Chrome 을 연달아 띄우지 않는다
 
 
 if __name__ == "__main__":

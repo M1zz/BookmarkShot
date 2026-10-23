@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Eventyr",
+   "author": "H.C. Andersen"
+  },
+  {
+   "title": "Jeppe på Bjerget",
+   "author": "Ludvig Holberg"
+  },
+  {
+   "title": "Dagbøger",
+   "author": "Søren Kierkegaard"
+  },
+  {
+   "title": "Digte",
+   "author": "Adam Oehlenschläger"
+  },
+  {
+   "title": "Sangværk",
+   "author": "N.F.S. Grundtvig"
+  },
+  {
+   "title": "Morgensange for Børn",
+   "author": "B.S. Ingemann"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Rundt om ager og eng var der store skove, og midt i skovene dybe søer; jo, der var rigtignok dejligt derude på landet!",
+   "page": 112,
+   "fav": true,
+   "days_ago": 18,
+   "note": "Sommeren hos mormor på Fyn."
+  },
+  {
+   "book": 2,
+   "text": "Det er ganske sandt, hvad filosofien siger, at livet må forstås baglæns. Men derover glemmer man den anden sætning, at det må leves forlæns.",
+   "page": 47,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Folk siger nok, at Jeppe drikker, men de siger ikke, hvorfor Jeppe drikker.",
+   "page": 23,
+   "fav": true,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Det gør ikke noget at være født i andegården, når man kun har ligget i et svaneæg!",
+   "page": 121,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Der er et yndigt land, det står med brede bøge nær salten østerstrand.",
+   "page": 58,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Et jævnt og muntert, virksomt liv på jord, som det, jeg ville ej med kongers bytte.",
+   "page": 76,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "I østen stiger solen op, den spreder guld på sky.",
+   "page": 9,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 0,
+ "page": {
+  "book": 0,
+  "page": 112,
+  "running_head": "Eventyr",
+  "text": "Der var så dejligt ude på landet; det var sommer, kornet stod gult, havren grøn, høet var rejst i stakke nede i de grønne enge, og der gik storken på sine lange, røde ben og snakkede ægyptisk, for det sprog havde han lært af sin moder. Rundt om ager og eng var der store skove, og midt i skovene dybe søer; jo, der var rigtignok dejligt derude på landet!",
+  "highlight": "Rundt om ager og eng var der store skove, og midt i skovene dybe søer; jo, der var rigtignok dejligt derude på landet!"
+ }
+}

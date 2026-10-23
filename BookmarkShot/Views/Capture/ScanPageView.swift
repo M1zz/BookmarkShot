@@ -92,6 +92,18 @@ struct ScanPageView: View {
                 Text(errorMessage ?? "")
             }
         }
+        .task { await startScreenshotScene() }
+    }
+
+    /// 스크린샷 데모(DEBUG): 페이지 사진을 고른 것처럼 영역 선택으로, highlight 장면이면 구문 추출까지 진행한다.
+    private func startScreenshotScene() async {
+        guard ScreenshotMode.opensScanPage, let photo = ScreenshotMode.pagePhoto else { return }
+        rawImage = photo
+        corners = await DocumentFlattener.detectCorners(photo) ?? .defaultInset
+        step = .selectRegion
+        if ScreenshotMode.scene == .highlight {
+            extractFromRegion()
+        }
     }
 
     // MARK: - Steps
@@ -155,7 +167,8 @@ struct ScanPageView: View {
                         .transition(.opacity)
                 }
 
-                HighlightSelectionView(image: pageImage, ocr: ocrResult) { text in
+                HighlightSelectionView(image: pageImage, ocr: ocrResult,
+                                       preselectedText: ScreenshotMode.highlightText) { text in
                     extractedText = text
                 }
                 .frame(maxHeight: .infinity)

@@ -1,0 +1,90 @@
+{
+ "books": [
+  {
+   "title": "Kürk Mantolu Madonna",
+   "author": "Sabahattin Ali"
+  },
+  {
+   "title": "Göl Saatleri",
+   "author": "Ahmet Haşim"
+  },
+  {
+   "title": "Yunus Emre Divanı",
+   "author": "Yunus Emre"
+  },
+  {
+   "title": "Dede Korkut Kitabı",
+   "author": "Dede Korkut"
+  },
+  {
+   "title": "Terkib-i Bend",
+   "author": "Ziya Paşa"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 1,
+   "text": "Ağır ağır çıkacaksın bu merdivenlerden, Eteklerinde güneş rengi bir yığın yaprak,",
+   "page": 17,
+   "fav": true,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Gelin tanış olalım, işi kolay kılalım, Sevelim sevilelim, bu dünya kimseye kalmaz.",
+   "page": 63,
+   "fav": true,
+   "days_ago": 19,
+   "note": "Bugün herkese biraz daha sabırlı ol"
+  },
+  {
+   "book": 0,
+   "text": "Ne diye her şeyi illa birbirimize söyleyelim? Konuşmadan anlaşmak daha güzel değil mi?",
+   "page": 124,
+   "fav": false,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Âyinesi iştir kişinin lâfa bakılmaz, Şahsın görünür rütbe-i aklı eserinde.",
+   "page": 12,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Gelimli gidimli dünya, son ucu ölümlü dünya.",
+   "page": 88,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Aşkın aldı benden beni, Bana seni gerek seni.",
+   "page": 41,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Sular sarardı... yüzün perde perde solmakta, Kızıl havâları seyret ki akşam olmakta...",
+   "page": 17,
+   "fav": true,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 1,
+ "page": {
+  "book": 1,
+  "page": 17,
+  "running_head": "Göl Saatleri",
+  "text": "Ağır ağır çıkacaksın bu merdivenlerden, Eteklerinde güneş rengi bir yığın yaprak, Ve bir zaman bakacaksın semâya ağlayarak... Eğilmiş arza, kanar, muttasıl kanar güller; Durur alev gibi dallarda kanlı bülbüller, Sular mı yandı? Neden tunca benziyor mermer? Bu bir lisân-ı hafîdir ki ruha dolmakta, Sular sarardı... yüzün perde perde solmakta, Kızıl havâları seyret ki akşam olmakta...",
+  "highlight": "Sular sarardı... yüzün perde perde solmakta, Kızıl havâları seyret ki akşam olmakta..."
+ }
+}

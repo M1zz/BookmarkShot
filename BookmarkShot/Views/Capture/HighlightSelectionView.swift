@@ -12,6 +12,8 @@ import SwiftUI
 struct HighlightSelectionView: View {
     let image: UIImage
     let ocr: OCRResult
+    /// 처음부터 골라 둘 문장 (스크린샷 데모용). 인식된 글에서 이 문장에 해당하는 단어들을 고른다.
+    var preselectedText: String? = nil
     /// 선택된 텍스트가 바뀔 때마다 호출
     let onSelectionChange: (String) -> Void
 
@@ -78,6 +80,53 @@ struct HighlightSelectionView: View {
 
             toolbar
         }
+        .onAppear(perform: applyPreselection)
+    }
+
+    /// preselectedText 에 해당하는 단어를 고른다 (글자만 비교 — 띄어쓰기 · 문장부호 · 대소문자 무시).
+    private func applyPreselection() {
+        guard let target = preselectedText, selectedWordIDs.isEmpty else { return }
+        func letters(_ text: String) -> String {
+            String(text.folding(options: [.diacriticInsensitive, .caseInsensitive, .widthInsensitive], locale: nil).unicodeScalars.filter { CharacterSet.letters.union(.decimalDigits).contains($0) }.map(Character.init))
+        }
+        let words = ocr.allWords
+        var joined = ""
+        var ranges: [Range<Int>] = []
+        for word in words {
+            let part = letters(word.text)
+            ranges.append(joined.count..<(joined.count + part.count))
+            joined += part
+        }
+        let goal = letters(target)
+        guard goal.count >= 4 else { return }
+        // 통째로 찾고, 안 되면 처음 · 끝 몇 글자로 찾는다 (인식이 한두 글자 틀려도 고를 수 있게).
+        // 같은 말이 여러 번 나오면 길이가 문장과 가장 비슷한 짝을 고른다.
+        func offsets(of needle: String) -> [Int] {
+            var result: [Int] = []
+            var searchRange = joined.startIndex..<joined.endIndex
+            while let found = joined.range(of: needle, range: searchRange) {
+                result.append(joined.distance(from: joined.startIndex, to: found.lowerBound))
+                searchRange = joined.index(after: found.lowerBound)..<joined.endIndex
+            }
+            return result
+        }
+        var from = 0, to = 0
+        if let exact = offsets(of: goal).first {
+            from = exact
+            to = exact + goal.count
+        } else {
+            var found: (Int, Int)?
+            for probe in [12, 8, 5] where probe <= goal.count && found == nil {
+                let starts = offsets(of: String(goal.prefix(probe)))
+                let ends = offsets(of: String(goal.suffix(probe))).map { $0 + probe }
+                let pairs = starts.flatMap { s in ends.filter { $0 > s }.map { (s, $0) } }
+                found = pairs.min(by: { abs($0.1 - $0.0 - goal.count) < abs($1.1 - $1.0 - goal.count) })
+            }
+            guard let found else { return }
+            (from, to) = found
+        }
+        selectedWordIDs = Set(zip(words, ranges).filter { $0.1.lowerBound < to && $0.1.upperBound > from }.map(\.0.id))
+        notifySelection()
     }
 
     // MARK: - 제스처
@@ -222,7 +271,33 @@ struct HighlightSelectionView: View {
                 parts.append(selectedInLine.joined(separator: " "))
             }
         }
-        onSelectionChange(parts.joined(separator: " "))
+        onSelectionChange(Self.join(parts))
+    }
+
+    /// 줄을 이어 붙인다. 띄어쓰기가 없는 글(중국어 · 일본어 · 태국어)은 줄 사이에 빈칸을 넣지 않는다.
+    static func join(_ parts: [String]) -> String {
+        var result = ""
+        for part in parts {
+            if let last = result.last, let first = part.first,
+               !(isUnspacedScript(last) && isUnspacedScript(first)) {
+                result.append(" ")
+            }
+            result += part
+        }
+        return result
+    }
+
+    private static func isUnspacedScript(_ character: Character) -> Bool {
+        guard let scalar = character.unicodeScalars.first else { return false }
+        switch scalar.value {
+        case 0x3000...0x30FF,   // 일본어 가나 · 구두점
+             0x3400...0x4DBF, 0x4E00...0x9FFF, 0xF900...0xFAFF,   // 한자
+             0xFF00...0xFFEF,   // 전각 구두점
+             0x0E00...0x0E7F:   // 태국 문자
+            return true
+        default:
+            return false
+        }
     }
 
     // MARK: - 좌표 변환

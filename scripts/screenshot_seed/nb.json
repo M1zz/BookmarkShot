@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Friheten",
+   "author": "Nordahl Grieg"
+  },
+  {
+   "title": "Vildanden",
+   "author": "Henrik Ibsen"
+  },
+  {
+   "title": "Digte og Sange",
+   "author": "Bjørnstjerne Bjørnson"
+  },
+  {
+   "title": "Digte",
+   "author": "Sigbjørn Obstfelder"
+  },
+  {
+   "title": "Peer Gynt",
+   "author": "Henrik Ibsen"
+  },
+  {
+   "title": "Ferdaminni",
+   "author": "Aasmund Olavsson Vinje"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "For all vår fremtids skyld, søk det og dyrk det, dø om du må – men: øk det og styrk det!",
+   "page": 42,
+   "fav": true,
+   "days_ago": 18,
+   "note": "Leste den høyt 17. mai."
+  },
+  {
+   "book": 1,
+   "text": "Tar De livsløgnen fra et gjennomsnittsmenneske, så tar De lykken fra ham med det samme.",
+   "page": 118,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Ja, vi elsker dette landet, som det stiger frem, furet, værbitt over vannet, med de tusen hjem.",
+   "page": 15,
+   "fav": false,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Kringsatt av fiender, gå inn i din tid!",
+   "page": 42,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Jeg er vist kommet på en feil klode! Her er så underligt …",
+   "page": 9,
+   "fav": true,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Gå utenom, sa Bøygen.",
+   "page": 67,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "No ser eg atter slike fjøll og dalar, som deim eg i mi fyrste ungdom såg",
+   "page": 31,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 0,
+ "page": {
+  "book": 0,
+  "page": 42,
+  "running_head": "Friheten",
+  "text": "Kringsatt av fiender, gå inn i din tid! Under en blodig storm – vies du til strid. Kanskje du spør i angst, udekket, åpen: hva skal jeg kjempe med, hva er mitt våpen? Her er ditt vern mot vold, her er ditt sverd: troen på livet vårt, menneskets verd. For all vår fremtids skyld, søk det og dyrk det, dø om du må – men: øk det og styrk det!",
+  "highlight": "For all vår fremtids skyld, søk det og dyrk det, dø om du må – men: øk det og styrk det!"
+ }
+}

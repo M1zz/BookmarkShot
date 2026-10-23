@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Max Havelaar",
+   "author": "Multatuli"
+  },
+  {
+   "title": "Mei",
+   "author": "Herman Gorter"
+  },
+  {
+   "title": "Verzen",
+   "author": "Willem Kloos"
+  },
+  {
+   "title": "De kleine Johannes",
+   "author": "Frederik van Eeden"
+  },
+  {
+   "title": "Paradise Regained",
+   "author": "H. Marsman"
+  },
+  {
+   "title": "Gijsbrecht van Aemstel",
+   "author": "Joost van den Vondel"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van, iets dergelijks te lezen, omdat ik een man van zaken ben.",
+   "page": 7,
+   "fav": true,
+   "days_ago": 18,
+   "note": "Zo droog, en toch zo grappig."
+  },
+  {
+   "book": 1,
+   "text": "Een nieuwe lente en een nieuw geluid: ik wil dat dit lied klinkt als het gefluit, dat ik vaak hoorde voor een zomernacht in een oud stadje, langs de watergracht.",
+   "page": 9,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Denkend aan Holland zie ik brede rivieren traag door oneindig laagland gaan",
+   "page": 23,
+   "fav": false,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Ik ben een God in ’t diepst van mijn gedachten",
+   "page": 41,
+   "fav": true,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Ik zal u wat vertellen van den kleinen Johannes.",
+   "page": 5,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Ik ben makelaar in koffie, en woon op de Lauriergracht, No. 37.",
+   "page": 6,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Waar werd oprechter trouw dan tussen man en vrouw ter wereld ooit gevonden?",
+   "page": 64,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 0,
+ "page": {
+  "book": 0,
+  "page": 7,
+  "running_head": "Max Havelaar",
+  "text": "en het werk aan te vangen, dat gij, lieve lezer, zo-even in de hand hebt genomen, en dat ge lezen moet als ge makelaar in koffie zijt, of als ge wat anders zijt. Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van, iets dergelijks te lezen, omdat ik een man van zaken ben.",
+  "highlight": "Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van, iets dergelijks te lezen, omdat ik een man van zaken ben."
+ }
+}

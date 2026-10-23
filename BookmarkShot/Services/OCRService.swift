@@ -2,7 +2,7 @@
 //  OCRService.swift
 //  밑줄
 //
-//  Vision 프레임워크 기반 온디바이스 OCR (한국어 + 영어).
+//  Vision 프레임워크 기반 온디바이스 OCR (기기 언어 + 한국어 + 영어).
 //  모든 좌표는 "정규화(0~1) + 좌상단 원점" 기준으로 변환해 SwiftUI에서 바로 쓰기 좋게 만든다.
 //
 
@@ -46,7 +46,7 @@ enum OCRService {
 
     // MARK: - 텍스트 인식
 
-    /// 이미지에서 한국어/영어 텍스트를 줄 + 단어 단위로 인식
+    /// 이미지에서 텍스트를 줄 + 단어 단위로 인식
     static func recognizeText(in image: UIImage) async throws -> OCRResult {
         guard let cgImage = image.cgImage else { throw OCRError.invalidImage }
         let orientation = cgOrientation(from: image.imageOrientation)
@@ -55,12 +55,20 @@ enum OCRService {
             DispatchQueue.global(qos: .userInitiated).async {
                 let request = VNRecognizeTextRequest()
                 request.recognitionLevel = .accurate
-                request.recognitionLanguages = ["ko-KR", "en-US"]
+                request.recognitionLanguages = Self.recognitionLanguages(for: request)
+                request.automaticallyDetectsLanguage = true
                 request.usesLanguageCorrection = true
 
                 let handler = VNImageRequestHandler(cgImage: cgImage, orientation: orientation)
                 do {
-                    try handler.perform([request])
+                    do {
+                        try handler.perform([request])
+                    } catch {
+                        // 언어 조합을 받아 주지 않는 iOS 버전이면 기기 언어 하나 + 영어로 다시 읽는다
+                        let first = request.recognitionLanguages.first ?? "en-US"
+                        request.recognitionLanguages = first == "en-US" ? ["en-US"] : [first, "en-US"]
+                        try handler.perform([request])
+                    }
                     let observations = request.results ?? []
                     continuation.resume(returning: OCRResult(lines: Self.makeLines(from: observations)))
                 } catch {
@@ -68,6 +76,35 @@ enum OCRService {
                 }
             }
         }
+    }
+
+    /// 인식 언어: 기기에서 쓰는 언어를 앞에 두고(그 나라 책을 먼저 알아보게) 한국어 · 영어를 뒤에 붙인다.
+    /// Vision 이 지원하지 않는 언어(예: 그리스어)는 빼고, 지원 목록을 못 얻으면 한국어 · 영어로 둔다.
+    private static func recognitionLanguages(for request: VNRecognizeTextRequest) -> [String] {
+        let supported = (try? request.supportedRecognitionLanguages()) ?? ["ko-KR", "en-US"]
+        var result: [String] = []
+        func add(_ code: String) {
+            if supported.contains(code), !result.contains(code) { result.append(code) }
+        }
+        for preferred in Locale.preferredLanguages {
+            let locale = Locale(identifier: preferred)
+            let language = locale.language.languageCode?.identifier ?? ""
+            let script = locale.language.script?.identifier
+            // 정확히 같은 코드 → 같은 언어 · 문자 → 같은 언어 순으로 고른다 (zh-Hant-TW → zh-Hant, pt-PT → pt-BR, nb → nb-NO)
+            if let exact = supported.first(where: { $0.caseInsensitiveCompare(preferred) == .orderedSame }) {
+                add(exact)
+                continue
+            }
+            let candidates = supported.filter { Locale(identifier: $0).language.languageCode?.identifier == language }
+            if let script, let match = candidates.first(where: { Locale(identifier: $0).language.script?.identifier == script || $0.hasSuffix(script) }) {
+                add(match)
+            } else if let first = candidates.first {
+                add(first)
+            }
+        }
+        add("ko-KR")
+        add("en-US")
+        return result.isEmpty ? ["ko-KR", "en-US"] : result
     }
 
     /// 관측 결과 → 줄/단어 구조로 변환 (읽기 순서 정렬 포함)

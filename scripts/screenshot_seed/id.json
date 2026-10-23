@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Deru Campur Debu",
+   "author": "Chairil Anwar"
+  },
+  {
+   "title": "Nyanyi Sunyi",
+   "author": "Amir Hamzah"
+  },
+  {
+   "title": "Gurindam Dua Belas",
+   "author": "Raja Ali Haji"
+  },
+  {
+   "title": "Hikayat Hang Tuah",
+   "author": "Anonim"
+  },
+  {
+   "title": "Pantun Melayu",
+   "author": "Anonim"
+  },
+  {
+   "title": "Kerikil Tajam",
+   "author": "Chairil Anwar"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 1,
+   "text": "Habis kikis / Segala cintaku hilang terbang / Pulang kembali aku padamu / Seperti dahulu",
+   "page": 5,
+   "fav": false,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Jika hendak mengenal orang berbangsa, lihat kepada budi dan bahasa.",
+   "page": 9,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Berakit-rakit ke hulu, berenang-renang ke tepian. Bersakit-sakit dahulu, bersenang-senang kemudian.",
+   "page": 12,
+   "fav": true,
+   "days_ago": 22,
+   "note": "Kata Ibu tiap aku malas belajar."
+  },
+  {
+   "book": 3,
+   "text": "Takkan Melayu hilang di dunia.",
+   "page": 214,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Hidup hanya menunda kekalahan / Tambah terasing dari cinta sekolah rendah",
+   "page": 38,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Sekali berarti / Sudah itu mati",
+   "page": 21,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Luka dan bisa kubawa berlari Berlari Hingga hilang pedih peri Dan aku akan lebih tidak perduli Aku mau hidup seribu tahun lagi",
+   "page": 7,
+   "fav": true,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 2,
+ "page": {
+  "book": 0,
+  "page": 7,
+  "running_head": "DERU CAMPUR DEBU",
+  "text": "Kalau sampai waktuku 'Ku mau tak seorang 'kan merayu Tidak juga kau Tak perlu sedu sedan itu Aku ini binatang jalang Dari kumpulannya terbuang Biar peluru menembus kulitku Aku tetap meradang menerjang Luka dan bisa kubawa berlari Berlari Hingga hilang pedih peri Dan aku akan lebih tidak perduli Aku mau hidup seribu tahun lagi",
+  "highlight": "Luka dan bisa kubawa berlari Berlari Hingga hilang pedih peri Dan aku akan lebih tidak perduli Aku mau hidup seribu tahun lagi"
+ }
+}

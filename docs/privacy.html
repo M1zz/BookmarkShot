@@ -6,7 +6,30 @@
 <title>밑줄 개인정보 처리방침</title>
 <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/privacy.html">
 <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/privacy.html">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/privacy.html">
+<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/privacy.html">
+<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/privacy.html">
+<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/privacy.html">
+<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/privacy.html">
+<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/privacy.html">
+<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/privacy.html">
+<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/privacy.html">
+<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/privacy.html">
+<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/privacy.html">
+<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/privacy.html">
+<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/privacy.html">
+<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/privacy.html">
+<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/privacy.html">
+<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/privacy.html">
+<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/privacy.html">
+<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/privacy.html">
+<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/privacy.html">
+<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/privacy.html">
+<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/privacy.html">
+<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/privacy.html">
+<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/privacy.html">
+<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/privacy.html">
+<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/privacy.html">
+<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/privacy.html">
 <style>
   :root { color-scheme: light dark; }
   body {
@@ -17,13 +40,24 @@
   @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
   h1 { font-size: 1.7rem; margin-bottom: 4px; }
   h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .updated { color: #8a8a8e; font-size: 0.9rem; margin-bottom: 2rem; }
+  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
   a { color: #d97706; }
   ul { padding-left: 1.2rem; }
-  code { background: #8882; padding: 1px 5px; border-radius: 4px; font-size: 0.9em; }
+  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
+  summary { font-weight: 600; cursor: pointer; }
+  details p { margin: 10px 0 0; }
+  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
   footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
   nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
   nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
+  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
+  nav.langs a { margin-right: 10px; white-space: nowrap; }
+  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
+  .lead { font-size: 1.1rem; }
+  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
+  .card h3 { margin: 0 0 4px; font-size: 1rem; }
+  .card p { margin: 0; }
+  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
 </style>
 </head>
 <body>
@@ -33,63 +67,27 @@
   <a href="privacy.html" aria-current="page">개인정보 처리방침</a>
 </nav>
 <h1>밑줄 개인정보 처리방침</h1>
-<p class="updated">최종 업데이트: 2026년 10월 16일</p>
+<p class="updated">최종 업데이트: 2026년 10월 23일</p>
 
-<p>
-  밑줄("본 앱", 이전 이름 책갈피샷)은 이용자의 개인정보를 소중히 여기며, 최소한의 정보만을 <strong>이용자의 기기와 이용자 본인의 iCloud 계정 안에서만</strong> 처리합니다.
-  본 앱은 별도의 서버를 운영하지 않으며, 이용자의 책과 문장을 개발자나 제3자에게 전송하지 않습니다.
-  개발자에게 전달되는 것은 개인을 알아볼 수 없는 익명 사용 통계(5항)와 이용자가 직접 보낸 피드백(6항)뿐입니다.
-</p>
+<p>밑줄("본 앱", 이전 이름 책갈피샷)은 이용자의 개인정보를 소중히 여기며, 최소한의 정보만을 <strong>이용자의 기기와 이용자 본인의 iCloud 계정 안에서만</strong> 처리합니다. 본 앱은 별도의 서버를 운영하지 않으며, 이용자의 책과 문장을 개발자나 제3자에게 전송하지 않습니다. 개발자에게 전달되는 것은 개인을 알아볼 수 없는 익명 사용 통계(5항)와 이용자가 직접 보낸 피드백(6항)뿐입니다.</p>
 
 <h2>1. 수집하지 않는 정보</h2>
-<p>본 앱은 다음을 <strong>수집하지 않습니다</strong>:</p>
-<ul>
-  <li>이름, 이메일, 전화번호 등 계정·연락처 정보</li>
-  <li>위치 정보</li>
-  <li>광고 식별자, 추적(Tracking) 데이터</li>
-</ul>
+<p>본 앱은 다음을 <strong>수집하지 않습니다</strong>:</p><ul><li>이름, 이메일, 전화번호 등 계정·연락처 정보</li><li>위치 정보</li><li>광고 식별자, 추적(Tracking) 데이터</li></ul>
 
 <h2>2. 기기 내에서 처리되는 정보</h2>
-<p>본 앱의 기능을 위해 아래 데이터가 <strong>이용자 기기 내부에서만</strong> 생성·저장됩니다:</p>
-<ul>
-  <li><strong>카메라 / 사진</strong> — 책 표지와 페이지를 촬영·선택해 문장을 추출하는 데 사용됩니다. 촬영·선택한 이미지는 기기(및 이용자 본인의 iCloud)에만 저장되며 외부로 전송되지 않습니다.</li>
-  <li><strong>문자 인식(OCR)</strong> — 텍스트 추출은 Apple의 Vision 프레임워크를 통해 <strong>100% 온디바이스</strong>로 수행됩니다. 네트워크 연결이 필요 없으며, 사진이나 인식된 텍스트가 서버로 전송되지 않습니다.</li>
-  <li><strong>스크랩한 문장·책 정보·메모</strong> — 이용자가 저장한 문장, 책 제목/저자, 페이지 번호, 메모, 즐겨찾기 등은 기기 내 데이터베이스(SwiftData)에 저장됩니다.</li>
-</ul>
+<p>본 앱의 기능을 위해 아래 데이터가 <strong>이용자 기기 내부에서만</strong> 생성·저장됩니다:</p><ul><li><strong>카메라 / 사진</strong> — 책 표지와 페이지를 촬영·선택해 문장을 추출하는 데 사용됩니다. 촬영·선택한 이미지는 기기(및 이용자 본인의 iCloud)에만 저장되며 외부로 전송되지 않습니다.</li><li><strong>문자 인식(OCR)</strong> — 텍스트 추출은 Apple의 Vision 프레임워크를 통해 <strong>100% 온디바이스</strong>로 수행됩니다. 네트워크 연결이 필요 없으며, 사진이나 인식된 텍스트가 서버로 전송되지 않습니다.</li><li><strong>스크랩한 문장·책 정보·메모</strong> — 이용자가 저장한 문장, 책 제목/저자, 페이지 번호, 메모, 즐겨찾기 등은 기기 내 데이터베이스(SwiftData)에 저장됩니다.</li></ul>
 
 <h2>3. iCloud 동기화</h2>
-<p>
-  이용자가 기기에서 iCloud에 로그인되어 있는 경우, 저장한 책·문장 데이터는 Apple의 <strong>CloudKit</strong>을 통해
-  이용자 <strong>본인의 iCloud 계정</strong>에 동기화되어 여러 기기에서 함께 볼 수 있습니다.
-  이 데이터는 이용자의 iCloud 안에만 있으며, 개발자는 여기에 접근할 수 없습니다.
-  iCloud 데이터의 처리는 <a href="https://www.apple.com/legal/privacy/">Apple 개인정보 처리방침</a>을 따릅니다.
-  iCloud를 사용하지 않으면 데이터는 해당 기기에만 로컬로 저장됩니다.
-</p>
+<p>이용자가 기기에서 iCloud에 로그인되어 있는 경우, 저장한 책·문장 데이터는 Apple의 <strong>CloudKit</strong>을 통해 이용자 <strong>본인의 iCloud 계정</strong>에 동기화되어 여러 기기에서 함께 볼 수 있습니다. 이 데이터는 이용자의 iCloud 안에만 있으며, 개발자는 여기에 접근할 수 없습니다. iCloud 데이터의 처리는 <a href="https://www.apple.com/legal/privacy/">Apple 개인정보 처리방침</a>을 따릅니다. iCloud를 사용하지 않으면 데이터는 해당 기기에만 로컬로 저장됩니다.</p>
 
 <h2>4. 데이터 보관 및 삭제</h2>
-<p>
-  모든 데이터는 이용자가 직접 관리합니다. 앱 내에서 개별 문장·책을 삭제할 수 있으며,
-  앱을 삭제하면 기기에 저장된 데이터가 함께 제거됩니다. iCloud에 동기화된 데이터는
-  기기의 iCloud 설정에서 관리·삭제할 수 있습니다.
-</p>
+<p>모든 데이터는 이용자가 직접 관리합니다. 앱 내에서 개별 문장·책을 삭제할 수 있으며, 앱을 삭제하면 기기에 저장된 데이터가 함께 제거됩니다. iCloud에 동기화된 데이터는 기기의 iCloud 설정에서 관리·삭제할 수 있습니다.</p>
 
 <h2>5. 익명 사용 통계</h2>
-<p>앱을 몇 명이 쓰는지 알고 오류를 고치기 위해, 본 앱은 아래 익명 통계를 Apple의 iCloud(CloudKit)로 보냅니다. 개발자만 확인합니다.</p>
-<ul>
-  <li>설치할 때 만든 무작위 ID (이용자·Apple ID·기기·다른 앱과 연결되지 않으며, 다시 설치하면 바뀝니다)</li>
-  <li>앱 버전, iOS 버전, 지역·언어 설정</li>
-  <li>앱을 연 횟수와 앱을 연 날, 설치한 날짜와 설치 후 지난 날수</li>
-  <li>앱이 멈추거나 강제로 종료됐을 때의 오류 보고 (앱 버전, iOS 버전, 기기 종류, 오류의 기술 정보)</li>
-</ul>
-<p>이름, 연락처, 위치, 사진, 저장한 책·문장·메모는 포함하지 않습니다. iCloud에 로그인되어 있을 때만 보냅니다.</p>
+<p>앱을 몇 명이 쓰는지 알고 오류를 고치기 위해, 본 앱은 아래 익명 통계를 Apple의 iCloud(CloudKit)로 보냅니다. 개발자만 확인합니다.</p><ul><li>설치할 때 만든 무작위 ID (이용자·Apple ID·기기·다른 앱과 연결되지 않으며, 다시 설치하면 바뀝니다)</li><li>앱 버전, iOS 버전, 지역·언어 설정</li><li>앱을 연 횟수와 앱을 연 날, 설치한 날짜와 설치 후 지난 날수</li><li>앱이 멈추거나 강제로 종료됐을 때의 오류 보고 (앱 버전, iOS 버전, 기기 종류, 오류의 기술 정보)</li></ul><p>이름, 연락처, 위치, 사진, 저장한 책·문장·메모는 포함하지 않습니다. iCloud에 로그인되어 있을 때만 보냅니다.</p>
 
 <h2>6. 피드백 보내기</h2>
-<p>
-  앱의 설정(톱니바퀴) 화면에서 이용자가 직접 피드백을 보내면, 작성한 내용과 피드백 종류, 선택해서 적은 이름·회신용 이메일,
-  첨부한 스크린샷, 그리고 문제 확인을 위한 앱 버전·기기 종류·OS 버전·언어 설정이 Apple의 CloudKit을 통해 개발자에게 전달됩니다.
-  보내기를 누르지 않으면 아무것도 전송되지 않으며, 받은 피드백은 답변과 앱 개선에만 사용합니다.
-  보낸 피드백의 삭제를 원하시면 아래 이메일로 알려 주세요.
-</p>
+<p>앱의 설정(톱니바퀴) 화면에서 이용자가 직접 피드백을 보내면, 작성한 내용과 피드백 종류, 선택해서 적은 이름·회신용 이메일, 첨부한 스크린샷, 그리고 문제 확인을 위한 앱 버전·기기 종류·OS 버전·언어 설정이 Apple의 CloudKit을 통해 개발자에게 전달됩니다. 보내기를 누르지 않으면 아무것도 전송되지 않으며, 받은 피드백은 답변과 앱 개선에만 사용합니다. 보낸 피드백의 삭제를 원하시면 아래 이메일로 알려 주세요.</p>
 
 <h2>7. 제3자 제공</h2>
 <p>본 앱은 이용자 데이터를 제3자에게 판매·공유·제공하지 않습니다. 외부 광고·분석 SDK를 포함하지 않습니다.</p>
@@ -103,6 +101,33 @@
 <h2>10. 문의</h2>
 <p>개인정보 관련 문의: <a href="mailto:leeo@kakao.com">leeo@kakao.com</a></p>
 
-<footer>© 2026 밑줄 (BookmarkShot) · <a href="./">소개</a> · <a href="support.html">지원</a></footer>
+<footer>© 2026 밑줄 (BookmarkShot) · <a href="./">소개</a> · <a href="support.html">지원</a>
+<nav class="langs" aria-label="언어">
+  <a href="privacy.html" hreflang="ko" lang="ko" aria-current="true">한국어</a>
+  <a href="en/privacy.html" hreflang="en" lang="en">English</a>
+  <a href="en-GB/privacy.html" hreflang="en-GB" lang="en-GB">English (UK)</a>
+  <a href="zh-Hans/privacy.html" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+  <a href="zh-Hant/privacy.html" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+  <a href="ja/privacy.html" hreflang="ja" lang="ja">日本語</a>
+  <a href="ru/privacy.html" hreflang="ru" lang="ru">Русский</a>
+  <a href="es/privacy.html" hreflang="es" lang="es">Español</a>
+  <a href="de/privacy.html" hreflang="de" lang="de">Deutsch</a>
+  <a href="fr/privacy.html" hreflang="fr" lang="fr">Français</a>
+  <a href="it/privacy.html" hreflang="it" lang="it">Italiano</a>
+  <a href="pt-BR/privacy.html" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+  <a href="th/privacy.html" hreflang="th" lang="th">ไทย</a>
+  <a href="vi/privacy.html" hreflang="vi" lang="vi">Tiếng Việt</a>
+  <a href="cs/privacy.html" hreflang="cs" lang="cs">Čeština</a>
+  <a href="da/privacy.html" hreflang="da" lang="da">Dansk</a>
+  <a href="el/privacy.html" hreflang="el" lang="el">Ελληνικά</a>
+  <a href="fi/privacy.html" hreflang="fi" lang="fi">Suomi</a>
+  <a href="id/privacy.html" hreflang="id" lang="id">Bahasa Indonesia</a>
+  <a href="nb/privacy.html" hreflang="nb" lang="nb">Norsk bokmål</a>
+  <a href="nl/privacy.html" hreflang="nl" lang="nl">Nederlands</a>
+  <a href="pl/privacy.html" hreflang="pl" lang="pl">Polski</a>
+  <a href="sv/privacy.html" hreflang="sv" lang="sv">Svenska</a>
+  <a href="tr/privacy.html" hreflang="tr" lang="tr">Türkçe</a>
+</nav>
+</footer>
 </body>
 </html>

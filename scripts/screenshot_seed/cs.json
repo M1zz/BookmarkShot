@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Máj",
+   "author": "Karel Hynek Mácha"
+  },
+  {
+   "title": "Kytice",
+   "author": "Karel Jaromír Erben"
+  },
+  {
+   "title": "Babička",
+   "author": "Božena Němcová"
+  },
+  {
+   "title": "Osudy dobrého vojáka Švejka",
+   "author": "Jaroslav Hašek"
+  },
+  {
+   "title": "Fidlovačka",
+   "author": "Josef Kajetán Tyl"
+  },
+  {
+   "title": "Okno",
+   "author": "Viktor Dyk"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 3,
+   "text": "„Tak nám zabili Ferdinanda,“ řekla posluhovačka k panu Švejkovi.",
+   "page": 9,
+   "fav": false,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Na topole nad jezerem seděl vodník pod večerem.",
+   "page": 61,
+   "fav": false,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Kde domov můj, kde domov můj? Voda hučí po lučinách, bory šumí po skalinách.",
+   "page": 54,
+   "fav": true,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Byl pozdní večer – první máj – večerní máj – byl lásky čas.",
+   "page": 7,
+   "fav": true,
+   "days_ago": 24,
+   "note": "Každý máj si ho přečtu znovu"
+  },
+  {
+   "book": 5,
+   "text": "Opustíš-li mne, nezahynu. Opustíš-li mne, zahyneš!",
+   "page": 23,
+   "fav": true,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Šťastná to žena!",
+   "page": 312,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Jezero hladké v křovích stinných zvučelo temně tajný bol, břeh je objímal kol a kol; a slunce jasná světů jiných bloudila blankytnými pásky, planoucí tam co slzy lásky.",
+   "page": 7,
+   "fav": true,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 3,
+ "page": {
+  "book": 0,
+  "page": 7,
+  "running_head": "Máj",
+  "text": "Byl pozdní večer – první máj – večerní máj – byl lásky čas. Hrdliččin zval ku lásce hlas, kde borový zaváněl háj. O lásce šeptal tichý mech; květoucí strom lhal lásky žel, svou lásku slavík růži pěl, růžinu jevil vonný vzdech. Jezero hladké v křovích stinných zvučelo temně tajný bol, břeh je objímal kol a kol; a slunce jasná světů jiných bloudila blankytnými pásky, planoucí tam co slzy lásky.",
+  "highlight": "Jezero hladké v křovích stinných zvučelo temně tajný bol, břeh je objímal kol a kol; a slunce jasná světů jiných bloudila blankytnými pásky, planoucí tam co slzy lásky."
+ }
+}

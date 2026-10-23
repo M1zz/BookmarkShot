@@ -175,7 +175,7 @@
 				};
 			};
 			buildConfigurationList = AA000001000000000000000B /* Build configuration list for PBXProject "BookmarkShot" */;
-			developmentRegion = ko;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				ko,

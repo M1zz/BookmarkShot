@@ -30,9 +30,9 @@ final class Quote {
         self.createdAt = Date()
     }
 
-    /// "p.123" 형태 표기
+    /// "p.123" 형태 표기 (언어마다 쪽 표기가 다르다: S. 123, с. 123, 第123页 …)
     var pageLabel: String? {
         guard let pageNumber else { return nil }
-        return "p.\(pageNumber)"
+        return String(localized: "p.\(pageNumber)", comment: "Page number label under a quote, e.g. p.12")
     }
 }

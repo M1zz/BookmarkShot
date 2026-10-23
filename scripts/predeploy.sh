@@ -10,6 +10,7 @@
 # ⚠️ CODE_SIGNING_ALLOWED=NO 로 테스트를 빠르게 만들지 말 것.
 #    entitlements 가 빠지면 CloudKit 등 실제 배포 경로에서만 터지는 문제를 놓친다.
 set -e
+export PATH="/opt/homebrew/bin:/usr/local/bin:$PATH"
 ROOT="$(git rev-parse --show-toplevel 2>/dev/null || pwd)"
 cd "$ROOT"
 
@@ -20,7 +21,10 @@ PROJECT="BookmarkShot.xcodeproj"
 # 시뮬레이터는 **가장 최신 iOS 런타임의 iPhone** 으로 고른다.
 # `grep iPhone | head -1` 로 고르면 구버전 런타임 기기가 먼저 잡혀
 # "Unable to find a destination matching..." (exit 70) 로 죽는다.
-DEST_ID="$(xcrun simctl list devices available --json | python3 -c '
+# PREDEPLOY_SIMULATOR_ID 로 기기를 정할 수 있다. 자동으로 고를 때 DeployBar 전용 "iPhone Duo" 는 피한다
+#  (DeployBar 가 그 기기로 따로 시험하므로 겹치면 서로 방해한다).
+DEST_ID="${PREDEPLOY_SIMULATOR_ID:-}"
+[ -n "$DEST_ID" ] || DEST_ID="$(xcrun simctl list devices available --json | python3 -c '
 import json, re, sys
 best = None
 for runtime, devices in json.load(sys.stdin)["devices"].items():
@@ -29,7 +33,7 @@ for runtime, devices in json.load(sys.stdin)["devices"].items():
         continue
     version = (int(m.group(1)), int(m.group(2)))
     for d in devices:
-        if d.get("isAvailable") and "iPhone" in d.get("name", ""):
+        if d.get("isAvailable") and "iPhone" in d.get("name", "") and d.get("name") != "iPhone Duo":
             if best is None or version > best[0]:
                 best = (version, d["udid"])
 print(best[1] if best else "")

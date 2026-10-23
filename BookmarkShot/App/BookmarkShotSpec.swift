@@ -13,12 +13,18 @@ enum BookmarkShotSpec: LeeoAppSpec {
     static let developerEmail = "leeo@kakao.com"
     static let feedback = LeeoFeedbackConfig(containerIdentifier: "iCloud.com.Ysoup.FeedbackHub", appIdentifier: "com.leeo.bookmarkshot")
 
-    /// 법적·지원 링크 — docs/ 의 GitHub Pages (README 에 걸린 주소와 같다).
-    /// 계정을 만들지 않는다.
-    static let legal = LeeoLegalConfig(
-        privacyURL: URL(string: "https://m1zz.github.io/BookmarkShot/privacy.html")!,
-        supportURL: URL(string: "https://m1zz.github.io/BookmarkShot/support.html")!
-    )
+    /// 법적·지원 링크 — docs/ 의 GitHub Pages. 앱이 보이는 언어의 페이지를 연다
+    /// (한국어는 루트, 다른 언어는 docs/<언어>/ — 예: …/BookmarkShot/de/privacy.html). 계정을 만들지 않는다.
+    static var legal: LeeoLegalConfig {
+        LeeoLegalConfig(privacyURL: pageURL("privacy.html"), supportURL: pageURL("support.html"))
+    }
+
+    private static func pageURL(_ page: String) -> URL {
+        let base = "https://m1zz.github.io/BookmarkShot/"
+        let language = Bundle.main.preferredLocalizations.first ?? "en"
+        let folder = language == "ko" ? "" : "\(language)/"
+        return URL(string: base + folder + page) ?? URL(string: base + page)!
+    }
 
     /// 수익모델 — 인앱 결제가 없는 완전 무료 앱.
     static let monetization = LeeoMonetization.free

@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Doktor Glas",
+   "author": "Hjalmar Söderberg"
+  },
+  {
+   "title": "Röda rummet",
+   "author": "August Strindberg"
+  },
+  {
+   "title": "Gösta Berlings saga",
+   "author": "Selma Lagerlöf"
+  },
+  {
+   "title": "Dikter",
+   "author": "Karin Boye"
+  },
+  {
+   "title": "Landet som icke är",
+   "author": "Edith Södergran"
+  },
+  {
+   "title": "Ett drömspel",
+   "author": "August Strindberg"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 3,
+   "text": "Ja visst gör det ont när knoppar brister, ont för det som växer och det som stänger.",
+   "page": 64,
+   "fav": true,
+   "days_ago": 18,
+   "note": "Läste den varje vår i gymnasiet."
+  },
+  {
+   "book": 0,
+   "text": "Man vill bli älskad, i brist därpå beundrad, i brist därpå fruktad, i brist därpå avskydd och föraktad. Man vill ingiva människorna något slags känsla.",
+   "page": 72,
+   "fav": true,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Jag längtar till landet som icke är, ty allting som är, är jag trött att begära.",
+   "page": 11,
+   "fav": true,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Äntligen stod prästen i predikstolen.",
+   "page": 7,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Nog finns det mål och mening i vår färd – men det är vägen, som är mödan värd.",
+   "page": 38,
+   "fav": false,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Det är synd om människorna.",
+   "page": 29,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Det var en afton i början av maj.",
+   "page": 5,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 0,
+ "page": {
+  "book": 3,
+  "page": 64,
+  "running_head": "Dikter",
+  "text": "Ja visst gör det ont när knoppar brister. Varför skulle annars våren tveka? Varför skulle all vår heta längtan bindas i det frusna bitterbleka? Höljet var ju knoppen hela vintern. Vad är det för nytt, som tär och spränger? Ja visst gör det ont när knoppar brister, ont för det som växer och det som stänger.",
+  "highlight": "Ja visst gör det ont när knoppar brister, ont för det som växer och det som stänger."
+ }
+}

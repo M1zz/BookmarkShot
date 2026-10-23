@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Faust",
+   "author": "Johann Wolfgang von Goethe"
+  },
+  {
+   "title": "Briefe an einen jungen Dichter",
+   "author": "Rainer Maria Rilke"
+  },
+  {
+   "title": "Die Verwandlung",
+   "author": "Franz Kafka"
+  },
+  {
+   "title": "Wilhelm Tell",
+   "author": "Friedrich Schiller"
+  },
+  {
+   "title": "Also sprach Zarathustra",
+   "author": "Friedrich Nietzsche"
+  },
+  {
+   "title": "Buch der Lieder",
+   "author": "Heinrich Heine"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "Zwei Seelen wohnen, ach! in meiner Brust, die eine will sich von der andern trennen.",
+   "page": 57,
+   "fav": true,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "Und es handelt sich darum, alles zu leben. Leben Sie jetzt die Fragen.",
+   "page": 23,
+   "fav": true,
+   "days_ago": 19,
+   "note": "Genau das, was ich gerade brauche."
+  },
+  {
+   "book": 2,
+   "text": "Als Gregor Samsa eines Morgens aus unruhigen Träumen erwachte, fand er sich in seinem Bett zu einem ungeheueren Ungeziefer verwandelt.",
+   "page": 5,
+   "fav": false,
+   "days_ago": 22,
+   "note": ""
+  },
+  {
+   "book": 3,
+   "text": "Früh übt sich, was ein Meister werden will.",
+   "page": 112,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "Ich sage euch: man muss noch Chaos in sich haben, um einen tanzenden Stern gebären zu können.",
+   "page": 14,
+   "fav": true,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "Ich weiß nicht, was soll es bedeuten, dass ich so traurig bin.",
+   "page": 143,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 0,
+   "text": "Dass ich erkenne, was die Welt im Innersten zusammenhält.",
+   "page": 21,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 1,
+ "page": {
+  "book": 1,
+  "page": 23,
+  "running_head": "Briefe an einen jungen Dichter",
+  "text": "Sie sind so jung, so vor allem Anfang, und ich möchte Sie, so gut ich es kann, bitten, lieber Herr, Geduld zu haben gegen alles Ungelöste in Ihrem Herzen und zu versuchen, die Fragen selbst liebzuhaben wie verschlossene Stuben und wie Bücher, die in einer sehr fremden Sprache geschrieben sind. Forschen Sie jetzt nicht nach den Antworten, die Ihnen nicht gegeben werden können, weil Sie sie nicht leben könnten. Und es handelt sich darum, alles zu leben. Leben Sie jetzt die Fragen.",
+  "highlight": "Und es handelt sich darum, alles zu leben. Leben Sie jetzt die Fragen."
+ }
+}

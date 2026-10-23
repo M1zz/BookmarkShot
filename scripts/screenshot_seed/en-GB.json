@@ -1,0 +1,94 @@
+{
+ "books": [
+  {
+   "title": "Pride and Prejudice",
+   "author": "Jane Austen"
+  },
+  {
+   "title": "Jane Eyre",
+   "author": "Charlotte Brontë"
+  },
+  {
+   "title": "Wuthering Heights",
+   "author": "Emily Brontë"
+  },
+  {
+   "title": "Great Expectations",
+   "author": "Charles Dickens"
+  },
+  {
+   "title": "The Picture of Dorian Gray",
+   "author": "Oscar Wilde"
+  },
+  {
+   "title": "A Room of One's Own",
+   "author": "Virginia Woolf"
+  }
+ ],
+ "quotes": [
+  {
+   "book": 0,
+   "text": "It is a truth universally acknowledged, that a single man in possession of a good fortune, must be in want of a wife.",
+   "page": 5,
+   "fav": true,
+   "days_ago": 18,
+   "note": ""
+  },
+  {
+   "book": 1,
+   "text": "I am no bird; and no net ensnares me; I am a free human being with an independent will, which I now exert to leave you.",
+   "page": 284,
+   "fav": false,
+   "days_ago": 19,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "Whatever our souls are made of, his and mine are the same.",
+   "page": 80,
+   "fav": true,
+   "days_ago": 22,
+   "note": "Our song, really. Read at the wedding."
+  },
+  {
+   "book": 3,
+   "text": "I have been bent and broken, but—I hope—into a better shape.",
+   "page": 484,
+   "fav": false,
+   "days_ago": 24,
+   "note": ""
+  },
+  {
+   "book": 4,
+   "text": "The only way to get rid of a temptation is to yield to it.",
+   "page": 22,
+   "fav": true,
+   "days_ago": 26,
+   "note": ""
+  },
+  {
+   "book": 5,
+   "text": "A woman must have money and a room of her own if she is to write fiction.",
+   "page": 4,
+   "fav": false,
+   "days_ago": 28,
+   "note": ""
+  },
+  {
+   "book": 2,
+   "text": "My love for Heathcliff resembles the eternal rocks beneath: a source of little visible delight, but necessary. Nelly, I am Heathcliff!",
+   "page": 81,
+   "fav": false,
+   "days_ago": 30,
+   "note": ""
+  }
+ ],
+ "daily_quote": 2,
+ "page": {
+  "book": 2,
+  "page": 81,
+  "running_head": "WUTHERING HEIGHTS",
+  "text": "If all else perished, and he remained, I should still continue to be; and if all else remained, and he were annihilated, the universe would turn to a mighty stranger: I should not seem a part of it. My love for Linton is like the foliage in the woods: time will change it, I'm well aware, as winter changes the trees. My love for Heathcliff resembles the eternal rocks beneath: a source of little visible delight, but necessary. Nelly, I am Heathcliff!",
+  "highlight": "My love for Heathcliff resembles the eternal rocks beneath: a source of little visible delight, but necessary. Nelly, I am Heathcliff!"
+ }
+}
