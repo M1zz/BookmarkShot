@@ -16,6 +16,7 @@ struct BookmarkShotSupportView: View {
                     LeeoSupportSection<BookmarkShotSpec>()
                     // 앞으로 만들 기능 — 원본은 BookmarkShotRoadmap.swift
                     NavigationLink(LeeoRoadmapText.entry) { RoadmapScreen() }
+                    LeeoShareAppLink<BookmarkShotSpec>()
                 } header: {
                     Text("지원")
                 }
