@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: gem de sætninger, du holder af",
+  "description": "Tag et billede af en side, og stryg fingeren hen over en sætning, du kan lide. Kun den sætning gemmes som tekst med bog og sidetal. Alt er gratis.",
+  "hero": {
+    "headline": "Understreg i bogen\nuden en pen",
+    "lead": "Tag et billede af siden, stryg fingeren hen over den sætning, du kan lide, og kun den gemmes som tekst. Bog og sidetal kommer med.",
+    "cta": "Hent gratis i App Store",
+    "note": "Alle funktioner er gratis, uden reklamer."
+  },
+  "demo": {
+    "title": "Prøv at stryge",
+    "lead": "Stryg en finger eller musen hen over en vilkårlig sætning på siden herunder. Kun de ord, du rører, kommer med på kortet.",
+    "book": "Eventyr",
+    "author": "H.C. Andersen",
+    "page": 112,
+    "pageLabel": "s. 112",
+    "text": "Der var så dejligt ude på landet; det var sommer, kornet stod gult, havren grøn, høet var rejst i stakke nede i de grønne enge, og der gik storken på sine lange, røde ben og snakkede ægyptisk, for det sprog havde han lært af sin moder. Rundt om ager og eng var der store skove, og midt i skovene dybe søer; jo, der var rigtignok dejligt derude på landet!",
+    "result": "Udtrukket tekst",
+    "empty": "Stryg hen over en sætning, så dukker den op her.",
+    "eraser": "Viskelæder",
+    "eraserOn": "Viskelæder til",
+    "clear": "Ryd alt",
+    "all": "Hele siden",
+    "appName": "Bookmark Shot",
+    "note": "Webdemoen bruger en færdig side. Appen læser teksten fra et billede, du selv tager. Med tastatur går du til en frase med Tab og tilføjer eller fjerner den med Enter."
+  },
+  "problem": {
+    "title": "Hvor bliver de gode sætninger af?",
+    "text": "Det er en biblioteksbog, så du må ikke skrive i den. Et billede af siden forsvinder blandt tusindvis af andre i kamerarullen. Skriver du sætningen ind i en noteapp, kommer titel og sidetal sjældent med. Bookmark Shot gemmer sætningen, bogen og siden med to bevægelser: tag et billede, og stryg."
+  },
+  "features": [
+    {
+      "title": "Skævt billede, lige side",
+      "text": "Når du har taget billedet af siden, placerer du de fire hjørner, og selv et skævt billede rettes ud som et stykke papir. Jo skarpere bogstaverne er, jo bedre genkendelse.\nBilleder, der allerede ligger i dit fotobibliotek, kan også bruges.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Alle citater ét sted",
+      "text": "Dine bøger står i et bibliotek af omslag, og dine citater samles i én liste. Søg efter sætning, note eller bogtitel, og giv de citater, du vil læse igen, et hjerte.\nTilføj en bog med ét billede af omslaget. Titel og forfatter læses for dig, og ISBN også, hvis stregkoden bag på bogen er med i billedet.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Mød de sætninger, du havde glemt",
+      "text": "Dagens citat bringer hver dag et af dine gemte citater tilbage sammen med den note, du skrev dengang. Hav det på hjemmeskærmen eller låseskærmen med en widget.\nGlad for det? Gør det til et kort i papirstil, og del det.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Kom i gang i tre trin",
+    "items": [
+      {
+        "title": "Tag et billede af omslaget",
+        "text": "Titel og forfatter udfyldes. Ret dem, før du gemmer."
+      },
+      {
+        "title": "Tag et billede af siden",
+        "text": "Placer de fire hjørner, så rettes den ud."
+      },
+      {
+        "title": "Stryg over sætningen",
+        "text": "Sidetallet findes og gemmes med."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Værktøjer på markeringsskærmen",
+    "rows": [
+      [
+        "Stryg med fingeren",
+        "vælger kun de ord, du rører"
+      ],
+      [
+        "Knib",
+        "zoom ind for at stryge mere præcist"
+      ],
+      [
+        "Flyt",
+        "træk rundt i en side, der er zoomet ind"
+      ],
+      [
+        "Viskelæder",
+        "fjerner ord, du har strøget over"
+      ],
+      [
+        "Ryd alt",
+        "fjerner alle valgte ord"
+      ],
+      [
+        "Hele siden",
+        "beholder al tekst på siden"
+      ],
+      [
+        "Sidefelt",
+        "det fundne sidetal, kan rettes"
+      ]
+    ],
+    "note": "Med VoiceOver dobbelttrykker du på en linje for at tilføje eller fjerne den."
+  },
+  "pricing": {
+    "title": "Alle funktioner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Tilføj bøger fra omslaget, ISBN fra stregkoden",
+        "Udretning af sider og markering med fingeren",
+        "Automatiske sidetal",
+        "Bibliotek, søgning i citater og favoritter",
+        "Dagens citat med widgets til hjemmeskærm og låseskærm",
+        "Del som kortbillede",
+        "Synkronisering med iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Støt udvikleren",
+      "items": [
+        "Send et lille tip fra Indstillinger, hvis du har lyst",
+        "Tips låser ikke noget op. Appen er den samme uanset"
+      ]
+    },
+    "note": "Ingen reklamer, intet abonnement."
+  },
+  "faq": {
+    "title": "Spørgsmål",
+    "items": [
+      {
+        "q": "Bliver mine billeder eller citater sendt nogen steder hen?",
+        "a": "Nej. Tekstgenkendelsen sker helt på din enhed med Apple Vision, og dine billeder og citater sendes aldrig til en server. Appen virker også offline. Læs mere i privatlivspolitikken herunder."
+      },
+      {
+        "q": "Hvilke sprog kan den læse?",
+        "a": "Tekstgenkendelsen foretages af iOS på din enhed. Den læser bøger på koreansk, engelsk, japansk, kinesisk, russisk og de fleste vesteuropæiske sprog, og på nyere iOS-versioner også thai, vietnamesisk, tyrkisk, indonesisk, polsk, tjekkisk, nederlandsk og de nordiske sprog. Græsk kan endnu ikke genkendes."
+      },
+      {
+        "q": "Hvordan vælger jeg kun den sætning, jeg vil have?",
+        "a": "Når du har taget billedet af siden, stryger du fingeren hen over sætningen, som med en overstregningstusch, så vælges kun de ord. Knib for at zoome ind og få større præcision. Der er også Viskelæder, Ryd alt og Hele siden."
+      },
+      {
+        "q": "Titlen eller forfatteren er forkert.",
+        "a": "Omslagsgenkendelsen gætter ud fra skriftens størrelse, så den kan tage fejl på meget dekorative omslag. Du kan rette titel og forfatter, før du gemmer bogen."
+      },
+      {
+        "q": "Sidetallet er forkert.",
+        "a": "Det læses fra tallene i kanten af billedet. Ret det bare i sidefeltet, før du gemmer."
+      },
+      {
+        "q": "Kan jeg se mine citater på flere enheder?",
+        "a": "Ja. Er du logget ind på iCloud med den samme Apple-konto, og er iCloud Drive slået til, synkroniseres dine bøger og citater automatisk."
+      },
+      {
+        "q": "Hvordan tilføjer jeg widgetten?",
+        "a": "Hold fingeren på hjemmeskærmen, tryk på Rediger > Tilføj widget, og vælg Bookmark Shot. På låseskærmen holder du fingeren på den og trykker på Tilpas. Dagens citat vises der."
+      },
+      {
+        "q": "Kameraet virker ikke.",
+        "a": "Tjek under Indstillinger > Bookmark Shot, at der er givet adgang til kamera og billeder. Det kræver en rigtig iPhone at tage billeder."
+      },
+      {
+        "q": "Hvad skal jeg bruge?",
+        "a": "En iPhone med iOS 17.0 eller nyere."
+      },
+      {
+        "q": "Hvordan kontakter jeg jer?",
+        "a": "Send feedback fra appens Indstillinger (tandhjulet), eller skriv til os på adressen herunder. Vi svarer som regel inden for to-tre dage."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Gem sætningen, du læste i dag,\nmed ét billede",
+    "cta": "Hent gratis i App Store"
+  },
+  "ui": {
+    "skip": "Spring til indhold",
+    "languages": "Sprog",
+    "privacy": "Privatlivspolitik",
+    "contact": "Spørgsmål eller feedback? Skriv til {email}."
+  }
+}

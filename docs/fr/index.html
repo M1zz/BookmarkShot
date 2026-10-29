@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot – gardez vos phrases préférées en une photo</title>
-<meta name="description" content="Bookmark Shot est une app iPhone : photographiez la couverture et une page d’un livre, puis glissez le doigt sur les phrases que vous aimez pour les garder.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot : gardez les plus belles phrases de vos livres</title>
+  <meta name="description" content="Photographiez une page et passez le doigt sur une phrase. Seule cette phrase est enregistrée en texte, avec le livre et la page. Tout est gratuit.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot : gardez les plus belles phrases de vos livres">
+  <meta property="og:description" content="Photographiez une page et passez le doigt sur une phrase. Seule cette phrase est enregistrée en texte, avec le livre et la page. Tout est gratuit.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/fr/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/fr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Pages">
-  <a href="./" aria-current="page">Présentation</a>
-  <a href="support.html">Assistance</a>
-  <a href="privacy.html">Confidentialité</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">Soulignez vos livres du bout du doigt</p>
+  <a class="skip" href="#main">Aller au contenu</a>
+  <header class="bar">
+    <a class="brand" href="../fr/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Langue</a>
+  </header>
 
-<p class="lead">La phrase que vous auriez soulignée dans un livre papier, gardez-la avec une seule photo. Photographiez la couverture puis la page du passage qui vous plaît : l’app retient de quel livre et de quelle page il vient. Passez le doigt sur la page comme un surligneur, et seule cette phrase est enregistrée.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Souligner un livre,<br>sans stylo</h1>
+        <p class="lead">Photographiez la page, passez le doigt sur la phrase qui vous touche : seule cette phrase est enregistrée en texte, avec le livre et le numéro de page.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Télécharger gratuitement sur l’App Store</a><a class="try" href="#try">Essayez par vous-même ↓</a></div>
+        <p class="muted small">Toutes les fonctionnalités sont gratuites, sans publicité.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/01-highlight.jpg" alt="Souligner un livre, sans stylo" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Comment ça marche</h2>
-<div class="card"><h3>📖 Ajouter un livre</h3><p>Photographiez la couverture : le titre et l’auteur sont remplis pour vous. Si le code-barres de la quatrième de couverture est dans le cadre, l’ISBN est lu aussi. Tout reste modifiable avant d’enregistrer.</p></div>
-<div class="card"><h3>📐 Cadrer la page</h3><p>Placez les quatre coins sur la page : la photo est redressée comme une feuille bien à plat, et le texte est reconnu plus nettement.</p></div>
-<div class="card"><h3>🖍️ Surligner du doigt</h3><p>Passez le doigt sur la phrase voulue, et seuls ces mots sont sélectionnés. Zoomez à deux doigts pour plus de précision, et servez-vous de la gomme ou de « Tout sélectionner ». Le numéro de page est trouvé tout seul.</p></div>
-<div class="card"><h3>🗂️ Votre collection</h3><p>Retrouvez vos phrases dans une bibliothèque classée par livre, avec recherche dans tout le texte et favoris.</p></div>
-<div class="card"><h3>✨ La citation du jour</h3><p>Chaque jour, l’une de vos phrases enregistrées vous revient, et vous pouvez la partager sous forme de carte.</p></div>
 
-<h2>Vos phrases restent sur votre appareil</h2>
-<p>La reconnaissance du texte se fait sur votre appareil, et vos photos et phrases ne sont jamais envoyées aux serveurs du développeur. Si vous êtes connecté à iCloud, elles se synchronisent entre vos appareils via votre propre compte iCloud. Pour en savoir plus, consultez la <a href="privacy.html">politique de confidentialité</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Essayez par vous-même</h2>
+      <p class="muted">Passez le doigt ou la souris sur n’importe quelle phrase de la page ci-dessous. Seuls les mots que vous parcourez s’ajoutent à la carte.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Essayez par vous-même&quot;, &quot;lead&quot;: &quot;Passez le doigt ou la souris sur n’importe quelle phrase de la page ci-dessous. Seuls les mots que vous parcourez s’ajoutent à la carte.&quot;, &quot;book&quot;: &quot;Pensées&quot;, &quot;author&quot;: &quot;Blaise Pascal&quot;, &quot;page&quot;: 96, &quot;pageLabel&quot;: &quot;p. 96&quot;, &quot;text&quot;: &quot;L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau, suffit pour le tuer. Mais, quand l’univers l’écraserait, l’homme serait encore plus noble que ce qui le tue, puisqu’il sait qu’il meurt, et l’avantage que l’univers a sur lui ; l’univers n’en sait rien. Toute notre dignité consiste donc en la pensée.&quot;, &quot;result&quot;: &quot;Texte extrait&quot;, &quot;empty&quot;: &quot;Passez sur une phrase, elle apparaîtra ici.&quot;, &quot;eraser&quot;: &quot;Gomme&quot;, &quot;eraserOn&quot;: &quot;Gomme activée&quot;, &quot;clear&quot;: &quot;Tout effacer&quot;, &quot;all&quot;: &quot;Page entière&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;La démo web utilise une page toute prête. Dans l’app, le texte est lu sur votre propre photo. Au clavier, allez sur un groupe de mots avec Tab et appuyez sur Entrée pour l’ajouter ou le retirer.&quot;}"></div>
+    </section>
 
-<h2>Configuration requise</h2>
-<ul>
-  <li>iOS 17.0 ou version ultérieure</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Où finissent les belles phrases ?</h2>
+      <p>Le livre vient de la bibliothèque, impossible d’y écrire. La photo de la page se perd parmi des milliers d’autres dans la photothèque. Recopiée dans une app de notes, la phrase arrive rarement avec son titre et son numéro de page. Bookmark Shot garde la phrase, le livre et la page en deux gestes : une photo, puis un glissement du doigt.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Assistance et FAQ</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Photo de travers, page bien droite</h2>
+        <p>Après la photo, placez les quatre coins : même une page prise de biais est redressée comme une feuille à plat. Des lettres plus nettes, c’est une meilleure reconnaissance.<br>Les photos déjà dans votre photothèque fonctionnent aussi.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/02-region.jpg" alt="Photo de travers, page bien droite" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Assistance</a> · <a href="privacy.html">Confidentialité</a>
-<nav class="langs" aria-label="Langue">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr" aria-current="true">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Toutes vos citations au même endroit</h2>
+        <p>Vos livres se rangent dans une bibliothèque de couvertures, vos citations dans une seule liste. Cherchez par phrase, par note ou par titre, et mettez un cœur sur celles que vous voulez relire.<br>Ajoutez un livre d’une seule photo de couverture. Le titre et l’auteur sont lus pour vous, et l’ISBN aussi si le code-barres de la quatrième de couverture est visible.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/04-quotes.jpg" alt="Toutes vos citations au même endroit" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Retrouvez les phrases oubliées</h2>
+        <p>La citation du jour vous rapporte chaque jour l’une de vos citations, avec la note que vous aviez laissée. Gardez-la sur l’écran d’accueil ou l’écran verrouillé grâce à un widget.<br>Coup de cœur ? Transformez-la en carte façon papier et partagez-la.</p>
+      </div>
+      <div class="phone"><img src="../img/fr/05-daily.jpg" alt="Retrouvez les phrases oubliées" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Trois étapes pour commencer</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Photographiez la couverture</h3><p>Le titre et l’auteur sont remplis. Modifiez-les avant d’enregistrer si besoin.</p></li>
+<li class="card"><span class="n">2</span><h3>Photographiez la page</h3><p>Placez les quatre coins, elle se redresse.</p></li>
+<li class="card"><span class="n">3</span><h3>Surlignez la phrase</h3><p>Le numéro de page est repéré et enregistré avec elle.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Les outils de l’écran de surlignage</h2>
+      <div class="card table">
+        <dl><div><dt>Glisser le doigt</dt><dd>sélectionne uniquement les mots parcourus</dd></div><div><dt>Pincer</dt><dd>zoome pour surligner plus précisément</dd></div><div><dt>Déplacer</dt><dd>fait glisser la page agrandie</dd></div><div><dt>Gomme</dt><dd>retire les mots surlignés</dd></div><div><dt>Tout effacer</dt><dd>supprime tous les mots sélectionnés</dd></div><div><dt>Page entière</dt><dd>garde tout le texte de la page</dd></div><div><dt>Champ de page</dt><dd>le numéro de page repéré, modifiable</dd></div></dl>
+      </div>
+      <p class="muted">Avec VoiceOver, touchez deux fois une ligne pour l’ajouter ou la retirer.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Toutes les fonctionnalités sont gratuites</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratuit</h3>
+          <ul><li>Ajout de livres par la couverture, ISBN par le code-barres</li><li>Redressement des pages et surlignage au doigt</li><li>Numéro de page automatique</li><li>Bibliothèque, recherche de citations et favoris</li><li>Citation du jour avec widgets pour l’écran d’accueil et l’écran verrouillé</li><li>Partage sous forme de carte</li><li>Synchronisation iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Soutenir le développeur</h3>
+          <ul><li>Laissez un petit pourboire depuis les Réglages, si le cœur vous en dit</li><li>Les pourboires ne débloquent rien. L’app reste la même</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Ni publicité, ni abonnement.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Questions</h2>
+      <div class="faq"><details><summary>Mes photos ou mes citations sont-elles envoyées quelque part ?</summary><p>Non. La reconnaissance du texte se fait entièrement sur votre appareil avec Apple Vision, et vos photos et citations ne partent jamais vers un serveur. Elle fonctionne aussi hors connexion. Pour en savoir plus, consultez la politique de confidentialité ci-dessous.</p></details>
+<details><summary>Quelles langues l’app sait-elle lire ?</summary><p>La reconnaissance du texte est assurée par iOS, sur votre appareil. Elle lit les livres en coréen, anglais, japonais, chinois, russe et dans la plupart des langues d’Europe de l’Ouest et, avec les versions récentes d’iOS, aussi en thaï, vietnamien, turc, indonésien, polonais, tchèque, néerlandais et dans les langues nordiques. Le grec n’est pas encore reconnu.</p></details>
+<details><summary>Comment ne choisir que la phrase que je veux ?</summary><p>Après avoir photographié la page, passez le doigt sur la phrase comme avec un surligneur : seuls ces mots sont sélectionnés. Pincez pour zoomer et gagner en précision. Il y a aussi la gomme, « Tout effacer » et « Page entière ».</p></details>
+<details><summary>Le titre ou l’auteur est mal reconnu.</summary><p>La reconnaissance de la couverture se fie à la taille des caractères, elle peut donc se tromper sur des couvertures très décorées. Vous pouvez corriger le titre et l’auteur avant d’enregistrer le livre.</p></details>
+<details><summary>Le numéro de page est faux.</summary><p>Il est lu à partir des chiffres au bord de la photo. Corrigez-le simplement dans le champ de page avant d’enregistrer.</p></details>
+<details><summary>Puis-je retrouver mes citations sur plusieurs appareils ?</summary><p>Oui. Si vous êtes connecté à iCloud avec le même compte Apple et qu’iCloud Drive est activé, vos livres et citations se synchronisent automatiquement.</p></details>
+<details><summary>Comment ajouter le widget ?</summary><p>Maintenez le doigt sur l’écran d’accueil, touchez Modifier &gt; Ajouter un widget, puis choisissez Bookmark Shot. Pour l’écran verrouillé, maintenez le doigt dessus, puis touchez Personnaliser. La citation du jour s’y affiche.</p></details>
+<details><summary>L’appareil photo ne fonctionne pas.</summary><p>Vérifiez dans Réglages &gt; Bookmark Shot que l’accès à l’appareil photo et aux photos est autorisé. Pour prendre des photos, il faut un vrai iPhone.</p></details>
+<details><summary>De quoi ai-je besoin ?</summary><p>D’un iPhone sous iOS 17.0 ou version ultérieure.</p></details>
+<details><summary>Comment vous contacter ?</summary><p>Envoyez un retour depuis l’écran Réglages (roue dentée) de l’app ou écrivez-nous à l’adresse ci-dessous. Nous répondons généralement sous deux ou trois jours.</p></details></div>
+      <p class="contact">Une question, une suggestion ? Écrivez à <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Gardez la phrase lue aujourd’hui,<br>d’une seule photo</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Télécharger gratuitement sur l’App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Langue"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr" aria-current="page">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Politique de confidentialité</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

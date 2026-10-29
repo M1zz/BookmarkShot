@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — oblíbené věty z knih jedinou fotkou</title>
-<meta name="description" content="Bookmark Shot je aplikace pro iPhone: vyfoťte obálku a stránku knihy, přejeďte prstem po větách, které se vám líbí, a máte je uložené.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: oblíbené věty z každé knihy</title>
+  <meta name="description" content="Vyfoťte stránku a přejeďte prstem po větě. Uloží se jen ona, jako text, i s knihou a číslem strany. Všechno je zdarma.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: oblíbené věty z každé knihy">
+  <meta property="og:description" content="Vyfoťte stránku a přejeďte prstem po větě. Uloží se jen ona, jako text, i s knihou a číslem strany. Všechno je zdarma.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/cs/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/cs/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Stránky">
-  <a href="./" aria-current="page">O aplikaci</a>
-  <a href="support.html">Podpora</a>
-  <a href="privacy.html">Ochrana soukromí</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">Věty, které byste v knize podtrhli, stačí přejet prstem</p>
+  <a class="skip" href="#main">Přejít na obsah</a>
+  <header class="bar">
+    <a class="brand" href="../cs/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Jazyk</a>
+  </header>
 
-<p class="lead">Větu, kterou byste si v papírové knize podtrhli, si teď uložíte jedinou fotkou. Vyfoťte obálku a stránku s pasáží, která vás oslovila, a aplikace si zapamatuje, z jaké knihy a z které strany pochází. Přejeďte prstem po stránce jako zvýrazňovačem a uloží se jen ta věta.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Podtrhávejte v knize<br>bez tužky</h1>
+        <p class="lead">Vyfoťte stránku, přejeďte prstem po větě, která vás zaujala, a jako text se uloží jen ona. Kniha i číslo strany se uloží s ní.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Stáhněte zdarma v App Store</a><a class="try" href="#try">Vyzkoušejte si to ↓</a></div>
+        <p class="muted small">Všechny funkce jsou zdarma a bez reklam.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/01-highlight.jpg" alt="Podtrhávejte v knize bez tužky" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Jak to funguje</h2>
-<div class="card"><h3>📖 Přidejte knihu</h3><p>Vyfoťte obálku a název s autorem se vyplní samy. Když je v záběru i čárový kód ze zadní strany, načte se také ISBN. Před uložením můžete vše upravit.</p></div>
-<div class="card"><h3>📐 Vymezte stránku</h3><p>Srovnejte čtyři rohy s okraji stránky a fotka se narovná jako list papíru, takže text vyjde ostřejší.</p></div>
-<div class="card"><h3>🖍️ Podtrhněte prstem</h3><p>Přejeďte prstem po větě, kterou chcete, a vyberou se jen ta slova. Pro přesnější tah si stránku přibližte dvěma prsty, k dispozici je i guma a Vybrat vše. Číslo strany se najde samo.</p></div>
-<div class="card"><h3>🗂️ Vaše sbírka</h3><p>Uložené věty snadno najdete v knihovně řazené podle knih, s fulltextovým hledáním a oblíbenými.</p></div>
-<div class="card"><h3>✨ Citát dne</h3><p>Každý den se vám vrátí jedna z uložených vět a můžete ji sdílet jako kartu.</p></div>
 
-<h2>Vaše věty zůstávají ve vašem zařízení</h2>
-<p>Text se rozpoznává přímo ve vašem zařízení a fotky ani věty se nikdy neposílají na servery vývojáře. Pokud jste přihlášeni k iCloudu, synchronizují se mezi vašimi zařízeními přes váš vlastní účet iCloud. Podrobnosti najdete v <a href="privacy.html">Zásadách ochrany soukromí</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Vyzkoušejte si to</h2>
+      <p class="muted">Přejeďte prstem nebo myší po libovolné větě na stránce níže. Na kartu se dostanou jen slova, přes která přejedete.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Vyzkoušejte si to&quot;, &quot;lead&quot;: &quot;Přejeďte prstem nebo myší po libovolné větě na stránce níže. Na kartu se dostanou jen slova, přes která přejedete.&quot;, &quot;book&quot;: &quot;Máj&quot;, &quot;author&quot;: &quot;Karel Hynek Mácha&quot;, &quot;page&quot;: 7, &quot;pageLabel&quot;: &quot;s. 7&quot;, &quot;text&quot;: &quot;Byl pozdní večer – první máj – večerní máj – byl lásky čas. Hrdliččin zval ku lásce hlas, kde borový zaváněl háj. O lásce šeptal tichý mech; květoucí strom lhal lásky žel, svou lásku slavík růži pěl, růžinu jevil vonný vzdech. Jezero hladké v křovích stinných zvučelo temně tajný bol, břeh je objímal kol a kol; a slunce jasná světů jiných bloudila blankytnými pásky, planoucí tam co slzy lásky.&quot;, &quot;result&quot;: &quot;Rozpoznaný text&quot;, &quot;empty&quot;: &quot;Přejeďte po větě a objeví se tady.&quot;, &quot;eraser&quot;: &quot;Guma&quot;, &quot;eraserOn&quot;: &quot;Guma zapnuta&quot;, &quot;clear&quot;: &quot;Smazat vše&quot;, &quot;all&quot;: &quot;Celá stránka&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;Webová ukázka používá připravenou stránku. Aplikace čte text z fotky, kterou pořídíte. Na klávesnici přejděte k úseku klávesou Tab a stiskem Enter ho přidejte nebo odeberte.&quot;}"></div>
+    </section>
 
-<h2>Požadavky</h2>
-<ul>
-  <li>iOS 17.0 nebo novější</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Kde končí ty krásné věty?</h2>
+      <p>Kniha je z knihovny, takže do ní psát nemůžete. Fotka stránky zapadne mezi tisíci dalšími v knihovně fotek. Když větu přepíšete do poznámek, název a číslo strany se většinou ztratí. Bookmark Shot uloží větu, knihu i stránku dvěma pohyby: vyfotit a přejet prstem.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Podpora a časté dotazy</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Křivá fotka, rovná stránka</h2>
+        <p>Po vyfocení srovnejte čtyři rohy a i stránka vyfocená šikmo se narovná jako list papíru. Ostřejší písmena znamenají lepší rozpoznání.<br>Poslouží i fotky, které už máte v knihovně.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/02-region.jpg" alt="Křivá fotka, rovná stránka" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Podpora</a> · <a href="privacy.html">Ochrana soukromí</a>
-<nav class="langs" aria-label="Jazyk">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs" aria-current="true">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Všechny citáty na jednom místě</h2>
+        <p>Knihy se řadí do knihovny s obálkami a citáty se sbírají v jednom seznamu. Hledejte podle textu, poznámky nebo názvu knihy a srdíčkem si označte ty, ke kterým se chcete vracet.<br>Knihu přidáte jedinou fotkou obálky. Název a autor se vyplní samy, a když je v záběru čárový kód ze zadní strany, tak i ISBN.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/04-quotes.jpg" alt="Všechny citáty na jednom místě" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Znovu objevte zapomenuté věty</h2>
+        <p>Citát dne vám každý den připomene jeden z uložených citátů i s poznámkou, kterou jste si připsali. S widgetem ho máte na ploše nebo na zamčené obrazovce.<br>Líbí se vám? Udělejte z něj kartu v papírovém stylu a sdílejte ji.</p>
+      </div>
+      <div class="phone"><img src="../img/cs/05-daily.jpg" alt="Znovu objevte zapomenuté věty" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Začněte ve třech krocích</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Vyfoťte obálku</h3><p>Název a autor se vyplní. Před uložením je můžete upravit.</p></li>
+<li class="card"><span class="n">2</span><h3>Vyfoťte stránku</h3><p>Srovnejte čtyři rohy a stránka se narovná.</p></li>
+<li class="card"><span class="n">3</span><h3>Přejeďte po větě</h3><p>Číslo strany se najde a uloží spolu s ní.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Nástroje na obrazovce zvýrazňování</h2>
+      <div class="card table">
+        <dl><div><dt>Přejetí prstem</dt><dd>vybere jen slova, přes která přejedete</dd></div><div><dt>Roztažení prstů</dt><dd>přiblíží stránku pro přesnější výběr</dd></div><div><dt>Posun</dt><dd>posouvá přiblíženou stránku</dd></div><div><dt>Guma</dt><dd>odebere vybraná slova</dd></div><div><dt>Smazat vše</dt><dd>zruší výběr všech slov</dd></div><div><dt>Celá stránka</dt><dd>ponechá celý text stránky</dd></div><div><dt>Pole strany</dt><dd>nalezené číslo strany, lze upravit</dd></div></dl>
+      </div>
+      <p class="muted">S VoiceOverem řádek přidáte nebo odeberete dvojitým klepnutím.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Všechny funkce zdarma</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Zdarma</h3>
+          <ul><li>Přidání knihy podle obálky, ISBN z čárového kódu</li><li>Narovnání stránek a zvýrazňování prstem</li><li>Automatické číslo strany</li><li>Knihovna, hledání v citátech a oblíbené</li><li>Citát dne s widgety na plochu a zamčenou obrazovku</li><li>Sdílení jako karta</li><li>Synchronizace přes iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Podpořte vývojáře</h3>
+          <ul><li>Pokud chcete, pošlete v Nastavení malé spropitné</li><li>Spropitné nic neodemyká. Aplikace je pořád stejná</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Bez reklam, bez předplatného.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Otázky</h2>
+      <div class="faq"><details><summary>Posílají se moje fotky nebo citáty někam?</summary><p>Ne. Rozpoznávání textu probíhá celé ve vašem zařízení pomocí Apple Vision a fotky ani citáty se nikdy neposílají na server. Funguje i offline. Podrobnosti najdete v Zásadách ochrany soukromí níže.</p></details>
+<details><summary>Které jazyky umí přečíst?</summary><p>Text rozpoznává systém iOS přímo ve vašem zařízení. Přečte knihy v korejštině, angličtině, japonštině, čínštině, ruštině a ve většině západoevropských jazyků, v novějších verzích iOS také v thajštině, vietnamštině, turečtině, indonéštině, polštině, češtině, nizozemštině a severských jazycích. Řečtinu zatím nerozpozná.</p></details>
+<details><summary>Jak vyberu jen tu větu, kterou chci?</summary><p>Po vyfocení stránky přejeďte prstem po větě jako zvýrazňovačem a vyberou se jen ta slova. Pro větší přesnost si stránku přibližte dvěma prsty. K dispozici je i guma, „Smazat vše“ a „Celá stránka“.</p></details>
+<details><summary>Název nebo autor se načetl špatně.</summary><p>Rozpoznávání obálky odhaduje podle velikosti písma, takže u hodně zdobných obálek se může splést. Název i autora můžete před uložením knihy opravit.</p></details>
+<details><summary>Číslo strany nesedí.</summary><p>Čte se z číslic na okraji fotky. Stačí ho před uložením opravit v poli strany.</p></details>
+<details><summary>Uvidím citáty na více zařízeních?</summary><p>Ano. Pokud jste přihlášeni k iCloudu stejným Apple účtem a máte zapnutý iCloud Drive, knihy a citáty se synchronizují automaticky.</p></details>
+<details><summary>Jak přidám widget?</summary><p>Podržte prst na ploše, klepněte na Upravit &gt; Přidat widget a vyberte Bookmark Shot. Na zamčené obrazovce na ní podržte prst a pak klepněte na Přizpůsobit. Zobrazí se tam Citát dne.</p></details>
+<details><summary>Nefunguje fotoaparát.</summary><p>V Nastavení &gt; Bookmark Shot zkontrolujte, že je povolen přístup k fotoaparátu a fotkám. Na focení potřebujete skutečný iPhone.</p></details>
+<details><summary>Co potřebuji?</summary><p>iPhone se systémem iOS 17.0 nebo novějším.</p></details>
+<details><summary>Jak vás kontaktovat?</summary><p>Pošlete zpětnou vazbu z obrazovky Nastavení v aplikaci (ozubené kolečko) nebo nám napište na adresu níže. Obvykle odpovídáme do dvou až tří dnů.</p></details></div>
+      <p class="contact">Dotazy nebo náměty? Pište na <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Uchovejte dnešní větu<br>jedinou fotkou</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Stáhněte zdarma v App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Jazyk"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs" aria-current="page">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Zásady ochrany soukromí</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

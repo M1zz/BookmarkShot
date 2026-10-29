@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: guarda tus frases favoritas de cada libro",
+  "description": "Haz una foto de la página y pasa el dedo por la frase que te gusta. Solo esa frase se guarda como texto, con el libro y la página. Todo gratis.",
+  "hero": {
+    "headline": "Subraya un libro\nsin bolígrafo",
+    "lead": "Haz una foto de la página, pasa el dedo por la frase que te gusta y solo esa frase se guarda como texto. El libro y el número de página van con ella.",
+    "cta": "Descárgala gratis en el App Store",
+    "note": "Todas las funciones son gratis y sin anuncios."
+  },
+  "demo": {
+    "title": "Pruébalo",
+    "lead": "Pasa el dedo o el ratón por cualquier frase de la página de abajo. Solo las palabras por las que pases llegan a la tarjeta.",
+    "book": "La vida es sueño",
+    "author": "Pedro Calderón de la Barca",
+    "page": 98,
+    "pageLabel": "pág. 98",
+    "text": "y en el mundo, en conclusión, todos sueñan lo que son, aunque ninguno lo entiende. Yo sueño que estoy aquí destas prisiones cargado, y soñé que en otro estado más lisonjero me vi. ¿Qué es la vida? Un frenesí. ¿Qué es la vida? Una ilusión, una sombra, una ficción, y el mayor bien es pequeño; que toda la vida es sueño, y los sueños, sueños son.",
+    "result": "Texto extraído",
+    "empty": "Pasa por encima de una frase y aparecerá aquí.",
+    "eraser": "Borrador",
+    "eraserOn": "Borrador activado",
+    "clear": "Borrar todo",
+    "all": "Página completa",
+    "appName": "Bookmark Shot",
+    "note": "La demo web usa una página ya preparada. La app lee el texto de la foto que hagas tú. Con teclado, ve a un fragmento con Tab y pulsa Intro para añadirlo o quitarlo."
+  },
+  "problem": {
+    "title": "¿Dónde acaban las frases buenas?",
+    "text": "El libro es de la biblioteca, así que no puedes subrayarlo. La foto de la página se pierde entre miles en la fototeca. Si la copias en una app de notas, el título y la página casi nunca la acompañan. Bookmark Shot guarda la frase, el libro y la página con dos gestos: haces la foto y pasas el dedo."
+  },
+  "features": [
+    {
+      "title": "Foto torcida, página recta",
+      "text": "Tras hacer la foto, ajusta las cuatro esquinas y hasta una página fotografiada de lado queda plana como una hoja. Letras más nítidas, mejor reconocimiento.\nTambién sirven las fotos que ya tienes en la fototeca.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Todas tus citas en un solo lugar",
+      "text": "Tus libros se ordenan en una biblioteca de portadas y tus citas se reúnen en una sola lista. Busca por frase, nota o título del libro, y marca con un corazón las que quieras releer.\nAñade un libro con una sola foto de la portada. Se leen el título y el autor, y también el ISBN si se ve el código de barras de la contraportada.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Reencuéntrate con frases olvidadas",
+      "text": "La cita del día te trae cada día una de tus citas guardadas, junto con la nota que dejaste. Tenla en la pantalla de inicio o en la pantalla bloqueada con un widget.\n¿Te encanta? Conviértela en una tarjeta con aspecto de papel y compártela.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Empieza en tres pasos",
+    "items": [
+      {
+        "title": "Fotografía la portada",
+        "text": "Se rellenan el título y el autor. Puedes editarlos antes de guardar."
+      },
+      {
+        "title": "Fotografía la página",
+        "text": "Ajusta las cuatro esquinas y se endereza."
+      },
+      {
+        "title": "Subraya la frase",
+        "text": "El número de página se detecta y se guarda con ella."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Herramientas de la pantalla de subrayado",
+    "rows": [
+      [
+        "Deslizar el dedo",
+        "selecciona solo las palabras por las que pasas"
+      ],
+      [
+        "Pellizcar",
+        "amplía para subrayar con más precisión"
+      ],
+      [
+        "Mover",
+        "desplaza la página ampliada"
+      ],
+      [
+        "Borrador",
+        "quita palabras ya subrayadas"
+      ],
+      [
+        "Borrar todo",
+        "elimina todas las palabras seleccionadas"
+      ],
+      [
+        "Página completa",
+        "conserva todo el texto de la página"
+      ],
+      [
+        "Campo de página",
+        "el número de página detectado, editable"
+      ]
+    ],
+    "note": "Con VoiceOver, toca dos veces una línea para añadirla o quitarla."
+  },
+  "pricing": {
+    "title": "Todas las funciones son gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Añadir libros por la portada, ISBN por el código de barras",
+        "Enderezado de páginas y subrayado con el dedo",
+        "Número de página automático",
+        "Biblioteca, búsqueda de citas y favoritas",
+        "La cita del día con widgets para la pantalla de inicio y la pantalla bloqueada",
+        "Compartir como tarjeta",
+        "Sincronización con iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Apoya al desarrollador",
+      "items": [
+        "Deja una pequeña propina desde Ajustes, si te apetece",
+        "Las propinas no desbloquean nada. La app es la misma"
+      ]
+    },
+    "note": "Sin anuncios ni suscripciones."
+  },
+  "faq": {
+    "title": "Preguntas",
+    "items": [
+      {
+        "q": "¿Se envían mis fotos o mis citas a algún sitio?",
+        "a": "No. El reconocimiento de texto se hace íntegramente en tu dispositivo con Apple Vision, y tus fotos y citas nunca van a un servidor. También funciona sin conexión. Consulta la política de privacidad más abajo para más detalles."
+      },
+      {
+        "q": "¿Qué idiomas puede leer?",
+        "a": "El reconocimiento de texto lo hace iOS en tu dispositivo. Lee libros en coreano, inglés, japonés, chino, ruso y la mayoría de las lenguas de Europa occidental, y en las versiones recientes de iOS también en tailandés, vietnamita, turco, indonesio, polaco, checo, neerlandés y las lenguas nórdicas. Todavía no reconoce el griego."
+      },
+      {
+        "q": "¿Cómo elijo solo la frase que quiero?",
+        "a": "Después de hacer la foto, pasa el dedo por la frase como si usaras un rotulador fluorescente y solo se seleccionan esas palabras. Pellizca para ampliar y ganar precisión. También tienes el borrador, «Borrar todo» y «Página completa»."
+      },
+      {
+        "q": "El título o el autor salen mal.",
+        "a": "El reconocimiento de la portada se guía por el tamaño de las letras, así que puede equivocarse con portadas muy decoradas. Puedes corregir el título y el autor antes de guardar el libro."
+      },
+      {
+        "q": "El número de página no es correcto.",
+        "a": "Se lee de los números del borde de la foto. Corrígelo en el campo de página antes de guardar."
+      },
+      {
+        "q": "¿Puedo ver mis citas en varios dispositivos?",
+        "a": "Sí. Si has iniciado sesión en iCloud con la misma cuenta de Apple y tienes activado iCloud Drive, tus libros y citas se sincronizan solos."
+      },
+      {
+        "q": "¿Cómo añado el widget?",
+        "a": "Mantén pulsada la pantalla de inicio, toca Editar > Añadir widget y elige Bookmark Shot. Para la pantalla bloqueada, mantenla pulsada y toca Personalizar. Ahí aparecerá la cita del día."
+      },
+      {
+        "q": "La cámara no funciona.",
+        "a": "Comprueba en Ajustes > Bookmark Shot que está permitido el acceso a la cámara y a las fotos. Para hacer fotos hace falta un iPhone de verdad."
+      },
+      {
+        "q": "¿Qué necesito?",
+        "a": "Un iPhone con iOS 17.0 o posterior."
+      },
+      {
+        "q": "¿Cómo puedo contactaros?",
+        "a": "Envíanos tus comentarios desde la pantalla Ajustes (rueda dentada) de la app o escríbenos al correo de abajo. Solemos responder en dos o tres días."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Guarda la frase que has leído hoy\ncon una sola foto",
+    "cta": "Descárgala gratis en el App Store"
+  },
+  "ui": {
+    "skip": "Saltar al contenido",
+    "languages": "Idioma",
+    "privacy": "Política de privacidad",
+    "contact": "¿Preguntas o comentarios? Escribe a {email}."
+  }
+}

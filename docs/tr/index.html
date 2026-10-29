@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="tr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — sevdiğin cümleler tek fotoğrafla</title>
-<meta name="description" content="Bookmark Shot, kitabın kapağını ve sayfasını fotoğraflayıp sevdiğin cümlelerin üzerinden parmağınla geçerek onları saklamanı sağlayan bir iPhone uygulaması.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: Kitaplardan sevdiğin cümleleri sakla</title>
+  <meta name="description" content="Sayfanın fotoğrafını çek, parmağını cümlenin üzerinde gezdir. Yalnızca o cümle, kitap ve sayfa numarasıyla metin olarak kaydedilir. Hepsi ücretsiz.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: Kitaplardan sevdiğin cümleleri sakla">
+  <meta property="og:description" content="Sayfanın fotoğrafını çek, parmağını cümlenin üzerinde gezdir. Yalnızca o cümle, kitap ve sayfa numarasıyla metin olarak kaydedilir. Hepsi ücretsiz.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/tr/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/tr/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Sayfalar">
-  <a href="./" aria-current="page">Hakkında</a>
-  <a href="support.html">Destek</a>
-  <a href="privacy.html">Gizlilik Politikası</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">Kitapta altını çizdiğin cümleler, parmağının ucunda</p>
+  <a class="skip" href="#main">İçeriğe geç</a>
+  <header class="bar">
+    <a class="brand" href="../tr/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Dil</a>
+  </header>
 
-<p class="lead">Kâğıt kitapta altını çizeceğin cümleyi artık tek bir fotoğrafla saklayabilirsin. Kapağın ve sevdiğin bölümün olduğu sayfanın fotoğrafını çek; uygulama cümlenin hangi kitabın hangi sayfasından geldiğini hatırlar. Fosforlu kalem gibi parmağını sayfanın üzerinde gezdir, yalnızca o cümle kaydedilsin.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Kalemsiz<br>altını çiz</h1>
+        <p class="lead">Sayfanın fotoğrafını çek, sevdiğin cümlenin üzerinde parmağını gezdir; yalnızca o cümle metin olarak kaydedilir. Kitap ve sayfa numarası da onunla gelir.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">App Store’dan ücretsiz indir</a><a class="try" href="#try">Bir dene ↓</a></div>
+        <p class="muted small">Tüm özellikler ücretsiz, reklam yok.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/01-highlight.jpg" alt="Kalemsiz altını çiz" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Nasıl çalışır?</h2>
-<div class="card"><h3>📖 Kitap ekle</h3><p>Kapağın fotoğrafını çek, başlık ve yazar kendiliğinden dolsun. Arka kapaktaki barkod da karedeyse ISBN de okunur. Kaydetmeden önce her şeyi düzenleyebilirsin.</p></div>
-<div class="card"><h3>📐 Sayfayı belirle</h3><p>Dört köşeyi sayfanın kenarlarına oturt; fotoğraf kâğıt gibi düzleşir ve metin daha net çıkar.</p></div>
-<div class="card"><h3>🖍️ Parmağınla çiz</h3><p>İstediğin cümlenin üzerinde parmağını gezdir, yalnızca o kelimeler seçilir. Daha hassas çizmek için iki parmakla yakınlaştır; silgi ve Tümünü Seç de var. Sayfa numarası da senin için bulunur.</p></div>
-<div class="card"><h3>🗂️ Koleksiyonun</h3><p>Kaydettiğin cümleleri kitaplara göre düzenlenmiş kitaplığında, tam metin arama ve favorilerle kolayca yeniden bul.</p></div>
-<div class="card"><h3>✨ Günün alıntısı</h3><p>Kaydettiğin cümlelerden biri her gün yeniden karşına çıkar; istersen onu bir kart olarak paylaşabilirsin.</p></div>
 
-<h2>Cümlelerin cihazında kalır</h2>
-<p>Metin tanıma cihazında yapılır; fotoğrafların ve cümlelerin asla geliştiricinin sunucularına gönderilmez. iCloud’a giriş yaptıysan verilerin kendi iCloud hesabın üzerinden cihazların arasında eşitlenir. Ayrıntılar için <a href="privacy.html">Gizlilik Politikası</a>’na bakabilirsin.</p>
+    <section class="reveal" id="try">
+      <h2>Bir dene</h2>
+      <p class="muted">Aşağıdaki sayfada istediğin cümlenin üzerinde parmağını ya da fareni gezdir. Karta yalnızca üzerinden geçtiğin kelimeler düşer.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Bir dene&quot;, &quot;lead&quot;: &quot;Aşağıdaki sayfada istediğin cümlenin üzerinde parmağını ya da fareni gezdir. Karta yalnızca üzerinden geçtiğin kelimeler düşer.&quot;, &quot;book&quot;: &quot;Göl Saatleri&quot;, &quot;author&quot;: &quot;Ahmet Haşim&quot;, &quot;page&quot;: 17, &quot;pageLabel&quot;: &quot;s. 17&quot;, &quot;text&quot;: &quot;Ağır ağır çıkacaksın bu merdivenlerden, Eteklerinde güneş rengi bir yığın yaprak, Ve bir zaman bakacaksın semâya ağlayarak... Eğilmiş arza, kanar, muttasıl kanar güller; Durur alev gibi dallarda kanlı bülbüller, Sular mı yandı? Neden tunca benziyor mermer? Bu bir lisân-ı hafîdir ki ruha dolmakta, Sular sarardı... yüzün perde perde solmakta, Kızıl havâları seyret ki akşam olmakta...&quot;, &quot;result&quot;: &quot;Alınan Metin&quot;, &quot;empty&quot;: &quot;Bir cümlenin üzerinden geç, burada görünsün.&quot;, &quot;eraser&quot;: &quot;Silgi&quot;, &quot;eraserOn&quot;: &quot;Silgi Açık&quot;, &quot;clear&quot;: &quot;Tümünü Temizle&quot;, &quot;all&quot;: &quot;Tüm Sayfa&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;Web demosu hazır bir sayfa kullanır. Uygulama ise metni senin çektiğin fotoğraftan okur. Klavyede Tab ile bir ifadeye git, eklemek ya da çıkarmak için Enter’a bas.&quot;}"></div>
+    </section>
 
-<h2>Gereksinimler</h2>
-<ul>
-  <li>iOS 17.0 veya üstü</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Güzel cümleler nerede kayboluyor?</h2>
+      <p>Kitap kütüphaneden, üzerine bir şey yazamazsın. Sayfanın fotoğrafı arşivindeki binlerce fotoğrafın arasında kaybolur. Not uygulamasına yazarsan da kitap adı ve sayfa numarası çoğu zaman eksik kalır. Bookmark Shot cümleyi, kitabı ve sayfayı iki hareketle saklar: çek, sonra parmağını gezdir.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Destek ve SSS</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Eğri fotoğraf, düz sayfa</h2>
+        <p>Fotoğrafı çektikten sonra dört köşeyi oturt; eğik çekilmiş bir sayfa bile kâğıt gibi düzleşir. Harfler netleştikçe tanıma da iyileşir.<br>Arşivindeki fotoğraflar da olur.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/02-region.jpg" alt="Eğri fotoğraf, düz sayfa" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Destek</a> · <a href="privacy.html">Gizlilik Politikası</a>
-<nav class="langs" aria-label="Dil">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr" aria-current="true">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Tüm alıntıların tek yerde</h2>
+        <p>Kitapların kapaklarıyla bir kitaplıkta, alıntıların tek bir listede toplanır. Cümleye, nota ya da kitap adına göre ara; yeniden okumak istediklerini kalple işaretle.<br>Tek bir kapak fotoğrafıyla kitap ekle. Başlık ve yazar senin için okunur, arka kapaktaki barkod da karedeyse ISBN de.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/04-quotes.jpg" alt="Tüm alıntıların tek yerde" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Unuttuğun cümlelerle yeniden karşılaş</h2>
+        <p>Günün alıntısı her gün kaydettiğin alıntılardan birini, bıraktığın notla birlikte geri getirir. Bir widget ile Ana Ekran’da ya da Kilitli Ekran’da tut.<br>Beğendin mi? Kâğıt görünümlü bir karta dönüştürüp paylaş.</p>
+      </div>
+      <div class="phone"><img src="../img/tr/05-daily.jpg" alt="Unuttuğun cümlelerle yeniden karşılaş" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Üç adımda başla</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Kapağı çek</h3><p>Başlık ve yazar doldurulur. Kaydetmeden önce düzenleyebilirsin.</p></li>
+<li class="card"><span class="n">2</span><h3>Sayfayı çek</h3><p>Dört köşeyi oturt, sayfa düzleşsin.</p></li>
+<li class="card"><span class="n">3</span><h3>Cümlenin üzerinden geç</h3><p>Sayfa numarası bulunur ve cümleyle birlikte kaydedilir.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Altını çizme ekranındaki araçlar</h2>
+      <div class="card table">
+        <dl><div><dt>Parmağını gezdir</dt><dd>yalnızca üzerinden geçtiğin kelimeleri seçer</dd></div><div><dt>İki parmakla yakınlaştır</dt><dd>daha hassas seçim için büyütür</dd></div><div><dt>Kaydır</dt><dd>büyütülmüş sayfayı hareket ettirir</dd></div><div><dt>Silgi</dt><dd>seçilen kelimeleri geri çıkarır</dd></div><div><dt>Tümünü Temizle</dt><dd>tüm seçili kelimeleri kaldırır</dd></div><div><dt>Tüm Sayfa</dt><dd>sayfadaki tüm metni alır</dd></div><div><dt>Sayfa alanı</dt><dd>bulunan sayfa numarası, düzenlenebilir</dd></div></dl>
+      </div>
+      <p class="muted">VoiceOver açıkken bir satırı eklemek ya da çıkarmak için iki kez dokun.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Tüm özellikler ücretsiz</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Ücretsiz</h3>
+          <ul><li>Kapaktan kitap ekleme, barkoddan ISBN</li><li>Sayfa düzleştirme ve parmakla altını çizme</li><li>Otomatik sayfa numarası</li><li>Kitaplık, alıntı arama ve favoriler</li><li>Ana Ekran ve Kilitli Ekran widget’larıyla Günün alıntısı</li><li>Kart görseli olarak paylaşma</li><li>iCloud ile eşitleme</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Geliştiriciye destek ol</h3>
+          <ul><li>İstersen Ayarlar’dan küçük bir bahşiş bırakabilirsin</li><li>Bahşiş hiçbir şeyin kilidini açmaz. Uygulama her durumda aynıdır</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Reklam yok, abonelik yok.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Sorular</h2>
+      <div class="faq"><details><summary>Fotoğraflarım ya da alıntılarım bir yere gönderiliyor mu?</summary><p>Hayır. Metin tanıma tamamen cihazında Apple Vision ile yapılır; fotoğrafların ve alıntıların asla bir sunucuya gitmez. İnternet olmadan da çalışır. Ayrıntılar için aşağıdaki Gizlilik Politikası’na bakabilirsin.</p></details>
+<details><summary>Hangi dilleri okuyabiliyor?</summary><p>Metni cihazında iOS tanır. Korece, İngilizce, Japonca, Çince, Rusça ve Batı Avrupa dillerinin çoğundaki kitapları okur; yeni iOS sürümlerinde Tayca, Vietnamca, Türkçe, Endonezce, Lehçe, Çekçe, Felemenkçe ve İskandinav dillerini de tanır. Yunanca henüz tanınamıyor.</p></details>
+<details><summary>Yalnızca istediğim cümleyi nasıl seçerim?</summary><p>Sayfanın fotoğrafını çektikten sonra fosforlu kalem kullanır gibi parmağını cümlenin üzerinde gezdir, yalnızca o kelimeler seçilir. Daha hassas olmak için iki parmakla yakınlaştır. Silgi, Tümünü Temizle ve Tüm Sayfa da var.</p></details>
+<details><summary>Başlık veya yazar yanlış çıktı.</summary><p>Kapak tanıma, yazıların büyüklüğüne bakarak tahmin yürütür; bu yüzden çok süslü kapaklarda yanılabilir. Kitabı kaydetmeden önce başlığı ve yazarı düzeltebilirsin.</p></details>
+<details><summary>Sayfa numarası yanlış.</summary><p>Fotoğrafın kenarındaki rakamlardan okunur. Kaydetmeden önce sayfa alanında düzeltmen yeterli.</p></details>
+<details><summary>Alıntılarımı birden fazla cihazda görebilir miyim?</summary><p>Evet. Aynı Apple Hesabı ile iCloud’a giriş yaptıysan ve iCloud Drive açıksa, kitapların ve alıntıların otomatik olarak eşitlenir.</p></details>
+<details><summary>Widget’ı nasıl eklerim?</summary><p>Ana Ekran’a dokunup basılı tut, Düzenle &gt; Widget Ekle’ye dokun ve Bookmark Shot’ı seç. Kilitli Ekran için ekrana dokunup basılı tut, ardından Özelleştir’e dokun. Günün alıntısı orada görünür.</p></details>
+<details><summary>Kamera çalışmıyor.</summary><p>Ayarlar &gt; Bookmark Shot bölümünde kameraya ve fotoğraflara erişime izin verildiğinden emin ol. Fotoğraf çekmek için gerçek bir iPhone gerekir.</p></details>
+<details><summary>Neye ihtiyacım var?</summary><p>iOS 17.0 veya üstü yüklü bir iPhone.</p></details>
+<details><summary>Size nasıl ulaşabilirim?</summary><p>Uygulamanın Ayarlar (dişli) ekranından geri bildirim gönder ya da aşağıdaki adrese e-posta at. Genellikle iki üç gün içinde yanıt veririz.</p></details></div>
+      <p class="contact">Soruların ya da önerilerin mi var? <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> adresine yaz.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Bugün okuduğun cümleyi<br>tek fotoğrafla sakla</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">App Store’dan ücretsiz indir</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Dil"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr" aria-current="page">Türkçe</a></nav>
+    <p><a href="privacy.html">Gizlilik Politikası</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: Simpan kalimat favorit dari buku apa pun",
+  "description": "Foto halaman buku, lalu usap kalimat favoritmu. Hanya kalimat itu yang disimpan jadi teks, lengkap dengan judul dan halamannya. Semua fitur gratis.",
+  "hero": {
+    "headline": "Garis bawahi buku\ntanpa pena",
+    "lead": "Foto halamannya, usap kalimat yang kamu suka dengan jari, dan hanya kalimat itu yang tersimpan sebagai teks. Judul buku dan nomor halaman ikut tercatat.",
+    "cta": "Unduh gratis di App Store",
+    "note": "Semua fitur gratis, tanpa iklan."
+  },
+  "demo": {
+    "title": "Coba usap",
+    "lead": "Usap kalimat mana saja di halaman di bawah dengan jari atau mouse. Hanya kata yang kamu lewati yang masuk ke kartu.",
+    "book": "Deru Campur Debu",
+    "author": "Chairil Anwar",
+    "page": 7,
+    "pageLabel": "hlm. 7",
+    "text": "Kalau sampai waktuku 'Ku mau tak seorang 'kan merayu Tidak juga kau Tak perlu sedu sedan itu Aku ini binatang jalang Dari kumpulannya terbuang Biar peluru menembus kulitku Aku tetap meradang menerjang Luka dan bisa kubawa berlari Berlari Hingga hilang pedih peri Dan aku akan lebih tidak perduli Aku mau hidup seribu tahun lagi",
+    "result": "Teks yang Diambil",
+    "empty": "Usap sebuah kalimat, dan hasilnya muncul di sini.",
+    "eraser": "Penghapus",
+    "eraserOn": "Penghapus Aktif",
+    "clear": "Hapus Semua",
+    "all": "Seluruh Halaman",
+    "appName": "Bookmark Shot",
+    "note": "Demo web memakai halaman yang sudah disiapkan. Di aplikasi, teks dibaca dari foto yang kamu ambil. Dengan keyboard, tekan Tab untuk pindah ke frasa dan Enter untuk menambah atau menghapusnya."
+  },
+  "problem": {
+    "title": "Ke mana perginya kalimat-kalimat bagus?",
+    "text": "Buku pinjaman perpustakaan tidak boleh dicoret. Foto halaman tenggelam di antara ribuan foto di galeri. Diketik ulang ke aplikasi catatan, judul buku dan nomor halamannya jarang ikut tercatat. Bookmark Shot menyimpan kalimat, buku, dan halamannya cukup dengan dua gerakan: foto, lalu usap."
+  },
+  "features": [
+    {
+      "title": "Foto miring, halaman tetap lurus",
+      "text": "Setelah memotret halaman, sejajarkan keempat sudutnya, dan foto yang miring pun diluruskan rata seperti kertas. Makin tajam hurufnya, makin akurat pengenalannya.\nFoto yang sudah ada di galeri juga bisa dipakai.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Semua kutipan di satu tempat",
+      "text": "Bukumu tersusun di Perpustakaan dengan sampulnya, dan kutipanmu terkumpul dalam satu daftar. Cari berdasarkan kalimat, catatan, atau judul buku, dan beri hati pada kutipan yang ingin kamu baca lagi.\nTambah buku cukup dengan satu foto sampul. Judul dan penulis terbaca otomatis, begitu juga ISBN jika barcode di sampul belakang ikut terfoto.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Bertemu lagi dengan kalimat yang terlupa",
+      "text": "Setiap hari, Kutipan Hari Ini menghadirkan kembali satu kutipan yang kamu simpan, lengkap dengan catatan yang kamu tulis saat itu. Pasang widget-nya di Layar Utama atau Layar Terkunci.\nSuka kutipannya? Jadikan kartu bergaya kertas lalu bagikan.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Mulai dalam tiga langkah",
+    "items": [
+      {
+        "title": "Foto sampulnya",
+        "text": "Judul dan penulis langsung terisi. Ubah dulu sebelum disimpan jika perlu."
+      },
+      {
+        "title": "Foto halamannya",
+        "text": "Sejajarkan keempat sudut, dan halaman jadi lurus."
+      },
+      {
+        "title": "Usap kalimatnya",
+        "text": "Nomor halaman ditemukan dan ikut disimpan."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Alat di layar stabilo",
+    "rows": [
+      [
+        "Usap dengan jari",
+        "hanya memilih kata yang kamu lewati"
+      ],
+      [
+        "Cubit",
+        "perbesar agar usapan lebih tepat"
+      ],
+      [
+        "Geser",
+        "seret halaman yang sedang diperbesar"
+      ],
+      [
+        "Penghapus",
+        "mengeluarkan lagi kata yang sudah diusap"
+      ],
+      [
+        "Hapus Semua",
+        "membuang semua kata yang terpilih"
+      ],
+      [
+        "Seluruh Halaman",
+        "menyimpan semua teks di halaman"
+      ],
+      [
+        "Kolom halaman",
+        "nomor halaman yang ditemukan, bisa diubah"
+      ]
+    ],
+    "note": "Dengan VoiceOver, ketuk dua kali sebuah baris untuk menambah atau menghapusnya."
+  },
+  "pricing": {
+    "title": "Semua fitur gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Tambah buku dari sampul, ISBN dari barcode",
+        "Pelurusan halaman dan stabilo dengan jari",
+        "Nomor halaman otomatis",
+        "Perpustakaan, pencarian kutipan, dan favorit",
+        "Kutipan Hari Ini dengan widget Layar Utama dan Layar Terkunci",
+        "Bagikan sebagai gambar kartu",
+        "Sinkronisasi iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Dukung pengembang",
+      "items": [
+        "Kirim tip kecil dari Pengaturan, kalau kamu mau",
+        "Tip tidak membuka fitur apa pun. Aplikasinya tetap sama"
+      ]
+    },
+    "note": "Tanpa iklan, tanpa langganan."
+  },
+  "faq": {
+    "title": "Pertanyaan umum",
+    "items": [
+      {
+        "q": "Apakah foto atau kutipanku dikirim ke suatu tempat?",
+        "a": "Tidak. Pengenalan teks dilakukan sepenuhnya di perangkatmu dengan Apple Vision, dan foto serta kutipanmu tidak pernah dikirim ke server. Aplikasi ini juga bisa dipakai tanpa internet. Selengkapnya, lihat Kebijakan Privasi di bawah."
+      },
+      {
+        "q": "Bahasa apa saja yang bisa dibaca?",
+        "a": "Pengenalan teks dilakukan oleh iOS di perangkatmu. Aplikasi bisa membaca buku berbahasa Korea, Inggris, Jepang, Mandarin, Rusia, dan sebagian besar bahasa Eropa Barat, dan di versi iOS terbaru juga bahasa Indonesia, Thai, Vietnam, Turki, Polandia, Ceko, Belanda, serta bahasa-bahasa Nordik. Teks berbahasa Yunani belum bisa dikenali."
+      },
+      {
+        "q": "Bagaimana cara memilih hanya kalimat yang kuinginkan?",
+        "a": "Setelah memotret halaman, usap kalimatnya dengan jari seperti memakai stabilo, dan hanya kata-kata itu yang terpilih. Cubit untuk memperbesar agar lebih tepat. Ada juga Penghapus, Hapus Semua, dan Seluruh Halaman."
+      },
+      {
+        "q": "Judul atau penulisnya terbaca salah.",
+        "a": "Pengenalan sampul menebak dari ukuran huruf, jadi bisa keliru pada sampul yang sangat dekoratif. Kamu bisa membetulkan judul dan penulis sebelum menyimpan buku."
+      },
+      {
+        "q": "Nomor halamannya salah.",
+        "a": "Nomor halaman dibaca dari angka di tepi foto. Cukup betulkan di kolom halaman sebelum menyimpan."
+      },
+      {
+        "q": "Bisakah aku melihat kutipan di beberapa perangkat?",
+        "a": "Bisa. Jika kamu masuk ke iCloud dengan Akun Apple yang sama dan iCloud Drive aktif, buku dan kutipanmu tersinkron otomatis."
+      },
+      {
+        "q": "Bagaimana cara menambahkan widget?",
+        "a": "Sentuh dan tahan Layar Utama, ketuk Edit > Tambah Widget, lalu pilih Bookmark Shot. Untuk Layar Terkunci, sentuh dan tahan layarnya, lalu ketuk Sesuaikan. Kutipan Hari Ini akan muncul di sana."
+      },
+      {
+        "q": "Kameranya tidak berfungsi.",
+        "a": "Periksa di Pengaturan > Bookmark Shot bahwa akses ke kamera dan foto sudah diizinkan. Memotret memerlukan iPhone sungguhan."
+      },
+      {
+        "q": "Apa yang kubutuhkan?",
+        "a": "iPhone dengan iOS 17.0 atau lebih baru."
+      },
+      {
+        "q": "Bagaimana cara menghubungi kalian?",
+        "a": "Kirim masukan dari layar Pengaturan (ikon roda gigi) di aplikasi, atau kirim email ke alamat di bawah. Biasanya kami membalas dalam dua sampai tiga hari."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Simpan kalimat yang kamu baca hari ini,\ncukup dengan satu foto",
+    "cta": "Unduh gratis di App Store"
+  },
+  "ui": {
+    "skip": "Langsung ke konten",
+    "languages": "Bahasa",
+    "privacy": "Kebijakan Privasi",
+    "contact": "Ada pertanyaan atau masukan? Tulis ke {email}."
+  }
+}

@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-Hans">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>划线 — 一张照片，留住打动你的句子</title>
-<meta name="description" content="划线是一款 iPhone 应用：拍下书的封面和书页，用手指划过喜欢的句子，就能把它保存下来。">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>划线：拍下书页，把喜欢的句子存成文字</title>
+  <meta name="description" content="拍下书页，用手指在喜欢的句子上一划，只把这一句存成文字，书名和页码一并记下。所有功能免费。">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="划线：拍下书页，把喜欢的句子存成文字">
+  <meta property="og:description" content="拍下书页，用手指在喜欢的句子上一划，只把这一句存成文字，书名和页码一并记下。所有功能免费。">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/zh-Hans/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="页面">
-  <a href="./" aria-current="page">关于</a>
-  <a href="support.html">支持</a>
-  <a href="privacy.html">隐私政策</a>
-</nav>
-<h1>划线 📚</h1>
-<p class="sub">书里想划线的句子，用手指一划就好</p>
+  <a class="skip" href="#main">跳到正文</a>
+  <header class="bar">
+    <a class="brand" href="../zh-Hans/"><img src="../icon.png" alt="" width="32" height="32">划线</a>
+    <a class="lang-link" href="#languages">语言</a>
+  </header>
 
-<p class="lead">读纸质书时想划线的那句话，一张照片就能留住。拍下封面和有好句子的那一页，应用会记住它出自哪本书、第几页。像用荧光笔一样，用手指在书页上划过，就只保存那一句。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>不用笔，<br>也能给书划线</h1>
+        <p class="lead">拍下书页，手指在喜欢的句子上一划，只有这一句会存成文字，书名和页码也一并记下。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">在 App Store 免费下载</a><a class="try" href="#try">划一下试试 ↓</a></div>
+        <p class="muted small">所有功能免费，没有广告。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/01-highlight.jpg" alt="不用笔， 也能给书划线" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>使用方法</h2>
-<div class="card"><h3>📖 添加书籍</h3><p>拍下封面，书名和作者会自动填好。如果拍到了封底的条形码，ISBN 也会一并读取。保存前所有内容都可以修改。</p></div>
-<div class="card"><h3>📐 框选书页</h3><p>把四个角对准书页，照片就会像纸张一样被拉平，文字识别得更清楚。</p></div>
-<div class="card"><h3>🖍️ 用手指划线</h3><p>在想要的句子上划过，就只会选中那些字。双指放大可以划得更精确，还有橡皮擦和“全选”。页码也会自动识别。</p></div>
-<div class="card"><h3>🗂️ 我的摘录</h3><p>保存的句子按书整理在书架里，随时翻看，支持全文搜索和收藏。</p></div>
-<div class="card"><h3>✨ 今日一句</h3><p>每天从你保存的句子里挑出一句送到你面前，还能做成卡片分享。</p></div>
 
-<h2>你的摘录只留在你的设备上</h2>
-<p>文字识别在设备上完成，照片和摘录不会被发送到开发者的服务器。登录 iCloud 后，它们会通过你自己的 iCloud 账户在你的设备之间同步。详情请参阅<a href="privacy.html">隐私政策</a>。</p>
+    <section class="reveal" id="try">
+      <h2>划一下试试</h2>
+      <p class="muted">用手指或鼠标在下面这页的任意句子上划过，只有划到的字会出现在卡片上。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;划一下试试&quot;, &quot;lead&quot;: &quot;用手指或鼠标在下面这页的任意句子上划过，只有划到的字会出现在卡片上。&quot;, &quot;book&quot;: &quot;匆匆&quot;, &quot;author&quot;: &quot;朱自清&quot;, &quot;page&quot;: 3, &quot;pageLabel&quot;: &quot;第3页&quot;, &quot;text&quot;: &quot;燕子去了，有再来的时候；杨柳枯了，有再青的时候；桃花谢了，有再开的时候。但是，聪明的，你告诉我，我们的日子为什么一去不复返呢？——是有人偷了他们罢：那是谁？又藏在何处呢？是他们自己逃走了罢：现在又到了哪里呢？我不知道他们给了我多少日子；但我的手确乎是渐渐空虚了。在默默里算着，八千多日子已经从我手中溜去；像针尖上一滴水滴在大海里，我的日子滴在时间的流里，没有声音，也没有影子。&quot;, &quot;result&quot;: &quot;提取的句子&quot;, &quot;empty&quot;: &quot;在句子上划一下，就会显示在这里。&quot;, &quot;eraser&quot;: &quot;橡皮擦&quot;, &quot;eraserOn&quot;: &quot;橡皮擦已开&quot;, &quot;clear&quot;: &quot;全部清除&quot;, &quot;all&quot;: &quot;整页&quot;, &quot;appName&quot;: &quot;划线&quot;, &quot;note&quot;: &quot;网页演示使用的是预先准备好的书页，应用会从你拍的照片里读取文字。使用键盘时，按 Tab 键移到词句，再按 Enter 键即可添加或移除。&quot;}"></div>
+    </section>
 
-<h2>系统要求</h2>
-<ul>
-  <li>iOS 17.0 或更高版本</li>
-</ul>
+    <section class="problem reveal">
+      <h2>读到的好句子，最后都去哪了？</h2>
+      <p>图书馆借的书不能写写画画。拍下的书页照片，转眼就淹没在几千张相册照片里。打进备忘录吧，书名和页码又常常漏掉。用划线，拍一下、划一下，句子、书名和页码就都留下了。</p>
+    </section>
 
-<p><a class="cta" href="support.html">支持与常见问题</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>拍歪了，也能变平整</h2>
+        <p>拍下书页后对准四个角，斜着拍的照片也会被拉平，像一张纸一样端正。字越清晰，识别越准确。<br>相册里已有的照片也能用。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/02-region.jpg" alt="拍歪了，也能变平整" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 划线 · <a href="support.html">支持</a> · <a href="privacy.html">隐私政策</a>
-<nav class="langs" aria-label="语言">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans" aria-current="true">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>所有摘录，集中一处</h2>
+        <p>书以封面排列在书架上，句子汇成一个列表。可以按句子、笔记或书名搜索，想再读的句子点个爱心。<br>拍一张封面就能添加书籍，自动读取书名和作者；拍到封底条形码，ISBN 也会填好。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/04-quotes.jpg" alt="所有摘录，集中一处" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>与遗忘的句子重逢</h2>
+        <p>今日一句每天从你的摘录中挑出一句，连同当时写下的笔记一起送到你面前。用小组件把它放在主屏幕或锁定屏幕上。<br>喜欢的话，还能做成纸张质感的卡片图片分享出去。</p>
+      </div>
+      <div class="phone"><img src="../img/zh-Hans/05-daily.jpg" alt="与遗忘的句子重逢" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>三步上手</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>拍封面</h3><p>自动填好书名和作者，保存前可以修改。</p></li>
+<li class="card"><span class="n">2</span><h3>拍书页</h3><p>对准四个角，页面就会变平整。</p></li>
+<li class="card"><span class="n">3</span><h3>划句子</h3><p>自动找到页码，一起保存。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>划线界面的操作</h2>
+      <div class="card table">
+        <dl><div><dt>手指划过</dt><dd>只选中划到的字</dd></div><div><dt>双指缩放</dt><dd>放大后划得更准</dd></div><div><dt>移动</dt><dd>拖动放大后的页面</dd></div><div><dt>橡皮擦</dt><dd>把划过的字取消选中</dd></div><div><dt>全部清除</dt><dd>取消所有已选的字</dd></div><div><dt>整页</dt><dd>保留整页文字</dd></div><div><dt>页码栏</dt><dd>显示识别到的页码，可以修改</dd></div></dl>
+      </div>
+      <p class="muted">使用 VoiceOver 时，连按两次某一行即可添加或移除。</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>所有功能免费</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>免费</h3>
+          <ul><li>拍封面添加书籍，扫条形码读取 ISBN</li><li>书页校正与手指划线</li><li>自动识别页码</li><li>书架、句子搜索与收藏</li><li>今日一句及主屏幕、锁定屏幕小组件</li><li>生成卡片图片分享</li><li>iCloud 同步</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>支持开发者</h3>
+          <ul><li>愿意的话，可以在设置里打赏一点心意</li><li>打赏不会解锁任何功能，打不打赏，应用都一样</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">没有广告，没有订阅。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>常见问题</h2>
+      <div class="faq"><details><summary>照片或摘录会被发送到别处吗？</summary><p>不会。文字识别通过 Apple Vision 全部在设备上完成，照片和摘录不会发送到服务器，离线也能使用。详情请参阅下方的隐私政策。</p></details>
+<details><summary>可以识别哪些语言的书？</summary><p>文字识别由设备上的 iOS 完成。可以识别中文、英语、日语、韩语、俄语以及大多数西欧语言的书；在较新的 iOS 版本上，还支持泰语、越南语、土耳其语、印尼语、波兰语、捷克语、荷兰语和北欧语言。目前还无法识别希腊语。</p></details>
+<details><summary>怎样只选中想要的句子？</summary><p>拍下书页后，像用荧光笔一样，用手指在句子上划过，就只会选中那些字。双指放大可以划得更精确。另外还有“橡皮擦”“全部清除”和“整页”。</p></details>
+<details><summary>书名或作者识别错了。</summary><p>封面识别是根据字体大小来判断的，遇到设计感很强的封面可能会认错。保存书籍前，可以修改书名和作者。</p></details>
+<details><summary>页码不对。</summary><p>页码是从照片边缘的数字读取的。保存前在页码栏里改过来就好。</p></details>
+<details><summary>能在多台设备上看到摘录吗？</summary><p>可以。只要用同一个 Apple 账户登录 iCloud 并打开 iCloud 云盘，书籍和摘录就会自动同步。</p></details>
+<details><summary>怎样添加小组件？</summary><p>在主屏幕上长按，轻点“编辑”&gt;“添加小组件”，然后选择“划线”。锁定屏幕则长按后轻点“自定”。今日一句就会显示在那里。</p></details>
+<details><summary>相机无法使用。</summary><p>请在“设置”›“划线”中确认已允许访问相机和照片。拍照需要在 iPhone 真机上进行。</p></details>
+<details><summary>需要什么条件？</summary><p>一台装有 iOS 17.0 或更高版本的 iPhone。</p></details>
+<details><summary>怎么联系你们？</summary><p>可以在应用的设置（齿轮）页面发送反馈，或发邮件到下方地址。我们通常会在两三天内回复。</p></details></div>
+      <p class="contact">有问题或建议？欢迎写信至 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今天读到的好句子，<br>拍一张就留下</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">在 App Store 免费下载</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="语言"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans" aria-current="page">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">隐私政策</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

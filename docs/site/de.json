@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: Lieblingssätze aus jedem Buch bewahren",
+  "description": "Fotografiere eine Buchseite und streich über deinen Lieblingssatz. Nur er wird als Text gespeichert, mit Buch und Seitenzahl. Alles kostenlos.",
+  "hero": {
+    "headline": "Unterstreichen,\nganz ohne Stift",
+    "lead": "Fotografiere die Seite, streich mit dem Finger über den Satz, der dich berührt, und nur dieser Satz wird als Text gespeichert. Buch und Seitenzahl kommen gleich mit.",
+    "cta": "Kostenlos im App Store laden",
+    "note": "Alle Funktionen sind kostenlos und ohne Werbung."
+  },
+  "demo": {
+    "title": "Probier es aus",
+    "lead": "Fahre mit dem Finger oder der Maus über einen beliebigen Satz auf der Seite unten. Nur die Wörter, die du überstreichst, landen auf der Karte.",
+    "book": "Briefe an einen jungen Dichter",
+    "author": "Rainer Maria Rilke",
+    "page": 23,
+    "pageLabel": "S. 23",
+    "text": "Sie sind so jung, so vor allem Anfang, und ich möchte Sie, so gut ich es kann, bitten, lieber Herr, Geduld zu haben gegen alles Ungelöste in Ihrem Herzen und zu versuchen, die Fragen selbst liebzuhaben wie verschlossene Stuben und wie Bücher, die in einer sehr fremden Sprache geschrieben sind. Forschen Sie jetzt nicht nach den Antworten, die Ihnen nicht gegeben werden können, weil Sie sie nicht leben könnten. Und es handelt sich darum, alles zu leben. Leben Sie jetzt die Fragen.",
+    "result": "Erkannter Text",
+    "empty": "Streich über einen Satz, dann erscheint er hier.",
+    "eraser": "Radierer",
+    "eraserOn": "Radierer an",
+    "clear": "Alles löschen",
+    "all": "Ganze Seite",
+    "appName": "Bookmark Shot",
+    "note": "Die Web-Demo nutzt eine vorbereitete Seite. In der App wird der Text aus deinem eigenen Foto gelesen. Mit der Tastatur springst du per Tab zu einer Wortgruppe und fügst sie mit der Eingabetaste hinzu oder entfernst sie."
+  },
+  "problem": {
+    "title": "Wo landen eigentlich die schönen Sätze?",
+    "text": "Das Buch ist aus der Bücherei, also darfst du nichts anstreichen. Ein Foto der Seite geht zwischen Tausenden Bildern in der Mediathek unter. Und tippst du den Satz in eine Notizen-App, fehlen meist Titel und Seitenzahl. Bookmark Shot hält Satz, Buch und Seite mit zwei Gesten fest: knipsen, dann wischen."
+  },
+  "features": [
+    {
+      "title": "Schiefes Foto, gerade Seite",
+      "text": "Nach dem Foto richtest du die vier Ecken aus, und selbst eine schräg aufgenommene Seite wird glatt wie Papier. Schärfere Buchstaben heißen bessere Erkennung.\nAuch Fotos aus deiner Mediathek funktionieren.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Alle Zitate an einem Ort",
+      "text": "Deine Bücher stehen in einer Bibliothek aus Covern, deine Zitate sammeln sich in einer Liste. Suche nach Satz, Notiz oder Buchtitel und markiere mit einem Herz, was du wieder lesen möchtest.\nEin Buch fügst du mit einem einzigen Foto vom Cover hinzu. Titel und Autor werden für dich erkannt und, wenn der Barcode auf der Rückseite im Bild ist, auch die ISBN.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Sätze, die du vergessen hattest",
+      "text": "Das Zitat des Tages bringt dir jeden Tag eines deiner gespeicherten Zitate zurück, zusammen mit deiner Notiz. Mit einem Widget hast du es auf dem Home-Bildschirm oder dem Sperrbildschirm.\nGefällt es dir? Mach daraus eine Karte im Papierlook und teile sie.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "In drei Schritten loslegen",
+    "items": [
+      {
+        "title": "Cover fotografieren",
+        "text": "Titel und Autor werden eingetragen. Vor dem Speichern kannst du sie ändern."
+      },
+      {
+        "title": "Seite fotografieren",
+        "text": "Richte die vier Ecken aus, und die Seite wird gerade."
+      },
+      {
+        "title": "Satz markieren",
+        "text": "Die Seitenzahl wird erkannt und gleich mitgespeichert."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Werkzeuge beim Markieren",
+    "rows": [
+      [
+        "Mit dem Finger wischen",
+        "wählt nur die Wörter aus, die du überstreichst"
+      ],
+      [
+        "Mit zwei Fingern zoomen",
+        "vergrößert die Seite für genaueres Markieren"
+      ],
+      [
+        "Verschieben",
+        "bewegt die vergrößerte Seite"
+      ],
+      [
+        "Radierer",
+        "nimmt markierte Wörter wieder heraus"
+      ],
+      [
+        "Alles löschen",
+        "entfernt alle ausgewählten Wörter"
+      ],
+      [
+        "Ganze Seite",
+        "übernimmt den gesamten Text der Seite"
+      ],
+      [
+        "Seitenfeld",
+        "die erkannte Seitenzahl, änderbar"
+      ]
+    ],
+    "note": "Mit VoiceOver fügst du eine Zeile per Doppeltippen hinzu oder entfernst sie."
+  },
+  "pricing": {
+    "title": "Alle Funktionen kostenlos",
+    "free": {
+      "name": "Kostenlos",
+      "items": [
+        "Bücher per Cover hinzufügen, ISBN per Barcode",
+        "Seiten entzerren und mit dem Finger markieren",
+        "Seitenzahl automatisch",
+        "Bibliothek, Zitatsuche und Favoriten",
+        "Zitat des Tages mit Widgets für Home-Bildschirm und Sperrbildschirm",
+        "Als Kartenbild teilen",
+        "Synchronisierung über iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Die Entwicklung unterstützen",
+      "items": [
+        "Wenn du magst, gibst du in den Einstellungen ein kleines Trinkgeld",
+        "Trinkgeld schaltet nichts frei. Die App bleibt genau dieselbe"
+      ]
+    },
+    "note": "Keine Werbung, kein Abo."
+  },
+  "faq": {
+    "title": "Fragen",
+    "items": [
+      {
+        "q": "Werden meine Fotos oder Zitate irgendwohin gesendet?",
+        "a": "Nein. Die Texterkennung läuft mit Apple Vision vollständig auf deinem Gerät, deine Fotos und Zitate gehen nie an einen Server. Sie funktioniert auch offline. Mehr dazu in der Datenschutzerklärung unten."
+      },
+      {
+        "q": "Welche Sprachen kann die App lesen?",
+        "a": "Die Texterkennung übernimmt iOS direkt auf deinem Gerät. Erkannt werden Bücher auf Koreanisch, Englisch, Japanisch, Chinesisch, Russisch und in den meisten westeuropäischen Sprachen, mit aktuellen iOS-Versionen auch auf Thai, Vietnamesisch, Türkisch, Indonesisch, Polnisch, Tschechisch, Niederländisch und in den nordischen Sprachen. Griechisch wird noch nicht erkannt."
+      },
+      {
+        "q": "Wie wähle ich nur den Satz aus, den ich möchte?",
+        "a": "Fahre nach dem Foto mit dem Finger wie mit einem Textmarker über den Satz, und nur diese Wörter werden ausgewählt. Mit zwei Fingern zoomst du für mehr Genauigkeit. Außerdem gibt es den Radierer, „Alles löschen“ und „Ganze Seite“."
+      },
+      {
+        "q": "Titel oder Autor sind falsch erkannt.",
+        "a": "Die Cover-Erkennung schätzt anhand der Schriftgröße, deshalb kann sie bei sehr verspielten Covern danebenliegen. Titel und Autor kannst du vor dem Speichern des Buchs korrigieren."
+      },
+      {
+        "q": "Die Seitenzahl stimmt nicht.",
+        "a": "Sie wird aus den Zahlen am Rand des Fotos gelesen. Korrigiere sie einfach vor dem Speichern im Seitenfeld."
+      },
+      {
+        "q": "Kann ich meine Zitate auf mehreren Geräten sehen?",
+        "a": "Ja. Wenn du überall mit demselben Apple Account bei iCloud angemeldet bist und iCloud Drive aktiviert ist, werden Bücher und Zitate automatisch synchronisiert."
+      },
+      {
+        "q": "Wie füge ich das Widget hinzu?",
+        "a": "Halte den Finger auf dem Home-Bildschirm, tippe auf „Bearbeiten“ > „Widget hinzufügen“ und wähle Bookmark Shot. Für den Sperrbildschirm hältst du den Finger darauf und tippst auf „Anpassen“. Dort erscheint das Zitat des Tages."
+      },
+      {
+        "q": "Die Kamera funktioniert nicht.",
+        "a": "Prüfe unter Einstellungen > Bookmark Shot, ob der Zugriff auf Kamera und Fotos erlaubt ist. Zum Fotografieren brauchst du ein echtes iPhone."
+      },
+      {
+        "q": "Was brauche ich?",
+        "a": "Ein iPhone mit iOS 17.0 oder neuer."
+      },
+      {
+        "q": "Wie erreiche ich euch?",
+        "a": "Schick uns Feedback über den Einstellungsbildschirm (Zahnrad) der App oder per E-Mail an die Adresse unten. Wir antworten meist innerhalb von zwei bis drei Tagen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Behalte den Satz von heute,\nmit nur einem Foto",
+    "cta": "Kostenlos im App Store laden"
+  },
+  "ui": {
+    "skip": "Zum Inhalt springen",
+    "languages": "Sprache",
+    "privacy": "Datenschutzerklärung",
+    "contact": "Fragen oder Feedback? Schreib an {email}."
+  }
+}

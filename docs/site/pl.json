@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: ulubione zdania z każdej książki",
+  "description": "Zrób zdjęcie strony i przesuń palcem po zdaniu. Zapisze się tylko ono, jako tekst, razem z książką i numerem strony. Wszystko za darmo.",
+  "hero": {
+    "headline": "Podkreślaj w książce\nbez ołówka",
+    "lead": "Sfotografuj stronę, przesuń palcem po zdaniu, które ci się podoba, a tylko ono zapisze się jako tekst. Książka i numer strony dopiszą się same.",
+    "cta": "Pobierz za darmo z App Store",
+    "note": "Wszystkie funkcje są bezpłatne, bez reklam."
+  },
+  "demo": {
+    "title": "Wypróbuj",
+    "lead": "Przesuń palcem lub myszą po dowolnym zdaniu na stronie poniżej. Na kartę trafią tylko słowa, przez które przejedziesz.",
+    "book": "Treny",
+    "author": "Jan Kochanowski",
+    "page": 14,
+    "pageLabel": "s. 14",
+    "text": "Tyś za wszytki mówiła, za wszytki śpiewała, Wszytkiś w domu kąciki zawżdy pobiegała. Nie dopuściłaś nigdy matce się frasować Ani ojcu myśleniem zbytnim głowy psować, To tego, to owego wdzięcznie obłapiając I onym swym uciesznym śmiechem zabawiając. Teraz wszytko umilkło, szczere pustki w domu, Nie masz zabawki, nie masz rozśmiać się nikomu, Z każdego kąta żałość człowieka ujmuje, A serce swej pociechy darmo upatruje.",
+    "result": "Pobrany tekst",
+    "empty": "Przesuń po zdaniu, a pojawi się tutaj.",
+    "eraser": "Gumka",
+    "eraserOn": "Gumka włączona",
+    "clear": "Wyczyść wszystko",
+    "all": "Cała strona",
+    "appName": "Bookmark Shot",
+    "note": "Demo w przeglądarce korzysta z gotowej strony. Aplikacja odczytuje tekst ze zdjęcia, które zrobisz. Na klawiaturze przejdź do fragmentu klawiszem Tab i naciśnij Enter, by go dodać lub usunąć."
+  },
+  "problem": {
+    "title": "Gdzie lądują piękne zdania?",
+    "text": "Książka jest z biblioteki, więc nie wolno w niej pisać. Zdjęcie strony ginie wśród tysięcy innych w bibliotece zdjęć. Przepisane do notatek zdanie rzadko ma przy sobie tytuł i numer strony. Bookmark Shot zachowuje zdanie, książkę i stronę dwoma ruchami: zdjęcie i przesunięcie palcem."
+  },
+  "features": [
+    {
+      "title": "Krzywe zdjęcie, prosta strona",
+      "text": "Po zrobieniu zdjęcia dopasuj cztery rogi, a nawet krzywo sfotografowana strona wyprostuje się jak kartka. Ostrzejsze litery to lepsze rozpoznawanie.\nZdjęcia, które już masz w bibliotece, też się nadadzą.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Wszystkie cytaty w jednym miejscu",
+      "text": "Książki stoją w biblioteczce z okładkami, a cytaty zbierają się na jednej liście. Szukaj po treści, notatce lub tytule książki i oznaczaj serduszkiem te, do których chcesz wracać.\nKsiążkę dodasz jednym zdjęciem okładki. Tytuł i autor uzupełnią się same, a jeśli w kadrze jest kod kreskowy z tyłu okładki, także ISBN.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Wróć do zapomnianych zdań",
+      "text": "Cytat dnia codziennie przypomina jeden z zapisanych cytatów razem z notatką, którą wtedy zostawiłeś. Dzięki widżetowi masz go na ekranie początkowym lub ekranie blokady.\nSpodobał się? Zrób z niego kartę w stylu papierowej kartki i udostępnij.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Trzy kroki na start",
+    "items": [
+      {
+        "title": "Sfotografuj okładkę",
+        "text": "Tytuł i autor wpiszą się same. Przed zapisaniem możesz je zmienić."
+      },
+      {
+        "title": "Sfotografuj stronę",
+        "text": "Dopasuj cztery rogi, a strona się wyprostuje."
+      },
+      {
+        "title": "Zaznacz zdanie",
+        "text": "Numer strony zostanie znaleziony i zapisany razem z nim."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Narzędzia na ekranie zaznaczania",
+    "rows": [
+      [
+        "Przesunięcie palcem",
+        "zaznacza tylko słowa, przez które przejedziesz"
+      ],
+      [
+        "Rozsunięcie palców",
+        "powiększa, by zaznaczać dokładniej"
+      ],
+      [
+        "Przesuwanie",
+        "przesuwa powiększoną stronę"
+      ],
+      [
+        "Gumka",
+        "usuwa zaznaczone słowa"
+      ],
+      [
+        "Wyczyść wszystko",
+        "usuwa całe zaznaczenie"
+      ],
+      [
+        "Cała strona",
+        "zachowuje cały tekst strony"
+      ],
+      [
+        "Pole strony",
+        "znaleziony numer strony, do edycji"
+      ]
+    ],
+    "note": "Z VoiceOver stuknij dwukrotnie wiersz, by go dodać lub usunąć."
+  },
+  "pricing": {
+    "title": "Wszystkie funkcje za darmo",
+    "free": {
+      "name": "Za darmo",
+      "items": [
+        "Dodawanie książek po okładce, ISBN z kodu kreskowego",
+        "Prostowanie stron i zaznaczanie palcem",
+        "Automatyczny numer strony",
+        "Biblioteczka, wyszukiwanie cytatów i ulubione",
+        "Cytat dnia z widżetami na ekran początkowy i ekran blokady",
+        "Udostępnianie jako karta",
+        "Synchronizacja przez iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Wesprzyj twórcę",
+      "items": [
+        "Jeśli chcesz, zostaw drobny napiwek w Ustawieniach",
+        "Napiwki niczego nie odblokowują. Aplikacja jest taka sama"
+      ]
+    },
+    "note": "Bez reklam i bez subskrypcji."
+  },
+  "faq": {
+    "title": "Pytania",
+    "items": [
+      {
+        "q": "Czy moje zdjęcia lub cytaty są gdzieś wysyłane?",
+        "a": "Nie. Rozpoznawanie tekstu odbywa się w całości na urządzeniu za pomocą Apple Vision, a zdjęcia i cytaty nigdy nie trafiają na serwer. Działa też bez internetu. Szczegóły znajdziesz w Polityce prywatności poniżej."
+      },
+      {
+        "q": "Jakie języki potrafi odczytać?",
+        "a": "Tekst rozpoznaje system iOS na twoim urządzeniu. Odczytuje książki po koreańsku, angielsku, japońsku, chińsku, rosyjsku i w większości języków zachodnioeuropejskich, a w nowszych wersjach iOS także po tajsku, wietnamsku, turecku, indonezyjsku, polsku, czesku, niderlandzku i w językach nordyckich. Greckiego jeszcze nie rozpoznaje."
+      },
+      {
+        "q": "Jak zaznaczyć tylko wybrane zdanie?",
+        "a": "Po zrobieniu zdjęcia przesuń palcem po zdaniu jak zakreślaczem, a zaznaczą się tylko te słowa. Dla większej precyzji powiększ dwoma palcami. Jest też gumka, „Wyczyść wszystko” i „Cała strona”."
+      },
+      {
+        "q": "Tytuł lub autor odczytał się błędnie.",
+        "a": "Rozpoznawanie okładki zgaduje na podstawie wielkości liter, więc przy bardzo ozdobnych okładkach może się pomylić. Tytuł i autora poprawisz przed zapisaniem książki."
+      },
+      {
+        "q": "Numer strony jest zły.",
+        "a": "Odczytuje się go z cyfr na brzegu zdjęcia. Po prostu popraw go w polu strony przed zapisaniem."
+      },
+      {
+        "q": "Czy mogę widzieć cytaty na kilku urządzeniach?",
+        "a": "Tak. Jeśli jesteś zalogowany do iCloud tym samym Kontem Apple i masz włączony iCloud Drive, książki i cytaty synchronizują się automatycznie."
+      },
+      {
+        "q": "Jak dodać widżet?",
+        "a": "Dotknij i przytrzymaj ekran początkowy, stuknij Edycja > Dodaj widżet i wybierz Bookmark Shot. Na ekranie blokady dotknij go i przytrzymaj, a potem stuknij Dostosuj. Tam pojawi się Cytat dnia."
+      },
+      {
+        "q": "Aparat nie działa.",
+        "a": "Sprawdź w Ustawienia > Bookmark Shot, czy dostęp do aparatu i zdjęć jest włączony. Do robienia zdjęć potrzebny jest prawdziwy iPhone."
+      },
+      {
+        "q": "Czego potrzebuję?",
+        "a": "iPhone’a z iOS 17.0 lub nowszym."
+      },
+      {
+        "q": "Jak się skontaktować?",
+        "a": "Wyślij opinię z ekranu Ustawień w aplikacji (koło zębate) albo napisz na adres poniżej. Zwykle odpowiadamy w ciągu dwóch, trzech dni."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Zachowaj dzisiejsze zdanie\njednym zdjęciem",
+    "cta": "Pobierz za darmo z App Store"
+  },
+  "ui": {
+    "skip": "Przejdź do treści",
+    "languages": "Język",
+    "privacy": "Polityka prywatności",
+    "contact": "Pytania lub uwagi? Napisz na {email}."
+  }
+}

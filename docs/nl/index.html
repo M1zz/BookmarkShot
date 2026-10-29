@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="nl">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — bewaar je mooiste zinnen met één foto</title>
-<meta name="description" content="Bookmark Shot is een iPhone-app waarmee je de kaft en een pagina van een boek fotografeert en met je vinger over je favoriete zinnen veegt om ze te bewaren.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: bewaar je mooiste zinnen uit elk boek</title>
+  <meta name="description" content="Fotografeer een pagina en veeg met je vinger over een zin die je mooi vindt. Alleen die zin wordt tekst, met boek en paginanummer. Alles is gratis.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: bewaar je mooiste zinnen uit elk boek">
+  <meta property="og:description" content="Fotografeer een pagina en veeg met je vinger over een zin die je mooi vindt. Alleen die zin wordt tekst, met boek en paginanummer. Alles is gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/nl/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/nl/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Pagina’s">
-  <a href="./" aria-current="page">Over de app</a>
-  <a href="support.html">Ondersteuning</a>
-  <a href="privacy.html">Privacybeleid</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">De zinnen die je in een boek onderstreept, met je vinger</p>
+  <a class="skip" href="#main">Naar de inhoud</a>
+  <header class="bar">
+    <a class="brand" href="../nl/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Taal</a>
+  </header>
 
-<p class="lead">Bewaar de zin die je in een papieren boek zou onderstrepen, met maar één foto. Fotografeer de kaft en de pagina met een passage die je raakt, en de app onthoudt uit welk boek en van welke pagina die komt. Veeg met je vinger over de pagina alsof het een markeerstift is, en alleen die zin wordt bewaard.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Onderstrepen<br>zonder pen</h1>
+        <p class="lead">Fotografeer de pagina, veeg met je vinger over de zin die je mooi vindt, en alleen die zin wordt als tekst bewaard. Boek en paginanummer gaan mee.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Gratis downloaden in de App Store</a><a class="try" href="#try">Probeer het eens ↓</a></div>
+        <p class="muted small">Alle functies gratis, zonder advertenties.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/01-highlight.jpg" alt="Onderstrepen zonder pen" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Zo werkt het</h2>
-<div class="card"><h3>📖 Een boek toevoegen</h3><p>Fotografeer de kaft en titel en auteur worden voor je ingevuld. Staat de streepjescode op de achterkant in beeld, dan wordt ook het ISBN gelezen. Je kunt alles aanpassen voordat je het bewaart.</p></div>
-<div class="card"><h3>📐 Het paginavlak kiezen</h3><p>Zet de vier hoeken op de randen van de pagina en de foto wordt rechtgetrokken als een vel papier, zodat de tekst scherper wordt herkend.</p></div>
-<div class="card"><h3>🖍️ Onderstrepen met je vinger</h3><p>Veeg over de zin die je wilt en alleen die woorden worden geselecteerd. Zoom in met twee vingers om preciezer te vegen, en gebruik de gum of Alles selecteren. Ook het paginanummer wordt voor je gevonden.</p></div>
-<div class="card"><h3>🗂️ Je verzameling</h3><p>Vind je bewaarde zinnen terug in een bibliotheek per boek, met zoeken in de tekst en favorieten.</p></div>
-<div class="card"><h3>✨ Citaat van de dag</h3><p>Elke dag komt een van je bewaarde zinnen bij je terug, en je kunt hem als kaart delen.</p></div>
 
-<h2>Je zinnen blijven op je apparaat</h2>
-<p>De tekstherkenning gebeurt op je apparaat, en je foto’s en zinnen worden nooit naar servers van de ontwikkelaar gestuurd. Ben je ingelogd bij iCloud, dan worden ze via je eigen iCloud-account gesynchroniseerd tussen je apparaten. Lees meer in het <a href="privacy.html">privacybeleid</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Probeer het eens</h2>
+      <p class="muted">Veeg met je vinger of muis over een zin op de pagina hieronder. Alleen de woorden die je raakt, komen op de kaart.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Probeer het eens&quot;, &quot;lead&quot;: &quot;Veeg met je vinger of muis over een zin op de pagina hieronder. Alleen de woorden die je raakt, komen op de kaart.&quot;, &quot;book&quot;: &quot;Max Havelaar&quot;, &quot;author&quot;: &quot;Multatuli&quot;, &quot;page&quot;: 7, &quot;pageLabel&quot;: &quot;p. 7&quot;, &quot;text&quot;: &quot;en het werk aan te vangen, dat gij, lieve lezer, zo-even in de hand hebt genomen, en dat ge lezen moet als ge makelaar in koffie zijt, of als ge wat anders zijt. Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van, iets dergelijks te lezen, omdat ik een man van zaken ben.&quot;, &quot;result&quot;: &quot;Opgehaalde tekst&quot;, &quot;empty&quot;: &quot;Veeg over een zin en die verschijnt hier.&quot;, &quot;eraser&quot;: &quot;Gum&quot;, &quot;eraserOn&quot;: &quot;Gum aan&quot;, &quot;clear&quot;: &quot;Alles wissen&quot;, &quot;all&quot;: &quot;Hele pagina&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;De webdemo gebruikt een kant-en-klare pagina. De app leest de tekst uit een foto die je zelf maakt. Met een toetsenbord ga je met Tab naar een woordgroep en voeg je die met Enter toe of haal je die weg.&quot;}"></div>
+    </section>
 
-<h2>Systeemvereisten</h2>
-<ul>
-  <li>iOS 17.0 of nieuwer</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Waar blijven die mooie zinnen?</h2>
+      <p>In een boek van de bibliotheek mag je niet strepen. Een foto van de pagina verdwijnt tussen duizenden andere in je fotorol. Typ je de zin over in een notitie-app, dan ontbreken titel en paginanummer meestal. Bookmark Shot bewaart de zin, het boek en de pagina in twee gebaren: fotograferen en vegen.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Ondersteuning en veelgestelde vragen</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Scheve foto, rechte pagina</h2>
+        <p>Zet na de foto de vier hoeken goed, en zelfs een schuin genomen foto wordt rechtgetrokken als een vel papier. Hoe scherper de letters, hoe beter de herkenning.<br>Foto’s die al in je fotobibliotheek staan, werken ook.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/02-region.jpg" alt="Scheve foto, rechte pagina" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Ondersteuning</a> · <a href="privacy.html">Privacybeleid</a>
-<nav class="langs" aria-label="Taal">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl" aria-current="true">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Al je citaten op één plek</h2>
+        <p>Je boeken staan in een bibliotheek vol kaften en je citaten in één lijst. Zoek op zin, notitie of boektitel, en geef de citaten die je nog eens wilt lezen een hartje.<br>Een boek voeg je toe met één foto van de kaft. Titel en auteur worden voor je gelezen, en ook het ISBN als de streepjescode op de achterkant in beeld is.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/04-quotes.jpg" alt="Al je citaten op één plek" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Vergeten zinnen komen terug</h2>
+        <p>Citaat van de dag brengt elke dag een van je bewaarde citaten terug, samen met de notitie die je erbij schreef. Zet het met een widget op je beginscherm of toegangsscherm.<br>Mooi gevonden? Maak er een kaart in papierlook van en deel die.</p>
+      </div>
+      <div class="phone"><img src="../img/nl/05-daily.jpg" alt="Vergeten zinnen komen terug" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>In drie stappen aan de slag</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Fotografeer de kaft</h3><p>Titel en auteur worden ingevuld. Pas ze aan voordat je bewaart.</p></li>
+<li class="card"><span class="n">2</span><h3>Fotografeer de pagina</h3><p>Zet de vier hoeken goed en de pagina wordt recht.</p></li>
+<li class="card"><span class="n">3</span><h3>Veeg over de zin</h3><p>Het paginanummer wordt gevonden en meebewaard.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Gereedschap in het markeerscherm</h2>
+      <div class="card table">
+        <dl><div><dt>Vegen met je vinger</dt><dd>selecteert alleen de woorden die je raakt</dd></div><div><dt>Knijpen</dt><dd>zoom in om preciezer te vegen</dd></div><div><dt>Verplaatsen</dt><dd>sleep een ingezoomde pagina rond</dd></div><div><dt>Gum</dt><dd>haalt geveegde woorden weer weg</dd></div><div><dt>Alles wissen</dt><dd>verwijdert alle geselecteerde woorden</dd></div><div><dt>Hele pagina</dt><dd>bewaart alle tekst op de pagina</dd></div><div><dt>Paginaveld</dt><dd>het gevonden paginanummer, aan te passen</dd></div></dl>
+      </div>
+      <p class="muted">Met VoiceOver tik je dubbel op een regel om die toe te voegen of weg te halen.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Alle functies zijn gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Boeken toevoegen via de kaft, ISBN via de streepjescode</li><li>Pagina’s rechttrekken en markeren met je vinger</li><li>Automatische paginanummers</li><li>Bibliotheek, citaten zoeken en favorieten</li><li>Citaat van de dag met widgets voor beginscherm en toegangsscherm</li><li>Delen als kaartafbeelding</li><li>Synchronisatie via iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Steun de ontwikkelaar</h3>
+          <ul><li>Geef via Instellingen een kleine fooi, als je dat wilt</li><li>Een fooi ontgrendelt niets. De app blijft precies hetzelfde</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Geen advertenties, geen abonnement.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Vragen</h2>
+      <div class="faq"><details><summary>Worden mijn foto’s of citaten ergens naartoe gestuurd?</summary><p>Nee. De tekstherkenning gebeurt volledig op je apparaat met Apple Vision, en je foto’s en citaten gaan nooit naar een server. Het werkt ook offline. Lees meer in het privacybeleid hieronder.</p></details>
+<details><summary>Welke talen kan de app lezen?</summary><p>De tekstherkenning wordt door iOS op je apparaat gedaan. Boeken in het Koreaans, Engels, Japans, Chinees, Russisch en de meeste West-Europese talen worden gelezen, en op recente iOS-versies ook Thai, Vietnamees, Turks, Indonesisch, Pools, Tsjechisch, Nederlands en de Scandinavische talen. Grieks kan nog niet worden herkend.</p></details>
+<details><summary>Hoe kies ik alleen de zin die ik wil?</summary><p>Veeg na het fotograferen met je vinger over de zin, alsof je een markeerstift gebruikt, en alleen die woorden worden geselecteerd. Knijp om in te zoomen voor meer precisie. Er zijn ook Gum, Alles wissen en Hele pagina.</p></details>
+<details><summary>De titel of auteur klopt niet.</summary><p>De kaftherkenning gaat af op de grootte van de letters en kan zich dus vergissen bij heel sierlijke kaften. Je kunt titel en auteur aanpassen voordat je het boek bewaart.</p></details>
+<details><summary>Het paginanummer klopt niet.</summary><p>Dat wordt gelezen uit de cijfers aan de rand van de foto. Pas het gewoon aan in het paginaveld voordat je bewaart.</p></details>
+<details><summary>Kan ik mijn citaten op meer apparaten zien?</summary><p>Ja. Ben je met hetzelfde Apple Account bij iCloud ingelogd en staat iCloud Drive aan, dan worden je boeken en citaten automatisch gesynchroniseerd.</p></details>
+<details><summary>Hoe voeg ik de widget toe?</summary><p>Houd je vinger op het beginscherm, tik op ‘Wijzig’ &gt; ‘Voeg widget toe’ en kies Bookmark Shot. Voor het toegangsscherm houd je je vinger erop en tik je op ‘Pas aan’. Daar verschijnt Citaat van de dag.</p></details>
+<details><summary>De camera werkt niet.</summary><p>Controleer in Instellingen &gt; Bookmark Shot of toegang tot de camera en foto’s is toegestaan. Om foto’s te maken heb je een echte iPhone nodig.</p></details>
+<details><summary>Wat heb ik nodig?</summary><p>Een iPhone met iOS 17.0 of nieuwer.</p></details>
+<details><summary>Hoe neem ik contact op?</summary><p>Stuur feedback via het scherm Instellingen (tandwiel) in de app of mail ons op het adres hieronder. Meestal antwoorden we binnen twee à drie dagen.</p></details></div>
+      <p class="contact">Vragen of feedback? Mail naar <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Bewaar de zin die je vandaag las,<br>met één foto</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Gratis downloaden in de App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Taal"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl" aria-current="page">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacybeleid</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

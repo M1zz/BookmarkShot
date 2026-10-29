@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — keep the lines you love from a single photo</title>
-<meta name="description" content="Bookmark Shot is an iPhone app that lets you snap a book cover and a page, then swipe a finger over the sentences you love to save them.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: save the lines you love from any book</title>
+  <meta name="description" content="Snap a page and swipe a finger over a sentence you love. Only that sentence is saved as text, with the book and page number. Every feature is free.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: save the lines you love from any book">
+  <meta property="og:description" content="Snap a page and swipe a finger over a sentence you love. Only that sentence is saved as text, with the book and page number. Every feature is free.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/en/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/en/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Pages">
-  <a href="./" aria-current="page">About</a>
-  <a href="support.html">Support</a>
-  <a href="privacy.html">Privacy Policy</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">The lines you underline in a book, swiped with a finger</p>
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="bar">
+    <a class="brand" href="../en/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Language</a>
+  </header>
 
-<p class="lead">Keep the sentence you would have underlined in a paper book, with just one photo. Photograph the cover and a page with a passage you like, and the app remembers which book and which page it came from. Rub a finger over the page like a highlighter and only that sentence is saved.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Underline a book<br>without a pen</h1>
+        <p class="lead">Snap the page, swipe a finger over the sentence you love, and only that sentence is saved as text. The book and page number come with it.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Get it free on the App Store</a><a class="try" href="#try">Try a swipe ↓</a></div>
+        <p class="muted small">Every feature is free, with no ads.</p>
+      </div>
+      <div class="phone"><img src="../img/en/01-highlight.jpg" alt="Underline a book without a pen" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>How it works</h2>
-<div class="card"><h3>📖 Add a book</h3><p>Photograph the cover and the title and author are filled in for you. If the back-cover barcode is in the shot, the ISBN is read too. You can edit everything before saving.</p></div>
-<div class="card"><h3>📐 Pick the page area</h3><p>Line up the four corners with the page and the photo is flattened like paper, so the text comes out sharper.</p></div>
-<div class="card"><h3>🖍️ Underline with a finger</h3><p>Rub over the sentence you want and only those words are selected. Pinch to zoom for a more precise swipe, and use the eraser or Select All. The page number is found for you, too.</p></div>
-<div class="card"><h3>🗂️ Your collection</h3><p>Find your saved lines again in a library sorted by book, with full-text search and favorites.</p></div>
-<div class="card"><h3>✨ Today's Quote</h3><p>Every day one of your saved lines comes back to you, and you can share it as a card.</p></div>
 
-<h2>Your lines stay on your device</h2>
-<p>Text recognition happens on your device, and your photos and lines are never sent to the developer’s servers. If you are signed in to iCloud, they sync across your devices through your own iCloud account. For details, see the <a href="privacy.html">Privacy Policy</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Try a swipe</h2>
+      <p class="muted">Rub a finger or your mouse over any sentence on the page below. Only the words you cross land on the card.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Try a swipe&quot;, &quot;lead&quot;: &quot;Rub a finger or your mouse over any sentence on the page below. Only the words you cross land on the card.&quot;, &quot;book&quot;: &quot;Walden&quot;, &quot;author&quot;: &quot;Henry David Thoreau&quot;, &quot;page&quot;: 90, &quot;pageLabel&quot;: &quot;p. 90&quot;, &quot;text&quot;: &quot;I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary.&quot;, &quot;result&quot;: &quot;Extracted Text&quot;, &quot;empty&quot;: &quot;Swipe over a sentence and it shows up here.&quot;, &quot;eraser&quot;: &quot;Eraser&quot;, &quot;eraserOn&quot;: &quot;Eraser On&quot;, &quot;clear&quot;: &quot;Clear All&quot;, &quot;all&quot;: &quot;Whole Page&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;The web demo uses a ready-made page. The app reads the text from a photo you take. On a keyboard, Tab to a phrase and press Enter to add or remove it.&quot;}"></div>
+    </section>
 
-<h2>Requirements</h2>
-<ul>
-  <li>iOS 17.0 or later</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Where do the good lines end up?</h2>
+      <p>It's a library book, so you can't mark it. A photo of the page sinks into a camera roll of thousands. Type it into a notes app and the title and page number rarely make it along. Bookmark Shot keeps the sentence, the book and the page with two gestures: snap, then swipe.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Support and FAQ</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Crooked photo, straight page</h2>
+        <p>After you snap a page, line up the four corners and even a slanted shot is flattened like paper. Sharper letters mean better recognition.<br>Photos already in your library work too.</p>
+      </div>
+      <div class="phone"><img src="../img/en/02-region.jpg" alt="Crooked photo, straight page" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Support</a> · <a href="privacy.html">Privacy Policy</a>
-<nav class="langs" aria-label="Language">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en" aria-current="true">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Every quote in one place</h2>
+        <p>Your books sit in a library of covers and your quotes gather in one list. Search by sentence, note or book title, and heart the ones you want to read again.<br>Add a book with one cover shot. The title and author are read for you, and the ISBN too if the back-cover barcode is in view.</p>
+      </div>
+      <div class="phone"><img src="../img/en/04-quotes.jpg" alt="Every quote in one place" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Meet the lines you forgot</h2>
+        <p>Today's Quote brings back one of your saved quotes every day, along with the note you left. Keep it on your Home Screen or Lock Screen with a widget.<br>Love it? Turn it into a paper-style card image and share it.</p>
+      </div>
+      <div class="phone"><img src="../img/en/05-daily.jpg" alt="Meet the lines you forgot" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Three steps to start</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Snap the cover</h3><p>The title and author are filled in. Edit them before saving.</p></li>
+<li class="card"><span class="n">2</span><h3>Snap the page</h3><p>Line up the four corners and it straightens out.</p></li>
+<li class="card"><span class="n">3</span><h3>Swipe the sentence</h3><p>The page number is found and saved with it.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Tools on the highlight screen</h2>
+      <div class="card table">
+        <dl><div><dt>Swipe a finger</dt><dd>selects only the words you cross</dd></div><div><dt>Pinch</dt><dd>zoom in for a more precise swipe</dd></div><div><dt>Move</dt><dd>drag a zoomed page around</dd></div><div><dt>Eraser</dt><dd>takes swiped words back out</dd></div><div><dt>Clear All</dt><dd>removes every selected word</dd></div><div><dt>Whole Page</dt><dd>keeps all the text on the page</dd></div><div><dt>Page field</dt><dd>the page number it found, editable</dd></div></dl>
+      </div>
+      <p class="muted">With VoiceOver, double-tap a line to add or remove it.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Every feature is free</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Free</h3>
+          <ul><li>Add books from the cover, ISBN from the barcode</li><li>Page straightening and finger highlighting</li><li>Automatic page numbers</li><li>Library, quote search and favorites</li><li>Today's Quote with Home Screen and Lock Screen widgets</li><li>Share as a card image</li><li>iCloud sync</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Support the developer</h3>
+          <ul><li>Send a small tip from Settings, if you'd like</li><li>Tips don't unlock anything. The app is the same either way</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">No ads, no subscription.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Questions</h2>
+      <div class="faq"><details><summary>Are my photos or quotes sent anywhere?</summary><p>No. Text recognition runs entirely on your device with Apple Vision, and your photos and quotes never go to a server. It works offline too. See the Privacy Policy below for details.</p></details>
+<details><summary>Which languages can it read?</summary><p>Text recognition is done by iOS on your device. It reads books in Korean, English, Japanese, Chinese, Russian and most Western European languages, and on recent versions of iOS also Thai, Vietnamese, Turkish, Indonesian, Polish, Czech, Dutch and the Nordic languages. Greek can't be recognized yet.</p></details>
+<details><summary>How do I pick just the sentence I want?</summary><p>After you snap the page, rub a finger over the sentence as if using a highlighter, and only those words are selected. Pinch to zoom for precision. There's also an eraser, Clear All and Whole Page.</p></details>
+<details><summary>The title or author came out wrong.</summary><p>Cover recognition guesses from the size of the lettering, so very decorative covers can trip it up. You can fix the title and author before saving the book.</p></details>
+<details><summary>The page number is wrong.</summary><p>It's read from the numbers along the edge of the photo. Just correct it in the page field before saving.</p></details>
+<details><summary>Can I see my quotes on more than one device?</summary><p>Yes. If you're signed in to iCloud with the same Apple Account and iCloud Drive is on, your books and quotes sync automatically.</p></details>
+<details><summary>How do I add the widget?</summary><p>Touch and hold the Home Screen, tap Edit &gt; Add Widget, and choose Bookmark Shot. For the Lock Screen, touch and hold it, then tap Customize. Today's Quote shows up there.</p></details>
+<details><summary>The camera doesn't work.</summary><p>Check Settings &gt; Bookmark Shot and make sure camera and photo access are allowed. Taking photos needs a real iPhone.</p></details>
+<details><summary>What do I need?</summary><p>An iPhone with iOS 17.0 or later.</p></details>
+<details><summary>How do I get in touch?</summary><p>Send feedback from the app's Settings (gear) screen or email us at the address below. We usually reply within two or three days.</p></details></div>
+      <p class="contact">Questions or feedback? Write to <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Keep the line you read today,<br>with one photo</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Get it free on the App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Language"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en" aria-current="page">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privacy Policy</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ru">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — любимые строки из книг одним снимком</title>
-<meta name="description" content="Bookmark Shot — приложение для iPhone: сфотографируйте обложку и страницу книги, проведите пальцем по понравившимся строкам, и они сохранятся.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: любимые строки из любой книги</title>
+  <meta name="description" content="Сфотографируйте страницу и проведите пальцем по строке. Сохранится только она, текстом, вместе с книгой и номером страницы. Всё бесплатно.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: любимые строки из любой книги">
+  <meta property="og:description" content="Сфотографируйте страницу и проведите пальцем по строке. Сохранится только она, текстом, вместе с книгой и номером страницы. Всё бесплатно.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/ru/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/ru/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Разделы">
-  <a href="./" aria-current="page">О приложении</a>
-  <a href="support.html">Поддержка</a>
-  <a href="privacy.html">Конфиденциальность</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">Подчёркивайте строки в книге пальцем — прямо на снимке</p>
+  <a class="skip" href="#main">Перейти к содержимому</a>
+  <header class="bar">
+    <a class="brand" href="../ru/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Язык</a>
+  </header>
 
-<p class="lead">Строку, которую вы подчеркнули бы карандашом в бумажной книге, теперь достаточно сфотографировать. Снимите обложку и страницу с понравившимся отрывком — приложение запомнит, из какой книги и с какой страницы цитата. Проведите пальцем по странице, как маркером, и сохранится только выделенное предложение.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Подчёркивайте книги<br>без карандаша</h1>
+        <p class="lead">Сфотографируйте страницу, проведите пальцем по понравившемуся предложению, и в текст превратится только оно. Книга и номер страницы сохранятся вместе с ним.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Скачайте бесплатно в App Store</a><a class="try" href="#try">Попробуйте сами ↓</a></div>
+        <p class="muted small">Все функции бесплатны, рекламы нет.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/01-highlight.jpg" alt="Подчёркивайте книги без карандаша" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Как это работает</h2>
-<div class="card"><h3>📖 Добавьте книгу</h3><p>Сфотографируйте обложку — название и автор заполнятся сами. Если в кадр попал штрихкод с задней обложки, считается и ISBN. Перед сохранением всё можно поправить.</p></div>
-<div class="card"><h3>📐 Отметьте страницу</h3><p>Совместите четыре угла с краями страницы, и снимок выровняется, как ровный лист бумаги, а текст распознается чётче.</p></div>
-<div class="card"><h3>🖍️ Выделите пальцем</h3><p>Проведите пальцем по нужному предложению — выберутся только эти слова. Для точности увеличьте снимок двумя пальцами, есть ластик и кнопка «Выбрать всё». Номер страницы приложение найдёт само.</p></div>
-<div class="card"><h3>🗂️ Ваша коллекция</h3><p>Сохранённые строки легко найти снова: книги собраны на полке, есть поиск по тексту и избранное.</p></div>
-<div class="card"><h3>✨ Цитата дня</h3><p>Каждый день приложение напоминает вам одну из сохранённых строк, а ещё ею можно поделиться в виде карточки.</p></div>
 
-<h2>Ваши строки остаются на устройстве</h2>
-<p>Текст распознаётся прямо на устройстве, а фотографии и цитаты никогда не отправляются на серверы разработчика. Если вы вошли в iCloud, данные синхронизируются между вашими устройствами через вашу собственную учётную запись iCloud. Подробнее — в <a href="privacy.html">Политике конфиденциальности</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Попробуйте сами</h2>
+      <p class="muted">Проведите пальцем или мышью по любому предложению на странице ниже. На карточку попадут только те слова, которых вы коснулись.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Попробуйте сами&quot;, &quot;lead&quot;: &quot;Проведите пальцем или мышью по любому предложению на странице ниже. На карточку попадут только те слова, которых вы коснулись.&quot;, &quot;book&quot;: &quot;Мёртвые души&quot;, &quot;author&quot;: &quot;Николай Гоголь&quot;, &quot;page&quot;: 241, &quot;pageLabel&quot;: &quot;с. 241&quot;, &quot;text&quot;: &quot;Эх, кони, кони, что за кони! Вихри ли сидят в ваших гривах? Чуткое ли ухо горит во всякой вашей жилке? Заслышали с вышины знакомую песню, дружно и разом напрягли медные груди и, почти не тронув копытами земли, превратились в одни вытянутые линии, летящие по воздуху, и мчится вся вдохновенная богом!.. Русь, куда ж несёшься ты? дай ответ. Не даёт ответа.&quot;, &quot;result&quot;: &quot;Найденный текст&quot;, &quot;empty&quot;: &quot;Проведите по предложению, и оно появится здесь.&quot;, &quot;eraser&quot;: &quot;Ластик&quot;, &quot;eraserOn&quot;: &quot;Ластик вкл.&quot;, &quot;clear&quot;: &quot;Очистить всё&quot;, &quot;all&quot;: &quot;Вся страница&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;В веб-демо используется готовая страница. Приложение распознаёт текст на вашем собственном снимке. С клавиатуры перейдите к фрагменту клавишей Tab и нажмите Enter, чтобы добавить или убрать его.&quot;}"></div>
+    </section>
 
-<h2>Системные требования</h2>
-<ul>
-  <li>iOS 17.0 или новее</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Куда деваются хорошие строки?</h2>
+      <p>Книга библиотечная, в ней не попишешь. Фото страницы теряется среди тысяч снимков в медиатеке. Перепечатаете в заметки, и название с номером страницы почти всегда остаются за бортом. Bookmark Shot сохраняет предложение, книгу и страницу в два движения: сфотографировать и провести пальцем.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Поддержка и вопросы</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Кривой снимок, ровная страница</h2>
+        <p>Сфотографировав страницу, совместите четыре угла, и даже снятая под углом страница выровняется, как лист бумаги. Чем чётче буквы, тем точнее распознавание.<br>Подойдут и фото, которые уже есть в медиатеке.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/02-region.jpg" alt="Кривой снимок, ровная страница" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Поддержка</a> · <a href="privacy.html">Конфиденциальность</a>
-<nav class="langs" aria-label="Язык">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru" aria-current="true">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Все цитаты в одном месте</h2>
+        <p>Книги стоят на полке с обложками, а цитаты собраны в одном списке. Ищите по тексту, заметке или названию книги и отмечайте сердечком то, что хочется перечитать.<br>Книгу можно добавить одним снимком обложки. Название и автор заполнятся сами, а если в кадре штрихкод с задней обложки, то и ISBN.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/04-quotes.jpg" alt="Все цитаты в одном месте" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Встреча с забытыми строками</h2>
+        <p>Цитата дня каждый день возвращает одну из сохранённых цитат вместе с вашей заметкой. Держите её на экране «Домой» или на экране блокировки с помощью виджета.<br>Понравилась? Сделайте из неё карточку в стиле бумажного листа и поделитесь.</p>
+      </div>
+      <div class="phone"><img src="../img/ru/05-daily.jpg" alt="Встреча с забытыми строками" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Три шага для начала</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Снимите обложку</h3><p>Название и автор заполнятся сами. Перед сохранением их можно изменить.</p></li>
+<li class="card"><span class="n">2</span><h3>Снимите страницу</h3><p>Совместите четыре угла, и она выровняется.</p></li>
+<li class="card"><span class="n">3</span><h3>Проведите по строке</h3><p>Номер страницы найдётся и сохранится вместе с ней.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Инструменты экрана выделения</h2>
+      <div class="card table">
+        <dl><div><dt>Провести пальцем</dt><dd>выбирает только слова, которых вы коснулись</dd></div><div><dt>Развести два пальца</dt><dd>увеличивает страницу для точного выделения</dd></div><div><dt>Перемещение</dt><dd>сдвигает увеличенную страницу</dd></div><div><dt>Ластик</dt><dd>убирает выделенные слова</dd></div><div><dt>Очистить всё</dt><dd>снимает выделение со всех слов</dd></div><div><dt>Вся страница</dt><dd>сохраняет весь текст страницы</dd></div><div><dt>Поле страницы</dt><dd>найденный номер страницы, можно изменить</dd></div></dl>
+      </div>
+      <p class="muted">С VoiceOver дважды коснитесь строки, чтобы добавить или убрать её.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Все функции бесплатны</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Бесплатно</h3>
+          <ul><li>Добавление книг по обложке, ISBN по штрихкоду</li><li>Выравнивание страниц и выделение пальцем</li><li>Автоматический номер страницы</li><li>Полка, поиск по цитатам и избранное</li><li>Цитата дня с виджетами для экрана «Домой» и экрана блокировки</li><li>Отправка цитаты в виде карточки</li><li>Синхронизация через iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Поддержать разработчика</h3>
+          <ul><li>По желанию можно оставить небольшие чаевые в настройках</li><li>Чаевые ничего не открывают. Приложение остаётся тем же</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Без рекламы и подписки.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Вопросы</h2>
+      <div class="faq"><details><summary>Мои фото или цитаты куда-то отправляются?</summary><p>Нет. Текст распознаётся полностью на устройстве с помощью Apple Vision, а фото и цитаты никогда не попадают на сервер. Всё работает и без интернета. Подробнее в Политике конфиденциальности ниже.</p></details>
+<details><summary>Какие языки распознаются?</summary><p>Текст распознаёт сама iOS прямо на устройстве. Поддерживаются книги на корейском, английском, японском, китайском, русском и большинстве западноевропейских языков, а в новых версиях iOS также на тайском, вьетнамском, турецком, индонезийском, польском, чешском, нидерландском и скандинавских языках. Греческий пока не распознаётся.</p></details>
+<details><summary>Как выбрать только нужное предложение?</summary><p>Сфотографировав страницу, проведите пальцем по предложению, как маркером, и выберутся только эти слова. Для точности увеличьте снимок двумя пальцами. Есть также ластик, «Очистить всё» и «Вся страница».</p></details>
+<details><summary>Название или автор распознались неправильно.</summary><p>Обложка распознаётся по размеру шрифта, поэтому на очень декоративных обложках возможны ошибки. Название и автора можно исправить перед сохранением книги.</p></details>
+<details><summary>Номер страницы неверный.</summary><p>Он считывается с цифр у края снимка. Просто исправьте его в поле страницы перед сохранением.</p></details>
+<details><summary>Можно ли видеть цитаты на нескольких устройствах?</summary><p>Да. Если вы вошли в iCloud с одним и тем же Аккаунтом Apple и включили iCloud Drive, книги и цитаты синхронизируются автоматически.</p></details>
+<details><summary>Как добавить виджет?</summary><p>Коснитесь и удерживайте экран «Домой», нажмите «Изменить» &gt; «Добавить виджет» и выберите Bookmark Shot. Для экрана блокировки коснитесь его и удерживайте, затем нажмите «Настроить». Там и появится цитата дня.</p></details>
+<details><summary>Не работает камера.</summary><p>Проверьте в «Настройки» &gt; Bookmark Shot, что разрешён доступ к камере и фото. Для съёмки нужен настоящий iPhone.</p></details>
+<details><summary>Что нужно для работы?</summary><p>iPhone с iOS 17.0 или новее.</p></details>
+<details><summary>Как с вами связаться?</summary><p>Отправьте отзыв с экрана настроек приложения (значок шестерёнки) или напишите на почту, указанную ниже. Обычно мы отвечаем в течение двух-трёх дней.</p></details></div>
+      <p class="contact">Вопросы или отзывы? Пишите на <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Сохраните строку, прочитанную сегодня,<br>одним снимком</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Скачайте бесплатно в App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Язык"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru" aria-current="page">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Политика конфиденциальности</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

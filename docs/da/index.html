@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="da">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — gem de sætninger, du holder af, med ét billede</title>
-<meta name="description" content="Bookmark Shot er en iPhone-app, hvor du tager et billede af en bogs omslag og en side og stryger fingeren hen over de sætninger, du vil gemme.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: gem de sætninger, du holder af</title>
+  <meta name="description" content="Tag et billede af en side, og stryg fingeren hen over en sætning, du kan lide. Kun den sætning gemmes som tekst med bog og sidetal. Alt er gratis.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: gem de sætninger, du holder af">
+  <meta property="og:description" content="Tag et billede af en side, og stryg fingeren hen over en sætning, du kan lide. Kun den sætning gemmes som tekst med bog og sidetal. Alt er gratis.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/da/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/da/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Sider">
-  <a href="./" aria-current="page">Om appen</a>
-  <a href="support.html">Support</a>
-  <a href="privacy.html">Privatlivspolitik</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">Sætningerne, du ville strege under i bogen, markeret med fingeren</p>
+  <a class="skip" href="#main">Spring til indhold</a>
+  <header class="bar">
+    <a class="brand" href="../da/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Sprog</a>
+  </header>
 
-<p class="lead">Gem den sætning, du ville have streget under i en papirbog, med bare ét billede. Tag et billede af omslaget og af siden med det afsnit, du kan lide, så husker appen, hvilken bog og hvilken side det kommer fra. Stryg fingeren hen over siden som en overstregningstusch, og kun den sætning bliver gemt.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Understreg i bogen<br>uden en pen</h1>
+        <p class="lead">Tag et billede af siden, stryg fingeren hen over den sætning, du kan lide, og kun den gemmes som tekst. Bog og sidetal kommer med.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Hent gratis i App Store</a><a class="try" href="#try">Prøv at stryge ↓</a></div>
+        <p class="muted small">Alle funktioner er gratis, uden reklamer.</p>
+      </div>
+      <div class="phone"><img src="../img/da/01-highlight.jpg" alt="Understreg i bogen uden en pen" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Sådan virker det</h2>
-<div class="card"><h3>📖 Tilføj en bog</h3><p>Tag et billede af omslaget, så udfyldes titel og forfatter for dig. Er stregkoden bag på bogen med i billedet, læses ISBN også. Du kan rette det hele, før du gemmer.</p></div>
-<div class="card"><h3>📐 Vælg sidens område</h3><p>Placer de fire hjørner langs sidens kanter, så rettes billedet ud som et stykke papir, og teksten bliver skarpere.</p></div>
-<div class="card"><h3>🖍️ Streg under med fingeren</h3><p>Stryg hen over den sætning, du vil have, så vælges kun de ord. Knib for at zoome ind og stryge mere præcist, og brug viskelæderet eller Vælg alt. Sidetallet findes også for dig.</p></div>
-<div class="card"><h3>🗂️ Din samling</h3><p>Find dine gemte sætninger igen i et bibliotek sorteret efter bog, med fritekstsøgning og favoritter.</p></div>
-<div class="card"><h3>✨ Dagens citat</h3><p>Hver dag vender en af dine gemte sætninger tilbage til dig, og du kan dele den som et kort.</p></div>
 
-<h2>Dine sætninger bliver på din enhed</h2>
-<p>Tekstgenkendelsen sker på din enhed, og dine billeder og sætninger sendes aldrig til udviklerens servere. Er du logget ind på iCloud, synkroniseres de mellem dine enheder via din egen iCloud-konto. Læs mere i <a href="privacy.html">privatlivspolitikken</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Prøv at stryge</h2>
+      <p class="muted">Stryg en finger eller musen hen over en vilkårlig sætning på siden herunder. Kun de ord, du rører, kommer med på kortet.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Prøv at stryge&quot;, &quot;lead&quot;: &quot;Stryg en finger eller musen hen over en vilkårlig sætning på siden herunder. Kun de ord, du rører, kommer med på kortet.&quot;, &quot;book&quot;: &quot;Eventyr&quot;, &quot;author&quot;: &quot;H.C. Andersen&quot;, &quot;page&quot;: 112, &quot;pageLabel&quot;: &quot;s. 112&quot;, &quot;text&quot;: &quot;Der var så dejligt ude på landet; det var sommer, kornet stod gult, havren grøn, høet var rejst i stakke nede i de grønne enge, og der gik storken på sine lange, røde ben og snakkede ægyptisk, for det sprog havde han lært af sin moder. Rundt om ager og eng var der store skove, og midt i skovene dybe søer; jo, der var rigtignok dejligt derude på landet!&quot;, &quot;result&quot;: &quot;Udtrukket tekst&quot;, &quot;empty&quot;: &quot;Stryg hen over en sætning, så dukker den op her.&quot;, &quot;eraser&quot;: &quot;Viskelæder&quot;, &quot;eraserOn&quot;: &quot;Viskelæder til&quot;, &quot;clear&quot;: &quot;Ryd alt&quot;, &quot;all&quot;: &quot;Hele siden&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;Webdemoen bruger en færdig side. Appen læser teksten fra et billede, du selv tager. Med tastatur går du til en frase med Tab og tilføjer eller fjerner den med Enter.&quot;}"></div>
+    </section>
 
-<h2>Krav</h2>
-<ul>
-  <li>iOS 17.0 eller nyere</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Hvor bliver de gode sætninger af?</h2>
+      <p>Det er en biblioteksbog, så du må ikke skrive i den. Et billede af siden forsvinder blandt tusindvis af andre i kamerarullen. Skriver du sætningen ind i en noteapp, kommer titel og sidetal sjældent med. Bookmark Shot gemmer sætningen, bogen og siden med to bevægelser: tag et billede, og stryg.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Support og ofte stillede spørgsmål</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Skævt billede, lige side</h2>
+        <p>Når du har taget billedet af siden, placerer du de fire hjørner, og selv et skævt billede rettes ud som et stykke papir. Jo skarpere bogstaverne er, jo bedre genkendelse.<br>Billeder, der allerede ligger i dit fotobibliotek, kan også bruges.</p>
+      </div>
+      <div class="phone"><img src="../img/da/02-region.jpg" alt="Skævt billede, lige side" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Support</a> · <a href="privacy.html">Privatlivspolitik</a>
-<nav class="langs" aria-label="Sprog">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da" aria-current="true">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Alle citater ét sted</h2>
+        <p>Dine bøger står i et bibliotek af omslag, og dine citater samles i én liste. Søg efter sætning, note eller bogtitel, og giv de citater, du vil læse igen, et hjerte.<br>Tilføj en bog med ét billede af omslaget. Titel og forfatter læses for dig, og ISBN også, hvis stregkoden bag på bogen er med i billedet.</p>
+      </div>
+      <div class="phone"><img src="../img/da/04-quotes.jpg" alt="Alle citater ét sted" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Mød de sætninger, du havde glemt</h2>
+        <p>Dagens citat bringer hver dag et af dine gemte citater tilbage sammen med den note, du skrev dengang. Hav det på hjemmeskærmen eller låseskærmen med en widget.<br>Glad for det? Gør det til et kort i papirstil, og del det.</p>
+      </div>
+      <div class="phone"><img src="../img/da/05-daily.jpg" alt="Mød de sætninger, du havde glemt" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Kom i gang i tre trin</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Tag et billede af omslaget</h3><p>Titel og forfatter udfyldes. Ret dem, før du gemmer.</p></li>
+<li class="card"><span class="n">2</span><h3>Tag et billede af siden</h3><p>Placer de fire hjørner, så rettes den ud.</p></li>
+<li class="card"><span class="n">3</span><h3>Stryg over sætningen</h3><p>Sidetallet findes og gemmes med.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Værktøjer på markeringsskærmen</h2>
+      <div class="card table">
+        <dl><div><dt>Stryg med fingeren</dt><dd>vælger kun de ord, du rører</dd></div><div><dt>Knib</dt><dd>zoom ind for at stryge mere præcist</dd></div><div><dt>Flyt</dt><dd>træk rundt i en side, der er zoomet ind</dd></div><div><dt>Viskelæder</dt><dd>fjerner ord, du har strøget over</dd></div><div><dt>Ryd alt</dt><dd>fjerner alle valgte ord</dd></div><div><dt>Hele siden</dt><dd>beholder al tekst på siden</dd></div><div><dt>Sidefelt</dt><dd>det fundne sidetal, kan rettes</dd></div></dl>
+      </div>
+      <p class="muted">Med VoiceOver dobbelttrykker du på en linje for at tilføje eller fjerne den.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Alle funktioner er gratis</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Gratis</h3>
+          <ul><li>Tilføj bøger fra omslaget, ISBN fra stregkoden</li><li>Udretning af sider og markering med fingeren</li><li>Automatiske sidetal</li><li>Bibliotek, søgning i citater og favoritter</li><li>Dagens citat med widgets til hjemmeskærm og låseskærm</li><li>Del som kortbillede</li><li>Synkronisering med iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Støt udvikleren</h3>
+          <ul><li>Send et lille tip fra Indstillinger, hvis du har lyst</li><li>Tips låser ikke noget op. Appen er den samme uanset</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Ingen reklamer, intet abonnement.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Spørgsmål</h2>
+      <div class="faq"><details><summary>Bliver mine billeder eller citater sendt nogen steder hen?</summary><p>Nej. Tekstgenkendelsen sker helt på din enhed med Apple Vision, og dine billeder og citater sendes aldrig til en server. Appen virker også offline. Læs mere i privatlivspolitikken herunder.</p></details>
+<details><summary>Hvilke sprog kan den læse?</summary><p>Tekstgenkendelsen foretages af iOS på din enhed. Den læser bøger på koreansk, engelsk, japansk, kinesisk, russisk og de fleste vesteuropæiske sprog, og på nyere iOS-versioner også thai, vietnamesisk, tyrkisk, indonesisk, polsk, tjekkisk, nederlandsk og de nordiske sprog. Græsk kan endnu ikke genkendes.</p></details>
+<details><summary>Hvordan vælger jeg kun den sætning, jeg vil have?</summary><p>Når du har taget billedet af siden, stryger du fingeren hen over sætningen, som med en overstregningstusch, så vælges kun de ord. Knib for at zoome ind og få større præcision. Der er også Viskelæder, Ryd alt og Hele siden.</p></details>
+<details><summary>Titlen eller forfatteren er forkert.</summary><p>Omslagsgenkendelsen gætter ud fra skriftens størrelse, så den kan tage fejl på meget dekorative omslag. Du kan rette titel og forfatter, før du gemmer bogen.</p></details>
+<details><summary>Sidetallet er forkert.</summary><p>Det læses fra tallene i kanten af billedet. Ret det bare i sidefeltet, før du gemmer.</p></details>
+<details><summary>Kan jeg se mine citater på flere enheder?</summary><p>Ja. Er du logget ind på iCloud med den samme Apple-konto, og er iCloud Drive slået til, synkroniseres dine bøger og citater automatisk.</p></details>
+<details><summary>Hvordan tilføjer jeg widgetten?</summary><p>Hold fingeren på hjemmeskærmen, tryk på Rediger &gt; Tilføj widget, og vælg Bookmark Shot. På låseskærmen holder du fingeren på den og trykker på Tilpas. Dagens citat vises der.</p></details>
+<details><summary>Kameraet virker ikke.</summary><p>Tjek under Indstillinger &gt; Bookmark Shot, at der er givet adgang til kamera og billeder. Det kræver en rigtig iPhone at tage billeder.</p></details>
+<details><summary>Hvad skal jeg bruge?</summary><p>En iPhone med iOS 17.0 eller nyere.</p></details>
+<details><summary>Hvordan kontakter jeg jer?</summary><p>Send feedback fra appens Indstillinger (tandhjulet), eller skriv til os på adressen herunder. Vi svarer som regel inden for to-tre dage.</p></details></div>
+      <p class="contact">Spørgsmål eller feedback? Skriv til <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Gem sætningen, du læste i dag,<br>med ét billede</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Hent gratis i App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Sprog"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da" aria-current="page">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Privatlivspolitik</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

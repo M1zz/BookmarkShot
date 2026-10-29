@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="el">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — οι αγαπημένες σου φράσεις με μία φωτογραφία</title>
-<meta name="description" content="Το Bookmark Shot είναι μια εφαρμογή για iPhone: φωτογράφισε το εξώφυλλο και μια σελίδα, πέρασε το δάχτυλο πάνω από τις φράσεις που σου αρέσουν και αποθηκεύονται.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: οι αγαπημένες σου φράσεις από κάθε βιβλίο</title>
+  <meta name="description" content="Φωτογράφισε μια σελίδα και πέρασε το δάχτυλο πάνω από μια φράση. Αποθηκεύεται μόνο αυτή ως κείμενο, με βιβλίο και σελίδα. Όλα δωρεάν.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: οι αγαπημένες σου φράσεις από κάθε βιβλίο">
+  <meta property="og:description" content="Φωτογράφισε μια σελίδα και πέρασε το δάχτυλο πάνω από μια φράση. Αποθηκεύεται μόνο αυτή ως κείμενο, με βιβλίο και σελίδα. Όλα δωρεάν.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/el/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/el/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Σελίδες">
-  <a href="./" aria-current="page">Σχετικά</a>
-  <a href="support.html">Υποστήριξη</a>
-  <a href="privacy.html">Πολιτική απορρήτου</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">Υπογράμμισε φράσεις του βιβλίου με το δάχτυλό σου</p>
+  <a class="skip" href="#main">Μετάβαση στο περιεχόμενο</a>
+  <header class="bar">
+    <a class="brand" href="../el/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Γλώσσα</a>
+  </header>
 
-<p class="lead">Τη φράση που θα υπογράμμιζες σε ένα χάρτινο βιβλίο, τώρα την κρατάς με μία μόνο φωτογραφία. Φωτογράφισε το εξώφυλλο και τη σελίδα με το απόσπασμα που σου άρεσε, και η εφαρμογή θυμάται από ποιο βιβλίο και ποια σελίδα προέρχεται. Πέρασε το δάχτυλο πάνω από τη σελίδα σαν μαρκαδόρο και αποθηκεύεται μόνο εκείνη η φράση.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Υπογράμμισε το βιβλίο<br>χωρίς στυλό</h1>
+        <p class="lead">Φωτογράφισε τη σελίδα, πέρασε το δάχτυλο πάνω από τη φράση που σου αρέσει, και μόνο αυτή αποθηκεύεται ως κείμενο. Το βιβλίο και ο αριθμός σελίδας έρχονται μαζί.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Κατέβασέ το δωρεάν από το App Store</a><a class="try" href="#try">Δοκίμασέ το ↓</a></div>
+        <p class="muted small">Όλες οι λειτουργίες είναι δωρεάν, χωρίς διαφημίσεις.</p>
+      </div>
+      <div class="phone"><img src="../img/el/01-highlight.jpg" alt="Υπογράμμισε το βιβλίο χωρίς στυλό" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Πώς λειτουργεί</h2>
-<div class="card"><h3>📖 Πρόσθεσε ένα βιβλίο</h3><p>Φωτογράφισε το εξώφυλλο και ο τίτλος με τον συγγραφέα συμπληρώνονται μόνα τους. Αν στη λήψη φαίνεται και ο γραμμωτός κώδικας του οπισθόφυλλου, διαβάζεται και το ISBN. Πριν την αποθήκευση μπορείς να διορθώσεις τα πάντα.</p></div>
-<div class="card"><h3>📐 Όρισε τη σελίδα</h3><p>Ταίριαξε τις τέσσερις γωνίες με τη σελίδα και η φωτογραφία ισιώνει σαν φύλλο χαρτιού, ώστε το κείμενο να βγαίνει πιο καθαρό.</p></div>
-<div class="card"><h3>🖍️ Υπογράμμισε με το δάχτυλο</h3><p>Πέρασε το δάχτυλο πάνω από τη φράση που θέλεις και επιλέγονται μόνο αυτές οι λέξεις. Κάνε ζουμ με δύο δάχτυλα για μεγαλύτερη ακρίβεια· υπάρχουν επίσης γόμα και «Επιλογή όλων». Ο αριθμός σελίδας βρίσκεται αυτόματα.</p></div>
-<div class="card"><h3>🗂️ Η συλλογή σου</h3><p>Βρες ξανά τις φράσεις σου σε μια βιβλιοθήκη οργανωμένη ανά βιβλίο, με αναζήτηση σε όλο το κείμενο και αγαπημένα.</p></div>
-<div class="card"><h3>✨ Το απόσπασμα της ημέρας</h3><p>Κάθε μέρα μια από τις αποθηκευμένες φράσεις σου επιστρέφει σε σένα, και μπορείς να τη μοιραστείς ως κάρτα.</p></div>
 
-<h2>Οι φράσεις σου μένουν στη συσκευή σου</h2>
-<p>Η αναγνώριση κειμένου γίνεται στη συσκευή σου και οι φωτογραφίες και οι φράσεις σου δεν αποστέλλονται ποτέ στους διακομιστές του προγραμματιστή. Αν είσαι συνδεδεμένος στο iCloud, συγχρονίζονται ανάμεσα στις συσκευές σου μέσω του δικού σου λογαριασμού iCloud. Για λεπτομέρειες, δες την <a href="privacy.html">Πολιτική απορρήτου</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Δοκίμασέ το</h2>
+      <p class="muted">Πέρασε το δάχτυλο ή το ποντίκι πάνω από οποιαδήποτε φράση στη σελίδα παρακάτω. Στην κάρτα μπαίνουν μόνο οι λέξεις από τις οποίες περνάς.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Δοκίμασέ το&quot;, &quot;lead&quot;: &quot;Πέρασε το δάχτυλο ή το ποντίκι πάνω από οποιαδήποτε φράση στη σελίδα παρακάτω. Στην κάρτα μπαίνουν μόνο οι λέξεις από τις οποίες περνάς.&quot;, &quot;book&quot;: &quot;Walden&quot;, &quot;author&quot;: &quot;Henry David Thoreau&quot;, &quot;page&quot;: 90, &quot;pageLabel&quot;: &quot;σ. 90&quot;, &quot;text&quot;: &quot;I went to the woods because I wished to live deliberately, to front only the essential facts of life, and see if I could not learn what it had to teach, and not, when I came to die, discover that I had not lived. I did not wish to live what was not life, living is so dear; nor did I wish to practise resignation, unless it was quite necessary.&quot;, &quot;result&quot;: &quot;Κείμενο που εξήχθη&quot;, &quot;empty&quot;: &quot;Πέρασε πάνω από μια φράση και θα εμφανιστεί εδώ.&quot;, &quot;eraser&quot;: &quot;Γόμα&quot;, &quot;eraserOn&quot;: &quot;Γόμα ενεργή&quot;, &quot;clear&quot;: &quot;Εκκαθάριση όλων&quot;, &quot;all&quot;: &quot;Ολόκληρη σελίδα&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;Η δοκιμή στον ιστό χρησιμοποιεί μια έτοιμη σελίδα στα αγγλικά, γιατί το ελληνικό κείμενο δεν αναγνωρίζεται ακόμη. Η εφαρμογή διαβάζει το κείμενο από τη φωτογραφία που τραβάς εσύ. Με πληκτρολόγιο, πήγαινε σε ένα τμήμα με το Tab και πάτα Enter για να το προσθέσεις ή να το αφαιρέσεις.&quot;}"></div>
+    </section>
 
-<h2>Απαιτήσεις</h2>
-<ul>
-  <li>iOS 17.0 ή νεότερο</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Πού καταλήγουν οι ωραίες φράσεις;</h2>
+      <p>Το βιβλίο είναι από τη βιβλιοθήκη, άρα δεν γράφεις πάνω του. Η φωτογραφία της σελίδας χάνεται ανάμεσα σε χιλιάδες άλλες στη φωτοθήκη. Αν την πληκτρολογήσεις σε μια εφαρμογή σημειώσεων, ο τίτλος και η σελίδα σπάνια ακολουθούν. Το Bookmark Shot κρατά τη φράση, το βιβλίο και τη σελίδα με δύο κινήσεις: φωτογραφία και ένα πέρασμα του δαχτύλου.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Υποστήριξη και συχνές ερωτήσεις</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Στραβή φωτογραφία, ίσια σελίδα</h2>
+        <p>Μετά τη φωτογραφία, ταίριαξε τις τέσσερις γωνίες και ακόμη και μια σελίδα τραβηγμένη λοξά ισιώνει σαν φύλλο χαρτιού. Πιο καθαρά γράμματα σημαίνουν καλύτερη αναγνώριση.<br>Κάνουν και οι φωτογραφίες που έχεις ήδη στη φωτοθήκη.</p>
+      </div>
+      <div class="phone"><img src="../img/el/02-region.jpg" alt="Στραβή φωτογραφία, ίσια σελίδα" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Υποστήριξη</a> · <a href="privacy.html">Πολιτική απορρήτου</a>
-<nav class="langs" aria-label="Γλώσσα">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el" aria-current="true">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Όλα τα αποσπάσματα σε ένα μέρος</h2>
+        <p>Τα βιβλία σου μπαίνουν σε μια βιβλιοθήκη με εξώφυλλα και τα αποσπάσματα μαζεύονται σε μία λίστα. Ψάξε με τη φράση, τη σημείωση ή τον τίτλο και βάλε καρδιά σε όσα θέλεις να ξαναδιαβάσεις.<br>Πρόσθεσε ένα βιβλίο με μία φωτογραφία του εξωφύλλου. Ο τίτλος και ο συγγραφέας διαβάζονται για σένα, και το ISBN επίσης, αν φαίνεται ο γραμμωτός κώδικας στο οπισθόφυλλο.</p>
+      </div>
+      <div class="phone"><img src="../img/el/04-quotes.jpg" alt="Όλα τα αποσπάσματα σε ένα μέρος" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ξαναβρές φράσεις που είχες ξεχάσει</h2>
+        <p>Το απόσπασμα της ημέρας σού φέρνει κάθε μέρα πίσω ένα από τα αποθηκευμένα αποσπάσματα, μαζί με τη σημείωση που είχες αφήσει. Κράτα το στην οθόνη Αφετηρίας ή στην οθόνη κλειδώματος με ένα γραφικό στοιχείο.<br>Σου αρέσει; Κάν’ το κάρτα με όψη χαρτιού και μοιράσου την.</p>
+      </div>
+      <div class="phone"><img src="../img/el/05-daily.jpg" alt="Ξαναβρές φράσεις που είχες ξεχάσει" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Ξεκίνα σε τρία βήματα</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Φωτογράφισε το εξώφυλλο</h3><p>Ο τίτλος και ο συγγραφέας συμπληρώνονται. Μπορείς να τα αλλάξεις πριν την αποθήκευση.</p></li>
+<li class="card"><span class="n">2</span><h3>Φωτογράφισε τη σελίδα</h3><p>Ταίριαξε τις τέσσερις γωνίες και ισιώνει.</p></li>
+<li class="card"><span class="n">3</span><h3>Πέρασε πάνω από τη φράση</h3><p>Ο αριθμός σελίδας εντοπίζεται και αποθηκεύεται μαζί της.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Εργαλεία της οθόνης υπογράμμισης</h2>
+      <div class="card table">
+        <dl><div><dt>Πέρασμα δαχτύλου</dt><dd>επιλέγει μόνο τις λέξεις από τις οποίες περνάς</dd></div><div><dt>Τσίμπημα</dt><dd>μεγεθύνει για πιο ακριβή επιλογή</dd></div><div><dt>Μετακίνηση</dt><dd>σέρνει τη μεγεθυμένη σελίδα</dd></div><div><dt>Γόμα</dt><dd>αφαιρεί λέξεις που επέλεξες</dd></div><div><dt>Εκκαθάριση όλων</dt><dd>αφαιρεί όλες τις επιλεγμένες λέξεις</dd></div><div><dt>Ολόκληρη σελίδα</dt><dd>κρατά όλο το κείμενο της σελίδας</dd></div><div><dt>Πεδίο σελίδας</dt><dd>ο αριθμός σελίδας που βρέθηκε, με δυνατότητα αλλαγής</dd></div></dl>
+      </div>
+      <p class="muted">Με το VoiceOver, άγγιξε δύο φορές μια γραμμή για να την προσθέσεις ή να την αφαιρέσεις.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Όλες οι λειτουργίες δωρεάν</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Δωρεάν</h3>
+          <ul><li>Προσθήκη βιβλίων από το εξώφυλλο, ISBN από τον γραμμωτό κώδικα</li><li>Ίσιωμα σελίδας και υπογράμμιση με το δάχτυλο</li><li>Αυτόματος αριθμός σελίδας</li><li>Βιβλιοθήκη, αναζήτηση αποσπασμάτων και αγαπημένα</li><li>Το απόσπασμα της ημέρας με γραφικά στοιχεία για την οθόνη Αφετηρίας και την οθόνη κλειδώματος</li><li>Κοινοποίηση ως κάρτα</li><li>Συγχρονισμός μέσω iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Στήριξε τον δημιουργό</h3>
+          <ul><li>Αν θέλεις, άφησε ένα μικρό φιλοδώρημα από τις Ρυθμίσεις</li><li>Το φιλοδώρημα δεν ξεκλειδώνει τίποτα. Η εφαρμογή μένει ίδια</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Χωρίς διαφημίσεις, χωρίς συνδρομή.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Ερωτήσεις</h2>
+      <div class="faq"><details><summary>Στέλνονται κάπου οι φωτογραφίες ή τα αποσπάσματά μου;</summary><p>Όχι. Η αναγνώριση κειμένου γίνεται εξ ολοκλήρου στη συσκευή σου με το Apple Vision και οι φωτογραφίες και τα αποσπάσματά σου δεν πηγαίνουν ποτέ σε διακομιστή. Λειτουργεί και χωρίς σύνδεση. Για λεπτομέρειες, δες την Πολιτική απορρήτου παρακάτω.</p></details>
+<details><summary>Ποιες γλώσσες μπορεί να διαβάσει;</summary><p>Την αναγνώριση κειμένου την κάνει το iOS στη συσκευή σου. Διαβάζει βιβλία στα κορεατικά, αγγλικά, ιαπωνικά, κινεζικά, ρωσικά και στις περισσότερες δυτικοευρωπαϊκές γλώσσες, ενώ στις νεότερες εκδόσεις του iOS και στα ταϊλανδικά, βιετναμικά, τουρκικά, ινδονησιακά, πολωνικά, τσεχικά, ολλανδικά και τις σκανδιναβικές γλώσσες. Τα ελληνικά δεν αναγνωρίζονται ακόμη.</p></details>
+<details><summary>Πώς επιλέγω μόνο τη φράση που θέλω;</summary><p>Αφού φωτογραφίσεις τη σελίδα, πέρασε το δάχτυλο πάνω από τη φράση σαν να χρησιμοποιείς μαρκαδόρο, και επιλέγονται μόνο αυτές οι λέξεις. Κάνε ζουμ με δύο δάχτυλα για μεγαλύτερη ακρίβεια. Υπάρχουν επίσης η γόμα, η «Εκκαθάριση όλων» και η «Ολόκληρη σελίδα».</p></details>
+<details><summary>Ο τίτλος ή ο συγγραφέας βγήκε λάθος.</summary><p>Η αναγνώριση του εξωφύλλου μαντεύει από το μέγεθος των γραμμάτων, γι’ αυτό σε πολύ διακοσμητικά εξώφυλλα μπορεί να κάνει λάθος. Μπορείς να διορθώσεις τον τίτλο και τον συγγραφέα πριν αποθηκεύσεις το βιβλίο.</p></details>
+<details><summary>Ο αριθμός σελίδας είναι λάθος.</summary><p>Διαβάζεται από τους αριθμούς στην άκρη της φωτογραφίας. Απλώς διόρθωσέ τον στο πεδίο σελίδας πριν την αποθήκευση.</p></details>
+<details><summary>Μπορώ να βλέπω τα αποσπάσματά μου σε πολλές συσκευές;</summary><p>Ναι. Αν έχεις συνδεθεί στο iCloud με τον ίδιο Λογαριασμό Apple και το iCloud Drive είναι ενεργό, τα βιβλία και τα αποσπάσματά σου συγχρονίζονται αυτόματα.</p></details>
+<details><summary>Πώς προσθέτω το γραφικό στοιχείο;</summary><p>Άγγιξε παρατεταμένα την οθόνη Αφετηρίας, πάτησε Επεξεργασία &gt; Προσθήκη γραφικού στοιχείου και διάλεξε το Bookmark Shot. Για την οθόνη κλειδώματος, άγγιξέ την παρατεταμένα και πάτησε Προσαρμογή. Εκεί εμφανίζεται το απόσπασμα της ημέρας.</p></details>
+<details><summary>Η κάμερα δεν λειτουργεί.</summary><p>Έλεγξε στις Ρυθμίσεις &gt; Bookmark Shot ότι επιτρέπεται η πρόσβαση στην κάμερα και στις φωτογραφίες. Για τη λήψη φωτογραφιών χρειάζεσαι πραγματικό iPhone.</p></details>
+<details><summary>Τι χρειάζομαι;</summary><p>Ένα iPhone με iOS 17.0 ή νεότερο.</p></details>
+<details><summary>Πώς επικοινωνώ μαζί σας;</summary><p>Στείλε σχόλια από την οθόνη Ρυθμίσεων της εφαρμογής (το γρανάζι) ή γράψε μας στη διεύθυνση παρακάτω. Συνήθως απαντάμε μέσα σε δύο με τρεις μέρες.</p></details></div>
+      <p class="contact">Ερωτήσεις ή σχόλια; Γράψε στο <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Κράτα τη φράση που διάβασες σήμερα,<br>με μία φωτογραφία</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Κατέβασέ το δωρεάν από το App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Γλώσσα"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el" aria-current="page">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Πολιτική απορρήτου</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

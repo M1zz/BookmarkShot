@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: tallenna kirjojen parhaat lauseet",
+  "description": "Kuvaa sivu ja vedä sormella mieleisesi lauseen yli. Vain se lause tallentuu tekstinä kirjan ja sivunumeron kanssa. Kaikki toiminnot ovat ilmaisia.",
+  "hero": {
+    "headline": "Alleviivaa kirjaa\nilman kynää",
+    "lead": "Kuvaa sivu, vedä sormella mieleisesi lauseen yli, niin vain se tallentuu tekstinä. Kirja ja sivunumero kulkevat mukana.",
+    "cta": "Lataa ilmaiseksi App Storesta",
+    "note": "Kaikki toiminnot ilmaisia, ei mainoksia."
+  },
+  "demo": {
+    "title": "Kokeile vetää",
+    "lead": "Vedä sormella tai hiirellä minkä tahansa lauseen yli alla olevalla sivulla. Vain sanat, joiden yli vedät, päätyvät kortille.",
+    "book": "Seitsemän veljestä",
+    "author": "Aleksis Kivi",
+    "page": 5,
+    "pageLabel": "s. 5",
+    "text": "Jukolan talo, eteläisessä Hämeessä, seisoo erään mäen pohjoisella rinteellä, liki Toukolan kylää. Sen läheisin ympäristö on kivinen tanner, mutta alempana alkaa pellot, joissa, ennenkuin talo oli häviöön mennyt, aaltoili teräväpäinen vilja. Peltojen alla on niittu, apilaäyräinen, halki-leikkaama monipolvisen ojan; ja runsaasti antoi se heiniä, ennenkuin joutui laitumeksi kylän karjalle.",
+    "result": "Poimittu teksti",
+    "empty": "Vedä lauseen yli, niin se näkyy tässä.",
+    "eraser": "Pyyhekumi",
+    "eraserOn": "Pyyhekumi päällä",
+    "clear": "Tyhjennä kaikki",
+    "all": "Koko sivu",
+    "appName": "Bookmark Shot",
+    "note": "Verkkodemo käyttää valmista sivua. Sovellus lukee tekstin itse ottamastasi kuvasta. Näppäimistöllä siirryt sanaan Tab-näppäimellä ja lisäät tai poistat sen Enterillä."
+  },
+  "problem": {
+    "title": "Minne hyvät lauseet katoavat?",
+    "text": "Kirjaston kirjaan ei saa tehdä merkintöjä. Kuva sivusta hukkuu tuhansien muiden joukkoon kamerarullassa. Jos kirjoitat lauseen muistiinpanosovellukseen, kirjan nimi ja sivunumero jäävät usein pois. Bookmark Shot tallentaa lauseen, kirjan ja sivun kahdella eleellä: kuvaa ja vedä."
+  },
+  "features": [
+    {
+      "title": "Vino kuva, suora sivu",
+      "text": "Kun olet kuvannut sivun, sovita neljä kulmaa paikoilleen, niin vinokin kuva oikenee kuin paperiarkki. Mitä terävämmät kirjaimet, sitä parempi tunnistus.\nMyös kuvakirjastossa jo olevat kuvat käyvät.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Kaikki lainaukset yhdessä paikassa",
+      "text": "Kirjasi ovat kirjastossa kansikuvineen ja lainauksesi kootaan yhteen luetteloon. Hae lauseen, muistiinpanon tai kirjan nimen perusteella ja merkitse sydämellä ne, jotka haluat lukea uudelleen.\nLisää kirja yhdellä kansikuvalla. Kirjan nimi ja kirjailija luetaan puolestasi, ja myös ISBN, jos takakannen viivakoodi näkyy kuvassa.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Kohtaa unohtuneet lauseet uudelleen",
+      "text": "Päivän lainaus tuo joka päivä takaisin yhden tallentamistasi lainauksista yhdessä silloin kirjoittamasi muistiinpanon kanssa. Pidä se Koti-valikossa tai lukitusnäytöllä widgetin avulla.\nPiditkö siitä? Tee siitä paperin näköinen kortti ja jaa se.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Aloita kolmessa vaiheessa",
+    "items": [
+      {
+        "title": "Kuvaa kansi",
+        "text": "Kirjan nimi ja kirjailija täytetään. Voit korjata ne ennen tallennusta."
+      },
+      {
+        "title": "Kuvaa sivu",
+        "text": "Sovita neljä kulmaa, niin sivu oikenee."
+      },
+      {
+        "title": "Vedä lauseen yli",
+        "text": "Sivunumero löytyy ja tallentuu mukana."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Korostusnäkymän työkalut",
+    "rows": [
+      [
+        "Vedä sormella",
+        "valitsee vain sanat, joiden yli vedät"
+      ],
+      [
+        "Nipistä",
+        "zoomaa lähemmäs tarkempaa vetoa varten"
+      ],
+      [
+        "Siirrä",
+        "liikuta zoomattua sivua vetämällä"
+      ],
+      [
+        "Pyyhekumi",
+        "poistaa valinnasta sanat, joiden yli vedit"
+      ],
+      [
+        "Tyhjennä kaikki",
+        "poistaa kaikki valitut sanat"
+      ],
+      [
+        "Koko sivu",
+        "säilyttää sivun koko tekstin"
+      ],
+      [
+        "Sivukenttä",
+        "löydetty sivunumero, muokattavissa"
+      ]
+    ],
+    "note": "VoiceOverilla voit lisätä tai poistaa rivin kaksoisnapauttamalla sitä."
+  },
+  "pricing": {
+    "title": "Kaikki toiminnot ovat ilmaisia",
+    "free": {
+      "name": "Ilmainen",
+      "items": [
+        "Kirjojen lisäys kannesta, ISBN viivakoodista",
+        "Sivujen suoristus ja korostus sormella",
+        "Automaattiset sivunumerot",
+        "Kirjasto, lainausten haku ja suosikit",
+        "Päivän lainaus sekä Koti-valikon ja lukitusnäytön widgetit",
+        "Jakaminen korttikuvana",
+        "iCloud-synkronointi"
+      ]
+    },
+    "pro": {
+      "name": "Tue kehittäjää",
+      "items": [
+        "Voit halutessasi lähettää pienen tipin asetuksista",
+        "Tippi ei avaa mitään. Sovellus on sama joka tapauksessa"
+      ]
+    },
+    "note": "Ei mainoksia, ei tilausta."
+  },
+  "faq": {
+    "title": "Kysymyksiä",
+    "items": [
+      {
+        "q": "Lähetetäänkö kuviani tai lainauksiani jonnekin?",
+        "a": "Ei. Tekstintunnistus tehdään kokonaan laitteellasi Apple Visionilla, eikä kuviasi tai lainauksiasi lähetetä palvelimelle. Sovellus toimii myös ilman verkkoyhteyttä. Lisätietoja on alla olevassa tietosuojaselosteessa."
+      },
+      {
+        "q": "Mitä kieliä sovellus osaa lukea?",
+        "a": "Tekstintunnistuksen tekee iOS laitteellasi. Se lukee kirjoja koreaksi, englanniksi, japaniksi, kiinaksi, venäjäksi ja useimmilla Länsi-Euroopan kielillä, ja uusimmissa iOS-versioissa myös thaiksi, vietnamiksi, turkiksi, indonesiaksi, puolaksi, tšekiksi, hollanniksi ja Pohjoismaiden kielillä. Kreikkaa ei vielä tunnisteta."
+      },
+      {
+        "q": "Miten valitsen vain haluamani lauseen?",
+        "a": "Kun olet kuvannut sivun, vedä sormella lauseen yli kuin korostuskynällä, niin vain ne sanat valitaan. Zoomaa nipistämällä, niin veto on tarkempi. Lisäksi on Pyyhekumi, Tyhjennä kaikki ja Koko sivu."
+      },
+      {
+        "q": "Kirjan nimi tai kirjailija luetaan väärin.",
+        "a": "Kannen tunnistus päättelee tiedot kirjainten koon perusteella, joten erittäin koristeellisissa kansissa se voi erehtyä. Voit korjata nimen ja kirjailijan ennen kirjan tallentamista."
+      },
+      {
+        "q": "Sivunumero on väärä.",
+        "a": "Se luetaan kuvan reunassa olevista numeroista. Korjaa se vain sivukenttään ennen tallennusta."
+      },
+      {
+        "q": "Näenkö lainaukseni usealla laitteella?",
+        "a": "Kyllä. Jos olet kirjautunut iCloudiin samalla Apple-tilillä ja iCloud Drive on päällä, kirjasi ja lainauksesi synkronoituvat automaattisesti."
+      },
+      {
+        "q": "Miten lisään widgetin?",
+        "a": "Pidä sormea Koti-valikossa, napauta Muokkaa > Lisää widget ja valitse Bookmark Shot. Lukitusnäytöllä pidä sormea näytöllä ja napauta Muokkaa. Päivän lainaus näkyy siellä."
+      },
+      {
+        "q": "Kamera ei toimi.",
+        "a": "Tarkista kohdasta Asetukset > Bookmark Shot, että pääsy kameraan ja kuviin on sallittu. Kuvaamiseen tarvitaan oikea iPhone."
+      },
+      {
+        "q": "Mitä tarvitsen?",
+        "a": "iPhonen, jossa on iOS 17.0 tai uudempi."
+      },
+      {
+        "q": "Miten otan yhteyttä?",
+        "a": "Lähetä palautetta sovelluksen Asetukset-näkymästä (ratas) tai sähköpostilla alla olevaan osoitteeseen. Vastaamme yleensä kahden–kolmen päivän kuluessa."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Tallenna tänään lukemasi lause\nyhdellä kuvalla",
+    "cta": "Lataa ilmaiseksi App Storesta"
+  },
+  "ui": {
+    "skip": "Siirry sisältöön",
+    "languages": "Kieli",
+    "privacy": "Tietosuojaseloste",
+    "contact": "Kysyttävää tai palautetta? Kirjoita osoitteeseen {email}."
+  }
+}

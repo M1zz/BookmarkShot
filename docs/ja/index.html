@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ja">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — 心に残った一文を、写真1枚で</title>
-<meta name="description" content="Bookmark Shotは、本の表紙とページを撮影して、気に入った文を指でなぞるだけで保存できるiPhoneアプリです。">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot：本の好きな一文を、なぞって保存</title>
+  <meta name="description" content="ページを撮って、好きな一文を指でなぞるだけ。その文だけが文字になり、本のタイトルとページ番号もいっしょに残ります。すべての機能が無料。">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot：本の好きな一文を、なぞって保存">
+  <meta property="og:description" content="ページを撮って、好きな一文を指でなぞるだけ。その文だけが文字になり、本のタイトルとページ番号もいっしょに残ります。すべての機能が無料。">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/ja/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/ja/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="ページ">
-  <a href="./" aria-current="page">アプリについて</a>
-  <a href="support.html">サポート</a>
-  <a href="privacy.html">プライバシーポリシー</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">本に引きたくなる線を、指でなぞって</p>
+  <a class="skip" href="#main">本文へスキップ</a>
+  <header class="bar">
+    <a class="brand" href="../ja/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">言語</a>
+  </header>
 
-<p class="lead">紙の本で線を引きたくなったあの一文を、写真1枚で残しておけます。表紙と、気に入った文のあるページを撮影すれば、どの本の何ページなのかまでアプリが覚えておきます。蛍光ペンのように指でページをなぞると、その文だけが保存されます。</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>ペンがなくても<br>本に線を引ける</h1>
+        <p class="lead">ページを撮って、好きな一文を指でなぞると、その文だけが文字で保存されます。本のタイトルとページ番号もいっしょに。</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">App Storeで無料ダウンロード</a><a class="try" href="#try">なぞってみよう ↓</a></div>
+        <p class="muted small">すべての機能が無料。広告もありません。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/01-highlight.jpg" alt="ペンがなくても 本に線を引ける" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>使い方</h2>
-<div class="card"><h3>📖 本を登録する</h3><p>表紙を撮影すると、タイトルと著者が自動で入力されます。裏表紙のバーコードが写っていれば、ISBNも読み取ります。保存する前にすべて修正できます。</p></div>
-<div class="card"><h3>📐 ページの範囲を合わせる</h3><p>四隅をページに合わせると、写真が紙のようにまっすぐに整い、文字もよりはっきり読み取れます。</p></div>
-<div class="card"><h3>🖍️ 指で線を引く</h3><p>残したい文の上を指でなぞると、その言葉だけが選ばれます。ピンチで拡大すればより正確になぞれます。消しゴムや「すべて選択」も使えます。ページ番号も自動で見つけます。</p></div>
-<div class="card"><h3>🗂️ 集めた一文</h3><p>保存した文は本ごとにまとまった本棚から見返せます。全文検索とお気に入りにも対応しています。</p></div>
-<div class="card"><h3>✨ 今日の一文</h3><p>毎日、保存した文の中からひとつが届きます。カードにしてシェアすることもできます。</p></div>
 
-<h2>あなたの一文は端末の中に</h2>
-<p>文字の認識は端末の中で行われ、写真や保存した文が開発者のサーバーに送られることはありません。iCloudにサインインしていれば、ご自身のiCloudアカウントを通じてお使いのデバイス間で同期されます。詳しくは<a href="privacy.html">プライバシーポリシー</a>をご覧ください。</p>
+    <section class="reveal" id="try">
+      <h2>なぞってみよう</h2>
+      <p class="muted">下のページで、好きな文を指かマウスでなぞってみてください。なぞった言葉だけがカードに入ります。</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;なぞってみよう&quot;, &quot;lead&quot;: &quot;下のページで、好きな文を指かマウスでなぞってみてください。なぞった言葉だけがカードに入ります。&quot;, &quot;book&quot;: &quot;草枕&quot;, &quot;author&quot;: &quot;夏目漱石&quot;, &quot;page&quot;: 5, &quot;pageLabel&quot;: &quot;p.5&quot;, &quot;text&quot;: &quot;山路を登りながら、こう考えた。智に働けば角が立つ。情に棹させば流される。意地を通せば窮屈だ。とかくに人の世は住みにくい。住みにくさが高じると、安い所へ引き越したくなる。どこへ越しても住みにくいと悟った時、詩が生れて、画が出来る。人の世を作ったものは神でもなければ鬼でもない。やはり向う三軒両隣りにちらちらするただの人である。&quot;, &quot;result&quot;: &quot;抽出した文&quot;, &quot;empty&quot;: &quot;文をなぞると、ここに表示されます。&quot;, &quot;eraser&quot;: &quot;消しゴム&quot;, &quot;eraserOn&quot;: &quot;消しゴム ON&quot;, &quot;clear&quot;: &quot;すべて消去&quot;, &quot;all&quot;: &quot;ページ全体&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;Webのデモでは、あらかじめ用意したページを使っています。アプリでは撮影した写真から文字を読み取ります。キーボードの場合は、Tabキーで語句に移動し、Enterキーで追加・削除できます。&quot;}"></div>
+    </section>
 
-<h2>動作環境</h2>
-<ul>
-  <li>iOS 17.0以降</li>
-</ul>
+    <section class="problem reveal">
+      <h2>心に残った一文、どこにありますか？</h2>
+      <p>図書館の本だから、線は引けない。ページを撮った写真は、何千枚ものカメラロールに埋もれてしまう。メモアプリに打ち込んでも、本のタイトルやページ番号まではなかなか残らない。Bookmark Shotなら、撮って、なぞるだけ。2つの動作で、文と本とページをまとめて残せます。</p>
+    </section>
 
-<p><a class="cta" href="support.html">サポートとよくある質問</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>斜めの写真も、まっすぐなページに</h2>
+        <p>ページを撮ったら四隅を合わせるだけ。斜めに撮った写真も、紙のように平らに整います。文字がくっきりするほど、読み取りも正確になります。<br>撮影済みの写真からも読み込めます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/02-region.jpg" alt="斜めの写真も、まっすぐなページに" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">サポート</a> · <a href="privacy.html">プライバシーポリシー</a>
-<nav class="langs" aria-label="言語">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja" aria-current="true">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>集めた一文を、ひとつの場所に</h2>
+        <p>本は表紙が並ぶ本棚に、文はひとつのリストにまとまります。文・メモ・本のタイトルで検索でき、また読みたい文にはハートを付けられます。<br>本の登録は表紙を1枚撮るだけ。タイトルと著者を読み取り、裏表紙のバーコードが写っていればISBNも入力されます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/04-quotes.jpg" alt="集めた一文を、ひとつの場所に" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>忘れていた一文に、また出会う</h2>
+        <p>今日の一文は、保存した文の中からひとつを、そのとき残したメモといっしょに毎日届けます。ウィジェットでホーム画面やロック画面に置いておけます。<br>気に入ったら、紙のような風合いのカード画像にして共有できます。</p>
+      </div>
+      <div class="phone"><img src="../img/ja/05-daily.jpg" alt="忘れていた一文に、また出会う" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>はじめ方は3ステップ</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>表紙を撮る</h3><p>タイトルと著者が入力されます。保存する前に修正できます。</p></li>
+<li class="card"><span class="n">2</span><h3>ページを撮る</h3><p>四隅を合わせると、まっすぐに整います。</p></li>
+<li class="card"><span class="n">3</span><h3>文をなぞる</h3><p>ページ番号も見つけて、いっしょに保存します。</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>ハイライト画面の操作</h2>
+      <div class="card table">
+        <dl><div><dt>指でなぞる</dt><dd>なぞった言葉だけを選択</dd></div><div><dt>ピンチ</dt><dd>拡大して、より正確になぞる</dd></div><div><dt>移動</dt><dd>拡大したページをドラッグして動かす</dd></div><div><dt>消しゴム</dt><dd>なぞった言葉を選択から外す</dd></div><div><dt>すべて消去</dt><dd>選んだ言葉をすべて外す</dd></div><div><dt>ページ全体</dt><dd>ページの文字をすべて残す</dd></div><div><dt>ページ欄</dt><dd>見つけたページ番号。修正もできます</dd></div></dl>
+      </div>
+      <p class="muted">VoiceOverでは、行をダブルタップして追加・削除できます。</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>すべての機能が無料</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>無料</h3>
+          <ul><li>表紙から本を登録、バーコードからISBN</li><li>ページの補正と指でのハイライト</li><li>ページ番号の自動入力</li><li>本棚、文の検索、お気に入り</li><li>今日の一文と、ホーム画面・ロック画面のウィジェット</li><li>カード画像で共有</li><li>iCloud同期</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>開発者を応援する</h3>
+          <ul><li>よろしければ、設定から少額のチップを送れます</li><li>チップで使えるようになる機能はありません。アプリはどちらでも同じです</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">広告なし、サブスクリプションなし。</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>よくある質問</h2>
+      <div class="faq"><details><summary>写真や保存した文はどこかに送られますか？</summary><p>いいえ。文字認識はApple Visionを使ってすべて端末の中で行われ、写真や文がサーバーに送られることはありません。オフラインでも使えます。詳しくは下のプライバシーポリシーをご覧ください。</p></details>
+<details><summary>どの言語の本を読み取れますか？</summary><p>文字認識は端末上のiOSが行います。日本語、英語、韓国語、中国語、ロシア語、西ヨーロッパのほとんどの言語の本を読み取れます。新しいバージョンのiOSでは、タイ語、ベトナム語、トルコ語、インドネシア語、ポーランド語、チェコ語、オランダ語、北欧の言語にも対応しています。ギリシャ語はまだ読み取れません。</p></details>
+<details><summary>残したい文だけを選ぶには？</summary><p>ページを撮ったら、蛍光ペンで線を引くように文の上を指でなぞってください。その言葉だけが選ばれます。2本指で拡大すると、より正確になぞれます。「消しゴム」「すべて消去」「ページ全体」も使えます。</p></details>
+<details><summary>タイトルや著者が正しく読み取られません。</summary><p>表紙の認識は文字の大きさから推測しているため、装飾の多い表紙では間違えることがあります。本を保存する前に、タイトルと著者を修正できます。</p></details>
+<details><summary>ページ番号が違います。</summary><p>ページ番号は写真の端にある数字から読み取っています。保存する前に、ページ欄で直してください。</p></details>
+<details><summary>複数のデバイスで同じ文を見られますか？</summary><p>はい。同じApple AccountでiCloudにサインインし、iCloud Driveをオンにしていれば、本と文が自動で同期されます。</p></details>
+<details><summary>ウィジェットはどうやって追加しますか？</summary><p>ホーム画面を長押しして「編集」&gt;「ウィジェットを追加」をタップし、Bookmark Shotを選びます。ロック画面の場合は、長押ししてから「カスタマイズ」をタップします。そこに今日の一文が表示されます。</p></details>
+<details><summary>カメラが使えません。</summary><p>「設定」›「Bookmark Shot」で、カメラと写真へのアクセスが許可されているか確認してください。撮影にはiPhoneの実機が必要です。</p></details>
+<details><summary>動作環境は？</summary><p>iOS 17.0以降を搭載したiPhoneでお使いいただけます。</p></details>
+<details><summary>問い合わせ方法は？</summary><p>アプリの設定（歯車）画面からフィードバックを送るか、下のアドレスまでメールでお寄せください。通常2〜3日以内にお返事します。</p></details></div>
+      <p class="contact">ご質問やご意見は <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> までお寄せください。</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>今日読んだ一文を、<br>写真1枚で残そう</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">App Storeで無料ダウンロード</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="言語"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja" aria-current="page">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">プライバシーポリシー</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

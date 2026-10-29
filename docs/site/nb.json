@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: ta vare på setningene du liker",
+  "description": "Ta bilde av en side og dra fingeren over en setning du liker. Bare den setningen lagres som tekst, med bok og sidetall. Alt er gratis.",
+  "hero": {
+    "headline": "Strek under i boka\nuten penn",
+    "lead": "Ta bilde av siden, dra fingeren over setningen du liker, så lagres bare den som tekst. Bok og sidetall blir med.",
+    "cta": "Last ned gratis fra App Store",
+    "note": "Alle funksjoner er gratis, uten reklame."
+  },
+  "demo": {
+    "title": "Prøv å dra",
+    "lead": "Dra fingeren eller musen over en hvilken som helst setning på siden nedenfor. Bare ordene du drar over, havner på kortet.",
+    "book": "Friheten",
+    "author": "Nordahl Grieg",
+    "page": 42,
+    "pageLabel": "s. 42",
+    "text": "Kringsatt av fiender, gå inn i din tid! Under en blodig storm – vies du til strid. Kanskje du spør i angst, udekket, åpen: hva skal jeg kjempe med, hva er mitt våpen? Her er ditt vern mot vold, her er ditt sverd: troen på livet vårt, menneskets verd. For all vår fremtids skyld, søk det og dyrk det, dø om du må – men: øk det og styrk det!",
+    "result": "Uthentet tekst",
+    "empty": "Dra over en setning, så dukker den opp her.",
+    "eraser": "Viskelær",
+    "eraserOn": "Viskelær på",
+    "clear": "Fjern alt",
+    "all": "Hele siden",
+    "appName": "Bookmark Shot",
+    "note": "Nettdemoen bruker en ferdig side. Appen leser teksten fra et bilde du tar selv. Med tastatur går du til en frase med Tab og legger den til eller fjerner den med Enter."
+  },
+  "problem": {
+    "title": "Hvor blir det av de gode setningene?",
+    "text": "Det er en bibliotekbok, så du kan ikke streke i den. Et bilde av siden forsvinner blant tusenvis av andre i kamerarullen. Skriver du setningen inn i en notatapp, blir tittel og sidetall sjelden med. Bookmark Shot tar vare på setningen, boka og siden med to bevegelser: ta bilde og dra."
+  },
+  "features": [
+    {
+      "title": "Skjevt bilde, rett side",
+      "text": "Når du har tatt bilde av siden, plasserer du de fire hjørnene, og selv et skjevt bilde rettes ut som et ark. Jo skarpere bokstaver, jo bedre gjenkjenning.\nBilder som allerede ligger i bildebiblioteket, kan også brukes.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Alle sitatene på ett sted",
+      "text": "Bøkene dine står i et bibliotek av omslag, og sitatene samles i én liste. Søk etter setning, notat eller boktittel, og gi et hjerte til sitatene du vil lese igjen.\nLegg til en bok med ett bilde av omslaget. Tittel og forfatter leses for deg, og ISBN også hvis strekkoden på baksiden er med.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Møt setningene du hadde glemt",
+      "text": "Dagens sitat gir deg hver dag tilbake ett av de lagrede sitatene dine, sammen med notatet du skrev. Ha det på Hjem-skjermen eller låseskjermen med en widget.\nLiker du det? Gjør det til et kort i papirstil og del det.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Kom i gang på tre trinn",
+    "items": [
+      {
+        "title": "Ta bilde av omslaget",
+        "text": "Tittel og forfatter fylles inn. Rett dem før du lagrer."
+      },
+      {
+        "title": "Ta bilde av siden",
+        "text": "Plasser de fire hjørnene, så rettes den ut."
+      },
+      {
+        "title": "Dra over setningen",
+        "text": "Sidetallet finnes og lagres sammen med den."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Verktøy på markeringsskjermen",
+    "rows": [
+      [
+        "Dra med fingeren",
+        "velger bare ordene du drar over"
+      ],
+      [
+        "Knip",
+        "zoom inn for å dra mer presist"
+      ],
+      [
+        "Flytt",
+        "dra rundt på en innzoomet side"
+      ],
+      [
+        "Viskelær",
+        "tar ut ord du har dratt over"
+      ],
+      [
+        "Fjern alt",
+        "fjerner alle valgte ord"
+      ],
+      [
+        "Hele siden",
+        "beholder all teksten på siden"
+      ],
+      [
+        "Sidefelt",
+        "sidetallet som ble funnet, kan endres"
+      ]
+    ],
+    "note": "Med VoiceOver dobbelttrykker du på en linje for å legge den til eller fjerne den."
+  },
+  "pricing": {
+    "title": "Alle funksjoner er gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Legg til bøker fra omslaget, ISBN fra strekkoden",
+        "Utretting av sider og markering med fingeren",
+        "Automatiske sidetall",
+        "Bibliotek, søk i sitater og favoritter",
+        "Dagens sitat med widgeter for Hjem-skjermen og låseskjermen",
+        "Del som kortbilde",
+        "Synkronisering med iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Støtt utvikleren",
+      "items": [
+        "Send et lite tips fra Innstillinger hvis du vil",
+        "Tips låser ikke opp noe. Appen er den samme uansett"
+      ]
+    },
+    "note": "Ingen reklame, ikke noe abonnement."
+  },
+  "faq": {
+    "title": "Spørsmål",
+    "items": [
+      {
+        "q": "Blir bildene eller sitatene mine sendt noe sted?",
+        "a": "Nei. Tekstgjenkjenningen skjer helt på enheten din med Apple Vision, og bildene og sitatene dine sendes aldri til en server. Appen fungerer også uten nett. Les mer i personvernerklæringen nedenfor."
+      },
+      {
+        "q": "Hvilke språk kan den lese?",
+        "a": "Tekstgjenkjenningen gjøres av iOS på enheten din. Den leser bøker på koreansk, engelsk, japansk, kinesisk, russisk og de fleste vesteuropeiske språk, og på nyere iOS-versjoner også thai, vietnamesisk, tyrkisk, indonesisk, polsk, tsjekkisk, nederlandsk og de nordiske språkene. Gresk kan ikke gjenkjennes ennå."
+      },
+      {
+        "q": "Hvordan velger jeg bare setningen jeg vil ha?",
+        "a": "Når du har tatt bilde av siden, drar du fingeren over setningen, som med en markeringstusj, så velges bare de ordene. Knip for å zoome inn og få større presisjon. Det finnes også Viskelær, Fjern alt og Hele siden."
+      },
+      {
+        "q": "Tittelen eller forfatteren er feil.",
+        "a": "Omslagsgjenkjenningen gjetter ut fra skriftstørrelsen, så den kan ta feil på svært dekorative omslag. Du kan rette tittel og forfatter før du lagrer boka."
+      },
+      {
+        "q": "Sidetallet er feil.",
+        "a": "Det leses fra tallene i kanten av bildet. Bare rett det i sidefeltet før du lagrer."
+      },
+      {
+        "q": "Kan jeg se sitatene på flere enheter?",
+        "a": "Ja. Er du logget på iCloud med den samme Apple-kontoen og har iCloud Drive slått på, synkroniseres bøkene og sitatene dine automatisk."
+      },
+      {
+        "q": "Hvordan legger jeg til widgeten?",
+        "a": "Hold fingeren på Hjem-skjermen, trykk på Rediger > Legg til widget, og velg Bookmark Shot. På låseskjermen holder du fingeren på den og trykker på Tilpass. Der vises Dagens sitat."
+      },
+      {
+        "q": "Kameraet virker ikke.",
+        "a": "Sjekk under Innstillinger > Bookmark Shot at tilgang til kamera og bilder er tillatt. Du trenger en ekte iPhone for å ta bilder."
+      },
+      {
+        "q": "Hva trenger jeg?",
+        "a": "En iPhone med iOS 17.0 eller nyere."
+      },
+      {
+        "q": "Hvordan kontakter jeg dere?",
+        "a": "Send en tilbakemelding fra Innstillinger (tannhjulet) i appen, eller send e-post til adressen nedenfor. Vi svarer vanligvis innen to–tre dager."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Ta vare på setningen du leste i dag,\nmed ett bilde",
+    "cta": "Last ned gratis fra App Store"
+  },
+  "ui": {
+    "skip": "Gå til innholdet",
+    "languages": "Språk",
+    "privacy": "Personvernerklæring",
+    "contact": "Spørsmål eller tilbakemeldinger? Skriv til {email}."
+  }
+}

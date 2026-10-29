@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: keep the lines you love from any book",
+  "description": "Photograph a page and run a finger over a sentence you love. Only that line is saved as text, with the book and page number. All of it free.",
+  "hero": {
+    "headline": "Underline a book\nwithout a pen",
+    "lead": "Photograph the page, run a finger over the sentence you love, and only that sentence is saved as text. The book and page number come with it.",
+    "cta": "Get it free on the App Store",
+    "note": "Every feature is free, with no adverts."
+  },
+  "demo": {
+    "title": "Have a go",
+    "lead": "Run a finger or your mouse over any sentence on the page below. Only the words you cross end up on the card.",
+    "book": "Wuthering Heights",
+    "author": "Emily Brontë",
+    "page": 81,
+    "pageLabel": "p. 81",
+    "text": "If all else perished, and he remained, I should still continue to be; and if all else remained, and he were annihilated, the universe would turn to a mighty stranger: I should not seem a part of it. My love for Linton is like the foliage in the woods: time will change it, I'm well aware, as winter changes the trees. My love for Heathcliff resembles the eternal rocks beneath: a source of little visible delight, but necessary. Nelly, I am Heathcliff!",
+    "result": "Extracted Text",
+    "empty": "Swipe over a sentence and it will appear here.",
+    "eraser": "Eraser",
+    "eraserOn": "Eraser On",
+    "clear": "Clear All",
+    "all": "Whole Page",
+    "appName": "Bookmark Shot",
+    "note": "The web demo uses a ready-made page. The app reads the text from a photo you take. On a keyboard, Tab to a phrase and press Enter to add or remove it."
+  },
+  "problem": {
+    "title": "Where do the good lines end up?",
+    "text": "It's a library book, so you can't write in it. A photo of the page sinks among thousands in your camera roll. Type it into a notes app and the title and page number rarely come along. Bookmark Shot keeps the sentence, the book and the page with two gestures: snap, then swipe."
+  },
+  "features": [
+    {
+      "title": "Wonky photo, straight page",
+      "text": "After you photograph a page, line up the four corners and even a slanted shot is flattened like paper. Sharper letters mean better recognition.\nPhotos already in your library work too.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Every quote in one place",
+      "text": "Your books sit in a library of covers and your quotes gather in one list. Search by sentence, note or book title, and heart the ones you'd like to read again.\nAdd a book with a single cover shot. The title and author are read for you, and the ISBN too if the barcode on the back cover is in view.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Rediscover lines you'd forgotten",
+      "text": "Today's Quote brings back one of your saved quotes every day, along with the note you left. Keep it on your Home Screen or Lock Screen with a widget.\nLove it? Turn it into a paper-style card and share it.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Three steps to get started",
+    "items": [
+      {
+        "title": "Photograph the cover",
+        "text": "The title and author are filled in. Change them before saving if you need to."
+      },
+      {
+        "title": "Photograph the page",
+        "text": "Line up the four corners and it straightens out."
+      },
+      {
+        "title": "Swipe the sentence",
+        "text": "The page number is found and saved with it."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Tools on the highlight screen",
+    "rows": [
+      [
+        "Swipe a finger",
+        "selects only the words you cross"
+      ],
+      [
+        "Pinch",
+        "zooms in for a more precise swipe"
+      ],
+      [
+        "Move",
+        "drags a zoomed page around"
+      ],
+      [
+        "Eraser",
+        "takes swiped words back out"
+      ],
+      [
+        "Clear All",
+        "removes every selected word"
+      ],
+      [
+        "Whole Page",
+        "keeps all the text on the page"
+      ],
+      [
+        "Page field",
+        "the page number it found, editable"
+      ]
+    ],
+    "note": "With VoiceOver, double-tap a line to add or remove it."
+  },
+  "pricing": {
+    "title": "Every feature is free",
+    "free": {
+      "name": "Free",
+      "items": [
+        "Add books from the cover, ISBN from the barcode",
+        "Page straightening and finger highlighting",
+        "Automatic page numbers",
+        "Library, quote search and favourites",
+        "Today's Quote with Home Screen and Lock Screen widgets",
+        "Share as a card image",
+        "iCloud sync"
+      ]
+    },
+    "pro": {
+      "name": "Support the developer",
+      "items": [
+        "Leave a small tip from Settings, if you fancy it",
+        "Tips don't unlock anything. The app is the same either way"
+      ]
+    },
+    "note": "No adverts, no subscription."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "Are my photos or quotes sent anywhere?",
+        "a": "No. Text recognition runs entirely on your device with Apple Vision, and your photos and quotes never go to a server. It works offline too. See the Privacy Policy below for details."
+      },
+      {
+        "q": "Which languages can it read?",
+        "a": "Text recognition is done by iOS on your device. It reads books in Korean, English, Japanese, Chinese, Russian and most Western European languages, and on recent versions of iOS also Thai, Vietnamese, Turkish, Indonesian, Polish, Czech, Dutch and the Nordic languages. Greek can't be recognised yet."
+      },
+      {
+        "q": "How do I pick just the sentence I want?",
+        "a": "After you photograph the page, run a finger over the sentence as if using a highlighter, and only those words are selected. Pinch to zoom for precision. There's also an eraser, Clear All and Whole Page."
+      },
+      {
+        "q": "The title or author came out wrong.",
+        "a": "Cover recognition guesses from the size of the lettering, so very decorative covers can catch it out. You can correct the title and author before saving the book."
+      },
+      {
+        "q": "The page number is wrong.",
+        "a": "It's read from the numbers along the edge of the photo. Just correct it in the page field before saving."
+      },
+      {
+        "q": "Can I see my quotes on more than one device?",
+        "a": "Yes. If you're signed in to iCloud with the same Apple Account and iCloud Drive is turned on, your books and quotes sync automatically."
+      },
+      {
+        "q": "How do I add the widget?",
+        "a": "Touch and hold the Home Screen, tap Edit > Add Widget, and choose Bookmark Shot. For the Lock Screen, touch and hold it, then tap Customise. Today's Quote appears there."
+      },
+      {
+        "q": "The camera doesn't work.",
+        "a": "Check Settings > Bookmark Shot and make sure camera and photo access are allowed. Taking photos needs a real iPhone."
+      },
+      {
+        "q": "What do I need?",
+        "a": "An iPhone running iOS 17.0 or later."
+      },
+      {
+        "q": "How do I get in touch?",
+        "a": "Send feedback from the app's Settings (gear) screen or email us at the address below. We usually reply within two or three days."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Keep the line you read today,\nwith one photo",
+    "cta": "Get it free on the App Store"
+  },
+  "ui": {
+    "skip": "Skip to content",
+    "languages": "Language",
+    "privacy": "Privacy Policy",
+    "contact": "Questions or feedback? Write to {email}."
+  }
+}

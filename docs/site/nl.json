@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: bewaar je mooiste zinnen uit elk boek",
+  "description": "Fotografeer een pagina en veeg met je vinger over een zin die je mooi vindt. Alleen die zin wordt tekst, met boek en paginanummer. Alles is gratis.",
+  "hero": {
+    "headline": "Onderstrepen\nzonder pen",
+    "lead": "Fotografeer de pagina, veeg met je vinger over de zin die je mooi vindt, en alleen die zin wordt als tekst bewaard. Boek en paginanummer gaan mee.",
+    "cta": "Gratis downloaden in de App Store",
+    "note": "Alle functies gratis, zonder advertenties."
+  },
+  "demo": {
+    "title": "Probeer het eens",
+    "lead": "Veeg met je vinger of muis over een zin op de pagina hieronder. Alleen de woorden die je raakt, komen op de kaart.",
+    "book": "Max Havelaar",
+    "author": "Multatuli",
+    "page": 7,
+    "pageLabel": "p. 7",
+    "text": "en het werk aan te vangen, dat gij, lieve lezer, zo-even in de hand hebt genomen, en dat ge lezen moet als ge makelaar in koffie zijt, of als ge wat anders zijt. Niet alleen dat ik nooit iets schreef wat naar een roman geleek, maar ik houd er zelfs niet van, iets dergelijks te lezen, omdat ik een man van zaken ben.",
+    "result": "Opgehaalde tekst",
+    "empty": "Veeg over een zin en die verschijnt hier.",
+    "eraser": "Gum",
+    "eraserOn": "Gum aan",
+    "clear": "Alles wissen",
+    "all": "Hele pagina",
+    "appName": "Bookmark Shot",
+    "note": "De webdemo gebruikt een kant-en-klare pagina. De app leest de tekst uit een foto die je zelf maakt. Met een toetsenbord ga je met Tab naar een woordgroep en voeg je die met Enter toe of haal je die weg."
+  },
+  "problem": {
+    "title": "Waar blijven die mooie zinnen?",
+    "text": "In een boek van de bibliotheek mag je niet strepen. Een foto van de pagina verdwijnt tussen duizenden andere in je fotorol. Typ je de zin over in een notitie-app, dan ontbreken titel en paginanummer meestal. Bookmark Shot bewaart de zin, het boek en de pagina in twee gebaren: fotograferen en vegen."
+  },
+  "features": [
+    {
+      "title": "Scheve foto, rechte pagina",
+      "text": "Zet na de foto de vier hoeken goed, en zelfs een schuin genomen foto wordt rechtgetrokken als een vel papier. Hoe scherper de letters, hoe beter de herkenning.\nFoto’s die al in je fotobibliotheek staan, werken ook.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Al je citaten op één plek",
+      "text": "Je boeken staan in een bibliotheek vol kaften en je citaten in één lijst. Zoek op zin, notitie of boektitel, en geef de citaten die je nog eens wilt lezen een hartje.\nEen boek voeg je toe met één foto van de kaft. Titel en auteur worden voor je gelezen, en ook het ISBN als de streepjescode op de achterkant in beeld is.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Vergeten zinnen komen terug",
+      "text": "Citaat van de dag brengt elke dag een van je bewaarde citaten terug, samen met de notitie die je erbij schreef. Zet het met een widget op je beginscherm of toegangsscherm.\nMooi gevonden? Maak er een kaart in papierlook van en deel die.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "In drie stappen aan de slag",
+    "items": [
+      {
+        "title": "Fotografeer de kaft",
+        "text": "Titel en auteur worden ingevuld. Pas ze aan voordat je bewaart."
+      },
+      {
+        "title": "Fotografeer de pagina",
+        "text": "Zet de vier hoeken goed en de pagina wordt recht."
+      },
+      {
+        "title": "Veeg over de zin",
+        "text": "Het paginanummer wordt gevonden en meebewaard."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Gereedschap in het markeerscherm",
+    "rows": [
+      [
+        "Vegen met je vinger",
+        "selecteert alleen de woorden die je raakt"
+      ],
+      [
+        "Knijpen",
+        "zoom in om preciezer te vegen"
+      ],
+      [
+        "Verplaatsen",
+        "sleep een ingezoomde pagina rond"
+      ],
+      [
+        "Gum",
+        "haalt geveegde woorden weer weg"
+      ],
+      [
+        "Alles wissen",
+        "verwijdert alle geselecteerde woorden"
+      ],
+      [
+        "Hele pagina",
+        "bewaart alle tekst op de pagina"
+      ],
+      [
+        "Paginaveld",
+        "het gevonden paginanummer, aan te passen"
+      ]
+    ],
+    "note": "Met VoiceOver tik je dubbel op een regel om die toe te voegen of weg te halen."
+  },
+  "pricing": {
+    "title": "Alle functies zijn gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Boeken toevoegen via de kaft, ISBN via de streepjescode",
+        "Pagina’s rechttrekken en markeren met je vinger",
+        "Automatische paginanummers",
+        "Bibliotheek, citaten zoeken en favorieten",
+        "Citaat van de dag met widgets voor beginscherm en toegangsscherm",
+        "Delen als kaartafbeelding",
+        "Synchronisatie via iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Steun de ontwikkelaar",
+      "items": [
+        "Geef via Instellingen een kleine fooi, als je dat wilt",
+        "Een fooi ontgrendelt niets. De app blijft precies hetzelfde"
+      ]
+    },
+    "note": "Geen advertenties, geen abonnement."
+  },
+  "faq": {
+    "title": "Vragen",
+    "items": [
+      {
+        "q": "Worden mijn foto’s of citaten ergens naartoe gestuurd?",
+        "a": "Nee. De tekstherkenning gebeurt volledig op je apparaat met Apple Vision, en je foto’s en citaten gaan nooit naar een server. Het werkt ook offline. Lees meer in het privacybeleid hieronder."
+      },
+      {
+        "q": "Welke talen kan de app lezen?",
+        "a": "De tekstherkenning wordt door iOS op je apparaat gedaan. Boeken in het Koreaans, Engels, Japans, Chinees, Russisch en de meeste West-Europese talen worden gelezen, en op recente iOS-versies ook Thai, Vietnamees, Turks, Indonesisch, Pools, Tsjechisch, Nederlands en de Scandinavische talen. Grieks kan nog niet worden herkend."
+      },
+      {
+        "q": "Hoe kies ik alleen de zin die ik wil?",
+        "a": "Veeg na het fotograferen met je vinger over de zin, alsof je een markeerstift gebruikt, en alleen die woorden worden geselecteerd. Knijp om in te zoomen voor meer precisie. Er zijn ook Gum, Alles wissen en Hele pagina."
+      },
+      {
+        "q": "De titel of auteur klopt niet.",
+        "a": "De kaftherkenning gaat af op de grootte van de letters en kan zich dus vergissen bij heel sierlijke kaften. Je kunt titel en auteur aanpassen voordat je het boek bewaart."
+      },
+      {
+        "q": "Het paginanummer klopt niet.",
+        "a": "Dat wordt gelezen uit de cijfers aan de rand van de foto. Pas het gewoon aan in het paginaveld voordat je bewaart."
+      },
+      {
+        "q": "Kan ik mijn citaten op meer apparaten zien?",
+        "a": "Ja. Ben je met hetzelfde Apple Account bij iCloud ingelogd en staat iCloud Drive aan, dan worden je boeken en citaten automatisch gesynchroniseerd."
+      },
+      {
+        "q": "Hoe voeg ik de widget toe?",
+        "a": "Houd je vinger op het beginscherm, tik op ‘Wijzig’ > ‘Voeg widget toe’ en kies Bookmark Shot. Voor het toegangsscherm houd je je vinger erop en tik je op ‘Pas aan’. Daar verschijnt Citaat van de dag."
+      },
+      {
+        "q": "De camera werkt niet.",
+        "a": "Controleer in Instellingen > Bookmark Shot of toegang tot de camera en foto’s is toegestaan. Om foto’s te maken heb je een echte iPhone nodig."
+      },
+      {
+        "q": "Wat heb ik nodig?",
+        "a": "Een iPhone met iOS 17.0 of nieuwer."
+      },
+      {
+        "q": "Hoe neem ik contact op?",
+        "a": "Stuur feedback via het scherm Instellingen (tandwiel) in de app of mail ons op het adres hieronder. Meestal antwoorden we binnen twee à drie dagen."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bewaar de zin die je vandaag las,\nmet één foto",
+    "cta": "Gratis downloaden in de App Store"
+  },
+  "ui": {
+    "skip": "Naar de inhoud",
+    "languages": "Taal",
+    "privacy": "Privacybeleid",
+    "contact": "Vragen of feedback? Mail naar {email}."
+  }
+}

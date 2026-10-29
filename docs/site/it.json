@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: conserva le frasi più belle dei tuoi libri",
+  "description": "Fotografa la pagina e passa il dito sulla frase che ami. Solo quella viene salvata come testo, con libro e numero di pagina. Tutto gratis.",
+  "hero": {
+    "headline": "Sottolinea un libro\nsenza penna",
+    "lead": "Fotografa la pagina, passa il dito sulla frase che ti ha colpito e viene salvata come testo solo quella. Libro e numero di pagina arrivano insieme.",
+    "cta": "Scaricala gratis dall’App Store",
+    "note": "Tutte le funzioni sono gratuite, senza pubblicità."
+  },
+  "demo": {
+    "title": "Prova tu",
+    "lead": "Passa il dito o il mouse su una frase qualsiasi della pagina qui sotto. Sulla scheda finiscono solo le parole che attraversi.",
+    "book": "Canti",
+    "author": "Giacomo Leopardi",
+    "page": 42,
+    "pageLabel": "p. 42",
+    "text": "E come il vento odo stormir tra queste piante, io quello infinito silenzio a questa voce vo comparando: e mi sovvien l’eterno, e le morte stagioni, e la presente e viva, e il suon di lei. Così tra questa immensità s’annega il pensier mio: e il naufragar m’è dolce in questo mare.",
+    "result": "Testo estratto",
+    "empty": "Passa su una frase e comparirà qui.",
+    "eraser": "Gomma",
+    "eraserOn": "Gomma attiva",
+    "clear": "Cancella tutto",
+    "all": "Pagina intera",
+    "appName": "Bookmark Shot",
+    "note": "La demo web usa una pagina già pronta. L’app legge il testo dalla foto che scatti tu. Da tastiera, raggiungi un gruppo di parole con Tab e premi Invio per aggiungerlo o toglierlo."
+  },
+  "problem": {
+    "title": "Che fine fanno le frasi belle?",
+    "text": "Il libro è della biblioteca, quindi non puoi sottolinearlo. La foto della pagina sparisce tra migliaia di altre nel rullino. Se la ricopi in un’app di note, titolo e numero di pagina si perdono quasi sempre. Bookmark Shot tiene insieme frase, libro e pagina con due gesti: scatti, poi passi il dito."
+  },
+  "features": [
+    {
+      "title": "Foto storta, pagina dritta",
+      "text": "Dopo lo scatto, allinea i quattro angoli e anche una pagina fotografata di sbieco viene distesa come un foglio. Lettere più nitide, riconoscimento migliore.\nFunzionano anche le foto che hai già nella libreria di Foto.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Tutte le citazioni in un posto",
+      "text": "I tuoi libri si ritrovano in una libreria di copertine e le citazioni in un unico elenco. Cerca per frase, nota o titolo del libro e metti un cuore a quelle da rileggere.\nAggiungi un libro con una sola foto della copertina. Titolo e autore vengono letti per te, e anche l’ISBN se si vede il codice a barre della quarta di copertina.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Ritrova le frasi dimenticate",
+      "text": "La citazione del giorno ti riporta ogni giorno una delle citazioni salvate, insieme alla nota che avevi lasciato. Tienila nella schermata Home o nella schermata di blocco con un widget.\nTi piace? Trasformala in una cartolina dall’aspetto di carta e condividila.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Si comincia in tre passi",
+    "items": [
+      {
+        "title": "Fotografa la copertina",
+        "text": "Titolo e autore vengono compilati. Puoi modificarli prima di salvare."
+      },
+      {
+        "title": "Fotografa la pagina",
+        "text": "Allinea i quattro angoli e si raddrizza."
+      },
+      {
+        "title": "Evidenzia la frase",
+        "text": "Il numero di pagina viene trovato e salvato insieme."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Gli strumenti della schermata di evidenziazione",
+    "rows": [
+      [
+        "Passare il dito",
+        "seleziona solo le parole che attraversi"
+      ],
+      [
+        "Pizzicare",
+        "ingrandisce per evidenziare con più precisione"
+      ],
+      [
+        "Spostare",
+        "trascina la pagina ingrandita"
+      ],
+      [
+        "Gomma",
+        "toglie le parole evidenziate"
+      ],
+      [
+        "Cancella tutto",
+        "rimuove tutte le parole selezionate"
+      ],
+      [
+        "Pagina intera",
+        "tiene tutto il testo della pagina"
+      ],
+      [
+        "Campo pagina",
+        "il numero di pagina trovato, modificabile"
+      ]
+    ],
+    "note": "Con VoiceOver, tocca due volte una riga per aggiungerla o toglierla."
+  },
+  "pricing": {
+    "title": "Tutte le funzioni sono gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Aggiunta dei libri dalla copertina, ISBN dal codice a barre",
+        "Raddrizzamento delle pagine ed evidenziazione con il dito",
+        "Numero di pagina automatico",
+        "Libreria, ricerca tra le citazioni e preferite",
+        "La citazione del giorno con widget per schermata Home e schermata di blocco",
+        "Condivisione come cartolina",
+        "Sincronizzazione iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Sostieni lo sviluppatore",
+      "items": [
+        "Se ti va, lascia una piccola mancia dalle Impostazioni",
+        "Le mance non sbloccano nulla. L’app resta la stessa"
+      ]
+    },
+    "note": "Niente pubblicità, niente abbonamenti."
+  },
+  "faq": {
+    "title": "Domande",
+    "items": [
+      {
+        "q": "Le mie foto o le mie citazioni vengono inviate da qualche parte?",
+        "a": "No. Il riconoscimento del testo avviene interamente sul tuo dispositivo con Apple Vision, e foto e citazioni non vanno mai su un server. Funziona anche offline. Per i dettagli, consulta l’informativa sulla privacy qui sotto."
+      },
+      {
+        "q": "Quali lingue sa leggere?",
+        "a": "Il riconoscimento del testo è affidato a iOS, direttamente sul dispositivo. Legge libri in coreano, inglese, giapponese, cinese, russo e nella maggior parte delle lingue dell’Europa occidentale e, con le versioni recenti di iOS, anche in thailandese, vietnamita, turco, indonesiano, polacco, ceco, olandese e nelle lingue nordiche. Il greco non viene ancora riconosciuto."
+      },
+      {
+        "q": "Come scelgo solo la frase che voglio?",
+        "a": "Dopo aver fotografato la pagina, passa il dito sulla frase come con un evidenziatore: vengono selezionate solo quelle parole. Pizzica per ingrandire e avere più precisione. Ci sono anche la gomma, «Cancella tutto» e «Pagina intera»."
+      },
+      {
+        "q": "Titolo o autore sono sbagliati.",
+        "a": "Il riconoscimento della copertina si basa sulla grandezza dei caratteri, quindi può sbagliare con copertine molto elaborate. Puoi correggere titolo e autore prima di salvare il libro."
+      },
+      {
+        "q": "Il numero di pagina è sbagliato.",
+        "a": "Viene letto dai numeri sul bordo della foto. Basta correggerlo nel campo pagina prima di salvare."
+      },
+      {
+        "q": "Posso vedere le mie citazioni su più dispositivi?",
+        "a": "Sì. Se hai effettuato l’accesso a iCloud con lo stesso Apple Account e iCloud Drive è attivo, libri e citazioni si sincronizzano automaticamente."
+      },
+      {
+        "q": "Come aggiungo il widget?",
+        "a": "Tieni premuto sulla schermata Home, tocca Modifica > Aggiungi widget e scegli Bookmark Shot. Per la schermata di blocco, tienila premuta e tocca Personalizza. Lì compare la citazione del giorno."
+      },
+      {
+        "q": "La fotocamera non funziona.",
+        "a": "Controlla in Impostazioni > Bookmark Shot che l’accesso alla fotocamera e alle foto sia consentito. Per scattare foto serve un iPhone vero."
+      },
+      {
+        "q": "Cosa mi serve?",
+        "a": "Un iPhone con iOS 17.0 o versioni successive."
+      },
+      {
+        "q": "Come posso contattarvi?",
+        "a": "Invia un feedback dalla schermata Impostazioni (ingranaggio) dell’app o scrivici all’indirizzo qui sotto. Di solito rispondiamo entro due o tre giorni."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Conserva la frase letta oggi,\ncon una sola foto",
+    "cta": "Scaricala gratis dall’App Store"
+  },
+  "ui": {
+    "skip": "Vai al contenuto",
+    "languages": "Lingua",
+    "privacy": "Informativa sulla privacy",
+    "contact": "Domande o suggerimenti? Scrivi a {email}."
+  }
+}

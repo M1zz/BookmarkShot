@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="th">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — เก็บประโยคที่ชอบไว้ด้วยรูปเดียว</title>
-<meta name="description" content="Bookmark Shot คือแอป iPhone ที่ให้คุณถ่ายปกและหน้าหนังสือ แล้วลากนิ้วผ่านประโยคที่ชอบเพื่อเก็บไว้">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: เก็บประโยคที่ชอบจากหนังสือเป็นข้อความ</title>
+  <meta name="description" content="ถ่ายหน้าหนังสือแล้วลากนิ้วผ่านประโยคที่ชอบ แอปจะเก็บเฉพาะประโยคนั้นเป็นข้อความ พร้อมชื่อหนังสือและเลขหน้า ทุกฟีเจอร์ใช้ฟรี">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: เก็บประโยคที่ชอบจากหนังสือเป็นข้อความ">
+  <meta property="og:description" content="ถ่ายหน้าหนังสือแล้วลากนิ้วผ่านประโยคที่ชอบ แอปจะเก็บเฉพาะประโยคนั้นเป็นข้อความ พร้อมชื่อหนังสือและเลขหน้า ทุกฟีเจอร์ใช้ฟรี">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/th/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/th/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="หน้า">
-  <a href="./" aria-current="page">เกี่ยวกับ</a>
-  <a href="support.html">ช่วยเหลือ</a>
-  <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">ประโยคที่อยากขีดเส้นใต้ แค่ลากนิ้วผ่าน</p>
+  <a class="skip" href="#main">ข้ามไปที่เนื้อหา</a>
+  <header class="bar">
+    <a class="brand" href="../th/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">ภาษา</a>
+  </header>
 
-<p class="lead">เก็บประโยคที่คุณอยากขีดเส้นใต้ในหนังสือกระดาษไว้ได้ด้วยรูปถ่ายเพียงรูปเดียว ถ่ายปกหนังสือและหน้าที่มีข้อความที่ชอบ แอปจะจำไว้ให้ว่ามาจากหนังสือเล่มไหน หน้าไหน แค่ลากนิ้วบนหน้ากระดาษเหมือนใช้ปากกาไฮไลต์ ก็จะเก็บไว้เฉพาะประโยคนั้น</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>ขีดเส้นใต้หนังสือ<br>ได้โดยไม่ต้องใช้ปากกา</h1>
+        <p class="lead">ถ่ายหน้าหนังสือ ลากนิ้วผ่านประโยคที่ชอบ แล้วจะเก็บไว้เฉพาะประโยคนั้นเป็นข้อความ พร้อมชื่อหนังสือและเลขหน้า</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">ดาวน์โหลดฟรีบน App Store</a><a class="try" href="#try">ลองลากดู ↓</a></div>
+        <p class="muted small">ทุกฟีเจอร์ใช้ฟรี และไม่มีโฆษณา</p>
+      </div>
+      <div class="phone"><img src="../img/th/01-highlight.jpg" alt="ขีดเส้นใต้หนังสือ ได้โดยไม่ต้องใช้ปากกา" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>ใช้งานอย่างไร</h2>
-<div class="card"><h3>📖 เพิ่มหนังสือ</h3><p>ถ่ายรูปปก แล้วชื่อเรื่องกับชื่อผู้แต่งจะถูกกรอกให้เอง ถ้าถ่ายติดบาร์โค้ดที่ปกหลังด้วย ก็จะอ่าน ISBN ให้ด้วย ทุกอย่างแก้ไขได้ก่อนบันทึก</p></div>
-<div class="card"><h3>📐 เลือกขอบหน้ากระดาษ</h3><p>จัดมุมทั้งสี่ให้ตรงกับขอบหน้า รูปจะถูกปรับให้เรียบเหมือนแผ่นกระดาษ ตัวหนังสือจึงอ่านได้ชัดขึ้น</p></div>
-<div class="card"><h3>🖍️ ขีดเส้นใต้ด้วยนิ้ว</h3><p>ลากนิ้วผ่านประโยคที่ต้องการ แอปจะเลือกเฉพาะคำเหล่านั้น ถ่างสองนิ้วเพื่อซูมให้ลากได้แม่นขึ้น มีทั้งยางลบและปุ่มเลือกทั้งหมด แถมยังหาเลขหน้าให้ด้วย</p></div>
-<div class="card"><h3>🗂️ คลังของคุณ</h3><p>กลับมาอ่านประโยคที่เก็บไว้ได้ในชั้นหนังสือที่แยกตามเล่ม ค้นหาจากข้อความได้ทั้งหมด และกดเก็บเป็นรายการโปรดได้</p></div>
-<div class="card"><h3>✨ ประโยคประจำวัน</h3><p>ทุกวันจะมีหนึ่งประโยคจากที่คุณเก็บไว้กลับมาให้อ่านอีกครั้ง และแชร์เป็นการ์ดได้</p></div>
 
-<h2>ประโยคของคุณอยู่บนเครื่องของคุณ</h2>
-<p>การอ่านข้อความทำงานบนเครื่องของคุณ รูปถ่ายและประโยคที่เก็บไว้จะไม่ถูกส่งไปยังเซิร์ฟเวอร์ของผู้พัฒนา หากลงชื่อเข้าใช้ iCloud ไว้ ข้อมูลจะซิงค์ระหว่างอุปกรณ์ผ่านบัญชี iCloud ของคุณเอง ดูรายละเอียดได้ที่<a href="privacy.html">นโยบายความเป็นส่วนตัว</a></p>
+    <section class="reveal" id="try">
+      <h2>ลองลากดู</h2>
+      <p class="muted">ลากนิ้วหรือเมาส์ผ่านประโยคไหนก็ได้ในหน้าด้านล่าง เฉพาะคำที่ลากผ่านเท่านั้นที่จะไปอยู่บนการ์ด</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;ลองลากดู&quot;, &quot;lead&quot;: &quot;ลากนิ้วหรือเมาส์ผ่านประโยคไหนก็ได้ในหน้าด้านล่าง เฉพาะคำที่ลากผ่านเท่านั้นที่จะไปอยู่บนการ์ด&quot;, &quot;book&quot;: &quot;พระอภัยมณี&quot;, &quot;author&quot;: &quot;สุนทรภู่&quot;, &quot;page&quot;: 412, &quot;pageLabel&quot;: &quot;หน้า 412&quot;, &quot;text&quot;: &quot;แล้วสอนว่าอย่าไว้ใจมนุษย์ มันแสนสุดลึกล้ำเหลือกำหนด ถึงเถาวัลย์พันเกี่ยวที่เลี้ยวลด ก็ไม่คดเหมือนหนึ่งในน้ำใจคน มนุษย์นี้ที่รักอยู่สองสถาน บิดามารดารักมักเป็นผล ที่พึ่งหนึ่งพึ่งได้แต่กายตน เกิดเป็นคนคิดเห็นจึงเจรจา แม้นใครรักรักมั่งชังชังตอบ ให้รอบคอบคิดอ่านนะหลานหนา รู้สิ่งใดไม่สู้รู้วิชา รู้รักษาตัวรอดเป็นยอดดี&quot;, &quot;result&quot;: &quot;ข้อความที่ดึงได้&quot;, &quot;empty&quot;: &quot;ลากผ่านประโยค แล้วข้อความจะขึ้นตรงนี้&quot;, &quot;eraser&quot;: &quot;ยางลบ&quot;, &quot;eraserOn&quot;: &quot;ยางลบ เปิด&quot;, &quot;clear&quot;: &quot;ล้างทั้งหมด&quot;, &quot;all&quot;: &quot;ทั้งหน้า&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;เดโมบนเว็บใช้หน้าหนังสือที่เตรียมไว้แล้ว ส่วนในแอปจะอ่านข้อความจากรูปที่คุณถ่าย ถ้าใช้คีย์บอร์ด กด Tab เพื่อไปที่วลี แล้วกด Enter เพื่อเพิ่มหรือเอาออก&quot;}"></div>
+    </section>
 
-<h2>ความต้องการของระบบ</h2>
-<ul>
-  <li>iOS 17.0 ขึ้นไป</li>
-</ul>
+    <section class="problem reveal">
+      <h2>ประโยคดี ๆ ที่อ่านเจอ หายไปไหนหมด</h2>
+      <p>หนังสือยืมจากห้องสมุดก็ขีดเขียนไม่ได้ ถ่ายรูปหน้าหนังสือไว้ก็จมหายไปในรูปเป็นพัน ๆ รูป พิมพ์ลงแอปโน้ตก็มักไม่ได้จดชื่อหนังสือกับเลขหน้าไว้ Bookmark Shot เก็บประโยค หนังสือ และเลขหน้าไว้ด้วยสองขั้นตอน แค่ถ่าย แล้วลากนิ้ว</p>
+    </section>
 
-<p><a class="cta" href="support.html">ช่วยเหลือและคำถามที่พบบ่อย</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>ถ่ายเอียงก็ได้หน้าตรง</h2>
+        <p>หลังถ่ายหน้าหนังสือ ปรับมุมทั้งสี่ให้ตรงกับขอบหน้า แม้รูปที่ถ่ายเอียงก็ถูกปรับให้เรียบเหมือนแผ่นกระดาษ ตัวอักษรยิ่งคมชัด ก็ยิ่งอ่านได้แม่นยำ<br>ใช้รูปที่มีอยู่แล้วในคลังรูปภาพได้ด้วย</p>
+      </div>
+      <div class="phone"><img src="../img/th/02-region.jpg" alt="ถ่ายเอียงก็ได้หน้าตรง" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">ช่วยเหลือ</a> · <a href="privacy.html">นโยบายความเป็นส่วนตัว</a>
-<nav class="langs" aria-label="ภาษา">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th" aria-current="true">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>ทุกประโยครวมไว้ที่เดียว</h2>
+        <p>หนังสือของคุณเรียงอยู่บนชั้นหนังสือแบบโชว์ปก ส่วนประโยคที่เก็บไว้รวมอยู่ในรายการเดียว ค้นหาได้จากประโยค บันทึก หรือชื่อหนังสือ และกดหัวใจให้ประโยคที่อยากกลับมาอ่านอีก<br>เพิ่มหนังสือได้ด้วยรูปปกเพียงรูปเดียว แอปจะอ่านชื่อเรื่องและชื่อผู้แต่งให้ และถ้าถ่ายติดบาร์โค้ดที่ปกหลัง ก็ได้ ISBN มาด้วย</p>
+      </div>
+      <div class="phone"><img src="../img/th/04-quotes.jpg" alt="ทุกประโยครวมไว้ที่เดียว" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>เจอประโยคที่เคยลืมไปอีกครั้ง</h2>
+        <p>ประโยคประจำวันจะหยิบประโยคที่คุณเก็บไว้กลับมาให้อ่านวันละหนึ่งประโยค พร้อมบันทึกที่คุณเขียนไว้ตอนนั้น วางวิดเจ็ตไว้บนหน้าจอโฮมหรือหน้าจอล็อกได้<br>ชอบประโยคไหน เปลี่ยนเป็นการ์ดภาพสไตล์กระดาษแล้วแชร์ได้เลย</p>
+      </div>
+      <div class="phone"><img src="../img/th/05-daily.jpg" alt="เจอประโยคที่เคยลืมไปอีกครั้ง" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>เริ่มได้ใน 3 ขั้นตอน</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>ถ่ายปก</h3><p>ชื่อเรื่องและชื่อผู้แต่งกรอกให้อัตโนมัติ แก้ไขได้ก่อนบันทึก</p></li>
+<li class="card"><span class="n">2</span><h3>ถ่ายหน้าหนังสือ</h3><p>ปรับมุมทั้งสี่ แล้วหน้าจะตรงเอง</p></li>
+<li class="card"><span class="n">3</span><h3>ลากนิ้วผ่านประโยค</h3><p>แอปหาเลขหน้าให้และบันทึกไปพร้อมกัน</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>เครื่องมือในหน้าจอไฮไลต์</h2>
+      <div class="card table">
+        <dl><div><dt>ลากนิ้ว</dt><dd>เลือกเฉพาะคำที่ลากผ่าน</dd></div><div><dt>ถ่างสองนิ้ว</dt><dd>ซูมเข้าเพื่อลากได้แม่นขึ้น</dd></div><div><dt>เลื่อน</dt><dd>ลากหน้าที่ซูมอยู่ไปมา</dd></div><div><dt>ยางลบ</dt><dd>เอาคำที่ลากไว้ออก</dd></div><div><dt>ล้างทั้งหมด</dt><dd>เอาคำที่เลือกไว้ออกทั้งหมด</dd></div><div><dt>ทั้งหน้า</dt><dd>เก็บข้อความทั้งหน้า</dd></div><div><dt>ช่องเลขหน้า</dt><dd>เลขหน้าที่แอปหาเจอ แก้ไขได้</dd></div></dl>
+      </div>
+      <p class="muted">เมื่อใช้ VoiceOver ให้แตะสองครั้งที่บรรทัดเพื่อเพิ่มหรือเอาออก</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>ทุกฟีเจอร์ใช้ฟรี</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>ฟรี</h3>
+          <ul><li>เพิ่มหนังสือจากปก และ ISBN จากบาร์โค้ด</li><li>ปรับหน้าให้ตรงและไฮไลต์ด้วยนิ้ว</li><li>ใส่เลขหน้าให้อัตโนมัติ</li><li>ชั้นหนังสือ ค้นหาประโยค และรายการโปรด</li><li>ประโยคประจำวัน พร้อมวิดเจ็ตหน้าจอโฮมและหน้าจอล็อก</li><li>แชร์เป็นการ์ดภาพ</li><li>ซิงค์ผ่าน iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>สนับสนุนนักพัฒนา</h3>
+          <ul><li>ถ้าอยากสนับสนุน ส่งทิปเล็ก ๆ ได้จากการตั้งค่า</li><li>ทิปไม่ได้ปลดล็อกอะไรเพิ่ม แอปเหมือนเดิมทุกอย่าง</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">ไม่มีโฆษณา ไม่มีการสมัครสมาชิก</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>คำถามที่พบบ่อย</h2>
+      <div class="faq"><details><summary>รูปหรือประโยคของฉันถูกส่งไปที่ไหนหรือเปล่า</summary><p>ไม่ การอ่านข้อความทำบนอุปกรณ์ของคุณทั้งหมดด้วย Apple Vision รูปและประโยคจะไม่ถูกส่งไปยังเซิร์ฟเวอร์ และใช้งานแบบออฟไลน์ได้ด้วย ดูรายละเอียดได้ที่นโยบายความเป็นส่วนตัวด้านล่าง</p></details>
+<details><summary>อ่านภาษาอะไรได้บ้าง</summary><p>การอ่านข้อความทำโดย iOS บนอุปกรณ์ของคุณ อ่านหนังสือภาษาเกาหลี อังกฤษ ญี่ปุ่น จีน รัสเซีย และภาษายุโรปตะวันตกส่วนใหญ่ได้ และใน iOS เวอร์ชันใหม่ ๆ ยังอ่านภาษาไทย เวียดนาม ตุรกี อินโดนีเซีย โปแลนด์ เช็ก ดัตช์ และภาษากลุ่มนอร์ดิกได้ด้วย ส่วนภาษากรีกยังอ่านไม่ได้</p></details>
+<details><summary>จะเลือกเฉพาะประโยคที่ต้องการได้อย่างไร</summary><p>หลังถ่ายหน้าหนังสือ ให้ลากนิ้วผ่านประโยคเหมือนใช้ปากกาไฮไลต์ แอปจะเลือกเฉพาะคำเหล่านั้น ถ่างสองนิ้วเพื่อซูมให้ลากได้แม่นขึ้น และยังมียางลบ ล้างทั้งหมด และทั้งหน้าให้ใช้ด้วย</p></details>
+<details><summary>ชื่อเรื่องหรือชื่อผู้แต่งอ่านผิด</summary><p>การอ่านปกจะเดาจากขนาดตัวอักษร จึงอาจผิดได้กับปกที่ตกแต่งเยอะ คุณแก้ชื่อเรื่องและชื่อผู้แต่งได้ก่อนบันทึกหนังสือ</p></details>
+<details><summary>เลขหน้าไม่ถูกต้อง</summary><p>แอปอ่านเลขหน้าจากตัวเลขที่ขอบรูป แก้ในช่องเลขหน้าได้เลยก่อนบันทึก</p></details>
+<details><summary>ดูประโยคบนหลายอุปกรณ์ได้ไหม</summary><p>ได้ หากลงชื่อเข้าใช้ iCloud ด้วยบัญชี Apple เดียวกันและเปิด iCloud Drive ไว้ หนังสือและประโยคจะซิงค์ให้อัตโนมัติ</p></details>
+<details><summary>เพิ่มวิดเจ็ตอย่างไร</summary><p>แตะหน้าจอโฮมค้างไว้ แตะ “แก้ไข” &gt; “เพิ่มวิดเจ็ต” แล้วเลือก Bookmark Shot ส่วนหน้าจอล็อก ให้แตะค้างไว้แล้วแตะ “กำหนดเอง” ประโยคประจำวันจะแสดงอยู่ตรงนั้น</p></details>
+<details><summary>กล้องใช้งานไม่ได้</summary><p>ตรวจสอบใน การตั้งค่า &gt; Bookmark Shot ว่าอนุญาตให้เข้าถึงกล้องและรูปภาพแล้ว การถ่ายรูปต้องใช้ iPhone เครื่องจริง</p></details>
+<details><summary>ต้องใช้อะไรบ้าง</summary><p>iPhone ที่ใช้ iOS 17.0 ขึ้นไป</p></details>
+<details><summary>ติดต่อได้อย่างไร</summary><p>ส่งความคิดเห็นได้จากหน้าการตั้งค่า (รูปเฟือง) ในแอป หรือส่งอีเมลมาตามที่อยู่ด้านล่าง ปกติเราจะตอบกลับภายใน 2–3 วัน</p></details></div>
+      <p class="contact">มีคำถามหรือข้อเสนอแนะ เขียนมาได้ที่ <a href="mailto:leeo@kakao.com">leeo@kakao.com</a></p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>เก็บประโยคที่อ่านวันนี้<br>ด้วยรูปเดียว</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">ดาวน์โหลดฟรีบน App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="ภาษา"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th" aria-current="page">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">นโยบายความเป็นส่วนตัว</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

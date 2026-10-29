@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot : gardez les plus belles phrases de vos livres",
+  "description": "Photographiez une page et passez le doigt sur une phrase. Seule cette phrase est enregistrée en texte, avec le livre et la page. Tout est gratuit.",
+  "hero": {
+    "headline": "Souligner un livre,\nsans stylo",
+    "lead": "Photographiez la page, passez le doigt sur la phrase qui vous touche : seule cette phrase est enregistrée en texte, avec le livre et le numéro de page.",
+    "cta": "Télécharger gratuitement sur l’App Store",
+    "note": "Toutes les fonctionnalités sont gratuites, sans publicité."
+  },
+  "demo": {
+    "title": "Essayez par vous-même",
+    "lead": "Passez le doigt ou la souris sur n’importe quelle phrase de la page ci-dessous. Seuls les mots que vous parcourez s’ajoutent à la carte.",
+    "book": "Pensées",
+    "author": "Blaise Pascal",
+    "page": 96,
+    "pageLabel": "p. 96",
+    "text": "L’homme n’est qu’un roseau, le plus faible de la nature ; mais c’est un roseau pensant. Il ne faut pas que l’univers entier s’arme pour l’écraser : une vapeur, une goutte d’eau, suffit pour le tuer. Mais, quand l’univers l’écraserait, l’homme serait encore plus noble que ce qui le tue, puisqu’il sait qu’il meurt, et l’avantage que l’univers a sur lui ; l’univers n’en sait rien. Toute notre dignité consiste donc en la pensée.",
+    "result": "Texte extrait",
+    "empty": "Passez sur une phrase, elle apparaîtra ici.",
+    "eraser": "Gomme",
+    "eraserOn": "Gomme activée",
+    "clear": "Tout effacer",
+    "all": "Page entière",
+    "appName": "Bookmark Shot",
+    "note": "La démo web utilise une page toute prête. Dans l’app, le texte est lu sur votre propre photo. Au clavier, allez sur un groupe de mots avec Tab et appuyez sur Entrée pour l’ajouter ou le retirer."
+  },
+  "problem": {
+    "title": "Où finissent les belles phrases ?",
+    "text": "Le livre vient de la bibliothèque, impossible d’y écrire. La photo de la page se perd parmi des milliers d’autres dans la photothèque. Recopiée dans une app de notes, la phrase arrive rarement avec son titre et son numéro de page. Bookmark Shot garde la phrase, le livre et la page en deux gestes : une photo, puis un glissement du doigt."
+  },
+  "features": [
+    {
+      "title": "Photo de travers, page bien droite",
+      "text": "Après la photo, placez les quatre coins : même une page prise de biais est redressée comme une feuille à plat. Des lettres plus nettes, c’est une meilleure reconnaissance.\nLes photos déjà dans votre photothèque fonctionnent aussi.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Toutes vos citations au même endroit",
+      "text": "Vos livres se rangent dans une bibliothèque de couvertures, vos citations dans une seule liste. Cherchez par phrase, par note ou par titre, et mettez un cœur sur celles que vous voulez relire.\nAjoutez un livre d’une seule photo de couverture. Le titre et l’auteur sont lus pour vous, et l’ISBN aussi si le code-barres de la quatrième de couverture est visible.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Retrouvez les phrases oubliées",
+      "text": "La citation du jour vous rapporte chaque jour l’une de vos citations, avec la note que vous aviez laissée. Gardez-la sur l’écran d’accueil ou l’écran verrouillé grâce à un widget.\nCoup de cœur ? Transformez-la en carte façon papier et partagez-la.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Trois étapes pour commencer",
+    "items": [
+      {
+        "title": "Photographiez la couverture",
+        "text": "Le titre et l’auteur sont remplis. Modifiez-les avant d’enregistrer si besoin."
+      },
+      {
+        "title": "Photographiez la page",
+        "text": "Placez les quatre coins, elle se redresse."
+      },
+      {
+        "title": "Surlignez la phrase",
+        "text": "Le numéro de page est repéré et enregistré avec elle."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Les outils de l’écran de surlignage",
+    "rows": [
+      [
+        "Glisser le doigt",
+        "sélectionne uniquement les mots parcourus"
+      ],
+      [
+        "Pincer",
+        "zoome pour surligner plus précisément"
+      ],
+      [
+        "Déplacer",
+        "fait glisser la page agrandie"
+      ],
+      [
+        "Gomme",
+        "retire les mots surlignés"
+      ],
+      [
+        "Tout effacer",
+        "supprime tous les mots sélectionnés"
+      ],
+      [
+        "Page entière",
+        "garde tout le texte de la page"
+      ],
+      [
+        "Champ de page",
+        "le numéro de page repéré, modifiable"
+      ]
+    ],
+    "note": "Avec VoiceOver, touchez deux fois une ligne pour l’ajouter ou la retirer."
+  },
+  "pricing": {
+    "title": "Toutes les fonctionnalités sont gratuites",
+    "free": {
+      "name": "Gratuit",
+      "items": [
+        "Ajout de livres par la couverture, ISBN par le code-barres",
+        "Redressement des pages et surlignage au doigt",
+        "Numéro de page automatique",
+        "Bibliothèque, recherche de citations et favoris",
+        "Citation du jour avec widgets pour l’écran d’accueil et l’écran verrouillé",
+        "Partage sous forme de carte",
+        "Synchronisation iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Soutenir le développeur",
+      "items": [
+        "Laissez un petit pourboire depuis les Réglages, si le cœur vous en dit",
+        "Les pourboires ne débloquent rien. L’app reste la même"
+      ]
+    },
+    "note": "Ni publicité, ni abonnement."
+  },
+  "faq": {
+    "title": "Questions",
+    "items": [
+      {
+        "q": "Mes photos ou mes citations sont-elles envoyées quelque part ?",
+        "a": "Non. La reconnaissance du texte se fait entièrement sur votre appareil avec Apple Vision, et vos photos et citations ne partent jamais vers un serveur. Elle fonctionne aussi hors connexion. Pour en savoir plus, consultez la politique de confidentialité ci-dessous."
+      },
+      {
+        "q": "Quelles langues l’app sait-elle lire ?",
+        "a": "La reconnaissance du texte est assurée par iOS, sur votre appareil. Elle lit les livres en coréen, anglais, japonais, chinois, russe et dans la plupart des langues d’Europe de l’Ouest et, avec les versions récentes d’iOS, aussi en thaï, vietnamien, turc, indonésien, polonais, tchèque, néerlandais et dans les langues nordiques. Le grec n’est pas encore reconnu."
+      },
+      {
+        "q": "Comment ne choisir que la phrase que je veux ?",
+        "a": "Après avoir photographié la page, passez le doigt sur la phrase comme avec un surligneur : seuls ces mots sont sélectionnés. Pincez pour zoomer et gagner en précision. Il y a aussi la gomme, « Tout effacer » et « Page entière »."
+      },
+      {
+        "q": "Le titre ou l’auteur est mal reconnu.",
+        "a": "La reconnaissance de la couverture se fie à la taille des caractères, elle peut donc se tromper sur des couvertures très décorées. Vous pouvez corriger le titre et l’auteur avant d’enregistrer le livre."
+      },
+      {
+        "q": "Le numéro de page est faux.",
+        "a": "Il est lu à partir des chiffres au bord de la photo. Corrigez-le simplement dans le champ de page avant d’enregistrer."
+      },
+      {
+        "q": "Puis-je retrouver mes citations sur plusieurs appareils ?",
+        "a": "Oui. Si vous êtes connecté à iCloud avec le même compte Apple et qu’iCloud Drive est activé, vos livres et citations se synchronisent automatiquement."
+      },
+      {
+        "q": "Comment ajouter le widget ?",
+        "a": "Maintenez le doigt sur l’écran d’accueil, touchez Modifier > Ajouter un widget, puis choisissez Bookmark Shot. Pour l’écran verrouillé, maintenez le doigt dessus, puis touchez Personnaliser. La citation du jour s’y affiche."
+      },
+      {
+        "q": "L’appareil photo ne fonctionne pas.",
+        "a": "Vérifiez dans Réglages > Bookmark Shot que l’accès à l’appareil photo et aux photos est autorisé. Pour prendre des photos, il faut un vrai iPhone."
+      },
+      {
+        "q": "De quoi ai-je besoin ?",
+        "a": "D’un iPhone sous iOS 17.0 ou version ultérieure."
+      },
+      {
+        "q": "Comment vous contacter ?",
+        "a": "Envoyez un retour depuis l’écran Réglages (roue dentée) de l’app ou écrivez-nous à l’adresse ci-dessous. Nous répondons généralement sous deux ou trois jours."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Gardez la phrase lue aujourd’hui,\nd’une seule photo",
+    "cta": "Télécharger gratuitement sur l’App Store"
+  },
+  "ui": {
+    "skip": "Aller au contenu",
+    "languages": "Langue",
+    "privacy": "Politique de confidentialité",
+    "contact": "Une question, une suggestion ? Écrivez à {email}."
+  }
+}

@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: guarde as frases que você ama nos livros",
+  "description": "Fotografe a página e passe o dedo na frase que você ama. Só ela é salva como texto, com o livro e o número da página. Tudo de graça.",
+  "hero": {
+    "headline": "Grife o livro\nsem caneta",
+    "lead": "Fotografe a página, passe o dedo sobre a frase de que gosta e só ela é salva como texto. O livro e o número da página vão junto.",
+    "cta": "Baixe grátis na App Store",
+    "note": "Todos os recursos são gratuitos e sem anúncios."
+  },
+  "demo": {
+    "title": "Experimente",
+    "lead": "Passe o dedo ou o mouse sobre qualquer frase da página abaixo. Só as palavras por onde você passar vão para o cartão.",
+    "book": "Dom Casmurro",
+    "author": "Machado de Assis",
+    "page": 9,
+    "pageLabel": "p. 9",
+    "text": "Cumprimentou-me, sentou-se ao pé de mim, falou da lua e dos ministros, e acabou recitando-me versos. A viagem era curta, e os versos pode ser que não fossem inteiramente maus. Sucedeu, porém, que, como eu estava cansado, fechei os olhos três ou quatro vezes; tanto bastou para que ele interrompesse a leitura e metesse os versos no bolso.",
+    "result": "Texto extraído",
+    "empty": "Passe o dedo sobre uma frase e ela aparece aqui.",
+    "eraser": "Borracha",
+    "eraserOn": "Borracha ativada",
+    "clear": "Limpar tudo",
+    "all": "Página inteira",
+    "appName": "Bookmark Shot",
+    "note": "A demonstração na web usa uma página pronta. O app lê o texto da foto que você tirar. No teclado, vá até um trecho com Tab e pressione Enter para incluir ou tirar."
+  },
+  "problem": {
+    "title": "Onde vão parar as frases boas?",
+    "text": "O livro é da biblioteca, então não dá para grifar. A foto da página some no meio de milhares de outras na galeria. Digitada num app de notas, a frase quase nunca leva junto o título e a página. O Bookmark Shot guarda a frase, o livro e a página com dois gestos: fotografar e deslizar o dedo."
+  },
+  "features": [
+    {
+      "title": "Foto torta, página reta",
+      "text": "Depois de fotografar, ajuste os quatro cantos e até uma página tirada de lado fica plana como uma folha. Letras mais nítidas, reconhecimento melhor.\nAs fotos que já estão na sua fototeca também servem.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Todos os trechos num só lugar",
+      "text": "Seus livros ficam numa biblioteca de capas e seus trechos, reunidos numa só lista. Busque por frase, nota ou título do livro e marque com um coração os que quiser reler.\nAdicione um livro com uma só foto da capa. O título e o autor são lidos para você, e o ISBN também, se o código de barras da quarta capa aparecer.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Reencontre as frases esquecidas",
+      "text": "O Trecho do dia traz de volta, todo dia, um dos seus trechos salvos, junto com a nota que você deixou. Deixe-o na Tela de Início ou na Tela Bloqueada com um widget.\nAmou? Transforme-o num cartão com cara de papel e compartilhe.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Comece em três passos",
+    "items": [
+      {
+        "title": "Fotografe a capa",
+        "text": "O título e o autor são preenchidos. Edite antes de salvar, se precisar."
+      },
+      {
+        "title": "Fotografe a página",
+        "text": "Ajuste os quatro cantos e ela fica reta."
+      },
+      {
+        "title": "Grife a frase",
+        "text": "O número da página é encontrado e salvo junto."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Ferramentas da tela de grifar",
+    "rows": [
+      [
+        "Deslizar o dedo",
+        "seleciona só as palavras por onde você passa"
+      ],
+      [
+        "Pinçar",
+        "amplia para grifar com mais precisão"
+      ],
+      [
+        "Mover",
+        "arrasta a página ampliada"
+      ],
+      [
+        "Borracha",
+        "tira as palavras grifadas"
+      ],
+      [
+        "Limpar tudo",
+        "remove todas as palavras selecionadas"
+      ],
+      [
+        "Página inteira",
+        "fica com todo o texto da página"
+      ],
+      [
+        "Campo da página",
+        "o número da página encontrado, editável"
+      ]
+    ],
+    "note": "Com o VoiceOver, toque duas vezes numa linha para incluí-la ou tirá-la."
+  },
+  "pricing": {
+    "title": "Todos os recursos são gratuitos",
+    "free": {
+      "name": "Grátis",
+      "items": [
+        "Livros adicionados pela capa, ISBN pelo código de barras",
+        "Página endireitada e grifo com o dedo",
+        "Número da página automático",
+        "Biblioteca, busca de trechos e favoritos",
+        "Trecho do dia com widgets para a Tela de Início e a Tela Bloqueada",
+        "Compartilhamento como cartão",
+        "Sincronização com o iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Apoie o desenvolvedor",
+      "items": [
+        "Se quiser, mande uma gorjetinha pelos Ajustes",
+        "Gorjetas não desbloqueiam nada. O app é o mesmo"
+      ]
+    },
+    "note": "Sem anúncios, sem assinatura."
+  },
+  "faq": {
+    "title": "Perguntas",
+    "items": [
+      {
+        "q": "Minhas fotos ou trechos são enviados para algum lugar?",
+        "a": "Não. O reconhecimento de texto é feito inteiramente no seu aparelho com o Apple Vision, e suas fotos e trechos nunca vão para um servidor. Também funciona sem internet. Veja os detalhes na Política de Privacidade abaixo."
+      },
+      {
+        "q": "Quais idiomas ele consegue ler?",
+        "a": "O reconhecimento de texto é feito pelo iOS no seu aparelho. Ele lê livros em coreano, inglês, japonês, chinês, russo e na maioria dos idiomas da Europa Ocidental, e nas versões recentes do iOS também tailandês, vietnamita, turco, indonésio, polonês, tcheco, holandês e os idiomas nórdicos. O grego ainda não é reconhecido."
+      },
+      {
+        "q": "Como escolho só a frase que eu quero?",
+        "a": "Depois de fotografar a página, passe o dedo sobre a frase como se usasse um marca-texto, e só essas palavras são selecionadas. Faça o gesto de pinça para ampliar e ganhar precisão. Também há a borracha, Limpar tudo e Página inteira."
+      },
+      {
+        "q": "O título ou o autor saiu errado.",
+        "a": "O reconhecimento da capa adivinha pelo tamanho das letras, então pode errar em capas muito decoradas. Você pode corrigir o título e o autor antes de salvar o livro."
+      },
+      {
+        "q": "O número da página está errado.",
+        "a": "Ele é lido dos números na borda da foto. É só corrigir no campo da página antes de salvar."
+      },
+      {
+        "q": "Posso ver meus trechos em mais de um aparelho?",
+        "a": "Sim. Se você estiver conectado ao iCloud com a mesma Conta Apple e o iCloud Drive estiver ativado, seus livros e trechos são sincronizados automaticamente."
+      },
+      {
+        "q": "Como adiciono o widget?",
+        "a": "Toque e mantenha pressionada a Tela de Início, toque em Editar > Adicionar Widget e escolha Bookmark Shot. Na Tela Bloqueada, toque e mantenha pressionado e depois toque em Personalizar. O Trecho do dia aparece ali."
+      },
+      {
+        "q": "A câmera não funciona.",
+        "a": "Confira em Ajustes > Bookmark Shot se o acesso à câmera e às fotos está permitido. Para tirar fotos, é preciso um iPhone de verdade."
+      },
+      {
+        "q": "Do que eu preciso?",
+        "a": "Um iPhone com iOS 17.0 ou posterior."
+      },
+      {
+        "q": "Como entro em contato?",
+        "a": "Envie um feedback pela tela de Ajustes (engrenagem) do app ou mande um e-mail para o endereço abaixo. Costumamos responder em dois ou três dias."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Guarde a frase que você leu hoje\ncom uma só foto",
+    "cta": "Baixe grátis na App Store"
+  },
+  "ui": {
+    "skip": "Pular para o conteúdo",
+    "languages": "Idioma",
+    "privacy": "Política de Privacidade",
+    "contact": "Dúvidas ou sugestões? Escreva para {email}."
+  }
+}

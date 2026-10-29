@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="vi">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Bookmark Shot — Lưu câu văn bạn yêu chỉ bằng một tấm ảnh</title>
-<meta name="description" content="Bookmark Shot là ứng dụng iPhone giúp bạn chụp bìa và trang sách, rồi lướt ngón tay qua những câu bạn thích để lưu lại.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bookmark Shot: Lưu câu văn hay từ mọi cuốn sách</title>
+  <meta name="description" content="Chụp trang sách rồi vuốt ngón tay qua câu bạn thích. Chỉ câu đó được lưu thành chữ, kèm tên sách và số trang. Mọi tính năng đều miễn phí.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Bookmark Shot: Lưu câu văn hay từ mọi cuốn sách">
+  <meta property="og:description" content="Chụp trang sách rồi vuốt ngón tay qua câu bạn thích. Chỉ câu đó được lưu thành chữ, kèm tên sách và số trang. Mọi tính năng đều miễn phí.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/vi/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/vi/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="../icon.png">
+  <link rel="apple-touch-icon" href="../icon.png">
+  <link rel="stylesheet" href="../site.css">
+  <link rel="stylesheet" href="../demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="Trang">
-  <a href="./" aria-current="page">Giới thiệu</a>
-  <a href="support.html">Hỗ trợ</a>
-  <a href="privacy.html">Chính sách quyền riêng tư</a>
-</nav>
-<h1>Bookmark Shot 📚</h1>
-<p class="sub">Câu văn muốn gạch chân, chỉ cần lướt ngón tay</p>
+  <a class="skip" href="#main">Chuyển đến nội dung</a>
+  <header class="bar">
+    <a class="brand" href="../vi/"><img src="../icon.png" alt="" width="32" height="32">Bookmark Shot</a>
+    <a class="lang-link" href="#languages">Ngôn ngữ</a>
+  </header>
 
-<p class="lead">Giữ lại câu văn bạn muốn gạch chân trong sách giấy, chỉ với một tấm ảnh. Chụp bìa sách và trang có đoạn bạn thích, ứng dụng sẽ nhớ câu đó đến từ cuốn nào, trang nào. Lướt ngón tay trên trang như dùng bút dạ quang, và chỉ riêng câu đó được lưu lại.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>Gạch chân sách<br>mà không cần bút</h1>
+        <p class="lead">Chụp trang sách, vuốt ngón tay qua câu bạn thích, và chỉ riêng câu đó được lưu thành chữ. Tên sách và số trang cũng được ghi kèm.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">Tải miễn phí trên App Store</a><a class="try" href="#try">Thử vuốt xem ↓</a></div>
+        <p class="muted small">Mọi tính năng đều miễn phí, không quảng cáo.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/01-highlight.jpg" alt="Gạch chân sách mà không cần bút" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>Cách dùng</h2>
-<div class="card"><h3>📖 Thêm sách</h3><p>Chụp bìa sách, tên sách và tác giả được điền sẵn cho bạn. Nếu ảnh có cả mã vạch ở bìa sau, ISBN cũng được đọc luôn. Bạn có thể sửa mọi thứ trước khi lưu.</p></div>
-<div class="card"><h3>📐 Chọn vùng trang</h3><p>Căn bốn góc khớp với trang giấy, ảnh sẽ được làm phẳng như tờ giấy để chữ hiện rõ nét hơn.</p></div>
-<div class="card"><h3>🖍️ Gạch chân bằng ngón tay</h3><p>Lướt qua câu bạn muốn, chỉ những chữ đó được chọn. Chụm hai ngón để phóng to cho chính xác hơn, dùng cục tẩy hoặc nút Chọn tất cả. Số trang cũng được tìm giúp bạn.</p></div>
-<div class="card"><h3>🗂️ Bộ sưu tập của bạn</h3><p>Tìm lại những câu đã lưu trong tủ sách xếp theo từng cuốn, có tìm kiếm toàn văn và mục yêu thích.</p></div>
-<div class="card"><h3>✨ Câu của hôm nay</h3><p>Mỗi ngày, một câu bạn đã lưu sẽ quay lại với bạn, và bạn có thể chia sẻ nó dưới dạng tấm thẻ.</p></div>
 
-<h2>Câu văn của bạn ở lại trên máy của bạn</h2>
-<p>Việc nhận dạng chữ diễn ra ngay trên thiết bị, ảnh và câu văn của bạn không bao giờ được gửi đến máy chủ của nhà phát triển. Nếu bạn đăng nhập iCloud, dữ liệu sẽ được đồng bộ giữa các thiết bị qua chính tài khoản iCloud của bạn. Xem chi tiết tại <a href="privacy.html">Chính sách quyền riêng tư</a>.</p>
+    <section class="reveal" id="try">
+      <h2>Thử vuốt xem</h2>
+      <p class="muted">Rê ngón tay hoặc chuột qua bất kỳ câu nào trên trang dưới đây. Chỉ những chữ bạn lướt qua mới hiện lên thẻ.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;Thử vuốt xem&quot;, &quot;lead&quot;: &quot;Rê ngón tay hoặc chuột qua bất kỳ câu nào trên trang dưới đây. Chỉ những chữ bạn lướt qua mới hiện lên thẻ.&quot;, &quot;book&quot;: &quot;Truyện Kiều&quot;, &quot;author&quot;: &quot;Nguyễn Du&quot;, &quot;page&quot;: 212, &quot;pageLabel&quot;: &quot;tr. 212&quot;, &quot;text&quot;: &quot;Bắt phong trần phải phong trần, Cho thanh cao mới được phần thanh cao. Có đâu thiên vị người nào, Chữ tài chữ mệnh dồi dào cả hai. Có tài mà cậy chi tài, Chữ tài liền với chữ tai một vần. Đã mang lấy nghiệp vào thân, Cũng đừng trời trách gần trời xa. Thiện căn ở tại lòng ta, Chữ tâm kia mới bằng ba chữ tài.&quot;, &quot;result&quot;: &quot;Văn bản đã trích&quot;, &quot;empty&quot;: &quot;Vuốt qua một câu, câu đó sẽ hiện ở đây.&quot;, &quot;eraser&quot;: &quot;Tẩy&quot;, &quot;eraserOn&quot;: &quot;Tẩy: Bật&quot;, &quot;clear&quot;: &quot;Xóa tất cả&quot;, &quot;all&quot;: &quot;Cả trang&quot;, &quot;appName&quot;: &quot;Bookmark Shot&quot;, &quot;note&quot;: &quot;Bản demo trên web dùng một trang có sẵn. Trong ứng dụng, chữ được đọc từ ảnh bạn chụp. Nếu dùng bàn phím, nhấn Tab để đến một cụm từ và nhấn Enter để thêm hoặc bỏ.&quot;}"></div>
+    </section>
 
-<h2>Yêu cầu hệ thống</h2>
-<ul>
-  <li>iOS 17.0 trở lên</li>
-</ul>
+    <section class="problem reveal">
+      <h2>Những câu hay rồi đi đâu?</h2>
+      <p>Sách mượn thư viện thì không được viết vào. Ảnh chụp trang sách chìm giữa hàng nghìn tấm ảnh khác. Gõ lại vào ứng dụng ghi chú thì hiếm khi nhớ ghi kèm tên sách và số trang. Bookmark Shot giữ lại câu văn, cuốn sách và số trang chỉ với hai thao tác: chụp, rồi vuốt.</p>
+    </section>
 
-<p><a class="cta" href="support.html">Hỗ trợ và câu hỏi thường gặp</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Ảnh nghiêng, trang vẫn thẳng</h2>
+        <p>Sau khi chụp, căn bốn góc cho khớp với trang, ngay cả ảnh chụp nghiêng cũng được làm phẳng như tờ giấy. Chữ càng rõ, nhận dạng càng chính xác.<br>Ảnh có sẵn trong thư viện ảnh cũng dùng được.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/02-region.jpg" alt="Ảnh nghiêng, trang vẫn thẳng" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 Bookmark Shot · <a href="support.html">Hỗ trợ</a> · <a href="privacy.html">Chính sách quyền riêng tư</a>
-<nav class="langs" aria-label="Ngôn ngữ">
-  <a href="../" hreflang="ko" lang="ko">한국어</a>
-  <a href="../en/" hreflang="en" lang="en">English</a>
-  <a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="../ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="../ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="../es/" hreflang="es" lang="es">Español</a>
-  <a href="../de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="../fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="../it/" hreflang="it" lang="it">Italiano</a>
-  <a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="../th/" hreflang="th" lang="th">ไทย</a>
-  <a href="../vi/" hreflang="vi" lang="vi" aria-current="true">Tiếng Việt</a>
-  <a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="../da/" hreflang="da" lang="da">Dansk</a>
-  <a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="../pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="../tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Mọi câu văn ở cùng một nơi</h2>
+        <p>Sách của bạn xếp thành tủ sách với đầy đủ bìa, còn câu văn gom về một danh sách. Tìm theo câu văn, ghi chú hoặc tên sách, và thả tim cho những câu muốn đọc lại.<br>Thêm sách chỉ với một tấm ảnh bìa. Tên sách và tác giả được đọc giúp bạn, và nếu ảnh có mã vạch ở bìa sau thì ISBN cũng được điền.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/04-quotes.jpg" alt="Mọi câu văn ở cùng một nơi" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>Gặp lại những câu đã quên</h2>
+        <p>Mỗi ngày, Câu của hôm nay mang một câu bạn đã lưu quay lại, cùng ghi chú bạn viết khi ấy. Đặt widget trên Màn hình chính hoặc Màn hình khóa để luôn nhìn thấy.<br>Thích câu nào thì biến nó thành tấm thẻ mang dáng giấy và chia sẻ.</p>
+      </div>
+      <div class="phone"><img src="../img/vi/05-daily.jpg" alt="Gặp lại những câu đã quên" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>Bắt đầu với ba bước</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>Chụp bìa</h3><p>Tên sách và tác giả được điền sẵn, bạn có thể sửa trước khi lưu.</p></li>
+<li class="card"><span class="n">2</span><h3>Chụp trang</h3><p>Căn bốn góc là trang được làm thẳng.</p></li>
+<li class="card"><span class="n">3</span><h3>Vuốt qua câu văn</h3><p>Số trang được tìm ra và lưu kèm.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>Công cụ trên màn hình đánh dấu</h2>
+      <div class="card table">
+        <dl><div><dt>Vuốt ngón tay</dt><dd>chỉ chọn những chữ bạn lướt qua</dd></div><div><dt>Thu phóng bằng hai ngón</dt><dd>phóng to để vuốt chính xác hơn</dd></div><div><dt>Di chuyển</dt><dd>kéo trang đang phóng to</dd></div><div><dt>Tẩy</dt><dd>bỏ những chữ đã vuốt</dd></div><div><dt>Xóa tất cả</dt><dd>bỏ mọi chữ đã chọn</dd></div><div><dt>Cả trang</dt><dd>giữ toàn bộ chữ trên trang</dd></div><div><dt>Ô số trang</dt><dd>số trang tìm được, có thể sửa</dd></div></dl>
+      </div>
+      <p class="muted">Khi dùng VoiceOver, chạm hai lần vào một dòng để thêm hoặc bỏ dòng đó.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>Mọi tính năng đều miễn phí</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>Miễn phí</h3>
+          <ul><li>Thêm sách từ ảnh bìa, ISBN từ mã vạch</li><li>Làm thẳng trang và đánh dấu bằng ngón tay</li><li>Tự động điền số trang</li><li>Tủ sách, tìm câu văn và mục yêu thích</li><li>Câu của hôm nay cùng widget Màn hình chính và Màn hình khóa</li><li>Chia sẻ dưới dạng thẻ ảnh</li><li>Đồng bộ iCloud</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>Ủng hộ nhà phát triển</h3>
+          <ul><li>Nếu muốn, bạn có thể gửi một khoản ủng hộ nhỏ trong Cài đặt</li><li>Khoản ủng hộ không mở khóa gì thêm. Ứng dụng vẫn như nhau</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">Không quảng cáo, không gói đăng ký.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>Câu hỏi thường gặp</h2>
+      <div class="faq"><details><summary>Ảnh hay câu văn của tôi có bị gửi đi đâu không?</summary><p>Không. Việc nhận dạng chữ diễn ra hoàn toàn trên thiết bị bằng Apple Vision, ảnh và câu văn của bạn không bao giờ được gửi lên máy chủ. Ứng dụng cũng dùng được khi không có mạng. Xem chi tiết tại Chính sách quyền riêng tư bên dưới.</p></details>
+<details><summary>Ứng dụng đọc được những ngôn ngữ nào?</summary><p>Việc nhận dạng chữ do iOS thực hiện ngay trên thiết bị. Ứng dụng đọc được sách tiếng Hàn, tiếng Anh, tiếng Nhật, tiếng Trung, tiếng Nga và hầu hết các ngôn ngữ Tây Âu; trên các phiên bản iOS gần đây còn đọc được tiếng Việt, tiếng Thái, tiếng Thổ Nhĩ Kỳ, tiếng Indonesia, tiếng Ba Lan, tiếng Séc, tiếng Hà Lan và các ngôn ngữ Bắc Âu. Tiếng Hy Lạp hiện chưa nhận dạng được.</p></details>
+<details><summary>Làm sao để chỉ chọn đúng câu mình muốn?</summary><p>Sau khi chụp trang, lướt ngón tay qua câu như dùng bút dạ quang, chỉ những chữ đó được chọn. Phóng to bằng hai ngón để chọn chính xác hơn. Ngoài ra còn có Tẩy, Xóa tất cả và Cả trang.</p></details>
+<details><summary>Tên sách hoặc tác giả bị đọc sai.</summary><p>Việc nhận dạng bìa dựa vào cỡ chữ để đoán, nên có thể sai với những bìa trang trí cầu kỳ. Bạn có thể sửa tên sách và tác giả trước khi lưu sách.</p></details>
+<details><summary>Số trang bị sai.</summary><p>Số trang được đọc từ những con số ở mép ảnh. Bạn chỉ cần sửa lại trong ô số trang trước khi lưu.</p></details>
+<details><summary>Tôi có xem câu văn trên nhiều thiết bị được không?</summary><p>Được. Nếu bạn đăng nhập iCloud bằng cùng một Tài khoản Apple và đã bật iCloud Drive, sách và câu văn sẽ tự động đồng bộ.</p></details>
+<details><summary>Làm sao để thêm widget?</summary><p>Chạm và giữ Màn hình chính, chạm vào Sửa &gt; Thêm tiện ích rồi chọn Bookmark Shot. Với Màn hình khóa, chạm và giữ màn hình rồi chạm vào Tùy chỉnh. Câu của hôm nay sẽ hiện ở đó.</p></details>
+<details><summary>Camera không hoạt động.</summary><p>Hãy vào Cài đặt &gt; Bookmark Shot và kiểm tra xem đã cho phép truy cập camera và ảnh chưa. Để chụp ảnh, bạn cần dùng iPhone thật.</p></details>
+<details><summary>Tôi cần những gì?</summary><p>Một chiếc iPhone chạy iOS 17.0 trở lên.</p></details>
+<details><summary>Liên hệ bằng cách nào?</summary><p>Gửi góp ý từ màn hình Cài đặt (biểu tượng bánh răng) trong ứng dụng, hoặc email cho chúng tôi theo địa chỉ bên dưới. Chúng tôi thường trả lời trong vòng hai đến ba ngày.</p></details></div>
+      <p class="contact">Có câu hỏi hoặc góp ý? Hãy viết cho chúng tôi tại <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>Giữ lại câu văn đọc hôm nay<br>chỉ bằng một tấm ảnh</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">Tải miễn phí trên App Store</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="Ngôn ngữ"><a href="../" hreflang="ko" lang="ko">한국어</a>
+<a href="../en/" hreflang="en" lang="en">English</a>
+<a href="../en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="../zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="../zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="../ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="../ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="../es/" hreflang="es" lang="es">Español</a>
+<a href="../de/" hreflang="de" lang="de">Deutsch</a>
+<a href="../fr/" hreflang="fr" lang="fr">Français</a>
+<a href="../it/" hreflang="it" lang="it">Italiano</a>
+<a href="../pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="../th/" hreflang="th" lang="th">ไทย</a>
+<a href="../vi/" hreflang="vi" lang="vi" aria-current="page">Tiếng Việt</a>
+<a href="../cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="../da/" hreflang="da" lang="da">Dansk</a>
+<a href="../el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="../fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="../id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="../nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="../nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="../pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="../sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="../tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">Chính sách quyền riêng tư</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="../demo.js"></script>
 </body>
 </html>

@@ -1,121 +1,193 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="ko">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>밑줄, 책 속 문장을 사진 한 장으로</title>
-<meta name="description" content="책 표지와 페이지를 찍고, 마음에 드는 문장을 손가락으로 슥 그어 모아 두는 iPhone 앱 밑줄입니다.">
-<link rel="canonical" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
-<link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
-<link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
-<link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
-<link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
-<link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
-<link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
-<link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
-<link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
-<link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
-<link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
-<link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
-<link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
-<link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
-<link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
-<link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
-<link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
-<link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
-<link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
-<link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
-<link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
-<link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
-<link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
-<link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
-<link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/en/">
-<style>
-  :root { color-scheme: light dark; }
-  body {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", sans-serif;
-    line-height: 1.7; max-width: 720px; margin: 0 auto; padding: 32px 20px 80px;
-    color: #1c1c1e; background: #fff;
-  }
-  @media (prefers-color-scheme: dark) { body { color: #e5e5e7; background: #1c1c1e; } }
-  h1 { font-size: 1.7rem; margin-bottom: 4px; }
-  h2 { font-size: 1.2rem; margin-top: 2rem; border-bottom: 1px solid #8883; padding-bottom: 6px; }
-  .sub, .updated { color: #8a8a8e; font-size: 0.95rem; margin-bottom: 2rem; }
-  a { color: #d97706; }
-  ul { padding-left: 1.2rem; }
-  details { margin: 10px 0; padding: 12px 16px; background: #8881; border-radius: 10px; }
-  summary { font-weight: 600; cursor: pointer; }
-  details p { margin: 10px 0 0; }
-  .cta { display: inline-block; margin-top: 8px; padding: 10px 18px; background: #d97706; color: #fff; border-radius: 10px; text-decoration: none; }
-  footer { margin-top: 3rem; font-size: 0.85rem; color: #8a8a8e; }
-  nav.pages { display:flex; gap:16px; flex-wrap:wrap; font-size:0.9rem; margin-bottom:1.5rem; }
-  nav.pages a[aria-current] { font-weight:700; text-decoration:none; }
-  nav.langs { margin-top: 1.2rem; font-size: 0.8rem; line-height: 2; }
-  nav.langs a { margin-right: 10px; white-space: nowrap; }
-  nav.langs a[aria-current] { font-weight: 700; text-decoration: none; color: inherit; }
-  .lead { font-size: 1.1rem; }
-  .card { margin: 14px 0; padding: 14px 18px; background: #8881; border-radius: 12px; }
-  .card h3 { margin: 0 0 4px; font-size: 1rem; }
-  .card p { margin: 0; }
-  :lang(ko) p, :lang(ko) li, :lang(ja) p, :lang(zh) p { word-break: keep-all; }
-</style>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>밑줄: 책 속 문장을 사진 한 장으로 모으는 앱</title>
+  <meta name="description" content="페이지를 찍고 마음에 드는 문장 위를 손가락으로 슥 그으면 그 문장만 글자로 옮겨 담아요. 무슨 책 몇 쪽인지까지 함께 남고, 모든 기능이 무료예요.">
+  <meta name="theme-color" content="#B36114" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#0a0d0f" media="(prefers-color-scheme: dark)">
+  <meta name="apple-itunes-app" content="app-id=6792787106">
+  <link rel="canonical" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="ko" href="https://m1zz.github.io/BookmarkShot/">
+  <link rel="alternate" hreflang="en" href="https://m1zz.github.io/BookmarkShot/en/">
+  <link rel="alternate" hreflang="en-GB" href="https://m1zz.github.io/BookmarkShot/en-GB/">
+  <link rel="alternate" hreflang="zh-Hans" href="https://m1zz.github.io/BookmarkShot/zh-Hans/">
+  <link rel="alternate" hreflang="zh-Hant" href="https://m1zz.github.io/BookmarkShot/zh-Hant/">
+  <link rel="alternate" hreflang="ja" href="https://m1zz.github.io/BookmarkShot/ja/">
+  <link rel="alternate" hreflang="ru" href="https://m1zz.github.io/BookmarkShot/ru/">
+  <link rel="alternate" hreflang="es" href="https://m1zz.github.io/BookmarkShot/es/">
+  <link rel="alternate" hreflang="de" href="https://m1zz.github.io/BookmarkShot/de/">
+  <link rel="alternate" hreflang="fr" href="https://m1zz.github.io/BookmarkShot/fr/">
+  <link rel="alternate" hreflang="it" href="https://m1zz.github.io/BookmarkShot/it/">
+  <link rel="alternate" hreflang="pt-BR" href="https://m1zz.github.io/BookmarkShot/pt-BR/">
+  <link rel="alternate" hreflang="th" href="https://m1zz.github.io/BookmarkShot/th/">
+  <link rel="alternate" hreflang="vi" href="https://m1zz.github.io/BookmarkShot/vi/">
+  <link rel="alternate" hreflang="cs" href="https://m1zz.github.io/BookmarkShot/cs/">
+  <link rel="alternate" hreflang="da" href="https://m1zz.github.io/BookmarkShot/da/">
+  <link rel="alternate" hreflang="el" href="https://m1zz.github.io/BookmarkShot/el/">
+  <link rel="alternate" hreflang="fi" href="https://m1zz.github.io/BookmarkShot/fi/">
+  <link rel="alternate" hreflang="id" href="https://m1zz.github.io/BookmarkShot/id/">
+  <link rel="alternate" hreflang="nb" href="https://m1zz.github.io/BookmarkShot/nb/">
+  <link rel="alternate" hreflang="nl" href="https://m1zz.github.io/BookmarkShot/nl/">
+  <link rel="alternate" hreflang="pl" href="https://m1zz.github.io/BookmarkShot/pl/">
+  <link rel="alternate" hreflang="sv" href="https://m1zz.github.io/BookmarkShot/sv/">
+  <link rel="alternate" hreflang="tr" href="https://m1zz.github.io/BookmarkShot/tr/">
+  <link rel="alternate" hreflang="x-default" href="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="밑줄: 책 속 문장을 사진 한 장으로 모으는 앱">
+  <meta property="og:description" content="페이지를 찍고 마음에 드는 문장 위를 손가락으로 슥 그으면 그 문장만 글자로 옮겨 담아요. 무슨 책 몇 쪽인지까지 함께 남고, 모든 기능이 무료예요.">
+  <meta property="og:url" content="https://m1zz.github.io/BookmarkShot/">
+  <meta property="og:image" content="https://m1zz.github.io/BookmarkShot/img/ko/og.jpg">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="icon" href="icon.png">
+  <link rel="apple-touch-icon" href="icon.png">
+  <link rel="stylesheet" href="site.css">
+  <link rel="stylesheet" href="demo.css">
+  <style>:root{--accent:#B36114}@media (prefers-color-scheme:dark){:root{--accent:#F2A34A}}</style>
+  <script>document.documentElement.classList.add("js")</script>
 </head>
 <body>
-<nav class="pages" aria-label="페이지">
-  <a href="./" aria-current="page">소개</a>
-  <a href="support.html">지원</a>
-  <a href="privacy.html">개인정보 처리방침</a>
-</nav>
-<h1>밑줄 📚</h1>
-<p class="sub">손으로 슥슥 긋는 책 속의 문장</p>
+  <a class="skip" href="#main">본문으로 건너뛰기</a>
+  <header class="bar">
+    <a class="brand" href=""><img src="icon.png" alt="" width="32" height="32">밑줄</a>
+    <a class="lang-link" href="#languages">언어</a>
+  </header>
 
-<p class="lead">종이책에서 밑줄 긋던 그 문장을, 사진 한 장으로 오래 간직하세요. 책 표지와 마음에 드는 구절이 있는 페이지를 찍으면 무슨 책 몇 페이지인지 알아보고, 페이지 위를 형광펜 긋듯 손가락으로 문지르면 그 문장만 골라 담아 줍니다.</p>
+  <main id="main">
+    <section class="hero">
+      <div class="copy">
+        <h1>펜 없이 긋는<br>책 속의 밑줄</h1>
+        <p class="lead">페이지를 찍고 마음에 드는 문장 위를 손가락으로 슥 문지르면, 그 문장만 글자로 옮겨 담아요. 무슨 책 몇 쪽인지도 함께 남아요.</p>
+        <div class="actions"><a class="cta" href="https://apps.apple.com/app/id6792787106">App Store에서 무료로 받기</a><a class="try" href="#try">직접 그어 보세요 ↓</a></div>
+        <p class="muted small">모든 기능이 무료이고 광고가 없어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/01-highlight.jpg" alt="펜 없이 긋는 책 속의 밑줄" width="720" height="1564" decoding="async"></div>
+    </section>
 
-<h2>이렇게 써요</h2>
-<div class="card"><h3>📖 책 등록</h3><p>표지를 찍으면 제목과 저자를 추정해 채워 줍니다. 뒤표지 바코드가 찍히면 ISBN도 알아봅니다. 저장 전에 직접 고칠 수 있어요.</p></div>
-<div class="card"><h3>📐 페이지 영역 선택</h3><p>촬영한 사진에서 네 모서리를 페이지에 맞추면 종이처럼 반듯하게 펴서 담아, 글자가 더 또렷해집니다.</p></div>
-<div class="card"><h3>🖍️ 손가락으로 밑줄</h3><p>원하는 문장 위를 문지르면 그 단어들만 선택됩니다. 두 손가락으로 확대해 더 정확하게 긋고, 지우개와 전체 선택도 쓸 수 있어요. 페이지 번호도 자동으로 찾아 줍니다.</p></div>
-<div class="card"><h3>🗂️ 보관함</h3><p>책별 서재, 전체 문장 검색, 즐겨찾기로 모은 문장을 다시 찾습니다.</p></div>
-<div class="card"><h3>✨ 오늘의 문장</h3><p>매일 스크랩 하나를 다시 보여 주고, 카드로 만들어 공유할 수 있어요.</p></div>
 
-<h2>내 문장은 내 기기에</h2>
-<p>문자 인식은 기기 안에서 이뤄지고, 사진과 문장은 개발자 서버로 가지 않습니다. iCloud에 로그인되어 있으면 본인의 iCloud로 여러 기기에 동기화됩니다. 자세한 내용은 <a href="privacy.html">개인정보 처리방침</a>을 참고하세요.</p>
+    <section class="reveal" id="try">
+      <h2>직접 그어 보세요</h2>
+      <p class="muted">아래 페이지에서 마음에 드는 문장 위를 손가락이나 마우스로 문질러 보세요. 그은 단어만 오른쪽 카드에 담겨요.</p>
+      <div id="demo" class="card demo-card" data-text="{&quot;title&quot;: &quot;직접 그어 보세요&quot;, &quot;lead&quot;: &quot;아래 페이지에서 마음에 드는 문장 위를 손가락이나 마우스로 문질러 보세요. 그은 단어만 오른쪽 카드에 담겨요.&quot;, &quot;book&quot;: &quot;메밀꽃 필 무렵&quot;, &quot;author&quot;: &quot;이효석&quot;, &quot;page&quot;: 14, &quot;pageLabel&quot;: &quot;p.14&quot;, &quot;text&quot;: &quot;길은 지금 긴 산허리에 걸려 있다. 밤중을 지난 무렵인지 죽은 듯이 고요한 속에서 짐승 같은 달의 숨소리가 손에 잡힐 듯이 들리며, 콩 포기와 옥수수 잎새가 한층 달에 푸르게 젖었다. 산허리는 온통 메밀밭이어서 피기 시작한 꽃이 소금을 뿌린 듯이 흐뭇한 달빛에 숨이 막힐 지경이다.&quot;, &quot;result&quot;: &quot;추출된 문장&quot;, &quot;empty&quot;: &quot;문장 위를 문지르면 여기에 담겨요.&quot;, &quot;eraser&quot;: &quot;지우개&quot;, &quot;eraserOn&quot;: &quot;지우개 ON&quot;, &quot;clear&quot;: &quot;전체 지우기&quot;, &quot;all&quot;: &quot;페이지 전체&quot;, &quot;appName&quot;: &quot;밑줄&quot;, &quot;note&quot;: &quot;웹 체험은 미리 넣어 둔 페이지로 해요. 앱에서는 직접 찍은 사진에서 글자를 읽어 와요. 키보드로는 Tab으로 구절을 고르고 Enter로 긋거나 지울 수 있어요.&quot;}"></div>
+    </section>
 
-<h2>요구 사항</h2>
-<ul>
-  <li>iOS 17.0 이상</li>
-</ul>
+    <section class="problem reveal">
+      <h2>좋은 문장을 만나면 어떻게 남겨 두나요?</h2>
+      <p>빌린 책이라 줄을 그을 수 없고, 사진으로 찍어 두면 앨범 속 수천 장 사이에 묻혀요. 메모 앱에 옮겨 적다 보면 무슨 책 몇 쪽이었는지는 빠지기 일쑤고요. 밑줄은 찍고 긋는 두 번의 손짓으로 문장과 책, 쪽수를 한 번에 남겨요.</p>
+    </section>
 
-<p><a class="cta" href="support.html">지원 · 자주 묻는 질문</a></p>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>비스듬히 찍어도 반듯하게</h2>
+        <p>페이지를 찍은 뒤 네 모서리를 맞추면 비스듬한 사진도 종이처럼 반듯하게 펴서 담아요. 글자가 또렷해져 인식도 정확해져요.<br>앨범에 있는 사진으로도 할 수 있어요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/02-region.jpg" alt="비스듬히 찍어도 반듯하게" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
 
-<footer>© 2026 밑줄 (BookmarkShot) · <a href="support.html">지원</a> · <a href="privacy.html">개인정보 처리방침</a>
-<nav class="langs" aria-label="언어">
-  <a href="./" hreflang="ko" lang="ko" aria-current="true">한국어</a>
-  <a href="en/" hreflang="en" lang="en">English</a>
-  <a href="en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
-  <a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
-  <a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
-  <a href="ja/" hreflang="ja" lang="ja">日本語</a>
-  <a href="ru/" hreflang="ru" lang="ru">Русский</a>
-  <a href="es/" hreflang="es" lang="es">Español</a>
-  <a href="de/" hreflang="de" lang="de">Deutsch</a>
-  <a href="fr/" hreflang="fr" lang="fr">Français</a>
-  <a href="it/" hreflang="it" lang="it">Italiano</a>
-  <a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
-  <a href="th/" hreflang="th" lang="th">ไทย</a>
-  <a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
-  <a href="cs/" hreflang="cs" lang="cs">Čeština</a>
-  <a href="da/" hreflang="da" lang="da">Dansk</a>
-  <a href="el/" hreflang="el" lang="el">Ελληνικά</a>
-  <a href="fi/" hreflang="fi" lang="fi">Suomi</a>
-  <a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
-  <a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
-  <a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
-  <a href="pl/" hreflang="pl" lang="pl">Polski</a>
-  <a href="sv/" hreflang="sv" lang="sv">Svenska</a>
-  <a href="tr/" hreflang="tr" lang="tr">Türkçe</a>
-</nav>
-</footer>
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>모은 문장은 한곳에서 찾아요</h2>
+        <p>책은 표지 서재에, 문장은 한 목록에 모여요. 문장, 메모, 책 제목으로 검색하고, 다시 읽고 싶은 문장은 하트로 즐겨찾기 해 두세요.<br>책은 표지 한 장으로 등록해요. 제목과 저자를 읽어 오고, 뒤표지 바코드가 보이면 ISBN도 채워요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/04-quotes.jpg" alt="모은 문장은 한곳에서 찾아요" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="feature reveal">
+      <div class="copy">
+        <h2>잊고 있던 문장을 다시 만나요</h2>
+        <p>오늘의 문장이 매일 스크랩 하나를 그때 남긴 메모와 함께 다시 꺼내 보여 줘요. 홈 화면과 잠금 화면 위젯으로 늘 곁에 둘 수 있어요.<br>마음에 들면 종이 느낌의 카드 이미지로 만들어 바로 공유하세요.</p>
+      </div>
+      <div class="phone"><img src="img/ko/05-daily.jpg" alt="잊고 있던 문장을 다시 만나요" width="720" height="1564" loading="lazy" decoding="async"></div>
+    </section>
+
+    <section class="reveal">
+      <h2>시작은 세 단계면 돼요</h2>
+      <ol class="steps"><li class="card"><span class="n">1</span><h3>표지를 찍어요</h3><p>제목과 저자를 읽어 와요. 저장하기 전에 고칠 수 있어요.</p></li>
+<li class="card"><span class="n">2</span><h3>페이지를 찍어요</h3><p>네 모서리를 맞추면 반듯하게 펴져요.</p></li>
+<li class="card"><span class="n">3</span><h3>문장 위를 그어요</h3><p>쪽수도 알아서 찾아 함께 저장해요.</p></li></ol>
+    </section>
+
+    <section class="reveal" id="commands">
+      <h2>밑줄 긋는 화면의 도구</h2>
+      <div class="card table">
+        <dl><div><dt>손가락으로 문지르기</dt><dd>지나간 단어만 골라요</dd></div><div><dt>두 손가락 벌리기</dt><dd>페이지를 확대해 더 정확하게 그어요</dd></div><div><dt>이동</dt><dd>확대한 페이지를 손가락으로 옮겨요</dd></div><div><dt>지우개</dt><dd>문지른 단어를 선택에서 빼요</dd></div><div><dt>전체 지우기</dt><dd>고른 단어를 모두 지워요</dd></div><div><dt>페이지 전체</dt><dd>페이지의 글을 통째로 담아요</dd></div><div><dt>페이지 칸</dt><dd>찾은 쪽수가 들어가요. 직접 고칠 수 있어요</dd></div></dl>
+      </div>
+      <p class="muted">VoiceOver를 쓰면 줄마다 두 번 탭해서 밑줄을 긋거나 지울 수 있어요.</p>
+    </section>
+
+    <section class="reveal" id="pricing">
+      <h2>모든 기능이 무료예요</h2>
+      <div class="plans">
+        <div class="card plan free">
+          <h3>무료</h3>
+          <ul><li>표지로 책 등록, 바코드로 ISBN 채우기</li><li>페이지 반듯하게 펴기와 손가락 밑줄</li><li>쪽수 자동 찾기</li><li>서재, 문장 검색, 즐겨찾기</li><li>오늘의 문장과 홈 화면, 잠금 화면 위젯</li><li>카드 이미지로 공유</li><li>iCloud 동기화</li></ul>
+          
+        </div>
+        <div class="card plan pro">
+          <h3>개발자 응원하기</h3>
+          <ul><li>설정에서 원하는 만큼 작은 팁을 보낼 수 있어요</li><li>팁은 기능을 열지 않아요. 보내지 않아도 똑같이 써요</li></ul>
+          
+        </div>
+      </div>
+      <p class="muted">광고도, 구독도 없어요.</p>
+    </section>
+
+    <section class="reveal" id="faq">
+      <h2>자주 묻는 질문</h2>
+      <div class="faq"><details><summary>사진이나 문장이 외부로 전송되나요?</summary><p>아니요. 글자 인식은 Apple Vision으로 모두 기기 안에서 하고, 사진과 문장은 개발자 서버로 가지 않아요. 인터넷이 없어도 쓸 수 있어요. 자세한 내용은 아래 개인정보처리방침에 있어요.</p></details>
+<details><summary>어떤 언어로 된 책을 읽을 수 있나요?</summary><p>글자 인식은 기기 안의 iOS가 해요. 한국어, 영어, 일본어, 중국어, 러시아어와 대부분의 서유럽 언어로 된 책을 읽고, 최신 iOS에서는 태국어, 베트남어, 튀르키예어, 인도네시아어, 폴란드어, 체코어, 네덜란드어, 북유럽 언어도 읽어요. 그리스어는 아직 인식하지 못해요.</p></details>
+<details><summary>원하는 문장만 골라내려면 어떻게 하나요?</summary><p>페이지를 찍은 뒤 원하는 문장 위를 형광펜 긋듯 손가락으로 문지르면 그 단어들만 골라져요. 두 손가락으로 확대하면 더 정확하게 그을 수 있고, 지우개와 전체 지우기, 페이지 전체도 있어요.</p></details>
+<details><summary>제목이나 저자가 잘못 인식돼요.</summary><p>표지 인식은 글자 크기를 보고 추정하는 방식이라 디자인이 화려한 표지에서는 틀릴 수 있어요. 책을 저장하기 전에 제목과 저자를 직접 고칠 수 있어요.</p></details>
+<details><summary>쪽수가 틀리게 들어가요.</summary><p>쪽수는 사진 가장자리의 숫자를 보고 찾아요. 페이지 칸에서 직접 고친 뒤 저장하면 돼요.</p></details>
+<details><summary>여러 기기에서 같은 문장을 보고 싶어요.</summary><p>같은 Apple 계정으로 iCloud에 로그인되어 있고 iCloud Drive가 켜져 있으면 저장한 책과 문장이 기기 사이에 자동으로 맞춰져요.</p></details>
+<details><summary>위젯은 어떻게 다나요?</summary><p>홈 화면을 길게 누르고 편집 &gt; 위젯 추가에서 밑줄을 고르세요. 잠금 화면은 길게 누른 뒤 사용자화에서 위젯을 더할 수 있어요. 오늘의 문장이 위젯에 나와요.</p></details>
+<details><summary>카메라가 동작하지 않아요.</summary><p>설정 앱 &gt; 밑줄에서 카메라와 사진 접근이 허용되어 있는지 확인해 주세요. 카메라 촬영은 실제 아이폰에서만 돼요.</p></details>
+<details><summary>어떤 기기에서 쓸 수 있나요?</summary><p>iOS 17.0 이상의 아이폰에서 쓸 수 있어요.</p></details>
+<details><summary>문의나 제안은 어디로 하나요?</summary><p>앱의 설정(톱니바퀴) 화면에서 피드백을 보내거나 아래 메일로 보내 주세요. 보통 2~3일 안에 답장드려요.</p></details></div>
+      <p class="contact">궁금한 점이나 의견은 <a href="mailto:leeo@kakao.com">leeo@kakao.com</a>로 보내 주세요.</p>
+    </section>
+
+    <section class="closing reveal">
+      <h2>오늘 읽은 그 문장,<br>사진 한 장으로 남겨 두세요</h2>
+      <a class="cta" href="https://apps.apple.com/app/id6792787106">App Store에서 무료로 받기</a>
+    </section>
+  </main>
+
+  <footer>
+    <nav id="languages" class="langs" aria-label="언어"><a href="" hreflang="ko" lang="ko" aria-current="page">한국어</a>
+<a href="en/" hreflang="en" lang="en">English</a>
+<a href="en-GB/" hreflang="en-GB" lang="en-GB">English (UK)</a>
+<a href="zh-Hans/" hreflang="zh-Hans" lang="zh-Hans">简体中文</a>
+<a href="zh-Hant/" hreflang="zh-Hant" lang="zh-Hant">繁體中文</a>
+<a href="ja/" hreflang="ja" lang="ja">日本語</a>
+<a href="ru/" hreflang="ru" lang="ru">Русский</a>
+<a href="es/" hreflang="es" lang="es">Español</a>
+<a href="de/" hreflang="de" lang="de">Deutsch</a>
+<a href="fr/" hreflang="fr" lang="fr">Français</a>
+<a href="it/" hreflang="it" lang="it">Italiano</a>
+<a href="pt-BR/" hreflang="pt-BR" lang="pt-BR">Português (Brasil)</a>
+<a href="th/" hreflang="th" lang="th">ไทย</a>
+<a href="vi/" hreflang="vi" lang="vi">Tiếng Việt</a>
+<a href="cs/" hreflang="cs" lang="cs">Čeština</a>
+<a href="da/" hreflang="da" lang="da">Dansk</a>
+<a href="el/" hreflang="el" lang="el">Ελληνικά</a>
+<a href="fi/" hreflang="fi" lang="fi">Suomi</a>
+<a href="id/" hreflang="id" lang="id">Bahasa Indonesia</a>
+<a href="nb/" hreflang="nb" lang="nb">Norsk bokmål</a>
+<a href="nl/" hreflang="nl" lang="nl">Nederlands</a>
+<a href="pl/" hreflang="pl" lang="pl">Polski</a>
+<a href="sv/" hreflang="sv" lang="sv">Svenska</a>
+<a href="tr/" hreflang="tr" lang="tr">Türkçe</a></nav>
+    <p><a href="privacy.html">개인정보처리방침</a> · <a href="mailto:leeo@kakao.com">leeo@kakao.com</a> · © 2026 Bookmark Shot</p>
+  </footer>
+
+  <script>
+    const io = new IntersectionObserver(es => es.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add("in"); io.unobserve(e.target) }
+    }), { rootMargin: "0px 0px -10% 0px" });
+    document.querySelectorAll(".reveal").forEach(el => io.observe(el));
+  </script>
+  <script src="demo.js"></script>
 </body>
 </html>

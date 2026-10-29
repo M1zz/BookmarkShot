@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: Kitaplardan sevdiğin cümleleri sakla",
+  "description": "Sayfanın fotoğrafını çek, parmağını cümlenin üzerinde gezdir. Yalnızca o cümle, kitap ve sayfa numarasıyla metin olarak kaydedilir. Hepsi ücretsiz.",
+  "hero": {
+    "headline": "Kalemsiz\naltını çiz",
+    "lead": "Sayfanın fotoğrafını çek, sevdiğin cümlenin üzerinde parmağını gezdir; yalnızca o cümle metin olarak kaydedilir. Kitap ve sayfa numarası da onunla gelir.",
+    "cta": "App Store’dan ücretsiz indir",
+    "note": "Tüm özellikler ücretsiz, reklam yok."
+  },
+  "demo": {
+    "title": "Bir dene",
+    "lead": "Aşağıdaki sayfada istediğin cümlenin üzerinde parmağını ya da fareni gezdir. Karta yalnızca üzerinden geçtiğin kelimeler düşer.",
+    "book": "Göl Saatleri",
+    "author": "Ahmet Haşim",
+    "page": 17,
+    "pageLabel": "s. 17",
+    "text": "Ağır ağır çıkacaksın bu merdivenlerden, Eteklerinde güneş rengi bir yığın yaprak, Ve bir zaman bakacaksın semâya ağlayarak... Eğilmiş arza, kanar, muttasıl kanar güller; Durur alev gibi dallarda kanlı bülbüller, Sular mı yandı? Neden tunca benziyor mermer? Bu bir lisân-ı hafîdir ki ruha dolmakta, Sular sarardı... yüzün perde perde solmakta, Kızıl havâları seyret ki akşam olmakta...",
+    "result": "Alınan Metin",
+    "empty": "Bir cümlenin üzerinden geç, burada görünsün.",
+    "eraser": "Silgi",
+    "eraserOn": "Silgi Açık",
+    "clear": "Tümünü Temizle",
+    "all": "Tüm Sayfa",
+    "appName": "Bookmark Shot",
+    "note": "Web demosu hazır bir sayfa kullanır. Uygulama ise metni senin çektiğin fotoğraftan okur. Klavyede Tab ile bir ifadeye git, eklemek ya da çıkarmak için Enter’a bas."
+  },
+  "problem": {
+    "title": "Güzel cümleler nerede kayboluyor?",
+    "text": "Kitap kütüphaneden, üzerine bir şey yazamazsın. Sayfanın fotoğrafı arşivindeki binlerce fotoğrafın arasında kaybolur. Not uygulamasına yazarsan da kitap adı ve sayfa numarası çoğu zaman eksik kalır. Bookmark Shot cümleyi, kitabı ve sayfayı iki hareketle saklar: çek, sonra parmağını gezdir."
+  },
+  "features": [
+    {
+      "title": "Eğri fotoğraf, düz sayfa",
+      "text": "Fotoğrafı çektikten sonra dört köşeyi oturt; eğik çekilmiş bir sayfa bile kâğıt gibi düzleşir. Harfler netleştikçe tanıma da iyileşir.\nArşivindeki fotoğraflar da olur.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Tüm alıntıların tek yerde",
+      "text": "Kitapların kapaklarıyla bir kitaplıkta, alıntıların tek bir listede toplanır. Cümleye, nota ya da kitap adına göre ara; yeniden okumak istediklerini kalple işaretle.\nTek bir kapak fotoğrafıyla kitap ekle. Başlık ve yazar senin için okunur, arka kapaktaki barkod da karedeyse ISBN de.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Unuttuğun cümlelerle yeniden karşılaş",
+      "text": "Günün alıntısı her gün kaydettiğin alıntılardan birini, bıraktığın notla birlikte geri getirir. Bir widget ile Ana Ekran’da ya da Kilitli Ekran’da tut.\nBeğendin mi? Kâğıt görünümlü bir karta dönüştürüp paylaş.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Üç adımda başla",
+    "items": [
+      {
+        "title": "Kapağı çek",
+        "text": "Başlık ve yazar doldurulur. Kaydetmeden önce düzenleyebilirsin."
+      },
+      {
+        "title": "Sayfayı çek",
+        "text": "Dört köşeyi oturt, sayfa düzleşsin."
+      },
+      {
+        "title": "Cümlenin üzerinden geç",
+        "text": "Sayfa numarası bulunur ve cümleyle birlikte kaydedilir."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Altını çizme ekranındaki araçlar",
+    "rows": [
+      [
+        "Parmağını gezdir",
+        "yalnızca üzerinden geçtiğin kelimeleri seçer"
+      ],
+      [
+        "İki parmakla yakınlaştır",
+        "daha hassas seçim için büyütür"
+      ],
+      [
+        "Kaydır",
+        "büyütülmüş sayfayı hareket ettirir"
+      ],
+      [
+        "Silgi",
+        "seçilen kelimeleri geri çıkarır"
+      ],
+      [
+        "Tümünü Temizle",
+        "tüm seçili kelimeleri kaldırır"
+      ],
+      [
+        "Tüm Sayfa",
+        "sayfadaki tüm metni alır"
+      ],
+      [
+        "Sayfa alanı",
+        "bulunan sayfa numarası, düzenlenebilir"
+      ]
+    ],
+    "note": "VoiceOver açıkken bir satırı eklemek ya da çıkarmak için iki kez dokun."
+  },
+  "pricing": {
+    "title": "Tüm özellikler ücretsiz",
+    "free": {
+      "name": "Ücretsiz",
+      "items": [
+        "Kapaktan kitap ekleme, barkoddan ISBN",
+        "Sayfa düzleştirme ve parmakla altını çizme",
+        "Otomatik sayfa numarası",
+        "Kitaplık, alıntı arama ve favoriler",
+        "Ana Ekran ve Kilitli Ekran widget’larıyla Günün alıntısı",
+        "Kart görseli olarak paylaşma",
+        "iCloud ile eşitleme"
+      ]
+    },
+    "pro": {
+      "name": "Geliştiriciye destek ol",
+      "items": [
+        "İstersen Ayarlar’dan küçük bir bahşiş bırakabilirsin",
+        "Bahşiş hiçbir şeyin kilidini açmaz. Uygulama her durumda aynıdır"
+      ]
+    },
+    "note": "Reklam yok, abonelik yok."
+  },
+  "faq": {
+    "title": "Sorular",
+    "items": [
+      {
+        "q": "Fotoğraflarım ya da alıntılarım bir yere gönderiliyor mu?",
+        "a": "Hayır. Metin tanıma tamamen cihazında Apple Vision ile yapılır; fotoğrafların ve alıntıların asla bir sunucuya gitmez. İnternet olmadan da çalışır. Ayrıntılar için aşağıdaki Gizlilik Politikası’na bakabilirsin."
+      },
+      {
+        "q": "Hangi dilleri okuyabiliyor?",
+        "a": "Metni cihazında iOS tanır. Korece, İngilizce, Japonca, Çince, Rusça ve Batı Avrupa dillerinin çoğundaki kitapları okur; yeni iOS sürümlerinde Tayca, Vietnamca, Türkçe, Endonezce, Lehçe, Çekçe, Felemenkçe ve İskandinav dillerini de tanır. Yunanca henüz tanınamıyor."
+      },
+      {
+        "q": "Yalnızca istediğim cümleyi nasıl seçerim?",
+        "a": "Sayfanın fotoğrafını çektikten sonra fosforlu kalem kullanır gibi parmağını cümlenin üzerinde gezdir, yalnızca o kelimeler seçilir. Daha hassas olmak için iki parmakla yakınlaştır. Silgi, Tümünü Temizle ve Tüm Sayfa da var."
+      },
+      {
+        "q": "Başlık veya yazar yanlış çıktı.",
+        "a": "Kapak tanıma, yazıların büyüklüğüne bakarak tahmin yürütür; bu yüzden çok süslü kapaklarda yanılabilir. Kitabı kaydetmeden önce başlığı ve yazarı düzeltebilirsin."
+      },
+      {
+        "q": "Sayfa numarası yanlış.",
+        "a": "Fotoğrafın kenarındaki rakamlardan okunur. Kaydetmeden önce sayfa alanında düzeltmen yeterli."
+      },
+      {
+        "q": "Alıntılarımı birden fazla cihazda görebilir miyim?",
+        "a": "Evet. Aynı Apple Hesabı ile iCloud’a giriş yaptıysan ve iCloud Drive açıksa, kitapların ve alıntıların otomatik olarak eşitlenir."
+      },
+      {
+        "q": "Widget’ı nasıl eklerim?",
+        "a": "Ana Ekran’a dokunup basılı tut, Düzenle > Widget Ekle’ye dokun ve Bookmark Shot’ı seç. Kilitli Ekran için ekrana dokunup basılı tut, ardından Özelleştir’e dokun. Günün alıntısı orada görünür."
+      },
+      {
+        "q": "Kamera çalışmıyor.",
+        "a": "Ayarlar > Bookmark Shot bölümünde kameraya ve fotoğraflara erişime izin verildiğinden emin ol. Fotoğraf çekmek için gerçek bir iPhone gerekir."
+      },
+      {
+        "q": "Neye ihtiyacım var?",
+        "a": "iOS 17.0 veya üstü yüklü bir iPhone."
+      },
+      {
+        "q": "Size nasıl ulaşabilirim?",
+        "a": "Uygulamanın Ayarlar (dişli) ekranından geri bildirim gönder ya da aşağıdaki adrese e-posta at. Genellikle iki üç gün içinde yanıt veririz."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Bugün okuduğun cümleyi\ntek fotoğrafla sakla",
+    "cta": "App Store’dan ücretsiz indir"
+  },
+  "ui": {
+    "skip": "İçeriğe geç",
+    "languages": "Dil",
+    "privacy": "Gizlilik Politikası",
+    "contact": "Soruların ya da önerilerin mi var? {email} adresine yaz."
+  }
+}

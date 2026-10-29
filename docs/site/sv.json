@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: spara meningarna du gillar ur alla böcker",
+  "description": "Fota en sida och dra fingret över en mening du gillar. Bara den meningen sparas som text, med bok och sidnummer. Alla funktioner är gratis.",
+  "hero": {
+    "headline": "Stryk under\nutan penna",
+    "lead": "Fota sidan, dra fingret över meningen du gillar, så sparas bara den som text. Bok och sidnummer följer med.",
+    "cta": "Hämta gratis i App Store",
+    "note": "Alla funktioner är gratis, utan reklam."
+  },
+  "demo": {
+    "title": "Testa att dra",
+    "lead": "Dra fingret eller musen över valfri mening på sidan nedan. Bara orden du drar över hamnar på kortet.",
+    "book": "Dikter",
+    "author": "Karin Boye",
+    "page": 64,
+    "pageLabel": "s. 64",
+    "text": "Ja visst gör det ont när knoppar brister. Varför skulle annars våren tveka? Varför skulle all vår heta längtan bindas i det frusna bitterbleka? Höljet var ju knoppen hela vintern. Vad är det för nytt, som tär och spränger? Ja visst gör det ont när knoppar brister, ont för det som växer och det som stänger.",
+    "result": "Hämtad text",
+    "empty": "Dra över en mening så dyker den upp här.",
+    "eraser": "Suddgummi",
+    "eraserOn": "Suddgummi på",
+    "clear": "Rensa allt",
+    "all": "Hela sidan",
+    "appName": "Bookmark Shot",
+    "note": "Webbdemon använder en färdig sida. Appen läser texten från ett foto du tar. Med tangentbord går du till en fras med Tab och lägger till eller tar bort den med Enter."
+  },
+  "problem": {
+    "title": "Vart tar de fina meningarna vägen?",
+    "text": "Det är en lånebok, så du kan inte stryka under. Ett foto av sidan försvinner bland tusentals bilder i kamerarullen. Skriver du av meningen i en anteckningsapp kommer titel och sidnummer sällan med. Bookmark Shot sparar meningen, boken och sidan med två rörelser: fota och dra."
+  },
+  "features": [
+    {
+      "title": "Snett foto, rak sida",
+      "text": "När du har fotat sidan passar du in de fyra hörnen, och även en snett tagen bild rätas ut som ett pappersark. Skarpare bokstäver ger bättre igenkänning.\nBilder som redan finns i ditt bildbibliotek går också bra.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Alla citat på ett ställe",
+      "text": "Dina böcker står i ett bibliotek av omslag och dina citat samlas i en lista. Sök på mening, anteckning eller boktitel, och ge ett hjärta till de citat du vill läsa igen.\nLägg till en bok med ett foto av omslaget. Titel och författare läses åt dig, och ISBN också om streckkoden på baksidan syns.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Möt meningarna du glömt",
+      "text": "Dagens citat ger dig varje dag tillbaka ett av dina sparade citat, tillsammans med anteckningen du skrev då. Ha det på hemskärmen eller låsskärmen med en widget.\nGillar du det? Gör om det till ett kort i papperslook och dela.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Kom igång i tre steg",
+    "items": [
+      {
+        "title": "Fota omslaget",
+        "text": "Titel och författare fylls i. Ändra dem innan du sparar."
+      },
+      {
+        "title": "Fota sidan",
+        "text": "Passa in de fyra hörnen så rätas den ut."
+      },
+      {
+        "title": "Dra över meningen",
+        "text": "Sidnumret hittas och sparas med."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Verktyg på markeringsskärmen",
+    "rows": [
+      [
+        "Dra med fingret",
+        "markerar bara orden du drar över"
+      ],
+      [
+        "Nyp",
+        "zooma in för att dra mer exakt"
+      ],
+      [
+        "Flytta",
+        "dra runt en inzoomad sida"
+      ],
+      [
+        "Suddgummi",
+        "tar bort ord du har dragit över"
+      ],
+      [
+        "Rensa allt",
+        "tar bort alla markerade ord"
+      ],
+      [
+        "Hela sidan",
+        "behåller all text på sidan"
+      ],
+      [
+        "Sidfält",
+        "sidnumret som hittades, går att ändra"
+      ]
+    ],
+    "note": "Med VoiceOver dubbeltrycker du på en rad för att lägga till eller ta bort den."
+  },
+  "pricing": {
+    "title": "Alla funktioner är gratis",
+    "free": {
+      "name": "Gratis",
+      "items": [
+        "Lägg till böcker via omslaget, ISBN via streckkoden",
+        "Uträtning av sidor och markering med fingret",
+        "Automatiska sidnummer",
+        "Bibliotek, citatsökning och favoriter",
+        "Dagens citat med widgetar för hemskärmen och låsskärmen",
+        "Dela som kortbild",
+        "Synk med iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Stöd utvecklaren",
+      "items": [
+        "Skicka gärna en liten dricks från Inställningar om du vill",
+        "Dricks låser inte upp något. Appen är densamma oavsett"
+      ]
+    },
+    "note": "Ingen reklam, ingen prenumeration."
+  },
+  "faq": {
+    "title": "Frågor",
+    "items": [
+      {
+        "q": "Skickas mina foton eller citat någonstans?",
+        "a": "Nej. Textigenkänningen sker helt på din enhet med Apple Vision, och dina foton och citat skickas aldrig till någon server. Appen fungerar också offline. Läs mer i integritetspolicyn nedan."
+      },
+      {
+        "q": "Vilka språk kan appen läsa?",
+        "a": "Textigenkänningen görs av iOS på din enhet. Den läser böcker på koreanska, engelska, japanska, kinesiska, ryska och de flesta västeuropeiska språk, och i nyare iOS-versioner även thai, vietnamesiska, turkiska, indonesiska, polska, tjeckiska, nederländska och de nordiska språken. Grekiska kan inte kännas igen än."
+      },
+      {
+        "q": "Hur väljer jag bara den mening jag vill ha?",
+        "a": "När du har fotat sidan drar du fingret över meningen, som med en överstrykningspenna, så markeras bara de orden. Nyp för att zooma in och få större precision. Det finns också Suddgummi, Rensa allt och Hela sidan."
+      },
+      {
+        "q": "Titeln eller författaren blev fel.",
+        "a": "Omslagsigenkänningen gissar utifrån bokstävernas storlek och kan därför ta miste på mycket dekorativa omslag. Du kan rätta titel och författare innan du sparar boken."
+      },
+      {
+        "q": "Sidnumret är fel.",
+        "a": "Det läses från siffrorna i fotots kant. Rätta det bara i sidfältet innan du sparar."
+      },
+      {
+        "q": "Kan jag se mina citat på flera enheter?",
+        "a": "Ja. Är du inloggad på iCloud med samma Apple-konto och har iCloud Drive påslaget synkas dina böcker och citat automatiskt."
+      },
+      {
+        "q": "Hur lägger jag till widgeten?",
+        "a": "Håll fingret på hemskärmen, tryck på Redigera > Lägg till widget och välj Bookmark Shot. För låsskärmen håller du fingret på den och trycker på Anpassa. Där visas Dagens citat."
+      },
+      {
+        "q": "Kameran fungerar inte.",
+        "a": "Kontrollera under Inställningar > Bookmark Shot att åtkomst till kamera och bilder är tillåten. För att fota krävs en riktig iPhone."
+      },
+      {
+        "q": "Vad behöver jag?",
+        "a": "En iPhone med iOS 17.0 eller senare."
+      },
+      {
+        "q": "Hur kontaktar jag er?",
+        "a": "Skicka feedback från appens Inställningar (kugghjulet) eller mejla oss på adressen nedan. Vi svarar oftast inom två–tre dagar."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Spara meningen du läste i dag,\nmed ett foto",
+    "cta": "Hämta gratis i App Store"
+  },
+  "ui": {
+    "skip": "Hoppa till innehållet",
+    "languages": "Språk",
+    "privacy": "Integritetspolicy",
+    "contact": "Frågor eller feedback? Skriv till {email}."
+  }
+}

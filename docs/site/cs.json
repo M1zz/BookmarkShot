@@ -1,0 +1,177 @@
+{
+  "title": "Bookmark Shot: oblíbené věty z každé knihy",
+  "description": "Vyfoťte stránku a přejeďte prstem po větě. Uloží se jen ona, jako text, i s knihou a číslem strany. Všechno je zdarma.",
+  "hero": {
+    "headline": "Podtrhávejte v knize\nbez tužky",
+    "lead": "Vyfoťte stránku, přejeďte prstem po větě, která vás zaujala, a jako text se uloží jen ona. Kniha i číslo strany se uloží s ní.",
+    "cta": "Stáhněte zdarma v App Store",
+    "note": "Všechny funkce jsou zdarma a bez reklam."
+  },
+  "demo": {
+    "title": "Vyzkoušejte si to",
+    "lead": "Přejeďte prstem nebo myší po libovolné větě na stránce níže. Na kartu se dostanou jen slova, přes která přejedete.",
+    "book": "Máj",
+    "author": "Karel Hynek Mácha",
+    "page": 7,
+    "pageLabel": "s. 7",
+    "text": "Byl pozdní večer – první máj – večerní máj – byl lásky čas. Hrdliččin zval ku lásce hlas, kde borový zaváněl háj. O lásce šeptal tichý mech; květoucí strom lhal lásky žel, svou lásku slavík růži pěl, růžinu jevil vonný vzdech. Jezero hladké v křovích stinných zvučelo temně tajný bol, břeh je objímal kol a kol; a slunce jasná světů jiných bloudila blankytnými pásky, planoucí tam co slzy lásky.",
+    "result": "Rozpoznaný text",
+    "empty": "Přejeďte po větě a objeví se tady.",
+    "eraser": "Guma",
+    "eraserOn": "Guma zapnuta",
+    "clear": "Smazat vše",
+    "all": "Celá stránka",
+    "appName": "Bookmark Shot",
+    "note": "Webová ukázka používá připravenou stránku. Aplikace čte text z fotky, kterou pořídíte. Na klávesnici přejděte k úseku klávesou Tab a stiskem Enter ho přidejte nebo odeberte."
+  },
+  "problem": {
+    "title": "Kde končí ty krásné věty?",
+    "text": "Kniha je z knihovny, takže do ní psát nemůžete. Fotka stránky zapadne mezi tisíci dalšími v knihovně fotek. Když větu přepíšete do poznámek, název a číslo strany se většinou ztratí. Bookmark Shot uloží větu, knihu i stránku dvěma pohyby: vyfotit a přejet prstem."
+  },
+  "features": [
+    {
+      "title": "Křivá fotka, rovná stránka",
+      "text": "Po vyfocení srovnejte čtyři rohy a i stránka vyfocená šikmo se narovná jako list papíru. Ostřejší písmena znamenají lepší rozpoznání.\nPoslouží i fotky, které už máte v knihovně.",
+      "shot": "02-region"
+    },
+    {
+      "title": "Všechny citáty na jednom místě",
+      "text": "Knihy se řadí do knihovny s obálkami a citáty se sbírají v jednom seznamu. Hledejte podle textu, poznámky nebo názvu knihy a srdíčkem si označte ty, ke kterým se chcete vracet.\nKnihu přidáte jedinou fotkou obálky. Název a autor se vyplní samy, a když je v záběru čárový kód ze zadní strany, tak i ISBN.",
+      "shot": "04-quotes"
+    },
+    {
+      "title": "Znovu objevte zapomenuté věty",
+      "text": "Citát dne vám každý den připomene jeden z uložených citátů i s poznámkou, kterou jste si připsali. S widgetem ho máte na ploše nebo na zamčené obrazovce.\nLíbí se vám? Udělejte z něj kartu v papírovém stylu a sdílejte ji.",
+      "shot": "05-daily"
+    }
+  ],
+  "steps": {
+    "title": "Začněte ve třech krocích",
+    "items": [
+      {
+        "title": "Vyfoťte obálku",
+        "text": "Název a autor se vyplní. Před uložením je můžete upravit."
+      },
+      {
+        "title": "Vyfoťte stránku",
+        "text": "Srovnejte čtyři rohy a stránka se narovná."
+      },
+      {
+        "title": "Přejeďte po větě",
+        "text": "Číslo strany se najde a uloží spolu s ní."
+      }
+    ]
+  },
+  "reference": {
+    "title": "Nástroje na obrazovce zvýrazňování",
+    "rows": [
+      [
+        "Přejetí prstem",
+        "vybere jen slova, přes která přejedete"
+      ],
+      [
+        "Roztažení prstů",
+        "přiblíží stránku pro přesnější výběr"
+      ],
+      [
+        "Posun",
+        "posouvá přiblíženou stránku"
+      ],
+      [
+        "Guma",
+        "odebere vybraná slova"
+      ],
+      [
+        "Smazat vše",
+        "zruší výběr všech slov"
+      ],
+      [
+        "Celá stránka",
+        "ponechá celý text stránky"
+      ],
+      [
+        "Pole strany",
+        "nalezené číslo strany, lze upravit"
+      ]
+    ],
+    "note": "S VoiceOverem řádek přidáte nebo odeberete dvojitým klepnutím."
+  },
+  "pricing": {
+    "title": "Všechny funkce zdarma",
+    "free": {
+      "name": "Zdarma",
+      "items": [
+        "Přidání knihy podle obálky, ISBN z čárového kódu",
+        "Narovnání stránek a zvýrazňování prstem",
+        "Automatické číslo strany",
+        "Knihovna, hledání v citátech a oblíbené",
+        "Citát dne s widgety na plochu a zamčenou obrazovku",
+        "Sdílení jako karta",
+        "Synchronizace přes iCloud"
+      ]
+    },
+    "pro": {
+      "name": "Podpořte vývojáře",
+      "items": [
+        "Pokud chcete, pošlete v Nastavení malé spropitné",
+        "Spropitné nic neodemyká. Aplikace je pořád stejná"
+      ]
+    },
+    "note": "Bez reklam, bez předplatného."
+  },
+  "faq": {
+    "title": "Otázky",
+    "items": [
+      {
+        "q": "Posílají se moje fotky nebo citáty někam?",
+        "a": "Ne. Rozpoznávání textu probíhá celé ve vašem zařízení pomocí Apple Vision a fotky ani citáty se nikdy neposílají na server. Funguje i offline. Podrobnosti najdete v Zásadách ochrany soukromí níže."
+      },
+      {
+        "q": "Které jazyky umí přečíst?",
+        "a": "Text rozpoznává systém iOS přímo ve vašem zařízení. Přečte knihy v korejštině, angličtině, japonštině, čínštině, ruštině a ve většině západoevropských jazyků, v novějších verzích iOS také v thajštině, vietnamštině, turečtině, indonéštině, polštině, češtině, nizozemštině a severských jazycích. Řečtinu zatím nerozpozná."
+      },
+      {
+        "q": "Jak vyberu jen tu větu, kterou chci?",
+        "a": "Po vyfocení stránky přejeďte prstem po větě jako zvýrazňovačem a vyberou se jen ta slova. Pro větší přesnost si stránku přibližte dvěma prsty. K dispozici je i guma, „Smazat vše“ a „Celá stránka“."
+      },
+      {
+        "q": "Název nebo autor se načetl špatně.",
+        "a": "Rozpoznávání obálky odhaduje podle velikosti písma, takže u hodně zdobných obálek se může splést. Název i autora můžete před uložením knihy opravit."
+      },
+      {
+        "q": "Číslo strany nesedí.",
+        "a": "Čte se z číslic na okraji fotky. Stačí ho před uložením opravit v poli strany."
+      },
+      {
+        "q": "Uvidím citáty na více zařízeních?",
+        "a": "Ano. Pokud jste přihlášeni k iCloudu stejným Apple účtem a máte zapnutý iCloud Drive, knihy a citáty se synchronizují automaticky."
+      },
+      {
+        "q": "Jak přidám widget?",
+        "a": "Podržte prst na ploše, klepněte na Upravit > Přidat widget a vyberte Bookmark Shot. Na zamčené obrazovce na ní podržte prst a pak klepněte na Přizpůsobit. Zobrazí se tam Citát dne."
+      },
+      {
+        "q": "Nefunguje fotoaparát.",
+        "a": "V Nastavení > Bookmark Shot zkontrolujte, že je povolen přístup k fotoaparátu a fotkám. Na focení potřebujete skutečný iPhone."
+      },
+      {
+        "q": "Co potřebuji?",
+        "a": "iPhone se systémem iOS 17.0 nebo novějším."
+      },
+      {
+        "q": "Jak vás kontaktovat?",
+        "a": "Pošlete zpětnou vazbu z obrazovky Nastavení v aplikaci (ozubené kolečko) nebo nám napište na adresu níže. Obvykle odpovídáme do dvou až tří dnů."
+      }
+    ]
+  },
+  "closing": {
+    "headline": "Uchovejte dnešní větu\njedinou fotkou",
+    "cta": "Stáhněte zdarma v App Store"
+  },
+  "ui": {
+    "skip": "Přejít na obsah",
+    "languages": "Jazyk",
+    "privacy": "Zásady ochrany soukromí",
+    "contact": "Dotazy nebo náměty? Pište na {email}."
+  }
+}
