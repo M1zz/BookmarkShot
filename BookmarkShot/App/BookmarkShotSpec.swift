@@ -32,6 +32,14 @@ enum BookmarkShotSpec: LeeoAppSpec {
     /// 수익모델 — 인앱 결제가 없는 완전 무료 앱.
     static let monetization = LeeoMonetization.free
 
+    /// 개발자 응원하기(팁) — 소모성 상품 셋, 작은 것부터. 기능을 열지 않는다.
+    /// LeeoStore 가 없는 무료 앱이라 앱을 열 때 `startStandalone()` 으로 혼자 돌린다.
+    @MainActor static let tipJar = LeeoTipJar(config: LeeoTipJarConfig(productIDs: [
+        "com.leeo.bookmarkshot.tip.small",
+        "com.leeo.bookmarkshot.tip.medium",
+        "com.leeo.bookmarkshot.tip.large",
+    ]))
+
     /// 익명 사용 통계 → FeedbackHub. 없으면 bootstrap 이 스냅샷·app_open 을 건너뛴다.
     static let analytics: any LeeoAnalytics = LeeoUsageAnalytics(spec: BookmarkShotSpec.self)
 }

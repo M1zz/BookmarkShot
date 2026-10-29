@@ -46,6 +46,8 @@ struct BookmarkShotApp: App {
         WindowGroup {
             ContentView()
                 .leeoSatisfactionCheck(BookmarkShotSpec.self)
+                // 팁 상품을 불러오고 끝나지 않은 팁을 마저 센다
+                .task { await BookmarkShotSpec.tipJar.startStandalone() }
         }
         .modelContainer(container)
     }

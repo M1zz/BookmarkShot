@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 struct BookDetailView: View {
     @Bindable var book: Book
@@ -48,6 +49,10 @@ struct BookDetailView: View {
                 }
                 .listRowSeparator(.hidden)
             }
+
+            // 구절을 담고 돌아온 자리 — 모은 문장이 숫자로 보일 때 드물게 응원을 부탁한다(모달 아님)
+            LeeoTipAskSlot<BookmarkShotSpec>(tipJar: BookmarkShotSpec.tipJar,
+                                             reached: BookmarkShotTipMoments.reached(quotes: totalQuoteCount))
 
             Section {
                 if book.sortedQuotes.isEmpty {
@@ -105,6 +110,11 @@ struct BookDetailView: View {
                 dismiss()
             }
         }
+    }
+
+    /// 모든 책에 담은 문장 수. 이 책의 문장이 늘면 화면이 다시 그려지며 함께 갱신된다.
+    private var totalQuoteCount: Int {
+        (try? modelContext.fetchCount(FetchDescriptor<Quote>())) ?? 0
     }
 
     private func deleteQuotes(at offsets: IndexSet) {
