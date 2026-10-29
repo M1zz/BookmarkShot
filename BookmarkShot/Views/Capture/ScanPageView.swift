@@ -34,6 +34,8 @@ struct ScanPageView: View {
     @State private var extractedText: String = ""
     @State private var pageNumberText: String = ""
     @State private var errorMessage: String?
+    /// 추출된 문장 칸 높이 — 큰 글자에서는 함께 키운다
+    @ScaledMetric(relativeTo: .body) private var extractedHeight: CGFloat = 72
 
     var body: some View {
         NavigationStack {
@@ -114,6 +116,7 @@ struct ScanPageView: View {
             Image(systemName: "text.viewfinder")
                 .font(.system(size: 64))
                 .foregroundStyle(.tint)
+                .accessibilityHidden(true)
             Text("마음에 드는 구절이 있는\n페이지를 찍어주세요")
                 .font(.title3.weight(.semibold))
                 .multilineTextAlignment(.center)
@@ -193,7 +196,7 @@ struct ScanPageView: View {
                     }
 
                     TextEditor(text: $extractedText)
-                        .frame(height: 72)
+                        .frame(height: extractedHeight)
                         .padding(6)
                         .background(Color(.secondarySystemBackground))
                         .clipShape(RoundedRectangle(cornerRadius: 8))

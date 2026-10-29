@@ -21,6 +21,7 @@ struct HighlightSelectionView: View {
     @State private var strokePoints: [CGPoint] = []
     @State private var eraseMode = false
     @State private var moveMode = false
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
 
     // 확대/이동 상태
     @State private var scale: CGFloat = 1
@@ -43,6 +44,7 @@ struct HighlightSelectionView: View {
                         .resizable()
                         .scaledToFit()
                         .frame(width: geo.size.width, height: geo.size.height)
+                        .accessibilityHidden(true)
 
                     // 선택된 단어 하이라이트 + 현재 손가락 궤적 (미변환 로컬 좌표)
                     Canvas { context, _ in
@@ -68,6 +70,21 @@ struct HighlightSelectionView: View {
                         }
                     }
                     .allowsHitTesting(false)
+                    .accessibilityHidden(true)
+
+                    // VoiceOver·음성 명령: 문지르기 대신 줄마다 하나의 요소로 두고, 두 번 탭하면 밑줄을 긋거나 지운다
+                    ForEach(ocr.lines) { line in
+                        let rect = viewRect(for: line.box, fitted: fitted)
+                        Color.clear
+                            .frame(width: max(rect.width, 1), height: max(rect.height, 1))
+                            .position(x: rect.midX, y: rect.midY)
+                            .allowsHitTesting(false)
+                            .accessibilityElement()
+                            .accessibilityLabel(line.text)
+                            .accessibilityHint(Text("두 번 탭하면 밑줄을 긋거나 지웁니다."))
+                            .accessibilityAddTraits(isSelected(line) ? [.isButton, .isSelected] : .isButton)
+                            .accessibilityAction { toggle(line) }
+                    }
                 }
                 .scaleEffect(scale, anchor: .center)
                 .offset(offset)
@@ -183,7 +200,7 @@ struct HighlightSelectionView: View {
     }
 
     private func resetZoom() {
-        withAnimation(.easeInOut(duration: 0.2)) {
+        withAnimation(reduceMotion ? nil : .easeInOut(duration: 0.2)) {
             scale = 1
             offset = .zero
         }
@@ -202,6 +219,7 @@ struct HighlightSelectionView: View {
                       systemImage: "hand.draw")
             }
             .tint(moveMode ? .blue : .accentColor)
+            .accessibilityAddTraits(moveMode ? .isSelected : [])
 
             Button {
                 eraseMode.toggle()
@@ -210,6 +228,7 @@ struct HighlightSelectionView: View {
                       systemImage: eraseMode ? "eraser.fill" : "eraser")
             }
             .tint(eraseMode ? .red : .accentColor)
+            .accessibilityAddTraits(eraseMode ? .isSelected : [])
             .disabled(moveMode)
 
             if scale > 1.01 {
@@ -242,6 +261,22 @@ struct HighlightSelectionView: View {
     }
 
     // MARK: - 선택 로직
+
+    /// 줄의 단어가 모두 골라졌는지
+    private func isSelected(_ line: RecognizedLine) -> Bool {
+        !line.words.isEmpty && line.words.allSatisfy { selectedWordIDs.contains($0.id) }
+    }
+
+    /// 줄 하나를 통째로 고르거나 뺀다 (손가락 대신 VoiceOver·음성 명령으로 밑줄 긋기)
+    private func toggle(_ line: RecognizedLine) {
+        let ids = line.words.map(\.id)
+        if isSelected(line) {
+            selectedWordIDs.subtract(ids)
+        } else {
+            selectedWordIDs.formUnion(ids)
+        }
+        notifySelection()
+    }
 
     private func updateSelection(at point: CGPoint, fitted: CGRect) {
         // 확대할수록 판정 여유를 좁혀 정밀하게

@@ -13,6 +13,8 @@ struct DailyReviewView: View {
     @Query private var quotes: [Quote]
     @State private var shuffleOffset = 0
     @State private var shareImage: UIImage?
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
     private var todaysQuote: Quote? {
         guard !quotes.isEmpty else { return nil }
@@ -58,6 +60,7 @@ struct DailyReviewView: View {
                     Image(systemName: "quote.opening")
                         .font(.title)
                         .foregroundStyle(.tint)
+                        .accessibilityHidden(true)
 
                     Text(quote.text)
                         .font(.title3.weight(.medium))
@@ -89,9 +92,12 @@ struct DailyReviewView: View {
                 )
                 .padding(.horizontal)
 
-                HStack(spacing: 12) {
+                // 큰 글자에서는 두 버튼을 위아래로 쌓아 글자가 잘리지 않게 한다
+                let buttons = dynamicTypeSize.isAccessibilitySize
+                    ? AnyLayout(VStackLayout(spacing: 12)) : AnyLayout(HStackLayout(spacing: 12))
+                buttons {
                     Button {
-                        withAnimation { shuffleOffset += 1 }
+                        withAnimation(reduceMotion ? nil : .default) { shuffleOffset += 1 }
                     } label: {
                         Label("다른 문장", systemImage: "shuffle")
                     }

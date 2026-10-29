@@ -58,6 +58,8 @@ struct AllQuotesView: View {
                         Image(systemName: favoritesOnly ? "heart.fill" : "heart")
                             .foregroundStyle(favoritesOnly ? .red : .accentColor)
                     }
+                    .accessibilityLabel("즐겨찾기")
+                    .accessibilityAddTraits(favoritesOnly ? .isSelected : [])
                 }
             }
         }

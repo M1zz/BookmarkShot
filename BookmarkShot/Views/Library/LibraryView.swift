@@ -52,6 +52,7 @@ struct LibraryView: View {
                     } label: {
                         Image(systemName: "plus")
                     }
+                    .accessibilityLabel("책 추가")
                 }
             }
             .sheet(isPresented: $showAddBook) {
@@ -80,6 +81,7 @@ struct LibraryView: View {
 
 struct BookCoverCell: View {
     let book: Book
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
@@ -106,15 +108,18 @@ struct BookCoverCell: View {
 
             Text(book.title)
                 .font(.caption.weight(.medium))
-                .lineLimit(1)
+                .lineLimit(dynamicTypeSize.isAccessibilitySize ? 3 : 1)
             HStack(spacing: 4) {
                 Image(systemName: "quote.opening")
-                    .font(.system(size: 9))
+                    .imageScale(.small)
                 Text("\(book.quoteCount)")
             }
             .font(.caption2)
             .foregroundStyle(.secondary)
         }
         .frame(width: 110, alignment: .leading)
+        // VoiceOver: 표지·제목·숫자를 따로 읽지 않고 '제목, 스크랩 N개' 한 번에
+        .accessibilityElement(children: .ignore)
+        .accessibilityLabel(book.title + ", " + String(localized: "스크랩 \(book.quoteCount)개"))
     }
 }

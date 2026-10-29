@@ -15,6 +15,7 @@ struct QuoteCardView: View {
                 Image(systemName: "quote.opening")
                     .font(.caption)
                     .foregroundStyle(.tint)
+                    .accessibilityHidden(true)
                 Text(quote.text)
                     .font(.subheadline)
                     .lineLimit(3)
@@ -31,6 +32,7 @@ struct QuoteCardView: View {
                 if quote.isFavorite {
                     Image(systemName: "heart.fill")
                         .foregroundStyle(.red)
+                        .accessibilityLabel("즐겨찾기")
                 }
                 Text(quote.createdAt, format: .dateTime.month().day())
             }
@@ -38,5 +40,6 @@ struct QuoteCardView: View {
             .foregroundStyle(.secondary)
         }
         .padding(.vertical, 4)
+        .accessibilityElement(children: .combine)
     }
 }

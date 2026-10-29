@@ -54,6 +54,8 @@ struct RegionSelectionView: View {
             .frame(width: handleSize, height: handleSize)
             .contentShape(Rectangle().inset(by: -handleSize))
             .position(position)
+            // 모서리는 자동으로 맞춰 두므로 VoiceOver 에서는 건너뛴다 — 그대로 '구문 추출'로 넘어가면 된다
+            .accessibilityHidden(true)
             .gesture(
                 DragGesture(minimumDistance: 0, coordinateSpace: .named("region"))
                     .onChanged { value in

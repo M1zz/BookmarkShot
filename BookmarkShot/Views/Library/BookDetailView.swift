@@ -27,6 +27,7 @@ struct BookDetailView: View {
                             .scaledToFill()
                             .frame(width: 72, height: 100)
                             .clipShape(RoundedRectangle(cornerRadius: 6))
+                            .accessibilityHidden(true)
                     }
                     VStack(alignment: .leading, spacing: 4) {
                         Text(book.title)
@@ -85,6 +86,7 @@ struct BookDetailView: View {
                 } label: {
                     Image(systemName: "trash")
                 }
+                .accessibilityLabel("삭제")
             }
         }
         .safeAreaInset(edge: .bottom) {
