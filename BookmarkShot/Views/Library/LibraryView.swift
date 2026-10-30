@@ -7,10 +7,14 @@
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 struct LibraryView: View {
     @Query(sort: \Book.createdAt, order: .reverse) private var books: [Book]
     @State private var showAddBook = false
+    @Environment(\.foldLayout) private var fold
+    /// 펼친 화면에서는 책을 밀어 넣지 않고 오른쪽 판에 세운다 (→ FoldPanes.swift)
+    @Environment(FoldPick.self) private var foldPick: FoldPick?
 
     private let columns = [GridItem(.adaptive(minimum: 110), spacing: 16)]
 
@@ -29,10 +33,20 @@ struct LibraryView: View {
 
                             LazyVGrid(columns: columns, spacing: 20) {
                                 ForEach(books) { book in
-                                    NavigationLink(value: book) {
-                                        BookCoverCell(book: book)
+                                    if fold.isUnfolded, let foldPick {
+                                        Button {
+                                            foldPick.book = book
+                                        } label: {
+                                            BookCoverCell(book: book)
+                                        }
+                                        .buttonStyle(.plain)
+                                        .foldPicked(foldPick.book == book)
+                                    } else {
+                                        NavigationLink(value: book) {
+                                            BookCoverCell(book: book)
+                                        }
+                                        .buttonStyle(.plain)
                                     }
-                                    .buttonStyle(.plain)
                                 }
                             }
                             .padding(.horizontal)

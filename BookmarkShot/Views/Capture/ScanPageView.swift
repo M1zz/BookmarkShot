@@ -55,16 +55,16 @@ struct ScanPageView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("닫기") { dismiss() }
+                    Button { dismiss() } label: { Label("닫기", systemImage: "xmark") }
                 }
                 if step == .selectRegion {
                     ToolbarItem(placement: .confirmationAction) {
-                        Button("구문 추출") { extractFromRegion() }
+                        Button { extractFromRegion() } label: { Label("구문 추출", systemImage: "text.viewfinder") }
                     }
                 }
                 if step == .highlight {
                     ToolbarItem(placement: .confirmationAction) {
-                        Button("저장") { saveQuote() }
+                        Button { saveQuote() } label: { Label("저장", systemImage: "checkmark") }
                             .disabled(extractedText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                     }
                 }

@@ -7,11 +7,15 @@
 
 import SwiftUI
 import SwiftData
+import LeeoKit
 
 struct AllQuotesView: View {
     @Query(sort: \Quote.createdAt, order: .reverse) private var quotes: [Quote]
     @State private var searchText = ""
     @State private var favoritesOnly = false
+    @Environment(\.foldLayout) private var fold
+    /// 펼친 화면에서는 스크랩을 밀어 넣지 않고 오른쪽 판에 세운다 (→ FoldPanes.swift)
+    @Environment(FoldPick.self) private var foldPick: FoldPick?
 
     private var filteredQuotes: [Quote] {
         quotes.filter { quote in
@@ -38,10 +42,21 @@ struct AllQuotesView: View {
                 } else {
                     List {
                         ForEach(filteredQuotes) { quote in
-                            NavigationLink {
-                                QuoteDetailView(quote: quote)
-                            } label: {
-                                QuoteCardView(quote: quote)
+                            if fold.isUnfolded, let foldPick {
+                                Button {
+                                    foldPick.quote = quote
+                                } label: {
+                                    QuoteCardView(quote: quote)
+                                }
+                                .buttonStyle(.plain)
+                                .listRowBackground(foldPick.quote == quote ? Color.accentColor.opacity(0.14) : nil)
+                                .accessibilityAddTraits(foldPick.quote == quote ? .isSelected : [])
+                            } else {
+                                NavigationLink {
+                                    QuoteDetailView(quote: quote)
+                                } label: {
+                                    QuoteCardView(quote: quote)
+                                }
                             }
                         }
                     }

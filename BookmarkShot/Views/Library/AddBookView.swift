@@ -88,10 +88,10 @@ struct AddBookView: View {
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
-                    Button("취소") { dismiss() }
+                    Button { dismiss() } label: { Label("취소", systemImage: "xmark") }
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button("저장") { saveBook() }
+                    Button { saveBook() } label: { Label("저장", systemImage: "checkmark") }
                         .disabled(title.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
             }

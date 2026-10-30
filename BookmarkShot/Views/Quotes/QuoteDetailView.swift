@@ -110,7 +110,7 @@ struct QuoteDetailView: View {
                     .navigationBarTitleDisplayMode(.inline)
                     .toolbar {
                         ToolbarItem(placement: .cancellationAction) {
-                            Button("닫기") { showOriginalImage = false }
+                            Button { showOriginalImage = false } label: { Label("닫기", systemImage: "xmark") }
                         }
                     }
                 }
