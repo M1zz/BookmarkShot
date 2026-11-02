@@ -37,7 +37,7 @@ struct BookmarkShotApp: App {
                 let localConfig = ModelConfiguration(schema: schema, cloudKitDatabase: .none)
                 container = try ModelContainer(for: schema, configurations: [localConfig])
             } catch {
-                fatalError("SwiftData 컨테이너 생성 실패: \(error)")
+                container = StoreFallback.memoryContainer(schema: schema, after: error)
             }
         }
     }
@@ -46,6 +46,7 @@ struct BookmarkShotApp: App {
         WindowGroup {
             ContentView()
                 .leeoSatisfactionCheck(BookmarkShotSpec.self)
+                .storeFallbackNotice()
                 // 팁 상품을 불러오고 끝나지 않은 팁을 마저 센다
                 .task { await BookmarkShotSpec.tipJar.startStandalone() }
         }
