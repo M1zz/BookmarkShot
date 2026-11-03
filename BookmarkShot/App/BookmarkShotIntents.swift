@@ -27,11 +27,6 @@ final class BookmarkShotRouter {
     var scanBookID: PersistentIdentifier?
 }
 
-/// 시트로 바로 열 수 있게 (`.sheet(item:)`).
-extension PersistentIdentifier: @retroactive Identifiable {
-    public var id: Self { self }
-}
-
 extension PersistentIdentifier {
     var intentID: String {
         (try? JSONEncoder().encode(self))?.base64EncodedString() ?? ""
