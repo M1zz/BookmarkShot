@@ -31,6 +31,8 @@ enum BookmarkShotSpec: LeeoAppSpec {
 
     /// 수익모델 — 인앱 결제가 없는 완전 무료 앱.
     static let monetization = LeeoMonetization.free
+    /// 금고가 위젯과 함께 쓰는 공유 컨테이너도 백업한다.
+    static let appGroups = ["group.com.leeo.bookmarkshot"]
 
     /// 개발자 응원하기(팁) — 소모성 상품 셋, 작은 것부터. 기능을 열지 않는다.
     /// LeeoStore 가 없는 무료 앱이라 앱을 열 때 `startStandalone()` 으로 혼자 돌린다.
