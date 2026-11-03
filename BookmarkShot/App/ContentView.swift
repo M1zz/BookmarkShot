@@ -15,6 +15,8 @@ struct ContentView: View {
     @State private var showSupport = false
 
     @State private var selectedTab = ScreenshotMode.initialTab
+    @Bindable private var router = BookmarkShotRouter.shared
+    @Environment(\.modelContext) private var modelContext
     /// 스크린샷 데모(DEBUG)에서 구절 스크랩 화면을 바로 연다
     @State private var screenshotScanBook: Book?
     @Query private var books: [Book]
@@ -74,6 +76,17 @@ struct ContentView: View {
         }
         .sheet(isPresented: $showSupport) {
             BookmarkShotSupportView()
+        }
+        // Siri · Spotlight 에서 고른 문장 · 스캔할 책 (→ BookmarkShotIntents.swift)
+        .sheet(item: $router.quoteID) { id in
+            if let quote = modelContext.model(for: id) as? Quote {
+                NavigationStack { QuoteDetailView(quote: quote) }
+            }
+        }
+        .sheet(item: $router.scanBookID) { id in
+            if let book = modelContext.model(for: id) as? Book {
+                ScanPageView(book: book)
+            }
         }
         .task { syncWidget() }
         .onChange(of: widgetSignature) { syncWidget() }
