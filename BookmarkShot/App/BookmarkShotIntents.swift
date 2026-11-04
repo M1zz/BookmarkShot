@@ -152,6 +152,7 @@ struct ScanPageIntent: AppIntent {
     static let openAppWhenRun = true
 
     @Parameter(title: LocalizedStringResource("책", comment: "Siri: book parameter"),
+               description: LocalizedStringResource("페이지를 찍을 책", comment: "Siri: book parameter description"),
                requestValueDialog: IntentDialog(LocalizedStringResource("어느 책을 스캔할까요?", comment: "Siri: ask which book")))
     var book: BookEntity
 
@@ -193,6 +194,7 @@ struct FindQuotesIntent: AppIntent {
     )
 
     @Parameter(title: LocalizedStringResource("찾을 말", comment: "Siri: search word parameter"),
+               description: LocalizedStringResource("밑줄 친 문장이나 책 제목에서 찾을 단어", comment: "Siri: search word parameter description"),
                requestValueDialog: IntentDialog(LocalizedStringResource("어떤 말을 찾을까요?", comment: "Siri: ask what to search")))
     var query: String
 
@@ -210,8 +212,12 @@ struct FindQuotesIntent: AppIntent {
 /// 문장을 연다. Spotlight · Siri 결과를 누르면 여기로 온다.
 struct OpenQuoteIntent: OpenIntent {
     static let title = LocalizedStringResource("문장 열기", comment: "Siri/Spotlight: open a saved sentence")
+    static let description = IntentDescription(
+        LocalizedStringResource("밑줄 친 문장을 앱에서 엽니다.", comment: "Siri: open sentence description")
+    )
 
-    @Parameter(title: LocalizedStringResource("밑줄 문장", comment: "Siri: sentence parameter"))
+    @Parameter(title: LocalizedStringResource("밑줄 문장", comment: "Siri: sentence parameter"),
+               description: LocalizedStringResource("열어 볼 밑줄 문장", comment: "Siri: sentence parameter description"))
     var target: QuoteEntity
 
     init() {}
