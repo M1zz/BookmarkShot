@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: bewaar je mooiste zinnen uit elk boek",
-  "description": "Fotografeer een pagina en veeg met je vinger over een zin die je mooi vindt. Alleen die zin wordt tekst, met boek en paginanummer. Alles is gratis.",
+  "description": "Fotografeer een pagina en veeg met je vinger over een zin die je mooi vindt. Alleen die zin wordt tekst, met boek en paginanummer. Gratis tot 10 boeken en 100 citaten.",
   "hero": {
     "headline": "Onderstrepen\nzonder pen",
     "lead": "Fotografeer de pagina, veeg met je vinger over de zin die je mooi vindt, en alleen die zin wordt als tekst bewaard. Boek en paginanummer gaan mee.",
     "cta": "Gratis downloaden in de App Store",
-    "note": "Alle functies gratis, zonder advertenties."
+    "note": "Gratis tot 10 boeken en 100 citaten, zonder advertenties."
   },
   "demo": {
     "title": "Probeer het eens",
@@ -97,27 +97,29 @@
     "note": "Met VoiceOver tik je dubbel op een regel om die toe te voegen of weg te halen."
   },
   "pricing": {
-    "title": "Alle functies zijn gratis",
+    "title": "Gratis tot 10 boeken en 100 citaten",
     "free": {
       "name": "Gratis",
       "items": [
+        "Tot 10 boeken en 100 citaten",
         "Boeken toevoegen via de kaft, ISBN via de streepjescode",
         "Pagina’s rechttrekken en markeren met je vinger",
         "Automatische paginanummers",
         "Bibliotheek, citaten zoeken en favorieten",
-        "Citaat van de dag met widgets voor beginscherm en toegangsscherm",
-        "Delen als kaartafbeelding",
-        "Synchronisatie via iCloud"
+        "Citaat van de dag",
+        "Delen als kaartafbeelding"
       ]
     },
     "pro": {
-      "name": "Steun de ontwikkelaar",
+      "name": "Plus · Pro",
       "items": [
-        "Geef via Instellingen een kleine fooi, als je dat wilt",
-        "Een fooi ontgrendelt niets. De app blijft precies hetzelfde"
-      ]
+        "Plus: onbeperkt boeken en citaten",
+        "Pro: alles van Plus en daarbij synchronisatie via iCloud",
+        "Pro: widgets voor beginscherm en toegangsscherm"
+      ],
+      "note": "Kies een week-, maand- of jaarabonnement, of betaal één keer voor altijd. Een fooi via Instellingen staat daar los van en ontgrendelt niets."
     },
-    "note": "Geen advertenties, geen abonnement."
+    "note": "Geen advertenties."
   },
   "faq": {
     "title": "Vragen",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Kan ik mijn citaten op meer apparaten zien?",
-        "a": "Ja. Ben je met hetzelfde Apple Account bij iCloud ingelogd en staat iCloud Drive aan, dan worden je boeken en citaten automatisch gesynchroniseerd."
+        "a": "Ja. Ben je met hetzelfde Apple Account bij iCloud ingelogd en staat iCloud Drive aan, dan worden je boeken en citaten automatisch gesynchroniseerd. Synchronisatie via iCloud hoort bij Pro."
       },
       {
         "q": "Hoe voeg ik de widget toe?",
-        "a": "Houd je vinger op het beginscherm, tik op ‘Wijzig’ > ‘Voeg widget toe’ en kies Bookmark Shot. Voor het toegangsscherm houd je je vinger erop en tik je op ‘Pas aan’. Daar verschijnt Citaat van de dag."
+        "a": "Houd je vinger op het beginscherm, tik op ‘Wijzig’ > ‘Voeg widget toe’ en kies Bookmark Shot. Voor het toegangsscherm houd je je vinger erop en tik je op ‘Pas aan’. Daar verschijnt Citaat van de dag. Widgets horen bij Pro."
       },
       {
         "q": "De camera werkt niet.",

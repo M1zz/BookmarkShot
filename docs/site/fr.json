@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot : gardez les plus belles phrases de vos livres",
-  "description": "Photographiez une page et passez le doigt sur une phrase. Seule cette phrase est enregistrée en texte, avec le livre et la page. Tout est gratuit.",
+  "description": "Photographiez une page et passez le doigt sur une phrase. Seule cette phrase est enregistrée en texte, avec le livre et la page. Gratuit jusqu’à 10 livres et 100 citations.",
   "hero": {
     "headline": "Souligner un livre,\nsans stylo",
     "lead": "Photographiez la page, passez le doigt sur la phrase qui vous touche : seule cette phrase est enregistrée en texte, avec le livre et le numéro de page.",
     "cta": "Télécharger gratuitement sur l’App Store",
-    "note": "Toutes les fonctionnalités sont gratuites, sans publicité."
+    "note": "Gratuit jusqu’à 10 livres et 100 citations, sans publicité."
   },
   "demo": {
     "title": "Essayez par vous-même",
@@ -97,27 +97,29 @@
     "note": "Avec VoiceOver, touchez deux fois une ligne pour l’ajouter ou la retirer."
   },
   "pricing": {
-    "title": "Toutes les fonctionnalités sont gratuites",
+    "title": "Gratuit jusqu’à 10 livres et 100 citations",
     "free": {
       "name": "Gratuit",
       "items": [
+        "Jusqu’à 10 livres et 100 citations",
         "Ajout de livres par la couverture, ISBN par le code-barres",
         "Redressement des pages et surlignage au doigt",
         "Numéro de page automatique",
         "Bibliothèque, recherche de citations et favoris",
-        "Citation du jour avec widgets pour l’écran d’accueil et l’écran verrouillé",
-        "Partage sous forme de carte",
-        "Synchronisation iCloud"
+        "Citation du jour",
+        "Partage sous forme de carte"
       ]
     },
     "pro": {
-      "name": "Soutenir le développeur",
+      "name": "Plus · Pro",
       "items": [
-        "Laissez un petit pourboire depuis les Réglages, si le cœur vous en dit",
-        "Les pourboires ne débloquent rien. L’app reste la même"
-      ]
+        "Plus : livres et citations en nombre illimité",
+        "Pro : tout ce qu’offre Plus, avec la synchronisation iCloud",
+        "Pro : widgets pour l’écran d’accueil et l’écran verrouillé"
+      ],
+      "note": "Choisissez un abonnement hebdomadaire, mensuel ou annuel, ou un achat unique à vie. Les pourboires depuis les Réglages sont à part et ne débloquent rien."
     },
-    "note": "Ni publicité, ni abonnement."
+    "note": "Sans publicité."
   },
   "faq": {
     "title": "Questions",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Puis-je retrouver mes citations sur plusieurs appareils ?",
-        "a": "Oui. Si vous êtes connecté à iCloud avec le même compte Apple et qu’iCloud Drive est activé, vos livres et citations se synchronisent automatiquement."
+        "a": "Oui. Si vous êtes connecté à iCloud avec le même compte Apple et qu’iCloud Drive est activé, vos livres et citations se synchronisent automatiquement. La synchronisation iCloud fait partie de Pro."
       },
       {
         "q": "Comment ajouter le widget ?",
-        "a": "Maintenez le doigt sur l’écran d’accueil, touchez Modifier > Ajouter un widget, puis choisissez Bookmark Shot. Pour l’écran verrouillé, maintenez le doigt dessus, puis touchez Personnaliser. La citation du jour s’y affiche."
+        "a": "Maintenez le doigt sur l’écran d’accueil, touchez Modifier > Ajouter un widget, puis choisissez Bookmark Shot. Pour l’écran verrouillé, maintenez le doigt dessus, puis touchez Personnaliser. La citation du jour s’y affiche. Les widgets font partie de Pro."
       },
       {
         "q": "L’appareil photo ne fonctionne pas.",

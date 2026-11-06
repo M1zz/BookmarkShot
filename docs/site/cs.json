@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: oblíbené věty z každé knihy",
-  "description": "Vyfoťte stránku a přejeďte prstem po větě. Uloží se jen ona, jako text, i s knihou a číslem strany. Všechno je zdarma.",
+  "description": "Vyfoťte stránku a přejeďte prstem po větě. Uloží se jen ona, jako text, i s knihou a číslem strany. Až 10 knih a 100 citátů máte zdarma.",
   "hero": {
     "headline": "Podtrhávejte v knize\nbez tužky",
     "lead": "Vyfoťte stránku, přejeďte prstem po větě, která vás zaujala, a jako text se uloží jen ona. Kniha i číslo strany se uloží s ní.",
     "cta": "Stáhněte zdarma v App Store",
-    "note": "Všechny funkce jsou zdarma a bez reklam."
+    "note": "Zdarma až pro 10 knih a 100 citátů, bez reklam."
   },
   "demo": {
     "title": "Vyzkoušejte si to",
@@ -97,27 +97,29 @@
     "note": "S VoiceOverem řádek přidáte nebo odeberete dvojitým klepnutím."
   },
   "pricing": {
-    "title": "Všechny funkce zdarma",
+    "title": "Zdarma až pro 10 knih a 100 citátů",
     "free": {
       "name": "Zdarma",
       "items": [
+        "Až 10 knih a 100 citátů",
         "Přidání knihy podle obálky, ISBN z čárového kódu",
         "Narovnání stránek a zvýrazňování prstem",
         "Automatické číslo strany",
         "Knihovna, hledání v citátech a oblíbené",
-        "Citát dne s widgety na plochu a zamčenou obrazovku",
-        "Sdílení jako karta",
-        "Synchronizace přes iCloud"
+        "Citát dne",
+        "Sdílení jako karta"
       ]
     },
     "pro": {
-      "name": "Podpořte vývojáře",
+      "name": "Plus · Pro",
       "items": [
-        "Pokud chcete, pošlete v Nastavení malé spropitné",
-        "Spropitné nic neodemyká. Aplikace je pořád stejná"
-      ]
+        "Plus: neomezeně knih a citátů",
+        "Pro: vše z Plus a k tomu synchronizace přes iCloud",
+        "Pro: widgety na plochu a zamčenou obrazovku"
+      ],
+      "note": "Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednorázový nákup navždy. Spropitné v Nastavení je zvlášť a nic neodemyká."
     },
-    "note": "Bez reklam, bez předplatného."
+    "note": "Bez reklam."
   },
   "faq": {
     "title": "Otázky",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Uvidím citáty na více zařízeních?",
-        "a": "Ano. Pokud jste přihlášeni k iCloudu stejným Apple účtem a máte zapnutý iCloud Drive, knihy a citáty se synchronizují automaticky."
+        "a": "Ano. Pokud jste přihlášeni k iCloudu stejným Apple účtem a máte zapnutý iCloud Drive, knihy a citáty se synchronizují automaticky. Synchronizace přes iCloud je součástí Pro."
       },
       {
         "q": "Jak přidám widget?",
-        "a": "Podržte prst na ploše, klepněte na Upravit > Přidat widget a vyberte Bookmark Shot. Na zamčené obrazovce na ní podržte prst a pak klepněte na Přizpůsobit. Zobrazí se tam Citát dne."
+        "a": "Podržte prst na ploše, klepněte na Upravit > Přidat widget a vyberte Bookmark Shot. Na zamčené obrazovce na ní podržte prst a pak klepněte na Přizpůsobit. Zobrazí se tam Citát dne. Widgety jsou součástí Pro."
       },
       {
         "q": "Nefunguje fotoaparát.",

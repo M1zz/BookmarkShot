@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: ta vare på setningene du liker",
-  "description": "Ta bilde av en side og dra fingeren over en setning du liker. Bare den setningen lagres som tekst, med bok og sidetall. Alt er gratis.",
+  "description": "Ta bilde av en side og dra fingeren over en setning du liker. Bare den setningen lagres som tekst, med bok og sidetall. Gratis for opptil 10 bøker og 100 sitater.",
   "hero": {
     "headline": "Strek under i boka\nuten penn",
     "lead": "Ta bilde av siden, dra fingeren over setningen du liker, så lagres bare den som tekst. Bok og sidetall blir med.",
     "cta": "Last ned gratis fra App Store",
-    "note": "Alle funksjoner er gratis, uten reklame."
+    "note": "Gratis for opptil 10 bøker og 100 sitater, uten reklame."
   },
   "demo": {
     "title": "Prøv å dra",
@@ -97,27 +97,29 @@
     "note": "Med VoiceOver dobbelttrykker du på en linje for å legge den til eller fjerne den."
   },
   "pricing": {
-    "title": "Alle funksjoner er gratis",
+    "title": "Gratis for opptil 10 bøker og 100 sitater",
     "free": {
       "name": "Gratis",
       "items": [
+        "Opptil 10 bøker og 100 sitater",
         "Legg til bøker fra omslaget, ISBN fra strekkoden",
         "Utretting av sider og markering med fingeren",
         "Automatiske sidetall",
         "Bibliotek, søk i sitater og favoritter",
-        "Dagens sitat med widgeter for Hjem-skjermen og låseskjermen",
-        "Del som kortbilde",
-        "Synkronisering med iCloud"
+        "Dagens sitat",
+        "Del som kortbilde"
       ]
     },
     "pro": {
-      "name": "Støtt utvikleren",
+      "name": "Plus · Pro",
       "items": [
-        "Send et lite tips fra Innstillinger hvis du vil",
-        "Tips låser ikke opp noe. Appen er den samme uansett"
-      ]
+        "Plus: ubegrenset med bøker og sitater",
+        "Pro: alt i Plus og i tillegg synkronisering med iCloud",
+        "Pro: widgeter for Hjem-skjermen og låseskjermen"
+      ],
+      "note": "Velg et ukentlig, månedlig eller årlig abonnement, eller betal én gang for alltid. Tips fra Innstillinger er noe annet og låser ikke opp noe."
     },
-    "note": "Ingen reklame, ikke noe abonnement."
+    "note": "Ingen reklame."
   },
   "faq": {
     "title": "Spørsmål",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Kan jeg se sitatene på flere enheter?",
-        "a": "Ja. Er du logget på iCloud med den samme Apple-kontoen og har iCloud Drive slått på, synkroniseres bøkene og sitatene dine automatisk."
+        "a": "Ja. Er du logget på iCloud med den samme Apple-kontoen og har iCloud Drive slått på, synkroniseres bøkene og sitatene dine automatisk. Synkronisering med iCloud er en del av Pro."
       },
       {
         "q": "Hvordan legger jeg til widgeten?",
-        "a": "Hold fingeren på Hjem-skjermen, trykk på Rediger > Legg til widget, og velg Bookmark Shot. På låseskjermen holder du fingeren på den og trykker på Tilpass. Der vises Dagens sitat."
+        "a": "Hold fingeren på Hjem-skjermen, trykk på Rediger > Legg til widget, og velg Bookmark Shot. På låseskjermen holder du fingeren på den og trykker på Tilpass. Der vises Dagens sitat. Widgetene er en del av Pro."
       },
       {
         "q": "Kameraet virker ikke.",

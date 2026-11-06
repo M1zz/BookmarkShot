@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: conserva le frasi più belle dei tuoi libri",
-  "description": "Fotografa la pagina e passa il dito sulla frase che ami. Solo quella viene salvata come testo, con libro e numero di pagina. Tutto gratis.",
+  "description": "Fotografa la pagina e passa il dito sulla frase che ami. Solo quella viene salvata come testo, con libro e numero di pagina. Gratis fino a 10 libri e 100 citazioni.",
   "hero": {
     "headline": "Sottolinea un libro\nsenza penna",
     "lead": "Fotografa la pagina, passa il dito sulla frase che ti ha colpito e viene salvata come testo solo quella. Libro e numero di pagina arrivano insieme.",
     "cta": "Scaricala gratis dall’App Store",
-    "note": "Tutte le funzioni sono gratuite, senza pubblicità."
+    "note": "Gratis fino a 10 libri e 100 citazioni, senza pubblicità."
   },
   "demo": {
     "title": "Prova tu",
@@ -97,27 +97,29 @@
     "note": "Con VoiceOver, tocca due volte una riga per aggiungerla o toglierla."
   },
   "pricing": {
-    "title": "Tutte le funzioni sono gratis",
+    "title": "Gratis fino a 10 libri e 100 citazioni",
     "free": {
       "name": "Gratis",
       "items": [
+        "Fino a 10 libri e 100 citazioni",
         "Aggiunta dei libri dalla copertina, ISBN dal codice a barre",
         "Raddrizzamento delle pagine ed evidenziazione con il dito",
         "Numero di pagina automatico",
         "Libreria, ricerca tra le citazioni e preferite",
-        "La citazione del giorno con widget per schermata Home e schermata di blocco",
-        "Condivisione come cartolina",
-        "Sincronizzazione iCloud"
+        "La citazione del giorno",
+        "Condivisione come cartolina"
       ]
     },
     "pro": {
-      "name": "Sostieni lo sviluppatore",
+      "name": "Plus · Pro",
       "items": [
-        "Se ti va, lascia una piccola mancia dalle Impostazioni",
-        "Le mance non sbloccano nulla. L’app resta la stessa"
-      ]
+        "Plus: libri e citazioni senza limiti",
+        "Pro: tutto Plus, più la sincronizzazione iCloud",
+        "Pro: widget per schermata Home e schermata di blocco"
+      ],
+      "note": "Scegli un abbonamento settimanale, mensile o annuale, oppure un acquisto unico per sempre. Le mance dalle Impostazioni sono a parte e non sbloccano nulla."
     },
-    "note": "Niente pubblicità, niente abbonamenti."
+    "note": "Niente pubblicità."
   },
   "faq": {
     "title": "Domande",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Posso vedere le mie citazioni su più dispositivi?",
-        "a": "Sì. Se hai effettuato l’accesso a iCloud con lo stesso Apple Account e iCloud Drive è attivo, libri e citazioni si sincronizzano automaticamente."
+        "a": "Sì. Se hai effettuato l’accesso a iCloud con lo stesso Apple Account e iCloud Drive è attivo, libri e citazioni si sincronizzano automaticamente. La sincronizzazione iCloud è inclusa in Pro."
       },
       {
         "q": "Come aggiungo il widget?",
-        "a": "Tieni premuto sulla schermata Home, tocca Modifica > Aggiungi widget e scegli Bookmark Shot. Per la schermata di blocco, tienila premuta e tocca Personalizza. Lì compare la citazione del giorno."
+        "a": "Tieni premuto sulla schermata Home, tocca Modifica > Aggiungi widget e scegli Bookmark Shot. Per la schermata di blocco, tienila premuta e tocca Personalizza. Lì compare la citazione del giorno. I widget sono inclusi in Pro."
       },
       {
         "q": "La fotocamera non funziona.",

@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: guarde as frases que você ama nos livros",
-  "description": "Fotografe a página e passe o dedo na frase que você ama. Só ela é salva como texto, com o livro e o número da página. Tudo de graça.",
+  "description": "Fotografe a página e passe o dedo na frase que você ama. Só ela é salva como texto, com o livro e o número da página. Grátis até 10 livros e 100 trechos.",
   "hero": {
     "headline": "Grife o livro\nsem caneta",
     "lead": "Fotografe a página, passe o dedo sobre a frase de que gosta e só ela é salva como texto. O livro e o número da página vão junto.",
     "cta": "Baixe grátis na App Store",
-    "note": "Todos os recursos são gratuitos e sem anúncios."
+    "note": "Grátis até 10 livros e 100 trechos, sem anúncios."
   },
   "demo": {
     "title": "Experimente",
@@ -97,27 +97,29 @@
     "note": "Com o VoiceOver, toque duas vezes numa linha para incluí-la ou tirá-la."
   },
   "pricing": {
-    "title": "Todos os recursos são gratuitos",
+    "title": "Grátis até 10 livros e 100 trechos",
     "free": {
       "name": "Grátis",
       "items": [
+        "Até 10 livros e 100 trechos",
         "Livros adicionados pela capa, ISBN pelo código de barras",
         "Página endireitada e grifo com o dedo",
         "Número da página automático",
         "Biblioteca, busca de trechos e favoritos",
-        "Trecho do dia com widgets para a Tela de Início e a Tela Bloqueada",
-        "Compartilhamento como cartão",
-        "Sincronização com o iCloud"
+        "Trecho do dia",
+        "Compartilhamento como cartão"
       ]
     },
     "pro": {
-      "name": "Apoie o desenvolvedor",
+      "name": "Plus · Pro",
       "items": [
-        "Se quiser, mande uma gorjetinha pelos Ajustes",
-        "Gorjetas não desbloqueiam nada. O app é o mesmo"
-      ]
+        "Plus: livros e trechos sem limite",
+        "Pro: tudo do Plus, mais sincronização com o iCloud",
+        "Pro: widgets para a Tela de Início e a Tela Bloqueada"
+      ],
+      "note": "Escolha uma assinatura semanal, mensal ou anual, ou pague uma vez e use para sempre. As gorjetas nos Ajustes são à parte e não desbloqueiam nada."
     },
-    "note": "Sem anúncios, sem assinatura."
+    "note": "Sem anúncios."
   },
   "faq": {
     "title": "Perguntas",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Posso ver meus trechos em mais de um aparelho?",
-        "a": "Sim. Se você estiver conectado ao iCloud com a mesma Conta Apple e o iCloud Drive estiver ativado, seus livros e trechos são sincronizados automaticamente."
+        "a": "Sim. Se você estiver conectado ao iCloud com a mesma Conta Apple e o iCloud Drive estiver ativado, seus livros e trechos são sincronizados automaticamente. A sincronização com o iCloud faz parte do Pro."
       },
       {
         "q": "Como adiciono o widget?",
-        "a": "Toque e mantenha pressionada a Tela de Início, toque em Editar > Adicionar Widget e escolha Bookmark Shot. Na Tela Bloqueada, toque e mantenha pressionado e depois toque em Personalizar. O Trecho do dia aparece ali."
+        "a": "Toque e mantenha pressionada a Tela de Início, toque em Editar > Adicionar Widget e escolha Bookmark Shot. Na Tela Bloqueada, toque e mantenha pressionado e depois toque em Personalizar. O Trecho do dia aparece ali. Os widgets fazem parte do Pro."
       },
       {
         "q": "A câmera não funciona.",

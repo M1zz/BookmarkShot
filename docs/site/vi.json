@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: Lưu câu văn hay từ mọi cuốn sách",
-  "description": "Chụp trang sách rồi vuốt ngón tay qua câu bạn thích. Chỉ câu đó được lưu thành chữ, kèm tên sách và số trang. Mọi tính năng đều miễn phí.",
+  "description": "Chụp trang sách rồi vuốt ngón tay qua câu bạn thích. Chỉ câu đó được lưu thành chữ, kèm tên sách và số trang. Miễn phí tới 10 cuốn sách và 100 câu văn.",
   "hero": {
     "headline": "Gạch chân sách\nmà không cần bút",
     "lead": "Chụp trang sách, vuốt ngón tay qua câu bạn thích, và chỉ riêng câu đó được lưu thành chữ. Tên sách và số trang cũng được ghi kèm.",
     "cta": "Tải miễn phí trên App Store",
-    "note": "Mọi tính năng đều miễn phí, không quảng cáo."
+    "note": "Miễn phí tới 10 cuốn sách và 100 câu văn, không quảng cáo."
   },
   "demo": {
     "title": "Thử vuốt xem",
@@ -97,27 +97,29 @@
     "note": "Khi dùng VoiceOver, chạm hai lần vào một dòng để thêm hoặc bỏ dòng đó."
   },
   "pricing": {
-    "title": "Mọi tính năng đều miễn phí",
+    "title": "Miễn phí tới 10 cuốn sách và 100 câu văn",
     "free": {
       "name": "Miễn phí",
       "items": [
+        "Tối đa 10 cuốn sách và 100 câu văn",
         "Thêm sách từ ảnh bìa, ISBN từ mã vạch",
         "Làm thẳng trang và đánh dấu bằng ngón tay",
         "Tự động điền số trang",
         "Tủ sách, tìm câu văn và mục yêu thích",
-        "Câu của hôm nay cùng widget Màn hình chính và Màn hình khóa",
-        "Chia sẻ dưới dạng thẻ ảnh",
-        "Đồng bộ iCloud"
+        "Câu của hôm nay",
+        "Chia sẻ dưới dạng thẻ ảnh"
       ]
     },
     "pro": {
-      "name": "Ủng hộ nhà phát triển",
+      "name": "Plus · Pro",
       "items": [
-        "Nếu muốn, bạn có thể gửi một khoản ủng hộ nhỏ trong Cài đặt",
-        "Khoản ủng hộ không mở khóa gì thêm. Ứng dụng vẫn như nhau"
-      ]
+        "Plus: sách và câu văn không giới hạn",
+        "Pro: mọi thứ của Plus, thêm đồng bộ iCloud",
+        "Pro: widget Màn hình chính và Màn hình khóa"
+      ],
+      "note": "Chọn gói đăng ký theo tuần, tháng, năm hoặc trả một lần dùng mãi mãi. Khoản ủng hộ trong Cài đặt là riêng và không mở khóa gì."
     },
-    "note": "Không quảng cáo, không gói đăng ký."
+    "note": "Không quảng cáo."
   },
   "faq": {
     "title": "Câu hỏi thường gặp",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Tôi có xem câu văn trên nhiều thiết bị được không?",
-        "a": "Được. Nếu bạn đăng nhập iCloud bằng cùng một Tài khoản Apple và đã bật iCloud Drive, sách và câu văn sẽ tự động đồng bộ."
+        "a": "Được. Nếu bạn đăng nhập iCloud bằng cùng một Tài khoản Apple và đã bật iCloud Drive, sách và câu văn sẽ tự động đồng bộ. Đồng bộ iCloud có trong gói Pro."
       },
       {
         "q": "Làm sao để thêm widget?",
-        "a": "Chạm và giữ Màn hình chính, chạm vào Sửa > Thêm tiện ích rồi chọn Bookmark Shot. Với Màn hình khóa, chạm và giữ màn hình rồi chạm vào Tùy chỉnh. Câu của hôm nay sẽ hiện ở đó."
+        "a": "Chạm và giữ Màn hình chính, chạm vào Sửa > Thêm tiện ích rồi chọn Bookmark Shot. Với Màn hình khóa, chạm và giữ màn hình rồi chạm vào Tùy chỉnh. Câu của hôm nay sẽ hiện ở đó. Widget có trong gói Pro."
       },
       {
         "q": "Camera không hoạt động.",

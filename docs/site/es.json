@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: guarda tus frases favoritas de cada libro",
-  "description": "Haz una foto de la página y pasa el dedo por la frase que te gusta. Solo esa frase se guarda como texto, con el libro y la página. Todo gratis.",
+  "description": "Haz una foto de la página y pasa el dedo por la frase que te gusta. Solo esa frase se guarda como texto, con el libro y la página. Gratis hasta 10 libros y 100 citas.",
   "hero": {
     "headline": "Subraya un libro\nsin bolígrafo",
     "lead": "Haz una foto de la página, pasa el dedo por la frase que te gusta y solo esa frase se guarda como texto. El libro y el número de página van con ella.",
     "cta": "Descárgala gratis en el App Store",
-    "note": "Todas las funciones son gratis y sin anuncios."
+    "note": "Gratis hasta 10 libros y 100 citas, y sin anuncios."
   },
   "demo": {
     "title": "Pruébalo",
@@ -97,27 +97,29 @@
     "note": "Con VoiceOver, toca dos veces una línea para añadirla o quitarla."
   },
   "pricing": {
-    "title": "Todas las funciones son gratis",
+    "title": "Gratis hasta 10 libros y 100 citas",
     "free": {
       "name": "Gratis",
       "items": [
+        "Hasta 10 libros y 100 citas",
         "Añadir libros por la portada, ISBN por el código de barras",
         "Enderezado de páginas y subrayado con el dedo",
         "Número de página automático",
         "Biblioteca, búsqueda de citas y favoritas",
-        "La cita del día con widgets para la pantalla de inicio y la pantalla bloqueada",
-        "Compartir como tarjeta",
-        "Sincronización con iCloud"
+        "La cita del día",
+        "Compartir como tarjeta"
       ]
     },
     "pro": {
-      "name": "Apoya al desarrollador",
+      "name": "Plus · Pro",
       "items": [
-        "Deja una pequeña propina desde Ajustes, si te apetece",
-        "Las propinas no desbloquean nada. La app es la misma"
-      ]
+        "Plus: libros y citas sin límite",
+        "Pro: todo lo de Plus, más sincronización con iCloud",
+        "Pro: widgets para la pantalla de inicio y la pantalla bloqueada"
+      ],
+      "note": "Elige una suscripción semanal, mensual o anual, o un pago único para siempre. Las propinas desde Ajustes van aparte y no desbloquean nada."
     },
-    "note": "Sin anuncios ni suscripciones."
+    "note": "Sin anuncios."
   },
   "faq": {
     "title": "Preguntas",
@@ -144,11 +146,11 @@
       },
       {
         "q": "¿Puedo ver mis citas en varios dispositivos?",
-        "a": "Sí. Si has iniciado sesión en iCloud con la misma cuenta de Apple y tienes activado iCloud Drive, tus libros y citas se sincronizan solos."
+        "a": "Sí. Si has iniciado sesión en iCloud con la misma cuenta de Apple y tienes activado iCloud Drive, tus libros y citas se sincronizan solos. La sincronización con iCloud está incluida en Pro."
       },
       {
         "q": "¿Cómo añado el widget?",
-        "a": "Mantén pulsada la pantalla de inicio, toca Editar > Añadir widget y elige Bookmark Shot. Para la pantalla bloqueada, mantenla pulsada y toca Personalizar. Ahí aparecerá la cita del día."
+        "a": "Mantén pulsada la pantalla de inicio, toca Editar > Añadir widget y elige Bookmark Shot. Para la pantalla bloqueada, mantenla pulsada y toca Personalizar. Ahí aparecerá la cita del día. Los widgets están incluidos en Pro."
       },
       {
         "q": "La cámara no funciona.",

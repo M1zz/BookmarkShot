@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: Kitaplardan sevdiğin cümleleri sakla",
-  "description": "Sayfanın fotoğrafını çek, parmağını cümlenin üzerinde gezdir. Yalnızca o cümle, kitap ve sayfa numarasıyla metin olarak kaydedilir. Hepsi ücretsiz.",
+  "description": "Sayfanın fotoğrafını çek, parmağını cümlenin üzerinde gezdir. Yalnızca o cümle, kitap ve sayfa numarasıyla metin olarak kaydedilir. 10 kitap ve 100 alıntıya kadar ücretsiz.",
   "hero": {
     "headline": "Kalemsiz\naltını çiz",
     "lead": "Sayfanın fotoğrafını çek, sevdiğin cümlenin üzerinde parmağını gezdir; yalnızca o cümle metin olarak kaydedilir. Kitap ve sayfa numarası da onunla gelir.",
     "cta": "App Store’dan ücretsiz indir",
-    "note": "Tüm özellikler ücretsiz, reklam yok."
+    "note": "10 kitap ve 100 alıntıya kadar ücretsiz, reklam yok."
   },
   "demo": {
     "title": "Bir dene",
@@ -97,27 +97,29 @@
     "note": "VoiceOver açıkken bir satırı eklemek ya da çıkarmak için iki kez dokun."
   },
   "pricing": {
-    "title": "Tüm özellikler ücretsiz",
+    "title": "10 kitap ve 100 alıntıya kadar ücretsiz",
     "free": {
       "name": "Ücretsiz",
       "items": [
+        "10 kitap ve 100 alıntıya kadar",
         "Kapaktan kitap ekleme, barkoddan ISBN",
         "Sayfa düzleştirme ve parmakla altını çizme",
         "Otomatik sayfa numarası",
         "Kitaplık, alıntı arama ve favoriler",
-        "Ana Ekran ve Kilitli Ekran widget’larıyla Günün alıntısı",
-        "Kart görseli olarak paylaşma",
-        "iCloud ile eşitleme"
+        "Günün alıntısı",
+        "Kart görseli olarak paylaşma"
       ]
     },
     "pro": {
-      "name": "Geliştiriciye destek ol",
+      "name": "Plus · Pro",
       "items": [
-        "İstersen Ayarlar’dan küçük bir bahşiş bırakabilirsin",
-        "Bahşiş hiçbir şeyin kilidini açmaz. Uygulama her durumda aynıdır"
-      ]
+        "Plus: sınırsız kitap ve alıntı",
+        "Pro: Plus’taki her şey ve iCloud ile eşitleme",
+        "Pro: Ana Ekran ve Kilitli Ekran widget’ları"
+      ],
+      "note": "Haftalık, aylık ya da yıllık abonelik seçebilir veya bir kez ödeyip ömür boyu kullanabilirsin. Ayarlar’dan bırakılan bahşiş bunlardan ayrıdır ve hiçbir şeyin kilidini açmaz."
     },
-    "note": "Reklam yok, abonelik yok."
+    "note": "Reklam yok."
   },
   "faq": {
     "title": "Sorular",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Alıntılarımı birden fazla cihazda görebilir miyim?",
-        "a": "Evet. Aynı Apple Hesabı ile iCloud’a giriş yaptıysan ve iCloud Drive açıksa, kitapların ve alıntıların otomatik olarak eşitlenir."
+        "a": "Evet. Aynı Apple Hesabı ile iCloud’a giriş yaptıysan ve iCloud Drive açıksa, kitapların ve alıntıların otomatik olarak eşitlenir. iCloud ile eşitleme Pro’ya dahildir."
       },
       {
         "q": "Widget’ı nasıl eklerim?",
-        "a": "Ana Ekran’a dokunup basılı tut, Düzenle > Widget Ekle’ye dokun ve Bookmark Shot’ı seç. Kilitli Ekran için ekrana dokunup basılı tut, ardından Özelleştir’e dokun. Günün alıntısı orada görünür."
+        "a": "Ana Ekran’a dokunup basılı tut, Düzenle > Widget Ekle’ye dokun ve Bookmark Shot’ı seç. Kilitli Ekran için ekrana dokunup basılı tut, ardından Özelleştir’e dokun. Günün alıntısı orada görünür. Widget’lar Pro’ya dahildir."
       },
       {
         "q": "Kamera çalışmıyor.",

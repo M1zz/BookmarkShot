@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: Simpan kalimat favorit dari buku apa pun",
-  "description": "Foto halaman buku, lalu usap kalimat favoritmu. Hanya kalimat itu yang disimpan jadi teks, lengkap dengan judul dan halamannya. Semua fitur gratis.",
+  "description": "Foto halaman buku, lalu usap kalimat favoritmu. Hanya kalimat itu yang disimpan jadi teks, lengkap dengan judul dan halamannya. Gratis hingga 10 buku dan 100 kutipan.",
   "hero": {
     "headline": "Garis bawahi buku\ntanpa pena",
     "lead": "Foto halamannya, usap kalimat yang kamu suka dengan jari, dan hanya kalimat itu yang tersimpan sebagai teks. Judul buku dan nomor halaman ikut tercatat.",
     "cta": "Unduh gratis di App Store",
-    "note": "Semua fitur gratis, tanpa iklan."
+    "note": "Gratis hingga 10 buku dan 100 kutipan, tanpa iklan."
   },
   "demo": {
     "title": "Coba usap",
@@ -97,27 +97,29 @@
     "note": "Dengan VoiceOver, ketuk dua kali sebuah baris untuk menambah atau menghapusnya."
   },
   "pricing": {
-    "title": "Semua fitur gratis",
+    "title": "Gratis hingga 10 buku dan 100 kutipan",
     "free": {
       "name": "Gratis",
       "items": [
+        "Hingga 10 buku dan 100 kutipan",
         "Tambah buku dari sampul, ISBN dari barcode",
         "Pelurusan halaman dan stabilo dengan jari",
         "Nomor halaman otomatis",
         "Perpustakaan, pencarian kutipan, dan favorit",
-        "Kutipan Hari Ini dengan widget Layar Utama dan Layar Terkunci",
-        "Bagikan sebagai gambar kartu",
-        "Sinkronisasi iCloud"
+        "Kutipan Hari Ini",
+        "Bagikan sebagai gambar kartu"
       ]
     },
     "pro": {
-      "name": "Dukung pengembang",
+      "name": "Plus · Pro",
       "items": [
-        "Kirim tip kecil dari Pengaturan, kalau kamu mau",
-        "Tip tidak membuka fitur apa pun. Aplikasinya tetap sama"
-      ]
+        "Plus: buku dan kutipan tanpa batas",
+        "Pro: semua isi Plus, ditambah sinkronisasi iCloud",
+        "Pro: widget Layar Utama dan Layar Terkunci"
+      ],
+      "note": "Pilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali untuk selamanya. Tip dari Pengaturan terpisah dan tidak membuka fitur apa pun."
     },
-    "note": "Tanpa iklan, tanpa langganan."
+    "note": "Tanpa iklan."
   },
   "faq": {
     "title": "Pertanyaan umum",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Bisakah aku melihat kutipan di beberapa perangkat?",
-        "a": "Bisa. Jika kamu masuk ke iCloud dengan Akun Apple yang sama dan iCloud Drive aktif, buku dan kutipanmu tersinkron otomatis."
+        "a": "Bisa. Jika kamu masuk ke iCloud dengan Akun Apple yang sama dan iCloud Drive aktif, buku dan kutipanmu tersinkron otomatis. Sinkronisasi iCloud termasuk dalam Pro."
       },
       {
         "q": "Bagaimana cara menambahkan widget?",
-        "a": "Sentuh dan tahan Layar Utama, ketuk Edit > Tambah Widget, lalu pilih Bookmark Shot. Untuk Layar Terkunci, sentuh dan tahan layarnya, lalu ketuk Sesuaikan. Kutipan Hari Ini akan muncul di sana."
+        "a": "Sentuh dan tahan Layar Utama, ketuk Edit > Tambah Widget, lalu pilih Bookmark Shot. Untuk Layar Terkunci, sentuh dan tahan layarnya, lalu ketuk Sesuaikan. Kutipan Hari Ini akan muncul di sana. Widget termasuk dalam Pro."
       },
       {
         "q": "Kameranya tidak berfungsi.",

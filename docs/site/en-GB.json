@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: keep the lines you love from any book",
-  "description": "Photograph a page and run a finger over a sentence you love. Only that line is saved as text, with the book and page number. All of it free.",
+  "description": "Photograph a page and run a finger over a sentence you love. Only that line is saved as text, with the book and page number. Your first 10 books and 100 quotes are free.",
   "hero": {
     "headline": "Underline a book\nwithout a pen",
     "lead": "Photograph the page, run a finger over the sentence you love, and only that sentence is saved as text. The book and page number come with it.",
     "cta": "Get it free on the App Store",
-    "note": "Every feature is free, with no adverts."
+    "note": "Free for up to 10 books and 100 quotes, with no adverts."
   },
   "demo": {
     "title": "Have a go",
@@ -97,27 +97,29 @@
     "note": "With VoiceOver, double-tap a line to add or remove it."
   },
   "pricing": {
-    "title": "Every feature is free",
+    "title": "Free for 10 books and 100 quotes",
     "free": {
       "name": "Free",
       "items": [
+        "Up to 10 books and 100 quotes",
         "Add books from the cover, ISBN from the barcode",
         "Page straightening and finger highlighting",
         "Automatic page numbers",
         "Library, quote search and favourites",
-        "Today's Quote with Home Screen and Lock Screen widgets",
-        "Share as a card image",
-        "iCloud sync"
+        "Today's Quote",
+        "Share as a card image"
       ]
     },
     "pro": {
-      "name": "Support the developer",
+      "name": "Plus · Pro",
       "items": [
-        "Leave a small tip from Settings, if you fancy it",
-        "Tips don't unlock anything. The app is the same either way"
-      ]
+        "Plus: unlimited books and quotes",
+        "Pro: everything in Plus, with iCloud sync",
+        "Pro: Home Screen and Lock Screen widgets"
+      ],
+      "note": "Choose a weekly, monthly or yearly subscription, or pay once for lifetime. Tips from Settings are separate and unlock nothing."
     },
-    "note": "No adverts, no subscription."
+    "note": "No adverts."
   },
   "faq": {
     "title": "Questions",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Can I see my quotes on more than one device?",
-        "a": "Yes. If you're signed in to iCloud with the same Apple Account and iCloud Drive is turned on, your books and quotes sync automatically."
+        "a": "Yes. If you're signed in to iCloud with the same Apple Account and iCloud Drive is turned on, your books and quotes sync automatically. iCloud sync is part of Pro."
       },
       {
         "q": "How do I add the widget?",
-        "a": "Touch and hold the Home Screen, tap Edit > Add Widget, and choose Bookmark Shot. For the Lock Screen, touch and hold it, then tap Customise. Today's Quote appears there."
+        "a": "Touch and hold the Home Screen, tap Edit > Add Widget, and choose Bookmark Shot. For the Lock Screen, touch and hold it, then tap Customise. Today's Quote appears there. Widgets are part of Pro."
       },
       {
         "q": "The camera doesn't work.",

@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: spara meningarna du gillar ur alla böcker",
-  "description": "Fota en sida och dra fingret över en mening du gillar. Bara den meningen sparas som text, med bok och sidnummer. Alla funktioner är gratis.",
+  "description": "Fota en sida och dra fingret över en mening du gillar. Bara den meningen sparas som text, med bok och sidnummer. Gratis för upp till 10 böcker och 100 citat.",
   "hero": {
     "headline": "Stryk under\nutan penna",
     "lead": "Fota sidan, dra fingret över meningen du gillar, så sparas bara den som text. Bok och sidnummer följer med.",
     "cta": "Hämta gratis i App Store",
-    "note": "Alla funktioner är gratis, utan reklam."
+    "note": "Gratis för upp till 10 böcker och 100 citat, utan reklam."
   },
   "demo": {
     "title": "Testa att dra",
@@ -97,27 +97,29 @@
     "note": "Med VoiceOver dubbeltrycker du på en rad för att lägga till eller ta bort den."
   },
   "pricing": {
-    "title": "Alla funktioner är gratis",
+    "title": "Gratis för upp till 10 böcker och 100 citat",
     "free": {
       "name": "Gratis",
       "items": [
+        "Upp till 10 böcker och 100 citat",
         "Lägg till böcker via omslaget, ISBN via streckkoden",
         "Uträtning av sidor och markering med fingret",
         "Automatiska sidnummer",
         "Bibliotek, citatsökning och favoriter",
-        "Dagens citat med widgetar för hemskärmen och låsskärmen",
-        "Dela som kortbild",
-        "Synk med iCloud"
+        "Dagens citat",
+        "Dela som kortbild"
       ]
     },
     "pro": {
-      "name": "Stöd utvecklaren",
+      "name": "Plus · Pro",
       "items": [
-        "Skicka gärna en liten dricks från Inställningar om du vill",
-        "Dricks låser inte upp något. Appen är densamma oavsett"
-      ]
+        "Plus: obegränsat med böcker och citat",
+        "Pro: allt i Plus och dessutom synk med iCloud",
+        "Pro: widgetar för hemskärmen och låsskärmen"
+      ],
+      "note": "Välj en vecko-, månads- eller årsprenumeration, eller betala en gång för alltid. Dricks från Inställningar är något annat och låser inte upp något."
     },
-    "note": "Ingen reklam, ingen prenumeration."
+    "note": "Ingen reklam."
   },
   "faq": {
     "title": "Frågor",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Kan jag se mina citat på flera enheter?",
-        "a": "Ja. Är du inloggad på iCloud med samma Apple-konto och har iCloud Drive påslaget synkas dina böcker och citat automatiskt."
+        "a": "Ja. Är du inloggad på iCloud med samma Apple-konto och har iCloud Drive påslaget synkas dina böcker och citat automatiskt. Synk med iCloud ingår i Pro."
       },
       {
         "q": "Hur lägger jag till widgeten?",
-        "a": "Håll fingret på hemskärmen, tryck på Redigera > Lägg till widget och välj Bookmark Shot. För låsskärmen håller du fingret på den och trycker på Anpassa. Där visas Dagens citat."
+        "a": "Håll fingret på hemskärmen, tryck på Redigera > Lägg till widget och välj Bookmark Shot. För låsskärmen håller du fingret på den och trycker på Anpassa. Där visas Dagens citat. Widgetarna ingår i Pro."
       },
       {
         "q": "Kameran fungerar inte.",

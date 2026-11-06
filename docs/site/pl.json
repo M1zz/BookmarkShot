@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: ulubione zdania z każdej książki",
-  "description": "Zrób zdjęcie strony i przesuń palcem po zdaniu. Zapisze się tylko ono, jako tekst, razem z książką i numerem strony. Wszystko za darmo.",
+  "description": "Zrób zdjęcie strony i przesuń palcem po zdaniu. Zapisze się tylko ono, jako tekst, razem z książką i numerem strony. Do 10 książek i 100 cytatów za darmo.",
   "hero": {
     "headline": "Podkreślaj w książce\nbez ołówka",
     "lead": "Sfotografuj stronę, przesuń palcem po zdaniu, które ci się podoba, a tylko ono zapisze się jako tekst. Książka i numer strony dopiszą się same.",
     "cta": "Pobierz za darmo z App Store",
-    "note": "Wszystkie funkcje są bezpłatne, bez reklam."
+    "note": "Za darmo do 10 książek i 100 cytatów, bez reklam."
   },
   "demo": {
     "title": "Wypróbuj",
@@ -97,27 +97,29 @@
     "note": "Z VoiceOver stuknij dwukrotnie wiersz, by go dodać lub usunąć."
   },
   "pricing": {
-    "title": "Wszystkie funkcje za darmo",
+    "title": "Za darmo do 10 książek i 100 cytatów",
     "free": {
       "name": "Za darmo",
       "items": [
+        "Do 10 książek i 100 cytatów",
         "Dodawanie książek po okładce, ISBN z kodu kreskowego",
         "Prostowanie stron i zaznaczanie palcem",
         "Automatyczny numer strony",
         "Biblioteczka, wyszukiwanie cytatów i ulubione",
-        "Cytat dnia z widżetami na ekran początkowy i ekran blokady",
-        "Udostępnianie jako karta",
-        "Synchronizacja przez iCloud"
+        "Cytat dnia",
+        "Udostępnianie jako karta"
       ]
     },
     "pro": {
-      "name": "Wesprzyj twórcę",
+      "name": "Plus · Pro",
       "items": [
-        "Jeśli chcesz, zostaw drobny napiwek w Ustawieniach",
-        "Napiwki niczego nie odblokowują. Aplikacja jest taka sama"
-      ]
+        "Plus: książki i cytaty bez limitu",
+        "Pro: wszystko z Plus oraz synchronizacja przez iCloud",
+        "Pro: widżety na ekran początkowy i ekran blokady"
+      ],
+      "note": "Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazowy zakup na zawsze. Napiwki w Ustawieniach to osobna sprawa i niczego nie odblokowują."
     },
-    "note": "Bez reklam i bez subskrypcji."
+    "note": "Bez reklam."
   },
   "faq": {
     "title": "Pytania",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Czy mogę widzieć cytaty na kilku urządzeniach?",
-        "a": "Tak. Jeśli jesteś zalogowany do iCloud tym samym Kontem Apple i masz włączony iCloud Drive, książki i cytaty synchronizują się automatycznie."
+        "a": "Tak. Jeśli jesteś zalogowany do iCloud tym samym Kontem Apple i masz włączony iCloud Drive, książki i cytaty synchronizują się automatycznie. Synchronizacja przez iCloud należy do wersji Pro."
       },
       {
         "q": "Jak dodać widżet?",
-        "a": "Dotknij i przytrzymaj ekran początkowy, stuknij Edycja > Dodaj widżet i wybierz Bookmark Shot. Na ekranie blokady dotknij go i przytrzymaj, a potem stuknij Dostosuj. Tam pojawi się Cytat dnia."
+        "a": "Dotknij i przytrzymaj ekran początkowy, stuknij Edycja > Dodaj widżet i wybierz Bookmark Shot. Na ekranie blokady dotknij go i przytrzymaj, a potem stuknij Dostosuj. Tam pojawi się Cytat dnia. Widżety należą do wersji Pro."
       },
       {
         "q": "Aparat nie działa.",

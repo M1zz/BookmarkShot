@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: tallenna kirjojen parhaat lauseet",
-  "description": "Kuvaa sivu ja vedä sormella mieleisesi lauseen yli. Vain se lause tallentuu tekstinä kirjan ja sivunumeron kanssa. Kaikki toiminnot ovat ilmaisia.",
+  "description": "Kuvaa sivu ja vedä sormella mieleisesi lauseen yli. Vain se lause tallentuu tekstinä kirjan ja sivunumeron kanssa. Ilmainen 10 kirjaan ja 100 lainaukseen asti.",
   "hero": {
     "headline": "Alleviivaa kirjaa\nilman kynää",
     "lead": "Kuvaa sivu, vedä sormella mieleisesi lauseen yli, niin vain se tallentuu tekstinä. Kirja ja sivunumero kulkevat mukana.",
     "cta": "Lataa ilmaiseksi App Storesta",
-    "note": "Kaikki toiminnot ilmaisia, ei mainoksia."
+    "note": "Ilmainen 10 kirjaan ja 100 lainaukseen asti, ei mainoksia."
   },
   "demo": {
     "title": "Kokeile vetää",
@@ -97,27 +97,29 @@
     "note": "VoiceOverilla voit lisätä tai poistaa rivin kaksoisnapauttamalla sitä."
   },
   "pricing": {
-    "title": "Kaikki toiminnot ovat ilmaisia",
+    "title": "Ilmainen 10 kirjaan ja 100 lainaukseen asti",
     "free": {
       "name": "Ilmainen",
       "items": [
+        "Enintään 10 kirjaa ja 100 lainausta",
         "Kirjojen lisäys kannesta, ISBN viivakoodista",
         "Sivujen suoristus ja korostus sormella",
         "Automaattiset sivunumerot",
         "Kirjasto, lainausten haku ja suosikit",
-        "Päivän lainaus sekä Koti-valikon ja lukitusnäytön widgetit",
-        "Jakaminen korttikuvana",
-        "iCloud-synkronointi"
+        "Päivän lainaus",
+        "Jakaminen korttikuvana"
       ]
     },
     "pro": {
-      "name": "Tue kehittäjää",
+      "name": "Plus · Pro",
       "items": [
-        "Voit halutessasi lähettää pienen tipin asetuksista",
-        "Tippi ei avaa mitään. Sovellus on sama joka tapauksessa"
-      ]
+        "Plus: rajattomasti kirjoja ja lainauksia",
+        "Pro: kaikki mitä Plus tarjoaa sekä iCloud-synkronointi",
+        "Pro: Koti-valikon ja lukitusnäytön widgetit"
+      ],
+      "note": "Valitse viikko-, kuukausi- tai vuositilaus tai kertamaksu pysyvään käyttöön. Asetuksista lähetettävä tippi on erillinen eikä avaa mitään."
     },
-    "note": "Ei mainoksia, ei tilausta."
+    "note": "Ei mainoksia."
   },
   "faq": {
     "title": "Kysymyksiä",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Näenkö lainaukseni usealla laitteella?",
-        "a": "Kyllä. Jos olet kirjautunut iCloudiin samalla Apple-tilillä ja iCloud Drive on päällä, kirjasi ja lainauksesi synkronoituvat automaattisesti."
+        "a": "Kyllä. Jos olet kirjautunut iCloudiin samalla Apple-tilillä ja iCloud Drive on päällä, kirjasi ja lainauksesi synkronoituvat automaattisesti. iCloud-synkronointi kuuluu Pro-versioon."
       },
       {
         "q": "Miten lisään widgetin?",
-        "a": "Pidä sormea Koti-valikossa, napauta Muokkaa > Lisää widget ja valitse Bookmark Shot. Lukitusnäytöllä pidä sormea näytöllä ja napauta Muokkaa. Päivän lainaus näkyy siellä."
+        "a": "Pidä sormea Koti-valikossa, napauta Muokkaa > Lisää widget ja valitse Bookmark Shot. Lukitusnäytöllä pidä sormea näytöllä ja napauta Muokkaa. Päivän lainaus näkyy siellä. Widgetit kuuluvat Pro-versioon."
       },
       {
         "q": "Kamera ei toimi.",

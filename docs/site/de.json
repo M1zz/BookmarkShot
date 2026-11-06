@@ -1,11 +1,11 @@
 {
   "title": "Bookmark Shot: Lieblingssätze aus jedem Buch bewahren",
-  "description": "Fotografiere eine Buchseite und streich über deinen Lieblingssatz. Nur er wird als Text gespeichert, mit Buch und Seitenzahl. Alles kostenlos.",
+  "description": "Fotografiere eine Buchseite und streich über deinen Lieblingssatz. Nur er wird als Text gespeichert, mit Buch und Seitenzahl. Bis zu 10 Bücher und 100 Zitate kostenlos.",
   "hero": {
     "headline": "Unterstreichen,\nganz ohne Stift",
     "lead": "Fotografiere die Seite, streich mit dem Finger über den Satz, der dich berührt, und nur dieser Satz wird als Text gespeichert. Buch und Seitenzahl kommen gleich mit.",
     "cta": "Kostenlos im App Store laden",
-    "note": "Alle Funktionen sind kostenlos und ohne Werbung."
+    "note": "Kostenlos für bis zu 10 Bücher und 100 Zitate, ohne Werbung."
   },
   "demo": {
     "title": "Probier es aus",
@@ -97,27 +97,29 @@
     "note": "Mit VoiceOver fügst du eine Zeile per Doppeltippen hinzu oder entfernst sie."
   },
   "pricing": {
-    "title": "Alle Funktionen kostenlos",
+    "title": "Kostenlos für 10 Bücher und 100 Zitate",
     "free": {
       "name": "Kostenlos",
       "items": [
+        "Bis zu 10 Bücher und 100 Zitate",
         "Bücher per Cover hinzufügen, ISBN per Barcode",
         "Seiten entzerren und mit dem Finger markieren",
         "Seitenzahl automatisch",
         "Bibliothek, Zitatsuche und Favoriten",
-        "Zitat des Tages mit Widgets für Home-Bildschirm und Sperrbildschirm",
-        "Als Kartenbild teilen",
-        "Synchronisierung über iCloud"
+        "Zitat des Tages",
+        "Als Kartenbild teilen"
       ]
     },
     "pro": {
-      "name": "Die Entwicklung unterstützen",
+      "name": "Plus · Pro",
       "items": [
-        "Wenn du magst, gibst du in den Einstellungen ein kleines Trinkgeld",
-        "Trinkgeld schaltet nichts frei. Die App bleibt genau dieselbe"
-      ]
+        "Plus: unbegrenzt viele Bücher und Zitate",
+        "Pro: alles aus Plus, dazu Synchronisierung über iCloud",
+        "Pro: Widgets für Home-Bildschirm und Sperrbildschirm"
+      ],
+      "note": "Wähle ein Wochen-, Monats- oder Jahresabo oder zahle einmal für immer. Trinkgeld in den Einstellungen ist davon getrennt und schaltet nichts frei."
     },
-    "note": "Keine Werbung, kein Abo."
+    "note": "Keine Werbung."
   },
   "faq": {
     "title": "Fragen",
@@ -144,11 +146,11 @@
       },
       {
         "q": "Kann ich meine Zitate auf mehreren Geräten sehen?",
-        "a": "Ja. Wenn du überall mit demselben Apple Account bei iCloud angemeldet bist und iCloud Drive aktiviert ist, werden Bücher und Zitate automatisch synchronisiert."
+        "a": "Ja. Wenn du überall mit demselben Apple Account bei iCloud angemeldet bist und iCloud Drive aktiviert ist, werden Bücher und Zitate automatisch synchronisiert. Die Synchronisierung über iCloud gehört zu Pro."
       },
       {
         "q": "Wie füge ich das Widget hinzu?",
-        "a": "Halte den Finger auf dem Home-Bildschirm, tippe auf „Bearbeiten“ > „Widget hinzufügen“ und wähle Bookmark Shot. Für den Sperrbildschirm hältst du den Finger darauf und tippst auf „Anpassen“. Dort erscheint das Zitat des Tages."
+        "a": "Halte den Finger auf dem Home-Bildschirm, tippe auf „Bearbeiten“ > „Widget hinzufügen“ und wähle Bookmark Shot. Für den Sperrbildschirm hältst du den Finger darauf und tippst auf „Anpassen“. Dort erscheint das Zitat des Tages. Widgets gehören zu Pro."
       },
       {
         "q": "Die Kamera funktioniert nicht.",
