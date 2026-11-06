@@ -57,7 +57,7 @@ extension BookmarkShotSpec {
         .init(id: "siri-ai", status: .planned,
               title: NSLocalizedString("앱 이름 없이 Siri에게", comment: "Roadmap item: siri-ai"),
               detail: NSLocalizedString("Siri에게 앱 이름을 말하지 않아도 밑줄 친 문장을 찾아 바로 열어요.", comment: "Roadmap item detail: siri-ai")),
-        .init(id: "backup", status: .planned,
+        .init(id: "backup", status: .building,
               title: NSLocalizedString("백업과 내보내기", comment: "Roadmap item: backup"),
               detail: NSLocalizedString("모은 책과 문장을 파일로 저장하고 다시 불러올 수 있어요.", comment: "Roadmap item detail: backup")),
         .init(id: "lock.faceid", status: .planned,

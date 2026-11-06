@@ -16,6 +16,8 @@ struct QuoteEntry: TimelineEntry {
     let date: Date
     let quote: SharedQuote?
     let total: Int
+    /// Pro 가 아니면 문장 대신 'Pro에서 열려요' 를 그린다.
+    var isLocked = false
 }
 
 struct Provider: TimelineProvider {
@@ -44,6 +46,9 @@ struct Provider: TimelineProvider {
 
     /// 특정 날짜의 "오늘의 문장" 계산
     private func entry(for date: Date) -> QuoteEntry {
+        if SharedQuoteStore.isLocked {
+            return QuoteEntry(date: date, quote: nil, total: 0, isLocked: true)
+        }
         let all = SharedQuoteStore.load()
         let favorites = all.filter { $0.isFavorite }
         let pool = favorites.isEmpty ? all : favorites
@@ -89,6 +94,15 @@ struct BookmarkShotWidgetEntryView: View {
 
     @ViewBuilder
     private var content: some View {
+        if entry.isLocked {
+            lockedBody.widgetURL(SharedQuoteStore.paywallURL)
+        } else {
+            unlockedContent
+        }
+    }
+
+    @ViewBuilder
+    private var unlockedContent: some View {
         switch family {
         case .accessoryInline:
             inlineBody
@@ -194,6 +208,46 @@ struct BookmarkShotWidgetEntryView: View {
             }
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .topLeading)
+    }
+
+    // MARK: 잠김 (Pro 가 아닐 때)
+
+    /// 누르면 앱의 페이월로 간다.
+    @ViewBuilder
+    private var lockedBody: some View {
+        switch family {
+        case .accessoryInline:
+            Label("Pro에서 열려요", systemImage: "lock.fill")
+        case .accessoryCircular:
+            ZStack {
+                AccessoryWidgetBackground()
+                Image(systemName: "lock.fill")
+                    .font(.system(size: 18, weight: .semibold))
+            }
+            .accessibilityLabel(Text("Pro에서 열려요"))
+        case .accessoryRectangular:
+            VStack(alignment: .leading, spacing: 2) {
+                Label("Pro에서 열려요", systemImage: "lock.fill")
+                    .font(.headline)
+                Text("눌러서 알아보기")
+                    .foregroundStyle(.secondary)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: .leading)
+        default:
+            VStack(spacing: 8) {
+                Image(systemName: "lock.fill")
+                    .font(.title2)
+                    .foregroundStyle(.orange.opacity(0.8))
+                Text("오늘의 문장 위젯은\nPro에서 열려요")
+                    .font(.callout.weight(.semibold))
+                    .multilineTextAlignment(.center)
+                    .foregroundStyle(.primary)
+                Text("눌러서 알아보기")
+                    .font(.caption)
+                    .foregroundStyle(.secondary)
+            }
+            .frame(maxWidth: .infinity, maxHeight: .infinity)
+        }
     }
 
     private var emptyBody: some View {

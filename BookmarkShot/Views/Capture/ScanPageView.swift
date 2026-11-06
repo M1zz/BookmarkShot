@@ -36,6 +36,9 @@ struct ScanPageView: View {
     @State private var errorMessage: String?
     /// 추출된 문장 칸 높이 — 큰 글자에서는 함께 키운다
     @ScaledMetric(relativeTo: .body) private var extractedHeight: CGFloat = 72
+    @State private var purchases = Purchases.shared
+    /// 무료 100개를 다 채웠을 때 페이월. 그은 문장 · 페이지는 이 화면에 그대로 남아 있다.
+    @State private var paywallFeature: BookmarkShotFeature?
 
     var body: some View {
         NavigationStack {
@@ -64,7 +67,7 @@ struct ScanPageView: View {
                 }
                 if step == .highlight {
                     ToolbarItem(placement: .confirmationAction) {
-                        Button { saveQuote() } label: { Label("저장", systemImage: "checkmark") }
+                        Button { Task { await saveIfAllowed() } } label: { Label("저장", systemImage: "checkmark") }
                             .disabled(extractedText.trimmingCharacters(in: .whitespacesAndNewlines).isEmpty)
                     }
                 }
@@ -85,6 +88,10 @@ struct ScanPageView: View {
                     .ignoresSafeArea()
                 }
             }
+            .sheet(item: $paywallFeature, onDismiss: {
+                // 페이월에서 Plus 를 열고 돌아왔으면 방금 그은 문장을 바로 담는다
+                if purchases.canAddQuote(having: quoteCount) { saveQuote() }
+            }) { PaywallView(highlight: $0) }
             .alert("인식 실패", isPresented: Binding(
                 get: { errorMessage != nil },
                 set: { if !$0 { errorMessage = nil } }
@@ -244,6 +251,18 @@ struct ScanPageView: View {
             step = .highlight
         } catch {
             errorMessage = String(localized: "텍스트 인식 중 오류가 발생했어요. 다시 시도해 주세요.")
+        }
+    }
+
+    private var quoteCount: Int { (try? modelContext.fetchCount(FetchDescriptor<Quote>())) ?? 0 }
+
+    /// 무료 한도(문장 100개)를 넘으면 페이월을 먼저. 칸을 아직 모르면 App Store 에 물어보고 정한다.
+    private func saveIfAllowed() async {
+        if !purchases.isKnown { await purchases.refresh() }
+        if purchases.canAddQuote(having: quoteCount) {
+            saveQuote()
+        } else {
+            paywallFeature = .quotes
         }
     }
 

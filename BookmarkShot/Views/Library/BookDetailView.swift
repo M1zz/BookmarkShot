@@ -16,6 +16,7 @@ struct BookDetailView: View {
 
     @State private var showScanPage = false
     @State private var showDeleteConfirm = false
+    @State private var purchases = Purchases.shared
 
     var body: some View {
         List {
@@ -51,9 +52,11 @@ struct BookDetailView: View {
                 .listRowSeparator(.hidden)
             }
 
-            // 구절을 담고 돌아온 자리 — 모은 문장이 숫자로 보일 때 드물게 응원을 부탁한다(모달 아님)
-            LeeoTipAskSlot<BookmarkShotSpec>(tipJar: BookmarkShotSpec.tipJar,
-                                             reached: BookmarkShotTipMoments.reached(quotes: totalQuoteCount))
+            // 구절을 담고 돌아온 자리 — 모은 문장이 숫자로 보일 때 드물게 응원을 부탁한다(모달 아님).
+            // 부탁은 이미 Pro 를 가진 사람에게만 한다. 살 것이 남은 사람에게 팁부터 묻지 않는다.
+            LeeoTipAskSlot<BookmarkShotSpec>(tipJar: purchases.tipJar,
+                                             reached: purchases.tier == .pro
+                                                 ? BookmarkShotTipMoments.reached(quotes: totalQuoteCount) : [])
 
             Section {
                 if book.sortedQuotes.isEmpty {

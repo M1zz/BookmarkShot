@@ -21,6 +21,9 @@ struct AddBookView: View {
     @State private var isbn = ""
     /// 표지에서 추정한 제목의 인식 신뢰도 (0~1). 자동으로 채워졌을 때만 표시.
     @State private var titleConfidence: Double?
+    @State private var purchases = Purchases.shared
+    /// 무료 10권을 다 채웠을 때 페이월. 적어 둔 책 정보는 이 화면에 그대로 남는다.
+    @State private var paywallFeature: BookmarkShotFeature?
 
     var body: some View {
         NavigationStack {
@@ -91,10 +94,14 @@ struct AddBookView: View {
                     Button { dismiss() } label: { Label("취소", systemImage: "xmark") }
                 }
                 ToolbarItem(placement: .confirmationAction) {
-                    Button { saveBook() } label: { Label("저장", systemImage: "checkmark") }
+                    Button { Task { await saveIfAllowed() } } label: { Label("저장", systemImage: "checkmark") }
                         .disabled(title.trimmingCharacters(in: .whitespaces).isEmpty)
                 }
             }
+            .sheet(item: $paywallFeature, onDismiss: {
+                // 페이월에서 Plus 를 열고 돌아왔으면 하던 대로 꽂는다
+                if purchases.canAddBook(having: bookCount) { saveBook() }
+            }) { PaywallView(highlight: $0) }
             .sheet(isPresented: Binding(
                 get: { pickerSource != nil },
                 set: { if !$0 { pickerSource = nil } }
@@ -132,6 +139,18 @@ struct AddBookView: View {
         }
         if let detectedISBN, isbn.isEmpty {
             isbn = detectedISBN
+        }
+    }
+
+    private var bookCount: Int { (try? modelContext.fetchCount(FetchDescriptor<Book>())) ?? 0 }
+
+    /// 무료 한도(책 10권)를 넘으면 페이월을 먼저. 칸을 아직 모르면 App Store 에 물어보고 정한다.
+    private func saveIfAllowed() async {
+        if !purchases.isKnown { await purchases.refresh() }
+        if purchases.canAddBook(having: bookCount) {
+            saveBook()
+        } else {
+            paywallFeature = .books
         }
     }
 

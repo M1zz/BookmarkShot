@@ -22,6 +22,11 @@ struct ContentView: View {
     @Query private var books: [Book]
     /// 아이폰 듀오를 폈을 때 오른쪽 판에 세울 책 · 스크랩 (→ FoldPanes.swift)
     @State private var foldPick = FoldPick()
+    @State private var purchases = Purchases.shared
+    /// 잠긴 위젯을 눌러 들어온 페이월
+    @State private var paywallFeature: BookmarkShotFeature?
+    /// 구독 6개월째 · 갱신 7일 전의 '구독 졸업' 제안
+    @State private var showsGraduation = false
 
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -87,6 +92,21 @@ struct ContentView: View {
             if let book = modelContext.model(for: id) as? Book {
                 ScanPageView(book: book)
             }
+        }
+        .paywall(for: $paywallFeature)
+        .sheet(isPresented: $showsGraduation) {
+            LeeoGraduationOfferView(graduate: purchases.product(BookmarkShotEntitlement.graduateID)) {
+                await purchases.refresh()
+            }
+        }
+        // 잠긴 위젯('Pro에서 열려요')을 누르면 그 자리의 페이월로
+        .onOpenURL { url in
+            if url == BookmarkShotEntitlement.widgetPaywallURL { paywallFeature = .widget }
+        }
+        .onChange(of: purchases.graduationIsDue, initial: true) { _, due in
+            guard due, !showsGraduation, paywallFeature == nil, !showSupport else { return }
+            purchases.markGraduationOffered()
+            showsGraduation = true
         }
         .task { syncWidget() }
         .onChange(of: widgetSignature) { syncWidget() }
