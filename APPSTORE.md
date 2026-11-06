@@ -62,6 +62,11 @@ iCloud로 아이폰끼리 서재와 문장이 자동으로 맞춰집니다.
 책 10권, 문장 100개까지는 무료로 쓸 수 있어요. 밑줄 Plus는 이 제한을 없애고, 밑줄 Pro는 여기에 iCloud 동기화와 위젯을 더합니다.
 주간, 월간, 연간 구독이나 한 번 결제로 평생 쓰기 중에 고를 수 있어요. 광고는 없어요.
 
+구독 안내
+밑줄 Plus와 Pro 구독은 자동 갱신 구독입니다. 갱신일 24시간 전까지 해지하지 않으면 Apple 계정으로 자동 결제되며, 설정의 구독 관리에서 언제든 해지할 수 있습니다.
+이용약관(EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+개인정보처리방침: https://m1zz.github.io/BookmarkShot/privacy.html
+
 ## en
 
 ### 지원 URL
@@ -123,6 +128,11 @@ All text recognition happens on your device. Your photos never leave it, and you
 
 Save up to 10 books and 100 quotes for free. Plus removes the limits, and Pro adds iCloud sync and widgets.
 Choose a weekly, monthly or yearly subscription, or pay once for lifetime. No ads.
+
+Subscriptions
+Bookmark Shot Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless canceled at least 24 hours before the period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/BookmarkShot/en/privacy.html
 
 ## en-GB
 
@@ -186,6 +196,11 @@ All text recognition happens on your device. Your photos never leave it, and you
 Save up to 10 books and 100 quotes for free. Plus removes the limits, and Pro adds iCloud sync and widgets.
 Choose a weekly, monthly or yearly subscription, or pay once for lifetime. No adverts.
 
+Subscriptions
+Bookmark Shot Plus and Pro are auto-renewing subscriptions. Payment is charged to your Apple Account, and the subscription renews unless cancelled at least 24 hours before the period ends. Manage or cancel anytime in Settings.
+Terms of Use (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacy Policy: https://m1zz.github.io/BookmarkShot/en-GB/privacy.html
+
 ## zh-Hans
 
 ### 지원 URL
@@ -247,6 +262,11 @@ https://m1zz.github.io/BookmarkShot/zh-Hans/
 
 10 本书、100 条摘录以内可免费使用。Plus 不限数量，Pro 另外提供 iCloud 同步和小组件。
 可选按周、按月、按年订阅，或一次性买断永久使用。没有广告。
+
+订阅说明
+划线 Plus 和 Pro 均为自动续期订阅。费用从你的 Apple 账户扣除，除非在当期结束前至少 24 小时取消，否则将自动续期。可随时在“设置”中管理或取消。
+使用条款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隐私政策: https://m1zz.github.io/BookmarkShot/zh-Hans/privacy.html
 
 ## zh-Hant
 
@@ -310,6 +330,11 @@ https://m1zz.github.io/BookmarkShot/zh-Hant/
 10 本書、100 則摘錄以內可免費使用。Plus 不限數量，Pro 再加上 iCloud 同步和小工具。
 可選擇按週、按月、按年訂閱，或一次買斷永久使用。沒有廣告。
 
+訂閱說明
+劃線 Plus 與 Pro 皆為自動續訂訂閱。費用會從你的 Apple 帳號扣款，除非在當期結束前至少 24 小時取消，否則將自動續訂。可隨時在「設定」中管理或取消。
+使用條款（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+隱私權政策: https://m1zz.github.io/BookmarkShot/zh-Hant/privacy.html
+
 ## ja
 
 ### 지원 URL
@@ -371,6 +396,11 @@ iCloudを使えば、複数のiPhoneで本棚と文が自動でそろいます�
 
 本10冊・文100件までは無料で使えます。Plusでは上限がなくなり、ProではさらにiCloud同期とウィジェットが使えます。
 週額・月額・年額のサブスクリプションか、一度の支払いでずっと使える買い切りから選べます。広告はありません。
+
+サブスクリプションについて
+Bookmark ShotのPlusとProは自動更新のサブスクリプションです。期間終了の24時間前までに解約しない限り、Apple Accountに自動で請求されます。設定のサブスクリプション管理からいつでも解約できます。
+利用規約（EULA）: https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+プライバシーポリシー: https://m1zz.github.io/BookmarkShot/ja/privacy.html
 
 ## ru
 
@@ -434,6 +464,11 @@ Bookmark Shot: цитаты из книг
 До 10 книг и 100 цитат можно сохранить бесплатно. Plus снимает ограничения, а Pro добавляет синхронизацию через iCloud и виджеты.
 Выберите подписку на неделю, месяц или год либо разовую покупку навсегда. Рекламы нет.
 
+Подписки
+Bookmark Shot Plus и Pro — подписки с автопродлением. Оплата списывается с вашего Apple Account, а подписка продлевается, если не отменить её минимум за 24 часа до конца периода. Управлять подпиской и отменить её можно в Настройках.
+Условия использования (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Политика конфиденциальности: https://m1zz.github.io/BookmarkShot/ru/privacy.html
+
 ## es
 
 ### 지원 URL
@@ -495,6 +530,11 @@ Todo el reconocimiento de texto se hace en tu dispositivo. Tus fotos no salen de
 
 Guarda gratis hasta 10 libros y 100 citas. Plus quita los límites y Pro añade la sincronización con iCloud y los widgets.
 Elige una suscripción semanal, mensual o anual, o un pago único para siempre. Sin anuncios.
+
+Suscripciones
+Bookmark Shot Plus y Pro son suscripciones de renovación automática. El cargo se realiza en tu cuenta de Apple y la suscripción se renueva salvo que la canceles al menos 24 horas antes de que termine el periodo. Puedes gestionarla o cancelarla cuando quieras en Ajustes.
+Términos de uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de privacidad: https://m1zz.github.io/BookmarkShot/es/privacy.html
 
 ## de
 
@@ -558,6 +598,11 @@ Die gesamte Texterkennung läuft auf deinem Gerät. Deine Fotos verlassen es nie
 Bis zu 10 Bücher und 100 Zitate speicherst du kostenlos. Plus hebt diese Grenzen auf, Pro bringt zusätzlich iCloud-Synchronisierung und Widgets.
 Wähle ein Wochen-, Monats- oder Jahresabo oder zahle einmal für immer. Ohne Werbung.
 
+Abonnements
+Bookmark Shot Plus und Pro sind Abos mit automatischer Verlängerung. Die Zahlung erfolgt über deinen Apple Account. Das Abo verlängert sich, sofern du nicht mindestens 24 Stunden vor Ablauf des Zeitraums kündigst. Verwalten oder kündigen kannst du es jederzeit in den Einstellungen.
+Nutzungsbedingungen (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Datenschutzerklärung: https://m1zz.github.io/BookmarkShot/de/privacy.html
+
 ## fr
 
 ### 지원 URL
@@ -619,6 +664,11 @@ Toute la reconnaissance du texte se fait sur votre appareil. Vos photos n’en s
 
 Enregistrez gratuitement jusqu’à 10 livres et 100 citations. Plus lève ces limites, et Pro ajoute la synchronisation iCloud et les widgets.
 Choisissez un abonnement hebdomadaire, mensuel ou annuel, ou un achat unique à vie. Sans publicité.
+
+Abonnements
+Bookmark Shot Plus et Pro sont des abonnements à renouvellement automatique. Le paiement est débité sur votre compte Apple, et l’abonnement se renouvelle sauf résiliation au moins 24 heures avant la fin de la période. Gérez-le ou résiliez-le à tout moment dans Réglages.
+Conditions d'utilisation (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Politique de confidentialité: https://m1zz.github.io/BookmarkShot/fr/privacy.html
 
 ## it
 
@@ -682,6 +732,11 @@ Tutto il riconoscimento del testo avviene sul tuo dispositivo. Le foto non ne es
 Salva gratis fino a 10 libri e 100 citazioni. Plus toglie i limiti, Pro aggiunge la sincronizzazione iCloud e i widget.
 Scegli un abbonamento settimanale, mensile o annuale, oppure un acquisto unico per sempre. Senza pubblicità.
 
+Abbonamenti
+Bookmark Shot Plus e Pro sono abbonamenti a rinnovo automatico. Il pagamento viene addebitato sul tuo Apple Account e l’abbonamento si rinnova se non lo disdici almeno 24 ore prima della scadenza. Puoi gestirlo o disdirlo in qualsiasi momento in Impostazioni.
+Condizioni d'uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Informativa sulla privacy: https://m1zz.github.io/BookmarkShot/it/privacy.html
+
 ## pt-BR
 
 ### 지원 URL
@@ -743,6 +798,11 @@ Todo o reconhecimento de texto acontece no seu aparelho. Suas fotos não saem de
 
 Salve até 10 livros e 100 trechos de graça. O Plus tira os limites, e o Pro adiciona a sincronização com o iCloud e os widgets.
 Escolha uma assinatura semanal, mensal ou anual, ou pague uma vez e use para sempre. Sem anúncios.
+
+Assinaturas
+Bookmark Shot Plus e Pro são assinaturas com renovação automática. A cobrança é feita na sua Conta Apple e a assinatura é renovada, a menos que você cancele pelo menos 24 horas antes do fim do período. Gerencie ou cancele quando quiser em Ajustes.
+Termos de Uso (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Política de Privacidade: https://m1zz.github.io/BookmarkShot/pt-BR/privacy.html
 
 ## th
 
@@ -806,6 +866,11 @@ Bookmark Shot: เก็บประโยคเด็ด
 เก็บได้ฟรีถึงหนังสือ 10 เล่มและ 100 ประโยค Plus ปลดขีดจำกัดนี้ ส่วน Pro เพิ่มการซิงค์ผ่าน iCloud และวิดเจ็ต
 เลือกได้ทั้งสมัครสมาชิกรายสัปดาห์ รายเดือน รายปี หรือจ่ายครั้งเดียวใช้ได้ตลอดไป ไม่มีโฆษณา
 
+การสมัครสมาชิก
+Bookmark Shot Plus และ Pro เป็นการสมัครสมาชิกที่ต่ออายุอัตโนมัติ ระบบจะเรียกเก็บเงินจากบัญชี Apple ของคุณและต่ออายุเว้นแต่จะยกเลิกอย่างน้อย 24 ชั่วโมงก่อนสิ้นสุดรอบ จัดการหรือยกเลิกได้ทุกเมื่อในการตั้งค่า
+ข้อกำหนดการใช้งาน (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+นโยบายความเป็นส่วนตัว: https://m1zz.github.io/BookmarkShot/th/privacy.html
+
 ## vi
 
 ### 지원 URL
@@ -867,6 +932,11 @@ Toàn bộ việc nhận dạng chữ diễn ra trên máy. Ảnh không rời k
 
 Lưu miễn phí tới 10 cuốn sách và 100 câu văn. Plus bỏ giới hạn này, còn Pro có thêm đồng bộ iCloud và widget.
 Chọn gói đăng ký theo tuần, tháng, năm hoặc trả một lần dùng mãi mãi. Không quảng cáo.
+
+Gói đăng ký
+Bookmark Shot Plus và Pro là các gói đăng ký tự động gia hạn. Phí được tính vào Tài khoản Apple của bạn và tự gia hạn trừ khi bạn hủy ít nhất 24 giờ trước khi kỳ hạn kết thúc. Bạn có thể quản lý hoặc hủy bất cứ lúc nào trong Cài đặt.
+Điều khoản sử dụng (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Chính sách quyền riêng tư: https://m1zz.github.io/BookmarkShot/vi/privacy.html
 
 ## cs
 
@@ -930,6 +1000,11 @@ Veškeré rozpoznávání textu probíhá ve vašem zařízení. Fotky ho neopou
 Až 10 knih a 100 citátů si uložíte zdarma. Plus tato omezení ruší a Pro přidává synchronizaci přes iCloud a widgety.
 Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednorázový nákup navždy. Bez reklam.
 
+Předplatné
+Bookmark Shot Plus a Pro jsou automaticky obnovovaná předplatná. Platba se strhává z vašeho účtu Apple a předplatné se obnoví, pokud ho nezrušíte alespoň 24 hodin před koncem období. Spravovat nebo zrušit ho můžete kdykoli v Nastavení.
+Podmínky použití (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Zásady ochrany osobních údajů: https://m1zz.github.io/BookmarkShot/cs/privacy.html
+
 ## da
 
 ### 지원 URL
@@ -991,6 +1066,11 @@ Al tekstgenkendelse sker på din enhed. Dine billeder forlader den aldrig, og ap
 
 Gem op til 10 bøger og 100 citater gratis. Plus fjerner grænserne, og Pro giver dig desuden synkronisering med iCloud og widgets.
 Vælg et ugentligt, månedligt eller årligt abonnement, eller betal én gang for altid. Ingen reklamer.
+
+Abonnementer
+Bookmark Shot Plus og Pro er abonnementer, der fornyes automatisk. Betalingen trækkes på din Apple-konto, og abonnementet fornyes, medmindre du opsiger det mindst 24 timer før perioden slutter. Administrer eller opsig når som helst i Indstillinger.
+Brugsvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privatlivspolitik: https://m1zz.github.io/BookmarkShot/da/privacy.html
 
 ## el
 
@@ -1057,6 +1137,11 @@ Bookmark Shot: Αποσπάσματα
 Αποθήκευσε δωρεάν έως 10 βιβλία και 100 αποσπάσματα. Το Plus καταργεί τα όρια και το Pro προσθέτει συγχρονισμό μέσω iCloud και γραφικά στοιχεία.
 Διάλεξε εβδομαδιαία, μηνιαία ή ετήσια συνδρομή ή μία πληρωμή για πάντα. Χωρίς διαφημίσεις.
 
+Συνδρομές
+Οι συνδρομές Bookmark Shot Plus και Pro ανανεώνονται αυτόματα. Η χρέωση γίνεται στον λογαριασμό Apple σου και η συνδρομή ανανεώνεται, εκτός αν την ακυρώσεις τουλάχιστον 24 ώρες πριν λήξει η περίοδος. Μπορείς να τη διαχειριστείς ή να την ακυρώσεις οποτεδήποτε από τις Ρυθμίσεις.
+Όροι χρήσης (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Πολιτική απορρήτου: https://m1zz.github.io/BookmarkShot/el/privacy.html
+
 ## fi
 
 ### 지원 URL
@@ -1118,6 +1203,11 @@ Kaikki tekstintunnistus tapahtuu laitteellasi. Kuvasi eivät lähde sieltä minn
 
 Voit tallentaa ilmaiseksi enintään 10 kirjaa ja 100 lainausta. Plus poistaa rajat, ja Pro tuo lisäksi iCloud-synkronoinnin ja widgetit.
 Valitse viikko-, kuukausi- tai vuositilaus tai kertamaksu pysyvään käyttöön. Ei mainoksia.
+
+Tilaukset
+Bookmark Shot Plus ja Pro ovat automaattisesti uusiutuvia tilauksia. Maksu veloitetaan Apple-tililtäsi, ja tilaus uusiutuu, ellei sitä peruta vähintään 24 tuntia ennen jakson päättymistä. Hallitse tai peru tilaus milloin tahansa Asetuksissa.
+Käyttöehdot (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Tietosuojakäytäntö: https://m1zz.github.io/BookmarkShot/fi/privacy.html
 
 ## id
 
@@ -1181,6 +1271,11 @@ Seluruh pengenalan teks berlangsung di perangkatmu. Fotomu tidak pernah keluar d
 Simpan hingga 10 buku dan 100 kutipan secara gratis. Plus menghapus batas itu, dan Pro menambahkan sinkronisasi iCloud serta widget.
 Pilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali untuk selamanya. Tanpa iklan.
 
+Langganan
+Bookmark Shot Plus dan Pro adalah langganan yang diperpanjang otomatis. Pembayaran ditagihkan ke Akun Apple Anda dan langganan diperpanjang kecuali dibatalkan paling lambat 24 jam sebelum periode berakhir. Kelola atau batalkan kapan saja di Pengaturan.
+Ketentuan Penggunaan (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Kebijakan Privasi: https://m1zz.github.io/BookmarkShot/id/privacy.html
+
 ## nb
 
 ### 지원 URL
@@ -1242,6 +1337,11 @@ All tekstgjenkjenning skjer på enheten din. Bildene forlater den aldri, og appe
 
 Lagre opptil 10 bøker og 100 sitater gratis. Plus fjerner grensene, og Pro gir deg i tillegg synkronisering med iCloud og widgeter.
 Velg et ukentlig, månedlig eller årlig abonnement, eller betal én gang for alltid. Ingen reklame.
+
+Abonnementer
+Bookmark Shot Plus og Pro er abonnementer som fornyes automatisk. Betalingen belastes Apple-kontoen din, og abonnementet fornyes med mindre du sier det opp minst 24 timer før perioden er over. Administrer eller si opp når som helst i Innstillinger.
+Bruksvilkår (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Personvernerklæring: https://m1zz.github.io/BookmarkShot/nb/privacy.html
 
 ## nl
 
@@ -1305,6 +1405,11 @@ Alle tekstherkenning gebeurt op je apparaat. Je foto’s verlaten het nooit, en 
 Bewaar gratis tot 10 boeken en 100 citaten. Plus heft die grenzen op, en Pro voegt synchronisatie via iCloud en widgets toe.
 Kies een week-, maand- of jaarabonnement, of betaal één keer voor altijd. Geen advertenties.
 
+Abonnementen
+Bookmark Shot Plus en Pro zijn automatisch verlengende abonnementen. De betaling loopt via je Apple Account en het abonnement wordt verlengd tenzij je minstens 24 uur voor het einde van de periode opzegt. Beheer of zeg op wanneer je wilt in Instellingen.
+Gebruiksvoorwaarden (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Privacybeleid: https://m1zz.github.io/BookmarkShot/nl/privacy.html
+
 ## pl
 
 ### 지원 URL
@@ -1366,6 +1471,11 @@ Całe rozpoznawanie tekstu odbywa się na twoim urządzeniu. Zdjęcia nigdy go n
 
 Do 10 książek i 100 cytatów zapiszesz za darmo. Plus znosi te limity, a Pro dodaje synchronizację przez iCloud i widżety.
 Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazowy zakup na zawsze. Bez reklam.
+
+Subskrypcje
+Bookmark Shot Plus i Pro to subskrypcje odnawiane automatycznie. Opłata jest pobierana z Twojego konta Apple, a subskrypcja odnawia się, jeśli nie anulujesz jej co najmniej 24 godziny przed końcem okresu. Zarządzaj nią lub anuluj ją w dowolnej chwili w Ustawieniach.
+Warunki korzystania (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Polityka prywatności: https://m1zz.github.io/BookmarkShot/pl/privacy.html
 
 ## sv
 
@@ -1429,6 +1539,11 @@ All textigenkänning sker på din enhet. Dina foton lämnar den aldrig, och appe
 Spara upp till 10 böcker och 100 citat gratis. Plus tar bort gränserna, och Pro lägger till synk med iCloud och widgetar.
 Välj en vecko-, månads- eller årsprenumeration, eller betala en gång för alltid. Ingen reklam.
 
+Prenumerationer
+Bookmark Shot Plus och Pro är prenumerationer som förnyas automatiskt. Betalningen dras från ditt Apple-konto och prenumerationen förnyas om du inte avslutar den minst 24 timmar innan perioden slutar. Hantera eller avsluta när som helst i Inställningar.
+Användarvillkor (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Integritetspolicy: https://m1zz.github.io/BookmarkShot/sv/privacy.html
+
 ## tr
 
 ### 지원 URL
@@ -1490,6 +1605,11 @@ Tüm metin tanıma cihazında yapılır. Fotoğrafların cihazından çıkmaz ve
 
 10 kitap ve 100 alıntıya kadar ücretsiz kaydedebilirsin. Plus bu sınırları kaldırır, Pro ise iCloud ile eşitleme ve widget’ları ekler.
 Haftalık, aylık ya da yıllık abonelik seçebilir veya bir kez ödeyip ömür boyu kullanabilirsin. Reklam yok.
+
+Abonelikler
+Bookmark Shot Plus ve Pro otomatik yenilenen aboneliklerdir. Ödeme Apple Hesabınızdan alınır ve dönem bitmeden en az 24 saat önce iptal edilmezse abonelik yenilenir. Ayarlar'dan istediğiniz zaman yönetebilir veya iptal edebilirsiniz.
+Kullanım Koşulları (EULA): https://www.apple.com/legal/internet-services/itunes/dev/stdeula/
+Gizlilik Politikası: https://m1zz.github.io/BookmarkShot/tr/privacy.html
 
 ## 손쉬운 사용
 
