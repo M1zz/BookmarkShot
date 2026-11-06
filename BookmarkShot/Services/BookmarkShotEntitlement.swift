@@ -151,6 +151,18 @@ enum BookmarkShotEntitlement {
         defaults.set(tier.rawValue, forKey: tierKey)
     }
 
+    /// ⚠️ 위젯의 SharedQuote.swift 와 같은 키다.
+    private static let onSaleKey = "plans.onSale"
+
+    /// **팔기 시작했는가.** 유료 칸 상품을 하나도 못 불러온 기기는 한도로 막지 않는다 — 앱도 위젯도.
+    ///
+    /// ⚠️ App Store Connect 에 상품이 서기 전에 빌드가 나가면, 살 수 없는데 막히는 사람이 생긴다.
+    ///    한 번이라도 불러온 기기는 기억해 둔다 — 그 뒤로 잠깐 오프라인이어도 다시 한도가 선다.
+    static var isSelling: Bool { defaults.bool(forKey: onSaleKey) }
+
+    /// `Purchases` 만 부른다.
+    static func markSelling() { defaults.set(true, forKey: onSaleKey) }
+
     /// 잠긴 위젯을 누르면 여는 주소. ⚠️ 위젯의 SharedQuote.swift 와 같은 값.
     static let widgetPaywallURL = URL(string: "bookmarkshot://paywall/widget")!
 
@@ -168,7 +180,7 @@ enum BookmarkShotEntitlement {
     /// 아직 칸을 모르면 예전처럼 잇는다 — 업데이트 직후 먼저 쓰던 사람의 동기화가 끊기지 않게.
     static var opensWithICloud: Bool {
         guard wantsICloudSync else { return false }
-        guard let tier = cachedTier else { return true }
+        guard isSelling, let tier = cachedTier else { return true }
         return tier == .pro
     }
 

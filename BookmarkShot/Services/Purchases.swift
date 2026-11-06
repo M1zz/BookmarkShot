@@ -31,6 +31,9 @@ final class Purchases {
     /// App Store 에 물어 답을 받았는가. false 면 화면은 '무료'라고 단정하지 않는다.
     private(set) var isKnown = BookmarkShotEntitlement.cachedTier != nil
 
+    /// 팔기 시작했는가. 아니면 아무것도 막지 않는다 (→ BookmarkShotEntitlement.isSelling).
+    private(set) var isSelling = BookmarkShotEntitlement.isSelling
+
     private(set) var products: [Product] = []
     private(set) var ownedProductIDs: Set<String> = []
 
@@ -64,7 +67,7 @@ final class Purchases {
         return tipJar
     }
 
-    func allows(_ feature: BookmarkShotFeature) -> Bool { tier >= feature.tier }
+    func allows(_ feature: BookmarkShotFeature) -> Bool { !isSelling || tier >= feature.tier }
 
     /// 책을 한 권 더 꽂을 수 있는가 (`count` = 지금 서재의 책 수).
     func canAddBook(having count: Int) -> Bool { allows(.books) || count < BookmarkShotEntitlement.freeBooks }
@@ -136,7 +139,12 @@ final class Purchases {
         ownedProductIDs = store.purchasedProductIDs
         isWorking = store.purchasingProductID != nil || store.isRestoring
         failureMessage = store.lastError
-        // 위젯은 App Group 의 그 한 줄만 읽는다. 칸이 바뀐 판에만 다시 그린다.
-        if before != tier { WidgetCenter.shared.reloadAllTimelines() }
+        let wasSelling = isSelling
+        if !isSelling, products.contains(where: { BookmarkShotEntitlement.productIDs.contains($0.id) }) {
+            BookmarkShotEntitlement.markSelling()
+            isSelling = true
+        }
+        // 위젯은 App Group 의 그 두 줄만 읽는다. 바뀐 판에만 다시 그린다.
+        if before != tier || wasSelling != isSelling { WidgetCenter.shared.reloadAllTimelines() }
     }
 }
