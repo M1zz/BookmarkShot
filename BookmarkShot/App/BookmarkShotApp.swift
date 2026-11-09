@@ -58,6 +58,8 @@ struct BookmarkShotApp: App {
         WindowGroup {
             ContentView()
                 .leeoSatisfactionCheck(BookmarkShotSpec.self)
+                // 개발자가 보낸 의견에 답장하면, 앱이 앞으로 올 때 답장을 시트로 보여 준다 (LeeoKit).
+                .leeoFeedbackReplyNotice(BookmarkShotSpec.self)
                 .storeFallbackNotice()
                 // 산 칸을 다시 읽는다 (팁 상품 · 끝나지 않은 팁도 LeeoStore 가 함께 챙긴다)
                 .task { await Purchases.shared.refresh() }
