@@ -1,5 +1,151 @@
 # 릴리즈 노트
 
+## 1.0.5
+
+### 앱스토어 (한국어)
+
+이제 iPad에서도 쓸 수 있어요.
+넓은 화면에서는 서재와 문장을 나란히 펼쳐 봐요.
+키보드 단축키로 새 책을 바로 더할 수 있어요.
+
+### 앱스토어 (영어)
+
+Now available on iPad.
+See library and quotes side by side.
+Add a book with a keyboard shortcut.
+
+### App Store (en-GB)
+
+Now available on iPad.
+See library and quotes side by side.
+Add a book with a keyboard shortcut.
+
+### 앱스토어 (중국어 간체)
+
+现在也可以在 iPad 上使用。
+宽屏下书架和句子并排展开。
+用键盘快捷键直接添加新书。
+
+### 앱스토어 (중국어 번체)
+
+現在也可以在 iPad 上使用。
+寬螢幕上書櫃和句子並排展開。
+用鍵盤快速鍵直接新增書籍。
+
+### 앱스토어 (일본어)
+
+iPadでも使えるようになりました。
+広い画面では本棚と一文を並べて表示します。
+キーボードショートカットですぐ本を追加できます。
+
+### 앱스토어 (러시아어)
+
+Теперь и на iPad.
+Библиотека и цитаты бок о бок.
+Новая книга одним сочетанием клавиш.
+
+### 앱스토어 (스페인어)
+
+Ya disponible en iPad.
+Biblioteca y citas, lado a lado.
+Añade un libro con un atajo de teclado.
+
+### 앱스토어 (독일어)
+
+Jetzt auch auf dem iPad.
+Bibliothek und Zitate nebeneinander.
+Neues Buch per Tastaturkurzbefehl.
+
+### 앱스토어 (프랑스어)
+
+Désormais disponible sur iPad.
+Bibliothèque et citations côte à côte.
+Ajoutez un livre par raccourci clavier.
+
+### 앱스토어 (이탈리아어)
+
+Ora disponibile su iPad.
+Libreria e frasi affiancate.
+Aggiungi un libro con una scorciatoia.
+
+### 앱스토어 (포르투갈어 브라질)
+
+Agora também no iPad.
+Biblioteca e trechos lado a lado.
+Novo livro com um atalho de teclado.
+
+### 앱스토어 (태국어)
+
+ใช้งานบน iPad ได้แล้ว
+จอใหญ่เปิดชั้นหนังสือคู่กับประโยคได้
+เพิ่มหนังสือใหม่ได้ทันทีด้วยคีย์ลัด
+
+### 앱스토어 (베트남어)
+
+Nay đã dùng được trên iPad.
+Tủ sách và câu văn hiện song song.
+Thêm sách mới nhanh bằng phím tắt.
+
+### 앱스토어 (체코어)
+
+Nově také na iPadu.
+Knihovna a citáty vedle sebe.
+Novou knihu přidáte klávesovou zkratkou.
+
+### 앱스토어 (덴마크어)
+
+Nu også på iPad.
+Bibliotek og citater side om side.
+Tilføj en bog med en tastaturgenvej.
+
+### 앱스토어 (그리스어)
+
+Τώρα και στο iPad.
+Βιβλιοθήκη και αποσπάσματα δίπλα δίπλα.
+Νέο βιβλίο με συντόμευση πληκτρολογίου.
+
+### 앱스토어 (핀란드어)
+
+Nyt myös iPadilla.
+Kirjasto ja lainaukset rinnakkain.
+Lisää kirja pikanäppäimellä.
+
+### 앱스토어 (인도네시아어)
+
+Kini tersedia di iPad.
+Perpustakaan dan kutipan berdampingan.
+Tambah buku dengan pintasan papan ketik.
+
+### 앱스토어 (노르웨이어(보크말))
+
+Nå også på iPad.
+Bibliotek og sitater side om side.
+Legg til en bok med en hurtigtast.
+
+### 앱스토어 (네덜란드어)
+
+Nu ook op iPad.
+Bibliotheek en citaten naast elkaar.
+Voeg een boek toe met een sneltoets.
+
+### 앱스토어 (폴란드어)
+
+Teraz także na iPadzie.
+Biblioteka i cytaty obok siebie.
+Dodaj książkę skrótem klawiszowym.
+
+### 앱스토어 (스웨덴어)
+
+Nu även på iPad.
+Bibliotek och citat sida vid sida.
+Lägg till en bok med ett kortkommando.
+
+### 앱스토어 (튀르키예어)
+
+Artık iPad'de de kullanılabilir.
+Kitaplık ve alıntılar yan yana.
+Klavye kısayoluyla hemen kitap ekleyin.
+
 ## 1.0.4
 
 ### 앱스토어 (한국어)

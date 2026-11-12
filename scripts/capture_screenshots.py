@@ -2,6 +2,8 @@
 """App Store 원본 스크린샷(언어마다 그 언어 화면)을 시뮬레이터에서 찍는다.
 
 사용법: python3 scripts/capture_screenshots.py <시뮬레이터 UDID> [언어 ...]   (없으면 seed 가 있는 언어 전부)
+       IPAD=1 python3 scripts/capture_screenshots.py <iPad Pro 13" UDID> [언어 ...]
+         → 꾸미지 않은 화면 그대로 docs/screenshots/marketing/<언어>/ipad-NN-….png (2064x2752, 바로 제출본)
 
   데모 서재  scripts/screenshot_seed/<언어>.json   (그 언어 고전의 책 · 문장 · 찍을 페이지)
   찍은 결과  docs/screenshots/raw/<언어>/01-highlight.png … 05-daily.png   (그다음 make_marketing_screenshots.py)
@@ -26,6 +28,12 @@ REGION = {"ko": "ko_KR", "en": "en_US", "en-GB": "en_GB", "zh-Hans": "zh_CN", "z
 # 찍는 화면: (파일 이름, 장면, 화면이 다 그려질 때까지 기다리는 초)
 SCENES = [("01-highlight.png", "highlight", 9), ("02-region.png", "region", 6),
           ("03-library.png", "library", 5), ("04-quotes.png", "quotes", 5), ("05-daily.png", "daily", 5)]
+# 아이패드: 넓은 화면은 목록 | 자세히 두 칸이 서는 것을 먼저 보인다.
+IPAD = bool(os.environ.get("IPAD"))
+if IPAD:
+    RAW = ROOT / "docs" / "screenshots" / "marketing"
+    SCENES = [("ipad-01-library.png", "library", 6), ("ipad-02-quotes.png", "quotes", 6),
+              ("ipad-03-highlight.png", "highlight", 9), ("ipad-04-daily.png", "daily", 5)]
 
 # 페이지 사진: 어두운 책상 위에 살짝 비스듬히 놓인 책장. 글꼴은 그 언어의 명조/세리프.
 SERIF = {"ja": '"Hiragino Mincho ProN"', "zh-Hans": '"Songti SC"', "zh-Hant": '"Songti TC"', "th": '"Thonburi"'}

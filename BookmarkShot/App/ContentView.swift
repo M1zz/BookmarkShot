@@ -60,6 +60,11 @@ struct ContentView: View {
         }
         .task {
             ScreenshotMode.paintCovers(books)
+            // 넓은 아이패드 · 펼친 듀오에서 오른쪽 판에 책 하나 · 문장 하나를 세워 둔다
+            if ScreenshotMode.isActive {
+                foldPick.book = ScreenshotMode.pageBook(in: books)
+                foldPick.quote = quotes.max { $0.createdAt < $1.createdAt }
+            }
             if ScreenshotMode.opensScanPage {
                 screenshotScanBook = ScreenshotMode.pageBook(in: books)
             } else if ScreenshotMode.scene == .settings {

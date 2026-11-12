@@ -33,22 +33,53 @@ final class FoldPick {
     }
 }
 
+// MARK: - 옆 판에 세우는가
+
+extension EnvironmentValues {
+    /// 고르는 쪽 칸을 누르면 밀어 넣지 않고 옆 판(`FoldPick`)에 세운다.
+    /// 펼친 듀오와 넓은 아이패드에서 참이다. 서재 · 문장 목록은 이것 하나만 본다.
+    @Entry var picksIntoPane = false
+}
+
+/// 넓은 아이패드인가. 아이패드도 Slide Over · 좁은 분할에서는 폰처럼 밀어 넣는다.
+private func isWidePad(_ sizeClass: UserInterfaceSizeClass?) -> Bool {
+    UIDevice.current.userInterfaceIdiom == .pad && sizeClass == .regular
+}
+
 // MARK: - 탭
 
-/// 펼친 화면의 탭 한 장: 왼쪽 고른 탭 | 오른쪽 고른 것(없으면 오늘의 문장).
+/// 탭 한 장: 왼쪽 고른 탭 | 오른쪽 고른 것(없으면 오늘의 문장).
+/// 펼친 듀오는 접힌 선을 비우는 `FoldSplitView` 로, 넓은 아이패드는 선 없는 두 칸으로 선다.
+/// 그 밖(보통 아이폰 · 접힌 듀오 · 좁은 아이패드)은 고르는 쪽만, 지금 화면 그대로다.
 struct FoldTab<Choose: View, Result: View>: View {
     @ViewBuilder let choose: () -> Choose
     @ViewBuilder let result: () -> Result
+    @Environment(\.foldLayout) private var fold
+    @Environment(\.horizontalSizeClass) private var sizeClass
 
     var body: some View {
-        FoldSplitView {
-            choose()
-        } result: {
-            result()
-                // 오른쪽 판 안에서는 접히지 않은 화면처럼 선다.
-                .environment(\.foldLayout, .single)
+        if isWidePad(sizeClass) {
+            GeometryReader { proxy in
+                HStack(spacing: 0) {
+                    choose()
+                        .environment(\.picksIntoPane, true)
+                        // 표지 세 줄이 들어가는 폭. 나머지는 읽는 쪽에 준다.
+                        .frame(width: min(max(proxy.size.width * 0.4, 320), 440))
+                    Divider().ignoresSafeArea()
+                    result()
+                }
+            }
+        } else {
+            FoldSplitView {
+                choose()
+                    .environment(\.picksIntoPane, fold.isUnfolded)
+            } result: {
+                result()
+                    // 오른쪽 판 안에서는 접히지 않은 화면처럼 선다.
+                    .environment(\.foldLayout, .single)
+            }
+            .foldTabBarRoom()
         }
-        .foldTabBarRoom()
     }
 }
 

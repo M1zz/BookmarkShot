@@ -283,7 +283,7 @@ def chrome_shot(html, png, tmp):
 def render(lang):
     out_dir = OUT / STORE[lang]
     out_dir.mkdir(parents=True, exist_ok=True)
-    for old in out_dir.glob("*.png"):
+    for old in out_dir.glob("[0-9]*.png"):   # ipad-NN 은 capture_screenshots.py 가 둔 것이라 남긴다
         old.unlink()
     with tempfile.TemporaryDirectory() as tmp:
         for fname, layout, headline, sub in SHOTS[lang]:
