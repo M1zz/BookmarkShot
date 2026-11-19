@@ -91,7 +91,7 @@ Snap a page, swipe to save
 
 ### 키워드
 
-highlight,underline,reading,journal,notes,library,scanner,ocr,novel,passages,literature,bookworm
+underline,excerpt,marginalia,commonplace,book club,booklover,text scanner,annotation,readers,novel
 
 ### 프로모션 텍스트
 
@@ -225,7 +225,7 @@ https://m1zz.github.io/BookmarkShot/zh-Hans/
 
 ### 키워드
 
-书摘,读书笔记,阅读记录,摘抄,名言,金句,书架,书签,荧光笔,高亮,文字识别,扫描,藏书,小说,诗集,读后感,书单,句子收藏,随笔,阅读打卡,读书,散文,图书,文摘,纸质书,书评,语录,文学,笔记本
+句子收藏,纸质书,划线笔记,金句摘抄,摘抄本,读书摘抄,书籍管理,读书记录,阅读笔记,拍照识字,好词好句,摘抄,藏书,高亮,读后感,散文,荧光笔,书单,阅读记录,随笔,金句,书架,书签,书摘,读书笔记
 
 ### 프로모션 텍스트
 
@@ -359,7 +359,7 @@ Bookmark Shot：本の一文を保存
 
 ### 키워드
 
-読書メモ,読書ノート,名言,引用,抜き書き,ハイライト,蛍光ペン,マーカー,アンダーライン,本棚,しおり,文字認識,OCR,スキャン,小説,エッセイ,詩集,書籍,蔵書,感想,名文,紙の本,文学,語録
+抜き書き,アンダーライン,名文,紙の本,名言集,フレーズ,文字起こし,読書日記,本 記録,読書管理,読書アプリ,引用,詩集,語録,文学,ハイライト,蔵書,名言,読書メモ,マーカー,エッセイ,文字認識
 
 ### 프로모션 텍스트
 
