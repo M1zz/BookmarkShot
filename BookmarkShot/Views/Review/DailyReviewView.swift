@@ -118,6 +118,9 @@ struct DailyReviewView: View {
                 }
                 .padding(.horizontal)
 
+                SpeakButton(text: quote.note.isEmpty ? quote.text : quote.text + "\n\n" + quote.note)
+                    .buttonStyle(.bordered)
+
                 if !quote.note.isEmpty {
                     VStack(alignment: .leading, spacing: 6) {
                         Label("그때 남긴 메모", systemImage: "pencil.line")

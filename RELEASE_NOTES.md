@@ -7,144 +7,192 @@
 이제 iPad에서도 쓸 수 있어요.
 넓은 화면에서는 서재와 문장을 나란히 펼쳐 봐요.
 키보드 단축키로 새 책을 바로 더할 수 있어요.
+문장 목록에서 탭해 골라 담을 수 있어요.
+모은 문장을 소리로 들려줘요.
 
 ### 앱스토어 (영어)
 
 Now available on iPad.
 See library and quotes side by side.
 Add a book with a keyboard shortcut.
+Pick lines from a simple list by tapping.
+Listen to your saved quotes aloud.
 
 ### App Store (en-GB)
 
 Now available on iPad.
 See library and quotes side by side.
 Add a book with a keyboard shortcut.
+Pick lines from a simple list by tapping.
+Listen to your saved quotes aloud.
 
 ### 앱스토어 (중국어 간체)
 
 现在也可以在 iPad 上使用。
 宽屏下书架和句子并排展开。
 用键盘快捷键直接添加新书。
+可以在句子列表中轻点选择。
+收藏的句子可以朗读给你听。
 
 ### 앱스토어 (중국어 번체)
 
 現在也可以在 iPad 上使用。
 寬螢幕上書櫃和句子並排展開。
 用鍵盤快速鍵直接新增書籍。
+可以在句子列表中點一下選擇。
+收藏的句子可以朗讀給你聽。
 
 ### 앱스토어 (일본어)
 
 iPadでも使えるようになりました。
 広い画面では本棚と一文を並べて表示します。
 キーボードショートカットですぐ本を追加できます。
+文のリストからタップで選べます。
+集めた文を読み上げて聞けます。
 
 ### 앱스토어 (러시아어)
 
 Теперь и на iPad.
 Библиотека и цитаты бок о бок.
 Новая книга одним сочетанием клавиш.
+Фразы можно выбрать в списке.
+Сохранённые цитаты можно слушать.
 
 ### 앱스토어 (스페인어)
 
 Ya disponible en iPad.
 Biblioteca y citas, lado a lado.
 Añade un libro con un atajo de teclado.
+Elige frases tocando en una lista.
+Escucha en voz alta tus frases.
 
 ### 앱스토어 (독일어)
 
 Jetzt auch auf dem iPad.
 Bibliothek und Zitate nebeneinander.
 Neues Buch per Tastaturkurzbefehl.
+Sätze jetzt per Liste antippen.
+Gesammelte Zitate vorlesen lassen.
 
 ### 앱스토어 (프랑스어)
 
 Désormais disponible sur iPad.
 Bibliothèque et citations côte à côte.
 Ajoutez un livre par raccourci clavier.
+Choisissez vos phrases dans une liste.
+Écoutez vos citations à voix haute.
 
 ### 앱스토어 (이탈리아어)
 
 Ora disponibile su iPad.
 Libreria e frasi affiancate.
 Aggiungi un libro con una scorciatoia.
+Scegli le frasi toccandole in un elenco.
+Ascolta ad alta voce le tue frasi.
 
 ### 앱스토어 (포르투갈어 브라질)
 
 Agora também no iPad.
 Biblioteca e trechos lado a lado.
 Novo livro com um atalho de teclado.
+Escolha frases tocando em uma lista.
+Ouça suas frases em voz alta.
 
 ### 앱스토어 (태국어)
 
 ใช้งานบน iPad ได้แล้ว
 จอใหญ่เปิดชั้นหนังสือคู่กับประโยคได้
 เพิ่มหนังสือใหม่ได้ทันทีด้วยคีย์ลัด
+แตะเลือกประโยคจากรายการได้
+ฟังประโยคที่เก็บไว้ได้
 
 ### 앱스토어 (베트남어)
 
 Nay đã dùng được trên iPad.
 Tủ sách và câu văn hiện song song.
 Thêm sách mới nhanh bằng phím tắt.
+Chạm để chọn câu từ danh sách.
+Nghe đọc to các câu đã lưu.
 
 ### 앱스토어 (체코어)
 
 Nově také na iPadu.
 Knihovna a citáty vedle sebe.
 Novou knihu přidáte klávesovou zkratkou.
+Věty teď vyberete klepnutím v seznamu.
+Uložené citáty si poslechnete nahlas.
 
 ### 앱스토어 (덴마크어)
 
 Nu også på iPad.
 Bibliotek og citater side om side.
 Tilføj en bog med en tastaturgenvej.
+Vælg sætninger med et tryk i en liste.
+Få dine citater læst højt.
 
 ### 앱스토어 (그리스어)
 
 Τώρα και στο iPad.
 Βιβλιοθήκη και αποσπάσματα δίπλα δίπλα.
 Νέο βιβλίο με συντόμευση πληκτρολογίου.
+Επιλέξτε φράσεις πατώντας σε λίστα.
+Ακούστε τα αποσπάσματά σας.
 
 ### 앱스토어 (핀란드어)
 
 Nyt myös iPadilla.
 Kirjasto ja lainaukset rinnakkain.
 Lisää kirja pikanäppäimellä.
+Valitse lauseet napauttamalla listasta.
+Kuuntele tallennetut lainaukset.
 
 ### 앱스토어 (인도네시아어)
 
 Kini tersedia di iPad.
 Perpustakaan dan kutipan berdampingan.
 Tambah buku dengan pintasan papan ketik.
+Pilih kalimat dengan mengetuk daftar.
+Dengarkan kutipan yang kamu simpan.
 
 ### 앱스토어 (노르웨이어(보크말))
 
 Nå også på iPad.
 Bibliotek og sitater side om side.
 Legg til en bok med en hurtigtast.
+Velg setninger med et trykk i en liste.
+Få sitatene dine lest høyt.
 
 ### 앱스토어 (네덜란드어)
 
 Nu ook op iPad.
 Bibliotheek en citaten naast elkaar.
 Voeg een boek toe met een sneltoets.
+Kies zinnen door ze in een lijst te tikken.
+Laat je citaten voorlezen.
 
 ### 앱스토어 (폴란드어)
 
 Teraz także na iPadzie.
 Biblioteka i cytaty obok siebie.
 Dodaj książkę skrótem klawiszowym.
+Wybieraj zdania stuknięciem na liście.
+Słuchaj zapisanych cytatów.
 
 ### 앱스토어 (스웨덴어)
 
 Nu även på iPad.
 Bibliotek och citat sida vid sida.
 Lägg till en bok med ett kortkommando.
+Välj meningar med ett tryck i en lista.
+Lyssna på dina sparade citat.
 
 ### 앱스토어 (튀르키예어)
 
 Artık iPad'de de kullanılabilir.
 Kitaplık ve alıntılar yan yana.
 Klavye kısayoluyla hemen kitap ekleyin.
+Cümleleri listeden dokunarak seçin.
+Kaydettiğiniz alıntıları dinleyin.
 
 ## 1.0.4
 

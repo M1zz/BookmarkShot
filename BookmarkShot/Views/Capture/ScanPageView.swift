@@ -39,6 +39,12 @@ struct ScanPageView: View {
     @State private var purchases = Purchases.shared
     /// 무료 100개를 다 채웠을 때 페이월. 그은 문장 · 페이지는 이 화면에 그대로 남아 있다.
     @State private var paywallFeature: BookmarkShotFeature?
+    /// 문장을 고르는 길. VoiceOver 가 켜져 있으면 목록으로 시작한다 (→ SentenceListView).
+    @State private var pickMode: PickMode = UIAccessibility.isVoiceOverRunning ? .list : .swipe
+    /// 저장하면 가볍게 떨린다
+    @State private var savedCount = 0
+
+    private enum PickMode: Hashable { case swipe, list }
 
     var body: some View {
         NavigationStack {
@@ -82,7 +88,11 @@ struct ScanPageView: View {
                         rawImage = image
                         step = .selectRegion
                         Task {
-                            corners = await DocumentFlattener.detectCorners(image) ?? .defaultInset
+                            let found = await DocumentFlattener.detectCorners(image)
+                            corners = found ?? .defaultInset
+                            announce(found != nil
+                                     ? String(localized: "페이지를 찾았어요. 구문 추출을 누르세요.")
+                                     : String(localized: "페이지 모서리를 찾지 못했어요. 책을 화면 가득 다시 찍거나 그대로 구문 추출을 누르세요."))
                         }
                     }
                     .ignoresSafeArea()
@@ -102,6 +112,8 @@ struct ScanPageView: View {
             }
         }
         .task { await startScreenshotScene() }
+        .sensoryFeedback(.success, trigger: savedCount)
+        .sensoryFeedback(.error, trigger: errorMessage) { _, new in new != nil }
     }
 
     /// 스크린샷 데모(DEBUG): 페이지 사진을 고른 것처럼 영역 선택으로, highlight 장면이면 구문 추출까지 진행한다.
@@ -169,7 +181,17 @@ struct ScanPageView: View {
     private var highlightStep: some View {
         if let pageImage, let ocrResult {
             VStack(spacing: 0) {
-                if highlightHintShownCount < highlightHintMaxShows {
+                Picker("고르는 방법", selection: $pickMode) {
+                    Label("긋기", systemImage: "highlighter").tag(PickMode.swipe)
+                    Label("목록", systemImage: "list.bullet").tag(PickMode.list)
+                }
+                .pickerStyle(.segmented)
+                .padding(.horizontal)
+                .padding(.top, 6)
+                // 고르는 길을 바꾸면 처음부터 고른다 (두 길의 선택은 서로 모른다)
+                .onChange(of: pickMode) { extractedText = "" }
+
+                if pickMode == .swipe, highlightHintShownCount < highlightHintMaxShows {
                     Text("문장 위를 손가락으로 스윽 · 두 손가락으로 확대해 밑줄")
                         .font(.footnote)
                         .foregroundStyle(.secondary)
@@ -177,9 +199,15 @@ struct ScanPageView: View {
                         .transition(.opacity)
                 }
 
-                HighlightSelectionView(image: pageImage, ocr: ocrResult,
-                                       preselectedText: ScreenshotMode.highlightText) { text in
-                    extractedText = text
+                Group {
+                    if pickMode == .swipe {
+                        HighlightSelectionView(image: pageImage, ocr: ocrResult,
+                                               preselectedText: ScreenshotMode.highlightText) { text in
+                            extractedText = text
+                        }
+                    } else {
+                        SentenceListView(ocr: ocrResult) { extractedText = $0 }
+                    }
                 }
                 .frame(maxHeight: .infinity)
 
@@ -249,6 +277,9 @@ struct ScanPageView: View {
                 highlightHintShownCount += 1
             }
             step = .highlight
+            announce(pageNumberText.isEmpty
+                     ? String(localized: "글을 \(result.lines.count)줄 읽었어요.")
+                     : String(localized: "\(pageNumberText)쪽, 글을 \(result.lines.count)줄 읽었어요."))
         } catch {
             errorMessage = String(localized: "텍스트 인식 중 오류가 발생했어요. 다시 시도해 주세요.")
         }
@@ -279,6 +310,12 @@ struct ScanPageView: View {
         )
         modelContext.insert(quote)
         try? modelContext.save()
+        savedCount += 1
         dismiss()
+    }
+
+    /// VoiceOver 로 지금 일을 알린다. 보이지 않아도 찍기 · 읽기가 어떻게 됐는지 안다.
+    private func announce(_ message: String) {
+        AccessibilityNotification.Announcement(message).post()
     }
 }

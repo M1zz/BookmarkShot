@@ -78,6 +78,7 @@ struct QuoteDetailView: View {
             }
 
             Section {
+                SpeakButton(text: quote.text)
                 if let shareImage {
                     ShareLink(item: Image(uiImage: shareImage),
                               preview: SharePreview("문장 카드", image: Image(uiImage: shareImage))) {

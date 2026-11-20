@@ -117,6 +117,8 @@ struct ContentView: View {
         .onChange(of: widgetSignature) { syncWidget() }
         // 시트 · 알림창이 접힌 선을 비킨다. 접혀 있으면 아무것도 바뀌지 않는다.
         .foldAware()
+        // 유료가 되면 콘페티, 모든 사용자가 한 번은 감사를 받는다 (LeeoStore 가 판정한다)
+        .leeoCelebrations(appName: BookmarkShotSpec.appName)
     }
 
     /// 스크랩 수·즐겨찾기·본문 변화를 담은 가벼운 시그니처 (변화 감지용)

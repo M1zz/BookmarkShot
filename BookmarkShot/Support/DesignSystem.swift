@@ -28,6 +28,8 @@ enum Theme {
 /// 채워진 강조 버튼(주 행동). 넓게 펴지는 pill 형태 + 눌림 피드백.
 struct BrandPrimaryButtonStyle: ButtonStyle {
     @Environment(\.isEnabled) private var isEnabled
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.colorSchemeContrast) private var contrast
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -40,7 +42,7 @@ struct BrandPrimaryButtonStyle: ButtonStyle {
                     .fill(Color.accentColor)
             )
             .opacity(isEnabled ? (configuration.isPressed ? 0.85 : 1) : 0.4)
-            .scaleEffect(configuration.isPressed ? 0.98 : 1)
+            .scaleEffect(configuration.isPressed && !reduceMotion ? 0.98 : 1)
             .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
     }
 }
@@ -48,6 +50,8 @@ struct BrandPrimaryButtonStyle: ButtonStyle {
 /// 보조 버튼. 강조색을 옅게 깐 배경 + 강조색 텍스트. 강조 버튼과 크기·모서리 동일.
 struct BrandSecondaryButtonStyle: ButtonStyle {
     @Environment(\.isEnabled) private var isEnabled
+    @Environment(\.accessibilityReduceMotion) private var reduceMotion
+    @Environment(\.colorSchemeContrast) private var contrast
 
     func makeBody(configuration: Configuration) -> some View {
         configuration.label
@@ -57,10 +61,10 @@ struct BrandSecondaryButtonStyle: ButtonStyle {
             .padding(.vertical, Theme.buttonVPadding)
             .background(
                 RoundedRectangle(cornerRadius: Theme.corner, style: .continuous)
-                    .fill(Color.accentColor.opacity(0.14))
+                    .fill(Color.accentColor.opacity(contrast == .increased ? 0.28 : 0.14))
             )
             .opacity(isEnabled ? (configuration.isPressed ? 0.75 : 1) : 0.4)
-            .scaleEffect(configuration.isPressed ? 0.98 : 1)
+            .scaleEffect(configuration.isPressed && !reduceMotion ? 0.98 : 1)
             .animation(.easeOut(duration: 0.15), value: configuration.isPressed)
     }
 }

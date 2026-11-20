@@ -8,6 +8,7 @@ import SwiftUI
 struct QuoteCardView: View {
     let quote: Quote
     var showBookTitle = true
+    @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
@@ -23,7 +24,7 @@ struct QuoteCardView: View {
             HStack(spacing: 8) {
                 if showBookTitle, let book = quote.book {
                     Text(book.title)
-                        .lineLimit(1)
+                        .lineLimit(dynamicTypeSize.isAccessibilitySize ? 3 : 1)
                 }
                 if let pageLabel = quote.pageLabel {
                     Text(pageLabel)
