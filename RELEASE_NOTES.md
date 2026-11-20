@@ -1,391 +1,197 @@
 # 릴리즈 노트
 
-## 1.0.5
-
-### 앱스토어 (한국어)
-
-이제 iPad에서도 쓸 수 있어요.
-넓은 화면에서는 서재와 문장을 나란히 펼쳐 봐요.
-키보드 단축키로 새 책을 바로 더할 수 있어요.
-문장 목록에서 탭해 골라 담을 수 있어요.
-모은 문장을 소리로 들려줘요.
-
-### 앱스토어 (영어)
-
-Now available on iPad.
-See library and quotes side by side.
-Add a book with a keyboard shortcut.
-Pick lines from a simple list by tapping.
-Listen to your saved quotes aloud.
-
-### App Store (en-GB)
-
-Now available on iPad.
-See library and quotes side by side.
-Add a book with a keyboard shortcut.
-Pick lines from a simple list by tapping.
-Listen to your saved quotes aloud.
-
-### 앱스토어 (중국어 간체)
-
-现在也可以在 iPad 上使用。
-宽屏下书架和句子并排展开。
-用键盘快捷键直接添加新书。
-可以在句子列表中轻点选择。
-收藏的句子可以朗读给你听。
-
-### 앱스토어 (중국어 번체)
-
-現在也可以在 iPad 上使用。
-寬螢幕上書櫃和句子並排展開。
-用鍵盤快速鍵直接新增書籍。
-可以在句子列表中點一下選擇。
-收藏的句子可以朗讀給你聽。
-
-### 앱스토어 (일본어)
-
-iPadでも使えるようになりました。
-広い画面では本棚と一文を並べて表示します。
-キーボードショートカットですぐ本を追加できます。
-文のリストからタップで選べます。
-集めた文を読み上げて聞けます。
-
-### 앱스토어 (러시아어)
-
-Теперь и на iPad.
-Библиотека и цитаты бок о бок.
-Новая книга одним сочетанием клавиш.
-Фразы можно выбрать в списке.
-Сохранённые цитаты можно слушать.
-
-### 앱스토어 (스페인어)
-
-Ya disponible en iPad.
-Biblioteca y citas, lado a lado.
-Añade un libro con un atajo de teclado.
-Elige frases tocando en una lista.
-Escucha en voz alta tus frases.
-
-### 앱스토어 (독일어)
-
-Jetzt auch auf dem iPad.
-Bibliothek und Zitate nebeneinander.
-Neues Buch per Tastaturkurzbefehl.
-Sätze jetzt per Liste antippen.
-Gesammelte Zitate vorlesen lassen.
-
-### 앱스토어 (프랑스어)
-
-Désormais disponible sur iPad.
-Bibliothèque et citations côte à côte.
-Ajoutez un livre par raccourci clavier.
-Choisissez vos phrases dans une liste.
-Écoutez vos citations à voix haute.
-
-### 앱스토어 (이탈리아어)
-
-Ora disponibile su iPad.
-Libreria e frasi affiancate.
-Aggiungi un libro con una scorciatoia.
-Scegli le frasi toccandole in un elenco.
-Ascolta ad alta voce le tue frasi.
-
-### 앱스토어 (포르투갈어 브라질)
-
-Agora também no iPad.
-Biblioteca e trechos lado a lado.
-Novo livro com um atalho de teclado.
-Escolha frases tocando em uma lista.
-Ouça suas frases em voz alta.
-
-### 앱스토어 (태국어)
-
-ใช้งานบน iPad ได้แล้ว
-จอใหญ่เปิดชั้นหนังสือคู่กับประโยคได้
-เพิ่มหนังสือใหม่ได้ทันทีด้วยคีย์ลัด
-แตะเลือกประโยคจากรายการได้
-ฟังประโยคที่เก็บไว้ได้
-
-### 앱스토어 (베트남어)
-
-Nay đã dùng được trên iPad.
-Tủ sách và câu văn hiện song song.
-Thêm sách mới nhanh bằng phím tắt.
-Chạm để chọn câu từ danh sách.
-Nghe đọc to các câu đã lưu.
-
-### 앱스토어 (체코어)
-
-Nově také na iPadu.
-Knihovna a citáty vedle sebe.
-Novou knihu přidáte klávesovou zkratkou.
-Věty teď vyberete klepnutím v seznamu.
-Uložené citáty si poslechnete nahlas.
-
-### 앱스토어 (덴마크어)
-
-Nu også på iPad.
-Bibliotek og citater side om side.
-Tilføj en bog med en tastaturgenvej.
-Vælg sætninger med et tryk i en liste.
-Få dine citater læst højt.
-
-### 앱스토어 (그리스어)
-
-Τώρα και στο iPad.
-Βιβλιοθήκη και αποσπάσματα δίπλα δίπλα.
-Νέο βιβλίο με συντόμευση πληκτρολογίου.
-Επιλέξτε φράσεις πατώντας σε λίστα.
-Ακούστε τα αποσπάσματά σας.
-
-### 앱스토어 (핀란드어)
-
-Nyt myös iPadilla.
-Kirjasto ja lainaukset rinnakkain.
-Lisää kirja pikanäppäimellä.
-Valitse lauseet napauttamalla listasta.
-Kuuntele tallennetut lainaukset.
-
-### 앱스토어 (인도네시아어)
-
-Kini tersedia di iPad.
-Perpustakaan dan kutipan berdampingan.
-Tambah buku dengan pintasan papan ketik.
-Pilih kalimat dengan mengetuk daftar.
-Dengarkan kutipan yang kamu simpan.
-
-### 앱스토어 (노르웨이어(보크말))
-
-Nå også på iPad.
-Bibliotek og sitater side om side.
-Legg til en bok med en hurtigtast.
-Velg setninger med et trykk i en liste.
-Få sitatene dine lest høyt.
-
-### 앱스토어 (네덜란드어)
-
-Nu ook op iPad.
-Bibliotheek en citaten naast elkaar.
-Voeg een boek toe met een sneltoets.
-Kies zinnen door ze in een lijst te tikken.
-Laat je citaten voorlezen.
-
-### 앱스토어 (폴란드어)
-
-Teraz także na iPadzie.
-Biblioteka i cytaty obok siebie.
-Dodaj książkę skrótem klawiszowym.
-Wybieraj zdania stuknięciem na liście.
-Słuchaj zapisanych cytatów.
-
-### 앱스토어 (스웨덴어)
-
-Nu även på iPad.
-Bibliotek och citat sida vid sida.
-Lägg till en bok med ett kortkommando.
-Välj meningar med ett tryck i en lista.
-Lyssna på dina sparade citat.
-
-### 앱스토어 (튀르키예어)
-
-Artık iPad'de de kullanılabilir.
-Kitaplık ve alıntılar yan yana.
-Klavye kısayoluyla hemen kitap ekleyin.
-Cümleleri listeden dokunarak seçin.
-Kaydettiğiniz alıntıları dinleyin.
-
 ## 1.0.4
 
 ### 앱스토어 (한국어)
 
+이제 iPad에서도 쓸 수 있어요.
+문장 목록에서 탭해 골라 담을 수 있어요.
+모은 문장을 소리로 들려줘요.
 밑줄 친 문장을 iPhone 검색에서 바로 찾아요.
-Siri에게 오늘의 문장을 들려 달라고 해 보세요.
-Siri로 책 스캔을 바로 시작할 수 있어요.
-Siri에게 단어로 문장을 찾아 달라고 하세요.
 저장한 문장이 매일 자동으로 백업돼요.
 
 ### 앱스토어 (영어)
 
+Now available on iPad.
+Pick lines from a simple list by tapping.
+Listen to your saved quotes aloud.
 Find your quotes in iPhone search.
-Ask Siri to read you today's quote.
-Start scanning a book with Siri.
-Ask Siri to find quotes by a word.
 Your saved quotes are backed up daily.
 
 ### App Store (en-GB)
 
+Now available on iPad.
+Pick lines from a simple list by tapping.
+Listen to your saved quotes aloud.
 Find your quotes in iPhone search.
-Ask Siri to read you today's quote.
-Start scanning a book with Siri.
-Ask Siri to find quotes by a word.
 Your saved quotes are backed up daily.
 
 ### 앱스토어 (중국어 간체)
 
+现在也可以在 iPad 上使用。
+可以在句子列表中轻点选择。
+收藏的句子可以朗读给你听。
 在 iPhone 搜索中直接找到划线句子。
-让 Siri 为你读一句今日摘句。
-用 Siri 直接开始扫描书页。
-让 Siri 按关键词帮你找句子。
 保存的句子每天自动备份。
 
 ### 앱스토어 (중국어 번체)
 
+現在也可以在 iPad 上使用。
+可以在句子列表中點一下選擇。
+收藏的句子可以朗讀給你聽。
 在 iPhone 搜尋中直接找到劃線句子。
-讓 Siri 為你讀一句今日摘句。
-用 Siri 直接開始掃描書頁。
-讓 Siri 依關鍵字幫你找句子。
 儲存的句子每天自動備份。
 
 ### 앱스토어 (일본어)
 
+iPadでも使えるようになりました。
+文のリストからタップで選べます。
+集めた文を読み上げて聞けます。
 線を引いた文をiPhoneの検索で探せます。
-Siriに今日の一文を読んでもらえます。
-Siriで本のスキャンをすぐ始められます。
-言葉を伝えるとSiriが文を探します。
 保存した文を毎日自動でバックアップします。
 
 ### 앱스토어 (러시아어)
 
+Теперь и на iPad.
+Фразы можно выбрать в списке.
+Сохранённые цитаты можно слушать.
 Ищите цитаты прямо в поиске iPhone.
-Попросите Siri прочитать цитату дня.
-Начните сканировать книгу через Siri.
-Siri найдёт цитаты по одному слову.
 Сохранённые цитаты копируются ежедневно.
 
 ### 앱스토어 (스페인어)
 
+Ya disponible en iPad.
+Elige frases tocando en una lista.
+Escucha en voz alta tus frases.
 Encuentra tus citas en la búsqueda.
-Pide a Siri que lea la cita del día.
-Escanea un libro con ayuda de Siri.
-Pide a Siri buscar citas por palabra.
 Tus citas se respaldan cada día.
 
 ### 앱스토어 (독일어)
 
+Jetzt auch auf dem iPad.
+Sätze jetzt per Liste antippen.
+Gesammelte Zitate vorlesen lassen.
 Zitate direkt in der Suche finden.
-Siri liest dir das Zitat des Tages vor.
-Buch-Scan per Siri starten.
-Siri findet Zitate nach einem Stichwort.
 Deine Zitate werden täglich gesichert.
 
 ### 앱스토어 (프랑스어)
 
+Désormais disponible sur iPad.
+Choisissez vos phrases dans une liste.
+Écoutez vos citations à voix haute.
 Trouvez vos citations dans la recherche.
-Siri vous lit la citation du jour.
-Lancez le scan d'un livre avec Siri.
-Siri trouve vos citations par mot-clé.
 Vos citations sauvegardées chaque jour.
 
 ### 앱스토어 (이탈리아어)
 
+Ora disponibile su iPad.
+Scegli le frasi toccandole in un elenco.
+Ascolta ad alta voce le tue frasi.
 Trova le tue frasi nella ricerca.
-Siri ti legge la frase del giorno.
-Avvia la scansione di un libro con Siri.
-Siri trova le frasi da una parola.
 Le tue frasi salvate ogni giorno.
 
 ### 앱스토어 (포르투갈어 브라질)
 
+Agora também no iPad.
+Escolha frases tocando em uma lista.
+Ouça suas frases em voz alta.
 Ache seus trechos na busca do iPhone.
-Peça à Siri para ler o trecho do dia.
-Comece a escanear um livro com a Siri.
-A Siri acha trechos por uma palavra.
 Seus trechos têm backup todo dia.
 
 ### 앱스토어 (태국어)
 
+ใช้งานบน iPad ได้แล้ว
+แตะเลือกประโยคจากรายการได้
+ฟังประโยคที่เก็บไว้ได้
 หาประโยคที่ขีดเส้นไว้ได้จากการค้นหา
-ให้ Siri อ่านประโยคประจำวันให้ฟัง
-เริ่มสแกนหนังสือได้ทันทีด้วย Siri
-ให้ Siri ค้นหาประโยคจากคำที่บอก
 ประโยคที่บันทึกไว้สำรองอัตโนมัติทุกวัน
 
 ### 앱스토어 (베트남어)
 
+Nay đã dùng được trên iPad.
+Chạm để chọn câu từ danh sách.
+Nghe đọc to các câu đã lưu.
 Tìm câu đã gạch chân trong tìm kiếm.
-Nhờ Siri đọc câu trích của hôm nay.
-Bắt đầu quét sách bằng Siri.
-Nhờ Siri tìm câu theo một từ khóa.
 Câu đã lưu được sao lưu mỗi ngày.
 
 ### 앱스토어 (체코어)
 
+Nově také na iPadu.
+Věty teď vyberete klepnutím v seznamu.
+Uložené citáty si poslechnete nahlas.
 Citáty najdete přímo v hledání iPhonu.
-Nechte si od Siri přečíst citát dne.
-Skenování knihy spustíte přes Siri.
-Siri najde citáty podle slova.
 Uložené citáty se denně zálohují.
 
 ### 앱스토어 (덴마크어)
 
+Nu også på iPad.
+Vælg sætninger med et tryk i en liste.
+Få dine citater læst højt.
 Find dine citater i søgning på iPhone.
-Bed Siri læse dagens citat op.
-Start scanning af en bog med Siri.
-Siri finder citater ud fra et ord.
 Dine citater sikkerhedskopieres dagligt.
 
 ### 앱스토어 (그리스어)
 
+Τώρα και στο iPad.
+Επιλέξτε φράσεις πατώντας σε λίστα.
+Ακούστε τα αποσπάσματά σας.
 Βρείτε τα αποσπάσματα στην αναζήτηση.
-Η Siri διαβάζει το απόσπασμα της μέρας.
-Ξεκινήστε σάρωση βιβλίου με τη Siri.
-Η Siri βρίσκει αποσπάσματα με μια λέξη.
 Τα αποσπάσματα σώζονται καθημερινά.
 
 ### 앱스토어 (핀란드어)
 
+Nyt myös iPadilla.
+Valitse lauseet napauttamalla listasta.
+Kuuntele tallennetut lainaukset.
 Löydä lainauksesi iPhonen hausta.
-Pyydä Siriä lukemaan päivän lainaus.
-Aloita kirjan skannaus Sirillä.
-Siri etsii lainaukset sanan perusteella.
 Lainaukset varmuuskopioidaan päivittäin.
 
 ### 앱스토어 (인도네시아어)
 
+Kini tersedia di iPad.
+Pilih kalimat dengan mengetuk daftar.
+Dengarkan kutipan yang kamu simpan.
 Temukan kutipan langsung di pencarian.
-Minta Siri membacakan kutipan hari ini.
-Mulai pindai buku lewat Siri.
-Siri bisa cari kutipan dari satu kata.
 Kutipan tersimpan dicadangkan tiap hari.
 
 ### 앱스토어 (노르웨이어(보크말))
 
+Nå også på iPad.
+Velg setninger med et trykk i en liste.
+Få sitatene dine lest høyt.
 Finn sitatene dine i søk på iPhone.
-Be Siri lese opp dagens sitat.
-Start skanning av en bok med Siri.
-Siri finner sitater ut fra et ord.
 Sitatene sikkerhetskopieres daglig.
 
 ### 앱스토어 (네덜란드어)
 
+Nu ook op iPad.
+Kies zinnen door ze in een lijst te tikken.
+Laat je citaten voorlezen.
 Vind je citaten via zoeken op iPhone.
-Siri leest het citaat van de dag voor.
-Start het scannen van een boek met Siri.
-Siri zoekt citaten op één woord.
 Dagelijks een back-up van je citaten.
 
 ### 앱스토어 (폴란드어)
 
+Teraz także na iPadzie.
+Wybieraj zdania stuknięciem na liście.
+Słuchaj zapisanych cytatów.
 Znajdź cytaty w wyszukiwarce iPhone'a.
-Poproś Siri o przeczytanie cytatu dnia.
-Zacznij skanować książkę przez Siri.
-Siri znajdzie cytaty po jednym słowie.
 Zapisane cytaty są codziennie kopiowane.
 
 ### 앱스토어 (스웨덴어)
 
+Nu även på iPad.
+Välj meningar med ett tryck i en lista.
+Lyssna på dina sparade citat.
 Hitta dina citat i sökningen på iPhone.
-Be Siri läsa upp dagens citat.
-Börja skanna en bok med Siri.
-Siri hittar citat utifrån ett ord.
 Dina citat säkerhetskopieras dagligen.
 
 ### 앱스토어 (튀르키예어)
 
+Artık iPad'de de kullanılabilir.
+Cümleleri listeden dokunarak seçin.
+Kaydettiğiniz alıntıları dinleyin.
 Alıntılarınızı iPhone aramasında bulun.
-Günün alıntısını Siri'ye okutun.
-Kitap taramayı Siri ile başlatın.
-Siri tek bir kelimeyle alıntı bulur.
 Kayıtlı alıntılar her gün yedeklenir.
 
 ## 1.0.3
