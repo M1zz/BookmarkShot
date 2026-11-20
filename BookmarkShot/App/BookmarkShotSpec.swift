@@ -41,7 +41,7 @@ enum BookmarkShotSpec: LeeoAppSpec {
                 // 한도는 새로 더할 때만 막는다. 이미 모은 것은 보기 · 지우기 · 내보내기 모두 그대로다.
                 freeLimits: [Gate.books: BookmarkShotEntitlement.freeBooks,
                              Gate.quotes: BookmarkShotEntitlement.freeQuotes],
-                proOnly: [Gate.sync, Gate.widget]),
+                proOnly: [Gate.sync]),
             // 위젯과 함께 쓰는 통. 권한 캐시가 여기 적힌다.
             cacheSuiteName: SharedQuoteStore.appGroupID,
             // 개발자 응원하기(팁) — 소모성 셋. 기능을 열지 않는다.
@@ -52,7 +52,6 @@ enum BookmarkShotSpec: LeeoAppSpec {
         static let books = BookmarkShotFeature.books.rawValue
         static let quotes = BookmarkShotFeature.quotes.rawValue
         static let sync = BookmarkShotFeature.sync.rawValue
-        static let widget = BookmarkShotFeature.widget.rawValue
     }
 
     /// 금고가 위젯과 함께 쓰는 공유 컨테이너도 백업한다.

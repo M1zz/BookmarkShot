@@ -4,9 +4,13 @@
 //
 //  구절 스크랩 플로우: 페이지 촬영 → 영역 선택 → OCR → 손가락 하이라이트 → 문장/페이지 확인 → 저장
 //
+//  사진첩에서 여러 장을 고르면 한 장씩 차례로 같은 길을 간다 — 저장하거나 건너뛰면 다음 사진.
+//  사진첩에 잠자던 책 사진을 한 번에 글귀로 꺼내는 길이다. 이미 꺼낸 사진은 다시 묻지 않는다 (→ ImportedPhotos).
+//
 
 import SwiftUI
 import SwiftData
+import PhotosUI
 
 struct ScanPageView: View {
     let book: Book
@@ -46,6 +50,21 @@ struct ScanPageView: View {
 
     private enum PickMode: Hashable { case swipe, list }
 
+    /// 사진첩에서 고른 것 (고르자마자 대기열로 옮긴다)
+    @State private var pickedItems: [PhotosPickerItem] = []
+    /// 아직 열지 않은 사진들
+    @State private var queue: [PhotosPickerItem] = []
+    /// 이번에 고른 사진 수 (이미 꺼낸 사진은 빼고)
+    @State private var queueTotal = 0
+    /// 지금 보고 있는 사진첩 사진. 저장하거나 건너뛰면 '꺼냄'으로 적는다.
+    @State private var currentPhotoID: String?
+    /// 이번에 건너뛴, 이미 꺼낸 사진 수
+    @State private var alreadyImported = 0
+
+    /// 대기열에서 몇 번째 사진인가 (1부터)
+    private var queuePosition: Int { queueTotal - queue.count }
+    private var isBatch: Bool { queueTotal > 1 }
+
     var body: some View {
         NavigationStack {
             Group {
@@ -60,11 +79,21 @@ struct ScanPageView: View {
                     highlightStep
                 }
             }
-            .navigationTitle("구절 스크랩")
+            .navigationTitle(isBatch && step != .pickPhoto
+                             ? String(localized: "사진 \(queuePosition)/\(queueTotal)")
+                             : String(localized: "구절 스크랩"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
                     Button { dismiss() } label: { Label("닫기", systemImage: "xmark") }
+                }
+                if isBatch, step == .selectRegion || step == .highlight {
+                    ToolbarItem(placement: .bottomBar) {
+                        Button { finishCurrentPhoto() } label: {
+                            Label(queue.isEmpty ? String(localized: "이 사진 건너뛰고 마치기") : String(localized: "이 사진 건너뛰기"),
+                                  systemImage: "forward")
+                        }
+                    }
                 }
                 if step == .selectRegion {
                     ToolbarItem(placement: .confirmationAction) {
@@ -83,19 +112,8 @@ struct ScanPageView: View {
                 set: { if !$0 { pickerSource = nil } }
             )) {
                 if let source = pickerSource {
-                    ImagePicker(source: source) { image in
-                        // 촬영/선택 후 → 페이지 영역을 자동 추정한 값으로 영역 선택 화면 진입
-                        rawImage = image
-                        step = .selectRegion
-                        Task {
-                            let found = await DocumentFlattener.detectCorners(image)
-                            corners = found ?? .defaultInset
-                            announce(found != nil
-                                     ? String(localized: "페이지를 찾았어요. 구문 추출을 누르세요.")
-                                     : String(localized: "페이지 모서리를 찾지 못했어요. 책을 화면 가득 다시 찍거나 그대로 구문 추출을 누르세요."))
-                        }
-                    }
-                    .ignoresSafeArea()
+                    ImagePicker(source: source) { begin(with: $0) }
+                        .ignoresSafeArea()
                 }
             }
             .sheet(item: $paywallFeature, onDismiss: {
@@ -106,12 +124,16 @@ struct ScanPageView: View {
                 get: { errorMessage != nil },
                 set: { if !$0 { errorMessage = nil } }
             )) {
-                Button("확인") { step = .pickPhoto }
+                Button("확인") {
+                    // 여러 장을 꺼내는 중이면 다음 사진으로, 아니면 처음으로
+                    if isBatch { finishCurrentPhoto() } else { step = .pickPhoto }
+                }
             } message: {
                 Text(errorMessage ?? "")
             }
         }
         .task { await startScreenshotScene() }
+        .onChange(of: pickedItems) { _, items in startQueue(items) }
         .sensoryFeedback(.success, trigger: savedCount)
         .sensoryFeedback(.error, trigger: errorMessage) { _, new in new != nil }
     }
@@ -144,9 +166,28 @@ struct ScanPageView: View {
                 .foregroundStyle(.secondary)
                 .multilineTextAlignment(.center)
             Spacer()
-            PhotoSourceButtons { source in
-                pickerSource = source
+            VStack(spacing: 12) {
+                Button {
+                    pickerSource = .camera
+                } label: {
+                    Label("카메라로 찍기", systemImage: "camera.fill")
+                }
+                .buttonStyle(.brandPrimary)
+
+                // 여러 장을 한 번에. 사진첩 전체 권한은 묻지 않는다 — 고른 사진만 앱에 온다.
+                PhotosPicker(selection: $pickedItems, maxSelectionCount: nil,
+                             selectionBehavior: .ordered, matching: .images, photoLibrary: .shared()) {
+                    Label("사진첩에서 여러 장 꺼내기", systemImage: "photo.stack")
+                }
+                .buttonStyle(.brandSecondary)
+
+                if alreadyImported > 0 {
+                    Text("이미 꺼낸 사진 \(alreadyImported)장은 건너뛰었어요.")
+                        .font(.footnote)
+                        .foregroundStyle(.secondary)
+                }
             }
+            .padding(.horizontal, Theme.screenPadding)
             .padding(.bottom, 24)
         }
     }
@@ -251,6 +292,62 @@ struct ScanPageView: View {
 
     // MARK: - Actions
 
+    /// 사진 한 장으로 시작한다 → 페이지 영역을 자동 추정한 값으로 영역 선택 화면.
+    private func begin(with image: UIImage) {
+        rawImage = image
+        pageImage = nil
+        ocrResult = nil
+        extractedText = ""
+        pageNumberText = ""
+        corners = .defaultInset
+        step = .selectRegion
+        Task {
+            let found = await DocumentFlattener.detectCorners(image)
+            corners = found ?? .defaultInset
+            announce(found != nil
+                     ? String(localized: "페이지를 찾았어요. 구문 추출을 누르세요.")
+                     : String(localized: "페이지 모서리를 찾지 못했어요. 책을 화면 가득 다시 찍거나 그대로 구문 추출을 누르세요."))
+        }
+    }
+
+    /// 사진첩에서 고른 사진들을 대기열에 세운다. 이미 꺼낸 사진은 뺀다.
+    private func startQueue(_ items: [PhotosPickerItem]) {
+        guard !items.isEmpty else { return }
+        let fresh = items.filter { !ImportedPhotos.contains($0.itemIdentifier) }
+        alreadyImported = items.count - fresh.count
+        pickedItems = []
+        queue = fresh
+        queueTotal = fresh.count
+        if fresh.isEmpty {
+            announce(String(localized: "고른 사진은 모두 이미 꺼냈어요."))
+        } else {
+            openNextPhoto()
+        }
+    }
+
+    /// 대기열의 다음 사진을 연다. 못 읽은 사진은 건너뛴다.
+    private func openNextPhoto() {
+        guard !queue.isEmpty else { dismiss(); return }
+        let item = queue.removeFirst()
+        currentPhotoID = item.itemIdentifier
+        step = .processing
+        Task {
+            if let data = try? await item.loadTransferable(type: Data.self), let image = UIImage(data: data) {
+                begin(with: image)
+                if isBatch { announce(String(localized: "사진 \(queuePosition)/\(queueTotal)")) }
+            } else {
+                finishCurrentPhoto()
+            }
+        }
+    }
+
+    /// 지금 사진을 끝낸다(저장했거나 건너뜀). 사진첩 사진이면 '꺼냄'으로 적고 다음 사진으로.
+    private func finishCurrentPhoto() {
+        ImportedPhotos.insert(currentPhotoID)
+        currentPhotoID = nil
+        if queue.isEmpty { dismiss() } else { openNextPhoto() }
+    }
+
     private func extractFromRegion() {
         guard let rawImage else { return }
         Task {
@@ -311,11 +408,30 @@ struct ScanPageView: View {
         modelContext.insert(quote)
         try? modelContext.save()
         savedCount += 1
-        dismiss()
+        finishCurrentPhoto()
     }
 
     /// VoiceOver 로 지금 일을 알린다. 보이지 않아도 찍기 · 읽기가 어떻게 됐는지 안다.
     private func announce(_ message: String) {
         AccessibilityNotification.Announcement(message).post()
+    }
+}
+
+/// 이미 글귀로 꺼낸 사진첩 사진. 같은 사진을 또 고르면 대기열에서 뺀다.
+/// 사진첩의 식별자만 적는다 (사진 자체는 저장하지 않는다).
+enum ImportedPhotos {
+    private static let key = "importedPhotoIDs"
+
+    static func contains(_ id: String?) -> Bool {
+        guard let id else { return false }
+        return Set(UserDefaults.standard.stringArray(forKey: key) ?? []).contains(id)
+    }
+
+    static func insert(_ id: String?) {
+        guard let id else { return }
+        var ids = UserDefaults.standard.stringArray(forKey: key) ?? []
+        guard !ids.contains(id) else { return }
+        ids.append(id)
+        UserDefaults.standard.set(ids, forKey: key)
     }
 }

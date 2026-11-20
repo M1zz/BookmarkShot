@@ -7,7 +7,8 @@
 //   · 무료: 책 10권 · 문장 100개까지. 사진 한 장으로 긋고 모으는 모든 것, 검색 · 즐겨찾기 · 오늘의 문장,
 //           카드 · 텍스트 공유, 문장 전체 내보내기(텍스트 · CSV)
 //   · Plus: 책 · 문장 무제한
-//   · Pro:  Plus 전부 + iCloud 동기화, 홈 화면 · 잠금화면 위젯
+//   · Pro:  Plus 전부 + iCloud 동기화
+//   · 위젯(홈 화면 · 잠금화면)은 모두에게 열려 있다 — 다시 만나는 길이라 사용자를 붙잡는다 (2026-11-21)
 //
 //  ⚠️ 절대 잠그지 않는 것: 이미 모은 책 · 문장 보기와 지우기, 내보내기, 접근성.
 //     한도는 **새로 더할 때만** 막는다. 칸이 내려가도 기기 안의 기록은 그대로다.
@@ -41,7 +42,6 @@ enum BookmarkShotFeature: String, Identifiable, CaseIterable {
     case books
     case quotes
     case sync
-    case widget
 
     var id: String { rawValue }
 
@@ -49,7 +49,7 @@ enum BookmarkShotFeature: String, Identifiable, CaseIterable {
     var tier: BookmarkShotTier {
         switch self {
         case .books, .quotes: .plus
-        case .sync, .widget:  .pro
+        case .sync:           .pro
         }
     }
 }
@@ -163,8 +163,6 @@ enum BookmarkShotEntitlement {
     /// `Purchases` 만 부른다.
     static func markSelling() { defaults.set(true, forKey: onSaleKey) }
 
-    /// 잠긴 위젯을 누르면 여는 주소. ⚠️ 위젯의 SharedQuote.swift 와 같은 값.
-    static let widgetPaywallURL = URL(string: "bookmarkshot://paywall/widget")!
 
     // MARK: - iCloud 동기화
 

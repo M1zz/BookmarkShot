@@ -104,10 +104,6 @@ struct ContentView: View {
                 await purchases.refresh()
             }
         }
-        // 잠긴 위젯('Pro에서 열려요')을 누르면 그 자리의 페이월로
-        .onOpenURL { url in
-            if url == BookmarkShotEntitlement.widgetPaywallURL { paywallFeature = .widget }
-        }
         .onChange(of: purchases.graduationIsDue, initial: true) { _, due in
             guard due, !showsGraduation, paywallFeature == nil, !showSupport else { return }
             purchases.markGraduationOffered()
@@ -117,21 +113,34 @@ struct ContentView: View {
         .onChange(of: widgetSignature) { syncWidget() }
         // 시트 · 알림창이 접힌 선을 비킨다. 접혀 있으면 아무것도 바뀌지 않는다.
         .foldAware()
-        // 유료가 되면 콘페티, 모든 사용자가 한 번은 감사를 받는다 (LeeoStore 가 판정한다)
-        .leeoCelebrations(appName: BookmarkShotSpec.appName)
+        // 유료가 되면 콘페티, 모든 사용자가 한 번은 감사를 받는다 (LeeoStore 가 판정한다).
+        // 스크린샷 데모에서는 띄우지 않는다 — 스토어 그림에 하트가 찍히지 않게.
+        .modifier(CelebrationsUnlessScreenshot())
     }
 
     /// 스크랩 수·즐겨찾기·본문 변화를 담은 가벼운 시그니처 (변화 감지용)
     private var widgetSignature: [String] {
-        quotes.map { "\($0.persistentModelID.hashValue)|\($0.isFavorite)|\($0.text.count)" }
+        quotes.map { "\($0.persistentModelID.hashValue)|\($0.isFavorite)|\($0.text.count)|\($0.reviewBias)" }
     }
 
     private func syncWidget() {
         SharedQuoteStore.save(from: quotes)
+        // 알림에 실을 문장도 같은 때 다시 만든다 (지운 문장이 알림으로 오지 않게)
+        DailyReminder.reschedule(with: quotes)
     }
 }
 
 #Preview {
     ContentView()
         .modelContainer(for: [Book.self, Quote.self], inMemory: true)
+}
+
+private struct CelebrationsUnlessScreenshot: ViewModifier {
+    func body(content: Content) -> some View {
+        if ScreenshotMode.isActive {
+            content
+        } else {
+            content.leeoCelebrations(appName: BookmarkShotSpec.appName)
+        }
+    }
 }

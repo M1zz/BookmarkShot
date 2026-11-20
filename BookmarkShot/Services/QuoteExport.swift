@@ -2,7 +2,7 @@
 //  QuoteExport.swift
 //  밑줄 (BookmarkShot)
 //
-//  모은 문장 전체를 파일로 꺼낸다 — 텍스트(.txt) · 표(.csv). **무료다.** 칸과 상관없이 늘 열려 있다.
+//  모은 문장 전체를 파일로 꺼낸다 — 텍스트(.txt) · 표(.csv) · 마크다운(.md, 노션 · 옵시디언). **무료다.** 칸과 상관없이 늘 열려 있다.
 //  내 문장을 앱 밖으로 가져갈 길은 잠그지 않는다.
 //
 //  ShareLink 에 넘기면 공유 시트가 열릴 때 파일을 만든다(누르기 전에는 아무것도 쓰지 않는다).
@@ -12,7 +12,7 @@ import SwiftUI
 import UniformTypeIdentifiers
 
 struct QuoteExport: Transferable {
-    enum Format { case text, csv }
+    enum Format { case text, csv, markdown }
 
     /// 파일에 적을 한 줄. SwiftData 모델을 공유 시트 밖으로 넘기지 않게 값으로 떠 둔다.
     struct Row {
@@ -21,6 +21,7 @@ struct QuoteExport: Transferable {
         var pageLabel: String?
         var isFavorite: Bool
         var createdAt: Date
+        var tags: [String]
     }
 
     let rows: [Row]
@@ -30,7 +31,8 @@ struct QuoteExport: Transferable {
         // 책 순서(제목) → 책 안에서는 담은 순서. 읽은 길을 따라 읽히게.
         self.rows = quotes
             .map { Row(text: $0.text, book: $0.book?.title ?? "", author: $0.book?.author ?? "", note: $0.note,
-                       page: $0.pageNumber, pageLabel: $0.pageLabel, isFavorite: $0.isFavorite, createdAt: $0.createdAt) }
+                       page: $0.pageNumber, pageLabel: $0.pageLabel, isFavorite: $0.isFavorite, createdAt: $0.createdAt,
+                       tags: $0.tags) }
             .sorted { ($0.book, $0.createdAt) < ($1.book, $1.createdAt) }
         self.format = format
     }
@@ -44,15 +46,22 @@ struct QuoteExport: Transferable {
             try export.write(.csv)
         }
         .exportingCondition { $0.format == .csv }
+        FileRepresentation(exportedContentType: UTType(filenameExtension: "md") ?? .plainText) { export in
+            try export.write(.markdown)
+        }
+        .exportingCondition { $0.format == .markdown }
     }
 
     /// 공유 시트에 보일 파일 이름 (확장자 없이).
     static var fileName: String { String(localized: "밑줄 문장 모음", comment: "Export: file name for all saved quotes") }
 
     private func write(_ format: Format) throws -> SentTransferredFile {
-        let ext = format == .text ? "txt" : "csv"
+        let (ext, body) = switch format {
+        case .text: ("txt", plainText)
+        case .csv: ("csv", csv)
+        case .markdown: ("md", markdown)
+        }
         let url = FileManager.default.temporaryDirectory.appendingPathComponent("\(Self.fileName).\(ext)")
-        let body = format == .text ? plainText : csv
         // CSV 는 BOM 을 붙인다. 없으면 엑셀이 한글 · 한자를 깨뜨려 연다.
         let data = (format == .csv ? "\u{FEFF}" : "") + body
         try data.write(to: url, atomically: true, encoding: .utf8)
@@ -71,6 +80,31 @@ struct QuoteExport: Transferable {
             return block
         }
         .joined(separator: "\n\n") + "\n"
+    }
+
+    // MARK: - 마크다운 (노션 · 옵시디언에 그대로 붙는다)
+
+    /// 책마다 제목(##), 문장은 인용(>), 쪽 · 메모 · 모음(#태그)은 그 아래.
+    private var markdown: String {
+        var out = "# \(Self.fileName)\n"
+        var currentBook: String?
+        for row in rows {
+            if row.book != currentBook {
+                currentBook = row.book
+                let title = row.book.isEmpty ? String(localized: "책 없이 담은 문장") : row.book
+                out += "\n## \(title)\n"
+                if !row.author.isEmpty { out += "\(row.author)\n" }
+            }
+            out += "\n" + row.text.split(separator: "\n", omittingEmptySubsequences: false)
+                .map { "> \($0)" }.joined(separator: "\n") + "\n"
+            var meta: [String] = []
+            if let page = row.pageLabel { meta.append(page) }
+            if row.isFavorite { meta.append("★") }
+            meta += row.tags.map { "#" + $0.replacingOccurrences(of: " ", with: "_") }
+            if !meta.isEmpty { out += "\n" + meta.joined(separator: " · ") + "\n" }
+            if !row.note.isEmpty { out += "\n\(row.note)\n" }
+        }
+        return out
     }
 
     // MARK: - CSV

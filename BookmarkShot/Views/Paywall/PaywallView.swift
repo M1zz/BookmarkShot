@@ -103,9 +103,6 @@ struct PaywallView: View {
         case .sync:
             (String(localized: "iCloud 동기화는 Pro에서 열려요"),
              String(localized: "폰을 바꾸거나 아이패드에서 봐도 그어 온 문장이 그대로 따라와요."))
-        case .widget:
-            (String(localized: "위젯은 Pro에서 열려요"),
-             String(localized: "앱을 열지 않아도 홈 화면과 잠금화면에서 오늘의 문장을 만나요."))
         }
         return VStack(alignment: .leading, spacing: 4) {
             Text(title).font(.headline)
@@ -137,8 +134,6 @@ struct PaywallView: View {
                 tagline(String(localized: "모은 문장을 지키고 곁에 두기"))
                 row("square.stack.3d.up", "Plus의 모든 것")
                 row("icloud", "iCloud로 기기 간 서재 · 문장 동기화")
-                row("apps.iphone", "홈 화면 위젯 (작게 · 중간 · 크게)")
-                row("lock.iphone", "잠금화면 위젯 (원형 · 사각 · 한 줄)")
             }
             // 이미 이 칸 이상이면 살 것이 없다. 구독을 평생으로 바꾸는 길은 설정에 있다.
             if purchases.tier < tier, hasAnyProduct(tier) {
@@ -476,7 +471,7 @@ struct PlanComparisonTable: View {
             Line(title: String(localized: "카드 이미지 · 텍스트 공유"), free: .yes, plus: .yes, pro: .yes),
             Line(title: String(localized: "문장 전체 텍스트 내보내기"), free: .yes, plus: .yes, pro: .yes),
             Line(title: String(localized: "iCloud 동기화"), free: .no, plus: .no, pro: .yes),
-            Line(title: String(localized: "홈 화면 · 잠금화면 위젯"), free: .no, plus: .no, pro: .yes),
+            Line(title: String(localized: "홈 화면 · 잠금화면 위젯"), free: .yes, plus: .yes, pro: .yes),
         ]
     }
 

@@ -4,195 +4,195 @@
 
 ### 앱스토어 (한국어)
 
+사진첩의 책 사진을 여러 장 한 번에 꺼내요.
+하루 세 문장을 다시 만나고 알림으로 받아요.
+올해 그은 문장을 회고 카드로 공유해요.
+위젯을 이제 누구나 무료로 써요.
 이제 iPad에서도 쓸 수 있어요.
-문장 목록에서 탭해 골라 담을 수 있어요.
-모은 문장을 소리로 들려줘요.
-밑줄 친 문장을 iPhone 검색에서 바로 찾아요.
-저장한 문장이 매일 자동으로 백업돼요.
 
 ### 앱스토어 (영어)
 
+Pick many book photos at once.
+Three quotes a day, with a reminder.
+Share a card of your year in quotes.
+Widgets are now free for everyone.
 Now available on iPad.
-Pick lines from a simple list by tapping.
-Listen to your saved quotes aloud.
-Find your quotes in iPhone search.
-Your saved quotes are backed up daily.
 
 ### App Store (en-GB)
 
+Pick many book photos at once.
+Three quotes a day, with a reminder.
+Share a card of your year in quotes.
+Widgets are now free for everyone.
 Now available on iPad.
-Pick lines from a simple list by tapping.
-Listen to your saved quotes aloud.
-Find your quotes in iPhone search.
-Your saved quotes are backed up daily.
 
 ### 앱스토어 (중국어 간체)
 
+一次从相册取出多张书页照片。
+每天重温三句，还能收到提醒。
+用年度卡片分享今年划下的句子。
+小组件现在人人免费。
 现在也可以在 iPad 上使用。
-可以在句子列表中轻点选择。
-收藏的句子可以朗读给你听。
-在 iPhone 搜索中直接找到划线句子。
-保存的句子每天自动备份。
 
 ### 앱스토어 (중국어 번체)
 
+一次從相簿取出多張書頁照片。
+每天重溫三句，還能收到提醒。
+用年度卡片分享今年劃下的句子。
+小工具現在人人免費。
 現在也可以在 iPad 上使用。
-可以在句子列表中點一下選擇。
-收藏的句子可以朗讀給你聽。
-在 iPhone 搜尋中直接找到劃線句子。
-儲存的句子每天自動備份。
 
 ### 앱스토어 (일본어)
 
+本の写真を何枚もまとめて取り込めます。
+1日3つの文に出会い、通知でも届きます。
+今年引いた文を振り返りカードで共有。
+ウィジェットが誰でも無料になりました。
 iPadでも使えるようになりました。
-文のリストからタップで選べます。
-集めた文を読み上げて聞けます。
-線を引いた文をiPhoneの検索で探せます。
-保存した文を毎日自動でバックアップします。
 
 ### 앱스토어 (러시아어)
 
+Много фото страниц за один раз.
+Три цитаты в день и напоминание.
+Карточка года с вашими цитатами.
+Виджеты теперь бесплатны для всех.
 Теперь и на iPad.
-Фразы можно выбрать в списке.
-Сохранённые цитаты можно слушать.
-Ищите цитаты прямо в поиске iPhone.
-Сохранённые цитаты копируются ежедневно.
 
 ### 앱스토어 (스페인어)
 
+Varias fotos de libros a la vez.
+Tres frases al día, con recordatorio.
+Comparte tu año en una tarjeta.
+Los widgets ya son gratis para todos.
 Ya disponible en iPad.
-Elige frases tocando en una lista.
-Escucha en voz alta tus frases.
-Encuentra tus citas en la búsqueda.
-Tus citas se respaldan cada día.
 
 ### 앱스토어 (독일어)
 
+Viele Buchfotos auf einmal übernehmen.
+Drei Zitate am Tag, mit Erinnerung.
+Teile dein Jahr in Zitaten.
+Widgets sind jetzt für alle gratis.
 Jetzt auch auf dem iPad.
-Sätze jetzt per Liste antippen.
-Gesammelte Zitate vorlesen lassen.
-Zitate direkt in der Suche finden.
-Deine Zitate werden täglich gesichert.
 
 ### 앱스토어 (프랑스어)
 
+Plusieurs photos de livres d’un coup.
+Trois citations par jour, avec rappel.
+Partagez votre année en citations.
+Les widgets sont gratuits pour tous.
 Désormais disponible sur iPad.
-Choisissez vos phrases dans une liste.
-Écoutez vos citations à voix haute.
-Trouvez vos citations dans la recherche.
-Vos citations sauvegardées chaque jour.
 
 ### 앱스토어 (이탈리아어)
 
+Più foto di libri in una volta.
+Tre frasi al giorno, con promemoria.
+Condividi il tuo anno in frasi.
+I widget ora sono gratis per tutti.
 Ora disponibile su iPad.
-Scegli le frasi toccandole in un elenco.
-Ascolta ad alta voce le tue frasi.
-Trova le tue frasi nella ricerca.
-Le tue frasi salvate ogni giorno.
 
 ### 앱스토어 (포르투갈어 브라질)
 
+Várias fotos de livros de uma vez.
+Três frases por dia, com lembrete.
+Compartilhe seu ano em frases.
+Os widgets agora são grátis.
 Agora também no iPad.
-Escolha frases tocando em uma lista.
-Ouça suas frases em voz alta.
-Ache seus trechos na busca do iPhone.
-Seus trechos têm backup todo dia.
 
 ### 앱스토어 (태국어)
 
+ดึงรูปหนังสือหลายรูปได้ในครั้งเดียว
+อ่านซ้ำวันละสามประโยคพร้อมแจ้งเตือน
+แชร์การ์ดสรุปประโยคแห่งปี
+วิดเจ็ตใช้ได้ฟรีทุกคนแล้ว
 ใช้งานบน iPad ได้แล้ว
-แตะเลือกประโยคจากรายการได้
-ฟังประโยคที่เก็บไว้ได้
-หาประโยคที่ขีดเส้นไว้ได้จากการค้นหา
-ประโยคที่บันทึกไว้สำรองอัตโนมัติทุกวัน
 
 ### 앱스토어 (베트남어)
 
+Lấy nhiều ảnh sách cùng lúc.
+Gặp lại ba câu mỗi ngày, có nhắc nhở.
+Chia sẻ thẻ năm với các câu đã gạch.
+Widget nay miễn phí cho mọi người.
 Nay đã dùng được trên iPad.
-Chạm để chọn câu từ danh sách.
-Nghe đọc to các câu đã lưu.
-Tìm câu đã gạch chân trong tìm kiếm.
-Câu đã lưu được sao lưu mỗi ngày.
 
 ### 앱스토어 (체코어)
 
+Více fotek knih najednou.
+Tři citáty denně s připomenutím.
+Sdílejte svůj rok v citátech.
+Widgety jsou teď zdarma pro všechny.
 Nově také na iPadu.
-Věty teď vyberete klepnutím v seznamu.
-Uložené citáty si poslechnete nahlas.
-Citáty najdete přímo v hledání iPhonu.
-Uložené citáty se denně zálohují.
 
 ### 앱스토어 (덴마크어)
 
+Mange bogbilleder på én gang.
+Tre citater om dagen med påmindelse.
+Del dit år i citater.
+Widgets er nu gratis for alle.
 Nu også på iPad.
-Vælg sætninger med et tryk i en liste.
-Få dine citater læst højt.
-Find dine citater i søgning på iPhone.
-Dine citater sikkerhedskopieres dagligt.
 
 ### 앱스토어 (그리스어)
 
+Πολλές φωτογραφίες βιβλίων μαζί.
+Τρία αποσπάσματα τη μέρα με υπενθύμιση.
+Μοιράσου τη χρονιά σου σε αποσπάσματα.
+Τα widget είναι πλέον δωρεάν.
 Τώρα και στο iPad.
-Επιλέξτε φράσεις πατώντας σε λίστα.
-Ακούστε τα αποσπάσματά σας.
-Βρείτε τα αποσπάσματα στην αναζήτηση.
-Τα αποσπάσματα σώζονται καθημερινά.
 
 ### 앱스토어 (핀란드어)
 
+Monta kirjakuvaa kerralla.
+Kolme lainausta päivässä muistutuksella.
+Jaa vuotesi lainauksina.
+Widgetit ovat nyt kaikille ilmaisia.
 Nyt myös iPadilla.
-Valitse lauseet napauttamalla listasta.
-Kuuntele tallennetut lainaukset.
-Löydä lainauksesi iPhonen hausta.
-Lainaukset varmuuskopioidaan päivittäin.
 
 ### 앱스토어 (인도네시아어)
 
+Banyak foto buku sekaligus.
+Tiga kutipan sehari, dengan pengingat.
+Bagikan tahunmu dalam kutipan.
+Widget kini gratis untuk semua.
 Kini tersedia di iPad.
-Pilih kalimat dengan mengetuk daftar.
-Dengarkan kutipan yang kamu simpan.
-Temukan kutipan langsung di pencarian.
-Kutipan tersimpan dicadangkan tiap hari.
 
 ### 앱스토어 (노르웨이어(보크말))
 
+Mange bokbilder på én gang.
+Tre sitater om dagen med påminnelse.
+Del året ditt i sitater.
+Widgeter er nå gratis for alle.
 Nå også på iPad.
-Velg setninger med et trykk i en liste.
-Få sitatene dine lest høyt.
-Finn sitatene dine i søk på iPhone.
-Sitatene sikkerhetskopieres daglig.
 
 ### 앱스토어 (네덜란드어)
 
+Veel boekfoto’s tegelijk.
+Drie citaten per dag, met herinnering.
+Deel je jaar in citaten.
+Widgets zijn nu gratis voor iedereen.
 Nu ook op iPad.
-Kies zinnen door ze in een lijst te tikken.
-Laat je citaten voorlezen.
-Vind je citaten via zoeken op iPhone.
-Dagelijks een back-up van je citaten.
 
 ### 앱스토어 (폴란드어)
 
+Wiele zdjęć książek naraz.
+Trzy cytaty dziennie z przypomnieniem.
+Udostępnij swój rok w cytatach.
+Widżety są teraz darmowe dla wszystkich.
 Teraz także na iPadzie.
-Wybieraj zdania stuknięciem na liście.
-Słuchaj zapisanych cytatów.
-Znajdź cytaty w wyszukiwarce iPhone'a.
-Zapisane cytaty są codziennie kopiowane.
 
 ### 앱스토어 (스웨덴어)
 
+Många bokbilder på en gång.
+Tre citat om dagen med påminnelse.
+Dela ditt år i citat.
+Widgetar är nu gratis för alla.
 Nu även på iPad.
-Välj meningar med ett tryck i en lista.
-Lyssna på dina sparade citat.
-Hitta dina citat i sökningen på iPhone.
-Dina citat säkerhetskopieras dagligen.
 
 ### 앱스토어 (튀르키예어)
 
+Birçok kitap fotoğrafını tek seferde al.
+Günde üç alıntı, hatırlatmayla.
+Yılını alıntılarla paylaş.
+Widget’lar artık herkese ücretsiz.
 Artık iPad'de de kullanılabilir.
-Cümleleri listeden dokunarak seçin.
-Kaydettiğiniz alıntıları dinleyin.
-Alıntılarınızı iPhone aramasında bulun.
-Kayıtlı alıntılar her gün yedeklenir.
 
 ## 1.0.3
 

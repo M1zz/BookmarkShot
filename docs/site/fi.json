@@ -114,8 +114,7 @@
       "name": "Plus · Pro",
       "items": [
         "Plus: rajattomasti kirjoja ja lainauksia",
-        "Pro: kaikki mitä Plus tarjoaa sekä iCloud-synkronointi",
-        "Pro: Koti-valikon ja lukitusnäytön widgetit"
+        "Pro: kaikki mitä Plus tarjoaa sekä iCloud-synkronointi"
       ],
       "note": "Valitse viikko-, kuukausi- tai vuositilaus tai kertamaksu pysyvään käyttöön. Asetuksista lähetettävä tippi on erillinen eikä avaa mitään."
     },
@@ -150,7 +149,7 @@
       },
       {
         "q": "Miten lisään widgetin?",
-        "a": "Pidä sormea Koti-valikossa, napauta Muokkaa > Lisää widget ja valitse Bookmark Shot. Lukitusnäytöllä pidä sormea näytöllä ja napauta Muokkaa. Päivän lainaus näkyy siellä. Widgetit kuuluvat Pro-versioon."
+        "a": "Pidä sormea Koti-valikossa, napauta Muokkaa > Lisää widget ja valitse Bookmark Shot. Lukitusnäytöllä pidä sormea näytöllä ja napauta Muokkaa. Päivän lainaus näkyy siellä."
       },
       {
         "q": "Kamera ei toimi.",

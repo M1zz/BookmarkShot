@@ -14,6 +14,10 @@ final class Quote {
     var note: String = ""
     var isFavorite: Bool = false
     var createdAt: Date = Date()
+    /// 이 문장을 담은 모음(태그). 한 문장이 여러 모음에 들 수 있다.
+    var tags: [String] = []
+    /// 다시 만나는 빈도: -1 덜 자주 · 0 보통 · 1 더 자주 (→ ReviewPicker)
+    var reviewBias: Int = 0
 
     var book: Book?
 

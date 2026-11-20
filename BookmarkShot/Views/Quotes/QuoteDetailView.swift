@@ -47,6 +47,10 @@ struct QuoteDetailView: View {
                 }
             }
 
+            Section("모음") {
+                TagEditor(quote: quote)
+            }
+
             Section("메모") {
                 TextEditor(text: $quote.note)
                     .frame(minHeight: 80)

@@ -59,7 +59,7 @@ iCloud로 아이폰끼리 서재와 문장이 자동으로 맞춰집니다.
 개인정보
 글자 인식은 모두 기기 안에서 처리됩니다. 사진은 밖으로 나가지 않고, 인터넷이 없어도 쓸 수 있어요.
 
-책 10권, 문장 100개까지는 무료로 쓸 수 있어요. 밑줄 Plus는 이 제한을 없애고, 밑줄 Pro는 여기에 iCloud 동기화와 위젯을 더합니다.
+책 10권, 문장 100개까지는 무료로 쓸 수 있어요. 밑줄 Plus는 이 제한을 없애고, 밑줄 Pro는 여기에 iCloud 동기화를 더합니다. 홈 화면과 잠금화면 위젯은 누구나 무료로 쓸 수 있어요.
 주간, 월간, 연간 구독이나 한 번 결제로 평생 쓰기 중에 고를 수 있어요. 광고는 없어요.
 
 구독 안내
@@ -126,7 +126,7 @@ With iCloud, your library and quotes stay in step across your iPhones.
 Privacy
 All text recognition happens on your device. Your photos never leave it, and you can capture quotes without an internet connection.
 
-Save up to 10 books and 100 quotes for free. Plus removes the limits, and Pro adds iCloud sync and widgets.
+Save up to 10 books and 100 quotes for free. Plus removes the limits, and Pro adds iCloud sync. Home and Lock Screen widgets are free for everyone.
 Choose a weekly, monthly or yearly subscription, or pay once for lifetime. No ads.
 
 Subscriptions
@@ -193,7 +193,7 @@ With iCloud, your library and quotes stay in step across your iPhones.
 Privacy
 All text recognition happens on your device. Your photos never leave it, and you can capture quotes without an internet connection.
 
-Save up to 10 books and 100 quotes for free. Plus removes the limits, and Pro adds iCloud sync and widgets.
+Save up to 10 books and 100 quotes for free. Plus removes the limits, and Pro adds iCloud sync. Home and Lock Screen widgets are free for everyone.
 Choose a weekly, monthly or yearly subscription, or pay once for lifetime. No adverts.
 
 Subscriptions
@@ -260,7 +260,7 @@ https://m1zz.github.io/BookmarkShot/zh-Hans/
 隐私
 文字识别全部在设备上完成。照片不会离开你的设备，没有网络也能摘录。
 
-10 本书、100 条摘录以内可免费使用。Plus 不限数量，Pro 另外提供 iCloud 同步和小组件。
+10 本书、100 条摘录以内可免费使用。Plus 不限数量，Pro 另外提供 iCloud 同步。主屏幕和锁定屏幕小组件人人免费可用。
 可选按周、按月、按年订阅，或一次性买断永久使用。没有广告。
 
 订阅说明
@@ -327,7 +327,7 @@ https://m1zz.github.io/BookmarkShot/zh-Hant/
 隱私
 文字辨識全部在裝置上完成。照片不會離開你的裝置，沒有網路也能摘錄。
 
-10 本書、100 則摘錄以內可免費使用。Plus 不限數量，Pro 再加上 iCloud 同步和小工具。
+10 本書、100 則摘錄以內可免費使用。Plus 不限數量，Pro 再加上 iCloud 同步。主畫面與鎖定畫面小工具人人都能免費使用。
 可選擇按週、按月、按年訂閱，或一次買斷永久使用。沒有廣告。
 
 訂閱說明
@@ -394,7 +394,7 @@ iCloudを使えば、複数のiPhoneで本棚と文が自動でそろいます�
 プライバシー
 文字の認識はすべて端末の中で行われます。写真が外に送られることはなく、インターネットに接続していなくても使えます。
 
-本10冊・文100件までは無料で使えます。Plusでは上限がなくなり、ProではさらにiCloud同期とウィジェットが使えます。
+本10冊・文100件までは無料で使えます。Plusでは上限がなくなり、ProではさらにiCloud同期が使えます。ホーム画面とロック画面のウィジェットは誰でも無料です。
 週額・月額・年額のサブスクリプションか、一度の支払いでずっと使える買い切りから選べます。広告はありません。
 
 サブスクリプションについて
@@ -461,7 +461,7 @@ Bookmark Shot: цитаты из книг
 Конфиденциальность
 Текст распознаётся только на устройстве. Фотографии никуда не отправляются, а приложение работает и без интернета.
 
-До 10 книг и 100 цитат можно сохранить бесплатно. Plus снимает ограничения, а Pro добавляет синхронизацию через iCloud и виджеты.
+До 10 книг и 100 цитат можно сохранить бесплатно. Plus снимает ограничения, а Pro добавляет синхронизацию через iCloud. Виджеты на экране «Домой» и экране блокировки бесплатны для всех.
 Выберите подписку на неделю, месяц или год либо разовую покупку навсегда. Рекламы нет.
 
 Подписки
@@ -528,7 +528,7 @@ Con iCloud, tu biblioteca y tus citas se mantienen al día en todos tus iPhone.
 Privacidad
 Todo el reconocimiento de texto se hace en tu dispositivo. Tus fotos no salen de él, y puedes guardar citas sin conexión a internet.
 
-Guarda gratis hasta 10 libros y 100 citas. Plus quita los límites y Pro añade la sincronización con iCloud y los widgets.
+Guarda gratis hasta 10 libros y 100 citas. Plus quita los límites y Pro añade la sincronización con iCloud. Los widgets de la pantalla de inicio y de bloqueo son gratis para todos.
 Elige una suscripción semanal, mensual o anual, o un pago único para siempre. Sin anuncios.
 
 Suscripciones
@@ -595,7 +595,7 @@ Sync zwischen Geräten
 Datenschutz
 Die gesamte Texterkennung läuft auf deinem Gerät. Deine Fotos verlassen es nie, und Zitate erfassen klappt auch ohne Internet.
 
-Bis zu 10 Bücher und 100 Zitate speicherst du kostenlos. Plus hebt diese Grenzen auf, Pro bringt zusätzlich iCloud-Synchronisierung und Widgets.
+Bis zu 10 Bücher und 100 Zitate speicherst du kostenlos. Plus hebt diese Grenzen auf, Pro bringt zusätzlich iCloud-Synchronisierung. Widgets für Home- und Sperrbildschirm sind für alle kostenlos.
 Wähle ein Wochen-, Monats- oder Jahresabo oder zahle einmal für immer. Ohne Werbung.
 
 Abonnements
@@ -662,7 +662,7 @@ Avec iCloud, votre bibliothèque et vos citations restent à jour sur tous vos i
 Confidentialité
 Toute la reconnaissance du texte se fait sur votre appareil. Vos photos n’en sortent jamais, et vous pouvez saisir des citations sans connexion internet.
 
-Enregistrez gratuitement jusqu’à 10 livres et 100 citations. Plus lève ces limites, et Pro ajoute la synchronisation iCloud et les widgets.
+Enregistrez gratuitement jusqu’à 10 livres et 100 citations. Plus lève ces limites, et Pro ajoute la synchronisation iCloud. Les widgets de l’écran d’accueil et de l’écran verrouillé sont gratuits pour tous.
 Choisissez un abonnement hebdomadaire, mensuel ou annuel, ou un achat unique à vie. Sans publicité.
 
 Abonnements
@@ -729,7 +729,7 @@ Con iCloud, libreria e citazioni restano allineate su tutti i tuoi iPhone.
 Privacy
 Tutto il riconoscimento del testo avviene sul tuo dispositivo. Le foto non ne escono mai e puoi salvare citazioni anche senza connessione a internet.
 
-Salva gratis fino a 10 libri e 100 citazioni. Plus toglie i limiti, Pro aggiunge la sincronizzazione iCloud e i widget.
+Salva gratis fino a 10 libri e 100 citazioni. Plus toglie i limiti, Pro aggiunge la sincronizzazione iCloud. I widget della schermata Home e della schermata di blocco sono gratis per tutti.
 Scegli un abbonamento settimanale, mensile o annuale, oppure un acquisto unico per sempre. Senza pubblicità.
 
 Abbonamenti
@@ -796,7 +796,7 @@ Com o iCloud, sua biblioteca e seus trechos ficam sincronizados em todos os seus
 Privacidade
 Todo o reconhecimento de texto acontece no seu aparelho. Suas fotos não saem dele, e o app funciona sem internet.
 
-Salve até 10 livros e 100 trechos de graça. O Plus tira os limites, e o Pro adiciona a sincronização com o iCloud e os widgets.
+Salve até 10 livros e 100 trechos de graça. O Plus tira os limites, e o Pro adiciona a sincronização com o iCloud. Os widgets da Tela de Início e da Tela Bloqueada são grátis para todos.
 Escolha uma assinatura semanal, mensal ou anual, ou pague uma vez e use para sempre. Sem anúncios.
 
 Assinaturas
@@ -863,7 +863,7 @@ Bookmark Shot: เก็บประโยคเด็ด
 ความเป็นส่วนตัว
 การอ่านข้อความทั้งหมดทำงานบนเครื่องของคุณ รูปถ่ายไม่ถูกส่งออกไปไหน และเก็บประโยคได้แม้ไม่มีอินเทอร์เน็ต
 
-เก็บได้ฟรีถึงหนังสือ 10 เล่มและ 100 ประโยค Plus ปลดขีดจำกัดนี้ ส่วน Pro เพิ่มการซิงค์ผ่าน iCloud และวิดเจ็ต
+เก็บได้ฟรีถึงหนังสือ 10 เล่มและ 100 ประโยค Plus ปลดขีดจำกัดนี้ ส่วน Pro เพิ่มการซิงค์ผ่าน iCloud วิดเจ็ตบนหน้าจอโฮมและหน้าจอล็อกใช้ได้ฟรีทุกคน
 เลือกได้ทั้งสมัครสมาชิกรายสัปดาห์ รายเดือน รายปี หรือจ่ายครั้งเดียวใช้ได้ตลอดไป ไม่มีโฆษณา
 
 การสมัครสมาชิก
@@ -930,7 +930,7 @@ Nhờ iCloud, tủ sách và câu văn tự động khớp nhau trên mọi iPho
 Quyền riêng tư
 Toàn bộ việc nhận dạng chữ diễn ra trên máy. Ảnh không rời khỏi thiết bị, và bạn vẫn lưu được câu văn khi không có mạng.
 
-Lưu miễn phí tới 10 cuốn sách và 100 câu văn. Plus bỏ giới hạn này, còn Pro có thêm đồng bộ iCloud và widget.
+Lưu miễn phí tới 10 cuốn sách và 100 câu văn. Plus bỏ giới hạn này, còn Pro có thêm đồng bộ iCloud. Widget trên Màn hình chính và Màn hình khóa miễn phí cho mọi người.
 Chọn gói đăng ký theo tuần, tháng, năm hoặc trả một lần dùng mãi mãi. Không quảng cáo.
 
 Gói đăng ký
@@ -997,7 +997,7 @@ Díky iCloudu se knihovna a citáty na všech vašich iPhonech synchronizují sa
 Soukromí
 Veškeré rozpoznávání textu probíhá ve vašem zařízení. Fotky ho neopouštějí a aplikace funguje i bez internetu.
 
-Až 10 knih a 100 citátů si uložíte zdarma. Plus tato omezení ruší a Pro přidává synchronizaci přes iCloud a widgety.
+Až 10 knih a 100 citátů si uložíte zdarma. Plus tato omezení ruší a Pro přidává synchronizaci přes iCloud. Widgety na ploše a zamčené obrazovce jsou zdarma pro všechny.
 Vyberte si týdenní, měsíční nebo roční předplatné, nebo jednorázový nákup navždy. Bez reklam.
 
 Předplatné
@@ -1064,7 +1064,7 @@ Med iCloud holdes dit bibliotek og dine citater automatisk ens på alle dine iPh
 Privatliv
 Al tekstgenkendelse sker på din enhed. Dine billeder forlader den aldrig, og appen virker uden internet.
 
-Gem op til 10 bøger og 100 citater gratis. Plus fjerner grænserne, og Pro giver dig desuden synkronisering med iCloud og widgets.
+Gem op til 10 bøger og 100 citater gratis. Plus fjerner grænserne, og Pro giver dig desuden synkronisering med iCloud. Widgets på hjemmeskærmen og låseskærmen er gratis for alle.
 Vælg et ugentligt, månedligt eller årligt abonnement, eller betal én gang for altid. Ingen reklamer.
 
 Abonnementer
@@ -1134,7 +1134,7 @@ Bookmark Shot: Αποσπάσματα
 Απόρρητο
 Όλη η αναγνώριση κειμένου γίνεται στη συσκευή σου. Οι φωτογραφίες δεν φεύγουν ποτέ από αυτήν και η εφαρμογή λειτουργεί και χωρίς σύνδεση στο διαδίκτυο.
 
-Αποθήκευσε δωρεάν έως 10 βιβλία και 100 αποσπάσματα. Το Plus καταργεί τα όρια και το Pro προσθέτει συγχρονισμό μέσω iCloud και γραφικά στοιχεία.
+Αποθήκευσε δωρεάν έως 10 βιβλία και 100 αποσπάσματα. Το Plus καταργεί τα όρια και το Pro προσθέτει συγχρονισμό μέσω iCloud. Τα γραφικά στοιχεία για την οθόνη Αφετηρίας και την οθόνη κλειδώματος είναι δωρεάν για όλους.
 Διάλεξε εβδομαδιαία, μηνιαία ή ετήσια συνδρομή ή μία πληρωμή για πάντα. Χωρίς διαφημίσεις.
 
 Συνδρομές
@@ -1201,7 +1201,7 @@ iCloudin ansiosta kirjastosi ja lainauksesi pysyvät samoina kaikilla iPhoneilla
 Yksityisyys
 Kaikki tekstintunnistus tapahtuu laitteellasi. Kuvasi eivät lähde sieltä minnekään, ja sovellus toimii ilman verkkoyhteyttä.
 
-Voit tallentaa ilmaiseksi enintään 10 kirjaa ja 100 lainausta. Plus poistaa rajat, ja Pro tuo lisäksi iCloud-synkronoinnin ja widgetit.
+Voit tallentaa ilmaiseksi enintään 10 kirjaa ja 100 lainausta. Plus poistaa rajat, ja Pro tuo lisäksi iCloud-synkronoinnin. Koti- ja lukitusnäytön widgetit ovat kaikille ilmaisia.
 Valitse viikko-, kuukausi- tai vuositilaus tai kertamaksu pysyvään käyttöön. Ei mainoksia.
 
 Tilaukset
@@ -1268,7 +1268,7 @@ Dengan iCloud, perpustakaan dan kutipanmu selalu sama di semua iPhone-mu.
 Privasi
 Seluruh pengenalan teks berlangsung di perangkatmu. Fotomu tidak pernah keluar dari sana, dan kamu tetap bisa menyimpan kutipan tanpa internet.
 
-Simpan hingga 10 buku dan 100 kutipan secara gratis. Plus menghapus batas itu, dan Pro menambahkan sinkronisasi iCloud serta widget.
+Simpan hingga 10 buku dan 100 kutipan secara gratis. Plus menghapus batas itu, dan Pro menambahkan sinkronisasi iCloud. Widget Layar Utama dan Layar Terkunci gratis untuk semua.
 Pilih langganan mingguan, bulanan, atau tahunan, atau bayar sekali untuk selamanya. Tanpa iklan.
 
 Langganan
@@ -1335,7 +1335,7 @@ Med iCloud holdes biblioteket og sitatene dine automatisk like på alle iPhonene
 Personvern
 All tekstgjenkjenning skjer på enheten din. Bildene forlater den aldri, og appen fungerer uten internett.
 
-Lagre opptil 10 bøker og 100 sitater gratis. Plus fjerner grensene, og Pro gir deg i tillegg synkronisering med iCloud og widgeter.
+Lagre opptil 10 bøker og 100 sitater gratis. Plus fjerner grensene, og Pro gir deg i tillegg synkronisering med iCloud. Widgeter på Hjem-skjermen og låseskjermen er gratis for alle.
 Velg et ukentlig, månedlig eller årlig abonnement, eller betal én gang for alltid. Ingen reklame.
 
 Abonnementer
@@ -1402,7 +1402,7 @@ Met iCloud blijven je bibliotheek en citaten op al je iPhones automatisch gelijk
 Privacy
 Alle tekstherkenning gebeurt op je apparaat. Je foto’s verlaten het nooit, en de app werkt ook zonder internet.
 
-Bewaar gratis tot 10 boeken en 100 citaten. Plus heft die grenzen op, en Pro voegt synchronisatie via iCloud en widgets toe.
+Bewaar gratis tot 10 boeken en 100 citaten. Plus heft die grenzen op, en Pro voegt synchronisatie via iCloud toe. Widgets voor het beginscherm en toegangsscherm zijn gratis voor iedereen.
 Kies een week-, maand- of jaarabonnement, of betaal één keer voor altijd. Geen advertenties.
 
 Abonnementen
@@ -1469,7 +1469,7 @@ Dzięki iCloud biblioteczka i cytaty są takie same na wszystkich twoich iPhone�
 Prywatność
 Całe rozpoznawanie tekstu odbywa się na twoim urządzeniu. Zdjęcia nigdy go nie opuszczają, a aplikacja działa także bez internetu.
 
-Do 10 książek i 100 cytatów zapiszesz za darmo. Plus znosi te limity, a Pro dodaje synchronizację przez iCloud i widżety.
+Do 10 książek i 100 cytatów zapiszesz za darmo. Plus znosi te limity, a Pro dodaje synchronizację przez iCloud. Widżety na ekranie początkowym i blokady są bezpłatne dla wszystkich.
 Wybierz subskrypcję tygodniową, miesięczną lub roczną albo jednorazowy zakup na zawsze. Bez reklam.
 
 Subskrypcje
@@ -1536,7 +1536,7 @@ Med iCloud hålls ditt bibliotek och dina citat automatiskt i synk på alla dina
 Integritet
 All textigenkänning sker på din enhet. Dina foton lämnar den aldrig, och appen fungerar utan internet.
 
-Spara upp till 10 böcker och 100 citat gratis. Plus tar bort gränserna, och Pro lägger till synk med iCloud och widgetar.
+Spara upp till 10 böcker och 100 citat gratis. Plus tar bort gränserna, och Pro lägger till synk med iCloud. Widgetar för hemskärmen och låsskärmen är gratis för alla.
 Välj en vecko-, månads- eller årsprenumeration, eller betala en gång för alltid. Ingen reklam.
 
 Prenumerationer
@@ -1603,7 +1603,7 @@ iCloud sayesinde kitaplığın ve alıntıların tüm iPhone’larında otomatik
 Gizlilik
 Tüm metin tanıma cihazında yapılır. Fotoğrafların cihazından çıkmaz ve uygulama internet olmadan da çalışır.
 
-10 kitap ve 100 alıntıya kadar ücretsiz kaydedebilirsin. Plus bu sınırları kaldırır, Pro ise iCloud ile eşitleme ve widget’ları ekler.
+10 kitap ve 100 alıntıya kadar ücretsiz kaydedebilirsin. Plus bu sınırları kaldırır, Pro ise iCloud ile eşitleme ekler. Ana ekran ve kilitli ekran widget’ları herkese ücretsiz.
 Haftalık, aylık ya da yıllık abonelik seçebilir veya bir kez ödeyip ömür boyu kullanabilirsin. Reklam yok.
 
 Abonelikler

@@ -18,12 +18,17 @@ struct BookmarkShotSupportView: View {
     @State private var showsGraduation = false
     @State private var showsManageSubscription = false
     @State private var wantsSync = BookmarkShotEntitlement.wantsICloudSync
+    @State private var remindsDaily = DailyReminder.isEnabled
+    @State private var reminderTime = Calendar.current.date(
+        byAdding: .minute, value: DailyReminder.minuteOfDay, to: Calendar.current.startOfDay(for: .now)) ?? .now
+    @State private var reminderDenied = false
 
     var body: some View {
         NavigationStack {
             List {
                 plansSection
                 syncSection
+                reminderSection
                 exportSection
                 Section {
                     LeeoSupportSection<BookmarkShotSpec>()
@@ -99,7 +104,7 @@ struct BookmarkShotSupportView: View {
         guard purchases.isKnown else { return String(localized: "확인 중…") }
         return purchases.tier == .plus
             ? String(localized: "\(BookmarkShotTier.plus.title) 사용 중")
-            : String(localized: "책 · 문장 무제한, iCloud 동기화와 위젯")
+            : String(localized: "책 · 문장 무제한, iCloud 동기화")
     }
 
     // MARK: - iCloud 동기화 (Pro)
@@ -142,6 +147,41 @@ struct BookmarkShotSupportView: View {
 
     // MARK: - 내보내기 (무료)
 
+    // MARK: - 다시 만나기 (매일 알림)
+
+    private var reminderSection: some View {
+        Section {
+            Toggle(isOn: Binding(get: { remindsDaily }, set: { on in
+                Task {
+                    if on {
+                        remindsDaily = await DailyReminder.enable()
+                        reminderDenied = !remindsDaily
+                    } else {
+                        DailyReminder.isEnabled = false
+                        remindsDaily = false
+                    }
+                    DailyReminder.reschedule(with: quotes)
+                }
+            })) {
+                Label("매일 문장 알림", systemImage: "bell")
+            }
+            if remindsDaily {
+                DatePicker("알림 시각", selection: $reminderTime, displayedComponents: .hourAndMinute)
+                    .onChange(of: reminderTime) { _, time in
+                        let parts = Calendar.current.dateComponents([.hour, .minute], from: time)
+                        DailyReminder.minuteOfDay = (parts.hour ?? 8) * 60 + (parts.minute ?? 0)
+                        DailyReminder.reschedule(with: quotes)
+                    }
+            }
+        } header: {
+            Text("다시 만나기")
+        } footer: {
+            Text(reminderDenied
+                 ? String(localized: "알림이 꺼져 있어요. 설정 앱 ▸ 알림 ▸ 밑줄에서 켤 수 있어요.")
+                 : String(localized: "정한 시각에 모은 문장 하나를 알림으로 보내 드려요."))
+        }
+    }
+
     private var exportSection: some View {
         Section {
             ShareLink(item: QuoteExport(quotes: quotes, format: .text),
@@ -151,6 +191,10 @@ struct BookmarkShotSupportView: View {
             ShareLink(item: QuoteExport(quotes: quotes, format: .csv),
                       preview: SharePreview(QuoteExport.fileName)) {
                 Label("CSV로 내보내기", systemImage: "tablecells")
+            }
+            ShareLink(item: QuoteExport(quotes: quotes, format: .markdown),
+                      preview: SharePreview(QuoteExport.fileName)) {
+                Label("마크다운으로 내보내기 (노션 · 옵시디언)", systemImage: "number")
             }
         } header: {
             Text("문장 내보내기")

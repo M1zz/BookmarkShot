@@ -114,8 +114,7 @@
       "name": "Plus · Pro",
       "items": [
         "Plus: sınırsız kitap ve alıntı",
-        "Pro: Plus’taki her şey ve iCloud ile eşitleme",
-        "Pro: Ana Ekran ve Kilitli Ekran widget’ları"
+        "Pro: Plus’taki her şey ve iCloud ile eşitleme"
       ],
       "note": "Haftalık, aylık ya da yıllık abonelik seçebilir veya bir kez ödeyip ömür boyu kullanabilirsin. Ayarlar’dan bırakılan bahşiş bunlardan ayrıdır ve hiçbir şeyin kilidini açmaz."
     },
@@ -150,7 +149,7 @@
       },
       {
         "q": "Widget’ı nasıl eklerim?",
-        "a": "Ana Ekran’a dokunup basılı tut, Düzenle > Widget Ekle’ye dokun ve Bookmark Shot’ı seç. Kilitli Ekran için ekrana dokunup basılı tut, ardından Özelleştir’e dokun. Günün alıntısı orada görünür. Widget’lar Pro’ya dahildir."
+        "a": "Ana Ekran’a dokunup basılı tut, Düzenle > Widget Ekle’ye dokun ve Bookmark Shot’ı seç. Kilitli Ekran için ekrana dokunup basılı tut, ardından Özelleştir’e dokun. Günün alıntısı orada görünür."
       },
       {
         "q": "Kamera çalışmıyor.",

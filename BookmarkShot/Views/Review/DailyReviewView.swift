@@ -11,18 +11,34 @@ import SwiftData
 
 struct DailyReviewView: View {
     @Query private var quotes: [Quote]
-    @State private var shuffleOffset = 0
+    /// 오늘 묶음 안에서 몇 번째 (넘기면 다음 묶음으로)
+    @State private var index = 0
+    /// 같은 날의 몇 번째 묶음
+    @State private var round = 0
+    /// 이 모음 안에서만 다시 만난다. nil 이면 모든 문장.
+    @State private var tag: String?
+    @State private var showsYear = false
+    /// 스크린샷 데모(DEBUG)에서 정해 둔 문장
+    @State private var screenshotQuote: Quote?
     @State private var shareImage: UIImage?
     @Environment(\.accessibilityReduceMotion) private var reduceMotion
     @Environment(\.dynamicTypeSize) private var dynamicTypeSize
 
-    private var todaysQuote: Quote? {
-        guard !quotes.isEmpty else { return nil }
-        let sorted = quotes.sorted { $0.createdAt < $1.createdAt }
-        let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
-        let index = (day + shuffleOffset) % sorted.count
-        return sorted[index]
+    /// 오늘 묶음. 빈도를 바꿔도 보던 문장이 바로 바뀌지 않게, 묶음이 바뀔 때만 다시 고른다.
+    @State private var picks: [Quote] = []
+
+    private func refreshPicks() {
+        picks = ReviewPicker.picks(from: quotes, round: round, tag: tag)
+        if index >= picks.count { index = 0 }
     }
+
+    private var todaysQuote: Quote? {
+        if let screenshotQuote { return screenshotQuote }
+        let picks = picks
+        return picks.isEmpty ? nil : picks[index % picks.count]
+    }
+
+    private var allTags: [String] { Array(Set(quotes.flatMap(\.tags))).sorted() }
 
     var body: some View {
         NavigationStack {
@@ -38,17 +54,45 @@ struct DailyReviewView: View {
                 }
             }
             .navigationTitle("오늘의 문장")
+            .toolbar {
+                if !allTags.isEmpty {
+                    ToolbarItem(placement: .topBarLeading) {
+                        Menu {
+                            Picker("모음", selection: $tag) {
+                                Text("모든 문장").tag(String?.none)
+                                ForEach(allTags, id: \.self) { Text(verbatim: "#\($0)").tag(String?.some($0)) }
+                            }
+                        } label: {
+                            Label(tag.map { "#\($0)" } ?? String(localized: "모든 문장"), systemImage: "tag")
+                        }
+                    }
+                }
+                ToolbarItem(placement: .topBarTrailing) {
+                    Button { showsYear = true } label: {
+                        Label(String(localized: "올해의 문장"), systemImage: "calendar")
+                    }
+                    .disabled(quotes.isEmpty)
+                }
+            }
+            .onChange(of: tag) { index = 0; round = 0 }
+            .task(id: "\(round)|\(tag ?? "")|\(quotes.count)") { refreshPicks() }
+            .sheet(isPresented: $showsYear) { YearInQuotesView() }
         }
         .onAppear(perform: pickScreenshotQuote)
     }
 
     /// 스크린샷 데모(DEBUG): 정해 둔 문장이 오늘의 문장으로 나오게 한다.
     private func pickScreenshotQuote() {
-        guard let target = ScreenshotMode.dailyQuoteText, !quotes.isEmpty else { return }
-        let sorted = quotes.sorted { $0.createdAt < $1.createdAt }
-        guard let index = sorted.firstIndex(where: { $0.text == target }) else { return }
-        let day = Calendar.current.ordinality(of: .day, in: .era, for: Date()) ?? 0
-        shuffleOffset = ((index - day) % sorted.count + sorted.count) % sorted.count
+        guard let target = ScreenshotMode.dailyQuoteText else { return }
+        screenshotQuote = quotes.first { $0.text == target }
+    }
+
+    /// 다음 문장. 오늘 묶음을 다 보면 같은 날의 다른 묶음으로.
+    private func showNext() {
+        screenshotQuote = nil
+        withAnimation(reduceMotion ? nil : .default) {
+            if index + 1 >= picks.count { index = 0; round += 1 } else { index += 1 }
+        }
     }
 
     private func reviewCard(for quote: Quote) -> some View {
@@ -96,10 +140,9 @@ struct DailyReviewView: View {
                 let buttons = dynamicTypeSize.isAccessibilitySize
                     ? AnyLayout(VStackLayout(spacing: 12)) : AnyLayout(HStackLayout(spacing: 12))
                 buttons {
-                    Button {
-                        withAnimation(reduceMotion ? nil : .default) { shuffleOffset += 1 }
-                    } label: {
-                        Label("다른 문장", systemImage: "shuffle")
+                    Button(action: showNext) {
+                        Label(String(localized: "다음 문장 \(index % max(picks.count, 1) + 1)/\(max(picks.count, 1))"),
+                              systemImage: "arrow.right")
                     }
                     .buttonStyle(.brandSecondary)
 
@@ -118,8 +161,20 @@ struct DailyReviewView: View {
                 }
                 .padding(.horizontal)
 
-                SpeakButton(text: quote.note.isEmpty ? quote.text : quote.text + "\n\n" + quote.note)
+                HStack(spacing: 12) {
+                    SpeakButton(text: quote.note.isEmpty ? quote.text : quote.text + "\n\n" + quote.note)
+                        .buttonStyle(.bordered)
+                    // 이 문장을 얼마나 자주 다시 만날까 (→ ReviewPicker)
+                    Picker(selection: Binding(get: { quote.reviewBias }, set: { quote.reviewBias = $0 })) {
+                        Text("더 자주").tag(1)
+                        Text("보통").tag(0)
+                        Text("덜 자주").tag(-1)
+                    } label: {
+                        Text("만나는 빈도")
+                    }
+                    .pickerStyle(.menu)
                     .buttonStyle(.bordered)
+                }
 
                 if !quote.note.isEmpty {
                     VStack(alignment: .leading, spacing: 6) {
