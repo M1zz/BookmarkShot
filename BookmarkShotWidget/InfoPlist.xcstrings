@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "Günün Alıntısı"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس اليوم"
+          }
         }
       }
     }

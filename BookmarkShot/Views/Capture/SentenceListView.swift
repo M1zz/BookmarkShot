@@ -38,6 +38,7 @@ struct SentenceListView: View {
                     Text(sentences[index])
                         .foregroundStyle(.primary)
                         .frame(maxWidth: .infinity, alignment: .leading)
+                        .naturalDirection(of: sentences[index])
                 }
                 .padding(.vertical, 4)
             }

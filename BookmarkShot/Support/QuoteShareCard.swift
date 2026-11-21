@@ -37,6 +37,8 @@ struct QuoteShareCard: View {
                 .foregroundStyle(Theme.ink)
                 .lineSpacing(8)
                 .fixedSize(horizontal: false, vertical: true)
+                .frame(maxWidth: .infinity, alignment: .leading)
+                .naturalDirection(of: text)
 
             if !bookTitle.isEmpty || !author.isEmpty || pageLabel != nil {
                 VStack(alignment: .leading, spacing: 3) {
@@ -44,6 +46,7 @@ struct QuoteShareCard: View {
                         Text(bookTitle)
                             .font(.system(size: 17, weight: .semibold))
                             .foregroundStyle(Theme.ink)
+                            .naturalDirection(of: bookTitle)
                     }
                     HStack(spacing: 6) {
                         if !author.isEmpty { Text(author) }
@@ -81,7 +84,8 @@ enum QuoteShareRenderer {
                                   bookTitle: bookTitle,
                                   author: author,
                                   pageLabel: pageLabel)
-        let renderer = ImageRenderer(content: card)
+        // 화면 밖에서 굽는 그림이라 앱 언어의 방향을 직접 건넨다 (아랍어면 오른쪽부터)
+        let renderer = ImageRenderer(content: card.environment(\.layoutDirection, .app))
         renderer.scale = 3
         return renderer.uiImage
     }

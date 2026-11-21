@@ -147,6 +147,12 @@
             "state" : "translated",
             "value" : "Başlamak için bir alıntı kaydet"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ اقتباسًا لتبدأ"
+          }
         }
       }
     },
@@ -536,6 +542,48 @@
               }
             }
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا اقتباسات للعودة إليها"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "اقتباس واحد للعودة إليه"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "اقتباسان للعودة إليهما"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld اقتباسات للعودة إليها"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld اقتباسًا للعودة إليه"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld اقتباس للعودة إليه"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -684,6 +732,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaydedilmiş alıntı yok"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد اقتباسات محفوظة"
           }
         }
       }
@@ -834,6 +888,12 @@
             "state" : "translated",
             "value" : "Bir alıntı kaydet, her gün burada\nkarşına çıksın"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ اقتباسًا\nوستراه هنا كل يوم"
+          }
         }
       }
     },
@@ -982,6 +1042,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Günün Alıntısı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس اليوم"
           }
         }
       }
@@ -1132,6 +1198,12 @@
             "state" : "translated",
             "value" : "Her gün kaydettiğin alıntılardan biri. Favorilerin varsa onların arasından seçilir."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يعرض لك أحد اقتباساتك المحفوظة كل يوم، ويختار من المفضلة إن وُجدت."
+          }
         }
       }
     },
@@ -1281,6 +1353,12 @@
             "state" : "translated",
             "value" : "Pro ile açılır"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "متاح في Pro"
+          }
         }
       }
     },
@@ -1429,6 +1507,12 @@
             "state" : "translated",
             "value" : "Daha fazlası için dokunun"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط لمعرفة المزيد"
+          }
         }
       }
     },
@@ -1576,6 +1660,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Günün Alıntısı widget'ı\nPro ile gelir"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أداة اقتباس اليوم\nمتاحة في Pro"
           }
         }
       }

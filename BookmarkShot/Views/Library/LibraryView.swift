@@ -124,6 +124,7 @@ struct BookCoverCell: View {
             Text(book.title)
                 .font(.caption.weight(.medium))
                 .lineLimit(dynamicTypeSize.isAccessibilitySize ? 3 : 1)
+                .naturalDirection(of: book.title)
             HStack(spacing: 4) {
                 Image(systemName: "quote.opening")
                     .imageScale(.small)

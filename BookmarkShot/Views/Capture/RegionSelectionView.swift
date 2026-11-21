@@ -41,6 +41,8 @@ struct RegionSelectionView: View {
             }
             .coordinateSpace(name: "region")
         }
+        // 사진 위 모서리 좌표는 종이 그대로다. 아랍어 화면에서도 뒤집지 않는다
+        .environment(\.layoutDirection, .leftToRight)
     }
 
     // MARK: - 모서리 핸들

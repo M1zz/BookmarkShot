@@ -3,6 +3,7 @@
 //  밑줄
 //
 //  Vision 프레임워크 기반 온디바이스 OCR (기기 언어 + 한국어 + 영어).
+//  아랍어 책은 iOS 가 아랍어 인식을 지원할 때 기기 언어로 함께 읽는다.
 //  모든 좌표는 "정규화(0~1) + 좌상단 원점" 기준으로 변환해 SwiftUI에서 바로 쓰기 좋게 만든다.
 //
 
@@ -31,7 +32,7 @@ struct OCRResult {
     var fullText: String {
         lines.map(\.text).joined(separator: "\n")
     }
-    /// 읽기 순서(위→아래, 왼→오른쪽)로 정렬된 모든 단어
+    /// 읽기 순서(위→아래, 줄 안에서는 그 글의 방향)로 정렬된 모든 단어
     var allWords: [RecognizedWord] {
         lines.flatMap(\.words)
     }
@@ -133,8 +134,12 @@ enum OCRService {
             if words.isEmpty && !lineText.trimmingCharacters(in: .whitespaces).isEmpty {
                 words = [RecognizedWord(text: lineText, box: lineBox)]
             }
-            // 단어를 왼쪽 → 오른쪽 순으로
-            words.sort { $0.box.minX < $1.box.minX }
+            // 단어를 읽는 순서로: 보통은 왼쪽 → 오른쪽, 아랍어 · 히브리어 줄은 오른쪽 → 왼쪽
+            if lineText.isRightToLeft {
+                words.sort { $0.box.maxX > $1.box.maxX }
+            } else {
+                words.sort { $0.box.minX < $1.box.minX }
+            }
             lines.append(RecognizedLine(text: lineText, box: lineBox, words: words))
         }
 

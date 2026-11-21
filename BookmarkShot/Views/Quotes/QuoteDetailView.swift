@@ -18,8 +18,8 @@ struct QuoteDetailView: View {
 
     private var pageBinding: Binding<String> {
         Binding(
-            get: { quote.pageNumber.map(String.init) ?? "" },
-            set: { quote.pageNumber = Int($0) }
+            get: { quote.pageNumber.map { $0.formatted(.number.grouping(.never)) } ?? "" },
+            set: { quote.pageNumber = $0.wholeNumber }
         )
     }
 

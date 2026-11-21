@@ -20,11 +20,13 @@ struct QuoteCardView: View {
                 Text(quote.text)
                     .font(.subheadline)
                     .lineLimit(3)
+                    .naturalDirection(of: quote.text)
             }
             HStack(spacing: 8) {
                 if showBookTitle, let book = quote.book {
                     Text(book.title)
                         .lineLimit(dynamicTypeSize.isAccessibilitySize ? 3 : 1)
+                        .naturalDirection(of: book.title)
                 }
                 if let pageLabel = quote.pageLabel {
                     Text(pageLabel)

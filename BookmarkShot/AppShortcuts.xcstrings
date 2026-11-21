@@ -140,6 +140,12 @@
             "state" : "translated",
             "value" : "用${applicationName}掃描${book}"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "امسح ${book} في ${applicationName}"
+          }
         }
       }
     },
@@ -281,6 +287,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "用${applicationName}掃描一頁"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "امسح صفحة في ${applicationName}"
           }
         }
       }
@@ -424,6 +436,12 @@
             "state" : "translated",
             "value" : "用${applicationName}劃線"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ظلّل صفحة في ${applicationName}"
+          }
         }
       }
     },
@@ -565,6 +583,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "從${applicationName}唸一句給我聽"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقرأ لي اقتباسًا من ${applicationName}"
           }
         }
       }
@@ -708,6 +732,12 @@
             "state" : "translated",
             "value" : "${applicationName}今日句子"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس اليوم في ${applicationName}"
+          }
         }
       }
     },
@@ -850,6 +880,12 @@
             "state" : "translated",
             "value" : "在${applicationName}裡找句子"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابحث عن اقتباس في ${applicationName}"
+          }
         }
       }
     },
@@ -991,6 +1027,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "搜尋${applicationName}"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابحث في ${applicationName}"
           }
         }
       }

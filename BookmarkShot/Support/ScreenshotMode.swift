@@ -130,23 +130,26 @@ enum ScreenshotMode {
         ]
         let (background, ink) = palette[style % palette.count]
         let size = CGSize(width: 600, height: 840)
+        // 아랍어 표지는 거울처럼: 글은 오른쪽에 붙고 무늬는 왼쪽으로
+        let rtl = title.isRightToLeft
+        func x(_ x: CGFloat, _ width: CGFloat) -> CGFloat { rtl ? size.width - x - width : x }
         return UIGraphicsImageRenderer(size: size).image { context in
             background.setFill()
             context.fill(CGRect(origin: .zero, size: size))
             ink.withAlphaComponent(0.16).setFill()
-            context.cgContext.fillEllipse(in: CGRect(x: 330, y: 560, width: 380, height: 380))
+            context.cgContext.fillEllipse(in: CGRect(x: x(330, 380), y: 560, width: 380, height: 380))
             UIColor(red: 0.95, green: 0.64, blue: 0.29, alpha: 1).setFill()
-            context.fill(CGRect(x: 56, y: 70, width: 70, height: 6))
+            context.fill(CGRect(x: x(56, 70), y: 70, width: 70, height: 6))
             let serif = UIFontDescriptor.preferredFontDescriptor(withTextStyle: .largeTitle).withDesign(.serif)
                 ?? UIFont.systemFont(ofSize: 60).fontDescriptor
             let paragraph = NSMutableParagraphStyle()
             paragraph.lineSpacing = 8
             paragraph.lineBreakMode = .byWordWrapping
             let titleFont = UIFont(descriptor: serif, size: title.count <= 6 ? 124 : title.count <= 14 ? 100 : 84)
-            (title as NSString).draw(with: CGRect(x: 56, y: 110, width: 500, height: 560),
+            (title as NSString).draw(with: CGRect(x: x(56, 500), y: 110, width: 500, height: 560),
                                      options: [.usesLineFragmentOrigin, .truncatesLastVisibleLine],
                                      attributes: [.font: titleFont, .foregroundColor: ink, .paragraphStyle: paragraph], context: nil)
-            (author as NSString).draw(with: CGRect(x: 56, y: 720, width: 440, height: 70),
+            (author as NSString).draw(with: CGRect(x: x(56, 440), y: 720, width: 440, height: 70),
                                       options: [.usesLineFragmentOrigin, .truncatesLastVisibleLine],
                                       attributes: [.font: UIFont(descriptor: serif, size: 40), .foregroundColor: ink.withAlphaComponent(0.8)], context: nil)
         }

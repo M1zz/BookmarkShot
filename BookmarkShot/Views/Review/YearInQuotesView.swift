@@ -33,7 +33,7 @@ struct YearInQuotesView: View {
             List {
                 if years.count > 1 {
                     Picker("연도", selection: $year) {
-                        ForEach(years, id: \.self) { Text(verbatim: String($0)).tag($0) }
+                        ForEach(years, id: \.self) { Text($0, format: .number.grouping(.never)).tag($0) }
                     }
                 }
                 if quotes.isEmpty {
@@ -61,8 +61,10 @@ struct YearInQuotesView: View {
                                         .accessibilityHidden(true)
                                     VStack(alignment: .leading, spacing: 2) {
                                         Text(quote.text).lineLimit(3).foregroundStyle(.primary)
+                                            .naturalDirection(of: quote.text)
                                         if let title = quote.book?.title {
                                             Text(title).font(.footnote).foregroundStyle(.secondary)
+                                                .naturalDirection(of: title)
                                         }
                                     }
                                 }
@@ -74,7 +76,7 @@ struct YearInQuotesView: View {
                     }
                 }
             }
-            .navigationTitle(String(localized: "\(String(year)) 나의 문장"))
+            .navigationTitle(String(localized: "\(year.formatted(.number.grouping(.never))) 나의 문장"))
             .navigationBarTitleDisplayMode(.inline)
             .toolbar {
                 ToolbarItem(placement: .cancellationAction) {
@@ -109,7 +111,7 @@ struct YearStats {
 
     /// VoiceOver 가 카드 대신 읽는 한 줄
     func summary(chosen: Quote?) -> String {
-        var parts = [String(localized: "\(String(year))년, 책 \(bookCount)권에서 문장 \(quoteCount)개를 담았어요.")]
+        var parts = [String(localized: "\(year.formatted(.number.grouping(.never)))년, 책 \(bookCount)권에서 문장 \(quoteCount)개를 담았어요.")]
         if let chosen { parts.append("“\(chosen.text)”") }
         return parts.joined(separator: " ")
     }
@@ -122,7 +124,7 @@ struct YearCard: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 20) {
-            Text(verbatim: String(stats.year))
+            Text(stats.year, format: .number.grouping(.never))
                 .font(.system(size: 54, weight: .heavy, design: .serif))
                 .foregroundStyle(Color.accentColor)
             Text("올해 내가 그은 문장")
@@ -138,6 +140,7 @@ struct YearCard: View {
                 VStack(alignment: .leading, spacing: 2) {
                     Text("가장 많이 그은 책").font(.system(size: 12)).foregroundStyle(.secondary)
                     Text(top.title).font(.system(size: 16, weight: .semibold)).foregroundStyle(Theme.ink)
+                        .naturalDirection(of: top.title)
                 }
             }
 
@@ -149,8 +152,11 @@ struct YearCard: View {
                     .foregroundStyle(Theme.ink)
                     .lineSpacing(6)
                     .fixedSize(horizontal: false, vertical: true)
+                    .frame(maxWidth: .infinity, alignment: .leading)
+                    .naturalDirection(of: chosen.text)
                 if let title = chosen.book?.title {
                     Text("— \(title)").font(.system(size: 14)).foregroundStyle(.secondary)
+                        .naturalDirection(of: title)
                 }
             }
 
@@ -169,7 +175,7 @@ struct YearCard: View {
 
     private func number(_ value: Int, _ label: String) -> some View {
         VStack(alignment: .leading, spacing: 0) {
-            Text(verbatim: String(value))
+            Text(value, format: .number)
                 .font(.system(size: 34, weight: .bold, design: .rounded))
                 .foregroundStyle(Theme.ink)
             Text(label).font(.system(size: 13)).foregroundStyle(.secondary)
@@ -180,7 +186,9 @@ struct YearCard: View {
 enum YearCardRenderer {
     @MainActor
     static func image(stats: YearStats, chosen: Quote?) -> UIImage? {
-        let renderer = ImageRenderer(content: YearCard(stats: stats, chosen: chosen))
+        // 화면 밖에서 굽는 그림이라 앱 언어의 방향을 직접 건넨다 (아랍어면 오른쪽부터)
+        let renderer = ImageRenderer(content: YearCard(stats: stats, chosen: chosen)
+            .environment(\.layoutDirection, .app))
         renderer.scale = 3
         return renderer.uiImage
     }

@@ -146,6 +146,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
         }
       }
     },
@@ -294,6 +300,12 @@
             "state" : "translated",
             "value" : "Kamera, kitap kapaklarının ve sayfalarının fotoğrafını çekip cümleleri almak için kullanılır."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يستخدم التطبيق الكاميرا لتصوير أغلفة الكتب وصفحاتها واستخراج النص منها."
+          }
         }
       }
     },
@@ -441,6 +453,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotoğraflara erişim, daha önce çektiğin kitap fotoğraflarından cümle almak için kullanılır."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يصل التطبيق إلى الصور لتستخرج النص من صور الكتب التي التقطتها من قبل."
           }
         }
       }

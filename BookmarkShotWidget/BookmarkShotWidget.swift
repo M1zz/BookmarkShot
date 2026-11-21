@@ -155,6 +155,7 @@ struct BookmarkShotWidgetEntryView: View {
                         .font(.caption2)
                         .fontWeight(.medium)
                         .lineLimit(3)
+                        .naturalDirection(of: quote.text)
                     if !quote.bookTitle.isEmpty {
                         Text("— \(quote.bookTitle)")
                             .font(.caption2)
@@ -183,6 +184,7 @@ struct BookmarkShotWidgetEntryView: View {
                 .foregroundStyle(.primary)
                 .lineLimit(family == .systemSmall ? 5 : (family == .systemLarge ? 10 : 4))
                 .minimumScaleFactor(0.7)
+                .naturalDirection(of: quote.text)
 
             Spacer(minLength: 0)
 
@@ -250,4 +252,28 @@ extension SharedQuote {
         pageLabel: "p.1",
         isFavorite: true
     )
+}
+
+// MARK: - 글 방향 (앱 타깃의 TextDirection.swift 와 같은 정의)
+
+extension String {
+    /// 첫 번째 방향을 가진 글자(문자)가 오른쪽→왼쪽 문자(아랍 · 히브리 등)인가
+    var isRightToLeft: Bool {
+        for scalar in unicodeScalars {
+            switch scalar.value {
+            case 0x0590...0x08FF, 0xFB1D...0xFDFF, 0xFE70...0xFEFF:
+                return true
+            default:
+                if CharacterSet.letters.contains(scalar) { return false }
+            }
+        }
+        return false
+    }
+}
+
+extension View {
+    /// 사용자가 담은 글은 앱 언어가 아니라 글 자신의 방향으로 놓는다.
+    func naturalDirection(of text: String) -> some View {
+        environment(\.layoutDirection, text.isRightToLeft ? .rightToLeft : .leftToRight)
+    }
 }

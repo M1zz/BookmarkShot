@@ -110,14 +110,17 @@ struct DailyReviewView: View {
                         .font(.title3.weight(.medium))
                         .multilineTextAlignment(.center)
                         .lineSpacing(6)
+                        .naturalDirection(of: quote.text)
 
                     VStack(spacing: 4) {
                         if let book = quote.book {
                             Text(book.title)
                                 .font(.subheadline.weight(.semibold))
+                                .naturalDirection(of: book.title)
                             if !book.author.isEmpty {
                                 Text(book.author)
                                     .font(.caption)
+                                    .naturalDirection(of: book.author)
                                     .foregroundStyle(.secondary)
                             }
                         }
@@ -142,7 +145,7 @@ struct DailyReviewView: View {
                 buttons {
                     Button(action: showNext) {
                         Label(String(localized: "다음 문장 \(index % max(picks.count, 1) + 1)/\(max(picks.count, 1))"),
-                              systemImage: "arrow.right")
+                              systemImage: "arrow.forward")
                     }
                     .buttonStyle(.brandSecondary)
 
@@ -183,6 +186,8 @@ struct DailyReviewView: View {
                             .foregroundStyle(.secondary)
                         Text(quote.note)
                             .font(.subheadline)
+                            .frame(maxWidth: .infinity, alignment: .leading)
+                            .naturalDirection(of: quote.note)
                     }
                     .frame(maxWidth: .infinity, alignment: .leading)
                     .padding()

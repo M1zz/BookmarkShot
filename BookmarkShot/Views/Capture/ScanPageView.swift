@@ -368,7 +368,7 @@ struct ScanPageView: View {
             }
             ocrResult = result
             if let page = PageAnalyzer.guessPageNumber(from: result) {
-                pageNumberText = String(page)
+                pageNumberText = page.formatted(.number.grouping(.never))
             }
             if highlightHintShownCount < highlightHintMaxShows {
                 highlightHintShownCount += 1
@@ -401,7 +401,7 @@ struct ScanPageView: View {
         let imageData = pageImage?.jpegData(compressionQuality: 0.6)
         let quote = Quote(
             text: text,
-            pageNumber: Int(pageNumberText),
+            pageNumber: pageNumberText.wholeNumber,
             pageImageData: imageData,
             book: book
         )

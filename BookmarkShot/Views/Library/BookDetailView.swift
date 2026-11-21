@@ -33,10 +33,12 @@ struct BookDetailView: View {
                     VStack(alignment: .leading, spacing: 4) {
                         Text(book.title)
                             .font(.headline)
+                            .naturalDirection(of: book.title)
                         if !book.author.isEmpty {
                             Text(book.author)
                                 .font(.subheadline)
                                 .foregroundStyle(.secondary)
+                                .naturalDirection(of: book.author)
                         }
                         if let isbn = book.isbn {
                             Text("ISBN \(isbn)")

@@ -147,6 +147,12 @@
             "state" : "translated",
             "value" : "Face ID kilidi"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قفل Face ID"
+          }
         }
       }
     },
@@ -296,6 +302,12 @@
             "state" : "translated",
             "value" : "Alıntılarını korumak için uygulamayı Face ID veya Touch ID ile kilitle."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقفل التطبيق بـ Face ID أو Touch ID لتبقى اقتباساتك خاصة بك."
+          }
         }
       }
     },
@@ -443,6 +455,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "ISBN (isteğe bağlı)"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ISBN (اختياري)"
           }
         }
       },
@@ -594,6 +612,12 @@
             "state" : "translated",
             "value" : "Siri’ye söyleyerek ya da bir kısayolla günün alıntısını hemen aç."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "افتح اقتباس اليوم فورًا عبر Siri أو الاختصارات."
+          }
         }
       }
     },
@@ -743,6 +767,12 @@
             "state" : "translated",
             "value" : "Siri ve Kısayollar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Siri والاختصارات"
+          }
         }
       }
     },
@@ -891,6 +921,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "VoiceOver ile daha rahat kullanım"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دعم أفضل لـ VoiceOver"
           }
         }
       }
@@ -1042,6 +1078,12 @@
             "state" : "translated",
             "value" : "s. %lld"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ص %lld"
+          }
         }
       }
     },
@@ -1189,6 +1231,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Paylaş"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة"
           }
         }
       },
@@ -1339,6 +1387,12 @@
             "state" : "translated",
             "value" : "Metni Al"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخراج النص"
+          }
         }
       },
       "comment" : "extract"
@@ -1488,6 +1542,12 @@
             "state" : "translated",
             "value" : "Alıntıyı Kaydet"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ اقتباس"
+          }
         }
       },
       "comment" : "scrap_title"
@@ -1636,6 +1696,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "O zaman bıraktığın not"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظتك يومها"
           }
         }
       },
@@ -1787,6 +1853,12 @@
             "state" : "translated",
             "value" : "Yazıyı büyüttüğünde içerik kesilmek yerine düzgünce yeniden yerleşir."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تكبير الخط تترتّب الشاشات من جديد بأناقة دون أن ينقطع شيء."
+          }
         }
       }
     },
@@ -1934,6 +2006,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Metin okunuyor…"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ قراءة النص…"
           }
         }
       },
@@ -2085,6 +2163,12 @@
             "state" : "translated",
             "value" : "Tüm verilerimi tek seferde sil"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف كل بياناتي دفعة واحدة"
+          }
         }
       }
     },
@@ -2232,6 +2316,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Başka Alıntı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس آخر"
           }
         }
       },
@@ -2382,6 +2472,12 @@
             "state" : "translated",
             "value" : "Yeniden okunacak alıntı yok"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد اقتباسات للعودة إليها بعد"
+          }
         }
       },
       "comment" : "no_daily"
@@ -2530,6 +2626,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kapat"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إغلاق"
           }
         }
       },
@@ -2681,6 +2783,12 @@
             "state" : "translated",
             "value" : "Kontrast artırılmış olsa da renkleri ayırt etmek zor olsa da her şey kolay okunur kalır."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبقى كل شيء واضحًا حتى مع زيادة التباين أو صعوبة التمييز بين الألوان."
+          }
         }
       }
     },
@@ -2829,6 +2937,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uygulamayı daha fazla dilde kullan."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق بلغات أكثر."
           }
         }
       }
@@ -2979,6 +3093,12 @@
             "state" : "translated",
             "value" : "Daha fazla dil"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لغات أكثر"
+          }
         }
       }
     },
@@ -3120,6 +3240,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "點兩下以劃線或取消。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اضغط مرتين لتظليل السطر أو إزالة تظليله."
           }
         }
       }
@@ -3269,6 +3395,12 @@
             "state" : "translated",
             "value" : "Sevdiğin cümlenin olduğu\nsayfanın fotoğrafını çek"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر صفحة فيها\nسطر أعجبك"
+          }
         }
       },
       "comment" : "hint1"
@@ -3417,6 +3549,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Not"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ملاحظة"
           }
         }
       },
@@ -3568,6 +3706,12 @@
             "state" : "translated",
             "value" : "Kitaplarını ve alıntılarını bir dosyaya kaydet, sonra geri yükle."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ كتبك واقتباساتك في ملف واسترجعها لاحقًا."
+          }
         }
       }
     },
@@ -3715,6 +3859,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alıntılar"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاقتباسات"
           }
         }
       },
@@ -3865,6 +4015,12 @@
             "state" : "translated",
             "value" : "Cümlenin üzerinden parmağını kaydır · İki parmakla yakınlaştır"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مرّر إصبعك فوق الجملة · كبّر بإصبعين لتظلّل بدقة"
+          }
         }
       },
       "comment" : "swipe"
@@ -4014,6 +4170,12 @@
             "state" : "translated",
             "value" : "Alıntı Kartı"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بطاقة اقتباس"
+          }
         }
       },
       "comment" : "card"
@@ -4162,6 +4324,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alıntı, not ve kitap başlığı ara"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابحث في الاقتباسات والملاحظات وعناوين الكتب"
           }
         }
       },
@@ -4313,6 +4481,12 @@
             "state" : "translated",
             "value" : "Alıntı seçerken uygulama kapansa bile seçimin korunur."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبقى ما اخترته محفوظًا حتى لو أُغلق التطبيق أثناء الاختيار."
+          }
         }
       }
     },
@@ -4462,6 +4636,12 @@
             "state" : "translated",
             "value" : "Bir alıntının altını çizdiğinde ya da kaydettiğinde hafif bir titreşim."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اهتزاز خفيف عندما تظلّل اقتباسًا أو تحفظه."
+          }
         }
       }
     },
@@ -4610,6 +4790,12 @@
             "state" : "translated",
             "value" : "Bir alıntı kaydet, her gün burada\nbirini yeniden göreceksin."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ اقتباسًا، وسيعود إليك هنا\nاقتباس كل يوم."
+          }
         }
       },
       "comment" : "no_daily_d"
@@ -4755,6 +4941,12 @@
           }
         },
         "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot"
@@ -4909,6 +5101,12 @@
             "state" : "translated",
             "value" : "Yedekleme ve dışa aktarma"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النسخ الاحتياطي والتصدير"
+          }
         }
       }
     },
@@ -5058,6 +5256,12 @@
             "state" : "translated",
             "value" : "Daha rahat renkler ve kontrast"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ألوان وتباين أريح للعين"
+          }
         }
       }
     },
@@ -5205,6 +5409,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotoğrafta metin bulunamadı. Netliği ve ışığı kontrol edip tekrar dene."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على نص في الصورة. تحقّق من التركيز والإضاءة ثم أعد التصوير."
           }
         }
       },
@@ -5355,6 +5565,12 @@
             "state" : "translated",
             "value" : "Sil"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف"
+          }
         }
       },
       "comment" : "delete"
@@ -5503,6 +5719,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kitaplık"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المكتبة"
           }
         }
       },
@@ -5653,6 +5875,12 @@
             "state" : "translated",
             "value" : "Kitaplıktan bir kitap seç ve bir sayfanın fotoğrafını çek."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر كتابًا من مكتبتك وصوّر صفحة منه."
+          }
         }
       },
       "comment" : "no_quotes_d"
@@ -5801,6 +6029,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ayarlar"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإعدادات"
           }
         }
       },
@@ -5952,6 +6186,12 @@
             "state" : "translated",
             "value" : "Dokunsal geri bildirim"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استجابة لمسية"
+          }
         }
       }
     },
@@ -6099,6 +6339,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alıntı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس"
           }
         }
       },
@@ -6489,6 +6735,48 @@
               }
             }
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لا اقتباسات"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "اقتباس واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "اقتباسان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld اقتباسات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld اقتباسًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "%lld اقتباس"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "scrap_count"
@@ -6637,6 +6925,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alıntıyı Sil"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حذف الاقتباس"
           }
         }
       },
@@ -6787,6 +7081,12 @@
             "state" : "translated",
             "value" : "Kaydedilen Alıntılar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاقتباسات المحفوظة"
+          }
         }
       },
       "comment" : "scraped"
@@ -6935,6 +7235,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaydedilmiş alıntı yok"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد اقتباسات محفوظة"
           }
         }
       },
@@ -7086,6 +7392,12 @@
             "state" : "translated",
             "value" : "Kullanışlı ipuçları"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "نصائح مفيدة"
+          }
         }
       }
     },
@@ -7235,6 +7547,12 @@
             "state" : "translated",
             "value" : "iPad’de kitapları ve alıntıları yalnızca klavyeyle bul ve gez."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تنقّل بين الكتب والاقتباسات على iPad بلوحة المفاتيح وحدها."
+          }
         }
       }
     },
@@ -7382,6 +7700,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Henüz kitap yok"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد كتب بعد"
           }
         }
       },
@@ -7532,6 +7856,12 @@
             "state" : "translated",
             "value" : "Henüz seçilmiş cümle yok"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تختر أي جملة بعد"
+          }
         }
       },
       "comment" : "none_sel"
@@ -7680,6 +8010,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bu kitaptan henüz kaydedilmiş alıntı yok.\nİlkini kaydetmek için aşağıdaki düğmeye dokun."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تحفظ أي اقتباس من هذا الكتاب بعد.\nاضغط الزر أدناه لتحفظ أول سطر."
           }
         }
       },
@@ -7831,6 +8167,12 @@
             "state" : "translated",
             "value" : "Faydalı özellikler hakkında tam ihtiyaç duyduğun anda nazik ipuçları."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تلميحات لطيفة عن ميزات مفيدة، في الوقت المناسب."
+          }
         }
       }
     },
@@ -7978,6 +8320,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotoğraflar’dan Seç"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار من الصور"
           }
         }
       },
@@ -8129,6 +8477,12 @@
             "state" : "translated",
             "value" : "Uygulamanın tamamını İngilizce de kullan."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم التطبيق كاملًا باللغة الإنجليزية."
+          }
         }
       }
     },
@@ -8277,6 +8631,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Güncellemeden sonra ilk açtığında nelerin yeni olduğunu görürsün."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند فتح التطبيق لأول مرة بعد التحديث، تعرّف على الجديد فيه."
           }
         }
       }
@@ -8427,6 +8787,12 @@
             "state" : "translated",
             "value" : "Yenilikler"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ما الجديد"
+          }
         }
       }
     },
@@ -8574,6 +8940,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yok"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا يوجد"
           }
         }
       },
@@ -8725,6 +9097,12 @@
             "state" : "translated",
             "value" : "Tam İngilizce desteği"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دعم كامل للإنجليزية"
+          }
         }
       }
     },
@@ -8872,6 +9250,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Günün Alıntısı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس اليوم"
           }
         }
       },
@@ -9023,6 +9407,12 @@
             "state" : "translated",
             "value" : "Günün alıntısı hatırlatıcısı"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تذكيرات اقتباس اليوم"
+          }
         }
       }
     },
@@ -9171,6 +9561,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Hareketi Azalt"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تقليل الحركة"
           }
         }
       }
@@ -9321,6 +9717,12 @@
             "state" : "translated",
             "value" : "Hareketi Azalt açıkken ekran efektleri daha sakin olur."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند تشغيل تقليل الحركة تهدأ المؤثرات على الشاشة."
+          }
         }
       }
     },
@@ -9468,6 +9870,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yakınlaştırmayı Sıfırla"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة الحجم"
           }
         }
       },
@@ -9617,6 +10025,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Orijinal Fotoğraf"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصورة الأصلية"
           }
         }
       },
@@ -9768,6 +10182,12 @@
             "state" : "translated",
             "value" : "Tüm kitaplarını ve alıntılarını doğrudan uygulamadan sil."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احذف كل كتبك واقتباساتك من داخل التطبيق متى شئت."
+          }
         }
       }
     },
@@ -9915,6 +10335,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bu cümleyi neden sevdiğini yaz"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اكتب لماذا لامستك هذه الجملة"
           }
         }
       },
@@ -10065,6 +10491,12 @@
             "state" : "translated",
             "value" : "Bu kitap ve tüm alıntıları silinsin mi?"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "هل تريد حذف هذا الكتاب وكل اقتباساته؟"
+          }
         }
       },
       "comment" : "del_confirm"
@@ -10213,6 +10645,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Taşı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تحريك"
           }
         }
       },
@@ -10363,6 +10801,12 @@
             "state" : "translated",
             "value" : "Taşınıyor"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "وضع التحريك"
+          }
         }
       },
       "comment" : "moving"
@@ -10511,6 +10955,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Görsel Olarak Paylaş"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة كصورة"
           }
         }
       },
@@ -10661,6 +11111,12 @@
             "state" : "translated",
             "value" : "Tanıma Başarısız"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّرت القراءة"
+          }
         }
       },
       "comment" : "fail_title"
@@ -10809,6 +11265,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Otomatik"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تلقائي"
           }
         }
       },
@@ -10959,6 +11421,12 @@
             "state" : "translated",
             "value" : "Yazar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المؤلف"
+          }
         }
       },
       "comment" : "author"
@@ -11107,6 +11575,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaydet"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حفظ"
           }
         }
       },
@@ -11257,6 +11731,12 @@
             "state" : "translated",
             "value" : "Tümünü Temizle"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح الكل"
+          }
         }
       },
       "comment" : "clear_all"
@@ -11405,6 +11885,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bilgi"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "معلومات"
           }
         }
       },
@@ -11556,6 +12042,12 @@
             "state" : "translated",
             "value" : "Belirlediğin saatte kaydettiğin alıntılardan birini bildirim olarak al."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يصلك أحد اقتباساتك المحفوظة كإشعار في الوقت الذي تختاره."
+          }
         }
       }
     },
@@ -11703,6 +12195,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Başlık"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "العنوان"
           }
         }
       },
@@ -11853,6 +12351,12 @@
             "state" : "translated",
             "value" : "Başlık güvenilirliği: %%%lld"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دقة التعرّف على العنوان %lld%%"
+          }
         }
       },
       "comment" : "conf"
@@ -12001,6 +12505,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Favori"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المفضلة"
           }
         }
       },
@@ -12391,6 +12901,48 @@
               }
             }
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم تجمع أي كتاب بعد"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "جمعت حتى الآن كتابًا واحدًا"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "جمعت حتى الآن كتابين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "جمعت حتى الآن %lld كتب"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "جمعت حتى الآن %lld كتابًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "جمعت حتى الآن %lld كتاب"
+                }
+              }
+            }
+          }
         }
       },
       "comment" : "collected"
@@ -12770,6 +13322,48 @@
             "state" : "translated",
             "value" : "你已經收藏了 %lld 則書摘"
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم تحفظ أي اقتباس بعد"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت حتى الآن اقتباسًا واحدًا"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت حتى الآن اقتباسين"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت حتى الآن %lld اقتباسات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت حتى الآن %lld اقتباسًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "حفظت حتى الآن %lld اقتباس"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -12917,6 +13511,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Silgi"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ممحاة"
           }
         }
       },
@@ -13067,6 +13667,12 @@
             "state" : "translated",
             "value" : "Silgi Açık"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الممحاة مفعّلة"
+          }
         }
       },
       "comment" : "erase_on"
@@ -13215,6 +13821,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Destek"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الدعم"
           }
         }
       },
@@ -13365,6 +13977,12 @@
             "state" : "translated",
             "value" : "Kitap"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كتاب"
+          }
         }
       },
       "comment" : "book"
@@ -13513,6 +14131,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kitap Bilgileri (düzenlenebilir)"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بيانات الكتاب (قابلة للتعديل)"
           }
         }
       },
@@ -13663,6 +14287,12 @@
             "state" : "translated",
             "value" : "Kitap Ekle"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إضافة كتاب"
+          }
         }
       },
       "comment" : "add_book"
@@ -13811,6 +14441,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kitap Kapağı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غلاف الكتاب"
           }
         }
       },
@@ -13962,6 +14598,12 @@
             "state" : "translated",
             "value" : "Yeni kullanıcılar için tanıtım"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "دليل سريع للمستخدمين الجدد"
+          }
         }
       }
     },
@@ -14111,6 +14753,12 @@
             "state" : "translated",
             "value" : "İlk açtığında uygulamanın neler yapabildiğini kısaca görürsün."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عند فتح التطبيق أول مرة، تعرّف سريعًا على ما يمكنه فعله."
+          }
         }
       }
     },
@@ -14258,6 +14906,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "İlk Kitabını Ekle"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أضف كتابك الأول"
           }
         }
       },
@@ -14408,6 +15062,12 @@
             "state" : "translated",
             "value" : "Alınan Metin"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "النص المستخرج"
+          }
         }
       },
       "comment" : "extracted"
@@ -14557,6 +15217,12 @@
             "state" : "translated",
             "value" : "Vazgeç"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إلغاء"
+          }
         }
       },
       "comment" : "cancel"
@@ -14705,6 +15371,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fotoğraf Çek"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التقاط صورة"
           }
         }
       },
@@ -14856,6 +15528,12 @@
             "state" : "translated",
             "value" : "Büyük yazıya uygun ekranlar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطيط يناسب الخط الكبير"
+          }
         }
       }
     },
@@ -15005,6 +15683,12 @@
             "state" : "translated",
             "value" : "Klavye ile kontrol"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التحكم بلوحة المفاتيح"
+          }
         }
       }
     },
@@ -15152,6 +15836,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Metin tanınırken bir hata oluştu. Lütfen tekrar dene."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حدث خطأ أثناء التعرّف على النص. حاول مرة أخرى."
           }
         }
       },
@@ -15302,6 +15992,12 @@
             "state" : "translated",
             "value" : "Metin Olarak Paylaş"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة كنص"
+          }
         }
       },
       "comment" : "share_text"
@@ -15450,6 +16146,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sayfa"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصفحة"
           }
         }
       },
@@ -15600,6 +16302,12 @@
             "state" : "translated",
             "value" : "Dört noktayı sayfanın köşelerine oturt"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طابِق النقاط الأربع مع زوايا الصفحة"
+          }
         }
       },
       "comment" : "corners"
@@ -15749,6 +16457,12 @@
             "state" : "translated",
             "value" : "Tüm Sayfa"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصفحة كاملة"
+          }
         }
       },
       "comment" : "whole_page"
@@ -15897,6 +16611,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sayfa senin için düzeltilir. Sonra seçmek istediğin cümlelerin üzerinden parmağını kaydır."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تُسوّى الصفحة لك تلقائيًا،\nثم مرّر إصبعك فوق الجمل التي تريدها لتختارها."
           }
         }
       },
@@ -16048,6 +16768,12 @@
             "state" : "translated",
             "value" : "Katlanabilir iPhone düzeni"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطيط iPhone القابل للطي"
+          }
         }
       }
     },
@@ -16197,6 +16923,12 @@
             "state" : "translated",
             "value" : "Katlanabilir iPhone’un geniş ekranını yan yana iki bölme olarak kullan."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استخدم شاشة iPhone القابل للطي العريضة كلوحين متجاورين."
+          }
         }
       }
     },
@@ -16344,6 +17076,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arka kapaktaki barkodu da (ya da sadece onu) çekersen ISBN otomatik tanınır."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر الباركود على الغلاف الخلفي أيضًا (أو بدلًا من الغلاف) فيُقرأ رقم ISBN تلقائيًا."
           }
         }
       },
@@ -16494,6 +17232,12 @@
             "state" : "translated",
             "value" : "Kapak okunuyor…"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ قراءة الغلاف…"
+          }
         }
       },
       "comment" : "cover_reading"
@@ -16643,6 +17387,12 @@
             "state" : "translated",
             "value" : "Kapağın fotoğrafını çek, başlık ve yazar otomatik okunsun"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر الغلاف لنقرأ العنوان والمؤلف تلقائيًا"
+          }
         }
       },
       "comment" : "cover_hint"
@@ -16791,6 +17541,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bir kapak fotoğrafı çekerek başla.\nBaşlık ve yazar otomatik okunur."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ بتصوير غلاف كتاب.\nسنقرأ العنوان والمؤلف تلقائيًا."
           }
         }
       },
@@ -16942,6 +17698,12 @@
             "state" : "translated",
             "value" : "Kaldığın yerden devam et"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تابع من حيث توقفت"
+          }
         }
       }
     },
@@ -17091,6 +17853,12 @@
             "state" : "translated",
             "value" : "VoiceOver her kitabı, alıntıyı ve düğmeyi doğru sırayla okur."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يقرأ VoiceOver كل كتاب واقتباس وزر، بالترتيب الصحيح."
+          }
         }
       }
     },
@@ -17239,6 +18007,12 @@
             "state" : "translated",
             "value" : "Tamam"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "حسنًا"
+          }
         }
       },
       "comment" : "ok"
@@ -17382,6 +18156,12 @@
             "state" : "translated",
             "value" : "無法開啟紀錄"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر فتح سجلاتك"
+          }
         }
       }
     },
@@ -17523,6 +18303,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "已儲存的紀錄並未刪除。不過現在輸入的內容不會儲存，請關閉 App 後重新開啟。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تُحذف سجلاتك المحفوظة، لكن ما تضيفه الآن لن يُحفظ. أغلق التطبيق وافتحه من جديد."
           }
         }
       }
@@ -17666,6 +18452,12 @@
             "state" : "translated",
             "value" : "劃線句子"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس مظلّل"
+          }
         }
       }
     },
@@ -17807,6 +18599,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "掃描頁面"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح صفحة"
           }
         }
       }
@@ -17950,6 +18748,12 @@
             "state" : "translated",
             "value" : "拍下書頁，選出要劃線的句子。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صوّر صفحة من كتاب واختر الأسطر التي تريد تظليلها."
+          }
         }
       }
     },
@@ -18091,6 +18895,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "掃描哪本書？"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أي كتاب تريد؟"
           }
         }
       }
@@ -18234,6 +19044,12 @@
             "state" : "translated",
             "value" : "挑一句你劃過線的句子唸給你聽。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يختار أحد اقتباساتك المظلّلة ويقرؤه بصوت عالٍ."
+          }
         }
       }
     },
@@ -18375,6 +19191,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "你還沒有劃線的句子。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تظلّل أي سطر بعد."
           }
         }
       }
@@ -18518,6 +19340,12 @@
             "state" : "translated",
             "value" : "%1$@（%2$@）"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%1$@ (%2$@)"
+          }
         }
       }
     },
@@ -18659,6 +19487,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "尋找句子"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البحث في الاقتباسات"
           }
         }
       }
@@ -18802,6 +19636,12 @@
             "state" : "translated",
             "value" : "在劃線句子和書名中搜尋。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يبحث عن كلمة في اقتباساتك المظلّلة وعناوين الكتب."
+          }
         }
       }
     },
@@ -18943,6 +19783,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "搜尋字詞"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمة البحث"
           }
         }
       }
@@ -19086,6 +19932,12 @@
             "state" : "translated",
             "value" : "要找什麼？"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عمّ تريد أن أبحث؟"
+          }
         }
       }
     },
@@ -19227,6 +20079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "沒有包含「%@」的句子。"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لا توجد اقتباسات تحتوي على «%@»."
           }
         }
       }
@@ -19370,6 +20228,12 @@
             "state" : "translated",
             "value" : "找到 %2$lld 句包含「%1$@」的句子。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد الاقتباسات التي تحتوي على «%1$@»: %2$lld."
+          }
         }
       }
     },
@@ -19511,6 +20375,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "打開句子"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "فتح الاقتباس"
           }
         }
       }
@@ -19660,6 +20530,12 @@
             "state" : "translated",
             "value" : "掃描頁面"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مسح صفحة"
+          }
         }
       }
     },
@@ -19808,6 +20684,12 @@
             "state" : "translated",
             "value" : "今日句子"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباس اليوم"
+          }
         }
       }
     },
@@ -19955,6 +20837,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "尋找句子"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البحث في الاقتباسات"
           }
         }
       }
@@ -20105,6 +20993,12 @@
             "state" : "translated",
             "value" : "要拍書頁的那本書"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكتاب الذي تريد تصوير صفحة منه"
+          }
         }
       }
     },
@@ -20253,6 +21147,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要在劃線句子或書名中搜尋的字詞"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كلمة تبحث عنها في اقتباساتك المظلّلة أو عناوين الكتب"
           }
         }
       }
@@ -20403,6 +21303,12 @@
             "state" : "translated",
             "value" : "在 App 中打開劃線句子。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يفتح اقتباسًا مظلّلًا في التطبيق."
+          }
         }
       }
     },
@@ -20551,6 +21457,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "要打開的劃線句子"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاقتباس المظلّل الذي تريد فتحه"
           }
         }
       }
@@ -20701,6 +21613,12 @@
             "state" : "translated",
             "value" : "不說 App 名稱也能用 Siri"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اطلب من Siri دون ذكر اسم التطبيق"
+          }
         }
       }
     },
@@ -20850,6 +21768,12 @@
             "state" : "translated",
             "value" : "即使不說 App 名稱，Siri 也能找到並打開你的劃線句子。"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اعثر على اقتباساتك المظلّلة وافتحها عبر Siri حتى دون ذكر اسم التطبيق."
+          }
         }
       }
     },
@@ -20998,6 +21922,12 @@
             "state" : "translated",
             "value" : "Bu Apple Hesabı için satın alma bulunamadı."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على مشتريات لحساب Apple هذا."
+          }
         }
       }
     },
@@ -21145,6 +22075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Satın Alımları Geri Yükle"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعادة المشتريات"
           }
         }
       }
@@ -21295,6 +22231,12 @@
             "state" : "translated",
             "value" : "%@ etkin"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ مفعّل"
+          }
         }
       }
     },
@@ -21440,6 +22382,12 @@
           }
         },
         "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot Plus · Pro"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot Plus · Pro"
@@ -21592,6 +22540,12 @@
             "state" : "translated",
             "value" : "Kontrol ediliyor…"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ التحقق…"
+          }
         }
       }
     },
@@ -21739,6 +22693,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "iCloud Eşzamanlama"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزامنة عبر iCloud"
           }
         }
       }
@@ -21889,6 +22849,12 @@
             "state" : "translated",
             "value" : "Kilitli, %@ gerekir"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقفل، يتطلّب %@"
+          }
         }
       }
     },
@@ -22036,6 +23002,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Uygulamayı tamamen kapatıp yeniden açtığınızda geçerli olur."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يسري التغيير بعد إغلاق التطبيق تمامًا وإعادة فتحه."
           }
         }
       }
@@ -22185,6 +23157,12 @@
             "state" : "translated",
             "value" : "Yeni bir iPhone'da ya da iPad'inizde aynı kitaplığı ve alıntıları görün. Kapatırsanız bu aygıttaki her şey olduğu gibi kalır."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شاهد المكتبة والاقتباسات نفسها على iPhone جديد أو على iPad. وإن أوقفتها تبقى بياناتك على هذا الجهاز كما هي."
+          }
         }
       }
     },
@@ -22332,6 +23310,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Metin Olarak Dışa Aktar"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصدير كنص"
           }
         }
       }
@@ -22481,6 +23465,12 @@
             "state" : "translated",
             "value" : "CSV Olarak Dışa Aktar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصدير بصيغة CSV"
+          }
         }
       }
     },
@@ -22629,6 +23619,12 @@
             "state" : "translated",
             "value" : "Alıntıları Dışa Aktar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصدير الاقتباسات"
+          }
         }
       }
     },
@@ -22776,6 +23772,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tüm alıntılarınızı bir dosyaya kaydedin. Her planda ücretsiz."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ كل اقتباساتك في ملف. مجانًا في كل الخطط."
           }
         }
       }
@@ -22926,6 +23928,48 @@
             "state" : "translated",
             "value" : "%lld kitap sınırına ulaştınız"
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld كتاب"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: كتاب واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: كتابان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld كتب"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld كتابًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld كتاب"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -23073,6 +24117,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus ile istediğiniz kadar kitap ekleyin. Girdiğiniz kitap bilgileri hâlâ burada."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مع Plus أضف ما تشاء من الكتب. البيانات التي أدخلتها ما زالت هنا."
           }
         }
       }
@@ -23223,6 +24273,48 @@
             "state" : "translated",
             "value" : "%lld alıntı sınırına ulaştınız"
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld اقتباس"
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: اقتباس واحد"
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: اقتباسان"
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld اقتباسات"
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld اقتباسًا"
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "بلغت الحد الأقصى: %lld اقتباس"
+                }
+              }
+            }
+          }
         }
       }
     },
@@ -23370,6 +24462,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Az önce çizdiğiniz satır hâlâ burada. Plus'ı açın, hemen kaydedilsin."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السطر الذي ظلّلته للتو ما زال هنا. افتح Plus ويُحفظ فورًا."
           }
         }
       }
@@ -23519,6 +24617,12 @@
             "state" : "translated",
             "value" : "iCloud eşzamanlama Pro ile gelir"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المزامنة عبر iCloud متاحة في Pro"
+          }
         }
       }
     },
@@ -23667,6 +24771,12 @@
             "state" : "translated",
             "value" : "Yeni bir iPhone ya da iPad'iniz: Çizdiğiniz tüm satırlar sizinle gelir."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "انتقل إلى iPhone جديد أو افتح iPad، وستجد كل سطر ظلّلته معك."
+          }
         }
       }
     },
@@ -23814,6 +24924,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Şimdi Değil"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ليس الآن"
           }
         }
       }
@@ -23964,6 +25080,12 @@
             "state" : "translated",
             "value" : "Sevdiğiniz her satırı kaydedin, hep yanınızda olsun. Yıllık ya da ömür boyu seçin."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجمع كل سطر تحبه وأبقه قريبًا منك. اختر الاشتراك السنوي أو الشراء مدى الحياة."
+          }
         }
       }
     },
@@ -24112,6 +25234,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Okuduğunuz kadar kaydedin"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اجمع بقدر ما تقرأ"
           }
         }
       }
@@ -24262,6 +25390,12 @@
             "state" : "translated",
             "value" : "Alıntılarınız güvende ve yanınızda"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "احفظ اقتباساتك وأبقها قريبة منك"
+          }
         }
       }
     },
@@ -24409,6 +25543,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sınırsız kitap"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كتب بلا حدود"
           }
         }
       }
@@ -24558,6 +25698,12 @@
             "state" : "translated",
             "value" : "Sınırsız alıntı"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباسات بلا حدود"
+          }
         }
       }
     },
@@ -24705,6 +25851,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Plus'taki her şey"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل ما في Plus"
           }
         }
       }
@@ -24854,6 +26006,12 @@
             "state" : "translated",
             "value" : "Kitaplığınızı ve alıntılarınızı iCloud ile aygıtlar arasında eşzamanlayın"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مزامنة المكتبة والاقتباسات بين أجهزتك عبر iCloud"
+          }
         }
       }
     },
@@ -25001,6 +26159,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Haftalık Başlat"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الاشتراك الأسبوعي"
           }
         }
       }
@@ -25150,6 +26314,12 @@
             "state" : "translated",
             "value" : "Aylık Başlat"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الاشتراك الشهري"
+          }
         }
       }
     },
@@ -25297,6 +26467,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yıllık Başlat"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ابدأ الاشتراك السنوي"
           }
         }
       }
@@ -25446,6 +26622,12 @@
             "state" : "translated",
             "value" : "Ömür Boyu Pro'ya Yükselt"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الترقية إلى Pro مدى الحياة"
+          }
         }
       }
     },
@@ -25593,6 +26775,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Ömür Boyu Satın Al"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شراء مدى الحياة"
           }
         }
       }
@@ -25743,6 +26931,12 @@
             "state" : "translated",
             "value" : "Tek bir fotoğraftan çizin ve kaydedin; en fazla %1$lld kitap ve %2$lld alıntı"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ظلّل واحفظ من صورة واحدة، حتى %1$lld كتب و%2$lld اقتباس"
+          }
         }
       }
     },
@@ -25890,6 +27084,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Fiyatlar yükleniyor…"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "جارٍ تحميل الأسعار…"
           }
         }
       }
@@ -26039,6 +27239,12 @@
             "state" : "translated",
             "value" : "Planlar yüklenemedi. İnternet bağlantınızı kontrol edip tekrar deneyin."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تعذّر تحميل الخطط. تحقّق من اتصالك بالإنترنت وحاول مرة أخرى."
+          }
         }
       }
     },
@@ -26186,6 +27392,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tekrar Dene"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إعادة المحاولة"
           }
         }
       }
@@ -26336,6 +27548,12 @@
             "state" : "translated",
             "value" : "Abonelikler, dönem bitmeden en az 24 saat önce iptal edilmedikçe aynı fiyatla otomatik olarak yenilenir ve Apple Hesabınızdan tahsil edilir. Yıllık aboneliği ilk kez başlatıyorsanız ilk yıl indirimli olabilir; ardından normal fiyattan yenilenir. Aboneliği istediğiniz zaman App Store hesap ayarlarınızdan yönetebilir veya iptal edebilirsiniz. Ömür boyu seçeneği abonelik değil, tek seferlik bir satın almadır."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "يتجدد الاشتراك تلقائيًا بالسعر نفسه ما لم تُلغِه قبل 24 ساعة على الأقل من نهاية المدة، ويُخصم المبلغ من حساب Apple. إذا اشتركت في الخطة السنوية لأول مرة فقد تكون السنة الأولى بسعر مخفّض، ثم تتجدد بالسعر العادي. يمكنك إدارة الاشتراك أو إلغاؤه في أي وقت من إعدادات حسابك في App Store. الشراء مدى الحياة دفعة واحدة وليس اشتراكًا."
+          }
         }
       }
     },
@@ -26483,6 +27701,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kullanım Koşulları"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شروط الاستخدام"
           }
         }
       }
@@ -26632,6 +27856,12 @@
             "state" : "translated",
             "value" : "Gizlilik Politikası"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سياسة الخصوصية"
+          }
         }
       }
     },
@@ -26779,6 +28009,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kod Kullan"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استرداد رمز"
           }
         }
       }
@@ -26928,6 +28164,12 @@
             "state" : "translated",
             "value" : "Mevcut plan"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "خطتك الحالية"
+          }
         }
       }
     },
@@ -27075,6 +28317,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Haftalık ve aylığı göster"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عرض الخطتين الأسبوعية والشهرية"
           }
         }
       }
@@ -27224,6 +28472,12 @@
             "state" : "translated",
             "value" : "Haftalık"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسبوعي"
+          }
         }
       }
     },
@@ -27371,6 +28625,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Aylık"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "شهري"
           }
         }
       }
@@ -27521,6 +28781,12 @@
             "state" : "translated",
             "value" : "%@ / hafta"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / أسبوع"
+          }
         }
       }
     },
@@ -27669,6 +28935,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "%@ / ay"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%@ / شهر"
           }
         }
       }
@@ -27819,6 +29091,12 @@
             "state" : "translated",
             "value" : "Sınırsız"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بلا حدود"
+          }
         }
       }
     },
@@ -27968,6 +29246,12 @@
             "state" : "translated",
             "value" : "Kitaplar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكتب"
+          }
         }
       }
     },
@@ -28113,6 +29397,12 @@
           }
         },
         "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -28266,6 +29556,12 @@
             "state" : "translated",
             "value" : "Kaydedilen alıntılar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاقتباسات المحفوظة"
+          }
         }
       }
     },
@@ -28411,6 +29707,12 @@
           }
         },
         "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "%lld"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "%lld"
@@ -28563,6 +29865,12 @@
             "state" : "translated",
             "value" : "Kapak tanıma, fosforlu kalem tarama, sayfa tanıma"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قراءة الغلاف · التظليل بالإصبع · رقم الصفحة"
+          }
         }
       }
     },
@@ -28710,6 +30018,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arama, favoriler, Günün Alıntısı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "البحث · المفضلة · اقتباس اليوم"
           }
         }
       }
@@ -28859,6 +30173,12 @@
             "state" : "translated",
             "value" : "Kart görseli ya da metin olarak paylaşma"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المشاركة كبطاقة أو نص"
+          }
         }
       }
     },
@@ -29006,6 +30326,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tüm alıntıları metin olarak dışa aktarma"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصدير كل الاقتباسات كنص"
           }
         }
       }
@@ -29155,6 +30481,12 @@
             "state" : "translated",
             "value" : "Ana Ekran ve Kilitli Ekran widget'ları"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أدوات الشاشة الرئيسية وشاشة القفل"
+          }
         }
       }
     },
@@ -29302,6 +30634,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Planları karşılaştır"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مقارنة الخطط"
           }
         }
       }
@@ -29452,6 +30790,12 @@
             "state" : "translated",
             "value" : "Dahil"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشمول"
+          }
         }
       }
     },
@@ -29600,6 +30944,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dahil değil"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "غير مشمول"
           }
         }
       }
@@ -29750,6 +31100,12 @@
             "state" : "translated",
             "value" : "Alıntı,Kitap,Yazar,Sayfa,Favori,Not,Tarih"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الاقتباس,الكتاب,المؤلف,الصفحة,المفضلة,الملاحظة,التاريخ"
+          }
         }
       }
     },
@@ -29899,6 +31255,12 @@
             "state" : "translated",
             "value" : "Ücretsiz"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مجاني"
+          }
         }
       }
     },
@@ -30044,6 +31406,12 @@
           }
         },
         "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot Plus"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bookmark Shot Plus"
@@ -30197,6 +31565,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot Pro"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Bookmark Shot Pro"
+          }
         }
       }
     },
@@ -30346,6 +31720,12 @@
             "state" : "translated",
             "value" : "Bookmark Shot Alıntıları"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباسات Bookmark Shot"
+          }
         }
       }
     },
@@ -30493,6 +31873,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Dinle"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استماع"
           }
         }
       },
@@ -30643,6 +32029,12 @@
             "state" : "translated",
             "value" : "Durdur"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إيقاف"
+          }
         }
       },
       "extractionState" : "manual"
@@ -30791,6 +32183,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seçim yöntemi"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "طريقة الاختيار"
           }
         }
       },
@@ -30941,6 +32339,12 @@
             "state" : "translated",
             "value" : "Kaydır"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تظليل"
+          }
         }
       },
       "extractionState" : "manual"
@@ -31089,6 +32493,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Liste"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "قائمة"
           }
         }
       },
@@ -31239,6 +32649,12 @@
             "state" : "translated",
             "value" : "Sayfa bulundu. “Metni Al” düğmesine dokunun."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عثرنا على الصفحة. اضغط «استخراج النص»."
+          }
         }
       },
       "extractionState" : "manual"
@@ -31387,6 +32803,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sayfa kenarları bulunamadı. Sayfa ekranı dolduracak şekilde yeniden çekin ya da yine de “Metni Al” düğmesine dokunun."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم نعثر على حواف الصفحة. أعد التصوير بحيث تملأ الصفحة الشاشة، أو اضغط «استخراج النص» على أي حال."
           }
         }
       },
@@ -31537,6 +32959,48 @@
             "state" : "translated",
             "value" : "%lld satır metin okundu."
           }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم يُقرأ أي سطر."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قُرئ سطر واحد."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قُرئ سطران."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قُرئت %lld أسطر."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قُرئ %lld سطرًا."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "قُرئ %lld سطر."
+                }
+              }
+            }
+          }
         }
       },
       "extractionState" : "manual"
@@ -31685,6 +33149,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sayfa %1$@. %2$lld satır metin okundu."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الصفحة %1$@. عدد الأسطر المقروءة: %2$lld."
           }
         }
       },
@@ -31835,6 +33305,12 @@
             "state" : "translated",
             "value" : "Cümleleri listeden seç"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار الجمل من قائمة"
+          }
         }
       },
       "extractionState" : "manual"
@@ -31983,6 +33459,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaydırmak yerine listedeki cümlelere dokunun. VoiceOver ile de çalışır."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "بدل التظليل بإصبعك، اضغط على الجمل في قائمة. يعمل مع VoiceOver أيضًا."
           }
         }
       },
@@ -32133,6 +33615,12 @@
             "state" : "translated",
             "value" : "Alıntılarını dinle"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استمع إلى اقتباساتك"
+          }
         }
       },
       "extractionState" : "manual"
@@ -32281,6 +33769,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kaydedilen cümleler ve notlar sesli okunur."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تُقرأ اقتباساتك وملاحظاتك بصوت عالٍ."
           }
         }
       },
@@ -32431,6 +33925,12 @@
             "state" : "translated",
             "value" : "Fotoğraf %1$lld/%2$lld"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صورة %1$lld/%2$lld"
+          }
         }
       },
       "extractionState" : "manual"
@@ -32579,6 +34079,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Sonraki %1$lld/%2$lld"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التالي %1$lld/%2$lld"
           }
         }
       },
@@ -32729,6 +34235,12 @@
             "state" : "translated",
             "value" : "Bu fotoğrafı atla"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطي هذه الصورة"
+          }
         }
       },
       "extractionState" : "manual"
@@ -32877,6 +34389,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Atla ve bitir"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تخطٍّ وإنهاء"
           }
         }
       },
@@ -33027,6 +34545,12 @@
             "state" : "translated",
             "value" : "Fotoğraflar’dan birkaç tane seç"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختيار عدة صور من الألبوم"
+          }
         }
       },
       "extractionState" : "manual"
@@ -33175,6 +34699,48 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Daha önce kullanılan %lld fotoğraf atlandı."
+          }
+        },
+        "ar" : {
+          "variations" : {
+            "plural" : {
+              "zero" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "لم يتم تخطي أي صورة."
+                }
+              },
+              "one" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم تخطي صورة واحدة استخدمتها من قبل."
+                }
+              },
+              "two" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم تخطي صورتين استخدمتهما من قبل."
+                }
+              },
+              "few" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم تخطي %lld صور استخدمتها من قبل."
+                }
+              },
+              "many" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم تخطي %lld صورة استخدمتها من قبل."
+                }
+              },
+              "other" : {
+                "stringUnit" : {
+                  "state" : "translated",
+                  "value" : "تم تخطي %lld صورة استخدمتها من قبل."
+                }
+              }
+            }
           }
         }
       },
@@ -33325,6 +34891,12 @@
             "state" : "translated",
             "value" : "Seçilen fotoğrafların hepsi zaten kullanıldı."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "سبق أن استخدمت كل الصور التي اخترتها."
+          }
         }
       },
       "extractionState" : "manual"
@@ -33473,6 +35045,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Kitapsız alıntılar"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباسات بلا كتاب"
           }
         }
       },
@@ -33623,6 +35201,12 @@
             "state" : "translated",
             "value" : "Markdown olarak dışa aktar (Notion, Obsidian)"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "تصدير بصيغة Markdown (Notion · Obsidian)"
+          }
         }
       },
       "extractionState" : "manual"
@@ -33771,6 +35355,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Günlük alıntı bildirimi"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "إشعار اقتباس يومي"
           }
         }
       },
@@ -33921,6 +35511,12 @@
             "state" : "translated",
             "value" : "Saat"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الوقت"
+          }
         }
       },
       "extractionState" : "manual"
@@ -34069,6 +35665,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeniden buluş"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مراجعة"
           }
         }
       },
@@ -34219,6 +35821,12 @@
             "state" : "translated",
             "value" : "Bildirimler kapalı. Ayarlar ▸ Bildirimler ▸ Bookmark Shot bölümünden açabilirsiniz."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الإشعارات متوقفة. يمكنك تشغيلها من الإعدادات ◂ الإشعارات ◂ Bookmark Shot."
+          }
         }
       },
       "extractionState" : "manual"
@@ -34367,6 +35975,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Seçtiğin saatte kayıtlı alıntılarından biri bildirim olarak gelir."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في الوقت الذي تحدده يصلك أحد اقتباساتك المحفوظة كإشعار."
           }
         }
       },
@@ -34517,6 +36131,12 @@
             "state" : "translated",
             "value" : "Koleksiyonlar"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المجموعات"
+          }
         }
       },
       "extractionState" : "manual"
@@ -34665,6 +36285,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Tüm alıntılar"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كل الاقتباسات"
           }
         }
       },
@@ -34815,6 +36441,12 @@
             "state" : "translated",
             "value" : "Yılın alıntıları"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباسات العام"
+          }
         }
       },
       "extractionState" : "manual"
@@ -34963,6 +36595,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Daha sık"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أكثر تكرارًا"
           }
         }
       },
@@ -35113,6 +36751,12 @@
             "state" : "translated",
             "value" : "Normal"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عادي"
+          }
         }
       },
       "extractionState" : "manual"
@@ -35261,6 +36905,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Daha seyrek"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أقل تكرارًا"
           }
         }
       },
@@ -35411,6 +37061,12 @@
             "state" : "translated",
             "value" : "Ne sıklıkla"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عدد مرات الظهور"
+          }
         }
       },
       "extractionState" : "manual"
@@ -35559,6 +37215,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yıl"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "السنة"
           }
         }
       },
@@ -35709,6 +37371,12 @@
             "state" : "translated",
             "value" : "Bu yıl kaydedilmiş alıntı yok."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "لم تحفظ أي اقتباس في هذه السنة."
+          }
         }
       },
       "extractionState" : "manual"
@@ -35857,6 +37525,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yıl kartını paylaş"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "مشاركة بطاقة العام"
           }
         }
       },
@@ -36007,6 +37681,12 @@
             "state" : "translated",
             "value" : "Yılın alıntısını seç"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر اقتباس عامك"
+          }
         }
       },
       "extractionState" : "manual"
@@ -36155,6 +37835,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alıntılarla %@ yılım"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اقتباساتي في %@"
           }
         }
       },
@@ -36305,6 +37991,12 @@
             "state" : "translated",
             "value" : "%1$@ yılında %2$lld kitaptan %3$lld alıntı kaydettin."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "في عام %1$@ حفظت اقتباسات عددها %3$lld من كتب عددها %2$lld."
+          }
         }
       },
       "extractionState" : "manual"
@@ -36453,6 +38145,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bu yıl altını çizdiklerim"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "أسطر ظلّلتها هذا العام"
           }
         }
       },
@@ -36603,6 +38301,12 @@
             "state" : "translated",
             "value" : "En çok altı çizilen kitap"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "الكتاب الأكثر تظليلًا"
+          }
         }
       },
       "extractionState" : "manual"
@@ -36748,6 +38452,12 @@
           }
         },
         "tr" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "— %@"
+          }
+        },
+        "ar" : {
           "stringUnit" : {
             "state" : "translated",
             "value" : "— %@"
@@ -36901,6 +38611,12 @@
             "state" : "translated",
             "value" : "“%@”"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "“%@”"
+          }
         }
       },
       "extractionState" : "manual"
@@ -37049,6 +38765,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Yeni koleksiyon adı"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اسم المجموعة الجديدة"
           }
         }
       },
@@ -37199,6 +38921,12 @@
             "state" : "translated",
             "value" : "Sınırsız kitap ve alıntı, iCloud eşitleme"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "كتب واقتباسات بلا حدود، ومزامنة عبر iCloud"
+          }
         }
       },
       "extractionState" : "manual"
@@ -37347,6 +39075,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Arşivindeki kitap fotoğraflarından birçoğunu seç, tek tek alıntıya dönüştür. Kullanılan fotoğraflar bir daha sorulmaz."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "اختر عدة صور لكتب منسية في ألبومك وحوّلها إلى اقتباسات واحدة تلو الأخرى. الصور التي استخدمتها لن تُعرض عليك مجددًا."
           }
         }
       },
@@ -37497,6 +39231,12 @@
             "state" : "translated",
             "value" : "Günde üç alıntıyla yeniden buluş, hangilerini daha sık ya da seyrek göreceğini seç."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "عُد إلى ثلاثة اقتباسات كل يوم، واختر لكل اقتباس أن يظهر أكثر أو أقل."
+          }
         }
       },
       "extractionState" : "manual"
@@ -37645,6 +39385,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Koleksiyonlar"
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "المجموعات"
           }
         }
       },
@@ -37795,6 +39541,12 @@
             "state" : "translated",
             "value" : "Alıntıları kendi adlandırdığın koleksiyonlarda topla, koleksiyona göre göz at ya da yeniden buluş."
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ضع اقتباساتك في مجموعات تسميها بنفسك، ثم تصفّحها أو عُد إليها حسب المجموعة."
+          }
         }
       },
       "extractionState" : "manual"
@@ -37943,6 +39695,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Bu yıl altını çizdiklerine dön ve bir yıl kartı paylaş."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "استعد الأسطر التي ظلّلتها خلال العام وشارك بطاقة عامك."
           }
         }
       },
@@ -38093,6 +39851,12 @@
             "state" : "translated",
             "value" : "Markdown dışa aktarma"
           }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "التصدير بصيغة Markdown"
+          }
         }
       },
       "extractionState" : "manual"
@@ -38241,6 +40005,12 @@
           "stringUnit" : {
             "state" : "translated",
             "value" : "Alıntılarını doğrudan Notion veya Obsidian’a girecek bir dosya olarak dışa aktar."
+          }
+        },
+        "ar" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "صدّر اقتباساتك في ملف ينتقل مباشرة إلى Notion أو Obsidian."
           }
         }
       },

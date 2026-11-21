@@ -94,6 +94,8 @@ struct HighlightSelectionView: View {
             }
             .coordinateSpace(name: "canvas")
             .clipped()
+            // 사진 위 좌표는 종이 그대로다. 아랍어 화면에서도 뒤집지 않는다 (도구 모음만 오른쪽부터)
+            .environment(\.layoutDirection, .leftToRight)
 
             toolbar
         }

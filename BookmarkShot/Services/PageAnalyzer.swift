@@ -26,7 +26,7 @@ enum PageAnalyzer {
             guard !digits.isEmpty, digits.count <= 4,
                   // 숫자 이외 문자가 소수인 짧은 줄만 (본문 문장 배제)
                   trimmed.count <= 8,
-                  let number = Int(digits), number > 0 else { continue }
+                  let number = String(digits).wholeNumber, number > 0 else { continue }
 
             let midY = line.box.midY
             let nearTop = midY < 0.12
