@@ -24,6 +24,9 @@ struct BookmarkShotApp: App {
         // 사용량 기록 · 크래시 진단 · 익명 사용 통계. 실패해도 앱 동작에는 영향이 없다.
         LeeoKit.bootstrap(BookmarkShotSpec.self)
 
+        #if DEBUG
+        CloudKitSchemaSeeder.runIfRequested()
+        #endif
         let schema = Schema([Book.self, Quote.self])
         if ScreenshotMode.isActive {
             // 스크린샷 데모(DEBUG): 메모리 저장소에 데모 서재만 — 실제 데이터 · iCloud 를 건드리지 않는다
