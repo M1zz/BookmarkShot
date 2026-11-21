@@ -8,7 +8,7 @@
 - 원인: 1.0.4 빌드 5 는 페이월을 넣기 **전** 빌드였다 (`BookmarkShotEntitlement.lastBuildBeforePaywall = 5`).
   그런데 상품 10개를 그 제출에 붙여 냈다. 앱 안에 사는 자리가 없으니 심사원이 못 찾았다.
 - 다시 막지 않으려면:
-  1. 상품을 붙인 제출에는 **페이월이 든 빌드(6 이상)** 만 낸다. 다시 내는 빌드: 1.0.4 (6) — 1.0.5 로 만든 것을 모두 담았다.
+  1. 상품을 붙인 제출에는 **페이월이 든 빌드(6 이상, 실제 제출은 7)** 만 낸다. 다시 내는 빌드: 1.0.4 (7) — 1.0.5 로 만든 것을 모두 담았다.
   2. 상품 10개 모두 App Store Connect 에서 '제출 준비 완료' 이고 이번 버전 제출에 붙어 있는지 본다.
   3. 유료 앱 계약(Paid Apps Agreement)이 '활성' 인지 본다.
   4. 아래 영어 글을 메모 칸과 답장에 넣는다.
@@ -18,7 +18,7 @@
 ```
 Hello App Review team,
 
-Thank you for your patience. Build 1.0.4 (5) was built before the in-app purchases were added, which is why they could not be found. The new build, 1.0.4 (6), includes the full purchase screen. All In-App Purchases are offered by StoreKit 2 and need no account or login. They are not restricted by storefront or device.
+Thank you for your patience. Build 1.0.4 (5) was built before the in-app purchases were added, which is why they could not be found. The new build, 1.0.4 (7), includes the full purchase screen. All In-App Purchases are offered by StoreKit 2 and need no account or login. They are not restricted by storefront or device.
 
 How to find each In-App Purchase:
 
