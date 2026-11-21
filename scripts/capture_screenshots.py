@@ -93,7 +93,7 @@ def main():
             time.sleep(1)
             sh("xcrun", "simctl", "launch", udid, BUNDLE, "-AppleLanguages", f"({language})",
                "-AppleLocale", REGION[lang], "-ScreenshotSeed", str(box / "seed.json"), "-ScreenshotScene", scene)
-            time.sleep(wait)
+            time.sleep(wait * float(os.environ.get("WAIT_SCALE", "1")))   # 맥이 바쁘면 WAIT_SCALE=4 처럼 늘린다
             # ⚠️ simctl io screenshot 은 그림을 다 쓰고도 한참 끝나지 않는 일이 있다(맥이 바쁠 때).
             #    그래서 파일이 다 써지면 기다리지 않고 끝낸다. 세 번까지 찍는다.
             target = out / name
