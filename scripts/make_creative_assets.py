@@ -57,6 +57,7 @@ SEARCH = {
     "pl": ("Dziennik czytelniczy", "Podkreślone zdania<br><mark>w jednym miejscu</mark>", "Razem z tytułem książki i numerem strony"),
     "sv": ("Läsdagbok", "Dina bästa meningar,<br><mark>samlade på ett ställe</mark>", "Boktitel och sidnummer följer med"),
     "tr": ("Okuma günlüğü", "Altı çizili cümleler<br><mark>tek bir yerde</mark>", "Kitap adı ve sayfa numarasıyla birlikte saklanır"),
+    "ar": ("دفتر القراءة", "أسطرك المظلّلة<br><mark>في مكان واحد</mark>", "مع عنوان الكتاب ورقم الصفحة"),
 }
 
 # 헤더: 처음 온 사람에게 한 가지 약속. 종이책에 긋던 밑줄을 사진 한 장으로 남긴다.
@@ -85,7 +86,11 @@ HEADER = {
     "pl": ("Cytaty z książek", "Ulubione zdania<br><mark>jednym zdjęciem</mark>"),
     "sv": ("Bokcitat", "Dina understrykningar,<br>sparade med <mark>ett foto</mark>"),
     "tr": ("Kitap alıntıları", "Altı çizili satırlar<br><mark>tek fotoğrafla</mark> sakla"),
+    "ar": ("اقتباسات الكتب", "سطور الكتاب الورقي<br>تحفظها <mark>بصورة واحدة</mark>"),
 }
+
+# 오른쪽에서 왼쪽으로 쓰는 언어: 글과 기기 자리를 거울처럼 바꾼다 (안전 영역은 좌우 대칭이다)
+RTL = {"ar"}
 
 # 기기 화면(시뮬레이터 캡처, 공개 저작물 문장으로 채운 서재)
 SHOT_LIBRARY = "03-library.png"
@@ -109,6 +114,8 @@ body { background:#f4eee0; position:relative;
 .sub { font-weight:500; color:#6b6458; letter-spacing:-0.01em; line-height:1.35; text-wrap:balance; }
 /* 한국어는 낱말 중간에서 끊지 않는다. */
 :lang(ko) .headline, :lang(ko) .sub, :lang(ko) .eyebrow { word-break:keep-all; }
+/* 아랍어는 글자가 이어져야 하므로 자간을 두지 않는다. */
+:lang(ar) .headline, :lang(ar) .sub, :lang(ar) .eyebrow { letter-spacing:0; }
 .phone { position:absolute; background:#1c1c1f; border:6px solid #2e2e33; padding:40px; border-radius:190px;
   box-shadow: 0 60px 140px rgba(60,40,10,.28), 0 0 0 2px #3a3a40 inset; }
 .phone img { width:100%%; display:block; border-radius:152px; }
@@ -163,13 +170,16 @@ def search_html(lang):
     col = int(sw * 0.56)
     ph_w = 1040
     ph_left = l + col + int(sw * 0.04)
+    text_left = l
+    if lang in RTL:
+        ph_left, text_left = W - ph_left - ph_w, W - l - col
     return f"""
 <div class="paper"></div>
 <div class="glow" style="left:{ph_left - 300}px;top:600px;width:1700px;height:1600px;background:rgba(242,163,74,.22)"></div>
 <div class="stroke" style="left:-120px;top:300px;width:900px;transform:rotate(-8deg)"></div>
 <div class="stroke" style="left:3200px;top:2280px;width:800px;transform:rotate(-8deg)"></div>
 {phone(shot(lang, SHOT_QUOTES), ph_left, t - 360, ph_w, 0)}
-<div class="text" style="left:{l}px;top:{t}px;width:{col}px;height:{sh}px">
+<div class="text" style="left:{text_left}px;top:{t}px;width:{col}px;height:{sh}px">
   <div class="eyebrow" style="font-size:96px">{eyebrow}</div>
   <div class="headline" data-max="230" data-min="130" style="margin-top:36px">{headline}</div>
   <div class="sub" style="font-size:84px;margin-top:52px">{sub}</div>
@@ -188,8 +198,8 @@ def header_html(lang):
 <div class="paper"></div>
 <div class="glow" style="left:{l - 200}px;top:{t - 400}px;width:{sw + 400}px;height:{sh + 800}px;background:rgba(242,163,74,.16)"></div>
 {strokes_html}
-{phone(shot(lang, SHOT_LIBRARY), 300, 360, 640, -9)}
-{phone(shot(lang, SHOT_DAILY), 2900, 360, 640, 9)}
+{phone(shot(lang, SHOT_LIBRARY), *((2900, 360, 640, 9) if lang in RTL else (300, 360, 640, -9)))}
+{phone(shot(lang, SHOT_DAILY), *((300, 360, 640, -9) if lang in RTL else (2900, 360, 640, 9)))}
 <div class="text" style="left:{l}px;top:{t}px;width:{sw}px;height:{sh}px;align-items:center;text-align:center">
   <div class="eyebrow" style="font-size:76px">{eyebrow}</div>
   <div class="headline" data-max="200" data-min="110" style="margin-top:22px">{headline}</div>
@@ -203,7 +213,7 @@ def html_lang(lang):
 def render(lang, kind):
     W, H, _ = SPEC[kind]
     body = search_html(lang) if kind == "search" else header_html(lang)
-    page = (f'<!doctype html><html lang="{html_lang(lang)}"><head><meta charset="utf-8"><style>'
+    page = (f'<!doctype html><html lang="{html_lang(lang)}" dir="{"rtl" if lang in RTL else "ltr"}"><head><meta charset="utf-8"><style>'
             f'{BASE_CSS % {"W": W, "H": H}}</style></head><body>{body}{FIT_JS}</body></html>')
     html_path = pathlib.Path(tempfile.gettempdir()) / f"underline-creative-{lang}-{kind}.html"
     html_path.write_text(page, encoding="utf-8")

@@ -18,7 +18,7 @@ W, H = 1242, 2688   # 이 계정의 iPhone 제출 규격
 
 # ── 앱마다 고치는 곳 ──────────────────────────────────────────────
 # 앱 언어 → App Store 로케일 (스토어 폴더 이름)
-STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr"}
+STORE = {"ko": "ko", "en": "en", "en-GB": "en-GB", "zh-Hans": "zh-Hans", "zh-Hant": "zh-Hant", "ja": "ja", "ru": "ru", "es": "es", "de": "de", "fr": "fr", "it": "it", "pt-BR": "pt-BR", "th": "th", "vi": "vi", "cs": "cs", "da": "da", "el": "el", "fi": "fi", "id": "id", "nb": "nb", "nl": "nl", "pl": "pl", "sv": "sv", "tr": "tr", "ar": "ar"}
 # 바탕 · 포인트 색 (헤더·검색 결과 그림과 맞춘다)
 BG, ACCENT, INK, SUB = "#F4EEE0", "#C8741F", "#1A2942", "#6B6458"
 # 언어 → [(원본 파일, 레이아웃, 헤드라인, 서브카피)]
@@ -191,6 +191,13 @@ SHOTS = {
         ("04-quotes.png", "flat-rotate", "Tüm alıntılar<br>tek bir yerde", "Kitap başlığı veya notla hemen bul"),
         ("05-daily.png", "dark", "Her güne<br>bir alıntı", "Widget hep yanında, kart olarak paylaşılır"),
     ],
+    "ar": [
+        ("01-highlight.png", "hero-bleed", "ظلّل بإصبعك<br>كقلم التظليل", "الأسطر التي تمرّ عليها وحدها تصبح نصًا"),
+        ("02-region.png", "left-text", "صورة مائلة؟<br>تصبح مستوية", "طابِق الزوايا الأربع فتستوي كالورق"),
+        ("03-library.png", "text-bottom", "مكتبتك تبدأ<br>من الأغلفة", "يُقرأ العنوان والمؤلف من الصورة"),
+        ("04-quotes.png", "flat-rotate", "كل اقتباساتك<br>في مكان واحد", "ابحث بعنوان الكتاب أو بملاحظتك"),
+        ("05-daily.png", "dark", "اقتباس يعود إليك<br>كل يوم", "على شاشتك الرئيسية، وبطاقة تشاركها"),
+    ],
 }
 # ─────────────────────────────────────────────────────────────────
 
@@ -202,6 +209,8 @@ body {{ background:{BG}; position:relative;
 .headline {{ font-size:96px; font-weight:800; color:{INK}; letter-spacing:-0.03em; line-height:1.18; }}
 .sub {{ font-size:48px; font-weight:500; color:{SUB}; letter-spacing:-0.01em; line-height:1.35; }}
 :lang(ko) .headline, :lang(ko) .sub {{ word-break:keep-all; }}
+/* 아랍어: 글자가 이어지도록 자간을 두지 않고, 비스듬한 배치는 거울처럼 놓는다 */
+:lang(ar) .headline, :lang(ar) .sub {{ letter-spacing:0; }}
 .phone {{ background:#17171a; border-radius:112px; border:3px solid #3a3a3e; padding:24px;
   box-shadow: 50px 80px 120px rgba(20,40,90,.25), 16px 26px 46px rgba(0,0,0,.16); }}
 .phone img {{ width:100%; display:block; border-radius:90px; }}
@@ -246,7 +255,18 @@ body {{ background:#131316; }}
 
 TEXT = '<div class="text"><div class="dot"></div><div class="headline">{headline}</div><div class="sub">{sub}</div></div>'
 PHONE = '<div class="wrap"><div class="phone"><img src="{img}"></div></div>'
-HTML = '<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
+# 오른쪽에서 왼쪽으로 쓰는 언어: 왼쪽 정렬 · 기울기를 거울처럼
+RTL = {"ar"}
+RTL_CSS = {
+    "left-text": """
+.text { text-align:right; padding:260px 110px 0 100px; }
+.wrap { perspective-origin:70% 30%; left:auto; right:290px; }
+.phone { transform:rotateY(-16deg) rotateX(2deg); }
+""",
+    "text-bottom": ".phone { transform:rotateY(10deg) rotateX(2deg); }",
+    "flat-rotate": ".wrap { left:auto; right:120px; } .phone { transform:rotate(6deg); }",
+}
+HTML = '<!doctype html><html lang="{lang}" dir="{dir}"><head><meta charset="utf-8"><style>{css}</style></head><body>{body}</body></html>'
 
 
 def chrome_shot(html, png, tmp):
@@ -293,7 +313,9 @@ def render(lang):
             phone = PHONE.format(img=src.as_uri())
             body = phone + text if layout == "text-bottom" else text + phone
             html = pathlib.Path(tmp) / f"{lang}-{fname}.html"
-            html.write_text(HTML.format(lang=lang, css=BASE_CSS + LAYOUTS[layout], body=body), encoding="utf-8")
+            rtl = lang in RTL
+            css = BASE_CSS + LAYOUTS[layout] + (RTL_CSS.get(layout, "") if rtl else "")
+            html.write_text(HTML.format(lang=lang, dir="rtl" if rtl else "ltr", css=css, body=body), encoding="utf-8")
             png = out_dir / fname
             if not any(chrome_shot(html, png, tmp) for _ in range(3)):
                 raise SystemExit(f"그리지 못했다: {png}")

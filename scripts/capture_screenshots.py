@@ -24,7 +24,7 @@ BUNDLE = "com.leeo.bookmarkshot"
 REGION = {"ko": "ko_KR", "en": "en_US", "en-GB": "en_GB", "zh-Hans": "zh_CN", "zh-Hant": "zh_TW", "ja": "ja_JP",
           "ru": "ru_RU", "es": "es_ES", "de": "de_DE", "fr": "fr_FR", "it": "it_IT", "pt-BR": "pt_BR", "th": "th_TH",
           "vi": "vi_VN", "cs": "cs_CZ", "da": "da_DK", "el": "el_GR", "fi": "fi_FI", "id": "id_ID", "nb": "nb_NO",
-          "nl": "nl_NL", "pl": "pl_PL", "sv": "sv_SE", "tr": "tr_TR"}
+          "nl": "nl_NL", "pl": "pl_PL", "sv": "sv_SE", "tr": "tr_TR", "ar": "ar_SA"}
 # 찍는 화면: (파일 이름, 장면, 화면이 다 그려질 때까지 기다리는 초)
 SCENES = [("01-highlight.png", "highlight", 9), ("02-region.png", "region", 6),
           ("03-library.png", "library", 5), ("04-quotes.png", "quotes", 5), ("05-daily.png", "daily", 5)]
@@ -36,8 +36,11 @@ if IPAD:
               ("ipad-03-highlight.png", "highlight", 9), ("ipad-04-daily.png", "daily", 5)]
 
 # 페이지 사진: 어두운 책상 위에 살짝 비스듬히 놓인 책장. 글꼴은 그 언어의 명조/세리프.
-SERIF = {"ja": '"Hiragino Mincho ProN"', "zh-Hans": '"Songti SC"', "zh-Hant": '"Songti TC"', "th": '"Thonburi"'}
-PAGE_HTML = """<!doctype html><html lang="{lang}"><head><meta charset="utf-8"><style>
+SERIF = {"ja": '"Hiragino Mincho ProN"', "zh-Hans": '"Songti SC"', "zh-Hant": '"Songti TC"', "th": '"Thonburi"',
+         "ar": '"Damascus", "Geeza Pro"'}
+# 오른쪽에서 왼쪽으로 쓰는 언어의 책장
+RTL = {"ar"}
+PAGE_HTML = """<!doctype html><html lang="{lang}" dir="{dir}"><head><meta charset="utf-8"><style>
 * {{ margin:0; padding:0; box-sizing:border-box; }}
 html,body {{ width:1500px; height:2000px; overflow:hidden; background:#1d1b19; }}
 .page {{ position:absolute; left:110px; top:100px; width:1280px; height:1800px; background:#f8f2e4;
@@ -57,7 +60,7 @@ def sh(*args, timeout=120, check=True):
 def render_page(lang, seed, out):
     page = seed["page"]
     cjk = lang in ("ja", "zh-Hans", "zh-Hant", "th")
-    html = PAGE_HTML.format(lang=lang, font=SERIF.get(lang, '"Iowan Old Style"'), size=50 if cjk else 52,
+    html = PAGE_HTML.format(lang=lang, dir="rtl" if lang in RTL else "ltr", font=SERIF.get(lang, '"Iowan Old Style"'), size=50 if cjk else 52,
                             wb="normal" if lang != "th" else "normal", head=page["running_head"],
                             text=page["text"], num=page.get("page", ""))
     with tempfile.TemporaryDirectory() as tmp:
