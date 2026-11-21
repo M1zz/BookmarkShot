@@ -51,3 +51,12 @@
   .ul-page { padding: var(--s5) var(--s4) var(--s7); }
   .ul-text { font-size: 1.0625rem; }
 }
+
+/* 오른쪽에서 왼쪽으로 쓰는 언어(아랍어). 공용 sitegen.css 는 글 방향을 모르므로 여기서 뒤집는다. */
+:lang(ar) .ul-page, :lang(ar) .ul-quote { font-family: "Al Nile", "Geeza Pro", "Noto Naskh Arabic", serif; }
+[dir="rtl"] .skip { left: auto; right: var(--s4); }
+[dir="rtl"] .plan ul { padding-left: 0; padding-right: 1.2em; }
+[dir="rtl"] summary { padding: var(--s4) 0 var(--s4) var(--s6); }
+[dir="rtl"] summary::after { right: auto; left: 0; }
+[dir="rtl"] .ul-card figcaption i { margin-left: 0; margin-right: var(--s1); }
+@media (max-width: 760px) { [dir="rtl"] .hero { text-align: right; } }

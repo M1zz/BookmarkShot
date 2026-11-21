@@ -23,7 +23,7 @@
   // 태국어는 문장부호 대신 빈칸으로 마디를 나누므로 빈칸이 구절의 경계다.
   const thai = lang.startsWith("th");
   const phrases = thai ? T.text.split(/\s+/).filter(Boolean)
-    : T.text.match(/[^,.;:!?，。；：！？、]+[,.;:!?，。；：！？、…]*\s*/g) || [T.text];
+    : T.text.match(/[^,.;:!?，。；：！？、،؛؟]+[,.;:!?，。；：！？、،؛؟…]*\s*/g) || [T.text];
 
   root.innerHTML = `
     <div class="ul-left">
