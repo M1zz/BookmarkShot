@@ -27,6 +27,8 @@ struct ContentView: View {
     @State private var paywallFeature: BookmarkShotFeature?
     /// 구독 6개월째 · 갱신 7일 전의 '구독 졸업' 제안
     @State private var showsGraduation = false
+    /// 할인 배너에서 연 페이월
+    @State private var showsSalePaywall = false
 
     var body: some View {
         TabView(selection: $selectedTab) {
@@ -99,6 +101,9 @@ struct ContentView: View {
             }
         }
         .paywall(for: $paywallFeature)
+        // 할인 기간이면 앱을 연 뒤 한 번 할인 배너를 띄운다. 단추는 요금제를 연다 (LeeoKit).
+        .leeoSaleBanner { showsSalePaywall = true }
+        .sheet(isPresented: $showsSalePaywall) { PaywallView() }
         .sheet(isPresented: $showsGraduation) {
             LeeoGraduationOfferView(graduate: purchases.product(BookmarkShotEntitlement.graduateID)) {
                 await purchases.refresh()
