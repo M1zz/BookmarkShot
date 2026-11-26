@@ -22,10 +22,10 @@ struct BookDetailView: View {
         List {
             Section {
                 HStack(alignment: .top, spacing: 16) {
-                    if let data = book.coverImageData, let image = UIImage(data: data) {
-                        Image(uiImage: image)
-                            .resizable()
-                            .scaledToFill()
+                    if book.coverImageData != nil {
+                        ThumbnailImage(data: book.coverImageData, id: book.persistentModelID, maxPixel: 100 * 3) {
+                            Color.secondary.opacity(0.15)
+                        }
                             .frame(width: 72, height: 100)
                             .clipShape(RoundedRectangle(cornerRadius: 6))
                             .accessibilityHidden(true)

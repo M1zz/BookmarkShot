@@ -65,14 +65,14 @@ struct QuoteDetailView: View {
                     }
             }
 
-            if let data = quote.pageImageData, let image = UIImage(data: data) {
+            if quote.pageImageData != nil {
                 Section("원본 사진") {
                     Button {
                         showOriginalImage = true
                     } label: {
-                        Image(uiImage: image)
-                            .resizable()
-                            .scaledToFill()
+                        ThumbnailImage(data: quote.pageImageData, id: quote.persistentModelID, maxPixel: 1_200) {
+                            Color.secondary.opacity(0.15)
+                        }
                             .frame(height: 120)
                             .frame(maxWidth: .infinity)
                             .clipShape(RoundedRectangle(cornerRadius: 8))
@@ -122,6 +122,12 @@ struct QuoteDetailView: View {
             }
         }
         .task(id: "\(quote.text)|\(quote.pageNumber ?? -1)") {
+            // 고치는 중에는 글자마다 카드를 다시 그리지 않는다(3배 크기 ImageRenderer, 메인 스레드).
+            // 첫 카드는 바로, 그 뒤로는 손을 멈춘 뒤에 한 번.
+            if shareImage != nil {
+                try? await Task.sleep(for: .milliseconds(600))
+                guard !Task.isCancelled else { return }
+            }
             shareImage = QuoteShareRenderer.image(
                 text: quote.text,
                 bookTitle: quote.book?.title ?? "",

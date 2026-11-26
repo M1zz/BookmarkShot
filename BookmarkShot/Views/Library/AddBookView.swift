@@ -159,7 +159,7 @@ struct AddBookView: View {
             title: title.trimmingCharacters(in: .whitespaces),
             author: author.trimmingCharacters(in: .whitespaces),
             isbn: isbn.isEmpty ? nil : isbn,
-            coverImageData: coverImage?.jpegData(compressionQuality: 0.7)
+            coverImageData: coverImage.flatMap { Thumbnail.jpeg($0, maxPixel: 600, quality: 0.8) }
         )
         modelContext.insert(book)
         try? modelContext.save()

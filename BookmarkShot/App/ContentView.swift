@@ -114,8 +114,14 @@ struct ContentView: View {
             purchases.markGraduationOffered()
             showsGraduation = true
         }
-        .task { syncWidget() }
-        .onChange(of: widgetSignature) { syncWidget() }
+        // 문장을 고치는 동안 글자마다 위젯 · 알림을 다시 만들지 않는다 — 손을 멈추면 한 번.
+        // (예전에는 글자마다 모든 문장을 JSON 으로 써 위젯을 새로 그리게 하고, 알림 14개를 고르느라
+        //  문장 전체를 14번 정렬했다. 메인 스레드에서.)
+        .task(id: widgetSignature) {
+            try? await Task.sleep(for: .seconds(1))
+            guard !Task.isCancelled else { return }
+            syncWidget()
+        }
         // 시트 · 알림창이 접힌 선을 비킨다. 접혀 있으면 아무것도 바뀌지 않는다.
         .foldAware()
         // 유료가 되면 콘페티, 모든 사용자가 한 번은 감사를 받는다 (LeeoStore 가 판정한다).

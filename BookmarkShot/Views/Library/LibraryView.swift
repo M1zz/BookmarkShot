@@ -100,12 +100,7 @@ struct BookCoverCell: View {
 
     var body: some View {
         VStack(alignment: .leading, spacing: 6) {
-            Group {
-                if let data = book.coverImageData, let image = UIImage(data: data) {
-                    Image(uiImage: image)
-                        .resizable()
-                        .scaledToFill()
-                } else {
+            ThumbnailImage(data: book.coverImageData, id: book.persistentModelID, maxPixel: 154 * 3) {
                     ZStack {
                         LinearGradient(colors: [.orange.opacity(0.7), .yellow.opacity(0.5)],
                                        startPoint: .topLeading, endPoint: .bottomTrailing)
@@ -115,7 +110,6 @@ struct BookCoverCell: View {
                             .multilineTextAlignment(.center)
                             .padding(6)
                     }
-                }
             }
             .frame(width: 110, height: 154)
             .clipShape(RoundedRectangle(cornerRadius: 8))
