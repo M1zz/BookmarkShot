@@ -9,6 +9,7 @@
 //
 
 import SwiftUI
+import LeeoKit
 import SwiftData
 import PhotosUI
 
@@ -408,6 +409,7 @@ struct ScanPageView: View {
         modelContext.insert(quote)
         try? modelContext.save()
         savedCount += 1
+        LeeoAnalyticsCenter.track(.custom(name: "quote_saved", parameters: [:]))
         finishCurrentPhoto()
     }
 
